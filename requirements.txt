@@ -1,0 +1,25 @@
+# Whitelabel Lead Intelligence POC - Requirements
+
+# Core Framework
+langchain==0.3.13
+langchain-openai==0.2.14
+langchain-community==0.3.13
+langchain-core==0.3.28
+
+# Vector Store
+chromadb==0.5.23
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# API & Web
+streamlit>=1.29.0
+python-dotenv==1.0.0
+
+# OpenAI
+openai>=1.12.0
+
+# Utilities
+pydantic>=2.0.0
+tiktoken>=0.5.0
