@@ -1,0 +1,34 @@
+# Environment
+.env
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Database (but allow data directory structure)
+*.db
+*.sqlite
+*.sqlite3
+# Note: Databases will be created on first run in deployment
+
+# ChromaDB
+chroma_data/
+.chroma/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
