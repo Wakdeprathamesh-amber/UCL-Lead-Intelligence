@@ -12,6 +12,13 @@ from datetime import datetime
 # Add src to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
+# Ensure databases exist on first run
+try:
+    from init_databases import ensure_databases_exist
+    ensure_databases_exist()
+except Exception as e:
+    print(f"⚠️  Database initialization warning: {str(e)}")
+
 from query_tools import LeadQueryTools
 from aggregate_query_tools import AggregateQueryTools
 from ai_agent import LeadIntelligenceAgent
@@ -289,8 +296,22 @@ def main():
         st.markdown("## 📊 Dashboard")
         st.markdown("---")
         
-        # Get aggregations
-        aggs = st.session_state.query_tools.get_aggregations()
+        # Get aggregations (with error handling for first run)
+        try:
+            aggs = st.session_state.query_tools.get_aggregations()
+        except Exception as e:
+            st.error(f"⚠️ Database not ready yet. Initializing...")
+            st.info("💡 The app is setting up databases on first run. Please refresh the page in a moment.")
+            # Return empty aggregations to prevent crash
+            aggs = {
+                "total_leads": 0,
+                "won_count": 0,
+                "won_leads": 0,
+                "lost_count": 0,
+                "lost_leads": 0,
+                "status_breakdown": {},
+                "conversion_rate": 0
+            }
         
         # Section 1: Key Metrics (2x2 grid)
         st.markdown("### Overview")
