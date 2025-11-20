@@ -21,6 +21,7 @@ from rag_system import LeadRAGSystem
 from property_analytics import PropertyAnalytics
 from rate_limiter import get_rate_limiter
 from audit_logger import get_audit_logger
+from reasoning_validator import ReasoningValidator
 
 load_dotenv()
 
@@ -712,6 +713,66 @@ You are a specialized AI assistant that provides data-driven insights about stud
 
 **IMPORTANT**: You can ALWAYS combine multiple tools to answer any query, even if no dedicated tool exists. Don't say "I don't have a tool for this" - instead, think about which tools you can combine to get the answer.
 
+## CHAIN-OF-THOUGHT REASONING (IMPORTANT):
+
+When answering queries, especially complex ones, show your reasoning process:
+
+### **Step 1: Understand the Query**
+- What is the user asking for?
+- What data do I need?
+- What tools should I use?
+
+### **Step 2: Plan Your Approach**
+- Break down the query into steps
+- Identify which tools to use in sequence
+- Consider if you need to combine multiple tools
+
+### **Step 3: Execute and Validate**
+- Execute each tool call
+- Validate intermediate results (check for errors, empty results, type mismatches)
+- If validation fails, try alternative approaches
+
+### **Step 4: Synthesize Results**
+- Combine results from multiple tools
+- Check for consistency across results
+- Identify any contradictions or missing data
+
+### **Step 5: Generate Answer**
+- Format the answer clearly
+- Cite sources (lead IDs, tool names)
+- If data is missing, explicitly state what's available vs. not available
+
+### **Example Reasoning Chain:**
+```
+Query: "What concerns do high-budget leads have?"
+
+Step 1: Understand
+- User wants concerns/objections from leads with high budgets
+- Need to filter by budget, then get objections
+
+Step 2: Plan
+- Use filter_leads(budget_min=500) to get high-budget leads
+- Use get_all_objections or semantic_search to find concerns
+- Combine results
+
+Step 3: Execute
+- filter_leads returned 15 leads
+- Validation: ✅ List is not empty, contains lead_ids
+- get_all_objections returned 8 objections
+- Validation: ✅ List is not empty
+
+Step 4: Synthesize
+- Matched objections to high-budget leads
+- Found 5 relevant objections
+- Main concerns: pricing, availability, location
+
+Step 5: Answer
+- "High-budget leads (budget ≥ £500) have raised 5 main concerns:
+  1. Pricing concerns (2 leads)
+  2. Availability issues (2 leads)
+  3. Location preferences (1 lead)"
+```
+
 ## CRITICAL GUIDELINES:
 
 ### **Data Honesty** (MOST IMPORTANT):
@@ -738,10 +799,19 @@ You are a specialized AI assistant that provides data-driven insights about stud
   - Step 2: If not, identify which tools you can combine to get the answer
   - Step 3: Execute tools in sequence, combine results, and format the answer
 
-### **Error Handling**:
+### **Reasoning Validation**:
+- **Validate each tool result**: Check for errors, empty results, type mismatches
+- **Check data consistency**: Ensure results from different tools are consistent
+- **Verify calculations**: If doing math, verify results are reasonable (percentages 0-100%, counts non-negative, etc.)
+- **If validation fails**: Try alternative tools or approaches, ask user for clarification if needed
+
+### **Error Handling & User Help**:
 - If a tool fails, try alternative tools or approaches
 - If data is missing, explicitly state what's available vs. what's not
-- If query is ambiguous, ask for clarification or make reasonable assumptions based on context
+- If query is ambiguous, ask for clarification: "I need more information to answer this. Could you clarify [specific aspect]?"
+- If you're stuck, ask the user: "I'm having trouble finding this information. Could you help me by [suggesting alternative query or providing context]?"
+- Use chat history to understand context from previous questions
+- If the user refers to something from a previous question, use that context
 
 ## RESPONSE FORMAT:
 
@@ -871,12 +941,60 @@ Now, answer the user's question using the available tools. Be honest, precise, a
                 
                 execution_time = (time.time() - start_time) * 1000
                 
-                # Extract tools used from intermediate steps
+                # Extract tools used and reasoning steps from intermediate steps
                 tools_used = []
+                reasoning_steps = []
+                validator = ReasoningValidator()
+                
                 if result.get('intermediate_steps'):
-                    for step in result['intermediate_steps']:
-                        if len(step) > 0 and hasattr(step[0], 'tool'):
-                            tools_used.append(step[0].tool)
+                    for i, step in enumerate(result['intermediate_steps'], 1):
+                        if len(step) > 0:
+                            action = step[0]
+                            observation = step[1] if len(step) > 1 else None
+                            
+                            tool_name = action.tool if hasattr(action, 'tool') else "unknown"
+                            tool_input = action.tool_input if hasattr(action, 'tool_input') else {}
+                            
+                            tools_used.append(tool_name)
+                            
+                            # Parse observation if it's a string
+                            tool_output = observation
+                            if isinstance(observation, str):
+                                try:
+                                    tool_output = json.loads(observation)
+                                except:
+                                    tool_output = observation
+                            
+                            # Validate tool result
+                            if tool_output is not None:
+                                expected_type = dict if isinstance(tool_output, dict) else (list if isinstance(tool_output, list) else type(tool_output))
+                                validation = validator.validate_tool_result(tool_output, expected_type, tool_name)
+                                
+                                reasoning_steps.append({
+                                    "step": i,
+                                    "tool": tool_name,
+                                    "input": tool_input,
+                                    "result": tool_output if not isinstance(tool_output, str) or len(tool_output) < 500 else tool_output[:500] + "...",
+                                    "validation": validation
+                                })
+                            else:
+                                reasoning_steps.append({
+                                    "step": i,
+                                    "tool": tool_name,
+                                    "input": tool_input,
+                                    "result": None,
+                                    "validation": {"valid": False, "message": "No result returned"}
+                                })
+                
+                # Validate consistency across steps
+                if len(reasoning_steps) > 1:
+                    consistency = validator.validate_data_consistency(reasoning_steps)
+                    if not consistency.get("consistent", True):
+                        reasoning_steps.append({
+                            "step": len(reasoning_steps) + 1,
+                            "tool": "consistency_check",
+                            "validation": consistency
+                        })
                 
                 # Log successful query
                 audit_logger.log_query(
@@ -892,7 +1010,9 @@ Now, answer the user's question using the available tools. Be honest, precise, a
                 
                 return {
                     "answer": result['output'],
-                    "intermediate_steps": result.get('intermediate_steps', []),
+                    "tools_used": tools_used,
+                    "reasoning_steps": reasoning_steps,
+                    "execution_time_ms": execution_time,
                     "success": True
                 }
                 

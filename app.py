@@ -454,26 +454,90 @@ def main():
                     user_id_str = "anonymous"
                     session_id_str = None
                 
-                # Call agent query with explicit parameters
+                # Convert chat history to LangChain format
+                chat_history_langchain = []
+                if 'messages' in st.session_state and len(st.session_state.messages) > 0:
+                    # Get last 10 messages for context (to avoid token limits)
+                    recent_messages = st.session_state.messages[-10:]
+                    for msg in recent_messages:
+                        if msg["role"] == "user":
+                            from langchain.schema import HumanMessage
+                            chat_history_langchain.append(HumanMessage(content=msg["content"]))
+                        elif msg["role"] == "assistant":
+                            from langchain.schema import AIMessage
+                            chat_history_langchain.append(AIMessage(content=msg["content"]))
+                
+                # Call agent query with explicit parameters and chat history
                 try:
                     result = st.session_state.agent.query(
                         question=str(query),
+                        chat_history=chat_history_langchain,
                         user_id=user_id_str,
                         session_id=session_id_str
                     )
                 except TypeError as e:
                     # Fallback: try with minimal parameters
                     result = st.session_state.agent.query(
-                        question=str(query)
+                        question=str(query),
+                        chat_history=chat_history_langchain
                     )
                 
                 if result['success']:
                     response = result['answer']
                     st.markdown(response)
+                    
+                    # Show reasoning steps if available (collapsible)
+                    if result.get('reasoning_steps') and len(result['reasoning_steps']) > 0:
+                        with st.expander("🔍 View Reasoning Steps", expanded=False):
+                            st.markdown("### Reasoning Process")
+                            for step in result['reasoning_steps']:
+                                step_num = step.get('step', '?')
+                                tool = step.get('tool', 'unknown')
+                                validation = step.get('validation', {})
+                                
+                                # Status icon
+                                if validation.get('valid', True):
+                                    status_icon = "✅"
+                                else:
+                                    status_icon = "⚠️"
+                                
+                                st.markdown(f"**Step {step_num}**: {status_icon} {tool}")
+                                
+                                if step.get('input'):
+                                    st.code(f"Input: {json.dumps(step.get('input'), indent=2)}", language="json")
+                                
+                                validation_msg = validation.get('message', '')
+                                if validation_msg:
+                                    if validation.get('valid', True):
+                                        st.info(f"Validation: {validation_msg}")
+                                    else:
+                                        st.warning(f"Validation: {validation_msg}")
+                            
+                            # Show tools used summary
+                            if result.get('tools_used'):
+                                st.markdown(f"**Tools Used**: {', '.join(result['tools_used'])}")
+                            
+                            if result.get('execution_time_ms'):
+                                st.caption(f"⏱️ Execution time: {result['execution_time_ms']:.0f}ms")
+                    
                     st.session_state.messages.append({"role": "assistant", "content": response})
                 else:
                     error_msg = f"⚠️ **Error**: {result.get('error', 'Unknown error')}"
                     st.error(error_msg)
+                    
+                    # Offer help if error occurs
+                    with st.expander("💡 Need Help?", expanded=False):
+                        st.markdown("""
+                        **I encountered an error. Here's how I can help:**
+                        
+                        1. **Try rephrasing your question** - Sometimes a different wording helps
+                        2. **Break it into smaller parts** - Ask simpler questions first
+                        3. **Check if the data exists** - I can only work with data that's been ingested
+                        4. **Provide more context** - If referring to a previous question, include that context
+                        
+                        **Example**: Instead of "What about those leads?", try "What about the high-budget leads we discussed earlier?"
+                        """)
+                    
                     st.session_state.messages.append({"role": "assistant", "content": error_msg})
 
 
