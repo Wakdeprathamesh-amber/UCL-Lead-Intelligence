@@ -276,9 +276,9 @@ class LeadIntelligenceAgent:
                 
                 Tool(
                     name="get_crm_data",
-                    func=lambda args: self._get_crm_data_wrapper(args),
+                    func=lambda args="": self._get_crm_data_wrapper(args),
                     description="""Get CRM data for leads including lost reasons, country, property info.
-                    Input: JSON string with optional filters like {"lead_id": "123"} or {"lost_reason": "Not responded", "location_country": "United Kingdom"}
+                    Input: JSON string with optional filters like {"lead_id": "123"} or {"lost_reason": "Not responded", "location_country": "United Kingdom"}, or empty string for all CRM data.
                     Returns: List of CRM records with all available fields including lost_reason, location_country, phone_country, property_name, etc."""
                 ),
                 
@@ -499,6 +499,36 @@ class LeadIntelligenceAgent:
             return json.dumps(results, indent=2)
         except Exception as e:
             return json.dumps({"error": f"Error searching timeline: {str(e)}"})
+    
+    def _get_crm_data_wrapper(self, args: str = "") -> str:
+        """Wrapper for get_crm_data"""
+        try:
+            # Handle empty or None input
+            if not args or args == "":
+                result = self.query_tools.get_crm_data()
+                return json.dumps(result, indent=2, default=str)
+            
+            # Try to parse as JSON first
+            if isinstance(args, str) and args.strip().startswith('{'):
+                filters = json.loads(args)
+            elif args:
+                # Try to parse as JSON string
+                try:
+                    filters = json.loads(str(args))
+                except:
+                    # If not JSON, treat as lead_id
+                    filters = {"lead_id": str(args).strip()}
+            else:
+                filters = {}
+            
+            result = self.query_tools.get_crm_data(**filters)
+            return json.dumps(result, indent=2, default=str)
+        except json.JSONDecodeError:
+            # If JSON parsing fails, treat entire string as lead_id
+            result = self.query_tools.get_crm_data(lead_id=str(args).strip() if args else None)
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting CRM data: {str(e)}"})
     
     def _search_objections_wrapper(self, query: str) -> str:
         """Wrapper for objections search"""
