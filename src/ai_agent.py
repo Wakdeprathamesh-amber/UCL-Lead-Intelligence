@@ -293,18 +293,20 @@ class LeadIntelligenceAgent:
                 StructuredTool.from_function(
                     func=self._get_room_types_by_country_wrapper,
                     name="get_room_types_by_country",
-                    description="""Get room type preferences grouped by source country (all leads).
+                    description="""Get room type preferences grouped by SOURCE country (where leads are from, not destination).
                     This tool takes no arguments.
-                    Returns: Dict with room types by country showing preferences per country."""
+                    Returns: Dict with room types by source country showing preferences per country.
+                    Note: Uses phone_country (source) not location_country (destination)."""
                 ),
                 
                 StructuredTool.from_function(
                     func=self._get_booked_room_types_by_country_wrapper,
                     name="get_booked_room_types_by_country",
-                    description="""Get booked (Won) room types grouped by source country.
-                    Use this for queries about 'most booked room types by country' or 'booked room types categorized by country'.
+                    description="""Get booked (Won) room types grouped by SOURCE country (where leads are from, not destination).
+                    Use this for queries about 'most booked room types by source country' or 'booked room types categorized by source country'.
                     This tool takes no arguments.
-                    Returns: Dict with booked room types by country, showing only Won leads."""
+                    Returns: Dict with booked room types by source country, showing only Won leads.
+                    Note: Uses phone_country (source) not location_country (destination)."""
                 ),
                 
                 StructuredTool.from_function(
@@ -730,13 +732,15 @@ You are a specialized AI assistant that provides data-driven insights about stud
   - **Option A (fastest)**: `get_lost_reasons_analysis` (pre-computed)
   - **Option B (flexible)**: `filter_leads(status='Lost')` + `get_crm_data` + group by country/lost_reason
   
-- "Room types by country" (all leads) → 
-  - **Option A (fastest)**: `get_room_types_by_country` (pre-computed)
-  - **Option B (flexible)**: `get_crm_data` + `filter_leads` + group by country/room_type
+- "Room types by country" or "Room types by source country" (all leads) → 
+  - **Option A (fastest)**: `get_room_types_by_country` (pre-computed, uses SOURCE country - phone_country/nationality)
+  - **Option B (flexible)**: `get_crm_data` + `filter_leads` + group by phone_country/nationality + room_type
+  - **IMPORTANT**: Use phone_country (source) NOT location_country (destination)
   
 - "Booked room types by country" or "Most booked room types categorized by source country" → 
-  - **Option A (fastest)**: `get_booked_room_types_by_country` (pre-computed, filters by Won status)
-  - **Option B (flexible)**: `filter_leads(status='Won')` + for each lead get `get_crm_data(lead_id)` to get country + extract room_type + group by (country, room_type) and count
+  - **Option A (fastest)**: `get_booked_room_types_by_country` (pre-computed, filters by Won status, uses SOURCE country)
+  - **Option B (flexible)**: `filter_leads(status='Won')` + for each lead get `get_crm_data(lead_id)` to get phone_country (source) + extract room_type + group by (source_country, room_type) and count
+  - **IMPORTANT**: Use phone_country (source) NOT location_country (destination)
   
 - "Why did leads choose property X?" → `get_property_details` + `semantic_search` + `get_lead_timeline`
 - "What concerns do high-budget leads have?" → `filter_leads(budget_min=500)` + `semantic_search` + `get_all_objections`

@@ -784,28 +784,35 @@ class LeadQueryTools:
                 self._return_connection(conn)
     
     def get_booked_room_types_by_country(self) -> Dict[str, Any]:
-        """Get booked (Won) room types grouped by source country
+        """Get booked (Won) room types grouped by source country (where leads are from)
+        
+        Uses phone_country from CRM data (source country) or nationality from lead_requirements as fallback.
+        location_country is the destination country (where they're moving to), not source.
         
         Returns:
-            Dict with booked room types by country, showing only Won leads
+            Dict with booked room types by source country, showing only Won leads
         """
         conn = None
         try:
             conn = self._get_connection()
             cursor = conn.cursor()
             
+            # Use phone_country (source country) from CRM data, fallback to nationality from lead_requirements
             # Join crm_data -> leads -> lead_requirements, filter by Won status
             cursor.execute("""
-                SELECT c.location_country, lr.room_type, COUNT(*) as count
+                SELECT 
+                    COALESCE(c.phone_country, lr.nationality, 'Unknown') as source_country,
+                    lr.room_type, 
+                    COUNT(*) as count
                 FROM crm_data c
                 JOIN leads l ON c.lead_id = l.lead_id
                 JOIN lead_requirements lr ON l.lead_id = lr.lead_id
-                WHERE c.location_country IS NOT NULL
+                WHERE l.status = 'Won'
                   AND lr.room_type IS NOT NULL
                   AND lr.room_type != ''
-                  AND l.status = 'Won'
-                GROUP BY c.location_country, lr.room_type
-                ORDER BY c.location_country, count DESC
+                  AND (c.phone_country IS NOT NULL OR lr.nationality IS NOT NULL)
+                GROUP BY source_country, lr.room_type
+                ORDER BY source_country, count DESC
             """)
             
             booked_room_types_by_country = {}
