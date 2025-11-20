@@ -442,11 +442,26 @@ def main():
             with st.spinner("🤔 Analyzing your query..."):
                 # Get auth info for audit logging
                 auth = get_auth()
-                result = st.session_state.agent.query(
-                    query,
-                    user_id=auth.get_username() or "anonymous",
-                    session_id=auth.get_session_id()
-                )
+                try:
+                    username = auth.get_username()
+                    session_id = auth.get_session_id()
+                    
+                    # Ensure proper types for query method
+                    user_id_str = str(username) if username else "anonymous"
+                    session_id_str = str(session_id) if session_id else None
+                    
+                    result = st.session_state.agent.query(
+                        question=query,
+                        user_id=user_id_str,
+                        session_id=session_id_str
+                    )
+                except TypeError as e:
+                    # Fallback: try without optional parameters
+                    result = st.session_state.agent.query(
+                        question=query,
+                        user_id="anonymous",
+                        session_id=None
+                    )
                 
                 if result['success']:
                     response = result['answer']
