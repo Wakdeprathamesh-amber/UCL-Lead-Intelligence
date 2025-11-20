@@ -1008,6 +1008,87 @@ class LeadQueryTools:
             if conn:
                 self._return_connection(conn)
     
+    def execute_sql_query(self, query: str, params: Optional[tuple] = None) -> Dict[str, Any]:
+        """Execute a direct SQL query against the database
+        
+        This allows the LLM to write custom SQL queries when no tool exists or when
+        combining tools would be inefficient. The LLM knows the schema and can reason
+        about the best query approach.
+        
+        Args:
+            query: SQL query string (SELECT only, no DDL/DML for safety)
+            params: Optional tuple of parameters for parameterized queries
+            
+        Returns:
+            Dict with 'columns', 'rows', 'row_count', and 'error' (if any)
+        """
+        # Safety: Only allow SELECT queries
+        query_upper = query.strip().upper()
+        if not query_upper.startswith('SELECT'):
+            return {
+                "error": "Only SELECT queries are allowed for safety",
+                "columns": [],
+                "rows": [],
+                "row_count": 0
+            }
+        
+        # Safety: Block dangerous operations
+        dangerous_keywords = ['DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 'CREATE', 'TRUNCATE', 'EXEC', 'EXECUTE']
+        for keyword in dangerous_keywords:
+            if keyword in query_upper:
+                return {
+                    "error": f"Query contains forbidden keyword: {keyword}",
+                    "columns": [],
+                    "rows": [],
+                    "row_count": 0
+                }
+        
+        conn = None
+        try:
+            conn = self._get_connection()
+            cursor = conn.cursor()
+            
+            # Execute query
+            if params:
+                cursor.execute(query, params)
+            else:
+                cursor.execute(query)
+            
+            # Get column names
+            columns = [desc[0] for desc in cursor.description] if cursor.description else []
+            
+            # Fetch results
+            rows = cursor.fetchall()
+            
+            # Convert rows to list of dicts
+            result_rows = []
+            for row in rows:
+                result_rows.append(dict(zip(columns, row)))
+            
+            return {
+                "columns": columns,
+                "rows": result_rows,
+                "row_count": len(result_rows),
+                "error": None
+            }
+        except sqlite3.Error as e:
+            return {
+                "error": f"SQL Error: {str(e)}",
+                "columns": [],
+                "rows": [],
+                "row_count": 0
+            }
+        except Exception as e:
+            return {
+                "error": f"Error executing query: {str(e)}",
+                "columns": [],
+                "rows": [],
+                "row_count": 0
+            }
+        finally:
+            if conn:
+                self._return_connection(conn)
+    
     def get_all_objections(self) -> List[Dict]:
         """Get all objections from the lead_objections table
         

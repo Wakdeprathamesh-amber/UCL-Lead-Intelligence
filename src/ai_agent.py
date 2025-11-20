@@ -337,6 +337,26 @@ class LeadIntelligenceAgent:
                 ),
                 
                 Tool(
+                    name="execute_sql_query",
+                    func=lambda query, params=None: self._execute_sql_query_wrapper(query, params),
+                    description="""Execute a direct SQL SELECT query against the database.
+                    Use this when no existing tool fits your need, or when you can write a more efficient query.
+                    You know the database schema - use your reasoning to write the best query.
+                    
+                    Input: 
+                    - query (string): SQL SELECT query
+                    - params (optional tuple): Parameters for parameterized queries
+                    
+                    Returns: Dict with 'columns', 'rows' (list of dicts), 'row_count', and 'error' (if any)
+                    
+                    IMPORTANT: 
+                    - Only SELECT queries are allowed (safety)
+                    - Use parameterized queries when possible: execute_sql_query("SELECT * FROM leads WHERE status = ?", ("Won",))
+                    - Think about the schema and write efficient queries
+                    - This is a powerful tool - use your reasoning to determine when it's better than combining multiple tools"""
+                ),
+                
+                Tool(
                     name="get_property_analytics",
                     func=lambda query="": self._property_analytics_wrapper(query),
                     description="""Get comprehensive property analytics including popularity, conversion rates, and performance metrics.
@@ -643,6 +663,27 @@ class LeadIntelligenceAgent:
         except Exception as e:
             return json.dumps({"error": f"Error getting Won leads by room type: {str(e)}"})
     
+    def _execute_sql_query_wrapper(self, query: str, params: Any = None) -> str:
+        """Wrapper for execute_sql_query"""
+        try:
+            # Handle params - could be tuple, list, or None
+            if params:
+                if isinstance(params, str):
+                    # Try to parse as JSON if string
+                    try:
+                        params = json.loads(params)
+                        if isinstance(params, list):
+                            params = tuple(params)
+                    except:
+                        params = (params,)
+                elif isinstance(params, list):
+                    params = tuple(params)
+            
+            result = self.query_tools.execute_sql_query(query, params)
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error executing SQL query: {str(e)}"})
+    
     def _create_prompt(self) -> ChatPromptTemplate:
         """Create the agent prompt"""
         
@@ -727,27 +768,42 @@ You are a specialized AI assistant that provides data-driven insights about stud
 23. `get_property_details` - Detailed info about a specific property
 24. `compare_properties` - Compare multiple properties side by side
 
-## TOOL SELECTION STRATEGY:
+## TOOL SELECTION STRATEGY (GUIDELINES, NOT RULES):
 
-### **For Fast Pre-computed Results** (Use these first):
+**Remember: These are suggestions. Use your reasoning to choose the best approach!**
+
+### **Option 1: Use Pre-computed Tools** (Fast, but may not fit exactly)
 - Lost reasons by country → `get_lost_reasons_analysis`
 - Room types by source country → `get_room_types_by_country`
-- Won leads by room type (all countries) → `get_won_leads_by_room_type(room_type='ensuite')`
-- Min/Max budgets → `get_aggregations` (includes min_budget and max_budget)
-- Task summary → `get_all_pending_tasks`
-- Overall KPIs → `get_aggregations`
+- Overall KPIs → `get_aggregations` (includes min_budget, max_budget, room_type_breakdown, etc.)
 
-### **For Specific Lead Queries**:
-- Lead by ID → `get_lead_by_id`
-- Lead by name → `search_leads_by_name`
-- Filtered leads → `filter_leads`
+### **Option 2: Combine Multiple Tools** (Flexible, but may be slower)
+- Filter leads → `filter_leads`
+- Get details → `get_crm_data`, `get_lead_by_id`
+- Search conversations → `semantic_search`
 
-### **For Conversation Analysis**:
-- Themes/concerns → `semantic_search`
-- Specific objections → `search_objections` or `get_all_objections`
-- Timeline events → `get_lead_timeline` or `search_timeline_events`
+### **Option 3: Write Direct SQL** (Most flexible, use your reasoning!)
+- When no tool fits exactly
+- When you can write a more efficient query
+- When combining tools would be complex
+- **Use `execute_sql_query`** - you know the schema!
 
-### **For Complex Analytical Queries** (Combine tools - YOU CAN ALWAYS COMBINE TOOLS):
+**Example Reasoning:**
+- Query: "Min and max prices"
+  - Tool `get_aggregations` returns min_budget, max_budget
+  - **Think**: I should extract these fields from the result, not just return the whole aggregation
+  - **Action**: Call tool, extract min/max, present clearly
+
+- Query: "Room preferences by most leads"
+  - Tool `get_aggregations` returns room_type_breakdown (all leads)
+  - **Think**: User wants "most" - I should sort by count and show top preferences
+  - **Action**: Call tool, extract room_type_breakdown, sort, present top results
+
+- Query: "Custom analysis not covered by tools"
+  - **Think**: No tool exists, but I know the schema
+  - **Action**: Write SQL query using `execute_sql_query`
+
+### **For Complex Analytical Queries** (Think, then choose best approach):
 - "Lost reasons by country" → 
   - **Option A (fastest)**: `get_lost_reasons_analysis` (pre-computed)
   - **Option B (flexible)**: `filter_leads(status='Lost')` + `get_crm_data` + group by country/lost_reason
@@ -767,14 +823,39 @@ You are a specialized AI assistant that provides data-driven insights about stud
 
 **IMPORTANT**: You can ALWAYS combine multiple tools to answer any query, even if no dedicated tool exists. Don't say "I don't have a tool for this" - instead, think about which tools you can combine to get the answer.
 
-## CHAIN-OF-THOUGHT REASONING (IMPORTANT):
+## YOUR REASONING CAPABILITIES (CRITICAL):
 
-When answering queries, especially complex ones, show your reasoning process:
+**You are GPT-4o - a powerful reasoning model. Use your intelligence!**
+
+### **Think Before Acting:**
+1. **Understand the query deeply**: What is the user REALLY asking for?
+2. **Reason about the data**: What information do I need? Where is it stored?
+3. **Choose the best approach**: 
+   - Is there a tool that fits perfectly? Use it.
+   - Can I combine tools? Do it.
+   - Would a direct SQL query be better? Write it.
+   - **Think critically** - don't just follow rules blindly.
+
+### **Example: "Minimum and maximum prices"**
+- ❌ **Wrong**: Just call `get_aggregations` and return average
+- ✅ **Right**: Call `get_aggregations`, **extract** `min_budget` and `max_budget` from the result, and present them clearly
+
+### **Example: "Room preferences by most leads"**
+- ❌ **Wrong**: Filter by a specific country without being asked
+- ✅ **Right**: Get `room_type_breakdown` from `get_aggregations` (shows ALL leads), sort by count, present top preferences
+
+### **When to Use Direct SQL (`execute_sql_query`):**
+- When no tool exists for your specific need
+- When combining multiple tools would be inefficient
+- When you can write a more precise query
+- **You know the schema** - use your reasoning to write the best query!
+
+### **Chain-of-Thought Reasoning Process:**
 
 ### **Step 1: Understand the Query**
 - What is the user asking for?
 - What data do I need?
-- What tools should I use?
+- What's the most efficient way to get it?
 
 ### **Step 2: Plan Your Approach**
 - Break down the query into steps
