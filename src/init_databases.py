@@ -41,6 +41,15 @@ def ensure_databases_exist():
     if needs_ingestion:
         print("📊 Initializing detailed database with exported dataset...")
         try:
+            # If database exists but has old data, delete it first
+            if os.path.exists(detailed_db):
+                print("🗑️  Removing old database to re-initialize...")
+                try:
+                    os.remove(detailed_db)
+                    print("✅ Old database removed")
+                except Exception as e:
+                    print(f"⚠️  Could not remove old database: {str(e)}")
+            
             from exported_data_ingestion import ExportedDataIngestion
             
             # Check for exported dataset files
@@ -70,19 +79,29 @@ def ensure_databases_exist():
                 ingestion = ExportedDataIngestion(db_path=detailed_db)
                 
                 # Ingest summaries (main lead data)
+                print("📥 Ingesting summaries...")
                 ingestion.ingest_summaries(summaries_path)
                 
                 # Ingest timeline events
                 if os.path.exists(rag_dataset_path):
+                    print("📥 Ingesting timeline events...")
                     ingestion.ingest_timeline_events(rag_dataset_path)
+                else:
+                    print(f"⚠️  RAG dataset not found: {rag_dataset_path}")
                 
                 # Ingest call transcripts
                 if os.path.exists(mcp_folder):
+                    print("📥 Ingesting call transcripts...")
                     ingestion.ingest_transcripts(mcp_folder)
+                else:
+                    print(f"⚠️  MCP folder not found: {mcp_folder}")
                 
                 # Ingest CRM data
                 if os.path.exists(crm_csv_path):
+                    print("📥 Ingesting CRM data...")
                     ingestion.ingest_crm_data(crm_csv_path)
+                else:
+                    print(f"⚠️  CRM CSV not found: {crm_csv_path}")
                 
                 ingestion.close()
                 print("✅ Detailed database initialized with exported dataset")
