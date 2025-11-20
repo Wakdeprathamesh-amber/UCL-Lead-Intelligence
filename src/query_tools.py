@@ -1089,6 +1089,75 @@ class LeadQueryTools:
             if conn:
                 self._return_connection(conn)
     
+    def get_communication_mode_analysis(self) -> Dict[str, Any]:
+        """Analyze communication mode preferences (WhatsApp vs Calls) and conversion rates
+        
+        Returns:
+            Dict with communication mode statistics and conversion rates
+        """
+        conn = None
+        try:
+            conn = self._get_connection()
+            cursor = conn.cursor()
+            
+            # Analyze timeline events for communication modes
+            cursor.execute("""
+                SELECT 
+                    te.event_type,
+                    l.status,
+                    COUNT(*) as event_count,
+                    COUNT(DISTINCT te.lead_id) as lead_count
+                FROM timeline_events te
+                JOIN leads l ON te.lead_id = l.lead_id
+                WHERE te.event_type IN ('whatsapp', 'call', 'email')
+                GROUP BY te.event_type, l.status
+            """)
+            
+            mode_stats = {}
+            for event_type, status, event_count, lead_count in cursor.fetchall():
+                if event_type not in mode_stats:
+                    mode_stats[event_type] = {}
+                mode_stats[event_type][status] = {
+                    "event_count": event_count,
+                    "lead_count": lead_count
+                }
+            
+            # Get total leads by status
+            cursor.execute("""
+                SELECT status, COUNT(*) 
+                FROM leads 
+                GROUP BY status
+            """)
+            status_totals = dict(cursor.fetchall())
+            
+            # Calculate conversion rates by communication mode
+            conversion_rates = {}
+            for mode, stats in mode_stats.items():
+                won_count = stats.get('Won', {}).get('lead_count', 0)
+                lost_count = stats.get('Lost', {}).get('lead_count', 0)
+                total_count = won_count + lost_count
+                
+                if total_count > 0:
+                    conversion_rate = (won_count / total_count) * 100
+                else:
+                    conversion_rate = 0
+                
+                conversion_rates[mode] = {
+                    "won_leads": won_count,
+                    "lost_leads": lost_count,
+                    "total_leads": total_count,
+                    "conversion_rate": round(conversion_rate, 2)
+                }
+            
+            return {
+                "mode_statistics": mode_stats,
+                "conversion_rates": conversion_rates,
+                "status_totals": status_totals
+            }
+        finally:
+            if conn:
+                self._return_connection(conn)
+    
     def get_all_objections(self) -> List[Dict]:
         """Get all objections from the lead_objections table
         

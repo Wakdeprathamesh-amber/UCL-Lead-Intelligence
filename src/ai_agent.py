@@ -356,6 +356,15 @@ class LeadIntelligenceAgent:
                     - This is a powerful tool - use your reasoning to determine when it's better than combining multiple tools"""
                 ),
                 
+                StructuredTool.from_function(
+                    func=self._get_communication_mode_analysis_wrapper,
+                    name="get_communication_mode_analysis",
+                    description="""Analyze communication mode preferences (WhatsApp vs Calls) and conversion rates.
+                    This tool takes no arguments.
+                    Returns: Dict with communication mode statistics, event counts, and conversion rates by mode.
+                    Use this for queries about 'communication preferences', 'WhatsApp vs calls', 'conversion by communication mode'."""
+                ),
+                
                 Tool(
                     name="get_property_analytics",
                     func=lambda query="": self._property_analytics_wrapper(query),
@@ -683,6 +692,14 @@ class LeadIntelligenceAgent:
             return json.dumps(result, indent=2, default=str)
         except Exception as e:
             return json.dumps({"error": f"Error executing SQL query: {str(e)}"})
+    
+    def _get_communication_mode_analysis_wrapper(self, *args, **kwargs) -> str:
+        """Wrapper for get_communication_mode_analysis"""
+        try:
+            result = self.query_tools.get_communication_mode_analysis()
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting communication mode analysis: {str(e)}"})
     
     def _create_prompt(self) -> ChatPromptTemplate:
         """Create the agent prompt"""
