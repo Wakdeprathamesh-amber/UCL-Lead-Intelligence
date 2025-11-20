@@ -329,6 +329,14 @@ class LeadIntelligenceAgent:
                 ),
                 
                 Tool(
+                    name="get_won_leads_by_room_type",
+                    func=lambda room_type: self._get_won_leads_by_room_type_wrapper(room_type),
+                    description="""Get count of Won leads with a specific room type (all countries combined).
+                    Input: room_type (string) - e.g., 'ensuite', 'studio', 'private room'
+                    Returns: Dict with total count and breakdown by source country for Won leads with that room type."""
+                ),
+                
+                Tool(
                     name="get_property_analytics",
                     func=lambda query="": self._property_analytics_wrapper(query),
                     description="""Get comprehensive property analytics including popularity, conversion rates, and performance metrics.
@@ -625,6 +633,16 @@ class LeadIntelligenceAgent:
         except Exception as e:
             return json.dumps({"error": f"Error getting booked room types by country: {str(e)}"})
     
+    def _get_won_leads_by_room_type_wrapper(self, room_type: str) -> str:
+        """Wrapper for get_won_leads_by_room_type"""
+        try:
+            if not room_type or not isinstance(room_type, str):
+                return json.dumps({"error": "room_type parameter is required"})
+            result = self.query_tools.get_won_leads_by_room_type(room_type.strip())
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting Won leads by room type: {str(e)}"})
+    
     def _create_prompt(self) -> ChatPromptTemplate:
         """Create the agent prompt"""
         
@@ -713,7 +731,9 @@ You are a specialized AI assistant that provides data-driven insights about stud
 
 ### **For Fast Pre-computed Results** (Use these first):
 - Lost reasons by country → `get_lost_reasons_analysis`
-- Room types by country → `get_room_types_by_country`
+- Room types by source country → `get_room_types_by_country`
+- Won leads by room type (all countries) → `get_won_leads_by_room_type(room_type='ensuite')`
+- Min/Max budgets → `get_aggregations` (includes min_budget and max_budget)
 - Task summary → `get_all_pending_tasks`
 - Overall KPIs → `get_aggregations`
 
