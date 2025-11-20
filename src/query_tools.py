@@ -293,9 +293,27 @@ class LeadQueryTools:
         """)
         university_breakdown = dict(cursor.fetchall())
         
-        # Average budget
-        cursor.execute("SELECT AVG(budget_max), budget_currency FROM lead_requirements WHERE budget_max IS NOT NULL GROUP BY budget_currency")
-        avg_budget = cursor.fetchall()
+        # Budget statistics (average, min, max)
+        cursor.execute("""
+            SELECT 
+                AVG(budget_max), 
+                MIN(budget_max), 
+                MAX(budget_max),
+                budget_currency 
+            FROM lead_requirements 
+            WHERE budget_max IS NOT NULL 
+            GROUP BY budget_currency
+        """)
+        budget_stats = cursor.fetchall()
+        
+        # Format budget statistics
+        avg_budget = {}
+        min_budget = {}
+        max_budget = {}
+        for avg, min_val, max_val, curr in budget_stats:
+            avg_budget[curr] = round(avg, 2) if avg else None
+            min_budget[curr] = round(min_val, 2) if min_val else None
+            max_budget[curr] = round(max_val, 2) if max_val else None
         
         # Room type preferences
         cursor.execute("""
@@ -933,6 +951,59 @@ class LeadQueryTools:
                     tasks.append(task)
                 
                 return tasks
+        finally:
+            if conn:
+                self._return_connection(conn)
+    
+    def get_won_leads_by_room_type(self, room_type: str) -> Dict[str, Any]:
+        """Get count of Won leads with a specific room type (all countries combined)
+        
+        Args:
+            room_type: Room type to filter by (e.g., 'ensuite', 'studio')
+            
+        Returns:
+            Dict with total count and breakdown by source country
+        """
+        conn = None
+        try:
+            conn = self._get_connection()
+            cursor = conn.cursor()
+            
+            # Get total count (all countries)
+            cursor.execute("""
+                SELECT COUNT(*) 
+                FROM leads l
+                JOIN lead_requirements lr ON l.lead_id = lr.lead_id
+                WHERE l.status = 'Won'
+                  AND (lr.room_type LIKE ? OR lr.room_type LIKE ?)
+            """, (f"%{room_type}%", f"%{room_type.capitalize()}%"))
+            
+            total_count = cursor.fetchone()[0]
+            
+            # Get breakdown by source country
+            cursor.execute("""
+                SELECT 
+                    COALESCE(c.phone_country, lr.nationality, 'Unknown') as source_country,
+                    COUNT(*) as count
+                FROM leads l
+                JOIN lead_requirements lr ON l.lead_id = lr.lead_id
+                LEFT JOIN crm_data c ON l.lead_id = c.lead_id
+                WHERE l.status = 'Won'
+                  AND (lr.room_type LIKE ? OR lr.room_type LIKE ?)
+                  AND (c.phone_country IS NOT NULL OR lr.nationality IS NOT NULL)
+                GROUP BY source_country
+                ORDER BY count DESC
+            """, (f"%{room_type}%", f"%{room_type.capitalize()}%"))
+            
+            by_country = {}
+            for country, count in cursor.fetchall():
+                by_country[country] = count
+            
+            return {
+                "room_type": room_type,
+                "total_count": total_count,
+                "by_source_country": by_country
+            }
         finally:
             if conn:
                 self._return_connection(conn)
