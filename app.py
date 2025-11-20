@@ -449,18 +449,22 @@ def main():
                     # Ensure proper types for query method
                     user_id_str = str(username) if username else "anonymous"
                     session_id_str = str(session_id) if session_id else None
-                    
+                except Exception as auth_error:
+                    # Fallback if auth methods fail
+                    user_id_str = "anonymous"
+                    session_id_str = None
+                
+                # Call agent query with explicit parameters
+                try:
                     result = st.session_state.agent.query(
-                        question=query,
+                        question=str(query),
                         user_id=user_id_str,
                         session_id=session_id_str
                     )
                 except TypeError as e:
-                    # Fallback: try without optional parameters
+                    # Fallback: try with minimal parameters
                     result = st.session_state.agent.query(
-                        question=query,
-                        user_id="anonymous",
-                        session_id=None
+                        question=str(query)
                     )
                 
                 if result['success']:
