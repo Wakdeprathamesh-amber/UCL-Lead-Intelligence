@@ -1,0 +1,344 @@
+{
+  "id": "lead_103",
+  "mobile_number": "13439986541",
+  "email": null,
+  "timeline": [
+    {
+      "id": 1958,
+      "lead_id": 103,
+      "event_type": "call",
+      "timestamp": "2025-07-25T14:51:53.578905",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7568662",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-25T14:51:53.578905\", \"id\": 7568662, \"duration\": \"0\", \"to_number\": \"13439986541\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:12:22"
+    },
+    {
+      "id": 1959,
+      "lead_id": 103,
+      "event_type": "call",
+      "timestamp": "2025-07-30T12:16:53.058788",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7593252",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-30T12:16:53.058788\", \"id\": 7593252, \"duration\": \"0\", \"to_number\": \"13439986541\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:12:22"
+    },
+    {
+      "id": 1960,
+      "lead_id": 103,
+      "event_type": "call",
+      "timestamp": "2025-08-21T09:12:27.523543",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7728620",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T09:12:27.523543\", \"id\": 7728620, \"duration\": \"0\", \"to_number\": \"13439986541\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:12:22"
+    },
+    {
+      "id": 1961,
+      "lead_id": 103,
+      "event_type": "call",
+      "timestamp": "2025-08-24T08:12:31.909521",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7749882",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-24T08:12:31.909521\", \"id\": 7749882, \"duration\": \"10\", \"to_number\": \"13439986541\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ec60dc4a-5f36-4ff8-9d14-541b6facb878.wav\"}",
+      "created_at": "2025-11-18 10:12:22"
+    },
+    {
+      "id": 1962,
+      "lead_id": 103,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3156811, \"user_name\": \"M\\u00e9lodie Nkunda\", \"email\": \"melnk009@gmail.com\", \"phone\": \"13439986541\", \"lease_duration\": \"\", \"budget\": 246, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 137043}",
+      "created_at": "2025-11-18 10:12:22"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 50,
+      "lead_id": 103,
+      "call_id": "7749882",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ec60dc4a-5f36-4ff8-9d14-541b6facb878.wav",
+      "transcript_text": "Speaker A: You have reached the voice mailbox of Melody. At the tone, please record your message. When you are.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:12:27"
+    }
+  ],
+  "summary": {
+    "id": 42,
+    "lead_id": 103,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"M\\u00e9lodie Nkunda\", \"mobile\": [\"13439986541\"], \"email\": [\"melnk009@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": 246, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with M\\u00e9lodie Nkunda via phone call to discuss accommodation options and confirm details.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple calls attempted to phone number 13439986541 with no answer; last call reached voicemail on 2025-08-24\"}, {\"type\": \"communication\", \"description\": \"Agent to send an email to M\\u00e9lodie Nkunda to provide accommodation information and request confirmation or further details.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Lead info with email melnk009@gmail.com and unsuccessful call attempts\"}], \"last_agent_response\": \"Agent attempted multiple calls to M\\u00e9lodie Nkunda's phone number, last call on 2025-08-24 reached voicemail.\", \"suggested_next_step\": \"Agent should follow up with an email to M\\u00e9lodie Nkunda and attempt another call within the next week.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"M\\u00e9lodie Nkunda\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 13439986541; email melnk009@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3246 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with multiple call attempts\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 call attempts, 1 voicemail left\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-24 (voicemail left)\", \"response_time\": \"No answered calls recorded; voicemail left on last call\", \"key_moments\": \"Multiple unanswered calls followed by a 10-second voicemail on 2025-08-24\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137043 associated with lead\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on voicemail left to establish contact\", \"pending_items\": \"Response from student to calls and voicemail\", \"follow_up_required\": \"Agent to attempt contact again or reach out via email\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded; voicemail left\", \"urgency_level\": \"Unknown due to lack of response\", \"complexity\": \"Simple initial inquiry stage\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest difficulty reaching student\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"M\\u00e9lodie Nkunda\", \"mobile\": [\"13439986541\"], \"email\": [\"melnk009@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": 246, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with M\\u00e9lodie Nkunda via phone call to discuss accommodation options and confirm details.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple calls attempted to phone number 13439986541 with no answer; last call reached voicemail on 2025-08-24\"}, {\"type\": \"communication\", \"description\": \"Agent to send an email to M\\u00e9lodie Nkunda to provide accommodation information and request confirmation or further details.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Lead info with email melnk009@gmail.com and unsuccessful call attempts\"}], \"last_agent_response\": \"Agent attempted multiple calls to M\\u00e9lodie Nkunda's phone number, last call on 2025-08-24 reached voicemail.\", \"suggested_next_step\": \"Agent should follow up with an email to M\\u00e9lodie Nkunda and attempt another call within the next week.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"M\\u00e9lodie Nkunda\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 13439986541; email melnk009@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3246 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with multiple call attempts\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 call attempts, 1 voicemail left\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-24 (voicemail left)\", \"response_time\": \"No answered calls recorded; voicemail left on last call\", \"key_moments\": \"Multiple unanswered calls followed by a 10-second voicemail on 2025-08-24\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137043 associated with lead\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on voicemail left to establish contact\", \"pending_items\": \"Response from student to calls and voicemail\", \"follow_up_required\": \"Agent to attempt contact again or reach out via email\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded; voicemail left\", \"urgency_level\": \"Unknown due to lack of response\", \"complexity\": \"Simple initial inquiry stage\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest difficulty reaching student\"}}}}}",
+    "created_at": "2025-11-18 10:12:36",
+    "updated_at": "2025-11-18T15:42:36.189830",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Mélodie Nkunda",
+        "mobile": [
+          "13439986541"
+        ],
+        "email": [
+          "melnk009@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": 246,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Mélodie Nkunda via phone call to discuss accommodation options and confirm details.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple calls attempted to phone number 13439986541 with no answer; last call reached voicemail on 2025-08-24"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to send an email to Mélodie Nkunda to provide accommodation information and request confirmation or further details.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Lead info with email melnk009@gmail.com and unsuccessful call attempts"
+        }
+      ],
+      "last_agent_response": "Agent attempted multiple calls to Mélodie Nkunda's phone number, last call on 2025-08-24 reached voicemail.",
+      "suggested_next_step": "Agent should follow up with an email to Mélodie Nkunda and attempt another call within the next week."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Mélodie Nkunda",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls to number 13439986541; email melnk009@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£246 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry with multiple call attempts",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "4 call attempts, 1 voicemail left",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-24 (voicemail left)",
+            "response_time": "No answered calls recorded; voicemail left on last call",
+            "key_moments": "Multiple unanswered calls followed by a 10-second voicemail on 2025-08-24"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 137043 associated with lead",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up on voicemail left to establish contact",
+            "pending_items": "Response from student to calls and voicemail",
+            "follow_up_required": "Agent to attempt contact again or reach out via email",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication recorded; voicemail left",
+            "urgency_level": "Unknown due to lack of response",
+            "complexity": "Simple initial inquiry stage",
+            "special_considerations": "Multiple unsuccessful call attempts suggest difficulty reaching student"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Mélodie Nkunda",
+          "mobile": [
+            "13439986541"
+          ],
+          "email": [
+            "melnk009@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": 246,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Mélodie Nkunda via phone call to discuss accommodation options and confirm details.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple calls attempted to phone number 13439986541 with no answer; last call reached voicemail on 2025-08-24"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to send an email to Mélodie Nkunda to provide accommodation information and request confirmation or further details.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Lead info with email melnk009@gmail.com and unsuccessful call attempts"
+          }
+        ],
+        "last_agent_response": "Agent attempted multiple calls to Mélodie Nkunda's phone number, last call on 2025-08-24 reached voicemail.",
+        "suggested_next_step": "Agent should follow up with an email to Mélodie Nkunda and attempt another call within the next week."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Mélodie Nkunda",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls to number 13439986541; email melnk009@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£246 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry with multiple call attempts",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "4 call attempts, 1 voicemail left",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-24 (voicemail left)",
+              "response_time": "No answered calls recorded; voicemail left on last call",
+              "key_moments": "Multiple unanswered calls followed by a 10-second voicemail on 2025-08-24"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 137043 associated with lead",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up on voicemail left to establish contact",
+              "pending_items": "Response from student to calls and voicemail",
+              "follow_up_required": "Agent to attempt contact again or reach out via email",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication recorded; voicemail left",
+              "urgency_level": "Unknown due to lack of response",
+              "complexity": "Simple initial inquiry stage",
+              "special_considerations": "Multiple unsuccessful call attempts suggest difficulty reaching student"
+            }
+          }
+        }
+      }
+    }
+  }
+}

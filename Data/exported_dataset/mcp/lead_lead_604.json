@@ -1,0 +1,253 @@
+{
+  "id": "lead_604",
+  "mobile_number": "8618236669566",
+  "email": null,
+  "timeline": [
+    {
+      "id": 9232,
+      "lead_id": 604,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-20T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-20T00:00:00\", \"lead_id\": 3232766, \"user_name\": \"Jiahao Liu\", \"email\": \"jiahaol2004@outlook.com\", \"phone\": \"8618236669566\", \"university\": \"university-college-london-1811059954160\", \"lease_duration\": \"42 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 445, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 10588, \"inventory_id\": 2174173}",
+      "created_at": "2025-11-18 11:42:54"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 250,
+    "lead_id": 604,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Jiahao Liu\", \"mobile\": [\"+8618236669566\"], \"email\": [\"jiahaol2004@outlook.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 42, \"room_type\": null, \"budget\": {\"max\": 445, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jiahao Liu\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (jiahaol2004@outlook.com), Phone (+86 18236669566)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3445 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"42 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Lead submission via platform\", \"last_contact\": \"2025-09-20\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2174173\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to contact student to discuss accommodation options\", \"pending_items\": \"Student response and further preference details\", \"follow_up_required\": \"Yes, to clarify move-in date and room preferences\", \"timeline\": \"Lease ends 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student budget and lease duration clearly stated\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Jiahao Liu\", \"mobile\": [\"+8618236669566\"], \"email\": [\"jiahaol2004@outlook.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 42, \"room_type\": null, \"budget\": {\"max\": 445, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jiahao Liu\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (jiahaol2004@outlook.com), Phone (+86 18236669566)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3445 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"42 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Lead submission via platform\", \"last_contact\": \"2025-09-20\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2174173\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to contact student to discuss accommodation options\", \"pending_items\": \"Student response and further preference details\", \"follow_up_required\": \"Yes, to clarify move-in date and room preferences\", \"timeline\": \"Lease ends 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student budget and lease duration clearly stated\"}}}}}",
+    "created_at": "2025-11-18 11:43:00",
+    "updated_at": "2025-11-18T17:13:00.840938",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Jiahao Liu",
+        "mobile": [
+          "+8618236669566"
+        ],
+        "email": [
+          "jiahaol2004@outlook.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 42,
+        "room_type": null,
+        "budget": {
+          "max": 445,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "",
+      "suggested_next_step": ""
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Jiahao Liu",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (jiahaol2004@outlook.com), Phone (+86 18236669566)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£445 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "42 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1",
+            "primary_channel": "Lead submission via platform",
+            "last_contact": "2025-09-20",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial lead information received"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2174173",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to contact student to discuss accommodation options",
+            "pending_items": "Student response and further preference details",
+            "follow_up_required": "Yes, to clarify move-in date and room preferences",
+            "timeline": "Lease ends 2026-07-10"
+          },
+          "agent_notes": {
+            "student_tone": "Not mentioned",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Student budget and lease duration clearly stated"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Jiahao Liu",
+          "mobile": [
+            "+8618236669566"
+          ],
+          "email": [
+            "jiahaol2004@outlook.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 42,
+          "room_type": null,
+          "budget": {
+            "max": 445,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "",
+        "suggested_next_step": ""
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Jiahao Liu",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (jiahaol2004@outlook.com), Phone (+86 18236669566)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£445 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "42 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1",
+              "primary_channel": "Lead submission via platform",
+              "last_contact": "2025-09-20",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial lead information received"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2174173",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to contact student to discuss accommodation options",
+              "pending_items": "Student response and further preference details",
+              "follow_up_required": "Yes, to clarify move-in date and room preferences",
+              "timeline": "Lease ends 2026-07-10"
+            },
+            "agent_notes": {
+              "student_tone": "Not mentioned",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Student budget and lease duration clearly stated"
+            }
+          }
+        }
+      }
+    }
+  }
+}

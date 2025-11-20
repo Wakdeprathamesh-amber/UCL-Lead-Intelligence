@@ -1,0 +1,338 @@
+{
+  "id": "lead_69",
+  "mobile_number": "18178004307",
+  "email": null,
+  "timeline": [
+    {
+      "id": 1414,
+      "lead_id": 69,
+      "event_type": "call",
+      "timestamp": "2025-09-11T18:22:29.689713",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7859990",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-11T18:22:29.689713\", \"id\": 7859990, \"duration\": \"24\", \"to_number\": \"18178004307\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/42704cfb-eaaf-4c0d-abcb-6980318045c1.wav\"}",
+      "created_at": "2025-11-18 10:02:22"
+    },
+    {
+      "id": 1415,
+      "lead_id": 69,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3224362, \"user_name\": \"Robert Kosmari\", \"email\": \"robert.kosmari@gmail.com\", \"phone\": \"18178004307\", \"lease_duration\": \"15 week\", \"move_out_date\": \"2025-12-26\", \"budget\": 369, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 883, \"inventory_id\": 2171541}",
+      "created_at": "2025-11-18 10:02:22"
+    },
+    {
+      "id": 1416,
+      "lead_id": 69,
+      "event_type": "call",
+      "timestamp": "2025-10-30T14:02:30.651993",
+      "content": "",
+      "source": "plivo",
+      "event_id": "8029620",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-10-30T14:02:30.651993\", \"id\": 8029620, \"duration\": \"46\", \"to_number\": \"18178004307\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/df88808d-ce69-424e-982c-7b4bb55c1f46.wav\"}",
+      "created_at": "2025-11-18 10:02:22"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 22,
+      "lead_id": 69,
+      "call_id": "7859990",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/42704cfb-eaaf-4c0d-abcb-6980318045c1.wav",
+      "transcript_text": "Speaker B: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.\nSpeaker A: Hey, Robert, this is Aishtika from Amber, and this call is regarding your accommodation. You are searching in London, so let me know your convenient time to connect with you, or else you can reach out to me on WhatsApp. Thank you. Have a good day.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:03:16"
+    },
+    {
+      "id": 25,
+      "lead_id": 69,
+      "call_id": "8029620",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/df88808d-ce69-424e-982c-7b4bb55c1f46.wav",
+      "transcript_text": "Speaker A: Please leave your message for 817-800-4307. Hi, this is Khushi. I'm calling from the Amber Student Support Team. This is a quick call regarding your confirmation. We do see that you had booked an accommodation with us at Spring News in London. So kindly confirm your name, email address or any sort of unique ID that was used at the time of your booking and your room number if you have moved in at the accommodation. It would really help us, you know, updating it on our systems. Thank you and we hope you have a great day ahead. Bye. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:04:11"
+    }
+  ],
+  "summary": {
+    "id": 26,
+    "lead_id": 69,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Robert Kosmari\", \"mobile\": [\"18178004307\"], \"email\": [\"robert.kosmari@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 15, \"room_type\": null, \"budget\": {\"max\": 369, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Spring News\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Robert Kosmari to schedule a convenient time for a call or to connect via WhatsApp regarding his accommodation search in London.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-11 where agent left voicemail asking Robert to share convenient time or reach out on WhatsApp\"}, {\"type\": \"communication\", \"description\": \"Student Robert Kosmari to confirm his name, email address or unique booking ID, and room number if moved in, to help update the booking system.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-10-30 from Amber Student Support requesting confirmation details for booking at Spring News in London\"}], \"last_agent_response\": \"Agent left a voicemail on 2025-10-30 requesting Robert to confirm booking details including name, email, unique ID, and room number if moved in.\", \"suggested_next_step\": \"Agent to follow up with Robert via call or WhatsApp to obtain confirmation details and schedule a discussion about his accommodation.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Robert Kosmari\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and voicemail messages; phone number 18178004307; email robert.kosmari@gmail.com; WhatsApp mentioned as alternative contact\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3369 per week\", \"move_in_date\": \"Not explicitly mentioned; move-out date is 2025-12-26\", \"lease_duration\": \"15 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking confirmed at Spring News in London\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 (2 calls with voicemail messages, 1 lead info record)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-10-30\", \"response_time\": \"No direct responses recorded; messages left on voicemail\", \"key_moments\": \"Initial outreach on 2025-09-11; lead info recorded on 2025-09-13; follow-up call on 2025-10-30 requesting booking confirmation details\"}, \"properties_discussed\": {\"properties_mentioned\": \"Spring News in London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to confirm booking details including name, email, unique ID, and room number\", \"pending_items\": \"Awaiting student confirmation of booking details\", \"follow_up_required\": \"Agent to follow up if no confirmation received\", \"timeline\": \"Move-out date 2025-12-26; lease duration 15 weeks\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; only voicemail messages left\", \"urgency_level\": \"Moderate; booking confirmed but awaiting confirmation details\", \"complexity\": \"Simple; standard booking confirmation process\", \"special_considerations\": \"Student has not responded to voicemail messages; alternative contact via WhatsApp suggested\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Robert Kosmari\", \"mobile\": [\"18178004307\"], \"email\": [\"robert.kosmari@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 15, \"room_type\": null, \"budget\": {\"max\": 369, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Spring News\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Robert Kosmari to schedule a convenient time for a call or to connect via WhatsApp regarding his accommodation search in London.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-11 where agent left voicemail asking Robert to share convenient time or reach out on WhatsApp\"}, {\"type\": \"communication\", \"description\": \"Student Robert Kosmari to confirm his name, email address or unique booking ID, and room number if moved in, to help update the booking system.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-10-30 from Amber Student Support requesting confirmation details for booking at Spring News in London\"}], \"last_agent_response\": \"Agent left a voicemail on 2025-10-30 requesting Robert to confirm booking details including name, email, unique ID, and room number if moved in.\", \"suggested_next_step\": \"Agent to follow up with Robert via call or WhatsApp to obtain confirmation details and schedule a discussion about his accommodation.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Robert Kosmari\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and voicemail messages; phone number 18178004307; email robert.kosmari@gmail.com; WhatsApp mentioned as alternative contact\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3369 per week\", \"move_in_date\": \"Not explicitly mentioned; move-out date is 2025-12-26\", \"lease_duration\": \"15 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking confirmed at Spring News in London\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 (2 calls with voicemail messages, 1 lead info record)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-10-30\", \"response_time\": \"No direct responses recorded; messages left on voicemail\", \"key_moments\": \"Initial outreach on 2025-09-11; lead info recorded on 2025-09-13; follow-up call on 2025-10-30 requesting booking confirmation details\"}, \"properties_discussed\": {\"properties_mentioned\": \"Spring News in London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to confirm booking details including name, email, unique ID, and room number\", \"pending_items\": \"Awaiting student confirmation of booking details\", \"follow_up_required\": \"Agent to follow up if no confirmation received\", \"timeline\": \"Move-out date 2025-12-26; lease duration 15 weeks\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; only voicemail messages left\", \"urgency_level\": \"Moderate; booking confirmed but awaiting confirmation details\", \"complexity\": \"Simple; standard booking confirmation process\", \"special_considerations\": \"Student has not responded to voicemail messages; alternative contact via WhatsApp suggested\"}}}}}",
+    "created_at": "2025-11-18 10:04:22",
+    "updated_at": "2025-11-18T15:34:22.111412",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Robert Kosmari",
+        "mobile": [
+          "18178004307"
+        ],
+        "email": [
+          "robert.kosmari@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 15,
+        "room_type": null,
+        "budget": {
+          "max": 369,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Spring News"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Robert Kosmari to schedule a convenient time for a call or to connect via WhatsApp regarding his accommodation search in London.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-09-11 where agent left voicemail asking Robert to share convenient time or reach out on WhatsApp"
+        },
+        {
+          "type": "communication",
+          "description": "Student Robert Kosmari to confirm his name, email address or unique booking ID, and room number if moved in, to help update the booking system.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Call on 2025-10-30 from Amber Student Support requesting confirmation details for booking at Spring News in London"
+        }
+      ],
+      "last_agent_response": "Agent left a voicemail on 2025-10-30 requesting Robert to confirm booking details including name, email, unique ID, and room number if moved in.",
+      "suggested_next_step": "Agent to follow up with Robert via call or WhatsApp to obtain confirmation details and schedule a discussion about his accommodation."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Robert Kosmari",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and voicemail messages; phone number 18178004307; email robert.kosmari@gmail.com; WhatsApp mentioned as alternative contact",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£369 per week",
+            "move_in_date": "Not explicitly mentioned; move-out date is 2025-12-26",
+            "lease_duration": "15 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking confirmed at Spring News in London",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 (2 calls with voicemail messages, 1 lead info record)",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-10-30",
+            "response_time": "No direct responses recorded; messages left on voicemail",
+            "key_moments": "Initial outreach on 2025-09-11; lead info recorded on 2025-09-13; follow-up call on 2025-10-30 requesting booking confirmation details"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Spring News in London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to confirm booking details including name, email, unique ID, and room number",
+            "pending_items": "Awaiting student confirmation of booking details",
+            "follow_up_required": "Agent to follow up if no confirmation received",
+            "timeline": "Move-out date 2025-12-26; lease duration 15 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication from student recorded; only voicemail messages left",
+            "urgency_level": "Moderate; booking confirmed but awaiting confirmation details",
+            "complexity": "Simple; standard booking confirmation process",
+            "special_considerations": "Student has not responded to voicemail messages; alternative contact via WhatsApp suggested"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Robert Kosmari",
+          "mobile": [
+            "18178004307"
+          ],
+          "email": [
+            "robert.kosmari@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 15,
+          "room_type": null,
+          "budget": {
+            "max": 369,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Spring News"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Robert Kosmari to schedule a convenient time for a call or to connect via WhatsApp regarding his accommodation search in London.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-09-11 where agent left voicemail asking Robert to share convenient time or reach out on WhatsApp"
+          },
+          {
+            "type": "communication",
+            "description": "Student Robert Kosmari to confirm his name, email address or unique booking ID, and room number if moved in, to help update the booking system.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Call on 2025-10-30 from Amber Student Support requesting confirmation details for booking at Spring News in London"
+          }
+        ],
+        "last_agent_response": "Agent left a voicemail on 2025-10-30 requesting Robert to confirm booking details including name, email, unique ID, and room number if moved in.",
+        "suggested_next_step": "Agent to follow up with Robert via call or WhatsApp to obtain confirmation details and schedule a discussion about his accommodation."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Robert Kosmari",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and voicemail messages; phone number 18178004307; email robert.kosmari@gmail.com; WhatsApp mentioned as alternative contact",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£369 per week",
+              "move_in_date": "Not explicitly mentioned; move-out date is 2025-12-26",
+              "lease_duration": "15 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking confirmed at Spring News in London",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 (2 calls with voicemail messages, 1 lead info record)",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-10-30",
+              "response_time": "No direct responses recorded; messages left on voicemail",
+              "key_moments": "Initial outreach on 2025-09-11; lead info recorded on 2025-09-13; follow-up call on 2025-10-30 requesting booking confirmation details"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Spring News in London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to confirm booking details including name, email, unique ID, and room number",
+              "pending_items": "Awaiting student confirmation of booking details",
+              "follow_up_required": "Agent to follow up if no confirmation received",
+              "timeline": "Move-out date 2025-12-26; lease duration 15 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication from student recorded; only voicemail messages left",
+              "urgency_level": "Moderate; booking confirmed but awaiting confirmation details",
+              "complexity": "Simple; standard booking confirmation process",
+              "special_considerations": "Student has not responded to voicemail messages; alternative contact via WhatsApp suggested"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "id": "lead_427",
+  "mobile_number": "447469967959",
+  "email": null,
+  "timeline": [
+    {
+      "id": 7425,
+      "lead_id": 427,
+      "event_type": "lead_info",
+      "timestamp": "2025-01-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-01-09T00:00:00\", \"lead_id\": 3155637, \"user_name\": \"Zuzanna Czura\", \"email\": \"zuzannaczura0@gmail.com\", \"phone\": \"447469967959\", \"lease_duration\": \"12 week\", \"move_out_date\": \"2025-11-23\", \"budget\": 610, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 1927152}",
+      "created_at": "2025-11-18 11:09:22"
+    },
+    {
+      "id": 7426,
+      "lead_id": 427,
+      "event_type": "call",
+      "timestamp": "2025-08-18T19:29:34.385260",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7711236",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T19:29:34.385260\", \"id\": 7711236, \"duration\": \"121\", \"to_number\": \"447469967959\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/eb28c372-b69b-43da-b76b-94334e6120ce.wav\"}",
+      "created_at": "2025-11-18 11:09:22"
+    },
+    {
+      "id": 7427,
+      "lead_id": 427,
+      "event_type": "call",
+      "timestamp": "2025-08-22T08:13:52.988782",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7735902",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-22T08:13:52.988782\", \"id\": 7735902, \"duration\": \"15\", \"to_number\": \"447469967959\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/367e9a52-f92d-4ef6-a54c-73e9312a472d.wav\"}",
+      "created_at": "2025-11-18 11:09:22"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 316,
+      "lead_id": 427,
+      "call_id": "7711236",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/eb28c372-b69b-43da-b76b-94334e6120ce.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Hello?\nSpeaker A: Hello.\nSpeaker B: Hello.\nSpeaker A: Yeah, am I speaking with Susan here? Susanna.\nSpeaker B: Sorry, what's that?\nSpeaker A: Actually this call is regarding the student accommodation at the University College London.\nSpeaker B: Sorry, could you repeat that?\nSpeaker A: The scholars. Regarding the student accommodation for you at University College London. Yeah, I can see that you have finalized school Virginia King Cross system, correct?\nSpeaker B: No, I haven't booked anything.\nSpeaker A: You haven't? Yeah, that is. That is absolutely fine. May know like what kind of preferences that you have regarding your student accommodation.\nSpeaker B: Sorry, is this. Are you calling from the. Like. Are you calling from the website?\nSpeaker A: Yes, I am calling from the website since we are the official accommodation partner for UCL students. So that's the only reason I gave you the call in the very first place because you are looking to book a student accommodation for your academic. Correct. I can do one thing here. If I'm not audible, I. I can share you the option over WhatsApp of use. Will that be okay?\nSpeaker B: No, sorry, I'm not booking anything. I decided.\nSpeaker A: No, no, it's not about booking. I will share you the property option only which you are interested in and whatever property that you wish to proceed, you can let me know then I'll guide you how to book that.\nSpeaker B: Go back tomorrow please.\nSpeaker A: Yes, sure I can. Okay, I'll connect you tomorrow.\nSpeaker B: Okay, thank you.\nSpeaker A: Welcome. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:09:30"
+    },
+    {
+      "id": 318,
+      "lead_id": 427,
+      "call_id": "7735902",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/367e9a52-f92d-4ef6-a54c-73e9312a472d.wav",
+      "transcript_text": "Speaker A: Call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang out.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:09:34"
+    }
+  ],
+  "summary": {
+    "id": 176,
+    "lead_id": 427,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Zuzanna Czura\", \"mobile\": [\"447469967959\"], \"email\": [\"zuzannaczura0@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 12, \"room_type\": null, \"budget\": {\"max\": 610, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Call Zuzanna Czura again to discuss student accommodation options as requested.\", \"due\": \"2025-08-19\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-18 where student asked to be called back tomorrow\"}], \"last_agent_response\": \"Agent called Zuzanna on 2025-08-18 and offered to share accommodation options via WhatsApp; student declined booking and requested a call back the next day.\", \"suggested_next_step\": \"Agent to follow up with a call to Zuzanna on 2025-08-19 as per her request.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Zuzanna Czura\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email: zuzannaczura0@gmail.com; Phone: +447469967959\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3610 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"12 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry; no booking made\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-22\", \"response_time\": \"Student did not answer second call; first call lasted 2 minutes\", \"key_moments\": \"First call: Student declined booking, requested call back next day; Second call: Went to voicemail\"}, \"properties_discussed\": {\"properties_mentioned\": \"General student accommodation options for UCL; no specific properties named\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Student declined to proceed with booking or options at this time\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up with student as requested\", \"pending_items\": \"Student decision on accommodation options\", \"follow_up_required\": \"Yes, agent to reconnect with student\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite but uninterested in booking at this time\", \"urgency_level\": \"Low\", \"complexity\": \"Simple inquiry; no booking progress\", \"special_considerations\": \"Student prefers no unsolicited calls; requested call back next day\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Zuzanna Czura\", \"mobile\": [\"447469967959\"], \"email\": [\"zuzannaczura0@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 12, \"room_type\": null, \"budget\": {\"max\": 610, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Call Zuzanna Czura again to discuss student accommodation options as requested.\", \"due\": \"2025-08-19\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-18 where student asked to be called back tomorrow\"}], \"last_agent_response\": \"Agent called Zuzanna on 2025-08-18 and offered to share accommodation options via WhatsApp; student declined booking and requested a call back the next day.\", \"suggested_next_step\": \"Agent to follow up with a call to Zuzanna on 2025-08-19 as per her request.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Zuzanna Czura\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email: zuzannaczura0@gmail.com; Phone: +447469967959\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3610 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"12 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry; no booking made\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-22\", \"response_time\": \"Student did not answer second call; first call lasted 2 minutes\", \"key_moments\": \"First call: Student declined booking, requested call back next day; Second call: Went to voicemail\"}, \"properties_discussed\": {\"properties_mentioned\": \"General student accommodation options for UCL; no specific properties named\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Student declined to proceed with booking or options at this time\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up with student as requested\", \"pending_items\": \"Student decision on accommodation options\", \"follow_up_required\": \"Yes, agent to reconnect with student\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite but uninterested in booking at this time\", \"urgency_level\": \"Low\", \"complexity\": \"Simple inquiry; no booking progress\", \"special_considerations\": \"Student prefers no unsolicited calls; requested call back next day\"}}}}}",
+    "created_at": "2025-11-18 11:09:41",
+    "updated_at": "2025-11-18T16:39:41.430386",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Zuzanna Czura",
+        "mobile": [
+          "447469967959"
+        ],
+        "email": [
+          "zuzannaczura0@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 12,
+        "room_type": null,
+        "budget": {
+          "max": 610,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Call Zuzanna Czura again to discuss student accommodation options as requested.",
+          "due": "2025-08-19",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-08-18 where student asked to be called back tomorrow"
+        }
+      ],
+      "last_agent_response": "Agent called Zuzanna on 2025-08-18 and offered to share accommodation options via WhatsApp; student declined booking and requested a call back the next day.",
+      "suggested_next_step": "Agent to follow up with a call to Zuzanna on 2025-08-19 as per her request."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Zuzanna Czura",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email: zuzannaczura0@gmail.com; Phone: +447469967959",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£610 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "12 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry; no booking made",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 calls",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-22",
+            "response_time": "Student did not answer second call; first call lasted 2 minutes",
+            "key_moments": "First call: Student declined booking, requested call back next day; Second call: Went to voicemail"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "General student accommodation options for UCL; no specific properties named",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "Student declined to proceed with booking or options at this time",
+            "offers_made": "None"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to follow up with student as requested",
+            "pending_items": "Student decision on accommodation options",
+            "follow_up_required": "Yes, agent to reconnect with student",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite but uninterested in booking at this time",
+            "urgency_level": "Low",
+            "complexity": "Simple inquiry; no booking progress",
+            "special_considerations": "Student prefers no unsolicited calls; requested call back next day"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Zuzanna Czura",
+          "mobile": [
+            "447469967959"
+          ],
+          "email": [
+            "zuzannaczura0@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 12,
+          "room_type": null,
+          "budget": {
+            "max": 610,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Call Zuzanna Czura again to discuss student accommodation options as requested.",
+            "due": "2025-08-19",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-08-18 where student asked to be called back tomorrow"
+          }
+        ],
+        "last_agent_response": "Agent called Zuzanna on 2025-08-18 and offered to share accommodation options via WhatsApp; student declined booking and requested a call back the next day.",
+        "suggested_next_step": "Agent to follow up with a call to Zuzanna on 2025-08-19 as per her request."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Zuzanna Czura",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email: zuzannaczura0@gmail.com; Phone: +447469967959",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£610 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "12 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry; no booking made",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 calls",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-22",
+              "response_time": "Student did not answer second call; first call lasted 2 minutes",
+              "key_moments": "First call: Student declined booking, requested call back next day; Second call: Went to voicemail"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "General student accommodation options for UCL; no specific properties named",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "Student declined to proceed with booking or options at this time",
+              "offers_made": "None"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to follow up with student as requested",
+              "pending_items": "Student decision on accommodation options",
+              "follow_up_required": "Yes, agent to reconnect with student",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite but uninterested in booking at this time",
+              "urgency_level": "Low",
+              "complexity": "Simple inquiry; no booking progress",
+              "special_considerations": "Student prefers no unsolicited calls; requested call back next day"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "id": "lead_412",
+  "mobile_number": "8618050099261",
+  "email": null,
+  "timeline": [
+    {
+      "id": 6947,
+      "lead_id": 412,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3151783, \"user_name\": \"Shengyang Zhuang\", \"email\": \"shengyangzhuang@outlook.com\", \"phone\": \"8618050099261\", \"lease_duration\": \"\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 10588, \"inventory_id\": 149472}",
+      "created_at": "2025-11-18 11:07:58"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 171,
+    "lead_id": 412,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Shengyang Zhuang\", \"mobile\": [\"8618050099261\"], \"email\": [\"shengyangzhuang@outlook.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Shengyang Zhuang\", \"nationality\": \"Not mentioned\", \"student_status\": \"Not mentioned\", \"contact_info\": \"Email (shengyangzhuang@outlook.com), Phone (+86 18050099261)\", \"booking_for\": \"Not mentioned\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly basis\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 (lead information only)\", \"primary_channel\": \"Email and phone provided, no interactions recorded\", \"last_contact\": \"Not mentioned\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Lead created with basic contact and preference details\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 149472 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to initiate contact and gather more details\", \"pending_items\": \"Lease duration, move-in date, room type, and other preferences\", \"follow_up_required\": \"Yes, to clarify accommodation needs and progress booking\", \"timeline\": \"Not mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not applicable (no communication yet)\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial lead\", \"special_considerations\": \"Lead from London with weekly budget in pounds; no further details provided\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Shengyang Zhuang\", \"mobile\": [\"8618050099261\"], \"email\": [\"shengyangzhuang@outlook.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Shengyang Zhuang\", \"nationality\": \"Not mentioned\", \"student_status\": \"Not mentioned\", \"contact_info\": \"Email (shengyangzhuang@outlook.com), Phone (+86 18050099261)\", \"booking_for\": \"Not mentioned\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly basis\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 (lead information only)\", \"primary_channel\": \"Email and phone provided, no interactions recorded\", \"last_contact\": \"Not mentioned\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Lead created with basic contact and preference details\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 149472 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to initiate contact and gather more details\", \"pending_items\": \"Lease duration, move-in date, room type, and other preferences\", \"follow_up_required\": \"Yes, to clarify accommodation needs and progress booking\", \"timeline\": \"Not mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not applicable (no communication yet)\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial lead\", \"special_considerations\": \"Lead from London with weekly budget in pounds; no further details provided\"}}}}}",
+    "created_at": "2025-11-18 11:08:08",
+    "updated_at": "2025-11-18T16:38:08.625179",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Shengyang Zhuang",
+        "mobile": [
+          "8618050099261"
+        ],
+        "email": [
+          "shengyangzhuang@outlook.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "",
+      "suggested_next_step": ""
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Shengyang Zhuang",
+            "nationality": "Not mentioned",
+            "student_status": "Not mentioned",
+            "contact_info": "Email (shengyangzhuang@outlook.com), Phone (+86 18050099261)",
+            "booking_for": "Not mentioned"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "Budget in pounds, weekly basis",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1 (lead information only)",
+            "primary_channel": "Email and phone provided, no interactions recorded",
+            "last_contact": "Not mentioned",
+            "response_time": "Not mentioned",
+            "key_moments": "Lead created with basic contact and preference details"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 149472 associated with lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to initiate contact and gather more details",
+            "pending_items": "Lease duration, move-in date, room type, and other preferences",
+            "follow_up_required": "Yes, to clarify accommodation needs and progress booking",
+            "timeline": "Not mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Not applicable (no communication yet)",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial lead",
+            "special_considerations": "Lead from London with weekly budget in pounds; no further details provided"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Shengyang Zhuang",
+          "mobile": [
+            "8618050099261"
+          ],
+          "email": [
+            "shengyangzhuang@outlook.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "",
+        "suggested_next_step": ""
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Shengyang Zhuang",
+              "nationality": "Not mentioned",
+              "student_status": "Not mentioned",
+              "contact_info": "Email (shengyangzhuang@outlook.com), Phone (+86 18050099261)",
+              "booking_for": "Not mentioned"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "Budget in pounds, weekly basis",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1 (lead information only)",
+              "primary_channel": "Email and phone provided, no interactions recorded",
+              "last_contact": "Not mentioned",
+              "response_time": "Not mentioned",
+              "key_moments": "Lead created with basic contact and preference details"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 149472 associated with lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to initiate contact and gather more details",
+              "pending_items": "Lease duration, move-in date, room type, and other preferences",
+              "follow_up_required": "Yes, to clarify accommodation needs and progress booking",
+              "timeline": "Not mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Not applicable (no communication yet)",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial lead",
+              "special_considerations": "Lead from London with weekly budget in pounds; no further details provided"
+            }
+          }
+        }
+      }
+    }
+  }
+}

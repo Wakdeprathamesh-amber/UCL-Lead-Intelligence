@@ -4,12 +4,12 @@
 
 ---
 
-## 💬 Detailed Mode Demo Questions (19 Leads)
+## 💬 Detailed Mode Demo Questions (402 Leads)
 
 ### **Category 1: Basic Metrics** ⭐ Start Here
 
 1. **"How many total leads do we have?"**
-   - Expected: "19 leads"
+   - Expected: "402 leads"
    - Shows: System knows the dataset size
 
 2. **"What's our conversion rate?"**

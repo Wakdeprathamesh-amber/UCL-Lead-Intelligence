@@ -1,0 +1,708 @@
+{
+  "id": "lead_584",
+  "mobile_number": "447494665421",
+  "email": null,
+  "timeline": [
+    {
+      "id": 15652,
+      "lead_id": 584,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3135114, \"user_name\": \"Miriam Adebayo\", \"email\": \"morewaadebayo@gmail.com\", \"phone\": \"447494665421\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 339, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1916407}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15653,
+      "lead_id": 584,
+      "event_type": "call",
+      "timestamp": "2025-08-12T19:55:26.962825",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7671181",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-12T19:55:26.962825\", \"id\": 7671181, \"duration\": \"0\", \"to_number\": \"447494665421\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15654,
+      "lead_id": 584,
+      "event_type": "call",
+      "timestamp": "2025-08-12T19:56:47.141430",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7671186",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-12T19:56:47.141430\", \"id\": 7671186, \"duration\": \"1\", \"to_number\": \"447494665421\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/7cf8fcd6-003e-4012-93ea-fe6151791179.wav\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15655,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-12T20:00:59",
+      "content": "Hey Miriam, \r\n\r\nI am Mahmudul and I'll be helping you book your ideal student home, I can see you have selected Fusion Brent Cross Town, \n\r\nHappy to assist you with the process ahead. Thankyou : )",
+      "source": "whatsapp",
+      "event_id": "7140348",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-12T20:00:59\", \"id\": 7140348, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_27EDF11C579186CFAFB5E398086BC07B\", \"message_type\": \"text\", \"message_content\": \"Hey Miriam, \\r\\n\\r\\nI am Mahmudul and I'll be helping you book your ideal student home, I can see you have selected Fusion Brent Cross Town, \\n\\r\\nHappy to assist you with the process ahead. Thankyou : )\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-12T20:00:59.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hey Miriam, \\\\r\\\\n\\\\r\\\\nI am Mahmudul and I'll be helping you book your ideal student home, I can see you have selected Fusion Brent Cross Town, \\\\n\\\\r\\\\nHappy to assist you with the process ahead. Thankyou : )\\\", \\\"Datetime\\\": 1755028859000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_27EDF11C579186CFAFB5E398086BC07B\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-12T20:01:00.311095\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15656,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T12:55:31",
+      "content": "Good afternoon, it’s nice to hear from you. \n\nIs there any way I can book a viewing to come and check out the place in order to decide on moving in, please?\n\nThanks,\nMiriam",
+      "source": "whatsapp",
+      "event_id": "7166345",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T12:55:31\", \"id\": 7166345, \"email\": \"\", \"from_number\": \"447494665421\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447494665421@c.us_3A488ABC614A167AB6BE\", \"message_type\": \"text\", \"message_content\": \"Good afternoon, it\\u2019s nice to hear from you. \\n\\nIs there any way I can book a viewing to come and check out the place in order to decide on moving in, please?\\n\\nThanks,\\nMiriam\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447494665421@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T12:55:31.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Good afternoon, it\\u2019s nice to hear from you. \\\\n\\\\nIs there any way I can book a viewing to come and check out the place in order to decide on moving in, please?\\\\n\\\\nThanks,\\\\nMiriam\\\", \\\"Datetime\\\": 1755089731000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447494665421@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447494665421@c.us_3A488ABC614A167AB6BE\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447494665421\\\", \\\"sentByUserId\\\": \\\"447494665421@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T12:55:33.038985\", \"direction\": \"inbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15657,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T12:58:13",
+      "content": "You are looking for classic studio right ?",
+      "source": "whatsapp",
+      "event_id": "7166492",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T12:58:13\", \"id\": 7166492, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_04342F81AF2491A0224DC6F24A01CDB6\", \"message_type\": \"text\", \"message_content\": \"You are looking for classic studio right ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T12:58:13.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"You are looking for classic studio right ?\\\", \\\"Datetime\\\": 1755089893000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_04342F81AF2491A0224DC6F24A01CDB6\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T12:58:13.697049\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15658,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T13:00:50",
+      "content": "Yes 😊",
+      "source": "whatsapp",
+      "event_id": "7166666",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T13:00:50\", \"id\": 7166666, \"email\": \"\", \"from_number\": \"447494665421\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447494665421@c.us_3AFA8D7768C4ABC3F8BC\", \"message_type\": \"text\", \"message_content\": \"Yes \\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447494665421@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T13:00:50.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Yes \\ud83d\\ude0a\\\", \\\"Datetime\\\": 1755090050000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447494665421@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447494665421@c.us_3AFA8D7768C4ABC3F8BC\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447494665421\\\", \\\"sentByUserId\\\": \\\"447494665421@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T13:00:51.861230\", \"direction\": \"inbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15659,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T13:01:06",
+      "content": "Ok I have a video for that",
+      "source": "whatsapp",
+      "event_id": "7166684",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T13:01:06\", \"id\": 7166684, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_93B6D144E3167C214F4A21FAAB9A1FD5\", \"message_type\": \"text\", \"message_content\": \"Ok I have a video for that\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T13:01:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Ok I have a video for that\\\", \\\"Datetime\\\": 1755090066000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_93B6D144E3167C214F4A21FAAB9A1FD5\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T13:01:06.531476\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15660,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T13:01:19",
+      "content": "I am sharing with you",
+      "source": "whatsapp",
+      "event_id": "7166699",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T13:01:19\", \"id\": 7166699, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_747AF0A0A806C659AFE21156BFE7EED6\", \"message_type\": \"text\", \"message_content\": \"I am sharing with you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T13:01:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"I am sharing with you\\\", \\\"Datetime\\\": 1755090079000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_747AF0A0A806C659AFE21156BFE7EED6\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T13:01:19.978323\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15661,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T13:01:35",
+      "content": "Okay, thank you",
+      "source": "whatsapp",
+      "event_id": "7166712",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T13:01:35\", \"id\": 7166712, \"email\": \"\", \"from_number\": \"447494665421\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447494665421@c.us_3ABCA51B1C92004491C4\", \"message_type\": \"text\", \"message_content\": \"Okay, thank you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447494665421@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T13:01:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Okay, thank you\\\", \\\"Datetime\\\": 1755090095000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447494665421@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447494665421@c.us_3ABCA51B1C92004491C4\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447494665421\\\", \\\"sentByUserId\\\": \\\"447494665421@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T13:01:36.575834\", \"direction\": \"inbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15662,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T13:16:32",
+      "content": "video.mp4",
+      "source": "whatsapp",
+      "event_id": "7167818",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T13:16:32\", \"id\": 7167818, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_7679862941A0CD48F461CE6945B0C696\", \"message_type\": \"text\", \"message_content\": \"video.mp4\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T13:16:32.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447446219714/7679862941A0CD48F461CE6945B0C696.mp4\\\", \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"video.mp4\\\", \\\"Datetime\\\": 1755090992000, \\\"FileName\\\": \\\"video.mp4\\\", \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_7679862941A0CD48F461CE6945B0C696\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T13:16:33.281492\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15663,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T13:16:48",
+      "content": "Please be aware we have only few left",
+      "source": "whatsapp",
+      "event_id": "7167834",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T13:16:48\", \"id\": 7167834, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_249D60E0A148CFE473CF1D2116922977\", \"message_type\": \"text\", \"message_content\": \"Please be aware we have only few left\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T13:16:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Please be aware we have only few left\\\", \\\"Datetime\\\": 1755091008000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_249D60E0A148CFE473CF1D2116922977\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T13:16:48.336760\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15664,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T16:13:07",
+      "content": "It looks great, thank you!",
+      "source": "whatsapp",
+      "event_id": "7178799",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T16:13:07\", \"id\": 7178799, \"email\": \"\", \"from_number\": \"447494665421\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447494665421@c.us_3A44FED0973DD792A4BD\", \"message_type\": \"text\", \"message_content\": \"It looks great, thank you!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447494665421@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T16:13:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"It looks great, thank you!\\\", \\\"Datetime\\\": 1755101587000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447494665421@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447494665421@c.us_3A44FED0973DD792A4BD\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447494665421\\\", \\\"sentByUserId\\\": \\\"447494665421@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T16:13:07.883092\", \"direction\": \"inbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15665,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T16:13:27",
+      "content": "I’ve booked a viewing for tomorrow morning at 10:45 so I will get back to you once I’m done if that’s okay",
+      "source": "whatsapp",
+      "event_id": "7178816",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T16:13:27\", \"id\": 7178816, \"email\": \"\", \"from_number\": \"447494665421\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447494665421@c.us_3ABF238C7682F76AA635\", \"message_type\": \"text\", \"message_content\": \"I\\u2019ve booked a viewing for tomorrow morning at 10:45 so I will get back to you once I\\u2019m done if that\\u2019s okay\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447494665421@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T16:13:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"I\\u2019ve booked a viewing for tomorrow morning at 10:45 so I will get back to you once I\\u2019m done if that\\u2019s okay\\\", \\\"Datetime\\\": 1755101607000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447494665421@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447494665421@c.us_3ABF238C7682F76AA635\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447494665421\\\", \\\"sentByUserId\\\": \\\"447494665421@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T16:13:27.448220\", \"direction\": \"inbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15666,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T16:13:36",
+      "content": "Sure",
+      "source": "whatsapp",
+      "event_id": "7178824",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T16:13:36\", \"id\": 7178824, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_B481F95BFAD0C2A36AB2BC06399839A8\", \"message_type\": \"text\", \"message_content\": \"Sure\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T16:13:36.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Sure\\\", \\\"Datetime\\\": 1755101616000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_B481F95BFAD0C2A36AB2BC06399839A8\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T16:13:36.370333\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15667,
+      "lead_id": 584,
+      "event_type": "call",
+      "timestamp": "2025-08-13T19:25:38.155132",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7677769",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-13T19:25:38.155132\", \"id\": 7677769, \"duration\": \"0\", \"to_number\": \"447494665421\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15668,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T08:50:52",
+      "content": "Hello",
+      "source": "whatsapp",
+      "event_id": "7203044",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T08:50:52\", \"id\": 7203044, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_D2AE0D7C4AAFDA3E618720F1A4122D58\", \"message_type\": \"text\", \"message_content\": \"Hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T08:50:52.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello\\\", \\\"Datetime\\\": 1755161452000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_D2AE0D7C4AAFDA3E618720F1A4122D58\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-14T08:50:52.479875\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15669,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T08:51:12",
+      "content": "We have sent you the log in link please upload the documents",
+      "source": "whatsapp",
+      "event_id": "7203064",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T08:51:12\", \"id\": 7203064, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_004ADCA085A88BC919717CCC1AED9A4F\", \"message_type\": \"text\", \"message_content\": \"We have sent you the log in link please upload the documents\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T08:51:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"We have sent you the log in link please upload the documents\\\", \\\"Datetime\\\": 1755161472000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_004ADCA085A88BC919717CCC1AED9A4F\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-14T08:51:12.801862\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15670,
+      "lead_id": 584,
+      "event_type": "call",
+      "timestamp": "2025-08-14T13:56:35.780537",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7682886",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-14T13:56:35.780537\", \"id\": 7682886, \"duration\": \"46\", \"to_number\": \"447494665421\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a1d13577-cbd8-4462-b034-30c1ede2e3d2.wav\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15671,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T14:31:50",
+      "content": "Please let me know once signed",
+      "source": "whatsapp",
+      "event_id": "7228519",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T14:31:50\", \"id\": 7228519, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_9219FAA83C53D7476F691CD7ED366327\", \"message_type\": \"text\", \"message_content\": \"Please let me know once signed\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T14:31:50.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Please let me know once signed\\\", \\\"Datetime\\\": 1755181910000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_9219FAA83C53D7476F691CD7ED366327\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-14T14:31:50.478371\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15672,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T14:31:55",
+      "content": "I will need the signed agreement",
+      "source": "whatsapp",
+      "event_id": "7228525",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T14:31:55\", \"id\": 7228525, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_E7E1BA935465831F3B79F339DA4BA71C\", \"message_type\": \"text\", \"message_content\": \"I will need the signed agreement\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T14:31:55.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"I will need the signed agreement\\\", \\\"Datetime\\\": 1755181915000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_E7E1BA935465831F3B79F339DA4BA71C\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-14T14:31:55.542194\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15673,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T16:19:06",
+      "content": "Is it done",
+      "source": "whatsapp",
+      "event_id": "7236525",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T16:19:06\", \"id\": 7236525, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_4E565BFEE75A17125CA8F4392615D4DC\", \"message_type\": \"text\", \"message_content\": \"Is it done\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T16:19:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Is it done\\\", \\\"Datetime\\\": 1755188346000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_4E565BFEE75A17125CA8F4392615D4DC\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-14T16:19:06.564347\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15674,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T16:19:56",
+      "content": "We are running low on options and room might get sold out tho",
+      "source": "whatsapp",
+      "event_id": "7236586",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T16:19:56\", \"id\": 7236586, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_E1EF4D484D7887F1071046059F6F3C31\", \"message_type\": \"text\", \"message_content\": \"We are running low on options and room might get sold out tho\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T16:19:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"We are running low on options and room might get sold out tho\\\", \\\"Datetime\\\": 1755188396000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_E1EF4D484D7887F1071046059F6F3C31\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-14T16:19:56.369510\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15675,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-17T02:20:40",
+      "content": "Hello have you applied for iQ Sterling Court, London",
+      "source": "whatsapp",
+      "event_id": "7358202",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-17T02:20:40\", \"id\": 7358202, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_8810E0564F3A2BABA031E4731D912852\", \"message_type\": \"text\", \"message_content\": \"Hello have you applied for iQ Sterling Court, London\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-17T02:20:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello have you applied for iQ Sterling Court, London\\\", \\\"Datetime\\\": 1755397240000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_8810E0564F3A2BABA031E4731D912852\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-17T02:20:41.348287\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15676,
+      "lead_id": 584,
+      "event_type": "call",
+      "timestamp": "2025-08-17T12:04:00.847652",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7701759",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-17T12:04:00.847652\", \"id\": 7701759, \"duration\": \"0\", \"to_number\": \"447494665421\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15677,
+      "lead_id": 584,
+      "event_type": "call",
+      "timestamp": "2025-08-17T20:40:01.959183",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7703936",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-17T20:40:01.959183\", \"id\": 7703936, \"duration\": \"0\", \"to_number\": \"447494665421\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15678,
+      "lead_id": 584,
+      "event_type": "call",
+      "timestamp": "2025-08-18T08:02:52.964113",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7704915",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T08:02:52.964113\", \"id\": 7704915, \"duration\": \"0\", \"to_number\": \"447494665421\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15679,
+      "lead_id": 584,
+      "event_type": "call",
+      "timestamp": "2025-08-19T11:19:17.531771",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7714709",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T11:19:17.531771\", \"id\": 7714709, \"duration\": \"0\", \"to_number\": \"918099537848\", \"from_number\": \"447494665421\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15680,
+      "lead_id": 584,
+      "event_type": "call",
+      "timestamp": "2025-08-19T19:49:04.062610",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7719267",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T19:49:04.062610\", \"id\": 7719267, \"duration\": \"0\", \"to_number\": \"447494665421\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15681,
+      "lead_id": 584,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T16:45:15",
+      "content": "Hello we are processing your booking for Britannia Students Charles Morton Court, London for 4 weeks from 21 sep",
+      "source": "whatsapp",
+      "event_id": "8207866",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T16:45:15\", \"id\": 8207866, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447494665421\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447494665421@c.us_E5398F3B807B4EF03AE098D29C9B2EA0\", \"message_type\": \"text\", \"message_content\": \"Hello we are processing your booking for Britannia Students Charles Morton Court, London for 4 weeks from 21 sep\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T16:45:15.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello we are processing your booking for Britannia Students Charles Morton Court, London for 4 weeks from 21 sep\\\", \\\"Datetime\\\": 1756917915000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447494665421@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447494665421@c.us_E5398F3B807B4EF03AE098D29C9B2EA0\\\", \\\"ChannelName\\\": \\\"447494665421\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-09-03T16:45:16.031220\", \"direction\": \"outbound\", \"sbase_user_id\": 2428220, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447494665421\"}",
+      "created_at": "2025-11-18 13:33:37"
+    },
+    {
+      "id": 15682,
+      "lead_id": 584,
+      "event_type": "call",
+      "timestamp": "2025-09-06T15:13:26.497843",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7830251",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-06T15:13:26.497843\", \"id\": 7830251, \"duration\": \"162\", \"to_number\": \"447494665421\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/19d5ff76-16e5-48f1-af3a-43556b93d814.wav\"}",
+      "created_at": "2025-11-18 13:33:37"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 699,
+      "lead_id": 584,
+      "call_id": "7682886",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a1d13577-cbd8-4462-b034-30c1ede2e3d2.wav",
+      "transcript_text": "Speaker A: Hello? Hello? Yeah, hi. Am I speaking with Miriam? Yeah, hi, Miriam. How are you? I'm good, thank you. Miriam, can you see like we have proceed your booking for Susan Bancross? Yeah, yeah. You got the email, right? Yes. Perfect. Have you signed the agreement? Pardon? Have you signed the agreement? No, not yet. I'm going to. Right. All right. Once done, please send me the agreement or the screenshot of it over WhatsApp. Okay. Okay. All right. Perfect. Thank you.\nSpeaker B: No worries. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:33:45"
+    },
+    {
+      "id": 701,
+      "lead_id": 584,
+      "call_id": "7830251",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/19d5ff76-16e5-48f1-af3a-43556b93d814.wav",
+      "transcript_text": "Speaker A: Hello.\nSpeaker B: Hello.\nSpeaker A: Hi. I'm assuming Mariam.\nSpeaker B: Yes. This is Miriam.\nSpeaker A: Hi, Mariam. How are you?\nSpeaker B: Hi. I'm good, thank you. How are you?\nSpeaker A: I'm great. Mariam, this is Hussein. I just wanted to update you on your Britannia student, Charles Morton Court. You've applied for the accommodation, right?\nSpeaker B: Yeah.\nSpeaker A: For four weeks. You have applied. I can also say you have booked another accommodation with us, the Fusion one. Right. But you were applying for this for four weeks, correct?\nSpeaker B: Yes.\nSpeaker A: Unfortunately, I think we have already added you on that email. We have already CCed you on the email. That room is sold out. And we refunded you the £25 once.\nSpeaker B: Right, yeah, yeah, I saw that.\nSpeaker A: Then you again applied for the same. Oh.\nSpeaker B: Oh, yeah, yeah, yeah.\nSpeaker A: So the thing is, this room is sold out.\nSpeaker B: Okay, yeah, that's fine. No, I understood that when I saw the refund. I understood that, which is understandable. It's okay.\nSpeaker A: Understood, understood. So should I refund you the £25 or should I share. Share some other properties? I doubt there will be something available for four weeks. But do you want me to refund you the money?\nSpeaker B: I'm. I'm sure you've already refunded it.\nSpeaker A: What?\nSpeaker B: Have you already refunded the money?\nSpeaker A: Not yet. I just wanted to ask you, because the last time we refunded you, you applied for the same room again, right? And you paid for the same room again. So that's why I thought before refunding you, I wanted to have a clear communication with you.\nSpeaker B: Ah, okay. Okay. Yeah, yeah, yeah. I do appreciate the refund. Yeah.\nSpeaker A: Thank you so much, Mariam. I'll definitely refund you. And how's the preparation going on for Fusion?\nSpeaker B: For Fusion? Oh, no, I haven't. I haven't booked Fusion anymore, and I think instead I'm just gonna have to commute because I've been unlucky finding rooms. But that's okay, because I think for second year, I'll definitely.\nSpeaker A: Are you okay with, you know, checking some other option, like, may I help you with some other option, like longer stay?\nSpeaker B: Yeah, I have, but I think I don't. I don't really want to move out anymore, so.\nSpeaker A: Yeah, all right, understood. So you don't want any longer stay accommodation, right?\nSpeaker B: Yeah. No.\nSpeaker A: All right. Mariam, it was lovely talking with you. I wish I could have helped you more, but it was lovely talking with you. Have a great life. Take care.\nSpeaker B: Thank you so much. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:33:52"
+    }
+  ],
+  "summary": {
+    "id": 389,
+    "lead_id": 584,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Miriam Adebayo\", \"mobile\": [\"447494665421\"], \"email\": [\"morewaadebayo@gmail.com\"], \"whatsapp\": [\"447494665421\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": \"classic studio\", \"budget\": {\"max\": 339, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Fusion Brent Cross Town\", \"Susan Bancross\", \"Britannia Students Charles Morton Court\", \"iQ Sterling Court\"], \"rooms_considered\": [\"classic studio\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to attend viewing at Fusion Brent Cross Town on 2025-08-14 at 10:45 and provide feedback after the viewing\", \"due\": \"2025-08-14\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Whatsapp message on 2025-08-13 where Miriam booked viewing for 2025-08-14 10:45\"}, {\"type\": \"document_required\", \"description\": \"Student to upload required documents via the login link sent\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Whatsapp message on 2025-08-14 requesting document upload after sending login link\"}, {\"type\": \"document_required\", \"description\": \"Student to sign the booking agreement and send signed agreement or screenshot to agent via WhatsApp\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-08-14 and follow-up WhatsApp messages requesting signed agreement\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student to confirm receipt of signed agreement\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Whatsapp messages on 2025-08-14 asking if agreement is signed\"}, {\"type\": \"communication\", \"description\": \"Agent to refund \\u00a325 to student for sold out room at Britannia Students Charles Morton Court\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-06 discussing refund for sold out room\"}], \"last_agent_response\": \"Agent confirmed sending video of classic studio at Fusion Brent Cross Town and shared it with Miriam on 2025-08-13. Agent also sent login link for document upload on 2025-08-14 and requested signed agreement. Agent acknowledged refund discussion on 2025-09-06 call.\", \"suggested_next_step\": \"Agent to follow up with Miriam to confirm receipt of signed agreement and documents upload, and to process refund for sold out room.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Miriam Adebayo\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages using UK phone number +447494665421 and email morewaadebayo@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Classic studio\", \"budget_range\": \"\\u00a3339 weekly\", \"move_in_date\": \"Not explicitly mentioned; booking for 44 weeks lease ending 2026-07-10\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking processed for Susan Bancross and Britannia Students Charles Morton Court; agreement pending signature; some bookings cancelled or refunded; no current active booking confirmed\", \"documents_status\": \"Login link sent to upload documents; no confirmation of document upload\", \"payment_status\": \"Refund of \\u00a325 discussed and pending confirmation; no clear payment completion for Fusion Brent Cross Town\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (at least 12) and extensive WhatsApp message exchanges over August and September 2025\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-06 via call\", \"response_time\": \"Generally prompt WhatsApp responses within hours; calls mostly short or missed except two longer calls\", \"key_moments\": \"Initial contact and introduction by agent Mahmudul; student requested viewing; video shared of classic studio; viewing booked for 2025-08-14 at 10:45; booking processed for Susan Bancross; agreement not yet signed; refund discussed for sold-out room; student decided not to proceed with Fusion and to commute; booking processed for Britannia Students Charles Morton Court for 4 weeks from 21 Sep; room sold out and refund discussed; final call on 2025-09-06 confirmed no longer pursuing Fusion and no longer wanting longer stay accommodation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Fusion Brent Cross Town, Susan Bancross, Britannia Students Charles Morton Court, iQ Sterling Court\", \"viewings_scheduled\": \"Viewing booked for Fusion Brent Cross Town on 2025-08-14 at 10:45\", \"preferences_expressed\": \"Prefers classic studio; interested in Fusion Brent Cross Town initially; later decided not to book Fusion; open to commuting; no interest in longer stay accommodation\", \"offers_made\": \"Agent shared video of classic studio; login link sent for document upload; refund of \\u00a325 discussed due to sold-out rooms\"}, \"next_steps\": {\"immediate_actions\": \"Student to sign and send back the booking agreement; upload required documents via provided login link\", \"pending_items\": \"Signed agreement and document upload confirmation; refund processing for sold-out room\", \"follow_up_required\": \"Confirm receipt of signed agreement and documents; confirm refund completion; check if student requires further assistance or alternative options\", \"timeline\": \"Viewing on 2025-08-14; booking for Britannia Students Charles Morton Court from 21 Sep for 4 weeks; lease duration originally 44 weeks ending 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Polite, responsive, and cooperative; expresses understanding of booking challenges\", \"urgency_level\": \"Moderate urgency initially; student appears to have lowered urgency after booking difficulties\", \"complexity\": \"Moderate complexity due to multiple bookings, cancellations, refunds, and changing preferences\", \"special_considerations\": \"Student decided against longer stay and moving out; prefers to commute; limited availability of preferred rooms; agent should monitor for alternative options if student reconsiders\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Miriam Adebayo\", \"mobile\": [\"447494665421\"], \"email\": [\"morewaadebayo@gmail.com\"], \"whatsapp\": [\"447494665421\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": \"classic studio\", \"budget\": {\"max\": 339, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Fusion Brent Cross Town\", \"Susan Bancross\", \"Britannia Students Charles Morton Court\", \"iQ Sterling Court\"], \"rooms_considered\": [\"classic studio\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to attend viewing at Fusion Brent Cross Town on 2025-08-14 at 10:45 and provide feedback after the viewing\", \"due\": \"2025-08-14\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Whatsapp message on 2025-08-13 where Miriam booked viewing for 2025-08-14 10:45\"}, {\"type\": \"document_required\", \"description\": \"Student to upload required documents via the login link sent\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Whatsapp message on 2025-08-14 requesting document upload after sending login link\"}, {\"type\": \"document_required\", \"description\": \"Student to sign the booking agreement and send signed agreement or screenshot to agent via WhatsApp\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-08-14 and follow-up WhatsApp messages requesting signed agreement\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student to confirm receipt of signed agreement\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Whatsapp messages on 2025-08-14 asking if agreement is signed\"}, {\"type\": \"communication\", \"description\": \"Agent to refund \\u00a325 to student for sold out room at Britannia Students Charles Morton Court\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-06 discussing refund for sold out room\"}], \"last_agent_response\": \"Agent confirmed sending video of classic studio at Fusion Brent Cross Town and shared it with Miriam on 2025-08-13. Agent also sent login link for document upload on 2025-08-14 and requested signed agreement. Agent acknowledged refund discussion on 2025-09-06 call.\", \"suggested_next_step\": \"Agent to follow up with Miriam to confirm receipt of signed agreement and documents upload, and to process refund for sold out room.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Miriam Adebayo\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages using UK phone number +447494665421 and email morewaadebayo@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Classic studio\", \"budget_range\": \"\\u00a3339 weekly\", \"move_in_date\": \"Not explicitly mentioned; booking for 44 weeks lease ending 2026-07-10\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking processed for Susan Bancross and Britannia Students Charles Morton Court; agreement pending signature; some bookings cancelled or refunded; no current active booking confirmed\", \"documents_status\": \"Login link sent to upload documents; no confirmation of document upload\", \"payment_status\": \"Refund of \\u00a325 discussed and pending confirmation; no clear payment completion for Fusion Brent Cross Town\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (at least 12) and extensive WhatsApp message exchanges over August and September 2025\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-06 via call\", \"response_time\": \"Generally prompt WhatsApp responses within hours; calls mostly short or missed except two longer calls\", \"key_moments\": \"Initial contact and introduction by agent Mahmudul; student requested viewing; video shared of classic studio; viewing booked for 2025-08-14 at 10:45; booking processed for Susan Bancross; agreement not yet signed; refund discussed for sold-out room; student decided not to proceed with Fusion and to commute; booking processed for Britannia Students Charles Morton Court for 4 weeks from 21 Sep; room sold out and refund discussed; final call on 2025-09-06 confirmed no longer pursuing Fusion and no longer wanting longer stay accommodation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Fusion Brent Cross Town, Susan Bancross, Britannia Students Charles Morton Court, iQ Sterling Court\", \"viewings_scheduled\": \"Viewing booked for Fusion Brent Cross Town on 2025-08-14 at 10:45\", \"preferences_expressed\": \"Prefers classic studio; interested in Fusion Brent Cross Town initially; later decided not to book Fusion; open to commuting; no interest in longer stay accommodation\", \"offers_made\": \"Agent shared video of classic studio; login link sent for document upload; refund of \\u00a325 discussed due to sold-out rooms\"}, \"next_steps\": {\"immediate_actions\": \"Student to sign and send back the booking agreement; upload required documents via provided login link\", \"pending_items\": \"Signed agreement and document upload confirmation; refund processing for sold-out room\", \"follow_up_required\": \"Confirm receipt of signed agreement and documents; confirm refund completion; check if student requires further assistance or alternative options\", \"timeline\": \"Viewing on 2025-08-14; booking for Britannia Students Charles Morton Court from 21 Sep for 4 weeks; lease duration originally 44 weeks ending 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Polite, responsive, and cooperative; expresses understanding of booking challenges\", \"urgency_level\": \"Moderate urgency initially; student appears to have lowered urgency after booking difficulties\", \"complexity\": \"Moderate complexity due to multiple bookings, cancellations, refunds, and changing preferences\", \"special_considerations\": \"Student decided against longer stay and moving out; prefers to commute; limited availability of preferred rooms; agent should monitor for alternative options if student reconsiders\"}}}}}",
+    "created_at": "2025-11-18 13:34:06",
+    "updated_at": "2025-11-18T19:04:06.022060",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Miriam Adebayo",
+        "mobile": [
+          "447494665421"
+        ],
+        "email": [
+          "morewaadebayo@gmail.com"
+        ],
+        "whatsapp": [
+          "447494665421"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": "classic studio",
+        "budget": {
+          "max": 339,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Fusion Brent Cross Town",
+          "Susan Bancross",
+          "Britannia Students Charles Morton Court",
+          "iQ Sterling Court"
+        ],
+        "rooms_considered": [
+          "classic studio"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Student to attend viewing at Fusion Brent Cross Town on 2025-08-14 at 10:45 and provide feedback after the viewing",
+          "due": "2025-08-14",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Whatsapp message on 2025-08-13 where Miriam booked viewing for 2025-08-14 10:45"
+        },
+        {
+          "type": "document_required",
+          "description": "Student to upload required documents via the login link sent",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Whatsapp message on 2025-08-14 requesting document upload after sending login link"
+        },
+        {
+          "type": "document_required",
+          "description": "Student to sign the booking agreement and send signed agreement or screenshot to agent via WhatsApp",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Call on 2025-08-14 and follow-up WhatsApp messages requesting signed agreement"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student to confirm receipt of signed agreement",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Whatsapp messages on 2025-08-14 asking if agreement is signed"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to refund £25 to student for sold out room at Britannia Students Charles Morton Court",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-09-06 discussing refund for sold out room"
+        }
+      ],
+      "last_agent_response": "Agent confirmed sending video of classic studio at Fusion Brent Cross Town and shared it with Miriam on 2025-08-13. Agent also sent login link for document upload on 2025-08-14 and requested signed agreement. Agent acknowledged refund discussion on 2025-09-06 call.",
+      "suggested_next_step": "Agent to follow up with Miriam to confirm receipt of signed agreement and documents upload, and to process refund for sold out room."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Miriam Adebayo",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Contacted via phone calls and WhatsApp messages using UK phone number +447494665421 and email morewaadebayo@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Classic studio",
+            "budget_range": "£339 weekly",
+            "move_in_date": "Not explicitly mentioned; booking for 44 weeks lease ending 2026-07-10",
+            "lease_duration": "44 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking processed for Susan Bancross and Britannia Students Charles Morton Court; agreement pending signature; some bookings cancelled or refunded; no current active booking confirmed",
+            "documents_status": "Login link sent to upload documents; no confirmation of document upload",
+            "payment_status": "Refund of £25 discussed and pending confirmation; no clear payment completion for Fusion Brent Cross Town",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple calls (at least 12) and extensive WhatsApp message exchanges over August and September 2025",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-06 via call",
+            "response_time": "Generally prompt WhatsApp responses within hours; calls mostly short or missed except two longer calls",
+            "key_moments": "Initial contact and introduction by agent Mahmudul; student requested viewing; video shared of classic studio; viewing booked for 2025-08-14 at 10:45; booking processed for Susan Bancross; agreement not yet signed; refund discussed for sold-out room; student decided not to proceed with Fusion and to commute; booking processed for Britannia Students Charles Morton Court for 4 weeks from 21 Sep; room sold out and refund discussed; final call on 2025-09-06 confirmed no longer pursuing Fusion and no longer wanting longer stay accommodation"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Fusion Brent Cross Town, Susan Bancross, Britannia Students Charles Morton Court, iQ Sterling Court",
+            "viewings_scheduled": "Viewing booked for Fusion Brent Cross Town on 2025-08-14 at 10:45",
+            "preferences_expressed": "Prefers classic studio; interested in Fusion Brent Cross Town initially; later decided not to book Fusion; open to commuting; no interest in longer stay accommodation",
+            "offers_made": "Agent shared video of classic studio; login link sent for document upload; refund of £25 discussed due to sold-out rooms"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to sign and send back the booking agreement; upload required documents via provided login link",
+            "pending_items": "Signed agreement and document upload confirmation; refund processing for sold-out room",
+            "follow_up_required": "Confirm receipt of signed agreement and documents; confirm refund completion; check if student requires further assistance or alternative options",
+            "timeline": "Viewing on 2025-08-14; booking for Britannia Students Charles Morton Court from 21 Sep for 4 weeks; lease duration originally 44 weeks ending 2026-07-10"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, responsive, and cooperative; expresses understanding of booking challenges",
+            "urgency_level": "Moderate urgency initially; student appears to have lowered urgency after booking difficulties",
+            "complexity": "Moderate complexity due to multiple bookings, cancellations, refunds, and changing preferences",
+            "special_considerations": "Student decided against longer stay and moving out; prefers to commute; limited availability of preferred rooms; agent should monitor for alternative options if student reconsiders"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Miriam Adebayo",
+          "mobile": [
+            "447494665421"
+          ],
+          "email": [
+            "morewaadebayo@gmail.com"
+          ],
+          "whatsapp": [
+            "447494665421"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": "classic studio",
+          "budget": {
+            "max": 339,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Fusion Brent Cross Town",
+            "Susan Bancross",
+            "Britannia Students Charles Morton Court",
+            "iQ Sterling Court"
+          ],
+          "rooms_considered": [
+            "classic studio"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Student to attend viewing at Fusion Brent Cross Town on 2025-08-14 at 10:45 and provide feedback after the viewing",
+            "due": "2025-08-14",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Whatsapp message on 2025-08-13 where Miriam booked viewing for 2025-08-14 10:45"
+          },
+          {
+            "type": "document_required",
+            "description": "Student to upload required documents via the login link sent",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Whatsapp message on 2025-08-14 requesting document upload after sending login link"
+          },
+          {
+            "type": "document_required",
+            "description": "Student to sign the booking agreement and send signed agreement or screenshot to agent via WhatsApp",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Call on 2025-08-14 and follow-up WhatsApp messages requesting signed agreement"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student to confirm receipt of signed agreement",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Whatsapp messages on 2025-08-14 asking if agreement is signed"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to refund £25 to student for sold out room at Britannia Students Charles Morton Court",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-09-06 discussing refund for sold out room"
+          }
+        ],
+        "last_agent_response": "Agent confirmed sending video of classic studio at Fusion Brent Cross Town and shared it with Miriam on 2025-08-13. Agent also sent login link for document upload on 2025-08-14 and requested signed agreement. Agent acknowledged refund discussion on 2025-09-06 call.",
+        "suggested_next_step": "Agent to follow up with Miriam to confirm receipt of signed agreement and documents upload, and to process refund for sold out room."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Miriam Adebayo",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Contacted via phone calls and WhatsApp messages using UK phone number +447494665421 and email morewaadebayo@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Classic studio",
+              "budget_range": "£339 weekly",
+              "move_in_date": "Not explicitly mentioned; booking for 44 weeks lease ending 2026-07-10",
+              "lease_duration": "44 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking processed for Susan Bancross and Britannia Students Charles Morton Court; agreement pending signature; some bookings cancelled or refunded; no current active booking confirmed",
+              "documents_status": "Login link sent to upload documents; no confirmation of document upload",
+              "payment_status": "Refund of £25 discussed and pending confirmation; no clear payment completion for Fusion Brent Cross Town",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple calls (at least 12) and extensive WhatsApp message exchanges over August and September 2025",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-06 via call",
+              "response_time": "Generally prompt WhatsApp responses within hours; calls mostly short or missed except two longer calls",
+              "key_moments": "Initial contact and introduction by agent Mahmudul; student requested viewing; video shared of classic studio; viewing booked for 2025-08-14 at 10:45; booking processed for Susan Bancross; agreement not yet signed; refund discussed for sold-out room; student decided not to proceed with Fusion and to commute; booking processed for Britannia Students Charles Morton Court for 4 weeks from 21 Sep; room sold out and refund discussed; final call on 2025-09-06 confirmed no longer pursuing Fusion and no longer wanting longer stay accommodation"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Fusion Brent Cross Town, Susan Bancross, Britannia Students Charles Morton Court, iQ Sterling Court",
+              "viewings_scheduled": "Viewing booked for Fusion Brent Cross Town on 2025-08-14 at 10:45",
+              "preferences_expressed": "Prefers classic studio; interested in Fusion Brent Cross Town initially; later decided not to book Fusion; open to commuting; no interest in longer stay accommodation",
+              "offers_made": "Agent shared video of classic studio; login link sent for document upload; refund of £25 discussed due to sold-out rooms"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to sign and send back the booking agreement; upload required documents via provided login link",
+              "pending_items": "Signed agreement and document upload confirmation; refund processing for sold-out room",
+              "follow_up_required": "Confirm receipt of signed agreement and documents; confirm refund completion; check if student requires further assistance or alternative options",
+              "timeline": "Viewing on 2025-08-14; booking for Britannia Students Charles Morton Court from 21 Sep for 4 weeks; lease duration originally 44 weeks ending 2026-07-10"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, responsive, and cooperative; expresses understanding of booking challenges",
+              "urgency_level": "Moderate urgency initially; student appears to have lowered urgency after booking difficulties",
+              "complexity": "Moderate complexity due to multiple bookings, cancellations, refunds, and changing preferences",
+              "special_considerations": "Student decided against longer stay and moving out; prefers to commute; limited availability of preferred rooms; agent should monitor for alternative options if student reconsiders"
+            }
+          }
+        }
+      }
+    }
+  }
+}

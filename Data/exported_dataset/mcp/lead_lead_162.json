@@ -1,0 +1,333 @@
+{
+  "id": "lead_162",
+  "mobile_number": "447367474646",
+  "email": null,
+  "timeline": [
+    {
+      "id": 13906,
+      "lead_id": 162,
+      "event_type": "call",
+      "timestamp": "2025-09-10T16:27:55.515941",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7852696",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-10T16:27:55.515941\", \"id\": 7852696, \"duration\": \"10\", \"to_number\": \"447367474646\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/709f59d9-eb08-4c25-9757-144cf934daad.wav\"}",
+      "created_at": "2025-11-18 13:24:16"
+    },
+    {
+      "id": 13907,
+      "lead_id": 162,
+      "event_type": "call",
+      "timestamp": "2025-09-11T16:51:53.470521",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7859457",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-11T16:51:53.470521\", \"id\": 7859457, \"duration\": \"15\", \"to_number\": \"447367474646\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/1bf1cbaa-cb97-4c0a-b93d-5f416f7fe0eb.wav\"}",
+      "created_at": "2025-11-18 13:24:16"
+    },
+    {
+      "id": 13908,
+      "lead_id": 162,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3221828, \"user_name\": \"Theo Mikkelsen\", \"email\": \"mikktheo.2772@gmail.com\", \"phone\": \"447367474646\", \"lease_duration\": \"39 week\", \"move_out_date\": \"2026-06-12\", \"budget\": 277, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1953734}",
+      "created_at": "2025-11-18 13:24:16"
+    },
+    {
+      "id": 13909,
+      "lead_id": 162,
+      "event_type": "call",
+      "timestamp": "2025-09-13T16:34:41.147969",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7871471",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-13T16:34:41.147969\", \"id\": 7871471, \"duration\": \"3\", \"to_number\": \"447367474646\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/bb7a721d-c713-4093-803b-30edbaffba40.wav\"}",
+      "created_at": "2025-11-18 13:24:16"
+    },
+    {
+      "id": 13910,
+      "lead_id": 162,
+      "event_type": "call",
+      "timestamp": "2025-09-16T16:00:48.912834",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7885082",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-16T16:00:48.912834\", \"id\": 7885082, \"duration\": \"6\", \"to_number\": \"447367474646\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:24:16"
+    },
+    {
+      "id": 13911,
+      "lead_id": 162,
+      "event_type": "call",
+      "timestamp": "2025-09-18T15:33:40.442616",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7896590",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T15:33:40.442616\", \"id\": 7896590, \"duration\": \"3\", \"to_number\": \"447367474646\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/c887418a-59dc-4706-abcd-743315d1cba6.wav\"}",
+      "created_at": "2025-11-18 13:24:16"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 82,
+      "lead_id": 162,
+      "call_id": "7852696",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/709f59d9-eb08-4c25-9757-144cf934daad.wav",
+      "transcript_text": "Speaker A: Hello? Hello?",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:21:31"
+    },
+    {
+      "id": 84,
+      "lead_id": 162,
+      "call_id": "7859457",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/1bf1cbaa-cb97-4c0a-b93d-5f416f7fe0eb.wav",
+      "transcript_text": "Speaker A: Forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:21:35"
+    }
+  ],
+  "summary": {
+    "id": 362,
+    "lead_id": 162,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Theo Mikkelsen\", \"mobile\": [\"447367474646\"], \"email\": [\"mikktheo.2772@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": null, \"budget\": {\"max\": 277, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student (Theo Mikkelsen) between 2025-09-10 and 2025-09-18 to discuss accommodation options and details.\", \"suggested_next_step\": \"Agent should follow up with the student if no response has been received after the last call on 2025-09-18.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Theo Mikkelsen\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 447367474646; email mikktheo.2772@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3277 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"39 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and ongoing communication\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 calls between 2025-09-10 and 2025-09-18\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-18\", \"response_time\": \"Multiple calls spaced over several days indicating ongoing engagement\", \"key_moments\": \"Lead information received on 2025-09-13; multiple short calls following lead creation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1953734 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on lead details and confirm accommodation preferences\", \"pending_items\": \"Clarification on move-in date, room type, and special requirements\", \"follow_up_required\": \"Continue engagement via calls or email to progress booking\", \"timeline\": \"Lease ends on 2026-06-12; lease duration 39 weeks\"}, \"agent_notes\": {\"student_tone\": \"Engaged with multiple short calls indicating interest\", \"urgency_level\": \"Moderate; ongoing communication but no immediate deadlines mentioned\", \"complexity\": \"Simple; standard booking inquiry with basic details provided\", \"special_considerations\": \"None noted\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Theo Mikkelsen\", \"mobile\": [\"447367474646\"], \"email\": [\"mikktheo.2772@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": null, \"budget\": {\"max\": 277, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student (Theo Mikkelsen) between 2025-09-10 and 2025-09-18 to discuss accommodation options and details.\", \"suggested_next_step\": \"Agent should follow up with the student if no response has been received after the last call on 2025-09-18.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Theo Mikkelsen\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 447367474646; email mikktheo.2772@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3277 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"39 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and ongoing communication\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 calls between 2025-09-10 and 2025-09-18\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-18\", \"response_time\": \"Multiple calls spaced over several days indicating ongoing engagement\", \"key_moments\": \"Lead information received on 2025-09-13; multiple short calls following lead creation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1953734 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on lead details and confirm accommodation preferences\", \"pending_items\": \"Clarification on move-in date, room type, and special requirements\", \"follow_up_required\": \"Continue engagement via calls or email to progress booking\", \"timeline\": \"Lease ends on 2026-06-12; lease duration 39 weeks\"}, \"agent_notes\": {\"student_tone\": \"Engaged with multiple short calls indicating interest\", \"urgency_level\": \"Moderate; ongoing communication but no immediate deadlines mentioned\", \"complexity\": \"Simple; standard booking inquiry with basic details provided\", \"special_considerations\": \"None noted\"}}}}}",
+    "created_at": "2025-11-18 13:24:25",
+    "updated_at": "2025-11-18T18:54:25.616633",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Theo Mikkelsen",
+        "mobile": [
+          "447367474646"
+        ],
+        "email": [
+          "mikktheo.2772@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 39,
+        "room_type": null,
+        "budget": {
+          "max": 277,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Multiple calls were made to the student (Theo Mikkelsen) between 2025-09-10 and 2025-09-18 to discuss accommodation options and details.",
+      "suggested_next_step": "Agent should follow up with the student if no response has been received after the last call on 2025-09-18."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Theo Mikkelsen",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls to number 447367474646; email mikktheo.2772@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£277 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "39 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry and ongoing communication",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "6 calls between 2025-09-10 and 2025-09-18",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-09-18",
+            "response_time": "Multiple calls spaced over several days indicating ongoing engagement",
+            "key_moments": "Lead information received on 2025-09-13; multiple short calls following lead creation"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1953734 associated with lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up on lead details and confirm accommodation preferences",
+            "pending_items": "Clarification on move-in date, room type, and special requirements",
+            "follow_up_required": "Continue engagement via calls or email to progress booking",
+            "timeline": "Lease ends on 2026-06-12; lease duration 39 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "Engaged with multiple short calls indicating interest",
+            "urgency_level": "Moderate; ongoing communication but no immediate deadlines mentioned",
+            "complexity": "Simple; standard booking inquiry with basic details provided",
+            "special_considerations": "None noted"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Theo Mikkelsen",
+          "mobile": [
+            "447367474646"
+          ],
+          "email": [
+            "mikktheo.2772@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 39,
+          "room_type": null,
+          "budget": {
+            "max": 277,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Multiple calls were made to the student (Theo Mikkelsen) between 2025-09-10 and 2025-09-18 to discuss accommodation options and details.",
+        "suggested_next_step": "Agent should follow up with the student if no response has been received after the last call on 2025-09-18."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Theo Mikkelsen",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls to number 447367474646; email mikktheo.2772@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£277 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "39 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry and ongoing communication",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "6 calls between 2025-09-10 and 2025-09-18",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-09-18",
+              "response_time": "Multiple calls spaced over several days indicating ongoing engagement",
+              "key_moments": "Lead information received on 2025-09-13; multiple short calls following lead creation"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1953734 associated with lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up on lead details and confirm accommodation preferences",
+              "pending_items": "Clarification on move-in date, room type, and special requirements",
+              "follow_up_required": "Continue engagement via calls or email to progress booking",
+              "timeline": "Lease ends on 2026-06-12; lease duration 39 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "Engaged with multiple short calls indicating interest",
+              "urgency_level": "Moderate; ongoing communication but no immediate deadlines mentioned",
+              "complexity": "Simple; standard booking inquiry with basic details provided",
+              "special_considerations": "None noted"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "id": "lead_597",
+  "mobile_number": "447498743835",
+  "email": null,
+  "timeline": [
+    {
+      "id": 9171,
+      "lead_id": 597,
+      "event_type": "call",
+      "timestamp": "2025-09-09T10:44:59.301516",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7843272",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-09T10:44:59.301516\", \"id\": 7843272, \"duration\": \"7\", \"to_number\": \"447498743835\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/df2904e0-6c82-4ecd-91a4-261b0a05c497.wav\"}",
+      "created_at": "2025-11-18 11:40:46"
+    },
+    {
+      "id": 9172,
+      "lead_id": 597,
+      "event_type": "call",
+      "timestamp": "2025-09-11T14:59:33.930160",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7858676",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-11T14:59:33.930160\", \"id\": 7858676, \"duration\": \"6\", \"to_number\": \"447498743835\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8a40676f-ab9c-4d2b-a6cb-717b0a675b58.wav\"}",
+      "created_at": "2025-11-18 11:40:46"
+    },
+    {
+      "id": 9173,
+      "lead_id": 597,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3216383, \"user_name\": \"Cuba Dennis-Stephens\", \"email\": \"cubaclark4@yahoo.com\", \"phone\": \"447498743835\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 377, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 1648178}",
+      "created_at": "2025-11-18 11:40:46"
+    },
+    {
+      "id": 9174,
+      "lead_id": 597,
+      "event_type": "call",
+      "timestamp": "2025-09-13T16:27:46.689635",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7871437",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-13T16:27:46.689635\", \"id\": 7871437, \"duration\": \"0\", \"to_number\": \"447498743835\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:40:46"
+    },
+    {
+      "id": 9175,
+      "lead_id": 597,
+      "event_type": "call",
+      "timestamp": "2025-09-16T15:54:10.973368",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7885038",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-16T15:54:10.973368\", \"id\": 7885038, \"duration\": \"44\", \"to_number\": \"447498743835\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:40:46"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 471,
+      "lead_id": 597,
+      "call_id": "7843272",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/df2904e0-6c82-4ecd-91a4-261b0a05c497.wav",
+      "transcript_text": "Speaker A: Hello? Yes.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:40:51"
+    },
+    {
+      "id": 472,
+      "lead_id": 597,
+      "call_id": "7858676",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8a40676f-ab9c-4d2b-a6cb-717b0a675b58.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:40:55"
+    }
+  ],
+  "summary": {
+    "id": 244,
+    "lead_id": 597,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Cuba Dennis-Stephens\", \"mobile\": [\"447498743835\"], \"email\": [\"cubaclark4@yahoo.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 377, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with student Cuba Dennis-Stephens via call or message to discuss accommodation details and next steps.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple calls attempted on 2025-09-09, 2025-09-11 (voicemail), 2025-09-13, and 2025-09-16 with limited or no response\"}], \"last_agent_response\": \"Agent attempted multiple calls to student, including a voicemail on 2025-09-11, but has not received a response.\", \"suggested_next_step\": \"Agent to attempt another follow-up call or send a message to student within the next week to engage and confirm interest or next steps.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Cuba Dennis-Stephens\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 447498743835; email cubaclark4@yahoo.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3377 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with ongoing contact attempts\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 calls between 2025-09-09 and 2025-09-16\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-16\", \"response_time\": \"Varied; some calls answered, one went to voicemail, one call had zero duration\", \"key_moments\": \"Initial call answered on 2025-09-09; voicemail left on 2025-09-11; no answer on 2025-09-13 afternoon; longest call of 44 seconds on 2025-09-16\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1648178 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up via phone or email to engage student further\", \"pending_items\": \"Student response to recent calls\", \"follow_up_required\": \"Yes, to confirm interest and progress booking\", \"timeline\": \"Lease ends 2026-09-04; lease duration 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"Not enough information to determine tone\", \"urgency_level\": \"Unknown; repeated contact attempts suggest moderate urgency\", \"complexity\": \"Simple; standard inquiry with no special requirements noted\", \"special_considerations\": \"None noted\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Cuba Dennis-Stephens\", \"mobile\": [\"447498743835\"], \"email\": [\"cubaclark4@yahoo.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 377, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with student Cuba Dennis-Stephens via call or message to discuss accommodation details and next steps.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple calls attempted on 2025-09-09, 2025-09-11 (voicemail), 2025-09-13, and 2025-09-16 with limited or no response\"}], \"last_agent_response\": \"Agent attempted multiple calls to student, including a voicemail on 2025-09-11, but has not received a response.\", \"suggested_next_step\": \"Agent to attempt another follow-up call or send a message to student within the next week to engage and confirm interest or next steps.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Cuba Dennis-Stephens\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 447498743835; email cubaclark4@yahoo.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3377 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with ongoing contact attempts\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 calls between 2025-09-09 and 2025-09-16\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-16\", \"response_time\": \"Varied; some calls answered, one went to voicemail, one call had zero duration\", \"key_moments\": \"Initial call answered on 2025-09-09; voicemail left on 2025-09-11; no answer on 2025-09-13 afternoon; longest call of 44 seconds on 2025-09-16\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1648178 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up via phone or email to engage student further\", \"pending_items\": \"Student response to recent calls\", \"follow_up_required\": \"Yes, to confirm interest and progress booking\", \"timeline\": \"Lease ends 2026-09-04; lease duration 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"Not enough information to determine tone\", \"urgency_level\": \"Unknown; repeated contact attempts suggest moderate urgency\", \"complexity\": \"Simple; standard inquiry with no special requirements noted\", \"special_considerations\": \"None noted\"}}}}}",
+    "created_at": "2025-11-18 11:41:03",
+    "updated_at": "2025-11-18T17:11:03.407012",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Cuba Dennis-Stephens",
+        "mobile": [
+          "447498743835"
+        ],
+        "email": [
+          "cubaclark4@yahoo.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 377,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student Cuba Dennis-Stephens via call or message to discuss accommodation details and next steps.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple calls attempted on 2025-09-09, 2025-09-11 (voicemail), 2025-09-13, and 2025-09-16 with limited or no response"
+        }
+      ],
+      "last_agent_response": "Agent attempted multiple calls to student, including a voicemail on 2025-09-11, but has not received a response.",
+      "suggested_next_step": "Agent to attempt another follow-up call or send a message to student within the next week to engage and confirm interest or next steps."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Cuba Dennis-Stephens",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls to number 447498743835; email cubaclark4@yahoo.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£377 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry with ongoing contact attempts",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "5 calls between 2025-09-09 and 2025-09-16",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-09-16",
+            "response_time": "Varied; some calls answered, one went to voicemail, one call had zero duration",
+            "key_moments": "Initial call answered on 2025-09-09; voicemail left on 2025-09-11; no answer on 2025-09-13 afternoon; longest call of 44 seconds on 2025-09-16"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1648178 associated with lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to follow up via phone or email to engage student further",
+            "pending_items": "Student response to recent calls",
+            "follow_up_required": "Yes, to confirm interest and progress booking",
+            "timeline": "Lease ends 2026-09-04; lease duration 51 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "Not enough information to determine tone",
+            "urgency_level": "Unknown; repeated contact attempts suggest moderate urgency",
+            "complexity": "Simple; standard inquiry with no special requirements noted",
+            "special_considerations": "None noted"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Cuba Dennis-Stephens",
+          "mobile": [
+            "447498743835"
+          ],
+          "email": [
+            "cubaclark4@yahoo.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 377,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student Cuba Dennis-Stephens via call or message to discuss accommodation details and next steps.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple calls attempted on 2025-09-09, 2025-09-11 (voicemail), 2025-09-13, and 2025-09-16 with limited or no response"
+          }
+        ],
+        "last_agent_response": "Agent attempted multiple calls to student, including a voicemail on 2025-09-11, but has not received a response.",
+        "suggested_next_step": "Agent to attempt another follow-up call or send a message to student within the next week to engage and confirm interest or next steps."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Cuba Dennis-Stephens",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls to number 447498743835; email cubaclark4@yahoo.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£377 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry with ongoing contact attempts",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "5 calls between 2025-09-09 and 2025-09-16",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-09-16",
+              "response_time": "Varied; some calls answered, one went to voicemail, one call had zero duration",
+              "key_moments": "Initial call answered on 2025-09-09; voicemail left on 2025-09-11; no answer on 2025-09-13 afternoon; longest call of 44 seconds on 2025-09-16"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1648178 associated with lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to follow up via phone or email to engage student further",
+              "pending_items": "Student response to recent calls",
+              "follow_up_required": "Yes, to confirm interest and progress booking",
+              "timeline": "Lease ends 2026-09-04; lease duration 51 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "Not enough information to determine tone",
+              "urgency_level": "Unknown; repeated contact attempts suggest moderate urgency",
+              "complexity": "Simple; standard inquiry with no special requirements noted",
+              "special_considerations": "None noted"
+            }
+          }
+        }
+      }
+    }
+  }
+}

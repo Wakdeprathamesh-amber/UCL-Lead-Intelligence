@@ -1,0 +1,281 @@
+{
+  "id": "lead_111",
+  "mobile_number": "447941089616",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2034,
+      "lead_id": 111,
+      "event_type": "call",
+      "timestamp": "2025-09-09T12:07:09.779302",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7844143",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-09T12:07:09.779302\", \"id\": 7844143, \"duration\": \"98\", \"to_number\": \"447941089616\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/2341ecd8-7205-4d38-9fe4-3b709bab23a2.wav\"}",
+      "created_at": "2025-11-18 10:14:30"
+    },
+    {
+      "id": 2035,
+      "lead_id": 111,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3216720, \"user_name\": \"Aman Takk\", \"email\": \"amanstakk@gmail.com\", \"phone\": \"447941089616\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 295, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8218, \"inventory_id\": 138769}",
+      "created_at": "2025-11-18 10:14:30"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 52,
+      "lead_id": 111,
+      "call_id": "7844143",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/2341ecd8-7205-4d38-9fe4-3b709bab23a2.wav",
+      "transcript_text": "Speaker B: Hello.\nSpeaker A: Hello.\nSpeaker B: Hello.\nSpeaker A: Hello. Hi Aman, this is Arushi from Amber Student, the official accommodation partner for University College Bandon. How are you?\nSpeaker B: I'm okay, how are you?\nSpeaker A: I'm good as well. So I'll be helping you book your student accommodation near your university. I just wanted to know. This is September intake, right?\nSpeaker B: This is September intake.\nSpeaker A: Okay. And do you want the accommodation for 51 weeks which is almost a year?\nSpeaker B: No.\nSpeaker A: Then may I know the duration that you want it for?\nSpeaker B: I was looking for like 39. 40. 41.\nSpeaker A: Okay. So I think very few would be available for 39 weeks. Most of them would be available for 44 weeks, but still we'll have a look at the ones that are available for 39 as well. And do you have any room type preference? Like would you need a private room with the private washroom and shared kitchen which is the ensuite? Or you want all things private or are you comfortable in sharing the room or the washroom?\nSpeaker B: I'm sorry, just to. Just to cut you off. I've already found some accommodation so yeah, I won't be needing it anymore.\nSpeaker A: Okay, you've already found it. May I know how? Like did you book it on campus or have you booked a private accommodation?\nSpeaker B: It's on campus.\nSpeaker A: Okay, got it. Thank you so much. Thank you. Bye Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:14:39"
+    }
+  ],
+  "summary": {
+    "id": 48,
+    "lead_id": 111,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Aman Takk\", \"mobile\": [\"447941089616\"], \"email\": [\"amanstakk@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": null, \"budget\": {\"max\": 295, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College Bandon\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent acknowledged that the student, Aman, has already found and booked on-campus accommodation and therefore will not require assistance with booking accommodation.\", \"suggested_next_step\": \"No immediate action required as the student has confirmed accommodation booking; update records to reflect this status.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Aman Takk\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: +447941089616, Email: amanstakk@gmail.com\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College Bandon\", \"room_type\": \"Not explicitly confirmed; initial inquiry about ensuite or private/shared options\", \"budget_range\": \"\\u00a3295 per week\", \"move_in_date\": \"September 2025 intake\", \"lease_duration\": \"Initially interested in ~39-41 weeks; lead info states 51 weeks\", \"special_requirements\": \"None mentioned\"}, \"current_status\": {\"booking_stage\": \"Accommodation already booked on campus; no further booking needed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (1 call, 1 lead info record)\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-09-13 (lead info recorded)\", \"response_time\": \"Not enough data to determine\", \"key_moments\": \"Student confirmed September intake; initially inquired about lease duration and room types; later stated accommodation already secured on campus\"}, \"properties_discussed\": {\"properties_mentioned\": \"No specific properties discussed; general inquiry about availability for 39 weeks and room types\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Preference for shorter lease (~39-41 weeks); no need for accommodation after booking on campus\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action needed as student has secured accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"None\", \"timeline\": \"Move-in September 2025; lease end date 2026-09-04 per lead info\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear; direct in communication\", \"urgency_level\": \"Low, as accommodation already booked\", \"complexity\": \"Simple case; booking completed independently\", \"special_considerations\": \"Student booked on-campus accommodation; no further assistance required\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Aman Takk\", \"mobile\": [\"447941089616\"], \"email\": [\"amanstakk@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": null, \"budget\": {\"max\": 295, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College Bandon\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent acknowledged that the student, Aman, has already found and booked on-campus accommodation and therefore will not require assistance with booking accommodation.\", \"suggested_next_step\": \"No immediate action required as the student has confirmed accommodation booking; update records to reflect this status.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Aman Takk\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: +447941089616, Email: amanstakk@gmail.com\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College Bandon\", \"room_type\": \"Not explicitly confirmed; initial inquiry about ensuite or private/shared options\", \"budget_range\": \"\\u00a3295 per week\", \"move_in_date\": \"September 2025 intake\", \"lease_duration\": \"Initially interested in ~39-41 weeks; lead info states 51 weeks\", \"special_requirements\": \"None mentioned\"}, \"current_status\": {\"booking_stage\": \"Accommodation already booked on campus; no further booking needed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (1 call, 1 lead info record)\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-09-13 (lead info recorded)\", \"response_time\": \"Not enough data to determine\", \"key_moments\": \"Student confirmed September intake; initially inquired about lease duration and room types; later stated accommodation already secured on campus\"}, \"properties_discussed\": {\"properties_mentioned\": \"No specific properties discussed; general inquiry about availability for 39 weeks and room types\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Preference for shorter lease (~39-41 weeks); no need for accommodation after booking on campus\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action needed as student has secured accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"None\", \"timeline\": \"Move-in September 2025; lease end date 2026-09-04 per lead info\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear; direct in communication\", \"urgency_level\": \"Low, as accommodation already booked\", \"complexity\": \"Simple case; booking completed independently\", \"special_considerations\": \"Student booked on-campus accommodation; no further assistance required\"}}}}}",
+    "created_at": "2025-11-18 10:14:48",
+    "updated_at": "2025-11-18T15:44:48.178164",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Aman Takk",
+        "mobile": [
+          "447941089616"
+        ],
+        "email": [
+          "amanstakk@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 39,
+        "room_type": null,
+        "budget": {
+          "max": 295,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College Bandon",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent acknowledged that the student, Aman, has already found and booked on-campus accommodation and therefore will not require assistance with booking accommodation.",
+      "suggested_next_step": "No immediate action required as the student has confirmed accommodation booking; update records to reflect this status."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Aman Takk",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone: +447941089616, Email: amanstakk@gmail.com",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College Bandon",
+            "room_type": "Not explicitly confirmed; initial inquiry about ensuite or private/shared options",
+            "budget_range": "£295 per week",
+            "move_in_date": "September 2025 intake",
+            "lease_duration": "Initially interested in ~39-41 weeks; lead info states 51 weeks",
+            "special_requirements": "None mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Accommodation already booked on campus; no further booking needed",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 (1 call, 1 lead info record)",
+            "primary_channel": "Phone call",
+            "last_contact": "2025-09-13 (lead info recorded)",
+            "response_time": "Not enough data to determine",
+            "key_moments": "Student confirmed September intake; initially inquired about lease duration and room types; later stated accommodation already secured on campus"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "No specific properties discussed; general inquiry about availability for 39 weeks and room types",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "Preference for shorter lease (~39-41 weeks); no need for accommodation after booking on campus",
+            "offers_made": "None"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action needed as student has secured accommodation",
+            "pending_items": "None",
+            "follow_up_required": "None",
+            "timeline": "Move-in September 2025; lease end date 2026-09-04 per lead info"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and clear; direct in communication",
+            "urgency_level": "Low, as accommodation already booked",
+            "complexity": "Simple case; booking completed independently",
+            "special_considerations": "Student booked on-campus accommodation; no further assistance required"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Aman Takk",
+          "mobile": [
+            "447941089616"
+          ],
+          "email": [
+            "amanstakk@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 39,
+          "room_type": null,
+          "budget": {
+            "max": 295,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College Bandon",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent acknowledged that the student, Aman, has already found and booked on-campus accommodation and therefore will not require assistance with booking accommodation.",
+        "suggested_next_step": "No immediate action required as the student has confirmed accommodation booking; update records to reflect this status."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Aman Takk",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone: +447941089616, Email: amanstakk@gmail.com",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College Bandon",
+              "room_type": "Not explicitly confirmed; initial inquiry about ensuite or private/shared options",
+              "budget_range": "£295 per week",
+              "move_in_date": "September 2025 intake",
+              "lease_duration": "Initially interested in ~39-41 weeks; lead info states 51 weeks",
+              "special_requirements": "None mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Accommodation already booked on campus; no further booking needed",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 (1 call, 1 lead info record)",
+              "primary_channel": "Phone call",
+              "last_contact": "2025-09-13 (lead info recorded)",
+              "response_time": "Not enough data to determine",
+              "key_moments": "Student confirmed September intake; initially inquired about lease duration and room types; later stated accommodation already secured on campus"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "No specific properties discussed; general inquiry about availability for 39 weeks and room types",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "Preference for shorter lease (~39-41 weeks); no need for accommodation after booking on campus",
+              "offers_made": "None"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action needed as student has secured accommodation",
+              "pending_items": "None",
+              "follow_up_required": "None",
+              "timeline": "Move-in September 2025; lease end date 2026-09-04 per lead info"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and clear; direct in communication",
+              "urgency_level": "Low, as accommodation already booked",
+              "complexity": "Simple case; booking completed independently",
+              "special_considerations": "Student booked on-campus accommodation; no further assistance required"
+            }
+          }
+        }
+      }
+    }
+  }
+}

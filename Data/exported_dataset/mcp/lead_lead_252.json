@@ -1,0 +1,331 @@
+{
+  "id": "lead_252",
+  "mobile_number": "8613564904105",
+  "email": null,
+  "timeline": [
+    {
+      "id": 3559,
+      "lead_id": 252,
+      "event_type": "call",
+      "timestamp": "2025-08-19T03:25:58.325194",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7712326",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T03:25:58.325194\", \"id\": 7712326, \"duration\": \"135\", \"to_number\": \"8613564904105\", \"from_number\": \"447360546291\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e7d59a10-9f11-4afa-9e2b-7a5c11a4bff7.wav\"}",
+      "created_at": "2025-11-18 10:34:14"
+    },
+    {
+      "id": 3560,
+      "lead_id": 252,
+      "event_type": "lead_info",
+      "timestamp": "2025-11-18T16:04:14.133555",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-11-18T16:04:14.133555\", \"lead_id\": 3304329, \"user_name\": \"YIMING Chen\", \"email\": \"chenyiming3862@163.com\", \"phone\": \"8613564904105\", \"lease_duration\": \"\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3943}",
+      "created_at": "2025-11-18 10:34:14"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 158,
+      "lead_id": 252,
+      "call_id": "7712326",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e7d59a10-9f11-4afa-9e2b-7a5c11a4bff7.wav",
+      "transcript_text": "Speaker A: 哈 喽 同学 你好 你好 你好 这边.\nSpeaker B: 是 安波 学生 然后 看 同学 是 有 在 我们 网站 申请 伦敦 的.\nSpeaker A: 学生公寓 是 吧 啥 我 说 这边.\nSpeaker C: 是 安波 留学 安波 学生 然后 看 同学 你 是 有 在 我们 网站.\nSpeaker A: 申请 伦敦 的 学生公寓 是 吗 对.\nSpeaker D: 的 哦 主要 是 现在 是 这 样子 的 一个 流程 需要 我先 进行.\nSpeaker C: 这个 公司 的 信息 然后 帮 你 安排 地标 申请 只用 微信加 你 就可以看.\nSpeaker A: 一下 有 收到 吗 没有 我 是.\nSpeaker D: 用 企业 微信加 的 在 你 微信.\nSpeaker E: 的 服务 通知 里边 我 叫 薇.\nSpeaker A: 薇 可以 再 看 一下 我 现在.\nSpeaker F: 通讯录 这边 什么 都 没有.\nSpeaker E: 就是 微信 的 博客 再发 一个 吧 您 的.\nSpeaker D: 微信 名叫 苗优 是 吗 第二个 字 独小好 的 我 一会 发送 我 看 一下 有没有 那 我 先 我 等.\nSpeaker F: 一会 找 信号 好 的 地方 我.\nSpeaker G: 看 一下 有没有 好 的 然后 是.\nSpeaker F: 能 核实 一下 我订 的 宿舍 的.\nSpeaker D: 名字 吗 是 eastercenterhouse 伦东 的 然后.\nSpeaker C: 这边 就是 想 跟 您 确认 对.\nSpeaker D: 这家 信息 好 帮 你 是 要 offer 吗 是不是 的 就是 需要 你.\nSpeaker E: 的 信息 全部 确认 无误 然后 是 我 这边 后台 帮 你 递交 申请.\nSpeaker F: 的 那 好 那 好 那 我 现在 就是 我 等 会 找 找个 找个 先 跑 的 地方 加 一下 你 的 微信 因为 我 现在 地铁.\nSpeaker D: 里面 没有 网络 好 的 好 的.\nSpeaker H: 反正 我 是 有 发送 申请 通知 的 应该 在 你 微信 的 服务.\nSpeaker C: 通知 里边 就 有 可以 看到 我.\nSpeaker H: 叫 薇 薇 好 的 好 的.\nSpeaker G: 嗯 好 的 好好 谢谢 好 拜拜.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:34:29"
+    }
+  ],
+  "summary": {
+    "id": 105,
+    "lead_id": 252,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"YIMING Chen\", \"mobile\": [\"+8613564904105\"], \"email\": [\"chenyiming3862@163.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"eastercenterhouse\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Agent to send the WeChat contact information (WeChat ID: \\u82d7\\u4f18) to the student to enable application tracking and communication.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent mentions sending WeChat ID \\u82d7\\u4f18 to student for application updates.\"}, {\"type\": \"booking_action\", \"description\": \"Student to add the agent's WeChat contact (\\u82d7\\u4f18) once in an area with good signal to proceed with the accommodation application process.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Student states will find a place with good signal to add WeChat contact.\"}, {\"type\": \"verification\", \"description\": \"Agent to verify the student's accommodation booking details for Easter Center House in London and confirm all information is accurate before submitting the application.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent asks to confirm accommodation booking details and mentions submitting application after verification.\"}], \"last_agent_response\": \"Agent explained the process of adding WeChat contact (\\u82d7\\u4f18) for application tracking and offered to send the contact information again. Agent also requested confirmation of accommodation booking details before submitting the application.\", \"suggested_next_step\": \"Agent to send WeChat contact information (\\u82d7\\u4f18) to the student immediately to enable communication and application submission.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"YIMING Chen\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: +86 13564904105, Email: chenyiming3862@163.com, WeChat communication mentioned\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly basis\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and application submission stage\", \"documents_status\": \"Information confirmation pending for application submission\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (one phone call and one lead info record)\", \"primary_channel\": \"Phone call and WeChat mentioned\", \"last_contact\": \"2025-11-18 (lead info recorded)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Phone call to confirm application details and WeChat contact setup; lead info recorded with budget and location preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Easter Center House in London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not explicitly expressed beyond location and budget\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to add agent's WeChat for application updates\", \"pending_items\": \"Confirmation of application details and submission by agent\", \"follow_up_required\": \"Agent to verify receipt of WeChat contact and confirm application submission\", \"timeline\": \"Not mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and cooperative, willing to follow instructions\", \"urgency_level\": \"Moderate, student is actively engaging but waiting for network availability\", \"complexity\": \"Simple case, standard application process\", \"special_considerations\": \"Student has limited network access during call, prefers WeChat for communication\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"YIMING Chen\", \"mobile\": [\"+8613564904105\"], \"email\": [\"chenyiming3862@163.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"eastercenterhouse\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Agent to send the WeChat contact information (WeChat ID: \\u82d7\\u4f18) to the student to enable application tracking and communication.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent mentions sending WeChat ID \\u82d7\\u4f18 to student for application updates.\"}, {\"type\": \"booking_action\", \"description\": \"Student to add the agent's WeChat contact (\\u82d7\\u4f18) once in an area with good signal to proceed with the accommodation application process.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Student states will find a place with good signal to add WeChat contact.\"}, {\"type\": \"verification\", \"description\": \"Agent to verify the student's accommodation booking details for Easter Center House in London and confirm all information is accurate before submitting the application.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent asks to confirm accommodation booking details and mentions submitting application after verification.\"}], \"last_agent_response\": \"Agent explained the process of adding WeChat contact (\\u82d7\\u4f18) for application tracking and offered to send the contact information again. Agent also requested confirmation of accommodation booking details before submitting the application.\", \"suggested_next_step\": \"Agent to send WeChat contact information (\\u82d7\\u4f18) to the student immediately to enable communication and application submission.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"YIMING Chen\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: +86 13564904105, Email: chenyiming3862@163.com, WeChat communication mentioned\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly basis\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and application submission stage\", \"documents_status\": \"Information confirmation pending for application submission\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (one phone call and one lead info record)\", \"primary_channel\": \"Phone call and WeChat mentioned\", \"last_contact\": \"2025-11-18 (lead info recorded)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Phone call to confirm application details and WeChat contact setup; lead info recorded with budget and location preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Easter Center House in London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not explicitly expressed beyond location and budget\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to add agent's WeChat for application updates\", \"pending_items\": \"Confirmation of application details and submission by agent\", \"follow_up_required\": \"Agent to verify receipt of WeChat contact and confirm application submission\", \"timeline\": \"Not mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and cooperative, willing to follow instructions\", \"urgency_level\": \"Moderate, student is actively engaging but waiting for network availability\", \"complexity\": \"Simple case, standard application process\", \"special_considerations\": \"Student has limited network access during call, prefers WeChat for communication\"}}}}}",
+    "created_at": "2025-11-18 10:34:37",
+    "updated_at": "2025-11-18T16:04:37.658188",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "YIMING Chen",
+        "mobile": [
+          "+8613564904105"
+        ],
+        "email": [
+          "chenyiming3862@163.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "eastercenterhouse"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Agent to send the WeChat contact information (WeChat ID: 苗优) to the student to enable application tracking and communication.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent mentions sending WeChat ID 苗优 to student for application updates."
+        },
+        {
+          "type": "booking_action",
+          "description": "Student to add the agent's WeChat contact (苗优) once in an area with good signal to proceed with the accommodation application process.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Student states will find a place with good signal to add WeChat contact."
+        },
+        {
+          "type": "verification",
+          "description": "Agent to verify the student's accommodation booking details for Easter Center House in London and confirm all information is accurate before submitting the application.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent asks to confirm accommodation booking details and mentions submitting application after verification."
+        }
+      ],
+      "last_agent_response": "Agent explained the process of adding WeChat contact (苗优) for application tracking and offered to send the contact information again. Agent also requested confirmation of accommodation booking details before submitting the application.",
+      "suggested_next_step": "Agent to send WeChat contact information (苗优) to the student immediately to enable communication and application submission."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "YIMING Chen",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone: +86 13564904105, Email: chenyiming3862@163.com, WeChat communication mentioned",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "Budget in pounds, weekly basis",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry and application submission stage",
+            "documents_status": "Information confirmation pending for application submission",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 (one phone call and one lead info record)",
+            "primary_channel": "Phone call and WeChat mentioned",
+            "last_contact": "2025-11-18 (lead info recorded)",
+            "response_time": "Not mentioned",
+            "key_moments": "Phone call to confirm application details and WeChat contact setup; lead info recorded with budget and location preferences"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Easter Center House in London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not explicitly expressed beyond location and budget",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to add agent's WeChat for application updates",
+            "pending_items": "Confirmation of application details and submission by agent",
+            "follow_up_required": "Agent to verify receipt of WeChat contact and confirm application submission",
+            "timeline": "Not mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and cooperative, willing to follow instructions",
+            "urgency_level": "Moderate, student is actively engaging but waiting for network availability",
+            "complexity": "Simple case, standard application process",
+            "special_considerations": "Student has limited network access during call, prefers WeChat for communication"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "YIMING Chen",
+          "mobile": [
+            "+8613564904105"
+          ],
+          "email": [
+            "chenyiming3862@163.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "eastercenterhouse"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Agent to send the WeChat contact information (WeChat ID: 苗优) to the student to enable application tracking and communication.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent mentions sending WeChat ID 苗优 to student for application updates."
+          },
+          {
+            "type": "booking_action",
+            "description": "Student to add the agent's WeChat contact (苗优) once in an area with good signal to proceed with the accommodation application process.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Student states will find a place with good signal to add WeChat contact."
+          },
+          {
+            "type": "verification",
+            "description": "Agent to verify the student's accommodation booking details for Easter Center House in London and confirm all information is accurate before submitting the application.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent asks to confirm accommodation booking details and mentions submitting application after verification."
+          }
+        ],
+        "last_agent_response": "Agent explained the process of adding WeChat contact (苗优) for application tracking and offered to send the contact information again. Agent also requested confirmation of accommodation booking details before submitting the application.",
+        "suggested_next_step": "Agent to send WeChat contact information (苗优) to the student immediately to enable communication and application submission."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "YIMING Chen",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone: +86 13564904105, Email: chenyiming3862@163.com, WeChat communication mentioned",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "Budget in pounds, weekly basis",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry and application submission stage",
+              "documents_status": "Information confirmation pending for application submission",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 (one phone call and one lead info record)",
+              "primary_channel": "Phone call and WeChat mentioned",
+              "last_contact": "2025-11-18 (lead info recorded)",
+              "response_time": "Not mentioned",
+              "key_moments": "Phone call to confirm application details and WeChat contact setup; lead info recorded with budget and location preferences"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Easter Center House in London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not explicitly expressed beyond location and budget",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to add agent's WeChat for application updates",
+              "pending_items": "Confirmation of application details and submission by agent",
+              "follow_up_required": "Agent to verify receipt of WeChat contact and confirm application submission",
+              "timeline": "Not mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and cooperative, willing to follow instructions",
+              "urgency_level": "Moderate, student is actively engaging but waiting for network availability",
+              "complexity": "Simple case, standard application process",
+              "special_considerations": "Student has limited network access during call, prefers WeChat for communication"
+            }
+          }
+        }
+      }
+    }
+  }
+}

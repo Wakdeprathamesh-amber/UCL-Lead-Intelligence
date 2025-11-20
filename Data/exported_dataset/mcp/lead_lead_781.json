@@ -1,0 +1,311 @@
+{
+  "id": "lead_781",
+  "mobile_number": "8619858207446",
+  "email": null,
+  "timeline": [
+    {
+      "id": 12414,
+      "lead_id": 781,
+      "event_type": "lead_info",
+      "timestamp": "2025-07-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-07-09T00:00:00\", \"lead_id\": 3177662, \"user_name\": \"\\u865e\\u7b11\", \"email\": \"mttorpedo@outlook.com\", \"phone\": \"8619858207446\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-29\", \"budget\": 521, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1685401}",
+      "created_at": "2025-11-18 12:57:58"
+    },
+    {
+      "id": 12415,
+      "lead_id": 781,
+      "event_type": "call",
+      "timestamp": "2025-08-25T13:44:31.260564",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7755125",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-25T13:44:31.260564\", \"id\": 7755125, \"duration\": \"65\", \"to_number\": \"8619858207446\", \"from_number\": \"447360546291\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e49c9ad3-fdc0-4ee9-9957-352452714192.wav\"}",
+      "created_at": "2025-11-18 12:57:58"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 619,
+      "lead_id": 781,
+      "call_id": "7755125",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e49c9ad3-fdc0-4ee9-9957-352452714192.wav",
+      "transcript_text": "Speaker B: 喂 Hello.\nSpeaker A: 同学 你好 这边 是 AmberStudent 然后 看 同学 是 有 在 我们 网站 申请 了 伦敦 的 学生公寓 是.\nSpeaker B: 吧.\nSpeaker A: 需要 加 一下 微信 然后 我 给 你 对接 确认 一下 信息 然后 包括 同时 有些 填写 我 看 写 的 是 中文 的 就是 可能 需要 修改 一下.\nSpeaker B: 现在 是 Camden.\nSpeaker A: 的 学生公寓.\nSpeaker B: 对 的 行先.\nSpeaker A: 那 什么.\nSpeaker B: 联系 我用.\nSpeaker A: 别的 微信加 你 了 应该 在 你 微信 的 服务 通知 里边 可以 看 一下 有没有 我 叫 薇 薇 OK 我.\nSpeaker B: 觉得.\nSpeaker A: 微信 是 鱼类 的 对 吧 对行 那 我加 你 了 我们 就 微信 沟通 吧 OK 好 的 拜拜.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:58:29"
+    }
+  ],
+  "summary": {
+    "id": 324,
+    "lead_id": 781,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"\\u865e\\u7b11\", \"mobile\": [\"+8619858207446\"], \"email\": [\"mttorpedo@outlook.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 521, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Add the student on WeChat and confirm their details, including correcting any information written in Chinese.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent called student to add on WeChat and confirm information corrections.\"}, {\"type\": \"communication\", \"description\": \"Communicate with the student via WeChat to finalize and confirm all application details.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent mentioned continuing communication on WeChat for confirmation.\"}], \"last_agent_response\": \"Agent called the student, added them on WeChat, and requested to confirm and correct application information via WeChat.\", \"suggested_next_step\": \"Agent to follow up with the student on WeChat to confirm and finalize application details.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"\\u865e\\u7b11\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: +8619858207446, Email: mttorpedo@outlook.com, WeChat communication initiated\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically Camden area\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3521 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 51 weeks ending 2026-08-29\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial inquiry and information confirmation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call and WeChat communication initiated\", \"primary_channel\": \"Phone call followed by WeChat\", \"last_contact\": \"2025-08-25\", \"response_time\": \"Not enough data to determine\", \"key_moments\": \"Call to confirm application details and initiate WeChat communication for further coordination\"}, \"properties_discussed\": {\"properties_mentioned\": \"Student accommodation in Camden, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Prefers Camden area\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Continue communication via WeChat to confirm and correct application details\", \"pending_items\": \"Correction of application information (some written in Chinese)\", \"follow_up_required\": \"Agent to confirm details and assist student through WeChat\", \"timeline\": \"Lease ends 2026-08-29; no specific move-in date mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and cooperative\", \"urgency_level\": \"Moderate; initial stage of booking\", \"complexity\": \"Simple; mainly confirmation and information correction\", \"special_considerations\": \"Student prefers communication in Chinese; application details need correction\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"\\u865e\\u7b11\", \"mobile\": [\"+8619858207446\"], \"email\": [\"mttorpedo@outlook.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 521, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Add the student on WeChat and confirm their details, including correcting any information written in Chinese.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent called student to add on WeChat and confirm information corrections.\"}, {\"type\": \"communication\", \"description\": \"Communicate with the student via WeChat to finalize and confirm all application details.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent mentioned continuing communication on WeChat for confirmation.\"}], \"last_agent_response\": \"Agent called the student, added them on WeChat, and requested to confirm and correct application information via WeChat.\", \"suggested_next_step\": \"Agent to follow up with the student on WeChat to confirm and finalize application details.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"\\u865e\\u7b11\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: +8619858207446, Email: mttorpedo@outlook.com, WeChat communication initiated\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically Camden area\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3521 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 51 weeks ending 2026-08-29\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial inquiry and information confirmation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call and WeChat communication initiated\", \"primary_channel\": \"Phone call followed by WeChat\", \"last_contact\": \"2025-08-25\", \"response_time\": \"Not enough data to determine\", \"key_moments\": \"Call to confirm application details and initiate WeChat communication for further coordination\"}, \"properties_discussed\": {\"properties_mentioned\": \"Student accommodation in Camden, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Prefers Camden area\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Continue communication via WeChat to confirm and correct application details\", \"pending_items\": \"Correction of application information (some written in Chinese)\", \"follow_up_required\": \"Agent to confirm details and assist student through WeChat\", \"timeline\": \"Lease ends 2026-08-29; no specific move-in date mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and cooperative\", \"urgency_level\": \"Moderate; initial stage of booking\", \"complexity\": \"Simple; mainly confirmation and information correction\", \"special_considerations\": \"Student prefers communication in Chinese; application details need correction\"}}}}}",
+    "created_at": "2025-11-18 12:58:45",
+    "updated_at": "2025-11-18T18:28:45.137587",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "虞笑",
+        "mobile": [
+          "+8619858207446"
+        ],
+        "email": [
+          "mttorpedo@outlook.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 521,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Add the student on WeChat and confirm their details, including correcting any information written in Chinese.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent called student to add on WeChat and confirm information corrections."
+        },
+        {
+          "type": "communication",
+          "description": "Communicate with the student via WeChat to finalize and confirm all application details.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent mentioned continuing communication on WeChat for confirmation."
+        }
+      ],
+      "last_agent_response": "Agent called the student, added them on WeChat, and requested to confirm and correct application information via WeChat.",
+      "suggested_next_step": "Agent to follow up with the student on WeChat to confirm and finalize application details."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "虞笑",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone: +8619858207446, Email: mttorpedo@outlook.com, WeChat communication initiated",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, specifically Camden area",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£521 per week",
+            "move_in_date": "Not explicitly mentioned; lease duration 51 weeks ending 2026-08-29",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial inquiry and information confirmation",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1 call and WeChat communication initiated",
+            "primary_channel": "Phone call followed by WeChat",
+            "last_contact": "2025-08-25",
+            "response_time": "Not enough data to determine",
+            "key_moments": "Call to confirm application details and initiate WeChat communication for further coordination"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Student accommodation in Camden, London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Prefers Camden area",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Continue communication via WeChat to confirm and correct application details",
+            "pending_items": "Correction of application information (some written in Chinese)",
+            "follow_up_required": "Agent to confirm details and assist student through WeChat",
+            "timeline": "Lease ends 2026-08-29; no specific move-in date mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and cooperative",
+            "urgency_level": "Moderate; initial stage of booking",
+            "complexity": "Simple; mainly confirmation and information correction",
+            "special_considerations": "Student prefers communication in Chinese; application details need correction"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "虞笑",
+          "mobile": [
+            "+8619858207446"
+          ],
+          "email": [
+            "mttorpedo@outlook.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 521,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Add the student on WeChat and confirm their details, including correcting any information written in Chinese.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent called student to add on WeChat and confirm information corrections."
+          },
+          {
+            "type": "communication",
+            "description": "Communicate with the student via WeChat to finalize and confirm all application details.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent mentioned continuing communication on WeChat for confirmation."
+          }
+        ],
+        "last_agent_response": "Agent called the student, added them on WeChat, and requested to confirm and correct application information via WeChat.",
+        "suggested_next_step": "Agent to follow up with the student on WeChat to confirm and finalize application details."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "虞笑",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone: +8619858207446, Email: mttorpedo@outlook.com, WeChat communication initiated",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, specifically Camden area",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£521 per week",
+              "move_in_date": "Not explicitly mentioned; lease duration 51 weeks ending 2026-08-29",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial inquiry and information confirmation",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1 call and WeChat communication initiated",
+              "primary_channel": "Phone call followed by WeChat",
+              "last_contact": "2025-08-25",
+              "response_time": "Not enough data to determine",
+              "key_moments": "Call to confirm application details and initiate WeChat communication for further coordination"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Student accommodation in Camden, London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Prefers Camden area",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Continue communication via WeChat to confirm and correct application details",
+              "pending_items": "Correction of application information (some written in Chinese)",
+              "follow_up_required": "Agent to confirm details and assist student through WeChat",
+              "timeline": "Lease ends 2026-08-29; no specific move-in date mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and cooperative",
+              "urgency_level": "Moderate; initial stage of booking",
+              "complexity": "Simple; mainly confirmation and information correction",
+              "special_considerations": "Student prefers communication in Chinese; application details need correction"
+            }
+          }
+        }
+      }
+    }
+  }
+}

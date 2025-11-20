@@ -1,0 +1,335 @@
+{
+  "id": "lead_635",
+  "mobile_number": "919818013583",
+  "email": null,
+  "timeline": [
+    {
+      "id": 10383,
+      "lead_id": 635,
+      "event_type": "call",
+      "timestamp": "2025-08-14T13:18:05.533882",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7682536",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-14T13:18:05.533882\", \"id\": 7682536, \"duration\": \"190\", \"to_number\": \"919818013583\", \"from_number\": \"918035315580\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAZGMYYTK2YZK1ODM5YT/Recording/0a5b46b1-cbef-45b4-8cf3-c66fb380b018.wav\"}",
+      "created_at": "2025-11-18 11:57:51"
+    },
+    {
+      "id": 10384,
+      "lead_id": 635,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-20T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-20T00:00:00\", \"lead_id\": 3140694, \"user_name\": \"Shauryamoy Mitra\", \"email\": \"shauryamoymitra1@gmail.com\", \"phone\": \"919818013583\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-11\", \"budget\": 339, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 2071834}",
+      "created_at": "2025-11-18 11:57:51"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 513,
+      "lead_id": 635,
+      "call_id": "7682536",
+      "record_url": "https://media.plivo.com/v1/Account/MAZGMYYTK2YZK1ODM5YT/Recording/0a5b46b1-cbef-45b4-8cf3-c66fb380b018.wav",
+      "transcript_text": "Speaker A: Hello? Yes, am I speaking with Shori here? Yeah, sure, the site calling you from Ambit. Okay, sorry, I can see that you have. You have filled the booking form for Picardley Code London, correct?\nSpeaker B: Yeah, I just did it.\nSpeaker A: So, just wanted to confirm here. I was processing your application at the moment. Can you please confirm which payment method that you wish to proceed? Do you wish to pay the rent and installment or like you would be like to be the rent of it?\nSpeaker B: Which payment method I would like to pay for?\nSpeaker A: Yes, correct. And there are two payment methods. The one is upfront means that you have to pay for the whole 51 week. That's the first one. The second one is that you can pay the rent in four installments. So which method that you wish to proceed with?\nSpeaker B: Do I have to give you this information now? Because I'd like to confirm it with my parents first.\nSpeaker A: You can do one thing here. I mean. Okay, you can go for installment at the moment. Since there is no need of UK based guarantor, your father or mother, anyone can become the guarantor for you. Currently I'm able to see here that you have mentioned your parent means your, I guess your father as the emergency contact. So I can make you a guarantor as a woman and you can get four installment. And suppose if you later on decided that I will pay in full. All we have to do is we need to mail the property and you can make the payment in full. Because from changing installment to one time, that would be an easy thing. But suppose if we process this at one time and later on you wish to change it to installment, it can create a cost.\nSpeaker B: Okay, okay. So it can be changed later as well.\nSpeaker A: Absolutely. And also there is no extra charge for installment. And the property is offering you a £400 of cash back as well. So if we delay this, we might lose on this. Or even the room can sold out because I can see only three rooms are available at the moment. Okay, I'll.\nSpeaker B: Can we go ahead with the installments then? Yes.\nSpeaker A: Can you please mention your course? Which course are you going for?\nSpeaker B: Do you need the UCAS number or something?\nSpeaker A: No, no, just the course name can be the one.\nSpeaker B: Yeah, so it's Philosophy at UCL at uc. Philosophy at UCL University College London. Okay.\nSpeaker A: Oh yes we do. We are the official accommodation partner. I hope that you will be visiting. Yes, we are the official partners, not worry. Philosophy. The course name is. Is it? Okay. Philosophy at ucl. Product. Product. Product Installment. I have proceeded this application at the moment. Although I'll do one more thing here. I'll drop your WhatsApp text straight away so that if I need any information while processing your application, you can just share it to me over the WhatsApp chat works.\nSpeaker B: Okay? The one that just said hello. This one? Yes, yes, got it. So if you need any information from me, please let me know.\nSpeaker A: I'll drop it here.\nSpeaker B: Okay, Sure.\nSpeaker A: I will do that.\nSpeaker B: Okay, thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:58:04"
+    }
+  ],
+  "summary": {
+    "id": 262,
+    "lead_id": 635,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Shauryamoy Mitra\", \"mobile\": [\"919818013583\"], \"email\": [\"shauryamoymitra1@gmail.com\"], \"whatsapp\": [\"919818013583\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 339, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": \"yes_international\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Picardley Code London\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"\\u00a3400 cashback offer discussed\"}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"payment\", \"description\": \"Student to confirm payment method preference (installments or full payment) after discussing with parents.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call transcript where student wants to confirm payment method with parents before deciding.\"}, {\"type\": \"communication\", \"description\": \"Agent to send WhatsApp message to student for easier communication and information sharing during application processing.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent states they will drop WhatsApp text to student in call transcript.\"}, {\"type\": \"booking_action\", \"description\": \"Agent to process application with installment payment method as agreed with student.\", \"due\": \"immediate\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Agent confirms proceeding with installment payment method in call transcript.\"}], \"last_agent_response\": \"Agent confirmed proceeding with installment payment method, explained payment options, and sent WhatsApp contact for further communication.\", \"suggested_next_step\": \"Student to confirm final payment method after consulting parents and communicate decision to agent via WhatsApp.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Shauryamoy Mitra\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number +919818013583, email shauryamoymitra1@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3339 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 51 weeks with move-out date 2026-09-11\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"No UK-based guarantor required; parent can act as guarantor\"}, \"current_status\": {\"booking_stage\": \"Payment method selection completed; application processing underway\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Payment method chosen as four installments; option to switch to full payment later without extra charge\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (one call and one lead info record)\", \"primary_channel\": \"Phone call and WhatsApp\", \"last_contact\": \"2025-09-20 (lead info record date)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Student completed booking form; confirmed installment payment method after discussion; confirmed course and university; agent provided WhatsApp contact for further communication; student agreed to proceed with installments to secure room and cashback offer\"}, \"properties_discussed\": {\"properties_mentioned\": \"Picardley Code London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Preference for installment payment; no UK guarantor needed\", \"offers_made\": \"\\u00a3400 cashback offered for booking\"}, \"next_steps\": {\"immediate_actions\": \"Agent to continue processing application; communicate via WhatsApp for any further information\", \"pending_items\": \"None explicitly mentioned; student may confirm payment method with parents if needed\", \"follow_up_required\": \"Agent to follow up via WhatsApp if additional information is needed\", \"timeline\": \"Lease duration 51 weeks ending 2026-09-11; limited availability with only three rooms left\"}, \"agent_notes\": {\"student_tone\": \"Cooperative, cautious, seeks parental confirmation before finalizing payment method\", \"urgency_level\": \"Moderate urgency due to limited room availability and cashback offer\", \"complexity\": \"Standard booking with installment payment option; no UK guarantor needed\", \"special_considerations\": \"Student prefers installment payments but can switch to full payment later without penalty; parent acting as guarantor\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Shauryamoy Mitra\", \"mobile\": [\"919818013583\"], \"email\": [\"shauryamoymitra1@gmail.com\"], \"whatsapp\": [\"919818013583\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 339, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": \"yes_international\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Picardley Code London\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"\\u00a3400 cashback offer discussed\"}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"payment\", \"description\": \"Student to confirm payment method preference (installments or full payment) after discussing with parents.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call transcript where student wants to confirm payment method with parents before deciding.\"}, {\"type\": \"communication\", \"description\": \"Agent to send WhatsApp message to student for easier communication and information sharing during application processing.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent states they will drop WhatsApp text to student in call transcript.\"}, {\"type\": \"booking_action\", \"description\": \"Agent to process application with installment payment method as agreed with student.\", \"due\": \"immediate\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Agent confirms proceeding with installment payment method in call transcript.\"}], \"last_agent_response\": \"Agent confirmed proceeding with installment payment method, explained payment options, and sent WhatsApp contact for further communication.\", \"suggested_next_step\": \"Student to confirm final payment method after consulting parents and communicate decision to agent via WhatsApp.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Shauryamoy Mitra\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number +919818013583, email shauryamoymitra1@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3339 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 51 weeks with move-out date 2026-09-11\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"No UK-based guarantor required; parent can act as guarantor\"}, \"current_status\": {\"booking_stage\": \"Payment method selection completed; application processing underway\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Payment method chosen as four installments; option to switch to full payment later without extra charge\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (one call and one lead info record)\", \"primary_channel\": \"Phone call and WhatsApp\", \"last_contact\": \"2025-09-20 (lead info record date)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Student completed booking form; confirmed installment payment method after discussion; confirmed course and university; agent provided WhatsApp contact for further communication; student agreed to proceed with installments to secure room and cashback offer\"}, \"properties_discussed\": {\"properties_mentioned\": \"Picardley Code London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Preference for installment payment; no UK guarantor needed\", \"offers_made\": \"\\u00a3400 cashback offered for booking\"}, \"next_steps\": {\"immediate_actions\": \"Agent to continue processing application; communicate via WhatsApp for any further information\", \"pending_items\": \"None explicitly mentioned; student may confirm payment method with parents if needed\", \"follow_up_required\": \"Agent to follow up via WhatsApp if additional information is needed\", \"timeline\": \"Lease duration 51 weeks ending 2026-09-11; limited availability with only three rooms left\"}, \"agent_notes\": {\"student_tone\": \"Cooperative, cautious, seeks parental confirmation before finalizing payment method\", \"urgency_level\": \"Moderate urgency due to limited room availability and cashback offer\", \"complexity\": \"Standard booking with installment payment option; no UK guarantor needed\", \"special_considerations\": \"Student prefers installment payments but can switch to full payment later without penalty; parent acting as guarantor\"}}}}}",
+    "created_at": "2025-11-18 11:58:15",
+    "updated_at": "2025-11-18T17:28:15.467646",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Shauryamoy Mitra",
+        "mobile": [
+          "919818013583"
+        ],
+        "email": [
+          "shauryamoymitra1@gmail.com"
+        ],
+        "whatsapp": [
+          "919818013583"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 339,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": "installment",
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": "yes_international"
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Picardley Code London"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": "£400 cashback offer discussed"
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "payment",
+          "description": "Student to confirm payment method preference (installments or full payment) after discussing with parents.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Call transcript where student wants to confirm payment method with parents before deciding."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to send WhatsApp message to student for easier communication and information sharing during application processing.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent states they will drop WhatsApp text to student in call transcript."
+        },
+        {
+          "type": "booking_action",
+          "description": "Agent to process application with installment payment method as agreed with student.",
+          "due": "immediate",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "Agent confirms proceeding with installment payment method in call transcript."
+        }
+      ],
+      "last_agent_response": "Agent confirmed proceeding with installment payment method, explained payment options, and sent WhatsApp contact for further communication.",
+      "suggested_next_step": "Student to confirm final payment method after consulting parents and communicate decision to agent via WhatsApp."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Shauryamoy Mitra",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via number +919818013583, email shauryamoymitra1@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London (UCL)",
+            "room_type": "Not mentioned",
+            "budget_range": "£339 per week",
+            "move_in_date": "Not explicitly mentioned; lease duration 51 weeks with move-out date 2026-09-11",
+            "lease_duration": "51 weeks",
+            "special_requirements": "No UK-based guarantor required; parent can act as guarantor"
+          },
+          "current_status": {
+            "booking_stage": "Payment method selection completed; application processing underway",
+            "documents_status": "Not mentioned",
+            "payment_status": "Payment method chosen as four installments; option to switch to full payment later without extra charge",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 (one call and one lead info record)",
+            "primary_channel": "Phone call and WhatsApp",
+            "last_contact": "2025-09-20 (lead info record date)",
+            "response_time": "Not explicitly mentioned",
+            "key_moments": "Student completed booking form; confirmed installment payment method after discussion; confirmed course and university; agent provided WhatsApp contact for further communication; student agreed to proceed with installments to secure room and cashback offer"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Picardley Code London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Preference for installment payment; no UK guarantor needed",
+            "offers_made": "£400 cashback offered for booking"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to continue processing application; communicate via WhatsApp for any further information",
+            "pending_items": "None explicitly mentioned; student may confirm payment method with parents if needed",
+            "follow_up_required": "Agent to follow up via WhatsApp if additional information is needed",
+            "timeline": "Lease duration 51 weeks ending 2026-09-11; limited availability with only three rooms left"
+          },
+          "agent_notes": {
+            "student_tone": "Cooperative, cautious, seeks parental confirmation before finalizing payment method",
+            "urgency_level": "Moderate urgency due to limited room availability and cashback offer",
+            "complexity": "Standard booking with installment payment option; no UK guarantor needed",
+            "special_considerations": "Student prefers installment payments but can switch to full payment later without penalty; parent acting as guarantor"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Shauryamoy Mitra",
+          "mobile": [
+            "919818013583"
+          ],
+          "email": [
+            "shauryamoymitra1@gmail.com"
+          ],
+          "whatsapp": [
+            "919818013583"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 339,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": "installment",
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": "yes_international"
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Picardley Code London"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": "£400 cashback offer discussed"
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "payment",
+            "description": "Student to confirm payment method preference (installments or full payment) after discussing with parents.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Call transcript where student wants to confirm payment method with parents before deciding."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to send WhatsApp message to student for easier communication and information sharing during application processing.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent states they will drop WhatsApp text to student in call transcript."
+          },
+          {
+            "type": "booking_action",
+            "description": "Agent to process application with installment payment method as agreed with student.",
+            "due": "immediate",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "Agent confirms proceeding with installment payment method in call transcript."
+          }
+        ],
+        "last_agent_response": "Agent confirmed proceeding with installment payment method, explained payment options, and sent WhatsApp contact for further communication.",
+        "suggested_next_step": "Student to confirm final payment method after consulting parents and communicate decision to agent via WhatsApp."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Shauryamoy Mitra",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via number +919818013583, email shauryamoymitra1@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London (UCL)",
+              "room_type": "Not mentioned",
+              "budget_range": "£339 per week",
+              "move_in_date": "Not explicitly mentioned; lease duration 51 weeks with move-out date 2026-09-11",
+              "lease_duration": "51 weeks",
+              "special_requirements": "No UK-based guarantor required; parent can act as guarantor"
+            },
+            "current_status": {
+              "booking_stage": "Payment method selection completed; application processing underway",
+              "documents_status": "Not mentioned",
+              "payment_status": "Payment method chosen as four installments; option to switch to full payment later without extra charge",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 (one call and one lead info record)",
+              "primary_channel": "Phone call and WhatsApp",
+              "last_contact": "2025-09-20 (lead info record date)",
+              "response_time": "Not explicitly mentioned",
+              "key_moments": "Student completed booking form; confirmed installment payment method after discussion; confirmed course and university; agent provided WhatsApp contact for further communication; student agreed to proceed with installments to secure room and cashback offer"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Picardley Code London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Preference for installment payment; no UK guarantor needed",
+              "offers_made": "£400 cashback offered for booking"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to continue processing application; communicate via WhatsApp for any further information",
+              "pending_items": "None explicitly mentioned; student may confirm payment method with parents if needed",
+              "follow_up_required": "Agent to follow up via WhatsApp if additional information is needed",
+              "timeline": "Lease duration 51 weeks ending 2026-09-11; limited availability with only three rooms left"
+            },
+            "agent_notes": {
+              "student_tone": "Cooperative, cautious, seeks parental confirmation before finalizing payment method",
+              "urgency_level": "Moderate urgency due to limited room availability and cashback offer",
+              "complexity": "Standard booking with installment payment option; no UK guarantor needed",
+              "special_considerations": "Student prefers installment payments but can switch to full payment later without penalty; parent acting as guarantor"
+            }
+          }
+        }
+      }
+    }
+  }
+}

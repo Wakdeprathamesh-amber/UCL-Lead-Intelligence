@@ -1,0 +1,430 @@
+{
+  "id": "lead_238",
+  "mobile_number": "447389136227",
+  "email": null,
+  "timeline": [
+    {
+      "id": 3527,
+      "lead_id": 238,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3152517, \"user_name\": \"Jade Amponsah\", \"email\": \"jadeamponsah@gmail.com\", \"phone\": \"447389136227\", \"university\": \"university-college-london-1811059954160\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 292, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8860, \"inventory_id\": 2014867}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3528,
+      "lead_id": 238,
+      "event_type": "call",
+      "timestamp": "2025-08-18T09:57:17.109630",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7705906",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T09:57:17.109630\", \"id\": 7705906, \"duration\": \"0\", \"to_number\": \"447389136227\", \"from_number\": \"447446196852\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3529,
+      "lead_id": 238,
+      "event_type": "call",
+      "timestamp": "2025-08-18T09:57:42.873829",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7705909",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T09:57:42.873829\", \"id\": 7705909, \"duration\": \"0\", \"to_number\": \"447389136227\", \"from_number\": \"447446196852\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3530,
+      "lead_id": 238,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T10:01:24",
+      "content": "Hi Jade Amponsah, 😊\n\nI hope you're doing well! 🌟\n\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Chapter Kings Cross, London . 🏡\n\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! ✨\n\nThanks a lot! 😊\n\nBest regards,\nAshutush",
+      "source": "whatsapp",
+      "event_id": "7403965",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T10:01:24\", \"id\": 7403965, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447389136227\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447389136227@c.us_3FC66F3A8044A780D6E2\", \"message_type\": \"text\", \"message_content\": \"Hi Jade Amponsah, \\ud83d\\ude0a\\n\\nI hope you're doing well! \\ud83c\\udf1f\\n\\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Chapter Kings Cross, London . \\ud83c\\udfe1\\n\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\n\\nThanks a lot! \\ud83d\\ude0a\\n\\nBest regards,\\nAshutush\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T10:01:24.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Jade Amponsah, \\ud83d\\ude0a\\\\n\\\\nI hope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Chapter Kings Cross, London . \\ud83c\\udfe1\\\\n\\\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\\\n\\\\nThanks a lot! \\ud83d\\ude0a\\\\n\\\\nBest regards,\\\\nAshutush\\\", \\\"Datetime\\\": 1755511284000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447389136227@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447389136227@c.us_3FC66F3A8044A780D6E2\\\", \\\"ChannelName\\\": \\\"447389136227\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-18T10:01:24.831297\", \"direction\": \"outbound\", \"sbase_user_id\": 2440722, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447389136227\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3531,
+      "lead_id": 238,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T12:34:54",
+      "content": "Hi Jade Amponsah, 😊\nHope you're doing well! 🌟\n\nI’ve been trying to get in touch to discuss the move-in date and the booking process. 🏡✨\n\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! 📞😊",
+      "source": "whatsapp",
+      "event_id": "7538911",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T12:34:54\", \"id\": 7538911, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447389136227\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447389136227@c.us_3F79FEED54F5F8BD9025\", \"message_type\": \"text\", \"message_content\": \"Hi Jade Amponsah, \\ud83d\\ude0a\\nHope you're doing well! \\ud83c\\udf1f\\n\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\n\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T12:34:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Jade Amponsah, \\ud83d\\ude0a\\\\nHope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\\\n\\\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\\\", \\\"Datetime\\\": 1755693294000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447389136227@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447389136227@c.us_3F79FEED54F5F8BD9025\\\", \\\"ChannelName\\\": \\\"447389136227\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-20T12:34:54.689600\", \"direction\": \"outbound\", \"sbase_user_id\": 2440722, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447389136227\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3532,
+      "lead_id": 238,
+      "event_type": "call",
+      "timestamp": "2025-08-20T12:34:58.626177",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7723187",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T12:34:58.626177\", \"id\": 7723187, \"duration\": \"3\", \"to_number\": \"447389136227\", \"from_number\": \"447446196852\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/9f793cd6-d795-4038-b9b8-bccd854792d6.wav\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3533,
+      "lead_id": 238,
+      "event_type": "call",
+      "timestamp": "2025-08-22T12:17:34.490110",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7738343",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-22T12:17:34.490110\", \"id\": 7738343, \"duration\": \"4\", \"to_number\": \"447389136227\", \"from_number\": \"447446196852\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/009d5ec1-4085-4f0a-845d-68f974c4f4b6.wav\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3534,
+      "lead_id": 238,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T12:17:51",
+      "content": "Hello Jade Amponsah, 😊\n\nAny updates on when we can get your booking done? 🗓\n\nSince property availability is low and rents are also rising 📈, I am starting to feel a bit tense about this as well. 😬\n\nPlease let me know when we can proceed. Thank you! 🙏",
+      "source": "whatsapp",
+      "event_id": "7656980",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T12:17:51\", \"id\": 7656980, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447389136227\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447389136227@c.us_3F206F1B384BB06EDBBE\", \"message_type\": \"text\", \"message_content\": \"Hello Jade Amponsah, \\ud83d\\ude0a\\n\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\n\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\n\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T12:17:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hello Jade Amponsah, \\ud83d\\ude0a\\\\n\\\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\\\n\\\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\\\n\\\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\\\", \\\"Datetime\\\": 1755865071000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447389136227@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447389136227@c.us_3F206F1B384BB06EDBBE\\\", \\\"ChannelName\\\": \\\"447389136227\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-22T12:17:52.098056\", \"direction\": \"outbound\", \"sbase_user_id\": 2440722, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447389136227\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3535,
+      "lead_id": 238,
+      "event_type": "call",
+      "timestamp": "2025-08-26T16:52:31.322291",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7764512",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T16:52:31.322291\", \"id\": 7764512, \"duration\": \"2\", \"to_number\": \"447389136227\", \"from_number\": \"447446196852\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8d9890e8-9191-46f1-9224-8acce6d5b526.wav\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3536,
+      "lead_id": 238,
+      "event_type": "call",
+      "timestamp": "2025-08-26T16:52:50.389795",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7764514",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T16:52:50.389795\", \"id\": 7764514, \"duration\": \"0\", \"to_number\": \"447389136227\", \"from_number\": \"447446196852\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3537,
+      "lead_id": 238,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-26T16:53:25",
+      "content": "Hi Jade Amponsah, 😊\nHope you're doing well! 🌟\n\nThis is Ashutush from AmberStudent. I’ve been trying to get in touch with you to discuss your student accommodation search and booking! 🏡✨\n\nPlease let me know a convenient time for us to connect. Looking forward to assisting you! 😊",
+      "source": "whatsapp",
+      "event_id": "7839681",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-26T16:53:25\", \"id\": 7839681, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447389136227\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447389136227@c.us_3F2D2B78BDEEFF00E2DF\", \"message_type\": \"text\", \"message_content\": \"Hi Jade Amponsah, \\ud83d\\ude0a\\nHope you're doing well! \\ud83c\\udf1f\\n\\nThis is Ashutush from AmberStudent. I\\u2019ve been trying to get in touch with you to discuss your student accommodation search and booking! \\ud83c\\udfe1\\u2728\\n\\nPlease let me know a convenient time for us to connect. Looking forward to assisting you! \\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-26T16:53:25.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Jade Amponsah, \\ud83d\\ude0a\\\\nHope you're doing well! \\ud83c\\udf1f\\\\n\\\\nThis is Ashutush from AmberStudent. I\\u2019ve been trying to get in touch with you to discuss your student accommodation search and booking! \\ud83c\\udfe1\\u2728\\\\n\\\\nPlease let me know a convenient time for us to connect. Looking forward to assisting you! \\ud83d\\ude0a\\\", \\\"Datetime\\\": 1756227205000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447389136227@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447389136227@c.us_3F2D2B78BDEEFF00E2DF\\\", \\\"ChannelName\\\": \\\"447389136227\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-26T16:53:25.819468\", \"direction\": \"outbound\", \"sbase_user_id\": 2440722, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447389136227\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3538,
+      "lead_id": 238,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-26T16:56:44",
+      "content": "Good evening Ashutush! Thank you for getting in contact with me.\n\nUnfortunately, i have already booked a different accommodation as of yesterday, but i thank you for your assistance in my search. \n\nHave a good day, Jade Amponsah",
+      "source": "whatsapp",
+      "event_id": "7839896",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-26T16:56:44\", \"id\": 7839896, \"email\": \"\", \"from_number\": \"447389136227\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447389136227@c.us_3A689E027F5693DDCD89\", \"message_type\": \"text\", \"message_content\": \"Good evening Ashutush! Thank you for getting in contact with me.\\n\\nUnfortunately, i have already booked a different accommodation as of yesterday, but i thank you for your assistance in my search. \\n\\nHave a good day, Jade Amponsah\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447389136227@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-26T16:56:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Good evening Ashutush! Thank you for getting in contact with me.\\\\n\\\\nUnfortunately, i have already booked a different accommodation as of yesterday, but i thank you for your assistance in my search. \\\\n\\\\nHave a good day, Jade Amponsah\\\", \\\"Datetime\\\": 1756227404000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"447389136227@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447389136227@c.us_3A689E027F5693DDCD89\\\", \\\"ChannelName\\\": \\\"447389136227\\\", \\\"SentByNumber\\\": \\\"447389136227\\\", \\\"sentByUserId\\\": \\\"447389136227@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-26T16:56:45.307655\", \"direction\": \"inbound\", \"sbase_user_id\": 2440722, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447389136227\"}",
+      "created_at": "2025-11-18 10:30:49"
+    },
+    {
+      "id": 3539,
+      "lead_id": 238,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-26T16:57:10",
+      "content": "No worries and thanks for the update",
+      "source": "whatsapp",
+      "event_id": "7839927",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-26T16:57:10\", \"id\": 7839927, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447389136227\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447389136227@c.us_3F2B1D45B792021594BF\", \"message_type\": \"text\", \"message_content\": \"No worries and thanks for the update\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-26T16:57:10.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"No worries and thanks for the update\\\", \\\"Datetime\\\": 1756227430000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447389136227@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447389136227@c.us_3F2B1D45B792021594BF\\\", \\\"ChannelName\\\": \\\"447389136227\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-26T16:57:11.813632\", \"direction\": \"outbound\", \"sbase_user_id\": 2440722, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447389136227\"}",
+      "created_at": "2025-11-18 10:30:49"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 138,
+      "lead_id": 238,
+      "call_id": "7723187",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/9f793cd6-d795-4038-b9b8-bccd854792d6.wav",
+      "transcript_text": "Speaker A: To the EE voicemail. I'm sorry, but the.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:30:53"
+    },
+    {
+      "id": 140,
+      "lead_id": 238,
+      "call_id": "7738343",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/009d5ec1-4085-4f0a-845d-68f974c4f4b6.wav",
+      "transcript_text": "Speaker A: To the EE voicemail. I'm sorry, but the person you've called.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:31:01"
+    },
+    {
+      "id": 142,
+      "lead_id": 238,
+      "call_id": "7764512",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8d9890e8-9191-46f1-9224-8acce6d5b526.wav",
+      "transcript_text": "Speaker A: To the eeb.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:31:05"
+    }
+  ],
+  "summary": {
+    "id": 97,
+    "lead_id": 238,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Jade Amponsah\", \"mobile\": [\"447389136227\"], \"email\": [\"jadeamponsah@gmail.com\"], \"whatsapp\": [\"447389136227\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 292, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chapter Kings Cross\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Acknowledged student's update that they have already booked different accommodation and thanked them for the update.\", \"suggested_next_step\": \"No further action required as the student has confirmed booking elsewhere.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jade Amponsah\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages on mobile number 447389136227 and email jadeamponsah@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3292 weekly\", \"move_in_date\": \"Not explicitly mentioned; move-out date is 2026-08-28\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking completed with a different accommodation as of 2025-08-25 (day before last message)\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 8 outbound calls (mostly unanswered or voicemail) and 7 WhatsApp messages exchanged\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-08-26 via WhatsApp\", \"response_time\": \"Student responded promptly on 2025-08-26 after multiple unanswered calls and messages\", \"key_moments\": \"Initial outreach on 2025-08-18; multiple attempts to connect; student informed on 2025-08-26 that they booked different accommodation as of previous day\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Kings Cross, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not explicitly expressed\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has booked elsewhere\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Booking confirmed by student as of 2025-08-25\"}, \"agent_notes\": {\"student_tone\": \"Polite and appreciative in final message; no prior direct responses recorded\", \"urgency_level\": \"Initially moderate urgency from agent side; student did not engage until final message\", \"complexity\": \"Simple case; student decided to book elsewhere\", \"special_considerations\": \"Student informed agent promptly once booking was done elsewhere; no further assistance needed\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Jade Amponsah\", \"mobile\": [\"447389136227\"], \"email\": [\"jadeamponsah@gmail.com\"], \"whatsapp\": [\"447389136227\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 292, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chapter Kings Cross\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Acknowledged student's update that they have already booked different accommodation and thanked them for the update.\", \"suggested_next_step\": \"No further action required as the student has confirmed booking elsewhere.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jade Amponsah\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages on mobile number 447389136227 and email jadeamponsah@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3292 weekly\", \"move_in_date\": \"Not explicitly mentioned; move-out date is 2026-08-28\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking completed with a different accommodation as of 2025-08-25 (day before last message)\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 8 outbound calls (mostly unanswered or voicemail) and 7 WhatsApp messages exchanged\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-08-26 via WhatsApp\", \"response_time\": \"Student responded promptly on 2025-08-26 after multiple unanswered calls and messages\", \"key_moments\": \"Initial outreach on 2025-08-18; multiple attempts to connect; student informed on 2025-08-26 that they booked different accommodation as of previous day\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Kings Cross, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not explicitly expressed\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has booked elsewhere\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Booking confirmed by student as of 2025-08-25\"}, \"agent_notes\": {\"student_tone\": \"Polite and appreciative in final message; no prior direct responses recorded\", \"urgency_level\": \"Initially moderate urgency from agent side; student did not engage until final message\", \"complexity\": \"Simple case; student decided to book elsewhere\", \"special_considerations\": \"Student informed agent promptly once booking was done elsewhere; no further assistance needed\"}}}}}",
+    "created_at": "2025-11-18 10:31:14",
+    "updated_at": "2025-11-18T16:01:14.693979",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Jade Amponsah",
+        "mobile": [
+          "447389136227"
+        ],
+        "email": [
+          "jadeamponsah@gmail.com"
+        ],
+        "whatsapp": [
+          "447389136227"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 292,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Chapter Kings Cross"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Acknowledged student's update that they have already booked different accommodation and thanked them for the update.",
+      "suggested_next_step": "No further action required as the student has confirmed booking elsewhere."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Jade Amponsah",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Contacted via phone calls and WhatsApp messages on mobile number 447389136227 and email jadeamponsah@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£292 weekly",
+            "move_in_date": "Not explicitly mentioned; move-out date is 2026-08-28",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking completed with a different accommodation as of 2025-08-25 (day before last message)",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "At least 8 outbound calls (mostly unanswered or voicemail) and 7 WhatsApp messages exchanged",
+            "primary_channel": "WhatsApp messaging",
+            "last_contact": "2025-08-26 via WhatsApp",
+            "response_time": "Student responded promptly on 2025-08-26 after multiple unanswered calls and messages",
+            "key_moments": "Initial outreach on 2025-08-18; multiple attempts to connect; student informed on 2025-08-26 that they booked different accommodation as of previous day"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Chapter Kings Cross, London",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Not explicitly expressed",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action required as student has booked elsewhere",
+            "pending_items": "None",
+            "follow_up_required": "No follow-up needed unless student re-engages",
+            "timeline": "Booking confirmed by student as of 2025-08-25"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and appreciative in final message; no prior direct responses recorded",
+            "urgency_level": "Initially moderate urgency from agent side; student did not engage until final message",
+            "complexity": "Simple case; student decided to book elsewhere",
+            "special_considerations": "Student informed agent promptly once booking was done elsewhere; no further assistance needed"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Jade Amponsah",
+          "mobile": [
+            "447389136227"
+          ],
+          "email": [
+            "jadeamponsah@gmail.com"
+          ],
+          "whatsapp": [
+            "447389136227"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 292,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Chapter Kings Cross"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Acknowledged student's update that they have already booked different accommodation and thanked them for the update.",
+        "suggested_next_step": "No further action required as the student has confirmed booking elsewhere."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Jade Amponsah",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Contacted via phone calls and WhatsApp messages on mobile number 447389136227 and email jadeamponsah@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£292 weekly",
+              "move_in_date": "Not explicitly mentioned; move-out date is 2026-08-28",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking completed with a different accommodation as of 2025-08-25 (day before last message)",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "At least 8 outbound calls (mostly unanswered or voicemail) and 7 WhatsApp messages exchanged",
+              "primary_channel": "WhatsApp messaging",
+              "last_contact": "2025-08-26 via WhatsApp",
+              "response_time": "Student responded promptly on 2025-08-26 after multiple unanswered calls and messages",
+              "key_moments": "Initial outreach on 2025-08-18; multiple attempts to connect; student informed on 2025-08-26 that they booked different accommodation as of previous day"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Chapter Kings Cross, London",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Not explicitly expressed",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action required as student has booked elsewhere",
+              "pending_items": "None",
+              "follow_up_required": "No follow-up needed unless student re-engages",
+              "timeline": "Booking confirmed by student as of 2025-08-25"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and appreciative in final message; no prior direct responses recorded",
+              "urgency_level": "Initially moderate urgency from agent side; student did not engage until final message",
+              "complexity": "Simple case; student decided to book elsewhere",
+              "special_considerations": "Student informed agent promptly once booking was done elsewhere; no further assistance needed"
+            }
+          }
+        }
+      }
+    }
+  }
+}

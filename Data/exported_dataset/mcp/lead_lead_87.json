@@ -1,0 +1,421 @@
+{
+  "id": "lead_87",
+  "mobile_number": "447796567943",
+  "email": null,
+  "timeline": [
+    {
+      "id": 1726,
+      "lead_id": 87,
+      "event_type": "lead_info",
+      "timestamp": "2025-01-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-01-09T00:00:00\", \"lead_id\": 3194441, \"user_name\": \"Tsabih Algdal\", \"email\": \"tsabihahmed26@gmail.com\", \"phone\": \"447796567943\", \"lease_duration\": \"50 week\", \"move_out_date\": \"2026-08-16\", \"budget\": 296, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8860, \"inventory_id\": 1834102}",
+      "created_at": "2025-11-18 10:08:36"
+    },
+    {
+      "id": 1727,
+      "lead_id": 87,
+      "event_type": "call",
+      "timestamp": "2025-08-31T12:23:34.039676",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7792217",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-31T12:23:34.039676\", \"id\": 7792217, \"duration\": \"0\", \"to_number\": \"447796567943\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:08:36"
+    },
+    {
+      "id": 1728,
+      "lead_id": 87,
+      "event_type": "call",
+      "timestamp": "2025-08-31T12:23:45.397007",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7792219",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-31T12:23:45.397007\", \"id\": 7792219, \"duration\": \"0\", \"to_number\": \"447796567943\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:08:36"
+    },
+    {
+      "id": 1729,
+      "lead_id": 87,
+      "event_type": "call",
+      "timestamp": "2025-08-31T12:24:21.536659",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7792222",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-31T12:24:21.536659\", \"id\": 7792222, \"duration\": \"0\", \"to_number\": \"919365733044\", \"from_number\": \"447796567943\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:08:36"
+    },
+    {
+      "id": 1730,
+      "lead_id": 87,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-31T12:24:29",
+      "content": "Hi Tsabih Algdal, 😊\n\nI hope you're doing well! 🌟\n\nI'm Aashutush from the UCL Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Don Gratton House, London . 🏡\n\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! ✨\n\nThanks a lot! 😊\n\nBest regards,\nAshutush",
+      "source": "whatsapp",
+      "event_id": "8060146",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-31T12:24:29\", \"id\": 8060146, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447796567943\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447796567943@c.us_3FA308E7E797B406D42C\", \"message_type\": \"text\", \"message_content\": \"Hi Tsabih Algdal, \\ud83d\\ude0a\\n\\nI hope you're doing well! \\ud83c\\udf1f\\n\\nI'm Aashutush from the UCL Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Don Gratton House, London . \\ud83c\\udfe1\\n\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\n\\nThanks a lot! \\ud83d\\ude0a\\n\\nBest regards,\\nAshutush\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-31T12:24:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Tsabih Algdal, \\ud83d\\ude0a\\\\n\\\\nI hope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI'm Aashutush from the UCL Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Don Gratton House, London . \\ud83c\\udfe1\\\\n\\\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\\\n\\\\nThanks a lot! \\ud83d\\ude0a\\\\n\\\\nBest regards,\\\\nAshutush\\\", \\\"Datetime\\\": 1756643069000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447796567943@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447796567943@c.us_3FA308E7E797B406D42C\\\", \\\"ChannelName\\\": \\\"447796567943\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-31T12:24:29.998092\", \"direction\": \"outbound\", \"sbase_user_id\": 2471429.0, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447796567943\"}",
+      "created_at": "2025-11-18 10:08:36"
+    },
+    {
+      "id": 1731,
+      "lead_id": 87,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-31T12:31:43",
+      "content": "So do you like the property do you want me to process this booking",
+      "source": "whatsapp",
+      "event_id": "8060347",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-31T12:31:43\", \"id\": 8060347, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447796567943\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447796567943@c.us_3FDDA6C2AF587D4A0CD5\", \"message_type\": \"text\", \"message_content\": \"So do you like the property do you want me to process this booking\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-31T12:31:43.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"So do you like the property do you want me to process this booking\\\", \\\"Datetime\\\": 1756643503000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447796567943@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447796567943@c.us_3FDDA6C2AF587D4A0CD5\\\", \\\"ChannelName\\\": \\\"447796567943\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-31T12:31:44.428967\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447796567943\"}",
+      "created_at": "2025-11-18 10:08:36"
+    },
+    {
+      "id": 1732,
+      "lead_id": 87,
+      "event_type": "call",
+      "timestamp": "2025-09-02T15:03:04.126828",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7803905",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-02T15:03:04.126828\", \"id\": 7803905, \"duration\": \"0\", \"to_number\": \"447796567943\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:08:36"
+    },
+    {
+      "id": 1733,
+      "lead_id": 87,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-02T15:04:01",
+      "content": "Hi Tsabih Algdal, 😊\nHope you're doing well! 🌟\n\nI’ve been trying to get in touch to discuss the move-in date and the booking process. 🏡✨\n\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! 📞😊",
+      "source": "whatsapp",
+      "event_id": "8157389",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-02T15:04:01\", \"id\": 8157389, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447796567943\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447796567943@c.us_3F9D79BEA1FB5B5F4CD3\", \"message_type\": \"text\", \"message_content\": \"Hi Tsabih Algdal, \\ud83d\\ude0a\\nHope you're doing well! \\ud83c\\udf1f\\n\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\n\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-02T15:04:01.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Tsabih Algdal, \\ud83d\\ude0a\\\\nHope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\\\n\\\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\\\", \\\"Datetime\\\": 1756825441000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447796567943@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447796567943@c.us_3F9D79BEA1FB5B5F4CD3\\\", \\\"ChannelName\\\": \\\"447796567943\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-02T15:04:01.387239\", \"direction\": \"outbound\", \"sbase_user_id\": 2471429.0, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447796567943\"}",
+      "created_at": "2025-11-18 10:08:36"
+    },
+    {
+      "id": 1734,
+      "lead_id": 87,
+      "event_type": "call",
+      "timestamp": "2025-09-04T12:02:48.050322",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7815609",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-04T12:02:48.050322\", \"id\": 7815609, \"duration\": \"0\", \"to_number\": \"447796567943\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:08:36"
+    },
+    {
+      "id": 1735,
+      "lead_id": 87,
+      "event_type": "call",
+      "timestamp": "2025-09-04T12:02:59.581796",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7815611",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-04T12:02:59.581796\", \"id\": 7815611, \"duration\": \"0\", \"to_number\": \"447796567943\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:08:36"
+    },
+    {
+      "id": 1736,
+      "lead_id": 87,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T12:03:25",
+      "content": "Hello Tsabih Algdal 😊\n\nAny updates on when we can get your booking done? 🗓\n\nSince property availability is low and rents are also rising 📈, I am starting to feel a bit tense about this as well. 😬\n\nPlease let me know when we can proceed. Thank you! 🙏",
+      "source": "whatsapp",
+      "event_id": "8237775",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T12:03:25\", \"id\": 8237775, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447796567943\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447796567943@c.us_3F742C60D6ADFDDAC2AC\", \"message_type\": \"text\", \"message_content\": \"Hello Tsabih Algdal \\ud83d\\ude0a\\n\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\n\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\n\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T12:03:25.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hello Tsabih Algdal \\ud83d\\ude0a\\\\n\\\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\\\n\\\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\\\n\\\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\\\", \\\"Datetime\\\": 1756987405000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447796567943@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447796567943@c.us_3F742C60D6ADFDDAC2AC\\\", \\\"ChannelName\\\": \\\"447796567943\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-04T12:03:26.004416\", \"direction\": \"outbound\", \"sbase_user_id\": 2471429.0, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447796567943\"}",
+      "created_at": "2025-11-18 10:08:36"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 32,
+    "lead_id": 87,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Tsabih Algdal\", \"mobile\": [\"447796567943\"], \"email\": [\"tsabihahmed26@gmail.com\"], \"whatsapp\": [\"447796567943\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 50, \"room_type\": null, \"budget\": {\"max\": 296, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Don Gratton House\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to confirm if they like the property and want to proceed with the booking.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent's WhatsApp message on 2025-08-31 asking if student wants to process the booking.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with the student to discuss move-in date and booking process once student responds.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent's WhatsApp message on 2025-09-02 requesting a good time to connect about move-in date and booking.\"}, {\"type\": \"booking_action\", \"description\": \"Student to provide update on when the booking can be completed.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent's WhatsApp message on 2025-09-04 requesting update on booking timing.\"}], \"last_agent_response\": \"Agent sent WhatsApp message on 2025-09-04 asking for updates on when the booking can be done due to low availability and rising rents.\", \"suggested_next_step\": \"Wait for student to confirm interest in the property and provide update on booking timing.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Tsabih Algdal\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages on mobile number +447796567943\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3296 weekly\", \"move_in_date\": \"Not explicitly mentioned; move-out date is 16 August 2026\", \"lease_duration\": \"50 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage with agent prompting to proceed with booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 6 call attempts and 4 WhatsApp message packs\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-04T12:03:25\", \"response_time\": \"No responses from student recorded; agent initiated all contacts\", \"key_moments\": \"Agent reached out multiple times via calls and WhatsApp to discuss property Don Gratton House, booking process, and move-in date; agent expressed urgency due to low availability and rising rents\"}, \"properties_discussed\": {\"properties_mentioned\": \"Don Gratton House, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to confirm interest and provide booking confirmation\", \"pending_items\": \"Student response to agent's booking offer and move-in date discussion\", \"follow_up_required\": \"Agent to follow up on booking confirmation and move-in details\", \"timeline\": \"Urgency implied due to low property availability and rising rents; no explicit deadlines\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; no tone available\", \"urgency_level\": \"High urgency expressed by agent due to market conditions\", \"complexity\": \"Standard booking process; no special complexities noted\", \"special_considerations\": \"Agent is proactively trying to secure booking due to limited availability and rent increases\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Tsabih Algdal\", \"mobile\": [\"447796567943\"], \"email\": [\"tsabihahmed26@gmail.com\"], \"whatsapp\": [\"447796567943\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 50, \"room_type\": null, \"budget\": {\"max\": 296, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Don Gratton House\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to confirm if they like the property and want to proceed with the booking.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent's WhatsApp message on 2025-08-31 asking if student wants to process the booking.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with the student to discuss move-in date and booking process once student responds.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent's WhatsApp message on 2025-09-02 requesting a good time to connect about move-in date and booking.\"}, {\"type\": \"booking_action\", \"description\": \"Student to provide update on when the booking can be completed.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent's WhatsApp message on 2025-09-04 requesting update on booking timing.\"}], \"last_agent_response\": \"Agent sent WhatsApp message on 2025-09-04 asking for updates on when the booking can be done due to low availability and rising rents.\", \"suggested_next_step\": \"Wait for student to confirm interest in the property and provide update on booking timing.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Tsabih Algdal\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages on mobile number +447796567943\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3296 weekly\", \"move_in_date\": \"Not explicitly mentioned; move-out date is 16 August 2026\", \"lease_duration\": \"50 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage with agent prompting to proceed with booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 6 call attempts and 4 WhatsApp message packs\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-04T12:03:25\", \"response_time\": \"No responses from student recorded; agent initiated all contacts\", \"key_moments\": \"Agent reached out multiple times via calls and WhatsApp to discuss property Don Gratton House, booking process, and move-in date; agent expressed urgency due to low availability and rising rents\"}, \"properties_discussed\": {\"properties_mentioned\": \"Don Gratton House, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to confirm interest and provide booking confirmation\", \"pending_items\": \"Student response to agent's booking offer and move-in date discussion\", \"follow_up_required\": \"Agent to follow up on booking confirmation and move-in details\", \"timeline\": \"Urgency implied due to low property availability and rising rents; no explicit deadlines\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; no tone available\", \"urgency_level\": \"High urgency expressed by agent due to market conditions\", \"complexity\": \"Standard booking process; no special complexities noted\", \"special_considerations\": \"Agent is proactively trying to secure booking due to limited availability and rent increases\"}}}}}",
+    "created_at": "2025-11-18 10:08:46",
+    "updated_at": "2025-11-18T15:38:46.443468",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Tsabih Algdal",
+        "mobile": [
+          "447796567943"
+        ],
+        "email": [
+          "tsabihahmed26@gmail.com"
+        ],
+        "whatsapp": [
+          "447796567943"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 50,
+        "room_type": null,
+        "budget": {
+          "max": 296,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "UCL",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Don Gratton House"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Student to confirm if they like the property and want to proceed with the booking.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent's WhatsApp message on 2025-08-31 asking if student wants to process the booking."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with the student to discuss move-in date and booking process once student responds.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent's WhatsApp message on 2025-09-02 requesting a good time to connect about move-in date and booking."
+        },
+        {
+          "type": "booking_action",
+          "description": "Student to provide update on when the booking can be completed.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent's WhatsApp message on 2025-09-04 requesting update on booking timing."
+        }
+      ],
+      "last_agent_response": "Agent sent WhatsApp message on 2025-09-04 asking for updates on when the booking can be done due to low availability and rising rents.",
+      "suggested_next_step": "Wait for student to confirm interest in the property and provide update on booking timing."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Tsabih Algdal",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Contacted via phone calls and WhatsApp messages on mobile number +447796567943",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£296 weekly",
+            "move_in_date": "Not explicitly mentioned; move-out date is 16 August 2026",
+            "lease_duration": "50 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage with agent prompting to proceed with booking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "At least 6 call attempts and 4 WhatsApp message packs",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-04T12:03:25",
+            "response_time": "No responses from student recorded; agent initiated all contacts",
+            "key_moments": "Agent reached out multiple times via calls and WhatsApp to discuss property Don Gratton House, booking process, and move-in date; agent expressed urgency due to low availability and rising rents"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Don Gratton House, London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to confirm interest and provide booking confirmation",
+            "pending_items": "Student response to agent's booking offer and move-in date discussion",
+            "follow_up_required": "Agent to follow up on booking confirmation and move-in details",
+            "timeline": "Urgency implied due to low property availability and rising rents; no explicit deadlines"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication from student recorded; no tone available",
+            "urgency_level": "High urgency expressed by agent due to market conditions",
+            "complexity": "Standard booking process; no special complexities noted",
+            "special_considerations": "Agent is proactively trying to secure booking due to limited availability and rent increases"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Tsabih Algdal",
+          "mobile": [
+            "447796567943"
+          ],
+          "email": [
+            "tsabihahmed26@gmail.com"
+          ],
+          "whatsapp": [
+            "447796567943"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 50,
+          "room_type": null,
+          "budget": {
+            "max": 296,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "UCL",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Don Gratton House"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Student to confirm if they like the property and want to proceed with the booking.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent's WhatsApp message on 2025-08-31 asking if student wants to process the booking."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with the student to discuss move-in date and booking process once student responds.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent's WhatsApp message on 2025-09-02 requesting a good time to connect about move-in date and booking."
+          },
+          {
+            "type": "booking_action",
+            "description": "Student to provide update on when the booking can be completed.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent's WhatsApp message on 2025-09-04 requesting update on booking timing."
+          }
+        ],
+        "last_agent_response": "Agent sent WhatsApp message on 2025-09-04 asking for updates on when the booking can be done due to low availability and rising rents.",
+        "suggested_next_step": "Wait for student to confirm interest in the property and provide update on booking timing."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Tsabih Algdal",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Contacted via phone calls and WhatsApp messages on mobile number +447796567943",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£296 weekly",
+              "move_in_date": "Not explicitly mentioned; move-out date is 16 August 2026",
+              "lease_duration": "50 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage with agent prompting to proceed with booking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "At least 6 call attempts and 4 WhatsApp message packs",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-04T12:03:25",
+              "response_time": "No responses from student recorded; agent initiated all contacts",
+              "key_moments": "Agent reached out multiple times via calls and WhatsApp to discuss property Don Gratton House, booking process, and move-in date; agent expressed urgency due to low availability and rising rents"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Don Gratton House, London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to confirm interest and provide booking confirmation",
+              "pending_items": "Student response to agent's booking offer and move-in date discussion",
+              "follow_up_required": "Agent to follow up on booking confirmation and move-in details",
+              "timeline": "Urgency implied due to low property availability and rising rents; no explicit deadlines"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication from student recorded; no tone available",
+              "urgency_level": "High urgency expressed by agent due to market conditions",
+              "complexity": "Standard booking process; no special complexities noted",
+              "special_considerations": "Agent is proactively trying to secure booking due to limited availability and rent increases"
+            }
+          }
+        }
+      }
+    }
+  }
+}

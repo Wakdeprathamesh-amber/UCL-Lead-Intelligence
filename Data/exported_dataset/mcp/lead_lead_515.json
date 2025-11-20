@@ -1,0 +1,515 @@
+{
+  "id": "lead_515",
+  "mobile_number": "19525645437",
+  "email": null,
+  "timeline": [
+    {
+      "id": 15528,
+      "lead_id": 515,
+      "event_type": "call",
+      "timestamp": "2025-08-25T13:52:19.929089",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7755215",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-25T13:52:19.929089\", \"id\": 7755215, \"duration\": \"27\", \"to_number\": \"19525645437\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b1a86d75-a497-4f7c-964a-7f4deb0060dd.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15529,
+      "lead_id": 515,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T13:54:54",
+      "content": "Hi, this is Arushi from Amber, the official accommodation partner for University College London . I’m here to assist you in securing your ideal student accommodation. Let me know a convenient time for a call so we can discuss your options and move forward with your booking.\nLooking forward to hearing from you",
+      "source": "whatsapp",
+      "event_id": "7776348",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T13:54:54\", \"id\": 7776348, \"email\": \"\", \"from_number\": \"447446211508\", \"to_number\": \"19525645437\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_19525645437@c.us_3F0B630EF6EA55AD3EBB\", \"message_type\": \"text\", \"message_content\": \"Hi, this is Arushi from Amber, the official accommodation partner for University College London . I\\u2019m here to assist you in securing your ideal student accommodation. Let me know a convenient time for a call so we can discuss your options and move forward with your booking.\\nLooking forward to hearing from you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446211508@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T13:54:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446211508@c.us\\\", \\\"Message\\\": \\\"Hi, this is Arushi from Amber, the official accommodation partner for University College London . I\\u2019m here to assist you in securing your ideal student accommodation. Let me know a convenient time for a call so we can discuss your options and move forward with your booking.\\\\nLooking forward to hearing from you\\\", \\\"Datetime\\\": 1756130094000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"19525645437@c.us\\\", \\\"Sentbyid\\\": \\\"447446211508@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_19525645437@c.us_3F0B630EF6EA55AD3EBB\\\", \\\"ChannelName\\\": \\\"19525645437\\\", \\\"SentByNumber\\\": \\\"447446211508\\\", \\\"sentByUserId\\\": \\\"447446211508@c.us\\\", \\\"CreatedByUser\\\": \\\"447446211508\\\"}]}\", \"updated_at\": \"2025-08-25T13:54:54.688237\", \"direction\": \"outbound\", \"sbase_user_id\": 2457080, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8218, \"agent_number\": \"447446211508\", \"customer_number\": \"19525645437\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15530,
+      "lead_id": 515,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T13:57:27",
+      "content": "We received your booking form for the property Piccadilly Court, London, but unfortunately, it got completely sold out, so you will have to book another property now",
+      "source": "whatsapp",
+      "event_id": "7776493",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T13:57:27\", \"id\": 7776493, \"email\": \"\", \"from_number\": \"447446211508\", \"to_number\": \"19525645437\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_19525645437@c.us_3FECB5D1F8AEF3A88186\", \"message_type\": \"text\", \"message_content\": \"We received your booking form for the property Piccadilly Court, London, but unfortunately, it got completely sold out, so you will have to book another property now\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446211508@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T13:57:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446211508@c.us\\\", \\\"Message\\\": \\\"We received your booking form for the property Piccadilly Court, London, but unfortunately, it got completely sold out, so you will have to book another property now\\\", \\\"Datetime\\\": 1756130247000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"19525645437@c.us\\\", \\\"Sentbyid\\\": \\\"447446211508@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_19525645437@c.us_3FECB5D1F8AEF3A88186\\\", \\\"ChannelName\\\": \\\"19525645437\\\", \\\"SentByNumber\\\": \\\"447446211508\\\", \\\"sentByUserId\\\": \\\"447446211508@c.us\\\", \\\"CreatedByUser\\\": \\\"447446211508\\\"}]}\", \"updated_at\": \"2025-08-25T13:57:27.453199\", \"direction\": \"outbound\", \"sbase_user_id\": 2457080, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8218, \"agent_number\": \"447446211508\", \"customer_number\": \"19525645437\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15531,
+      "lead_id": 515,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T13:58:45",
+      "content": "Let me know if your budget, if you want me to share some property options with you",
+      "source": "whatsapp",
+      "event_id": "7776566",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T13:58:45\", \"id\": 7776566, \"email\": \"\", \"from_number\": \"447446211508\", \"to_number\": \"19525645437\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_19525645437@c.us_3FA2915580FF3696831E\", \"message_type\": \"text\", \"message_content\": \"Let me know if your budget, if you want me to share some property options with you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446211508@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T13:58:45.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446211508@c.us\\\", \\\"Message\\\": \\\"Let me know if your budget, if you want me to share some property options with you\\\", \\\"Datetime\\\": 1756130325000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"19525645437@c.us\\\", \\\"Sentbyid\\\": \\\"447446211508@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_19525645437@c.us_3FA2915580FF3696831E\\\", \\\"ChannelName\\\": \\\"19525645437\\\", \\\"SentByNumber\\\": \\\"447446211508\\\", \\\"sentByUserId\\\": \\\"447446211508@c.us\\\", \\\"CreatedByUser\\\": \\\"447446211508\\\"}]}\", \"updated_at\": \"2025-08-25T13:58:45.461408\", \"direction\": \"outbound\", \"sbase_user_id\": 2457080, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8218, \"agent_number\": \"447446211508\", \"customer_number\": \"19525645437\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15532,
+      "lead_id": 515,
+      "event_type": "call",
+      "timestamp": "2025-08-26T18:55:01.574041",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7765183",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T18:55:01.574041\", \"id\": 7765183, \"duration\": \"9\", \"to_number\": \"19525645437\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/2a2830d7-a703-403a-b23c-b57f73322903.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15533,
+      "lead_id": 515,
+      "event_type": "call",
+      "timestamp": "2025-08-30T15:11:54.425195",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7789784",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-30T15:11:54.425195\", \"id\": 7789784, \"duration\": \"32\", \"to_number\": \"19525645437\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/939d240a-5002-4c58-b772-c5681f883ff4.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15534,
+      "lead_id": 515,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-30T15:13:51",
+      "content": "Hello, please let me know your preference so i can share student accommodation options near your university. \n\nFor relevant suggestions for your accommodation search, please provide the following information-\n\n1)Your move-in date- This will help us check the availability.\n2) Your duration of stay- Some apartments allow booking only for the long term.\n3) Your room preference- Ensuite, Studio, Private room and Shared bathroom, Shared room and bathroom.\n4) Your budget- We want to suggest apartments only in your budget.",
+      "source": "whatsapp",
+      "event_id": "8039797",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-30T15:13:51\", \"id\": 8039797, \"email\": \"\", \"from_number\": \"447446211508\", \"to_number\": \"19525645437\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_19525645437@c.us_3F143DC4B47BB5316FEE\", \"message_type\": \"text\", \"message_content\": \"Hello, please let me know your preference so i can share student accommodation options near your university. \\n\\nFor relevant suggestions for your accommodation search, please provide the following information-\\n\\n1)Your move-in date- This will help us check the availability.\\n2) Your duration of stay- Some apartments allow booking only for the long term.\\n3) Your room preference- Ensuite, Studio, Private room and Shared bathroom, Shared room and bathroom.\\n4) Your budget- We want to suggest apartments only in your budget.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446211508@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-30T15:13:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446211508@c.us\\\", \\\"Message\\\": \\\"Hello, please let me know your preference so i can share student accommodation options near your university. \\\\n\\\\nFor relevant suggestions for your accommodation search, please provide the following information-\\\\n\\\\n1)Your move-in date- This will help us check the availability.\\\\n2) Your duration of stay- Some apartments allow booking only for the long term.\\\\n3) Your room preference- Ensuite, Studio, Private room and Shared bathroom, Shared room and bathroom.\\\\n4) Your budget- We want to suggest apartments only in your budget.\\\", \\\"Datetime\\\": 1756566831000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"19525645437@c.us\\\", \\\"Sentbyid\\\": \\\"447446211508@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_19525645437@c.us_3F143DC4B47BB5316FEE\\\", \\\"ChannelName\\\": \\\"19525645437\\\", \\\"SentByNumber\\\": \\\"447446211508\\\", \\\"sentByUserId\\\": \\\"447446211508@c.us\\\", \\\"CreatedByUser\\\": \\\"447446211508\\\"}]}\", \"updated_at\": \"2025-08-30T15:13:52.231211\", \"direction\": \"outbound\", \"sbase_user_id\": 2457080, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8218, \"agent_number\": \"447446211508\", \"customer_number\": \"19525645437\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15535,
+      "lead_id": 515,
+      "event_type": "call",
+      "timestamp": "2025-09-01T15:24:24.090841",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7797681",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T15:24:24.090841\", \"id\": 7797681, \"duration\": \"12\", \"to_number\": \"19525645437\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f8082ff5-1537-4e18-be83-c6f33d4eec83.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15536,
+      "lead_id": 515,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-01T15:25:29",
+      "content": "Any updates here?",
+      "source": "whatsapp",
+      "event_id": "8107528",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-01T15:25:29\", \"id\": 8107528, \"email\": \"\", \"from_number\": \"447446211508\", \"to_number\": \"19525645437\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_19525645437@c.us_3F33F2A724664CE0E17E\", \"message_type\": \"text\", \"message_content\": \"Any updates here?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446211508@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-01T15:25:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446211508@c.us\\\", \\\"Message\\\": \\\"Any updates here?\\\", \\\"Datetime\\\": 1756740329000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"19525645437@c.us\\\", \\\"Sentbyid\\\": \\\"447446211508@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_19525645437@c.us_3F33F2A724664CE0E17E\\\", \\\"ChannelName\\\": \\\"19525645437\\\", \\\"SentByNumber\\\": \\\"447446211508\\\", \\\"sentByUserId\\\": \\\"447446211508@c.us\\\", \\\"CreatedByUser\\\": \\\"447446211508\\\"}]}\", \"updated_at\": \"2025-09-01T15:25:30.152132\", \"direction\": \"outbound\", \"sbase_user_id\": 2457080, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8218, \"agent_number\": \"447446211508\", \"customer_number\": \"19525645437\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15537,
+      "lead_id": 515,
+      "event_type": "call",
+      "timestamp": "2025-09-04T19:40:39.477276",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7818796",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-04T19:40:39.477276\", \"id\": 7818796, \"duration\": \"5\", \"to_number\": \"19525645437\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/34bcf74b-106b-4c6b-8678-6547e7a00b2d.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15538,
+      "lead_id": 515,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T19:41:09",
+      "content": "Hey, hope you’re doing well!\nJust wanted to check in, have you booked your accommodation yet, or are you still exploring options?\nIf you’re still looking, feel free to let me know your preferences so I can share some great property options and help you find the perfect student accommodation.",
+      "source": "whatsapp",
+      "event_id": "8258094",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T19:41:09\", \"id\": 8258094, \"email\": \"\", \"from_number\": \"447446211508\", \"to_number\": \"19525645437\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_19525645437@c.us_3F6183C31B05E35A29A3\", \"message_type\": \"text\", \"message_content\": \"Hey, hope you\\u2019re doing well!\\nJust wanted to check in, have you booked your accommodation yet, or are you still exploring options?\\nIf you\\u2019re still looking, feel free to let me know your preferences so I can share some great property options and help you find the perfect student accommodation.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446211508@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T19:41:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446211508@c.us\\\", \\\"Message\\\": \\\"Hey, hope you\\u2019re doing well!\\\\nJust wanted to check in, have you booked your accommodation yet, or are you still exploring options?\\\\nIf you\\u2019re still looking, feel free to let me know your preferences so I can share some great property options and help you find the perfect student accommodation.\\\", \\\"Datetime\\\": 1757014869000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"19525645437@c.us\\\", \\\"Sentbyid\\\": \\\"447446211508@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_19525645437@c.us_3F6183C31B05E35A29A3\\\", \\\"ChannelName\\\": \\\"19525645437\\\", \\\"SentByNumber\\\": \\\"447446211508\\\", \\\"sentByUserId\\\": \\\"447446211508@c.us\\\", \\\"CreatedByUser\\\": \\\"447446211508\\\"}]}\", \"updated_at\": \"2025-09-04T19:41:09.815913\", \"direction\": \"outbound\", \"sbase_user_id\": 2457080, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8218, \"agent_number\": \"447446211508\", \"customer_number\": \"19525645437\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15539,
+      "lead_id": 515,
+      "event_type": "call",
+      "timestamp": "2025-09-06T13:06:15.604395",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7829417",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-06T13:06:15.604395\", \"id\": 7829417, \"duration\": \"3\", \"to_number\": \"19525645437\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e8c6f161-881d-4af1-a0aa-5f9a30fbd05c.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15540,
+      "lead_id": 515,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-06T13:06:44",
+      "content": "Hi,\nHope you're doing well 🙌🏻\n\nI have been trying to contact you about your accommodation booking in UK but have not received any response. If you ever need any assistance, feel free to reach out on WhatsApp.\n\nThankyou:)",
+      "source": "whatsapp",
+      "event_id": "8322642",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-06T13:06:44\", \"id\": 8322642, \"email\": \"\", \"from_number\": \"447446211508\", \"to_number\": \"19525645437\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_19525645437@c.us_3F08B71013C2DA75FA20\", \"message_type\": \"text\", \"message_content\": \"Hi,\\nHope you're doing well \\ud83d\\ude4c\\ud83c\\udffb\\n\\nI have been trying to contact you about your accommodation booking in UK but have not received any response. If you ever need any assistance, feel free to reach out on WhatsApp.\\n\\nThankyou:)\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446211508@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-06T13:06:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446211508@c.us\\\", \\\"Message\\\": \\\"Hi,\\\\nHope you're doing well \\ud83d\\ude4c\\ud83c\\udffb\\\\n\\\\nI have been trying to contact you about your accommodation booking in UK but have not received any response. If you ever need any assistance, feel free to reach out on WhatsApp.\\\\n\\\\nThankyou:)\\\", \\\"Datetime\\\": 1757164004000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"19525645437@c.us\\\", \\\"Sentbyid\\\": \\\"447446211508@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_19525645437@c.us_3F08B71013C2DA75FA20\\\", \\\"ChannelName\\\": \\\"19525645437\\\", \\\"SentByNumber\\\": \\\"447446211508\\\", \\\"sentByUserId\\\": \\\"447446211508@c.us\\\", \\\"CreatedByUser\\\": \\\"447446211508\\\"}]}\", \"updated_at\": \"2025-09-06T13:06:45.154206\", \"direction\": \"outbound\", \"sbase_user_id\": 2457080, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8218, \"agent_number\": \"447446211508\", \"customer_number\": \"19525645437\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15541,
+      "lead_id": 515,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3175085, \"user_name\": \"Paige Schwertfeger\", \"email\": \"paigeschwertfeger@gmail.com\", \"phone\": \"19525645437\", \"lease_duration\": \"\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8218, \"inventory_id\": 137870}",
+      "created_at": "2025-11-18 13:32:12"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 389,
+      "lead_id": 515,
+      "call_id": "7755215",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b1a86d75-a497-4f7c-964a-7f4deb0060dd.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.\nSpeaker B: Hi Paj, this is Arushi from Amber. Student partnered with University College London. I'll be helping you book your student accommodation near your university. So I'm reaching to you out on WhatsApp as well. Just let's stay connected there or whenever free. Give me a call. Thank you. Bye Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:23:21"
+    },
+    {
+      "id": 391,
+      "lead_id": 515,
+      "call_id": "7765183",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/2a2830d7-a703-403a-b23c-b57f73322903.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:23:26"
+    },
+    {
+      "id": 392,
+      "lead_id": 515,
+      "call_id": "7789784",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/939d240a-5002-4c58-b772-c5681f883ff4.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.\nSpeaker B: Hi Page. This is Arushi from Amber, Student official accommodation partner for University College London. I've been trying to reach you on WhatsApp for your student accommodation near your university. Please let me know your budget so that I can share some options with you. So that we can finalize something asap. Thank you so much. Bye bye. Take care.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:23:30"
+    },
+    {
+      "id": 394,
+      "lead_id": 515,
+      "call_id": "7797681",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f8082ff5-1537-4e18-be83-c6f33d4eec83.wav",
+      "transcript_text": "Speaker A: Please leave your message for 952-564-5437.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:23:34"
+    },
+    {
+      "id": 395,
+      "lead_id": 515,
+      "call_id": "7818796",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/34bcf74b-106b-4c6b-8678-6547e7a00b2d.wav",
+      "transcript_text": "Speaker A: Please leave your message for.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:23:38"
+    }
+  ],
+  "summary": {
+    "id": 385,
+    "lead_id": 515,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Paige Schwertfeger\", \"mobile\": [\"+19525645437\"], \"email\": [\"paigeschwertfeger@gmail.com\"], \"whatsapp\": [\"+447446211508\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Piccadilly Court\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to provide accommodation preferences including move-in date, duration of stay, room preference, and budget to enable agent to share suitable property options.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent message on 2025-08-30 requesting accommodation preferences for relevant suggestions.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student regarding their accommodation preferences and booking status.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Agent messages on 2025-09-01 and 2025-09-04 asking for updates and checking if student has booked accommodation.\"}, {\"type\": \"communication\", \"description\": \"Agent to inform student that the initially requested property Piccadilly Court is sold out and that they need to select another property.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent message on 2025-08-25 informing student about sold out property.\"}], \"last_agent_response\": \"Agent sent a WhatsApp message on 2025-09-06 reminding the student that they have been trying to contact them about accommodation booking and inviting them to reach out if assistance is needed.\", \"suggested_next_step\": \"Student to provide detailed accommodation preferences (move-in date, duration, room type, budget) to enable agent to share suitable property options.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Paige Schwertfeger\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number 19525645437\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds (exact amount not specified)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; initial booking for Piccadilly Court was unsuccessful due to full occupancy\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"10 (5 calls, 5 WhatsApp message packs)\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-06 via WhatsApp message\", \"response_time\": \"Agent initiated multiple contacts; student response not recorded in timeline\", \"key_moments\": \"Initial call and WhatsApp outreach on 2025-08-25; notification of sold-out property Piccadilly Court; multiple follow-ups requesting preferences and booking updates; no student replies recorded\"}, \"properties_discussed\": {\"properties_mentioned\": \"Piccadilly Court, London (sold out)\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent awaiting student's budget and preferences to share alternative accommodation options\", \"pending_items\": \"Student to provide move-in date, duration of stay, room preference, and budget\", \"follow_up_required\": \"Continue follow-up to obtain student preferences and confirm booking\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct student communication recorded; agent messages are polite and proactive\", \"urgency_level\": \"Moderate urgency indicated by multiple follow-ups within short timeframe\", \"complexity\": \"Standard case with need to find alternative property after initial booking sold out\", \"special_considerations\": \"Student has not responded to multiple outreach attempts; may require alternative contact strategies\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Paige Schwertfeger\", \"mobile\": [\"+19525645437\"], \"email\": [\"paigeschwertfeger@gmail.com\"], \"whatsapp\": [\"+447446211508\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Piccadilly Court\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to provide accommodation preferences including move-in date, duration of stay, room preference, and budget to enable agent to share suitable property options.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent message on 2025-08-30 requesting accommodation preferences for relevant suggestions.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student regarding their accommodation preferences and booking status.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Agent messages on 2025-09-01 and 2025-09-04 asking for updates and checking if student has booked accommodation.\"}, {\"type\": \"communication\", \"description\": \"Agent to inform student that the initially requested property Piccadilly Court is sold out and that they need to select another property.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent message on 2025-08-25 informing student about sold out property.\"}], \"last_agent_response\": \"Agent sent a WhatsApp message on 2025-09-06 reminding the student that they have been trying to contact them about accommodation booking and inviting them to reach out if assistance is needed.\", \"suggested_next_step\": \"Student to provide detailed accommodation preferences (move-in date, duration, room type, budget) to enable agent to share suitable property options.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Paige Schwertfeger\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number 19525645437\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds (exact amount not specified)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; initial booking for Piccadilly Court was unsuccessful due to full occupancy\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"10 (5 calls, 5 WhatsApp message packs)\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-06 via WhatsApp message\", \"response_time\": \"Agent initiated multiple contacts; student response not recorded in timeline\", \"key_moments\": \"Initial call and WhatsApp outreach on 2025-08-25; notification of sold-out property Piccadilly Court; multiple follow-ups requesting preferences and booking updates; no student replies recorded\"}, \"properties_discussed\": {\"properties_mentioned\": \"Piccadilly Court, London (sold out)\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent awaiting student's budget and preferences to share alternative accommodation options\", \"pending_items\": \"Student to provide move-in date, duration of stay, room preference, and budget\", \"follow_up_required\": \"Continue follow-up to obtain student preferences and confirm booking\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct student communication recorded; agent messages are polite and proactive\", \"urgency_level\": \"Moderate urgency indicated by multiple follow-ups within short timeframe\", \"complexity\": \"Standard case with need to find alternative property after initial booking sold out\", \"special_considerations\": \"Student has not responded to multiple outreach attempts; may require alternative contact strategies\"}}}}}",
+    "created_at": "2025-11-18 13:32:22",
+    "updated_at": "2025-11-18T19:02:22.319378",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Paige Schwertfeger",
+        "mobile": [
+          "+19525645437"
+        ],
+        "email": [
+          "paigeschwertfeger@gmail.com"
+        ],
+        "whatsapp": [
+          "+447446211508"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Piccadilly Court"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Student to provide accommodation preferences including move-in date, duration of stay, room preference, and budget to enable agent to share suitable property options.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent message on 2025-08-30 requesting accommodation preferences for relevant suggestions."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student regarding their accommodation preferences and booking status.",
+          "due": "within_week",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "Agent messages on 2025-09-01 and 2025-09-04 asking for updates and checking if student has booked accommodation."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to inform student that the initially requested property Piccadilly Court is sold out and that they need to select another property.",
+          "due": "completed",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent message on 2025-08-25 informing student about sold out property."
+        }
+      ],
+      "last_agent_response": "Agent sent a WhatsApp message on 2025-09-06 reminding the student that they have been trying to contact them about accommodation booking and inviting them to reach out if assistance is needed.",
+      "suggested_next_step": "Student to provide detailed accommodation preferences (move-in date, duration, room type, budget) to enable agent to share suitable property options."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Paige Schwertfeger",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via number 19525645437",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "Weekly budget in pounds (exact amount not specified)",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage; initial booking for Piccadilly Court was unsuccessful due to full occupancy",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "10 (5 calls, 5 WhatsApp message packs)",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-06 via WhatsApp message",
+            "response_time": "Agent initiated multiple contacts; student response not recorded in timeline",
+            "key_moments": "Initial call and WhatsApp outreach on 2025-08-25; notification of sold-out property Piccadilly Court; multiple follow-ups requesting preferences and booking updates; no student replies recorded"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Piccadilly Court, London (sold out)",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent awaiting student's budget and preferences to share alternative accommodation options",
+            "pending_items": "Student to provide move-in date, duration of stay, room preference, and budget",
+            "follow_up_required": "Continue follow-up to obtain student preferences and confirm booking",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "No direct student communication recorded; agent messages are polite and proactive",
+            "urgency_level": "Moderate urgency indicated by multiple follow-ups within short timeframe",
+            "complexity": "Standard case with need to find alternative property after initial booking sold out",
+            "special_considerations": "Student has not responded to multiple outreach attempts; may require alternative contact strategies"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Paige Schwertfeger",
+          "mobile": [
+            "+19525645437"
+          ],
+          "email": [
+            "paigeschwertfeger@gmail.com"
+          ],
+          "whatsapp": [
+            "+447446211508"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Piccadilly Court"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Student to provide accommodation preferences including move-in date, duration of stay, room preference, and budget to enable agent to share suitable property options.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent message on 2025-08-30 requesting accommodation preferences for relevant suggestions."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student regarding their accommodation preferences and booking status.",
+            "due": "within_week",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "Agent messages on 2025-09-01 and 2025-09-04 asking for updates and checking if student has booked accommodation."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to inform student that the initially requested property Piccadilly Court is sold out and that they need to select another property.",
+            "due": "completed",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent message on 2025-08-25 informing student about sold out property."
+          }
+        ],
+        "last_agent_response": "Agent sent a WhatsApp message on 2025-09-06 reminding the student that they have been trying to contact them about accommodation booking and inviting them to reach out if assistance is needed.",
+        "suggested_next_step": "Student to provide detailed accommodation preferences (move-in date, duration, room type, budget) to enable agent to share suitable property options."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Paige Schwertfeger",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via number 19525645437",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "Weekly budget in pounds (exact amount not specified)",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage; initial booking for Piccadilly Court was unsuccessful due to full occupancy",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "10 (5 calls, 5 WhatsApp message packs)",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-06 via WhatsApp message",
+              "response_time": "Agent initiated multiple contacts; student response not recorded in timeline",
+              "key_moments": "Initial call and WhatsApp outreach on 2025-08-25; notification of sold-out property Piccadilly Court; multiple follow-ups requesting preferences and booking updates; no student replies recorded"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Piccadilly Court, London (sold out)",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent awaiting student's budget and preferences to share alternative accommodation options",
+              "pending_items": "Student to provide move-in date, duration of stay, room preference, and budget",
+              "follow_up_required": "Continue follow-up to obtain student preferences and confirm booking",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "No direct student communication recorded; agent messages are polite and proactive",
+              "urgency_level": "Moderate urgency indicated by multiple follow-ups within short timeframe",
+              "complexity": "Standard case with need to find alternative property after initial booking sold out",
+              "special_considerations": "Student has not responded to multiple outreach attempts; may require alternative contact strategies"
+            }
+          }
+        }
+      }
+    }
+  }
+}

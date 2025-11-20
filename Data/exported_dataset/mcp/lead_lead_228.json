@@ -1,0 +1,368 @@
+{
+  "id": "lead_228",
+  "mobile_number": "351933548285",
+  "email": null,
+  "timeline": [
+    {
+      "id": 3371,
+      "lead_id": 228,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3205947, \"user_name\": \"Mariana Neves Borges\", \"email\": \"mariananevesborges@gmail.com\", \"phone\": \"351933548285\", \"lease_duration\": \"20 week\", \"move_out_date\": \"2026-01-23\", \"budget\": 350, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1988990}",
+      "created_at": "2025-11-18 10:29:28"
+    },
+    {
+      "id": 3372,
+      "lead_id": 228,
+      "event_type": "call",
+      "timestamp": "2025-09-04T16:15:41.028499",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7817666",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-04T16:15:41.028499\", \"id\": 7817666, \"duration\": \"0\", \"to_number\": \"351933548285\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:29:28"
+    },
+    {
+      "id": 3373,
+      "lead_id": 228,
+      "event_type": "call",
+      "timestamp": "2025-09-04T16:16:42.236633",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7817675",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-04T16:16:42.236633\", \"id\": 7817675, \"duration\": \"97\", \"to_number\": \"918100550612\", \"from_number\": \"351933548285\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b208baa5-ce1d-4490-8acf-52c97df81008.wav\"}",
+      "created_at": "2025-11-18 10:29:28"
+    },
+    {
+      "id": 3374,
+      "lead_id": 228,
+      "event_type": "call",
+      "timestamp": "2025-09-12T17:38:07.351730",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7866391",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-12T17:38:07.351730\", \"id\": 7866391, \"duration\": \"0\", \"to_number\": \"351933548285\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:29:28"
+    },
+    {
+      "id": 3375,
+      "lead_id": 228,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T17:38:45",
+      "content": "Hi Mariana, \nGood Day\n\nRachna Ahuja this side on behalf of *University College London* powered by Amber \n\n I will be happy to help you in booking the right accommodation for you. \n\nThanks",
+      "source": "whatsapp",
+      "event_id": "8576054",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T17:38:45\", \"id\": 8576054, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"351933548285\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_351933548285@c.us_3EB0A06E34DE70305F8ACB\", \"message_type\": \"text\", \"message_content\": \"Hi Mariana, \\nGood Day\\n\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\n\\n I will be happy to help you in booking the right accommodation for you. \\n\\nThanks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-12T17:38:45.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Mariana, \\\\nGood Day\\\\n\\\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\\\n\\\\n I will be happy to help you in booking the right accommodation for you. \\\\n\\\\nThanks\\\", \\\"Datetime\\\": 1757698725000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"351933548285@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_351933548285@c.us_3EB0A06E34DE70305F8ACB\\\", \\\"ChannelName\\\": \\\"351933548285\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-12T17:38:45.381930\", \"direction\": \"outbound\", \"sbase_user_id\": 2479879, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"351933548285\"}",
+      "created_at": "2025-11-18 10:29:28"
+    },
+    {
+      "id": 3376,
+      "lead_id": 228,
+      "event_type": "call",
+      "timestamp": "2025-09-18T12:00:26.505039",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7895054",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T12:00:26.505039\", \"id\": 7895054, \"duration\": \"0\", \"to_number\": \"351933548285\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:29:28"
+    },
+    {
+      "id": 3377,
+      "lead_id": 228,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-18T12:00:40",
+      "content": "Hi Mariana",
+      "source": "whatsapp",
+      "event_id": "8764758",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-18T12:00:40\", \"id\": 8764758, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"351933548285\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_351933548285@c.us_3EB08C69DB7C1227B4AB89\", \"message_type\": \"text\", \"message_content\": \"Hi Mariana\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-18T12:00:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Mariana\\\", \\\"Datetime\\\": 1758196840000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"351933548285@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_351933548285@c.us_3EB08C69DB7C1227B4AB89\\\", \\\"ChannelName\\\": \\\"351933548285\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-18T12:00:40.764261\", \"direction\": \"outbound\", \"sbase_user_id\": 2479879, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"351933548285\"}",
+      "created_at": "2025-11-18 10:29:28"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 130,
+      "lead_id": 228,
+      "call_id": "7817675",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b208baa5-ce1d-4490-8acf-52c97df81008.wav",
+      "transcript_text": "Speaker A: Hello? I just received a call. Yeah, am I speaking with Mariana? Yeah, yeah, yeah. Mariana, this is Rachna calling on behalf of University College London. We received your inquiry for the property I.Q. tufnell House. Oh, yeah, yeah. You were looking for the bronze on suit plus for 20 weeks at 350 pounds per week, if I'm not wrong.\nSpeaker B: Yeah, that one. That one, yeah, sure.\nSpeaker A: So, just wanted to know that, you know, you're looking just for 20 weeks. Is it like you're moving just for 20 weeks or you just need it, you know, for a shorter duration?\nSpeaker B: I would be moving for 15 weeks at most. 14. 15. That's why I asked if I could move out before the 20 weeks.\nSpeaker A: Okay. Okay. So you're going for a very shorter duration. That the thing, right?\nSpeaker B: Yes, yes.\nSpeaker A: Okay. You can opt for the 20 weeks. Like the move in date. The 6th of September was like two days away from today and the move out is the 24th of January, 2026.\nSpeaker B: Yeah, okay.\nSpeaker A: Yeah, yeah. Just wanted to know, like, do you want to proceed with that?\nSpeaker B: No, I think I'll continue looking, but thank you.\nSpeaker A: No problem. If you feel that you are ready with something, or if you feel that this is the option which you have finalized or any of it, you can reach out to me.\nSpeaker B: Okay, thank you.\nSpeaker A: Thank you. Bye.\nSpeaker B: Thank you. Have a nice one.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:29:36"
+    }
+  ],
+  "summary": {
+    "id": 94,
+    "lead_id": 228,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Mariana Neves Borges\", \"mobile\": [\"+351933548285\"], \"email\": [\"mariananevesborges@gmail.com\"], \"whatsapp\": [\"+447832625341\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 20, \"room_type\": \"bronze ensuite\", \"budget\": {\"max\": 350, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-06\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"I.Q. Tufnell House\"], \"rooms_considered\": [\"bronze ensuite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Mariana to check if she has finalized her accommodation choice or needs further assistance.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent's offer to assist if Mariana finalizes or needs help (call on 2025-09-04)\"}], \"last_agent_response\": \"Agent sent WhatsApp messages to Mariana offering help with booking accommodation on 2025-09-12 and 2025-09-18.\", \"suggested_next_step\": \"Agent to follow up with Mariana within a week to check her accommodation decision or offer further assistance.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Mariana Neves Borges\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages using phone number +351933548285 and email mariananevesborges@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Bronze en suite plus\", \"budget_range\": \"\\u00a3350 per week\", \"move_in_date\": \"6th September 2025 (proposed)\", \"lease_duration\": \"20 weeks requested, but student prefers 14-15 weeks\", \"special_requirements\": \"Wants possibility to move out before 20 weeks lease ends\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry; student is still looking and has not confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"7 (4 calls, 2 WhatsApp messages, 1 lead info)\", \"primary_channel\": \"Phone calls and WhatsApp\", \"last_contact\": \"2025-09-18 via WhatsApp\", \"response_time\": \"No explicit response time mentioned; student responded during call on 2025-09-04 declining to proceed\", \"key_moments\": \"Initial inquiry on 2025-06-09; detailed call on 2025-09-04 discussing lease duration and property; student declined to proceed but continued communication via WhatsApp\"}, \"properties_discussed\": {\"properties_mentioned\": \"I.Q. Tufnell House, Bronze en suite plus room\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Prefers shorter stay (14-15 weeks) than 20 weeks lease offered; interested in Bronze en suite plus\", \"offers_made\": \"No offers or deals discussed\"}, \"next_steps\": {\"immediate_actions\": \"Continue monitoring student interest; offer alternative lease durations or properties if available\", \"pending_items\": \"Student to confirm if she finalizes a booking or requires further assistance\", \"follow_up_required\": \"Follow up if student expresses readiness to book or requests more options\", \"timeline\": \"Move-in date proposed as 6th September 2025; lease end date 23rd January 2026\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear; declined current offer but open to further assistance\", \"urgency_level\": \"Low to moderate; student is still exploring options\", \"complexity\": \"Moderate due to lease duration preference differing from standard offer\", \"special_considerations\": \"Student wants flexibility to move out before lease end; lease duration mismatch should be addressed\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Mariana Neves Borges\", \"mobile\": [\"+351933548285\"], \"email\": [\"mariananevesborges@gmail.com\"], \"whatsapp\": [\"+447832625341\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 20, \"room_type\": \"bronze ensuite\", \"budget\": {\"max\": 350, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-06\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"I.Q. Tufnell House\"], \"rooms_considered\": [\"bronze ensuite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Mariana to check if she has finalized her accommodation choice or needs further assistance.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent's offer to assist if Mariana finalizes or needs help (call on 2025-09-04)\"}], \"last_agent_response\": \"Agent sent WhatsApp messages to Mariana offering help with booking accommodation on 2025-09-12 and 2025-09-18.\", \"suggested_next_step\": \"Agent to follow up with Mariana within a week to check her accommodation decision or offer further assistance.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Mariana Neves Borges\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages using phone number +351933548285 and email mariananevesborges@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Bronze en suite plus\", \"budget_range\": \"\\u00a3350 per week\", \"move_in_date\": \"6th September 2025 (proposed)\", \"lease_duration\": \"20 weeks requested, but student prefers 14-15 weeks\", \"special_requirements\": \"Wants possibility to move out before 20 weeks lease ends\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry; student is still looking and has not confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"7 (4 calls, 2 WhatsApp messages, 1 lead info)\", \"primary_channel\": \"Phone calls and WhatsApp\", \"last_contact\": \"2025-09-18 via WhatsApp\", \"response_time\": \"No explicit response time mentioned; student responded during call on 2025-09-04 declining to proceed\", \"key_moments\": \"Initial inquiry on 2025-06-09; detailed call on 2025-09-04 discussing lease duration and property; student declined to proceed but continued communication via WhatsApp\"}, \"properties_discussed\": {\"properties_mentioned\": \"I.Q. Tufnell House, Bronze en suite plus room\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Prefers shorter stay (14-15 weeks) than 20 weeks lease offered; interested in Bronze en suite plus\", \"offers_made\": \"No offers or deals discussed\"}, \"next_steps\": {\"immediate_actions\": \"Continue monitoring student interest; offer alternative lease durations or properties if available\", \"pending_items\": \"Student to confirm if she finalizes a booking or requires further assistance\", \"follow_up_required\": \"Follow up if student expresses readiness to book or requests more options\", \"timeline\": \"Move-in date proposed as 6th September 2025; lease end date 23rd January 2026\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear; declined current offer but open to further assistance\", \"urgency_level\": \"Low to moderate; student is still exploring options\", \"complexity\": \"Moderate due to lease duration preference differing from standard offer\", \"special_considerations\": \"Student wants flexibility to move out before lease end; lease duration mismatch should be addressed\"}}}}}",
+    "created_at": "2025-11-18 10:29:51",
+    "updated_at": "2025-11-18T15:59:51.196170",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Mariana Neves Borges",
+        "mobile": [
+          "+351933548285"
+        ],
+        "email": [
+          "mariananevesborges@gmail.com"
+        ],
+        "whatsapp": [
+          "+447832625341"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 20,
+        "room_type": "bronze ensuite",
+        "budget": {
+          "max": 350,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": "2025-09-06",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "University College London"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "I.Q. Tufnell House"
+        ],
+        "rooms_considered": [
+          "bronze ensuite"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Mariana to check if she has finalized her accommodation choice or needs further assistance.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent's offer to assist if Mariana finalizes or needs help (call on 2025-09-04)"
+        }
+      ],
+      "last_agent_response": "Agent sent WhatsApp messages to Mariana offering help with booking accommodation on 2025-09-12 and 2025-09-18.",
+      "suggested_next_step": "Agent to follow up with Mariana within a week to check her accommodation decision or offer further assistance."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Mariana Neves Borges",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Contacted via phone calls and WhatsApp messages using phone number +351933548285 and email mariananevesborges@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College London",
+            "room_type": "Bronze en suite plus",
+            "budget_range": "£350 per week",
+            "move_in_date": "6th September 2025 (proposed)",
+            "lease_duration": "20 weeks requested, but student prefers 14-15 weeks",
+            "special_requirements": "Wants possibility to move out before 20 weeks lease ends"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry; student is still looking and has not confirmed booking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "7 (4 calls, 2 WhatsApp messages, 1 lead info)",
+            "primary_channel": "Phone calls and WhatsApp",
+            "last_contact": "2025-09-18 via WhatsApp",
+            "response_time": "No explicit response time mentioned; student responded during call on 2025-09-04 declining to proceed",
+            "key_moments": "Initial inquiry on 2025-06-09; detailed call on 2025-09-04 discussing lease duration and property; student declined to proceed but continued communication via WhatsApp"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "I.Q. Tufnell House, Bronze en suite plus room",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Prefers shorter stay (14-15 weeks) than 20 weeks lease offered; interested in Bronze en suite plus",
+            "offers_made": "No offers or deals discussed"
+          },
+          "next_steps": {
+            "immediate_actions": "Continue monitoring student interest; offer alternative lease durations or properties if available",
+            "pending_items": "Student to confirm if she finalizes a booking or requires further assistance",
+            "follow_up_required": "Follow up if student expresses readiness to book or requests more options",
+            "timeline": "Move-in date proposed as 6th September 2025; lease end date 23rd January 2026"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and clear; declined current offer but open to further assistance",
+            "urgency_level": "Low to moderate; student is still exploring options",
+            "complexity": "Moderate due to lease duration preference differing from standard offer",
+            "special_considerations": "Student wants flexibility to move out before lease end; lease duration mismatch should be addressed"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Mariana Neves Borges",
+          "mobile": [
+            "+351933548285"
+          ],
+          "email": [
+            "mariananevesborges@gmail.com"
+          ],
+          "whatsapp": [
+            "+447832625341"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 20,
+          "room_type": "bronze ensuite",
+          "budget": {
+            "max": 350,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": "2025-09-06",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "University College London"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "I.Q. Tufnell House"
+          ],
+          "rooms_considered": [
+            "bronze ensuite"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Mariana to check if she has finalized her accommodation choice or needs further assistance.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent's offer to assist if Mariana finalizes or needs help (call on 2025-09-04)"
+          }
+        ],
+        "last_agent_response": "Agent sent WhatsApp messages to Mariana offering help with booking accommodation on 2025-09-12 and 2025-09-18.",
+        "suggested_next_step": "Agent to follow up with Mariana within a week to check her accommodation decision or offer further assistance."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Mariana Neves Borges",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Contacted via phone calls and WhatsApp messages using phone number +351933548285 and email mariananevesborges@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College London",
+              "room_type": "Bronze en suite plus",
+              "budget_range": "£350 per week",
+              "move_in_date": "6th September 2025 (proposed)",
+              "lease_duration": "20 weeks requested, but student prefers 14-15 weeks",
+              "special_requirements": "Wants possibility to move out before 20 weeks lease ends"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry; student is still looking and has not confirmed booking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "7 (4 calls, 2 WhatsApp messages, 1 lead info)",
+              "primary_channel": "Phone calls and WhatsApp",
+              "last_contact": "2025-09-18 via WhatsApp",
+              "response_time": "No explicit response time mentioned; student responded during call on 2025-09-04 declining to proceed",
+              "key_moments": "Initial inquiry on 2025-06-09; detailed call on 2025-09-04 discussing lease duration and property; student declined to proceed but continued communication via WhatsApp"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "I.Q. Tufnell House, Bronze en suite plus room",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Prefers shorter stay (14-15 weeks) than 20 weeks lease offered; interested in Bronze en suite plus",
+              "offers_made": "No offers or deals discussed"
+            },
+            "next_steps": {
+              "immediate_actions": "Continue monitoring student interest; offer alternative lease durations or properties if available",
+              "pending_items": "Student to confirm if she finalizes a booking or requires further assistance",
+              "follow_up_required": "Follow up if student expresses readiness to book or requests more options",
+              "timeline": "Move-in date proposed as 6th September 2025; lease end date 23rd January 2026"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and clear; declined current offer but open to further assistance",
+              "urgency_level": "Low to moderate; student is still exploring options",
+              "complexity": "Moderate due to lease duration preference differing from standard offer",
+              "special_considerations": "Student wants flexibility to move out before lease end; lease duration mismatch should be addressed"
+            }
+          }
+        }
+      }
+    }
+  }
+}

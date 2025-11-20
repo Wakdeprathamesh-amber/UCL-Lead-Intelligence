@@ -1,0 +1,334 @@
+{
+  "id": "lead_546",
+  "mobile_number": "447434679992",
+  "email": null,
+  "timeline": [
+    {
+      "id": 17935,
+      "lead_id": 546,
+      "event_type": "call",
+      "timestamp": "2025-08-20T15:00:45.867119",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7724435",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T15:00:45.867119\", \"id\": 7724435, \"duration\": \"0\", \"to_number\": \"447434679992\", \"from_number\": \"447312161523\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-19 07:11:18"
+    },
+    {
+      "id": 17936,
+      "lead_id": 546,
+      "event_type": "call",
+      "timestamp": "2025-08-20T16:46:16.547629",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7725358",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T16:46:16.547629\", \"id\": 7725358, \"duration\": \"263\", \"to_number\": \"447434679992\", \"from_number\": \"447312161523\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3dddd1b0-16dc-444d-bb42-3f4e9eddd307.wav\"}",
+      "created_at": "2025-11-19 07:11:18"
+    },
+    {
+      "id": 17937,
+      "lead_id": 546,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T16:50:27",
+      "content": "hello",
+      "source": "whatsapp",
+      "event_id": "7558211",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T16:50:27\", \"id\": 7558211, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447434679992\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447434679992@c.us_3F3F8BC2A3A3EA708F3A\", \"message_type\": \"text\", \"message_content\": \"hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T16:50:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"hello\\\", \\\"Datetime\\\": 1755708627000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447434679992@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447434679992@c.us_3F3F8BC2A3A3EA708F3A\\\", \\\"ChannelName\\\": \\\"447434679992\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-20T16:50:29.915654\", \"direction\": \"outbound\", \"sbase_user_id\": 2447604, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447434679992\"}",
+      "created_at": "2025-11-19 07:11:18"
+    },
+    {
+      "id": 17938,
+      "lead_id": 546,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T16:50:42",
+      "content": "Husyn here",
+      "source": "whatsapp",
+      "event_id": "7558225",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T16:50:42\", \"id\": 7558225, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447434679992\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447434679992@c.us_3F6C518242160B0F9B07\", \"message_type\": \"text\", \"message_content\": \"Husyn here\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T16:50:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Husyn here\\\", \\\"Datetime\\\": 1755708642000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447434679992@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447434679992@c.us_3F6C518242160B0F9B07\\\", \\\"ChannelName\\\": \\\"447434679992\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-20T16:50:43.206122\", \"direction\": \"outbound\", \"sbase_user_id\": 2447604, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447434679992\"}",
+      "created_at": "2025-11-19 07:11:18"
+    },
+    {
+      "id": 17939,
+      "lead_id": 546,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-23T22:10:44",
+      "content": "Hello Akshat, please confirm are you still looking for accommodation?",
+      "source": "whatsapp",
+      "event_id": "7728904",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-23T22:10:44\", \"id\": 7728904, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447434679992\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447434679992@c.us_9864942334DB475C99D3701A1F73A4ED\", \"message_type\": \"text\", \"message_content\": \"Hello Akshat, please confirm are you still looking for accommodation?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-23T22:10:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello Akshat, please confirm are you still looking for accommodation?\\\", \\\"Datetime\\\": 1755987044000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447434679992@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447434679992@c.us_9864942334DB475C99D3701A1F73A4ED\\\", \\\"ChannelName\\\": \\\"447434679992\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-23T22:10:45.356666\", \"direction\": \"outbound\", \"sbase_user_id\": 2447604, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447434679992\"}",
+      "created_at": "2025-11-19 07:11:18"
+    },
+    {
+      "id": 17940,
+      "lead_id": 546,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-24T01:19:08",
+      "content": "No i am not",
+      "source": "whatsapp",
+      "event_id": "7729833",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-24T01:19:08\", \"id\": 7729833, \"email\": \"\", \"from_number\": \"447434679992\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447434679992@c.us_3A9067566DEB8949D662\", \"message_type\": \"text\", \"message_content\": \"No i am not\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447434679992@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-24T01:19:08.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"No i am not\\\", \\\"Datetime\\\": 1755998348000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447434679992@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447434679992@c.us_3A9067566DEB8949D662\\\", \\\"ChannelName\\\": \\\"447434679992\\\", \\\"SentByNumber\\\": \\\"447434679992\\\", \\\"sentByUserId\\\": \\\"447434679992@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-24T01:19:08.979499\", \"direction\": \"inbound\", \"sbase_user_id\": 2447604, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447434679992\"}",
+      "created_at": "2025-11-19 07:11:18"
+    },
+    {
+      "id": 17941,
+      "lead_id": 546,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-24T01:19:12",
+      "content": "Thank you for your concern",
+      "source": "whatsapp",
+      "event_id": "7729835",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-24T01:19:12\", \"id\": 7729835, \"email\": \"\", \"from_number\": \"447434679992\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447434679992@c.us_3AB2D10AC570D24BDBC8\", \"message_type\": \"text\", \"message_content\": \"Thank you for your concern\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447434679992@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-24T01:19:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Thank you for your concern\\\", \\\"Datetime\\\": 1755998352000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447434679992@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447434679992@c.us_3AB2D10AC570D24BDBC8\\\", \\\"ChannelName\\\": \\\"447434679992\\\", \\\"SentByNumber\\\": \\\"447434679992\\\", \\\"sentByUserId\\\": \\\"447434679992@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-24T01:19:13.170838\", \"direction\": \"inbound\", \"sbase_user_id\": 2447604, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447434679992\"}",
+      "created_at": "2025-11-19 07:11:18"
+    },
+    {
+      "id": 17942,
+      "lead_id": 546,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3162674, \"user_name\": \"Akshat Bajaj\", \"email\": \"akshat.m.bajaj@gmail.com\", \"phone\": \"447434679992\", \"university\": \"university-college-london-1811059954160\", \"lease_duration\": \"51 week\", \"budget\": 100, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3055, \"inventory_id\": 288399}",
+      "created_at": "2025-11-19 07:11:18"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 417,
+    "lead_id": 546,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Akshat Bajaj\", \"mobile\": [\"447434679992\"], \"email\": [\"akshat.m.bajaj@gmail.com\"], \"whatsapp\": [\"447434679992\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 100, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent Husyn sent a WhatsApp message on 2025-08-23 asking Akshat to confirm if he is still looking for accommodation.\", \"suggested_next_step\": \"No further action required as the student confirmed they are no longer looking for accommodation.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Akshat Bajaj\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via numbers 447434679992 (student) and 447446219714 (agent)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3100 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry; student confirmed no longer looking for accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 calls (one 4 min 23 sec), 6 WhatsApp messages\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-24T01:19:12 (student replied no longer looking)\", \"response_time\": \"Agent initiated contact; student responded after ~4 days\", \"key_moments\": \"Agent introduced self via WhatsApp; asked if student still looking; student replied no and thanked agent\"}, \"properties_discussed\": {\"properties_mentioned\": \"Not mentioned\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"None required as student is no longer looking\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"No deadlines or dates pending\"}, \"agent_notes\": {\"student_tone\": \"Polite but disinterested; declined further assistance\", \"urgency_level\": \"Low - student not currently seeking accommodation\", \"complexity\": \"Simple case\", \"special_considerations\": \"Monitor for any future re-engagement\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Akshat Bajaj\", \"mobile\": [\"447434679992\"], \"email\": [\"akshat.m.bajaj@gmail.com\"], \"whatsapp\": [\"447434679992\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 100, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent Husyn sent a WhatsApp message on 2025-08-23 asking Akshat to confirm if he is still looking for accommodation.\", \"suggested_next_step\": \"No further action required as the student confirmed they are no longer looking for accommodation.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Akshat Bajaj\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via numbers 447434679992 (student) and 447446219714 (agent)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3100 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry; student confirmed no longer looking for accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 calls (one 4 min 23 sec), 6 WhatsApp messages\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-24T01:19:12 (student replied no longer looking)\", \"response_time\": \"Agent initiated contact; student responded after ~4 days\", \"key_moments\": \"Agent introduced self via WhatsApp; asked if student still looking; student replied no and thanked agent\"}, \"properties_discussed\": {\"properties_mentioned\": \"Not mentioned\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"None required as student is no longer looking\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"No deadlines or dates pending\"}, \"agent_notes\": {\"student_tone\": \"Polite but disinterested; declined further assistance\", \"urgency_level\": \"Low - student not currently seeking accommodation\", \"complexity\": \"Simple case\", \"special_considerations\": \"Monitor for any future re-engagement\"}}}}}",
+    "created_at": "2025-11-19 07:11:31",
+    "updated_at": "2025-11-19T12:41:31.473748",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Akshat Bajaj",
+        "mobile": [
+          "447434679992"
+        ],
+        "email": [
+          "akshat.m.bajaj@gmail.com"
+        ],
+        "whatsapp": [
+          "447434679992"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 100,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent Husyn sent a WhatsApp message on 2025-08-23 asking Akshat to confirm if he is still looking for accommodation.",
+      "suggested_next_step": "No further action required as the student confirmed they are no longer looking for accommodation."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Akshat Bajaj",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via numbers 447434679992 (student) and 447446219714 (agent)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£100 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry; student confirmed no longer looking for accommodation",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 calls (one 4 min 23 sec), 6 WhatsApp messages",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-08-24T01:19:12 (student replied no longer looking)",
+            "response_time": "Agent initiated contact; student responded after ~4 days",
+            "key_moments": "Agent introduced self via WhatsApp; asked if student still looking; student replied no and thanked agent"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Not mentioned",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "None"
+          },
+          "next_steps": {
+            "immediate_actions": "None required as student is no longer looking",
+            "pending_items": "None",
+            "follow_up_required": "No follow-up needed unless student re-engages",
+            "timeline": "No deadlines or dates pending"
+          },
+          "agent_notes": {
+            "student_tone": "Polite but disinterested; declined further assistance",
+            "urgency_level": "Low - student not currently seeking accommodation",
+            "complexity": "Simple case",
+            "special_considerations": "Monitor for any future re-engagement"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Akshat Bajaj",
+          "mobile": [
+            "447434679992"
+          ],
+          "email": [
+            "akshat.m.bajaj@gmail.com"
+          ],
+          "whatsapp": [
+            "447434679992"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 100,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent Husyn sent a WhatsApp message on 2025-08-23 asking Akshat to confirm if he is still looking for accommodation.",
+        "suggested_next_step": "No further action required as the student confirmed they are no longer looking for accommodation."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Akshat Bajaj",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via numbers 447434679992 (student) and 447446219714 (agent)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£100 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry; student confirmed no longer looking for accommodation",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 calls (one 4 min 23 sec), 6 WhatsApp messages",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-08-24T01:19:12 (student replied no longer looking)",
+              "response_time": "Agent initiated contact; student responded after ~4 days",
+              "key_moments": "Agent introduced self via WhatsApp; asked if student still looking; student replied no and thanked agent"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Not mentioned",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "None"
+            },
+            "next_steps": {
+              "immediate_actions": "None required as student is no longer looking",
+              "pending_items": "None",
+              "follow_up_required": "No follow-up needed unless student re-engages",
+              "timeline": "No deadlines or dates pending"
+            },
+            "agent_notes": {
+              "student_tone": "Polite but disinterested; declined further assistance",
+              "urgency_level": "Low - student not currently seeking accommodation",
+              "complexity": "Simple case",
+              "special_considerations": "Monitor for any future re-engagement"
+            }
+          }
+        }
+      }
+    }
+  }
+}

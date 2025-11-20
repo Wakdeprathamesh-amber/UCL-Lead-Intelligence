@@ -1,0 +1,354 @@
+{
+  "id": "lead_628",
+  "mobile_number": "821051845027",
+  "email": null,
+  "timeline": [
+    {
+      "id": 10323,
+      "lead_id": 628,
+      "event_type": "lead_info",
+      "timestamp": "2023-03-06T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2023-03-06T00:00:00\", \"lead_id\": 3161349, \"user_name\": \"Eunseo Cho\", \"email\": \"eunseocho02@gmail.com\", \"phone\": \"821051845027\", \"lease_duration\": \"13 week\", \"move_out_date\": \"2023-09-01\", \"budget\": 244, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8860, \"inventory_id\": 242791}",
+      "created_at": "2025-11-18 11:57:36"
+    },
+    {
+      "id": 10324,
+      "lead_id": 628,
+      "event_type": "call",
+      "timestamp": "2025-08-20T12:09:56.806432",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7722931",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T12:09:56.806432\", \"id\": 7722931, \"duration\": \"16\", \"to_number\": \"821051845027\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3885abdb-4274-479a-beac-5ebba8bdc987.wav\"}",
+      "created_at": "2025-11-18 11:57:36"
+    },
+    {
+      "id": 10325,
+      "lead_id": 628,
+      "event_type": "call",
+      "timestamp": "2025-08-20T12:12:18.855851",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7722956",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T12:12:18.855851\", \"id\": 7722956, \"duration\": \"0\", \"to_number\": \"821051845027\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:36"
+    },
+    {
+      "id": 10326,
+      "lead_id": 628,
+      "event_type": "call",
+      "timestamp": "2025-08-21T10:58:06.480279",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7729653",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T10:58:06.480279\", \"id\": 7729653, \"duration\": \"0\", \"to_number\": \"821051845027\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:36"
+    },
+    {
+      "id": 10327,
+      "lead_id": 628,
+      "event_type": "call",
+      "timestamp": "2025-08-23T07:56:25.618071",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7743784",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-23T07:56:25.618071\", \"id\": 7743784, \"duration\": \"0\", \"to_number\": \"821051845027\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:36"
+    },
+    {
+      "id": 10328,
+      "lead_id": 628,
+      "event_type": "call",
+      "timestamp": "2025-08-26T09:36:57.696026",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7760329",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T09:36:57.696026\", \"id\": 7760329, \"duration\": \"0\", \"to_number\": \"821051845027\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:36"
+    },
+    {
+      "id": 10329,
+      "lead_id": 628,
+      "event_type": "call",
+      "timestamp": "2025-08-26T09:37:25.627148",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7760330",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T09:37:25.627148\", \"id\": 7760330, \"duration\": \"0\", \"to_number\": \"821051845027\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:36"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 510,
+      "lead_id": 628,
+      "call_id": "7722931",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3885abdb-4274-479a-beac-5ebba8bdc987.wav",
+      "transcript_text": "Speaker A: 삐 소리 후 메시지를 녹음하고 녹음이 끝나면 전화를 끊으십시오.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:57:45"
+    }
+  ],
+  "summary": {
+    "id": 258,
+    "lead_id": 628,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Eunseo Cho\", \"mobile\": [\"+821051845027\"], \"email\": [\"eunseocho02@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 13, \"room_type\": null, \"budget\": {\"max\": 244, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"242791\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Continue attempting to contact Eunseo Cho via phone to discuss accommodation details.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple unsuccessful call attempts to Eunseo Cho on 2025-08-20 to 2025-08-26\"}], \"last_agent_response\": \"Multiple call attempts made to Eunseo Cho with no answer or connection established.\", \"suggested_next_step\": \"Agent to follow up with Eunseo Cho via alternative communication channels or schedule another call attempt within the week.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Eunseo Cho\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (eunseocho02@gmail.com), Phone (+82 1051845027)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3244 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"13 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with multiple call attempts\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"7 calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-26\", \"response_time\": \"No answered calls; mostly missed or zero-duration calls\", \"key_moments\": \"One 16-second call with a voicemail message; multiple unanswered calls\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 242791 (specific property not detailed)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up via alternative contact methods or email due to no call answers\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Yes, to establish contact and confirm interest\", \"timeline\": \"Move-out date noted as 2023-09-01 but no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Not assessable due to lack of verbal communication\", \"urgency_level\": \"Unknown due to no response\", \"complexity\": \"Simple inquiry with no further details or engagement\", \"special_considerations\": \"Multiple call attempts unsuccessful; consider alternative communication channels\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Eunseo Cho\", \"mobile\": [\"+821051845027\"], \"email\": [\"eunseocho02@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 13, \"room_type\": null, \"budget\": {\"max\": 244, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"242791\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Continue attempting to contact Eunseo Cho via phone to discuss accommodation details.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple unsuccessful call attempts to Eunseo Cho on 2025-08-20 to 2025-08-26\"}], \"last_agent_response\": \"Multiple call attempts made to Eunseo Cho with no answer or connection established.\", \"suggested_next_step\": \"Agent to follow up with Eunseo Cho via alternative communication channels or schedule another call attempt within the week.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Eunseo Cho\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (eunseocho02@gmail.com), Phone (+82 1051845027)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3244 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"13 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with multiple call attempts\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"7 calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-26\", \"response_time\": \"No answered calls; mostly missed or zero-duration calls\", \"key_moments\": \"One 16-second call with a voicemail message; multiple unanswered calls\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 242791 (specific property not detailed)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up via alternative contact methods or email due to no call answers\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Yes, to establish contact and confirm interest\", \"timeline\": \"Move-out date noted as 2023-09-01 but no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Not assessable due to lack of verbal communication\", \"urgency_level\": \"Unknown due to no response\", \"complexity\": \"Simple inquiry with no further details or engagement\", \"special_considerations\": \"Multiple call attempts unsuccessful; consider alternative communication channels\"}}}}}",
+    "created_at": "2025-11-18 11:57:51",
+    "updated_at": "2025-11-18T17:27:51.973579",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Eunseo Cho",
+        "mobile": [
+          "+821051845027"
+        ],
+        "email": [
+          "eunseocho02@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 13,
+        "room_type": null,
+        "budget": {
+          "max": 244,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "242791"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Continue attempting to contact Eunseo Cho via phone to discuss accommodation details.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple unsuccessful call attempts to Eunseo Cho on 2025-08-20 to 2025-08-26"
+        }
+      ],
+      "last_agent_response": "Multiple call attempts made to Eunseo Cho with no answer or connection established.",
+      "suggested_next_step": "Agent to follow up with Eunseo Cho via alternative communication channels or schedule another call attempt within the week."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Eunseo Cho",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (eunseocho02@gmail.com), Phone (+82 1051845027)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£244 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "13 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry with multiple call attempts",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "7 calls",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-26",
+            "response_time": "No answered calls; mostly missed or zero-duration calls",
+            "key_moments": "One 16-second call with a voicemail message; multiple unanswered calls"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 242791 (specific property not detailed)",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to follow up via alternative contact methods or email due to no call answers",
+            "pending_items": "Student response to calls",
+            "follow_up_required": "Yes, to establish contact and confirm interest",
+            "timeline": "Move-out date noted as 2023-09-01 but no move-in date specified"
+          },
+          "agent_notes": {
+            "student_tone": "Not assessable due to lack of verbal communication",
+            "urgency_level": "Unknown due to no response",
+            "complexity": "Simple inquiry with no further details or engagement",
+            "special_considerations": "Multiple call attempts unsuccessful; consider alternative communication channels"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Eunseo Cho",
+          "mobile": [
+            "+821051845027"
+          ],
+          "email": [
+            "eunseocho02@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 13,
+          "room_type": null,
+          "budget": {
+            "max": 244,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "242791"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Continue attempting to contact Eunseo Cho via phone to discuss accommodation details.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple unsuccessful call attempts to Eunseo Cho on 2025-08-20 to 2025-08-26"
+          }
+        ],
+        "last_agent_response": "Multiple call attempts made to Eunseo Cho with no answer or connection established.",
+        "suggested_next_step": "Agent to follow up with Eunseo Cho via alternative communication channels or schedule another call attempt within the week."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Eunseo Cho",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (eunseocho02@gmail.com), Phone (+82 1051845027)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£244 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "13 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry with multiple call attempts",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "7 calls",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-26",
+              "response_time": "No answered calls; mostly missed or zero-duration calls",
+              "key_moments": "One 16-second call with a voicemail message; multiple unanswered calls"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 242791 (specific property not detailed)",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to follow up via alternative contact methods or email due to no call answers",
+              "pending_items": "Student response to calls",
+              "follow_up_required": "Yes, to establish contact and confirm interest",
+              "timeline": "Move-out date noted as 2023-09-01 but no move-in date specified"
+            },
+            "agent_notes": {
+              "student_tone": "Not assessable due to lack of verbal communication",
+              "urgency_level": "Unknown due to no response",
+              "complexity": "Simple inquiry with no further details or engagement",
+              "special_considerations": "Multiple call attempts unsuccessful; consider alternative communication channels"
+            }
+          }
+        }
+      }
+    }
+  }
+}

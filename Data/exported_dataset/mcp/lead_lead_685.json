@@ -1,0 +1,333 @@
+{
+  "id": "lead_685",
+  "mobile_number": "447746338173",
+  "email": null,
+  "timeline": [
+    {
+      "id": 16660,
+      "lead_id": 685,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3219447, \"user_name\": \"Jamie Stefan Shaw\", \"email\": \"jamiestefanshaw@gmail.com\", \"phone\": \"447746338173\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 247, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2132176}",
+      "created_at": "2025-11-18 13:37:43"
+    },
+    {
+      "id": 16661,
+      "lead_id": 685,
+      "event_type": "call",
+      "timestamp": "2025-09-10T09:36:48.049826",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7849359",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-10T09:36:48.049826\", \"id\": 7849359, \"duration\": \"3\", \"to_number\": \"447746338173\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/9d236871-5abb-43b0-9338-0cd8bf51c6b9.wav\"}",
+      "created_at": "2025-11-18 13:37:43"
+    },
+    {
+      "id": 16662,
+      "lead_id": 685,
+      "event_type": "call",
+      "timestamp": "2025-09-11T14:44:06.825164",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7858527",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-11T14:44:06.825164\", \"id\": 7858527, \"duration\": \"33\", \"to_number\": \"447746338173\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/37be5b26-02d5-4a16-a454-7388a6d18984.wav\"}",
+      "created_at": "2025-11-18 13:37:43"
+    },
+    {
+      "id": 16663,
+      "lead_id": 685,
+      "event_type": "call",
+      "timestamp": "2025-09-13T16:21:40.410845",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7871382",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-13T16:21:40.410845\", \"id\": 7871382, \"duration\": \"4\", \"to_number\": \"447746338173\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0fb2e580-cdb0-4987-a83b-5ff4ddcfef5d.wav\"}",
+      "created_at": "2025-11-18 13:37:43"
+    },
+    {
+      "id": 16664,
+      "lead_id": 685,
+      "event_type": "call",
+      "timestamp": "2025-09-16T15:53:39.969669",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7885033",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-16T15:53:39.969669\", \"id\": 7885033, \"duration\": \"0\", \"to_number\": \"447746338173\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:37:43"
+    },
+    {
+      "id": 16665,
+      "lead_id": 685,
+      "event_type": "call",
+      "timestamp": "2025-09-18T15:32:16.806243",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7896582",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T15:32:16.806243\", \"id\": 7896582, \"duration\": \"0\", \"to_number\": \"447746338173\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:37:43"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 546,
+      "lead_id": 685,
+      "call_id": "7849359",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/9d236871-5abb-43b0-9338-0cd8bf51c6b9.wav",
+      "transcript_text": "Speaker A: Welcome to the Tesco Mobile voicemail service.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:41:40"
+    },
+    {
+      "id": 548,
+      "lead_id": 685,
+      "call_id": "7858527",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/37be5b26-02d5-4a16-a454-7388a6d18984.wav",
+      "transcript_text": "Speaker A: Welcome to the Tesco Mobile voicemail service. The person you're calling is unable to take your call. Please leave your message after the tone. To record your message again, press at any time. It.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:41:44"
+    }
+  ],
+  "summary": {
+    "id": 398,
+    "lead_id": 685,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Jamie Stefan Shaw\", \"mobile\": [\"447746338173\"], \"email\": [\"jamiestefanshaw@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 247, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student between 2025-09-10 and 2025-09-18, with some calls not answered.\", \"suggested_next_step\": \"Agent to follow up with the student via call or alternative communication channel to confirm interest and next steps.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jamie Stefan Shaw\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (jamiestefanshaw@gmail.com), Phone (+447746338173)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3247 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with multiple follow-up calls\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 calls between 2025-09-10 and 2025-09-18\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-18\", \"response_time\": \"Multiple calls within a week indicate active engagement\", \"key_moments\": \"Two longer calls on 2025-09-10 (3 min) and 2025-09-11 (33 min); subsequent shorter calls and missed calls\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2132176 linked to initial lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on unanswered calls and clarify booking intentions\", \"pending_items\": \"Student response to recent calls\", \"follow_up_required\": \"Agent to reach out to confirm next steps and any additional requirements\", \"timeline\": \"Lease ends 2026-08-28; no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Engaged but possibly difficult to reach at times (missed calls)\", \"urgency_level\": \"Moderate; ongoing communication but no confirmed booking\", \"complexity\": \"Standard inquiry with multiple follow-ups\", \"special_considerations\": \"None noted\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Jamie Stefan Shaw\", \"mobile\": [\"447746338173\"], \"email\": [\"jamiestefanshaw@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 247, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student between 2025-09-10 and 2025-09-18, with some calls not answered.\", \"suggested_next_step\": \"Agent to follow up with the student via call or alternative communication channel to confirm interest and next steps.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jamie Stefan Shaw\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (jamiestefanshaw@gmail.com), Phone (+447746338173)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3247 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with multiple follow-up calls\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 calls between 2025-09-10 and 2025-09-18\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-18\", \"response_time\": \"Multiple calls within a week indicate active engagement\", \"key_moments\": \"Two longer calls on 2025-09-10 (3 min) and 2025-09-11 (33 min); subsequent shorter calls and missed calls\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2132176 linked to initial lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on unanswered calls and clarify booking intentions\", \"pending_items\": \"Student response to recent calls\", \"follow_up_required\": \"Agent to reach out to confirm next steps and any additional requirements\", \"timeline\": \"Lease ends 2026-08-28; no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Engaged but possibly difficult to reach at times (missed calls)\", \"urgency_level\": \"Moderate; ongoing communication but no confirmed booking\", \"complexity\": \"Standard inquiry with multiple follow-ups\", \"special_considerations\": \"None noted\"}}}}}",
+    "created_at": "2025-11-18 13:37:49",
+    "updated_at": "2025-11-18T19:07:49.804049",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Jamie Stefan Shaw",
+        "mobile": [
+          "447746338173"
+        ],
+        "email": [
+          "jamiestefanshaw@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 247,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Multiple calls were made to the student between 2025-09-10 and 2025-09-18, with some calls not answered.",
+      "suggested_next_step": "Agent to follow up with the student via call or alternative communication channel to confirm interest and next steps."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Jamie Stefan Shaw",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (jamiestefanshaw@gmail.com), Phone (+447746338173)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£247 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry with multiple follow-up calls",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "6 calls between 2025-09-10 and 2025-09-18",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-09-18",
+            "response_time": "Multiple calls within a week indicate active engagement",
+            "key_moments": "Two longer calls on 2025-09-10 (3 min) and 2025-09-11 (33 min); subsequent shorter calls and missed calls"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2132176 linked to initial lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up on unanswered calls and clarify booking intentions",
+            "pending_items": "Student response to recent calls",
+            "follow_up_required": "Agent to reach out to confirm next steps and any additional requirements",
+            "timeline": "Lease ends 2026-08-28; no move-in date specified"
+          },
+          "agent_notes": {
+            "student_tone": "Engaged but possibly difficult to reach at times (missed calls)",
+            "urgency_level": "Moderate; ongoing communication but no confirmed booking",
+            "complexity": "Standard inquiry with multiple follow-ups",
+            "special_considerations": "None noted"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Jamie Stefan Shaw",
+          "mobile": [
+            "447746338173"
+          ],
+          "email": [
+            "jamiestefanshaw@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 247,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Multiple calls were made to the student between 2025-09-10 and 2025-09-18, with some calls not answered.",
+        "suggested_next_step": "Agent to follow up with the student via call or alternative communication channel to confirm interest and next steps."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Jamie Stefan Shaw",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (jamiestefanshaw@gmail.com), Phone (+447746338173)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£247 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry with multiple follow-up calls",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "6 calls between 2025-09-10 and 2025-09-18",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-09-18",
+              "response_time": "Multiple calls within a week indicate active engagement",
+              "key_moments": "Two longer calls on 2025-09-10 (3 min) and 2025-09-11 (33 min); subsequent shorter calls and missed calls"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2132176 linked to initial lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up on unanswered calls and clarify booking intentions",
+              "pending_items": "Student response to recent calls",
+              "follow_up_required": "Agent to reach out to confirm next steps and any additional requirements",
+              "timeline": "Lease ends 2026-08-28; no move-in date specified"
+            },
+            "agent_notes": {
+              "student_tone": "Engaged but possibly difficult to reach at times (missed calls)",
+              "urgency_level": "Moderate; ongoing communication but no confirmed booking",
+              "complexity": "Standard inquiry with multiple follow-ups",
+              "special_considerations": "None noted"
+            }
+          }
+        }
+      }
+    }
+  }
+}

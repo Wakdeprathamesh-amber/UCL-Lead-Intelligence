@@ -1,0 +1,388 @@
+{
+  "id": "lead_361",
+  "mobile_number": "447423273340",
+  "email": null,
+  "timeline": [
+    {
+      "id": 6199,
+      "lead_id": 361,
+      "event_type": "email",
+      "timestamp": "2025-08-11T09:02:19",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-11T09:02:19\", \"sender_email\": \"aileensamillano@gmail.com\", \"recipient_email\": \"rishabh.m@amberstudent.com\", \"subject\": \"Re: Your Enquiry In London!\", \"message\": \"Hello Rishabh,\\\\n\\\\nI haven't received an offer yet. What the guarantor documents that need to sign? My guarantor hasn't received a confirmation email either.\\\\n\\\\nKind regards,\\\\n\\\\nAileen\\\\n\\\\nOn Mon, 11 Aug 2025 at 16:22, <[rishabh.m@amberstudent.com]()> wrote:\\\\n\\\\nHi Aileen,\\\\n\\\\nHope you're doing well!\\\\n\\\\nI'm Rishabh, your Booking Manager at Amber. Thanks for choosing Amber for your student accommodation in London - excited to assist you!\\\\n\\\\nHere\\u2019s what\\u2019s next to complete your booking:\\\\n\\\\n- An offer has been sent to your email - please sign it to secure your accommodation.\\\\n- If a guarantor is required, they\\u2019ll receive a confirmation email. Please remind them to upload their documents and sign the contract.\\\\n\\\\nOnce done, share the payment receipt so we can confirm everything with the property.\\\\nNeed help? Just reply to this email or WhatsApp me anytime.\\\\nI\\u2019m happy to assist!\\\\n\\\\nThanks again for choosing Amber!\\\\n\\\\n[amberstudent.com]\\\\n\\\\nRishabh M\\\\n\\\\nSenior Operation Associate\\\\n\\\\nPhone: [+447460047271]()\\\\n\\\\nWhatsapp: [+447460047271]()\\\\n\\\\nEmail: [rishabh.m@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\", \"snippet\": \"Hello Rishabh, I haven&#39;t received an offer yet. What the guarantor documents that need to sign? My guarantor hasn&#39;t received a confirmation email either. Kind regards, Aileen On Mon, 11 Aug\", \"direction\": \"inbound\", \"sender_type\": \"student\", \"agent_email\": \"rishabh.m@amberstudent.com\", \"student_email\": \"aileensamillano@gmail.com\"}",
+      "created_at": "2025-11-18 10:55:19"
+    },
+    {
+      "id": 6200,
+      "lead_id": 361,
+      "event_type": "call",
+      "timestamp": "2025-08-11T11:02:51.630848",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7659742",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-11T11:02:51.630848\", \"id\": 7659742, \"duration\": \"0\", \"to_number\": \"447423273340\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:55:19"
+    },
+    {
+      "id": 6201,
+      "lead_id": 361,
+      "event_type": "call",
+      "timestamp": "2025-08-12T09:41:46.466295",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7666338",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-12T09:41:46.466295\", \"id\": 7666338, \"duration\": \"0\", \"to_number\": \"447423273340\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:55:19"
+    },
+    {
+      "id": 6202,
+      "lead_id": 361,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3129004, \"user_name\": \"Aileen Samillano\", \"email\": \"aileensamillano@gmail.com\", \"phone\": \"447423273340\", \"lease_duration\": \"43 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 277, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 1427987}",
+      "created_at": "2025-11-18 10:55:19"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 148,
+    "lead_id": 361,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Aileen Samillano\", \"mobile\": [\"+447423273340\"], \"email\": [\"aileensamillano@gmail.com\"], \"whatsapp\": [\"+447423273340\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 277, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": \"yes_national\"}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Resend the offer email to Aileen as she has not received it yet.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Aileen's email on 2025-08-11 stating she hasn't received an offer yet\"}, {\"type\": \"communication\", \"description\": \"Send confirmation email to Aileen's guarantor so they can upload documents and sign the contract.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Aileen's email on 2025-08-11 stating guarantor hasn't received confirmation email\"}, {\"type\": \"booking_action\", \"description\": \"Student to sign the offer once received to secure accommodation.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent's email on 2025-08-11 explaining next steps\"}, {\"type\": \"document_required\", \"description\": \"Guarantor to upload required documents and sign the contract after receiving confirmation email.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"parent\", \"source_reference\": \"Agent's email on 2025-08-11 explaining next steps\"}, {\"type\": \"payment\", \"description\": \"Student to share payment receipt after signing offer and guarantor completing documents to confirm booking with property.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent's email on 2025-08-11 explaining next steps\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student via call or email if no response after resending offer and guarantor confirmation.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"No response after calls on 2025-08-11 and 2025-08-12 and initial email\"}], \"last_agent_response\": \"Agent informed student that an offer was sent and explained guarantor process and payment steps in email on 2025-08-11.\", \"suggested_next_step\": \"Agent to immediately resend the offer email to Aileen and send confirmation email to her guarantor.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Aileen Samillano\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (aileensamillano@gmail.com), Phone (447423273340), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3277 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Offer not yet received/signed\", \"documents_status\": \"Guarantor documents not received or signed; guarantor has not received confirmation email\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 (2 emails, 2 calls with zero duration, 1 lead info update)\", \"primary_channel\": \"Email\", \"last_contact\": \"2025-09-13 (lead info recorded)\", \"response_time\": \"Same day email response; calls attempted but no duration recorded\", \"key_moments\": \"Student reported not receiving offer or guarantor confirmation email; agent provided instructions on signing offer and guarantor documents\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1427987 (specific property not named)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Budget and lease duration provided; no specific preferences stated\", \"offers_made\": \"Offer email mentioned but not yet received by student\"}, \"next_steps\": {\"immediate_actions\": \"Resend or confirm offer email to student; ensure guarantor receives confirmation email and documents to sign\", \"pending_items\": \"Student to sign offer; guarantor to upload documents and sign contract\", \"follow_up_required\": \"Agent to follow up on offer delivery and guarantor confirmation\", \"timeline\": \"Lease duration 43 weeks ending 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear in requesting missing documents\", \"urgency_level\": \"Moderate; student awaiting offer and guarantor confirmation\", \"complexity\": \"Standard booking with guarantor involvement\", \"special_considerations\": \"Ensure guarantor communication is effective to avoid delays\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Aileen Samillano\", \"mobile\": [\"+447423273340\"], \"email\": [\"aileensamillano@gmail.com\"], \"whatsapp\": [\"+447423273340\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 277, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": \"yes_national\"}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Resend the offer email to Aileen as she has not received it yet.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Aileen's email on 2025-08-11 stating she hasn't received an offer yet\"}, {\"type\": \"communication\", \"description\": \"Send confirmation email to Aileen's guarantor so they can upload documents and sign the contract.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Aileen's email on 2025-08-11 stating guarantor hasn't received confirmation email\"}, {\"type\": \"booking_action\", \"description\": \"Student to sign the offer once received to secure accommodation.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent's email on 2025-08-11 explaining next steps\"}, {\"type\": \"document_required\", \"description\": \"Guarantor to upload required documents and sign the contract after receiving confirmation email.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"parent\", \"source_reference\": \"Agent's email on 2025-08-11 explaining next steps\"}, {\"type\": \"payment\", \"description\": \"Student to share payment receipt after signing offer and guarantor completing documents to confirm booking with property.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent's email on 2025-08-11 explaining next steps\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student via call or email if no response after resending offer and guarantor confirmation.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"No response after calls on 2025-08-11 and 2025-08-12 and initial email\"}], \"last_agent_response\": \"Agent informed student that an offer was sent and explained guarantor process and payment steps in email on 2025-08-11.\", \"suggested_next_step\": \"Agent to immediately resend the offer email to Aileen and send confirmation email to her guarantor.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Aileen Samillano\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (aileensamillano@gmail.com), Phone (447423273340), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3277 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Offer not yet received/signed\", \"documents_status\": \"Guarantor documents not received or signed; guarantor has not received confirmation email\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 (2 emails, 2 calls with zero duration, 1 lead info update)\", \"primary_channel\": \"Email\", \"last_contact\": \"2025-09-13 (lead info recorded)\", \"response_time\": \"Same day email response; calls attempted but no duration recorded\", \"key_moments\": \"Student reported not receiving offer or guarantor confirmation email; agent provided instructions on signing offer and guarantor documents\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1427987 (specific property not named)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Budget and lease duration provided; no specific preferences stated\", \"offers_made\": \"Offer email mentioned but not yet received by student\"}, \"next_steps\": {\"immediate_actions\": \"Resend or confirm offer email to student; ensure guarantor receives confirmation email and documents to sign\", \"pending_items\": \"Student to sign offer; guarantor to upload documents and sign contract\", \"follow_up_required\": \"Agent to follow up on offer delivery and guarantor confirmation\", \"timeline\": \"Lease duration 43 weeks ending 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear in requesting missing documents\", \"urgency_level\": \"Moderate; student awaiting offer and guarantor confirmation\", \"complexity\": \"Standard booking with guarantor involvement\", \"special_considerations\": \"Ensure guarantor communication is effective to avoid delays\"}}}}}",
+    "created_at": "2025-11-18 10:55:32",
+    "updated_at": "2025-11-18T16:25:32.593977",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Aileen Samillano",
+        "mobile": [
+          "+447423273340"
+        ],
+        "email": [
+          "aileensamillano@gmail.com"
+        ],
+        "whatsapp": [
+          "+447423273340"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 43,
+        "room_type": null,
+        "budget": {
+          "max": 277,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": "yes_national"
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Resend the offer email to Aileen as she has not received it yet.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Aileen's email on 2025-08-11 stating she hasn't received an offer yet"
+        },
+        {
+          "type": "communication",
+          "description": "Send confirmation email to Aileen's guarantor so they can upload documents and sign the contract.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Aileen's email on 2025-08-11 stating guarantor hasn't received confirmation email"
+        },
+        {
+          "type": "booking_action",
+          "description": "Student to sign the offer once received to secure accommodation.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent's email on 2025-08-11 explaining next steps"
+        },
+        {
+          "type": "document_required",
+          "description": "Guarantor to upload required documents and sign the contract after receiving confirmation email.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "parent",
+          "source_reference": "Agent's email on 2025-08-11 explaining next steps"
+        },
+        {
+          "type": "payment",
+          "description": "Student to share payment receipt after signing offer and guarantor completing documents to confirm booking with property.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent's email on 2025-08-11 explaining next steps"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student via call or email if no response after resending offer and guarantor confirmation.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "No response after calls on 2025-08-11 and 2025-08-12 and initial email"
+        }
+      ],
+      "last_agent_response": "Agent informed student that an offer was sent and explained guarantor process and payment steps in email on 2025-08-11.",
+      "suggested_next_step": "Agent to immediately resend the offer email to Aileen and send confirmation email to her guarantor."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Aileen Samillano",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (aileensamillano@gmail.com), Phone (447423273340), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£277 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "43 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Offer not yet received/signed",
+            "documents_status": "Guarantor documents not received or signed; guarantor has not received confirmation email",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "5 (2 emails, 2 calls with zero duration, 1 lead info update)",
+            "primary_channel": "Email",
+            "last_contact": "2025-09-13 (lead info recorded)",
+            "response_time": "Same day email response; calls attempted but no duration recorded",
+            "key_moments": "Student reported not receiving offer or guarantor confirmation email; agent provided instructions on signing offer and guarantor documents"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1427987 (specific property not named)",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Budget and lease duration provided; no specific preferences stated",
+            "offers_made": "Offer email mentioned but not yet received by student"
+          },
+          "next_steps": {
+            "immediate_actions": "Resend or confirm offer email to student; ensure guarantor receives confirmation email and documents to sign",
+            "pending_items": "Student to sign offer; guarantor to upload documents and sign contract",
+            "follow_up_required": "Agent to follow up on offer delivery and guarantor confirmation",
+            "timeline": "Lease duration 43 weeks ending 2026-07-10"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and clear in requesting missing documents",
+            "urgency_level": "Moderate; student awaiting offer and guarantor confirmation",
+            "complexity": "Standard booking with guarantor involvement",
+            "special_considerations": "Ensure guarantor communication is effective to avoid delays"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Aileen Samillano",
+          "mobile": [
+            "+447423273340"
+          ],
+          "email": [
+            "aileensamillano@gmail.com"
+          ],
+          "whatsapp": [
+            "+447423273340"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 43,
+          "room_type": null,
+          "budget": {
+            "max": 277,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": "yes_national"
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Resend the offer email to Aileen as she has not received it yet.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Aileen's email on 2025-08-11 stating she hasn't received an offer yet"
+          },
+          {
+            "type": "communication",
+            "description": "Send confirmation email to Aileen's guarantor so they can upload documents and sign the contract.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Aileen's email on 2025-08-11 stating guarantor hasn't received confirmation email"
+          },
+          {
+            "type": "booking_action",
+            "description": "Student to sign the offer once received to secure accommodation.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent's email on 2025-08-11 explaining next steps"
+          },
+          {
+            "type": "document_required",
+            "description": "Guarantor to upload required documents and sign the contract after receiving confirmation email.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "parent",
+            "source_reference": "Agent's email on 2025-08-11 explaining next steps"
+          },
+          {
+            "type": "payment",
+            "description": "Student to share payment receipt after signing offer and guarantor completing documents to confirm booking with property.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent's email on 2025-08-11 explaining next steps"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student via call or email if no response after resending offer and guarantor confirmation.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "No response after calls on 2025-08-11 and 2025-08-12 and initial email"
+          }
+        ],
+        "last_agent_response": "Agent informed student that an offer was sent and explained guarantor process and payment steps in email on 2025-08-11.",
+        "suggested_next_step": "Agent to immediately resend the offer email to Aileen and send confirmation email to her guarantor."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Aileen Samillano",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (aileensamillano@gmail.com), Phone (447423273340), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£277 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "43 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Offer not yet received/signed",
+              "documents_status": "Guarantor documents not received or signed; guarantor has not received confirmation email",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "5 (2 emails, 2 calls with zero duration, 1 lead info update)",
+              "primary_channel": "Email",
+              "last_contact": "2025-09-13 (lead info recorded)",
+              "response_time": "Same day email response; calls attempted but no duration recorded",
+              "key_moments": "Student reported not receiving offer or guarantor confirmation email; agent provided instructions on signing offer and guarantor documents"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1427987 (specific property not named)",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Budget and lease duration provided; no specific preferences stated",
+              "offers_made": "Offer email mentioned but not yet received by student"
+            },
+            "next_steps": {
+              "immediate_actions": "Resend or confirm offer email to student; ensure guarantor receives confirmation email and documents to sign",
+              "pending_items": "Student to sign offer; guarantor to upload documents and sign contract",
+              "follow_up_required": "Agent to follow up on offer delivery and guarantor confirmation",
+              "timeline": "Lease duration 43 weeks ending 2026-07-10"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and clear in requesting missing documents",
+              "urgency_level": "Moderate; student awaiting offer and guarantor confirmation",
+              "complexity": "Standard booking with guarantor involvement",
+              "special_considerations": "Ensure guarantor communication is effective to avoid delays"
+            }
+          }
+        }
+      }
+    }
+  }
+}

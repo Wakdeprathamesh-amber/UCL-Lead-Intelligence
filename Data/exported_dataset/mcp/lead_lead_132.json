@@ -1,0 +1,253 @@
+{
+  "id": "lead_132",
+  "mobile_number": "8618712868075",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2158,
+      "lead_id": 132,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3119483, \"user_name\": \"WeiXu Zhang\", \"email\": \"zhangweixuaks@126.com\", \"phone\": \"8618712868075\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 333, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 9751, \"inventory_id\": 1939796}",
+      "created_at": "2025-11-18 10:17:00"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 54,
+    "lead_id": 132,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"WeiXu Zhang\", \"mobile\": [\"8618712868075\"], \"email\": [\"zhangweixuaks@126.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 333, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"WeiXu Zhang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (zhangweixuaks@126.com), Phone (8618712868075)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3333 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Lead submission via email/phone\", \"last_contact\": \"2025-06-09\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1939796\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm details and preferences\", \"pending_items\": \"Student's move-in date, room type preferences, and special requirements\", \"follow_up_required\": \"Yes, to clarify accommodation preferences and booking details\", \"timeline\": \"Lease duration ends on 2026-08-28\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget is \\u00a3333 weekly for a 51-week lease in London\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"WeiXu Zhang\", \"mobile\": [\"8618712868075\"], \"email\": [\"zhangweixuaks@126.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 333, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"WeiXu Zhang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (zhangweixuaks@126.com), Phone (8618712868075)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3333 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Lead submission via email/phone\", \"last_contact\": \"2025-06-09\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1939796\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm details and preferences\", \"pending_items\": \"Student's move-in date, room type preferences, and special requirements\", \"follow_up_required\": \"Yes, to clarify accommodation preferences and booking details\", \"timeline\": \"Lease duration ends on 2026-08-28\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget is \\u00a3333 weekly for a 51-week lease in London\"}}}}}",
+    "created_at": "2025-11-18 10:17:08",
+    "updated_at": "2025-11-18T15:47:08.316250",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "WeiXu Zhang",
+        "mobile": [
+          "8618712868075"
+        ],
+        "email": [
+          "zhangweixuaks@126.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 333,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "",
+      "suggested_next_step": ""
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "WeiXu Zhang",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (zhangweixuaks@126.com), Phone (8618712868075)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£333 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1",
+            "primary_channel": "Lead submission via email/phone",
+            "last_contact": "2025-06-09",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial lead information received"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1939796",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Contact student to confirm details and preferences",
+            "pending_items": "Student's move-in date, room type preferences, and special requirements",
+            "follow_up_required": "Yes, to clarify accommodation preferences and booking details",
+            "timeline": "Lease duration ends on 2026-08-28"
+          },
+          "agent_notes": {
+            "student_tone": "Not mentioned",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Budget is £333 weekly for a 51-week lease in London"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "WeiXu Zhang",
+          "mobile": [
+            "8618712868075"
+          ],
+          "email": [
+            "zhangweixuaks@126.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 333,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "",
+        "suggested_next_step": ""
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "WeiXu Zhang",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (zhangweixuaks@126.com), Phone (8618712868075)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£333 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1",
+              "primary_channel": "Lead submission via email/phone",
+              "last_contact": "2025-06-09",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial lead information received"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1939796",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Contact student to confirm details and preferences",
+              "pending_items": "Student's move-in date, room type preferences, and special requirements",
+              "follow_up_required": "Yes, to clarify accommodation preferences and booking details",
+              "timeline": "Lease duration ends on 2026-08-28"
+            },
+            "agent_notes": {
+              "student_tone": "Not mentioned",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Budget is £333 weekly for a 51-week lease in London"
+            }
+          }
+        }
+      }
+    }
+  }
+}

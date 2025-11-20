@@ -1,0 +1,264 @@
+{
+  "id": "lead_60",
+  "mobile_number": "447862816421",
+  "email": null,
+  "timeline": [
+    {
+      "id": 16882,
+      "lead_id": 60,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3231915, \"user_name\": \"Susanna Law\", \"email\": \"susannalawuk@gmail.com\", \"phone\": \"447862816421\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2026-07-17\", \"budget\": 252, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Wembley\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8860, \"inventory_id\": 1910296}",
+      "created_at": "2025-11-19 07:08:54"
+    },
+    {
+      "id": 16883,
+      "lead_id": 60,
+      "event_type": "call",
+      "timestamp": "2025-09-15T10:00:11.168305",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7875690",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-15T10:00:11.168305\", \"id\": 7875690, \"duration\": \"177\", \"to_number\": \"447862816421\", \"from_number\": \"447446196852\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3ead43ff-8188-4b35-a1ac-d945f6f029c0.wav\"}",
+      "created_at": "2025-11-19 07:08:54"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 411,
+    "lead_id": 60,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Susanna Law\", \"mobile\": [\"447862816421\"], \"email\": [\"susannalawuk@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 252, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent made a call to the student on 2025-09-15 to discuss accommodation details.\", \"suggested_next_step\": \"Agent to follow up with the student if no response or further information is received within a week.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Susanna Law\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (susannalawuk@gmail.com), Phone (+44 7862 816421)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3252 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (lead info submission and one phone call)\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-09-15T10:00:11\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead submission on 2025-09-13; phone call with student on 2025-09-15 lasting 177 seconds\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1910296 linked to lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up with student to clarify move-in date and room preferences\", \"pending_items\": \"Details on move-in date, room type, and any special requirements\", \"follow_up_required\": \"Agent to contact student for further details and next steps\", \"timeline\": \"Lease ends on 2026-07-17; lease duration 44 weeks\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"None noted\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Susanna Law\", \"mobile\": [\"447862816421\"], \"email\": [\"susannalawuk@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 252, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent made a call to the student on 2025-09-15 to discuss accommodation details.\", \"suggested_next_step\": \"Agent to follow up with the student if no response or further information is received within a week.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Susanna Law\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (susannalawuk@gmail.com), Phone (+44 7862 816421)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3252 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (lead info submission and one phone call)\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-09-15T10:00:11\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead submission on 2025-09-13; phone call with student on 2025-09-15 lasting 177 seconds\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1910296 linked to lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up with student to clarify move-in date and room preferences\", \"pending_items\": \"Details on move-in date, room type, and any special requirements\", \"follow_up_required\": \"Agent to contact student for further details and next steps\", \"timeline\": \"Lease ends on 2026-07-17; lease duration 44 weeks\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"None noted\"}}}}}",
+    "created_at": "2025-11-19 07:09:07",
+    "updated_at": "2025-11-19T12:39:07.602688",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Susanna Law",
+        "mobile": [
+          "447862816421"
+        ],
+        "email": [
+          "susannalawuk@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Wembley"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": null,
+        "budget": {
+          "max": 252,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent made a call to the student on 2025-09-15 to discuss accommodation details.",
+      "suggested_next_step": "Agent to follow up with the student if no response or further information is received within a week."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Susanna Law",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (susannalawuk@gmail.com), Phone (+44 7862 816421)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "Wembley, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£252 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "44 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 (lead info submission and one phone call)",
+            "primary_channel": "Phone call",
+            "last_contact": "2025-09-15T10:00:11",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial lead submission on 2025-09-13; phone call with student on 2025-09-15 lasting 177 seconds"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1910296 linked to lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up with student to clarify move-in date and room preferences",
+            "pending_items": "Details on move-in date, room type, and any special requirements",
+            "follow_up_required": "Agent to contact student for further details and next steps",
+            "timeline": "Lease ends on 2026-07-17; lease duration 44 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "Not mentioned",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "None noted"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Susanna Law",
+          "mobile": [
+            "447862816421"
+          ],
+          "email": [
+            "susannalawuk@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Wembley"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": null,
+          "budget": {
+            "max": 252,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent made a call to the student on 2025-09-15 to discuss accommodation details.",
+        "suggested_next_step": "Agent to follow up with the student if no response or further information is received within a week."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Susanna Law",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (susannalawuk@gmail.com), Phone (+44 7862 816421)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "Wembley, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£252 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "44 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 (lead info submission and one phone call)",
+              "primary_channel": "Phone call",
+              "last_contact": "2025-09-15T10:00:11",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial lead submission on 2025-09-13; phone call with student on 2025-09-15 lasting 177 seconds"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1910296 linked to lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up with student to clarify move-in date and room preferences",
+              "pending_items": "Details on move-in date, room type, and any special requirements",
+              "follow_up_required": "Agent to contact student for further details and next steps",
+              "timeline": "Lease ends on 2026-07-17; lease duration 44 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "Not mentioned",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "None noted"
+            }
+          }
+        }
+      }
+    }
+  }
+}

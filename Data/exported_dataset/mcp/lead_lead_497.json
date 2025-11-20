@@ -1,0 +1,749 @@
+{
+  "id": "lead_497",
+  "mobile_number": "447398793998",
+  "email": null,
+  "timeline": [
+    {
+      "id": 15542,
+      "lead_id": 497,
+      "event_type": "call",
+      "timestamp": "2025-08-11T09:17:43.246914",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7658729",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-11T09:17:43.246914\", \"id\": 7658729, \"duration\": \"10\", \"to_number\": \"447398793998\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ffbf1bfb-545d-44b4-bf3e-08b102261c8c.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15543,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T09:18:37",
+      "content": "Hi Divya, \nGood Day\n\nRachna Ahuja this side on behalf of *University College London* powered by Amber \n\n I will be happy to help you in booking the right accommodation for you. \n\nThanks",
+      "source": "whatsapp",
+      "event_id": "7051398",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T09:18:37\", \"id\": 7051398, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB026DF2722C841316DF5\", \"message_type\": \"text\", \"message_content\": \"Hi Divya, \\nGood Day\\n\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\n\\n I will be happy to help you in booking the right accommodation for you. \\n\\nThanks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-11T09:18:37.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Divya, \\\\nGood Day\\\\n\\\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\\\n\\\\n I will be happy to help you in booking the right accommodation for you. \\\\n\\\\nThanks\\\", \\\"Datetime\\\": 1754903917000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB026DF2722C841316DF5\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T09:18:37.650921\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15544,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:29:38",
+      "content": "Hi Rachna \nI am looking for a 2 bed apartment  \nCan you help me with some option",
+      "source": "whatsapp",
+      "event_id": "7060156",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:29:38\", \"id\": 7060156, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3A02A8919E4985491235\", \"message_type\": \"text\", \"message_content\": \"Hi Rachna \\nI am looking for a 2 bed apartment  \\nCan you help me with some option\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-11T11:29:38.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Rachna \\\\nI am looking for a 2 bed apartment  \\\\nCan you help me with some option\\\", \\\"Datetime\\\": 1754911778000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3A02A8919E4985491235\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:29:39.096802\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15545,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:29:51",
+      "content": "Hi Divya",
+      "source": "whatsapp",
+      "event_id": "7060183",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:29:51\", \"id\": 7060183, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB0BC7DE9CCECB052E4E1\", \"message_type\": \"text\", \"message_content\": \"Hi Divya\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-11T11:29:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Divya\\\", \\\"Datetime\\\": 1754911791000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB0BC7DE9CCECB052E4E1\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:29:52.183248\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15546,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:29:57",
+      "content": "Yes sure, which University?",
+      "source": "whatsapp",
+      "event_id": "7060190",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:29:57\", \"id\": 7060190, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB04DA47F4FC9AB7A922C\", \"message_type\": \"text\", \"message_content\": \"Yes sure, which University?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-11T11:29:57.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Yes sure, which University?\\\", \\\"Datetime\\\": 1754911797000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB04DA47F4FC9AB7A922C\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:29:57.995829\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15547,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:30:33",
+      "content": "UCL but my other flatmate is in loubourogh university so we need something in middle",
+      "source": "whatsapp",
+      "event_id": "7060234",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:30:33\", \"id\": 7060234, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3A5B858B583ADD6252D3\", \"message_type\": \"text\", \"message_content\": \"UCL but my other flatmate is in loubourogh university so we need something in middle\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-11T11:30:33.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"UCL but my other flatmate is in loubourogh university so we need something in middle\\\", \\\"Datetime\\\": 1754911833000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3A5B858B583ADD6252D3\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:30:34.038124\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15548,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:31:49",
+      "content": "Oh \nOk let me check",
+      "source": "whatsapp",
+      "event_id": "7060331",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:31:49\", \"id\": 7060331, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB0F56B8051DE3280CAF3\", \"message_type\": \"text\", \"message_content\": \"Oh \\nOk let me check\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-11T11:31:49.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Oh \\\\nOk let me check\\\", \\\"Datetime\\\": 1754911909000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB0F56B8051DE3280CAF3\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:31:49.886923\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15549,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:31:52",
+      "content": "Any budget?",
+      "source": "whatsapp",
+      "event_id": "7060334",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:31:52\", \"id\": 7060334, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB077F82B05415C76AD42\", \"message_type\": \"text\", \"message_content\": \"Any budget?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-11T11:31:52.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Any budget?\\\", \\\"Datetime\\\": 1754911912000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB077F82B05415C76AD42\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:31:53.204480\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15550,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:31:55",
+      "content": "Okay",
+      "source": "whatsapp",
+      "event_id": "7060339",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:31:55\", \"id\": 7060339, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3AFDC302EB78B416D53A\", \"message_type\": \"text\", \"message_content\": \"Okay\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-11T11:31:55.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Okay\\\", \\\"Datetime\\\": 1754911915000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3AFDC302EB78B416D53A\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:31:56.018184\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15551,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:32:07",
+      "content": "900 -1000 pcm",
+      "source": "whatsapp",
+      "event_id": "7060361",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:32:07\", \"id\": 7060361, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3AC215A687B1FE370DF4\", \"message_type\": \"text\", \"message_content\": \"900 -1000 pcm\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-11T11:32:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"900 -1000 pcm\\\", \\\"Datetime\\\": 1754911927000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3AC215A687B1FE370DF4\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:32:07.621172\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15552,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:32:29",
+      "content": "Ok",
+      "source": "whatsapp",
+      "event_id": "7060394",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:32:29\", \"id\": 7060394, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB0A64CB4F154F64B753A\", \"message_type\": \"text\", \"message_content\": \"Ok\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-11T11:32:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Ok\\\", \\\"Datetime\\\": 1754911949000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB0A64CB4F154F64B753A\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:32:30.344289\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15553,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:32:36",
+      "content": "This is per person, right?",
+      "source": "whatsapp",
+      "event_id": "7060400",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:32:36\", \"id\": 7060400, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB07BB89E6B9F42D8EA72\", \"message_type\": \"text\", \"message_content\": \"This is per person, right?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-11T11:32:36.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"This is per person, right?\\\", \\\"Datetime\\\": 1754911956000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB07BB89E6B9F42D8EA72\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:32:36.232043\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15554,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T11:32:41",
+      "content": "Yes",
+      "source": "whatsapp",
+      "event_id": "7060413",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T11:32:41\", \"id\": 7060413, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3A5EB96064213DE8184E\", \"message_type\": \"text\", \"message_content\": \"Yes\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-11T11:32:41.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Yes\\\", \\\"Datetime\\\": 1754911961000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3A5EB96064213DE8184E\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-11T11:32:41.701218\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15555,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-12T13:54:07",
+      "content": "hi Rachna did you find any ?",
+      "source": "whatsapp",
+      "event_id": "7120895",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-12T13:54:07\", \"id\": 7120895, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3A367BF96953A259A8E8\", \"message_type\": \"text\", \"message_content\": \"hi Rachna did you find any ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-12T13:54:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"hi Rachna did you find any ?\\\", \\\"Datetime\\\": 1755006847000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3A367BF96953A259A8E8\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-12T13:54:08.158380\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15556,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-12T14:46:14",
+      "content": "Hi Divya",
+      "source": "whatsapp",
+      "event_id": "7124661",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-12T14:46:14\", \"id\": 7124661, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_5968C6FE9AF69CF8D9248CD423E1795F\", \"message_type\": \"text\", \"message_content\": \"Hi Divya\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-12T14:46:14.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Divya\\\", \\\"Datetime\\\": 1755009974000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_5968C6FE9AF69CF8D9248CD423E1795F\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-12T14:46:14.450394\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15557,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-12T14:46:19",
+      "content": "Yes will share some options",
+      "source": "whatsapp",
+      "event_id": "7124669",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-12T14:46:19\", \"id\": 7124669, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_8158509C03652285FA726D2436EF4EAC\", \"message_type\": \"text\", \"message_content\": \"Yes will share some options\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-12T14:46:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Yes will share some options\\\", \\\"Datetime\\\": 1755009979000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_8158509C03652285FA726D2436EF4EAC\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-12T14:46:19.751707\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15558,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-12T15:05:56",
+      "content": "sure",
+      "source": "whatsapp",
+      "event_id": "7126061",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-12T15:05:56\", \"id\": 7126061, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3A57A8CEC0692B56443F\", \"message_type\": \"text\", \"message_content\": \"sure\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-12T15:05:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"sure\\\", \\\"Datetime\\\": 1755011156000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3A57A8CEC0692B56443F\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-12T15:05:56.818702\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15559,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T21:12:27",
+      "content": "Hi \n\nUnfortunately, we are not able to find anything in between, as both are separate cities.\nIf you want options close to both of these individually. Let me know",
+      "source": "whatsapp",
+      "event_id": "7190761",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T21:12:27\", \"id\": 7190761, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB08D23817A2359C60063\", \"message_type\": \"text\", \"message_content\": \"Hi \\n\\nUnfortunately, we are not able to find anything in between, as both are separate cities.\\nIf you want options close to both of these individually. Let me know\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T21:12:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi \\\\n\\\\nUnfortunately, we are not able to find anything in between, as both are separate cities.\\\\nIf you want options close to both of these individually. Let me know\\\", \\\"Datetime\\\": 1755119547000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB08D23817A2359C60063\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T21:12:27.619202\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15560,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T22:17:02",
+      "content": "Yes that will work too",
+      "source": "whatsapp",
+      "event_id": "7191850",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T22:17:02\", \"id\": 7191850, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3A1EC0910829637B86BD\", \"message_type\": \"text\", \"message_content\": \"Yes that will work too\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T22:17:02.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Yes that will work too\\\", \\\"Datetime\\\": 1755123422000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3A1EC0910829637B86BD\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T22:17:03.078242\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15561,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T22:17:17",
+      "content": "Somewhere near Canary Wharf",
+      "source": "whatsapp",
+      "event_id": "7191852",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T22:17:17\", \"id\": 7191852, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3A41A8D6983DF162C7A1\", \"message_type\": \"text\", \"message_content\": \"Somewhere near Canary Wharf\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T22:17:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Somewhere near Canary Wharf\\\", \\\"Datetime\\\": 1755123437000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3A41A8D6983DF162C7A1\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T22:17:17.946353\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15562,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T01:07:58",
+      "content": "Ok sure",
+      "source": "whatsapp",
+      "event_id": "7192856",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T01:07:58\", \"id\": 7192856, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_23CCA2CF75A868617AA999AF1BBAA350\", \"message_type\": \"text\", \"message_content\": \"Ok sure\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T01:07:58.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Ok sure\\\", \\\"Datetime\\\": 1755133678000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_23CCA2CF75A868617AA999AF1BBAA350\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-14T01:07:59.424578\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15563,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T11:24:15",
+      "content": "Any option available?",
+      "source": "whatsapp",
+      "event_id": "7214220",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T11:24:15\", \"id\": 7214220, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3A9908BA7C0490938D03\", \"message_type\": \"text\", \"message_content\": \"Any option available?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-14T11:24:15.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Any option available?\\\", \\\"Datetime\\\": 1755170655000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3A9908BA7C0490938D03\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-14T11:24:15.770645\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15564,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T11:31:48",
+      "content": "I am checking and sharing soon :)",
+      "source": "whatsapp",
+      "event_id": "7214851",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T11:31:48\", \"id\": 7214851, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB0F8FBE91FCB06DBF005\", \"message_type\": \"text\", \"message_content\": \"I am checking and sharing soon :)\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T11:31:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"I am checking and sharing soon :)\\\", \\\"Datetime\\\": 1755171108000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB0F8FBE91FCB06DBF005\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-14T11:31:48.934309\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15565,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T15:51:37",
+      "content": "Hi Divya Shivkani\nI hope you're doing well! 🌟\n\nI'm Aashutush from the UCL Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, The Helix Wembley, London. 🏡\n\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! ✨\n\nThanks a lot! 😊\n\nBest regards,\nAshutush",
+      "source": "whatsapp",
+      "event_id": "7431539",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T15:51:37\", \"id\": 7431539, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3FE34B54A0869C7C7FBC\", \"message_type\": \"text\", \"message_content\": \"Hi Divya Shivkani\\nI hope you're doing well! \\ud83c\\udf1f\\n\\nI'm Aashutush from the UCL Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, The Helix Wembley, London. \\ud83c\\udfe1\\n\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\n\\nThanks a lot! \\ud83d\\ude0a\\n\\nBest regards,\\nAshutush\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T15:51:37.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Divya Shivkani\\\\nI hope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI'm Aashutush from the UCL Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, The Helix Wembley, London. \\ud83c\\udfe1\\\\n\\\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\\\n\\\\nThanks a lot! \\ud83d\\ude0a\\\\n\\\\nBest regards,\\\\nAshutush\\\", \\\"Datetime\\\": 1755532297000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3FE34B54A0869C7C7FBC\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-18T15:51:37.399473\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15566,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-19T13:22:29",
+      "content": "Hi",
+      "source": "whatsapp",
+      "event_id": "7481794",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-19T13:22:29\", \"id\": 7481794, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB004EFBC27E38D983CD7\", \"message_type\": \"text\", \"message_content\": \"Hi\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-19T13:22:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi\\\", \\\"Datetime\\\": 1755609749000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB004EFBC27E38D983CD7\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-19T13:22:29.763234\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15567,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-19T13:22:35",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *MANNEQUIN HOUSE, LONDON*\nhttps://amberstudent.com/places/mannequin-house-london-1706057856013\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from Canary Wharf, London, UK:*\n*Drive:* 14.1 mi (28 mins)\n*Walk:* 7.4 mi (2 hours 29 mins)\n*Bus/Train:* 14.4 mi (42 mins)\n\n🏘 *ROOM TYPES:*\n*Ensuite Gold:*\n  £309/week (Duration: 51 week) (Move in: 30 Aug, 2025)\n  £315/week (Duration: 51 week) (Move in: 30 Aug, 2025)\n\n*Ensuite Platinum:*\n  £329/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\n  £333/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\n  £339/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\n  £345/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\n\n*Ensuite Platinum Plus:*\n  £339/week (Duration: 51 week) (Move in: 30 Aug, 2025)\n  £345/week (Duration: 51 week) (Move in: 30 Aug, 2025)\n\n*Studio Gold:*\n  £419/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\n  £427/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/mannequin-house-london-1706057856013/form?url=rachna.a%40amberstudent.com&amp;inventory_id=134941\n\n------------\n\n🏡 *SURREY QUAYS LANDALE HOUSE, LONDON *\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from Canary Wharf, London, UK:*\n*Drive:* 3.3 mi (15 mins)\n*Walk:* 2.4 mi (40 mins)\n*Bus/Train:* 1.7 mi (9 mins)\n\n🏘 *ROOM TYPES:*\n*Silver Non-Ensuite Room:*\n  £239/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Platinum Ensuite:*\n  £355/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=rachna.a%40amberstudent.com&amp;inventory_id=138605\n\n------------\n\n🏡 *DEPTFORD, LONDON*\nhttps://amberstudent.com/places/deptford-london-2508080356117\n\n📍 *DISTANCE from Canary Wharf, London, UK:*\n*Drive:* 4.7 mi (19 mins)\n*Walk:* 2.5 mi (45 mins)\n*Bus/Train:* 3.7 mi (30 mins)\n\n🏘 *ROOM TYPES:*\n*Classic:*\n  £299/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £319/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n  £319/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £329/week (Duration: 42 week) (Move in: 16 Sep, 2025) (Move out: 6 Jul, 2026)\n\n*Premium:*\n  £329/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £349/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £349/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n  £369/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n\n*Superior:*\n  £349/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £369/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £369/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n  £389/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n\n*Premium En-Suite:*\n  £369/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £389/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £389/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n  £409/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n\n*Superior En-Suite:*\n  £379/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £399/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £399/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n  £419/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n\n*Ultimate Ensuite:*\n  £389/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £409/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £409/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n\n*Duplex:*\n  £429/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £449/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £449/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n  £469/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n\n*Duplex En-suite:*\n  £459/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £499/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £499/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n  £519/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/deptford-london-2508080356117/form?url=rachna.a%40amberstudent.com&amp;inventory_id=2061969\n\n------------\n\n🏡 *AXO NEW CROSS, LONDON*\nhttps://amberstudent.com/places/axo-new-cross-london-1709159531035\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/axo-new-cross-london-1709159531035?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from Canary Wharf, London, UK:*\n*Drive:* 5.4 mi (21 mins)\n*Walk:* 3.3 mi (1 hour 14 mins)\n*Bus/Train:* 3.4 mi (27 mins)\n\n🏘 *ROOM TYPES:*\n*Silver Ensuite:*\n  £289/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Silver Ensuite (Accessible):*\n  £289/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Silver Ensuite (Higher Floors):*\n  £293/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/axo-new-cross-london-1709159531035/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137465\n\n------------\n\n🏡 *PACIFIC COURT, LONDON*\nhttps://amberstudent.com/places/pacific-court-london-1710240121954\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from Canary Wharf, London, UK:*\n*Drive:* 2.4 mi (11 mins)\n*Walk:* 2.3 mi (46 mins)\n*Bus/Train:* 2.9 mi (26 mins)\n\n🏘 *ROOM TYPES:*\n*Classic Ensuite:*\n  £335/week (Duration: 51 week) (Move in: 20 Sep, 2025) (Move out: 14 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/pacific-court-london-1710240121954/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137846\n\n------------\n\n🏡 *LONDON NEST DON GRATTON HOUSE, LONDON*\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from Canary Wharf, London, UK:*\n*Drive:* 3.0 mi (15 mins)\n*Walk:* 2.8 mi (56 mins)\n*Bus/Train:* 2.8 mi (17 mins)\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770/form?url=rachna.a%40amberstudent.com&amp;inventory_id=216515\n\n------------\n\n🏡 *RAHERE COURT, LONDON*\nhttps://amberstudent.com/places/rahere-court-london-1710114620639\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/rahere-court-london-1710114620639?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/rahere-court-london-1710114620639?gallery=true&amp",
+      "source": "whatsapp",
+      "event_id": "7481800",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-19T13:22:35\", \"id\": 7481800, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3EB0B10C0AEFA2589C2225\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *MANNEQUIN HOUSE, LONDON*\\nhttps://amberstudent.com/places/mannequin-house-london-1706057856013\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\n*Drive:* 14.1 mi (28 mins)\\n*Walk:* 7.4 mi (2 hours 29 mins)\\n*Bus/Train:* 14.4 mi (42 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Ensuite Gold:*\\n\\u00a0\\u00a0\\u00a3309/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\n\\u00a0\\u00a0\\u00a3315/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\n\\n*Ensuite Platinum:*\\n\\u00a0\\u00a0\\u00a3329/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3333/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\\n\\n*Ensuite Platinum Plus:*\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\n\\n*Studio Gold:*\\n\\u00a0\\u00a0\\u00a3419/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3427/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/mannequin-house-london-1706057856013/form?url=rachna.a%40amberstudent.com&amp;inventory_id=134941\\n\\n------------\\n\\n\\ud83c\\udfe1 *SURREY QUAYS LANDALE HOUSE, LONDON *\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\n*Drive:* 3.3 mi (15 mins)\\n*Walk:* 2.4 mi (40 mins)\\n*Bus/Train:* 1.7 mi (9 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Silver Non-Ensuite Room:*\\n\\u00a0\\u00a0\\u00a3239/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Platinum Ensuite:*\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=rachna.a%40amberstudent.com&amp;inventory_id=138605\\n\\n------------\\n\\n\\ud83c\\udfe1 *DEPTFORD, LONDON*\\nhttps://amberstudent.com/places/deptford-london-2508080356117\\n\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\n*Drive:* 4.7 mi (19 mins)\\n*Walk:* 2.5 mi (45 mins)\\n*Bus/Train:* 3.7 mi (30 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Classic:*\\n\\u00a0\\u00a0\\u00a3299/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3319/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3319/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3329/week (Duration: 42 week) (Move in: 16 Sep, 2025) (Move out: 6 Jul, 2026)\\n\\n*Premium:*\\n\\u00a0\\u00a0\\u00a3329/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3349/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3349/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3369/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\n*Superior:*\\n\\u00a0\\u00a0\\u00a3349/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3369/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3369/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3389/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\n*Premium En-Suite:*\\n\\u00a0\\u00a0\\u00a3369/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3389/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3389/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3409/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\n*Superior En-Suite:*\\n\\u00a0\\u00a0\\u00a3379/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3399/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3399/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3419/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\n*Ultimate Ensuite:*\\n\\u00a0\\u00a0\\u00a3389/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3409/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3409/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\n*Duplex:*\\n\\u00a0\\u00a0\\u00a3429/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3449/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3449/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3469/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\n*Duplex En-suite:*\\n\\u00a0\\u00a0\\u00a3459/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3499/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3499/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3519/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/deptford-london-2508080356117/form?url=rachna.a%40amberstudent.com&amp;inventory_id=2061969\\n\\n------------\\n\\n\\ud83c\\udfe1 *AXO NEW CROSS, LONDON*\\nhttps://amberstudent.com/places/axo-new-cross-london-1709159531035\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/axo-new-cross-london-1709159531035?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\n*Drive:* 5.4 mi (21 mins)\\n*Walk:* 3.3 mi (1 hour 14 mins)\\n*Bus/Train:* 3.4 mi (27 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Silver Ensuite:*\\n\\u00a0\\u00a0\\u00a3289/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Silver Ensuite (Accessible):*\\n\\u00a0\\u00a0\\u00a3289/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Silver Ensuite (Higher Floors):*\\n\\u00a0\\u00a0\\u00a3293/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/axo-new-cross-london-1709159531035/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137465\\n\\n------------\\n\\n\\ud83c\\udfe1 *PACIFIC COURT, LONDON*\\nhttps://amberstudent.com/places/pacific-court-london-1710240121954\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\n*Drive:* 2.4 mi (11 mins)\\n*Walk:* 2.3 mi (46 mins)\\n*Bus/Train:* 2.9 mi (26 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Classic Ensuite:*\\n\\u00a0\\u00a0\\u00a3335/week (Duration: 51 week) (Move in: 20 Sep, 2025) (Move out: 14 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/pacific-court-london-1710240121954/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137846\\n\\n------------\\n\\n\\ud83c\\udfe1 *LONDON NEST DON GRATTON HOUSE, LONDON*\\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\n*Drive:* 3.0 mi (15 mins)\\n*Walk:* 2.8 mi (56 mins)\\n*Bus/Train:* 2.8 mi (17 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770/form?url=rachna.a%40amberstudent.com&amp;inventory_id=216515\\n\\n------------\\n\\n\\ud83c\\udfe1 *RAHERE COURT, LONDON*\\nhttps://amberstudent.com/places/rahere-court-london-1710114620639\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/rahere-court-london-1710114620639?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/rahere-court-london-1710114620639?gallery=true&amp\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-19T13:22:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *MANNEQUIN HOUSE, LONDON*\\\\nhttps://amberstudent.com/places/mannequin-house-london-1706057856013\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\\\n*Drive:* 14.1 mi (28 mins)\\\\n*Walk:* 7.4 mi (2 hours 29 mins)\\\\n*Bus/Train:* 14.4 mi (42 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Ensuite Gold:*\\\\n\\u00a0\\u00a0\\u00a3309/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\\\n\\u00a0\\u00a0\\u00a3315/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\\\n\\\\n*Ensuite Platinum:*\\\\n\\u00a0\\u00a0\\u00a3329/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3333/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Ensuite Platinum Plus:*\\\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\\\n\\\\n*Studio Gold:*\\\\n\\u00a0\\u00a0\\u00a3419/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3427/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/mannequin-house-london-1706057856013/form?url=rachna.a%40amberstudent.com&amp;inventory_id=134941\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *SURREY QUAYS LANDALE HOUSE, LONDON *\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\\\n*Drive:* 3.3 mi (15 mins)\\\\n*Walk:* 2.4 mi (40 mins)\\\\n*Bus/Train:* 1.7 mi (9 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Silver Non-Ensuite Room:*\\\\n\\u00a0\\u00a0\\u00a3239/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Platinum Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=rachna.a%40amberstudent.com&amp;inventory_id=138605\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *DEPTFORD, LONDON*\\\\nhttps://amberstudent.com/places/deptford-london-2508080356117\\\\n\\\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\\\n*Drive:* 4.7 mi (19 mins)\\\\n*Walk:* 2.5 mi (45 mins)\\\\n*Bus/Train:* 3.7 mi (30 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Classic:*\\\\n\\u00a0\\u00a0\\u00a3299/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3319/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3319/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3329/week (Duration: 42 week) (Move in: 16 Sep, 2025) (Move out: 6 Jul, 2026)\\\\n\\\\n*Premium:*\\\\n\\u00a0\\u00a0\\u00a3329/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3349/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3349/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3369/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\\\n*Superior:*\\\\n\\u00a0\\u00a0\\u00a3349/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3369/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3369/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3389/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\\\n*Premium En-Suite:*\\\\n\\u00a0\\u00a0\\u00a3369/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3389/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3389/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3409/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\\\n*Superior En-Suite:*\\\\n\\u00a0\\u00a0\\u00a3379/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3399/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3399/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3419/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\\\n*Ultimate Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3389/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3409/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3409/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\\\n*Duplex:*\\\\n\\u00a0\\u00a0\\u00a3429/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3449/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3449/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3469/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\\\n*Duplex En-suite:*\\\\n\\u00a0\\u00a0\\u00a3459/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3499/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3499/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3519/week (Duration: 42 week) (Move in: 13 Sep, 2025) (Move out: 3 Jul, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/deptford-london-2508080356117/form?url=rachna.a%40amberstudent.com&amp;inventory_id=2061969\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *AXO NEW CROSS, LONDON*\\\\nhttps://amberstudent.com/places/axo-new-cross-london-1709159531035\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/axo-new-cross-london-1709159531035?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\\\n*Drive:* 5.4 mi (21 mins)\\\\n*Walk:* 3.3 mi (1 hour 14 mins)\\\\n*Bus/Train:* 3.4 mi (27 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Silver Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3289/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Silver Ensuite (Accessible):*\\\\n\\u00a0\\u00a0\\u00a3289/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Silver Ensuite (Higher Floors):*\\\\n\\u00a0\\u00a0\\u00a3293/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/axo-new-cross-london-1709159531035/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137465\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *PACIFIC COURT, LONDON*\\\\nhttps://amberstudent.com/places/pacific-court-london-1710240121954\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\\\n*Drive:* 2.4 mi (11 mins)\\\\n*Walk:* 2.3 mi (46 mins)\\\\n*Bus/Train:* 2.9 mi (26 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Classic Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3335/week (Duration: 51 week) (Move in: 20 Sep, 2025) (Move out: 14 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/pacific-court-london-1710240121954/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137846\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *LONDON NEST DON GRATTON HOUSE, LONDON*\\\\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\\\n*Drive:* 3.0 mi (15 mins)\\\\n*Walk:* 2.8 mi (56 mins)\\\\n*Bus/Train:* 2.8 mi (17 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/don-gratton-house-london-2204182190770/form?url=rachna.a%40amberstudent.com&amp;inventory_id=216515\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *RAHERE COURT, LONDON*\\\\nhttps://amberstudent.com/places/rahere-court-london-1710114620639\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/rahere-court-london-1710114620639?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/rahere-court-london-1710114620639?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\\\n*Drive:* 2.2 mi (10 mins)\\\\n*Walk:* 1.7 mi (38 mins)\\\\n*Bus/Train:* 1.7 mi (17 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/rahere-court-london-1710114620639/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137719\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *GOBRITANYA MCMILLAN RESIDENCE, LONDON*\\\\nhttps://amberstudent.com/places/mcmillan-residence-go-britanya-london-2303234603388\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/mcmillan-residence-go-britanya-london-2303234603388?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/mcmillan-residence-go-britanya-london-2303234603388?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\\\n*Drive:* 5.1 mi (21 mins)\\\\n*Walk:* 2.7 mi (54 mins)\\\\n*Bus/Train:* 2.6 mi (22 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/mcmillan-residence-go-britanya-london-2303234603388/form?url=rachna.a%40amberstudent.com&amp;inventory_id=259953\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ EAST COURT, LONDON*\\\\nhttps://amberstudent.com/places/iq-east-court-mile-end-2010057445017\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/iq-east-court-mile-end-2010057445017?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/iq-east-court-mile-end-2010057445017?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\\\n*Drive:* 1.9 mi (10 mins)\\\\n*Walk:* 1.7 mi (35 mins)\\\\n*Bus/Train:* 1.9 mi (23 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/iq-east-court-mile-end-2010057445017/form?url=rachna.a%40amberstudent.com&amp;inventory_id=162810\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ FLINDERS HOUSE, LONDON *\\\\nhttps://amberstudent.com/places/iq-flinders-house-greenwich-2010058192275\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/iq-flinders-house-greenwich-2010058192275?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/iq-flinders-house-greenwich-2010058192275?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from Canary Wharf, London, UK:*\\\\n*Drive:* 3.2 mi (15 mins)\\\\n*Walk:* 3.9 mi (1 hour 17 mins)\\\\n*Bus/Train:* 1.9 mi (20 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/iq-flinders-house-greenwich-2010058192275/form?url=rachna.a%40amberstudent.com&amp;inventory_id=162796\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1755609755000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3EB0B10C0AEFA2589C2225\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-19T13:22:35.689004\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15568,
+      "lead_id": 497,
+      "event_type": "call",
+      "timestamp": "2025-08-19T16:03:10.502181",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7717710",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T16:03:10.502181\", \"id\": 7717710, \"to_number\": \"447398793998\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15569,
+      "lead_id": 497,
+      "event_type": "call",
+      "timestamp": "2025-08-19T16:03:32.569702",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7717716",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T16:03:32.569702\", \"id\": 7717716, \"duration\": \"0\", \"to_number\": \"447398793998\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15570,
+      "lead_id": 497,
+      "event_type": "call",
+      "timestamp": "2025-08-19T16:03:43.251142",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7717718",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T16:03:43.251142\", \"id\": 7717718, \"duration\": \"0\", \"to_number\": \"447398793998\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15571,
+      "lead_id": 497,
+      "event_type": "call",
+      "timestamp": "2025-08-21T14:59:45.741337",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7732296",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T14:59:45.741337\", \"id\": 7732296, \"duration\": \"2\", \"to_number\": \"447398793998\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ae4ed6ee-a32a-4be4-ac05-0cad0e40c523.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15572,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-21T15:00:06",
+      "content": "Hi Divya Shivkani, 😊\nHope you're doing well! 🌟\n\nThis is Ashutush from AmberStudent. I’ve been trying to get in touch with you to discuss your student accommodation search and booking! 🏡✨\n\nPlease let me know a convenient time for us to connect. Looking forward to assisting you! 😊",
+      "source": "whatsapp",
+      "event_id": "7609367",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-21T15:00:06\", \"id\": 7609367, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447398793998\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447398793998@c.us_3F1DC758D4136D98BD44\", \"message_type\": \"text\", \"message_content\": \"Hi Divya Shivkani, \\ud83d\\ude0a\\nHope you're doing well! \\ud83c\\udf1f\\n\\nThis is Ashutush from AmberStudent. I\\u2019ve been trying to get in touch with you to discuss your student accommodation search and booking! \\ud83c\\udfe1\\u2728\\n\\nPlease let me know a convenient time for us to connect. Looking forward to assisting you! \\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-21T15:00:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Divya Shivkani, \\ud83d\\ude0a\\\\nHope you're doing well! \\ud83c\\udf1f\\\\n\\\\nThis is Ashutush from AmberStudent. I\\u2019ve been trying to get in touch with you to discuss your student accommodation search and booking! \\ud83c\\udfe1\\u2728\\\\n\\\\nPlease let me know a convenient time for us to connect. Looking forward to assisting you! \\ud83d\\ude0a\\\", \\\"Datetime\\\": 1755788406000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447398793998@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447398793998@c.us_3F1DC758D4136D98BD44\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-21T15:00:07.054478\", \"direction\": \"outbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15573,
+      "lead_id": 497,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-21T15:00:26",
+      "content": "Hey I am not looking for one now Thankyouu",
+      "source": "whatsapp",
+      "event_id": "7609399",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-21T15:00:26\", \"id\": 7609399, \"email\": \"\", \"from_number\": \"447398793998\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447398793998@c.us_3A499FA18BDD1B88E10A\", \"message_type\": \"text\", \"message_content\": \"Hey I am not looking for one now Thankyouu\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447398793998@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-21T15:00:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hey I am not looking for one now Thankyouu\\\", \\\"Datetime\\\": 1755788426000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"447398793998@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447398793998@c.us_3A499FA18BDD1B88E10A\\\", \\\"ChannelName\\\": \\\"447398793998\\\", \\\"SentByNumber\\\": \\\"447398793998\\\", \\\"sentByUserId\\\": \\\"447398793998@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-21T15:00:26.520615\", \"direction\": \"inbound\", \"sbase_user_id\": 2420478, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447398793998\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15574,
+      "lead_id": 497,
+      "event_type": "call",
+      "timestamp": "2025-08-23T11:31:05.756018",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7745440",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-23T11:31:05.756018\", \"id\": 7745440, \"duration\": \"0\", \"to_number\": \"447398793998\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15575,
+      "lead_id": 497,
+      "event_type": "call",
+      "timestamp": "2025-08-26T16:03:35.655603",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7764148",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T16:03:35.655603\", \"id\": 7764148, \"duration\": \"1\", \"to_number\": \"447398793998\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b85626c0-cb51-4d54-b458-e5f2882873f7.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15576,
+      "lead_id": 497,
+      "event_type": "call",
+      "timestamp": "2025-08-26T16:03:49.573594",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7764150",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T16:03:49.573594\", \"id\": 7764150, \"duration\": \"0\", \"to_number\": \"447398793998\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15577,
+      "lead_id": 497,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3129274, \"user_name\": \"Divya Shivkani\", \"email\": \"divyashivkani@gmail.com\", \"phone\": \"447398793998\", \"lease_duration\": \"\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8860, \"inventory_id\": 247612}",
+      "created_at": "2025-11-18 13:32:12"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 374,
+      "lead_id": 497,
+      "call_id": "7658729",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ffbf1bfb-545d-44b4-bf3e-08b102261c8c.wav",
+      "transcript_text": "Speaker A: 073-987-93998.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:20:30"
+    },
+    {
+      "id": 377,
+      "lead_id": 497,
+      "call_id": "7732296",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ae4ed6ee-a32a-4be4-ac05-0cad0e40c523.wav",
+      "transcript_text": "Speaker A: All has been forwarded.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:20:34"
+    }
+  ],
+  "summary": {
+    "id": 387,
+    "lead_id": 497,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Divya Shivkani\", \"mobile\": [\"+447398793998\"], \"email\": [\"divyashivkani@gmail.com\"], \"whatsapp\": [\"+447398793998\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\", \"near Canary Wharf\"], \"lease_duration_weeks\": null, \"room_type\": \"2 bed apartment\", \"budget\": {\"max\": 1000, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": true, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"yes_student\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"Canary Wharf\", \"between UCL and Loughborough University\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"The Helix Wembley\", \"Mannequin House, London\", \"Surrey Quays Landale House, London\", \"Deptford, London\", \"AXO New Cross, London\", \"Pacific Court, London\", \"London Nest Don Gratton House, London\", \"Rahere Court, London\", \"Gobritanya McMillan Residence, London\", \"IQ East Court, London\", \"IQ Flinders House, London\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Agent to share accommodation options suitable for a 2-bedroom apartment near UCL and Loughborough University, preferably near Canary Wharf, within the budget of \\u00a3900-\\u00a31000 pcm per person.\", \"due\": \"within_week\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent shared multiple property suggestions on 2025-08-19 including links and details.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student Divya Shivkani regarding interest in the shared accommodation options and confirm next steps or preferences.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student asked for options on 2025-08-12 and agent promised to share options; last message with options sent on 2025-08-19; no confirmation received yet.\"}, {\"type\": \"communication\", \"description\": \"Agent Ashutush to confirm with student a convenient time to discuss accommodation interest and booking.\", \"due\": \"immediate\", \"status\": \"blocked\", \"task_for\": \"agent\", \"source_reference\": \"Agent Ashutush sent messages on 2025-08-18 and 2025-08-21 asking for a good time to connect; student replied on 2025-08-21 that she is not looking for accommodation now.\"}], \"last_agent_response\": \"On 2025-08-19, agent Rachna shared detailed property suggestions with links and booking options for multiple London properties near Canary Wharf.\", \"suggested_next_step\": \"Agent to follow up with student Divya Shivkani to confirm if she wants to proceed with any of the shared accommodation options or if her plans have changed.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Divya Shivkani\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via mobile number 447398793998\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, preferably near Canary Wharf or between University College London (UCL) and Loughborough University (though no options found in between as they are separate cities)\", \"university\": \"University College London (UCL); flatmate at Loughborough University\", \"room_type\": \"2 bedroom apartment\", \"budget_range\": \"\\u00a3900-\\u00a31000 per calendar month (confirmed as per person weekly budget approx. \\u00a3209-\\u00a3230)\", \"move_in_date\": \"Late August to September 2025 (e.g., 30 Aug 2025, 6 Sep 2025, 13 Sep 2025, 20 Sep 2025 mentioned in property options)\", \"lease_duration\": \"Not explicitly mentioned; properties offered mostly for 42 to 51 weeks\", \"special_requirements\": \"Accommodation suitable for two flatmates attending different universities; preference for location near Canary Wharf\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; agent shared multiple property options but no confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages exchanged between 2025-08-11 and 2025-08-19; several phone calls attempted and some answered between 2025-08-11 and 2025-08-26\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-21 via WhatsApp; last phone call on 2025-08-26\", \"response_time\": \"Generally prompt responses on WhatsApp within minutes to hours; some calls unanswered or very short\", \"key_moments\": \"Initial inquiry about 2 bed apartment; clarification of university locations; budget discussion; agent unable to find mid-location between UCL and Loughborough; shared multiple property options near Canary Wharf; student later indicated not currently looking for accommodation on 2025-08-21\"}, \"properties_discussed\": {\"properties_mentioned\": \"The Helix Wembley, Mannequin House London, Surrey Quays Landale House London, Deptford London, AXO New Cross London, Pacific Court London, London Nest Don Gratton House, Rahere Court London, Gobritanya McMillan Residence London, IQ East Court London, IQ Flinders House London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Preference for location near Canary Wharf; willing to consider options close to either UCL or Loughborough individually\", \"offers_made\": \"Agent shared detailed property links and booking links but no offers or deals explicitly mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm if student is still interested in accommodation search; follow up on property options shared\", \"pending_items\": \"Student confirmation on preferred property or further preferences\", \"follow_up_required\": \"Agent to check in with student to confirm current needs and interest, especially after student stated not looking currently on 2025-08-21\", \"timeline\": \"Move-in dates around late August to September 2025; no specific booking deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and cooperative; clear in communication; later indicated no current need for accommodation\", \"urgency_level\": \"Initially moderate urgency; appears to have decreased as of 2025-08-21\", \"complexity\": \"Moderate complexity due to dual university locations and location preference between two cities\", \"special_considerations\": \"Student and flatmate attend different universities; no accommodation found between cities; focus on options near Canary Wharf or close to each university separately\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Divya Shivkani\", \"mobile\": [\"+447398793998\"], \"email\": [\"divyashivkani@gmail.com\"], \"whatsapp\": [\"+447398793998\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\", \"near Canary Wharf\"], \"lease_duration_weeks\": null, \"room_type\": \"2 bed apartment\", \"budget\": {\"max\": 1000, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": true, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"yes_student\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"Canary Wharf\", \"between UCL and Loughborough University\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"The Helix Wembley\", \"Mannequin House, London\", \"Surrey Quays Landale House, London\", \"Deptford, London\", \"AXO New Cross, London\", \"Pacific Court, London\", \"London Nest Don Gratton House, London\", \"Rahere Court, London\", \"Gobritanya McMillan Residence, London\", \"IQ East Court, London\", \"IQ Flinders House, London\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Agent to share accommodation options suitable for a 2-bedroom apartment near UCL and Loughborough University, preferably near Canary Wharf, within the budget of \\u00a3900-\\u00a31000 pcm per person.\", \"due\": \"within_week\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent shared multiple property suggestions on 2025-08-19 including links and details.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student Divya Shivkani regarding interest in the shared accommodation options and confirm next steps or preferences.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student asked for options on 2025-08-12 and agent promised to share options; last message with options sent on 2025-08-19; no confirmation received yet.\"}, {\"type\": \"communication\", \"description\": \"Agent Ashutush to confirm with student a convenient time to discuss accommodation interest and booking.\", \"due\": \"immediate\", \"status\": \"blocked\", \"task_for\": \"agent\", \"source_reference\": \"Agent Ashutush sent messages on 2025-08-18 and 2025-08-21 asking for a good time to connect; student replied on 2025-08-21 that she is not looking for accommodation now.\"}], \"last_agent_response\": \"On 2025-08-19, agent Rachna shared detailed property suggestions with links and booking options for multiple London properties near Canary Wharf.\", \"suggested_next_step\": \"Agent to follow up with student Divya Shivkani to confirm if she wants to proceed with any of the shared accommodation options or if her plans have changed.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Divya Shivkani\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via mobile number 447398793998\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, preferably near Canary Wharf or between University College London (UCL) and Loughborough University (though no options found in between as they are separate cities)\", \"university\": \"University College London (UCL); flatmate at Loughborough University\", \"room_type\": \"2 bedroom apartment\", \"budget_range\": \"\\u00a3900-\\u00a31000 per calendar month (confirmed as per person weekly budget approx. \\u00a3209-\\u00a3230)\", \"move_in_date\": \"Late August to September 2025 (e.g., 30 Aug 2025, 6 Sep 2025, 13 Sep 2025, 20 Sep 2025 mentioned in property options)\", \"lease_duration\": \"Not explicitly mentioned; properties offered mostly for 42 to 51 weeks\", \"special_requirements\": \"Accommodation suitable for two flatmates attending different universities; preference for location near Canary Wharf\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; agent shared multiple property options but no confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages exchanged between 2025-08-11 and 2025-08-19; several phone calls attempted and some answered between 2025-08-11 and 2025-08-26\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-21 via WhatsApp; last phone call on 2025-08-26\", \"response_time\": \"Generally prompt responses on WhatsApp within minutes to hours; some calls unanswered or very short\", \"key_moments\": \"Initial inquiry about 2 bed apartment; clarification of university locations; budget discussion; agent unable to find mid-location between UCL and Loughborough; shared multiple property options near Canary Wharf; student later indicated not currently looking for accommodation on 2025-08-21\"}, \"properties_discussed\": {\"properties_mentioned\": \"The Helix Wembley, Mannequin House London, Surrey Quays Landale House London, Deptford London, AXO New Cross London, Pacific Court London, London Nest Don Gratton House, Rahere Court London, Gobritanya McMillan Residence London, IQ East Court London, IQ Flinders House London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Preference for location near Canary Wharf; willing to consider options close to either UCL or Loughborough individually\", \"offers_made\": \"Agent shared detailed property links and booking links but no offers or deals explicitly mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm if student is still interested in accommodation search; follow up on property options shared\", \"pending_items\": \"Student confirmation on preferred property or further preferences\", \"follow_up_required\": \"Agent to check in with student to confirm current needs and interest, especially after student stated not looking currently on 2025-08-21\", \"timeline\": \"Move-in dates around late August to September 2025; no specific booking deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and cooperative; clear in communication; later indicated no current need for accommodation\", \"urgency_level\": \"Initially moderate urgency; appears to have decreased as of 2025-08-21\", \"complexity\": \"Moderate complexity due to dual university locations and location preference between two cities\", \"special_considerations\": \"Student and flatmate attend different universities; no accommodation found between cities; focus on options near Canary Wharf or close to each university separately\"}}}}}",
+    "created_at": "2025-11-18 13:32:28",
+    "updated_at": "2025-11-18T19:02:28.508153",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Divya Shivkani",
+        "mobile": [
+          "+447398793998"
+        ],
+        "email": [
+          "divyashivkani@gmail.com"
+        ],
+        "whatsapp": [
+          "+447398793998"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London",
+          "near Canary Wharf"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": "2 bed apartment",
+        "budget": {
+          "max": 1000,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": true,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "yes_student",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "Canary Wharf",
+          "between UCL and Loughborough University"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "The Helix Wembley",
+          "Mannequin House, London",
+          "Surrey Quays Landale House, London",
+          "Deptford, London",
+          "AXO New Cross, London",
+          "Pacific Court, London",
+          "London Nest Don Gratton House, London",
+          "Rahere Court, London",
+          "Gobritanya McMillan Residence, London",
+          "IQ East Court, London",
+          "IQ Flinders House, London"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Agent to share accommodation options suitable for a 2-bedroom apartment near UCL and Loughborough University, preferably near Canary Wharf, within the budget of £900-£1000 pcm per person.",
+          "due": "within_week",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent shared multiple property suggestions on 2025-08-19 including links and details."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student Divya Shivkani regarding interest in the shared accommodation options and confirm next steps or preferences.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student asked for options on 2025-08-12 and agent promised to share options; last message with options sent on 2025-08-19; no confirmation received yet."
+        },
+        {
+          "type": "communication",
+          "description": "Agent Ashutush to confirm with student a convenient time to discuss accommodation interest and booking.",
+          "due": "immediate",
+          "status": "blocked",
+          "task_for": "agent",
+          "source_reference": "Agent Ashutush sent messages on 2025-08-18 and 2025-08-21 asking for a good time to connect; student replied on 2025-08-21 that she is not looking for accommodation now."
+        }
+      ],
+      "last_agent_response": "On 2025-08-19, agent Rachna shared detailed property suggestions with links and booking options for multiple London properties near Canary Wharf.",
+      "suggested_next_step": "Agent to follow up with student Divya Shivkani to confirm if she wants to proceed with any of the shared accommodation options or if her plans have changed."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Divya Shivkani",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via mobile number 447398793998",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, preferably near Canary Wharf or between University College London (UCL) and Loughborough University (though no options found in between as they are separate cities)",
+            "university": "University College London (UCL); flatmate at Loughborough University",
+            "room_type": "2 bedroom apartment",
+            "budget_range": "£900-£1000 per calendar month (confirmed as per person weekly budget approx. £209-£230)",
+            "move_in_date": "Late August to September 2025 (e.g., 30 Aug 2025, 6 Sep 2025, 13 Sep 2025, 20 Sep 2025 mentioned in property options)",
+            "lease_duration": "Not explicitly mentioned; properties offered mostly for 42 to 51 weeks",
+            "special_requirements": "Accommodation suitable for two flatmates attending different universities; preference for location near Canary Wharf"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage; agent shared multiple property options but no confirmed booking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple WhatsApp messages exchanged between 2025-08-11 and 2025-08-19; several phone calls attempted and some answered between 2025-08-11 and 2025-08-26",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-08-21 via WhatsApp; last phone call on 2025-08-26",
+            "response_time": "Generally prompt responses on WhatsApp within minutes to hours; some calls unanswered or very short",
+            "key_moments": "Initial inquiry about 2 bed apartment; clarification of university locations; budget discussion; agent unable to find mid-location between UCL and Loughborough; shared multiple property options near Canary Wharf; student later indicated not currently looking for accommodation on 2025-08-21"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "The Helix Wembley, Mannequin House London, Surrey Quays Landale House London, Deptford London, AXO New Cross London, Pacific Court London, London Nest Don Gratton House, Rahere Court London, Gobritanya McMillan Residence London, IQ East Court London, IQ Flinders House London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Preference for location near Canary Wharf; willing to consider options close to either UCL or Loughborough individually",
+            "offers_made": "Agent shared detailed property links and booking links but no offers or deals explicitly mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Confirm if student is still interested in accommodation search; follow up on property options shared",
+            "pending_items": "Student confirmation on preferred property or further preferences",
+            "follow_up_required": "Agent to check in with student to confirm current needs and interest, especially after student stated not looking currently on 2025-08-21",
+            "timeline": "Move-in dates around late August to September 2025; no specific booking deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and cooperative; clear in communication; later indicated no current need for accommodation",
+            "urgency_level": "Initially moderate urgency; appears to have decreased as of 2025-08-21",
+            "complexity": "Moderate complexity due to dual university locations and location preference between two cities",
+            "special_considerations": "Student and flatmate attend different universities; no accommodation found between cities; focus on options near Canary Wharf or close to each university separately"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Divya Shivkani",
+          "mobile": [
+            "+447398793998"
+          ],
+          "email": [
+            "divyashivkani@gmail.com"
+          ],
+          "whatsapp": [
+            "+447398793998"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London",
+            "near Canary Wharf"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": "2 bed apartment",
+          "budget": {
+            "max": 1000,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": true,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "yes_student",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "Canary Wharf",
+            "between UCL and Loughborough University"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "The Helix Wembley",
+            "Mannequin House, London",
+            "Surrey Quays Landale House, London",
+            "Deptford, London",
+            "AXO New Cross, London",
+            "Pacific Court, London",
+            "London Nest Don Gratton House, London",
+            "Rahere Court, London",
+            "Gobritanya McMillan Residence, London",
+            "IQ East Court, London",
+            "IQ Flinders House, London"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Agent to share accommodation options suitable for a 2-bedroom apartment near UCL and Loughborough University, preferably near Canary Wharf, within the budget of £900-£1000 pcm per person.",
+            "due": "within_week",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent shared multiple property suggestions on 2025-08-19 including links and details."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student Divya Shivkani regarding interest in the shared accommodation options and confirm next steps or preferences.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student asked for options on 2025-08-12 and agent promised to share options; last message with options sent on 2025-08-19; no confirmation received yet."
+          },
+          {
+            "type": "communication",
+            "description": "Agent Ashutush to confirm with student a convenient time to discuss accommodation interest and booking.",
+            "due": "immediate",
+            "status": "blocked",
+            "task_for": "agent",
+            "source_reference": "Agent Ashutush sent messages on 2025-08-18 and 2025-08-21 asking for a good time to connect; student replied on 2025-08-21 that she is not looking for accommodation now."
+          }
+        ],
+        "last_agent_response": "On 2025-08-19, agent Rachna shared detailed property suggestions with links and booking options for multiple London properties near Canary Wharf.",
+        "suggested_next_step": "Agent to follow up with student Divya Shivkani to confirm if she wants to proceed with any of the shared accommodation options or if her plans have changed."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Divya Shivkani",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via mobile number 447398793998",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, preferably near Canary Wharf or between University College London (UCL) and Loughborough University (though no options found in between as they are separate cities)",
+              "university": "University College London (UCL); flatmate at Loughborough University",
+              "room_type": "2 bedroom apartment",
+              "budget_range": "£900-£1000 per calendar month (confirmed as per person weekly budget approx. £209-£230)",
+              "move_in_date": "Late August to September 2025 (e.g., 30 Aug 2025, 6 Sep 2025, 13 Sep 2025, 20 Sep 2025 mentioned in property options)",
+              "lease_duration": "Not explicitly mentioned; properties offered mostly for 42 to 51 weeks",
+              "special_requirements": "Accommodation suitable for two flatmates attending different universities; preference for location near Canary Wharf"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage; agent shared multiple property options but no confirmed booking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple WhatsApp messages exchanged between 2025-08-11 and 2025-08-19; several phone calls attempted and some answered between 2025-08-11 and 2025-08-26",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-08-21 via WhatsApp; last phone call on 2025-08-26",
+              "response_time": "Generally prompt responses on WhatsApp within minutes to hours; some calls unanswered or very short",
+              "key_moments": "Initial inquiry about 2 bed apartment; clarification of university locations; budget discussion; agent unable to find mid-location between UCL and Loughborough; shared multiple property options near Canary Wharf; student later indicated not currently looking for accommodation on 2025-08-21"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "The Helix Wembley, Mannequin House London, Surrey Quays Landale House London, Deptford London, AXO New Cross London, Pacific Court London, London Nest Don Gratton House, Rahere Court London, Gobritanya McMillan Residence London, IQ East Court London, IQ Flinders House London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Preference for location near Canary Wharf; willing to consider options close to either UCL or Loughborough individually",
+              "offers_made": "Agent shared detailed property links and booking links but no offers or deals explicitly mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Confirm if student is still interested in accommodation search; follow up on property options shared",
+              "pending_items": "Student confirmation on preferred property or further preferences",
+              "follow_up_required": "Agent to check in with student to confirm current needs and interest, especially after student stated not looking currently on 2025-08-21",
+              "timeline": "Move-in dates around late August to September 2025; no specific booking deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and cooperative; clear in communication; later indicated no current need for accommodation",
+              "urgency_level": "Initially moderate urgency; appears to have decreased as of 2025-08-21",
+              "complexity": "Moderate complexity due to dual university locations and location preference between two cities",
+              "special_considerations": "Student and flatmate attend different universities; no accommodation found between cities; focus on options near Canary Wharf or close to each university separately"
+            }
+          }
+        }
+      }
+    }
+  }
+}

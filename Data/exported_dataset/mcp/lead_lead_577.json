@@ -1,0 +1,373 @@
+{
+  "id": "lead_577",
+  "mobile_number": "60122310509",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8918,
+      "lead_id": 577,
+      "event_type": "call",
+      "timestamp": "2025-08-20T10:07:17.517562",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7721806",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T10:07:17.517562\", \"id\": 7721806, \"duration\": \"160\", \"to_number\": \"60122310509\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/bc4a61be-83d7-421d-a6ee-0f568c62a6ea.wav\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8919,
+      "lead_id": 577,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T10:08:59",
+      "content": "Hi Alistair, \nGood Day\n\nRachna Ahuja this side on behalf of *University College London* powered by Amber \n\n I will be happy to help you in booking the right accommodation for you. \n\nThanks",
+      "source": "whatsapp",
+      "event_id": "7528010",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T10:08:59\", \"id\": 7528010, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"60122310509\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_60122310509@c.us_3EB0AFEFADFA6AE0E9B585\", \"message_type\": \"text\", \"message_content\": \"Hi Alistair, \\nGood Day\\n\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\n\\n I will be happy to help you in booking the right accommodation for you. \\n\\nThanks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T10:08:59.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Alistair, \\\\nGood Day\\\\n\\\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\\\n\\\\n I will be happy to help you in booking the right accommodation for you. \\\\n\\\\nThanks\\\", \\\"Datetime\\\": 1755684539000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"60122310509@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_60122310509@c.us_3EB0AFEFADFA6AE0E9B585\\\", \\\"ChannelName\\\": \\\"60122310509\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-20T10:08:59.577648\", \"direction\": \"outbound\", \"sbase_user_id\": 2446937, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"60122310509\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8920,
+      "lead_id": 577,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-21T11:29:11",
+      "content": "Hi, my parents and I have found accompodation at Stapleton House and will not require your assistance in booking an accomodation",
+      "source": "whatsapp",
+      "event_id": "7592704",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-21T11:29:11\", \"id\": 7592704, \"email\": \"\", \"from_number\": \"60122310509\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_60122310509@c.us_3A3ADBDEE88D6B42BAE2\", \"message_type\": \"text\", \"message_content\": \"Hi, my parents and I have found accompodation at Stapleton House and will not require your assistance in booking an accomodation\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"60122310509@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-21T11:29:11.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi, my parents and I have found accompodation at Stapleton House and will not require your assistance in booking an accomodation\\\", \\\"Datetime\\\": 1755775751000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"60122310509@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_60122310509@c.us_3A3ADBDEE88D6B42BAE2\\\", \\\"ChannelName\\\": \\\"60122310509\\\", \\\"SentByNumber\\\": \\\"60122310509\\\", \\\"sentByUserId\\\": \\\"60122310509@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-21T11:29:11.594576\", \"direction\": \"inbound\", \"sbase_user_id\": 2446937, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"60122310509\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8921,
+      "lead_id": 577,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-21T11:29:18",
+      "content": "Thank you however",
+      "source": "whatsapp",
+      "event_id": "7592710",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-21T11:29:18\", \"id\": 7592710, \"email\": \"\", \"from_number\": \"60122310509\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_60122310509@c.us_3A1B5E1D8AB9550C3738\", \"message_type\": \"text\", \"message_content\": \"Thank you however\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"60122310509@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-21T11:29:18.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Thank you however\\\", \\\"Datetime\\\": 1755775758000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"60122310509@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_60122310509@c.us_3A1B5E1D8AB9550C3738\\\", \\\"ChannelName\\\": \\\"60122310509\\\", \\\"SentByNumber\\\": \\\"60122310509\\\", \\\"sentByUserId\\\": \\\"60122310509@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-21T11:29:19.128876\", \"direction\": \"inbound\", \"sbase_user_id\": 2446937, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"60122310509\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8922,
+      "lead_id": 577,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-21T11:31:46",
+      "content": "You have booked already ?",
+      "source": "whatsapp",
+      "event_id": "7592892",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-21T11:31:46\", \"id\": 7592892, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"60122310509\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_60122310509@c.us_3EB027DBDCBD87D63C31D3\", \"message_type\": \"text\", \"message_content\": \"You have booked already ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-21T11:31:46.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"You have booked already ?\\\", \\\"Datetime\\\": 1755775906000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"60122310509@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_60122310509@c.us_3EB027DBDCBD87D63C31D3\\\", \\\"ChannelName\\\": \\\"60122310509\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-21T11:31:46.668479\", \"direction\": \"outbound\", \"sbase_user_id\": 2446937, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"60122310509\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8923,
+      "lead_id": 577,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-21T11:31:58",
+      "content": "Yes",
+      "source": "whatsapp",
+      "event_id": "7592907",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-21T11:31:58\", \"id\": 7592907, \"email\": \"\", \"from_number\": \"60122310509\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_60122310509@c.us_3A68B86A3A2095AE5D3F\", \"message_type\": \"text\", \"message_content\": \"Yes\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"60122310509@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-21T11:31:58.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Yes\\\", \\\"Datetime\\\": 1755775918000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"60122310509@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_60122310509@c.us_3A68B86A3A2095AE5D3F\\\", \\\"ChannelName\\\": \\\"60122310509\\\", \\\"SentByNumber\\\": \\\"60122310509\\\", \\\"sentByUserId\\\": \\\"60122310509@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-21T11:31:58.886417\", \"direction\": \"inbound\", \"sbase_user_id\": 2446937, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"60122310509\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8924,
+      "lead_id": 577,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-21T11:32:07",
+      "content": "Ok",
+      "source": "whatsapp",
+      "event_id": "7592919",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-21T11:32:07\", \"id\": 7592919, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"60122310509\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_60122310509@c.us_3EB02BBE89DF77A6817441\", \"message_type\": \"text\", \"message_content\": \"Ok\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-21T11:32:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Ok\\\", \\\"Datetime\\\": 1755775927000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"60122310509@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_60122310509@c.us_3EB02BBE89DF77A6817441\\\", \\\"ChannelName\\\": \\\"60122310509\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-21T11:32:07.741047\", \"direction\": \"outbound\", \"sbase_user_id\": 2446937, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"60122310509\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8925,
+      "lead_id": 577,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3161588, \"user_name\": \"Alistair Gen Cansanay Cuevas\", \"email\": \"alistair.cuevas@icloud.com\", \"phone\": \"60122310509\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 295, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3306, \"inventory_id\": 914707}",
+      "created_at": "2025-11-18 11:38:05"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 452,
+      "lead_id": 577,
+      "call_id": "7721806",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/bc4a61be-83d7-421d-a6ee-0f568c62a6ea.wav",
+      "transcript_text": "Speaker A: Hello.\nSpeaker B: Hello.\nSpeaker A: Hi, I'm a speaker with Alistair.\nSpeaker B: Yes, this is Alistair.\nSpeaker A: Alistair, this is Rachna from Amber Student.\nSpeaker B: Pardon?\nSpeaker A: This is Rachna on behalf of University College London, powered by Amber Students. Yes, I received your inquiry that you were looking for accommodation.\nSpeaker B: Yes, I am looking for accommodation at the moment, yes.\nSpeaker A: Right. So I just wanted to help you regarding the same. I think you were looking for one of the two properties, I think London Nest, Lady Margaret and you were looking for Camden hall be present.\nSpeaker B: Yeah, I was looking at that before. Did I. Did I already book that by accident?\nSpeaker A: No, no, no, no, no. You haven't booked it, you were just looking at it and I think you just filled the basic details. So I just wanted to ask you, like, why are you still interested in the same property or you want to explore some more options which are available?\nSpeaker B: I was still just thinking about. I was just. I was just thinking about. About booking at London Nest, Margaret House or some other properties I was looking at. So.\nSpeaker A: So no, that. That's exactly my point. Like you're looking at certain options at the moment or you still want to like, explore or want me to share some options with you?\nSpeaker B: Oh, I want to explore my options for now and I can call you back if I end up looking at Lady Margaret House again.\nSpeaker A: Okay, perfect. I have dropped you WhatsApp. What we can do is when do you think we should connect back? Or what do you want me to share some options with you?\nSpeaker B: I don't. I don't need any options at the moment, thank you.\nSpeaker A: Okay, so when do you think we should connect back as a follow up? Just to know that, you know, if you need a help from mine at the moment.\nSpeaker B: I don't need help right now. If I'm 24 hours from now, I can. 24. I can, I can. I can call you back. 20. I can call you back 24 hours from now. Ish.\nSpeaker A: Okay, so I'll call you back in then. Let's connect in 24 hours.\nSpeaker B: Yeah. Unless. Unless I just. No longer. I'm looking at Lady Margaret as a house.\nSpeaker A: Do you want to lead with that by any chance? Or you just want to confirm me next 24 hours?\nSpeaker B: I'll just confirm you in the next 24 hours.\nSpeaker A: Perfect. Sounds good to me. I'll help you with that then.\nSpeaker B: Okay, bye.\nSpeaker A: Thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:38:13"
+    }
+  ],
+  "summary": {
+    "id": 238,
+    "lead_id": 577,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Alistair Gen Cansanay Cuevas\", \"mobile\": [\"60122310509\"], \"email\": [\"alistair.cuevas@icloud.com\"], \"whatsapp\": [\"447832625341\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 295, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"yes_non_student\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"London Nest Lady Margaret House\", \"Camden Hall\", \"Stapleton House\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to call Alistair back to follow up on accommodation booking interest.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-20 where agent and Alistair agreed to reconnect in 24 hours.\"}], \"last_agent_response\": \"Agent acknowledged Alistair's confirmation that he has booked accommodation at Stapleton House and responded with 'Ok'.\", \"suggested_next_step\": \"No further action needed from agent as student confirmed booking elsewhere and no assistance required.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Alistair Gen Cansanay Cuevas\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via UK and Malaysian numbers\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3295 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking confirmed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call and 6 WhatsApp messages over 2 days\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-21 11:32:07\", \"response_time\": \"Within minutes to hours\", \"key_moments\": \"Initial inquiry about London Nest Lady Margaret House and Camden Hall; student decided to explore options; later confirmed booking at Stapleton House and declined further assistance\"}, \"properties_discussed\": {\"properties_mentioned\": \"London Nest Lady Margaret House, Camden Hall, Stapleton House\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Initially interested in London Nest Lady Margaret House and Camden Hall; later chose Stapleton House\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has booked accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student reaches out again\", \"timeline\": \"Lease duration until 2026-09-04\"}, \"agent_notes\": {\"student_tone\": \"Polite, clear, and decisive\", \"urgency_level\": \"Low urgency after booking confirmation\", \"complexity\": \"Simple case\", \"special_considerations\": \"Student involved parents in decision; prefers to explore options independently before contacting agent\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Alistair Gen Cansanay Cuevas\", \"mobile\": [\"60122310509\"], \"email\": [\"alistair.cuevas@icloud.com\"], \"whatsapp\": [\"447832625341\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 295, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"yes_non_student\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"London Nest Lady Margaret House\", \"Camden Hall\", \"Stapleton House\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to call Alistair back to follow up on accommodation booking interest.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-20 where agent and Alistair agreed to reconnect in 24 hours.\"}], \"last_agent_response\": \"Agent acknowledged Alistair's confirmation that he has booked accommodation at Stapleton House and responded with 'Ok'.\", \"suggested_next_step\": \"No further action needed from agent as student confirmed booking elsewhere and no assistance required.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Alistair Gen Cansanay Cuevas\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via UK and Malaysian numbers\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3295 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking confirmed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call and 6 WhatsApp messages over 2 days\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-21 11:32:07\", \"response_time\": \"Within minutes to hours\", \"key_moments\": \"Initial inquiry about London Nest Lady Margaret House and Camden Hall; student decided to explore options; later confirmed booking at Stapleton House and declined further assistance\"}, \"properties_discussed\": {\"properties_mentioned\": \"London Nest Lady Margaret House, Camden Hall, Stapleton House\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Initially interested in London Nest Lady Margaret House and Camden Hall; later chose Stapleton House\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has booked accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student reaches out again\", \"timeline\": \"Lease duration until 2026-09-04\"}, \"agent_notes\": {\"student_tone\": \"Polite, clear, and decisive\", \"urgency_level\": \"Low urgency after booking confirmation\", \"complexity\": \"Simple case\", \"special_considerations\": \"Student involved parents in decision; prefers to explore options independently before contacting agent\"}}}}}",
+    "created_at": "2025-11-18 11:38:21",
+    "updated_at": "2025-11-18T17:08:21.646931",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Alistair Gen Cansanay Cuevas",
+        "mobile": [
+          "60122310509"
+        ],
+        "email": [
+          "alistair.cuevas@icloud.com"
+        ],
+        "whatsapp": [
+          "447832625341"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 295,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "yes_non_student",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "London Nest Lady Margaret House",
+          "Camden Hall",
+          "Stapleton House"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to call Alistair back to follow up on accommodation booking interest.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-08-20 where agent and Alistair agreed to reconnect in 24 hours."
+        }
+      ],
+      "last_agent_response": "Agent acknowledged Alistair's confirmation that he has booked accommodation at Stapleton House and responded with 'Ok'.",
+      "suggested_next_step": "No further action needed from agent as student confirmed booking elsewhere and no assistance required."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Alistair Gen Cansanay Cuevas",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via UK and Malaysian numbers",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£295 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking confirmed",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1 call and 6 WhatsApp messages over 2 days",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-08-21 11:32:07",
+            "response_time": "Within minutes to hours",
+            "key_moments": "Initial inquiry about London Nest Lady Margaret House and Camden Hall; student decided to explore options; later confirmed booking at Stapleton House and declined further assistance"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "London Nest Lady Margaret House, Camden Hall, Stapleton House",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Initially interested in London Nest Lady Margaret House and Camden Hall; later chose Stapleton House",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action required as student has booked accommodation",
+            "pending_items": "None",
+            "follow_up_required": "No follow-up needed unless student reaches out again",
+            "timeline": "Lease duration until 2026-09-04"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, clear, and decisive",
+            "urgency_level": "Low urgency after booking confirmation",
+            "complexity": "Simple case",
+            "special_considerations": "Student involved parents in decision; prefers to explore options independently before contacting agent"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Alistair Gen Cansanay Cuevas",
+          "mobile": [
+            "60122310509"
+          ],
+          "email": [
+            "alistair.cuevas@icloud.com"
+          ],
+          "whatsapp": [
+            "447832625341"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 295,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "yes_non_student",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "London Nest Lady Margaret House",
+            "Camden Hall",
+            "Stapleton House"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to call Alistair back to follow up on accommodation booking interest.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-08-20 where agent and Alistair agreed to reconnect in 24 hours."
+          }
+        ],
+        "last_agent_response": "Agent acknowledged Alistair's confirmation that he has booked accommodation at Stapleton House and responded with 'Ok'.",
+        "suggested_next_step": "No further action needed from agent as student confirmed booking elsewhere and no assistance required."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Alistair Gen Cansanay Cuevas",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via UK and Malaysian numbers",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£295 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking confirmed",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1 call and 6 WhatsApp messages over 2 days",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-08-21 11:32:07",
+              "response_time": "Within minutes to hours",
+              "key_moments": "Initial inquiry about London Nest Lady Margaret House and Camden Hall; student decided to explore options; later confirmed booking at Stapleton House and declined further assistance"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "London Nest Lady Margaret House, Camden Hall, Stapleton House",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Initially interested in London Nest Lady Margaret House and Camden Hall; later chose Stapleton House",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action required as student has booked accommodation",
+              "pending_items": "None",
+              "follow_up_required": "No follow-up needed unless student reaches out again",
+              "timeline": "Lease duration until 2026-09-04"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, clear, and decisive",
+              "urgency_level": "Low urgency after booking confirmation",
+              "complexity": "Simple case",
+              "special_considerations": "Student involved parents in decision; prefers to explore options independently before contacting agent"
+            }
+          }
+        }
+      }
+    }
+  }
+}

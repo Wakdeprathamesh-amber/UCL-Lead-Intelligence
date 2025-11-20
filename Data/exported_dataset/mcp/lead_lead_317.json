@@ -1,0 +1,295 @@
+{
+  "id": "lead_317",
+  "mobile_number": "447514271920",
+  "email": null,
+  "timeline": [
+    {
+      "id": 5354,
+      "lead_id": 317,
+      "event_type": "call",
+      "timestamp": "2025-08-19T08:35:50.637616",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7713144",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T08:35:50.637616\", \"id\": 7713144, \"duration\": \"19\", \"to_number\": \"447514271920\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/46774e31-e603-44d9-ae54-46c8c2546e09.wav\"}",
+      "created_at": "2025-11-18 10:45:06"
+    },
+    {
+      "id": 5355,
+      "lead_id": 317,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3156832, \"user_name\": \"Edward Lyu\", \"email\": \"edwardlyu61@gmail.com\", \"phone\": \"447514271920\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 399, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 239698}",
+      "created_at": "2025-11-18 10:45:06"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 211,
+      "lead_id": 317,
+      "call_id": "7713144",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/46774e31-e603-44d9-ae54-46c8c2546e09.wav",
+      "transcript_text": "Speaker A: Welcome to Giftgast Voicemail. The person you're calling can't take your call at the moment. Please leave your message after the tone. To re record your message, press hash at any time.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:45:10"
+    }
+  ],
+  "summary": {
+    "id": 128,
+    "lead_id": 317,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Edward Lyu\", \"mobile\": [\"447514271920\"], \"email\": [\"edwardlyu61@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 399, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Call Edward Lyu back to discuss accommodation options or next steps as the previous call went to voicemail.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-19 to 447514271920 went to voicemail\"}], \"last_agent_response\": \"Attempted to call Edward Lyu at 447514271920 but reached voicemail.\", \"suggested_next_step\": \"Agent to follow up with Edward Lyu by phone within 24 hours.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Edward Lyu\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone call and email (edwardlyu61@gmail.com, phone: 447514271920)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3399 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (1 call, 1 lead info record)\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-09-13\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Voicemail left on 2025-08-19; lead information recorded on 2025-09-13\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 239698\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up with Edward regarding accommodation options\", \"pending_items\": \"Response to voicemail and confirmation of preferences\", \"follow_up_required\": \"Yes, to clarify preferences and progress booking\", \"timeline\": \"Lease ends 2026-09-04; lease duration 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"Not available due to voicemail\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"None noted\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Edward Lyu\", \"mobile\": [\"447514271920\"], \"email\": [\"edwardlyu61@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 399, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Call Edward Lyu back to discuss accommodation options or next steps as the previous call went to voicemail.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-19 to 447514271920 went to voicemail\"}], \"last_agent_response\": \"Attempted to call Edward Lyu at 447514271920 but reached voicemail.\", \"suggested_next_step\": \"Agent to follow up with Edward Lyu by phone within 24 hours.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Edward Lyu\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone call and email (edwardlyu61@gmail.com, phone: 447514271920)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3399 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (1 call, 1 lead info record)\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-09-13\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Voicemail left on 2025-08-19; lead information recorded on 2025-09-13\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 239698\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up with Edward regarding accommodation options\", \"pending_items\": \"Response to voicemail and confirmation of preferences\", \"follow_up_required\": \"Yes, to clarify preferences and progress booking\", \"timeline\": \"Lease ends 2026-09-04; lease duration 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"Not available due to voicemail\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"None noted\"}}}}}",
+    "created_at": "2025-11-18 10:45:17",
+    "updated_at": "2025-11-18T16:15:17.017794",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Edward Lyu",
+        "mobile": [
+          "447514271920"
+        ],
+        "email": [
+          "edwardlyu61@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 399,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Call Edward Lyu back to discuss accommodation options or next steps as the previous call went to voicemail.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-08-19 to 447514271920 went to voicemail"
+        }
+      ],
+      "last_agent_response": "Attempted to call Edward Lyu at 447514271920 but reached voicemail.",
+      "suggested_next_step": "Agent to follow up with Edward Lyu by phone within 24 hours."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Edward Lyu",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone call and email (edwardlyu61@gmail.com, phone: 447514271920)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£399 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 (1 call, 1 lead info record)",
+            "primary_channel": "Phone call",
+            "last_contact": "2025-09-13",
+            "response_time": "Not mentioned",
+            "key_moments": "Voicemail left on 2025-08-19; lead information recorded on 2025-09-13"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 239698",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to follow up with Edward regarding accommodation options",
+            "pending_items": "Response to voicemail and confirmation of preferences",
+            "follow_up_required": "Yes, to clarify preferences and progress booking",
+            "timeline": "Lease ends 2026-09-04; lease duration 51 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "Not available due to voicemail",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "None noted"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Edward Lyu",
+          "mobile": [
+            "447514271920"
+          ],
+          "email": [
+            "edwardlyu61@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 399,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Call Edward Lyu back to discuss accommodation options or next steps as the previous call went to voicemail.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-08-19 to 447514271920 went to voicemail"
+          }
+        ],
+        "last_agent_response": "Attempted to call Edward Lyu at 447514271920 but reached voicemail.",
+        "suggested_next_step": "Agent to follow up with Edward Lyu by phone within 24 hours."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Edward Lyu",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone call and email (edwardlyu61@gmail.com, phone: 447514271920)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£399 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 (1 call, 1 lead info record)",
+              "primary_channel": "Phone call",
+              "last_contact": "2025-09-13",
+              "response_time": "Not mentioned",
+              "key_moments": "Voicemail left on 2025-08-19; lead information recorded on 2025-09-13"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 239698",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to follow up with Edward regarding accommodation options",
+              "pending_items": "Response to voicemail and confirmation of preferences",
+              "follow_up_required": "Yes, to clarify preferences and progress booking",
+              "timeline": "Lease ends 2026-09-04; lease duration 51 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "Not available due to voicemail",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "None noted"
+            }
+          }
+        }
+      }
+    }
+  }
+}

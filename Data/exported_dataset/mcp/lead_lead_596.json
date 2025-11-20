@@ -1,0 +1,317 @@
+{
+  "id": "lead_596",
+  "mobile_number": "447921610049",
+  "email": null,
+  "timeline": [
+    {
+      "id": 9181,
+      "lead_id": 596,
+      "event_type": "call",
+      "timestamp": "2025-08-19T10:08:40.975888",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7713928",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T10:08:40.975888\", \"id\": 7713928, \"duration\": \"299\", \"to_number\": \"447921610049\", \"from_number\": \"447312161523\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/5be40bf5-473d-4043-a17c-4b0f0b344102.wav\"}",
+      "created_at": "2025-11-18 11:41:40"
+    },
+    {
+      "id": 9182,
+      "lead_id": 596,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T22:03:20",
+      "content": "Hello Neil king, my name is Husyn from UCL accommodation portal powered by amber please confirm if you are still looking for accommodation? \n\nPlease let me asap .",
+      "source": "whatsapp",
+      "event_id": "7688913",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T22:03:20\", \"id\": 7688913, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447921610049\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447921610049@c.us_647F7B4D7200BB4FF733807CC3C0B756\", \"message_type\": \"text\", \"message_content\": \"Hello Neil king, my name is Husyn from UCL accommodation portal powered by amber please confirm if you are still looking for accommodation? \\n\\nPlease let me asap .\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T22:03:20.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello Neil king, my name is Husyn from UCL accommodation portal powered by amber please confirm if you are still looking for accommodation? \\\\n\\\\nPlease let me asap .\\\", \\\"Datetime\\\": 1755900200000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447921610049@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447921610049@c.us_647F7B4D7200BB4FF733807CC3C0B756\\\", \\\"ChannelName\\\": \\\"447921610049\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T22:03:20.850434\", \"direction\": \"outbound\", \"sbase_user_id\": 2444451, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447921610049\"}",
+      "created_at": "2025-11-18 11:41:40"
+    },
+    {
+      "id": 9183,
+      "lead_id": 596,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T22:12:22",
+      "content": "No, we have now found accommodation for our daughter",
+      "source": "whatsapp",
+      "event_id": "7689062",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T22:12:22\", \"id\": 7689062, \"email\": \"\", \"from_number\": \"447921610049\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447921610049@c.us_86C8DA402AFB7F25FDA24E1BF7925123\", \"message_type\": \"text\", \"message_content\": \"No, we have now found accommodation for our daughter\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447921610049@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-22T22:12:22.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"No, we have now found accommodation for our daughter\\\", \\\"Datetime\\\": 1755900742000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447921610049@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447921610049@c.us_86C8DA402AFB7F25FDA24E1BF7925123\\\", \\\"ChannelName\\\": \\\"447921610049\\\", \\\"SentByNumber\\\": \\\"447921610049\\\", \\\"sentByUserId\\\": \\\"447921610049@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T22:12:23.015497\", \"direction\": \"inbound\", \"sbase_user_id\": 2444451, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447921610049\"}",
+      "created_at": "2025-11-18 11:41:40"
+    },
+    {
+      "id": 9184,
+      "lead_id": 596,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3157710, \"user_name\": \"Neil King\", \"email\": \"neil@king42.co.uk\", \"phone\": \"447921610049\", \"lease_duration\": \"\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3055, \"inventory_id\": 137083}",
+      "created_at": "2025-11-18 11:41:40"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 479,
+      "lead_id": 596,
+      "call_id": "7713928",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/5be40bf5-473d-4043-a17c-4b0f0b344102.wav",
+      "transcript_text": "Speaker A: Neil, speak in.\nSpeaker B: Hello? Hello, yeah, hi, am I speaking with Neil King? Yeah, hi Neil, how are you doing?\nSpeaker A: Yeah, good, thanks.\nSpeaker B: Neil, this is Hussain, I'm calling regarding your accommodation. I can see you have registered in our website of ucl powered by Amber.\nSpeaker A: Yeah, our daughter.\nSpeaker B: Yes, yeah, perfect, perfect. So you are looking for accommodation, correct?\nSpeaker A: Yes, that's right.\nSpeaker B: Perfect. And what are your requirements for your accommodation?\nSpeaker A: We're looking for ideally a studio with access to our own cooking facilities and ensuite as close to UCL as possible.\nSpeaker B: Close to UCL as possible. I got you. And what would be your budget for your accommodation?\nSpeaker A: At the moment we don't, we don't really have a budget in mind. We're just trying to find what there is, what there is actually available. Obviously it's last minute, is accepted through clearing so.\nSpeaker B: Understood. Just one second. And now do you have any room preferences?\nSpeaker A: Any.\nSpeaker B: Sorry, do you have any room preferences?\nSpeaker A: No.\nSpeaker B: Okay, allow me a moment.\nSpeaker A: Sorry, where are you calling from?\nSpeaker B: I'm calling from UCL accommodation.\nSpeaker A: Oh, okay, yeah.\nSpeaker B: Perfect. Just allow me a moment. And you are planning to move in on the 30th of August?\nSpeaker A: It would be. Yeah, beginning of September.\nSpeaker B: Okay. In September.\nSpeaker A: Right, yeah.\nSpeaker B: All right. Do you have a WhatsApp on the same number?\nSpeaker A: Sorry, you're very quiet. It's very breaking up here. I can't, can't hear you very well.\nSpeaker B: I was asking you, do you have WhatsApp on the same number on this number?\nSpeaker A: Yeah, you can contact me on this number.\nSpeaker B: All right. I'm just sharing you one property. Yeah, the name of the property is IQ Arcade London and IQ City London. Okay. In IQ Arcade London there is a £750 cash back for the student who are booking this accommodation.\nSpeaker A: Right.\nSpeaker B: Currently we have Silver Room plus available for 270 pounds and it is just as 30 minutes of a bus commute from the university, 2.5 miles from the university.\nSpeaker A: Okay, can you possibly email me details?\nSpeaker B: Pardon?\nSpeaker A: Would you be able to email me details?\nSpeaker B: Yeah, I can, I can email you all the details. But what would be more convenient? The email or the WhatsApp email would be more convenient. Okay, I am sharing it on the email. This one second. You, your bills will be included over here. Plus you will also get a constant insurance. So basically the content insurance will mean if anything, if any of your item that you're going to carry with you get damaged because of water leakage, flood or anything, or get stolen, the property will pay for it.\nSpeaker A: Yeah.\nSpeaker B: Okay. And at this end of the moment we, there's you know, like you are aware there is not much of accommodations left anymore.\nSpeaker A: Yeah.\nSpeaker B: This is one of the finest, which I. I personally will recommend to you. Yeah, just sharing it this moment.\nSpeaker A: Yeah. Okay, cool. Yeah, if you can say. If you can email that across to me, that'd be brilliant.\nSpeaker B: Yeah, perfect. Yeah, I will send you the email after this call. All right, Neil, it was lovely talking to you. Please feel free to reach out.\nSpeaker A: Brilliant. Thanks. Now, bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:41:52"
+    }
+  ],
+  "summary": {
+    "id": 247,
+    "lead_id": 596,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"child\", \"name\": \"Neil King\", \"mobile\": [\"447921610049\"], \"email\": [\"neil@king42.co.uk\"], \"whatsapp\": [\"447921610049\"], \"student_status\": \"non_student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": \"studio\", \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": \"private_kitchen\", \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": \"2025-09-01\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Arcade London\", \"IQ City London\"], \"rooms_considered\": [\"Silver Room plus\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": \"\\u00a3750 cashback discussed\"}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent Husyn contacted Neil King by call and WhatsApp to offer accommodation options near UCL, shared details about IQ Arcade London property, and confirmed sending an email with accommodation details. Later, the student confirmed via WhatsApp that they have found accommodation for their daughter.\", \"suggested_next_step\": \"No further action required as the student has confirmed accommodation has been found.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Neil King\", \"nationality\": \"Not mentioned\", \"student_status\": \"Parent\", \"contact_info\": \"Phone calls and WhatsApp messages via number 447921610049\", \"booking_for\": \"Daughter\"}, \"accommodation_preferences\": {\"locations\": \"As close to UCL as possible, London\", \"university\": \"UCL\", \"room_type\": \"Studio with own cooking facilities and ensuite; no specific room preferences\", \"budget_range\": \"No specific budget mentioned; open to options\", \"move_in_date\": \"Beginning of September 2025 (around 30th August)\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Cooking facilities, ensuite bathroom\"}, \"current_status\": {\"booking_stage\": \"Accommodation found; no longer looking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Two main interactions: one phone call and one WhatsApp exchange\", \"primary_channel\": \"Phone call initially, followed by WhatsApp\", \"last_contact\": \"2025-08-22 via WhatsApp\", \"response_time\": \"Agent followed up after 3 days; student responded promptly\", \"key_moments\": \"Initial call on 2025-08-19 discussing accommodation needs; WhatsApp follow-up on 2025-08-22 confirming accommodation found\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ Arcade London and IQ City London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interested in studio with ensuite and cooking facilities; no specific room preferences\", \"offers_made\": \"\\u00a3750 cashback offer at IQ Arcade London; \\u00a3270 weekly rent for Silver Room plus at IQ Arcade London\"}, \"next_steps\": {\"immediate_actions\": \"No immediate actions; student has found accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up required unless student re-engages\", \"timeline\": \"Move-in planned for beginning of September 2025\"}, \"agent_notes\": {\"student_tone\": \"Polite and cooperative; parent acting on behalf of daughter\", \"urgency_level\": \"Moderate urgency due to last-minute clearing accommodation search\", \"complexity\": \"Simple case; straightforward accommodation needs\", \"special_considerations\": \"Student found accommodation independently after initial inquiry\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"child\", \"name\": \"Neil King\", \"mobile\": [\"447921610049\"], \"email\": [\"neil@king42.co.uk\"], \"whatsapp\": [\"447921610049\"], \"student_status\": \"non_student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": \"studio\", \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": \"private_kitchen\", \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": \"2025-09-01\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Arcade London\", \"IQ City London\"], \"rooms_considered\": [\"Silver Room plus\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": \"\\u00a3750 cashback discussed\"}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent Husyn contacted Neil King by call and WhatsApp to offer accommodation options near UCL, shared details about IQ Arcade London property, and confirmed sending an email with accommodation details. Later, the student confirmed via WhatsApp that they have found accommodation for their daughter.\", \"suggested_next_step\": \"No further action required as the student has confirmed accommodation has been found.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Neil King\", \"nationality\": \"Not mentioned\", \"student_status\": \"Parent\", \"contact_info\": \"Phone calls and WhatsApp messages via number 447921610049\", \"booking_for\": \"Daughter\"}, \"accommodation_preferences\": {\"locations\": \"As close to UCL as possible, London\", \"university\": \"UCL\", \"room_type\": \"Studio with own cooking facilities and ensuite; no specific room preferences\", \"budget_range\": \"No specific budget mentioned; open to options\", \"move_in_date\": \"Beginning of September 2025 (around 30th August)\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Cooking facilities, ensuite bathroom\"}, \"current_status\": {\"booking_stage\": \"Accommodation found; no longer looking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Two main interactions: one phone call and one WhatsApp exchange\", \"primary_channel\": \"Phone call initially, followed by WhatsApp\", \"last_contact\": \"2025-08-22 via WhatsApp\", \"response_time\": \"Agent followed up after 3 days; student responded promptly\", \"key_moments\": \"Initial call on 2025-08-19 discussing accommodation needs; WhatsApp follow-up on 2025-08-22 confirming accommodation found\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ Arcade London and IQ City London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interested in studio with ensuite and cooking facilities; no specific room preferences\", \"offers_made\": \"\\u00a3750 cashback offer at IQ Arcade London; \\u00a3270 weekly rent for Silver Room plus at IQ Arcade London\"}, \"next_steps\": {\"immediate_actions\": \"No immediate actions; student has found accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up required unless student re-engages\", \"timeline\": \"Move-in planned for beginning of September 2025\"}, \"agent_notes\": {\"student_tone\": \"Polite and cooperative; parent acting on behalf of daughter\", \"urgency_level\": \"Moderate urgency due to last-minute clearing accommodation search\", \"complexity\": \"Simple case; straightforward accommodation needs\", \"special_considerations\": \"Student found accommodation independently after initial inquiry\"}}}}}",
+    "created_at": "2025-11-18 11:42:00",
+    "updated_at": "2025-11-18T17:12:00.037805",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "child",
+        "name": "Neil King",
+        "mobile": [
+          "447921610049"
+        ],
+        "email": [
+          "neil@king42.co.uk"
+        ],
+        "whatsapp": [
+          "447921610049"
+        ],
+        "student_status": "non_student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": "studio",
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": "private_bathroom",
+        "kitchen_type": "private_kitchen",
+        "dual_occupancy": null,
+        "university": "UCL",
+        "move_in_date": "2025-09-01",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "IQ Arcade London",
+          "IQ City London"
+        ],
+        "rooms_considered": [
+          "Silver Room plus"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": "£750 cashback discussed"
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent Husyn contacted Neil King by call and WhatsApp to offer accommodation options near UCL, shared details about IQ Arcade London property, and confirmed sending an email with accommodation details. Later, the student confirmed via WhatsApp that they have found accommodation for their daughter.",
+      "suggested_next_step": "No further action required as the student has confirmed accommodation has been found."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Neil King",
+            "nationality": "Not mentioned",
+            "student_status": "Parent",
+            "contact_info": "Phone calls and WhatsApp messages via number 447921610049",
+            "booking_for": "Daughter"
+          },
+          "accommodation_preferences": {
+            "locations": "As close to UCL as possible, London",
+            "university": "UCL",
+            "room_type": "Studio with own cooking facilities and ensuite; no specific room preferences",
+            "budget_range": "No specific budget mentioned; open to options",
+            "move_in_date": "Beginning of September 2025 (around 30th August)",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Cooking facilities, ensuite bathroom"
+          },
+          "current_status": {
+            "booking_stage": "Accommodation found; no longer looking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Two main interactions: one phone call and one WhatsApp exchange",
+            "primary_channel": "Phone call initially, followed by WhatsApp",
+            "last_contact": "2025-08-22 via WhatsApp",
+            "response_time": "Agent followed up after 3 days; student responded promptly",
+            "key_moments": "Initial call on 2025-08-19 discussing accommodation needs; WhatsApp follow-up on 2025-08-22 confirming accommodation found"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "IQ Arcade London and IQ City London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Interested in studio with ensuite and cooking facilities; no specific room preferences",
+            "offers_made": "£750 cashback offer at IQ Arcade London; £270 weekly rent for Silver Room plus at IQ Arcade London"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate actions; student has found accommodation",
+            "pending_items": "None",
+            "follow_up_required": "No follow-up required unless student re-engages",
+            "timeline": "Move-in planned for beginning of September 2025"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and cooperative; parent acting on behalf of daughter",
+            "urgency_level": "Moderate urgency due to last-minute clearing accommodation search",
+            "complexity": "Simple case; straightforward accommodation needs",
+            "special_considerations": "Student found accommodation independently after initial inquiry"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "child",
+          "name": "Neil King",
+          "mobile": [
+            "447921610049"
+          ],
+          "email": [
+            "neil@king42.co.uk"
+          ],
+          "whatsapp": [
+            "447921610049"
+          ],
+          "student_status": "non_student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": "studio",
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": "private_bathroom",
+          "kitchen_type": "private_kitchen",
+          "dual_occupancy": null,
+          "university": "UCL",
+          "move_in_date": "2025-09-01",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "IQ Arcade London",
+            "IQ City London"
+          ],
+          "rooms_considered": [
+            "Silver Room plus"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": "£750 cashback discussed"
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent Husyn contacted Neil King by call and WhatsApp to offer accommodation options near UCL, shared details about IQ Arcade London property, and confirmed sending an email with accommodation details. Later, the student confirmed via WhatsApp that they have found accommodation for their daughter.",
+        "suggested_next_step": "No further action required as the student has confirmed accommodation has been found."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Neil King",
+              "nationality": "Not mentioned",
+              "student_status": "Parent",
+              "contact_info": "Phone calls and WhatsApp messages via number 447921610049",
+              "booking_for": "Daughter"
+            },
+            "accommodation_preferences": {
+              "locations": "As close to UCL as possible, London",
+              "university": "UCL",
+              "room_type": "Studio with own cooking facilities and ensuite; no specific room preferences",
+              "budget_range": "No specific budget mentioned; open to options",
+              "move_in_date": "Beginning of September 2025 (around 30th August)",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Cooking facilities, ensuite bathroom"
+            },
+            "current_status": {
+              "booking_stage": "Accommodation found; no longer looking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Two main interactions: one phone call and one WhatsApp exchange",
+              "primary_channel": "Phone call initially, followed by WhatsApp",
+              "last_contact": "2025-08-22 via WhatsApp",
+              "response_time": "Agent followed up after 3 days; student responded promptly",
+              "key_moments": "Initial call on 2025-08-19 discussing accommodation needs; WhatsApp follow-up on 2025-08-22 confirming accommodation found"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "IQ Arcade London and IQ City London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Interested in studio with ensuite and cooking facilities; no specific room preferences",
+              "offers_made": "£750 cashback offer at IQ Arcade London; £270 weekly rent for Silver Room plus at IQ Arcade London"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate actions; student has found accommodation",
+              "pending_items": "None",
+              "follow_up_required": "No follow-up required unless student re-engages",
+              "timeline": "Move-in planned for beginning of September 2025"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and cooperative; parent acting on behalf of daughter",
+              "urgency_level": "Moderate urgency due to last-minute clearing accommodation search",
+              "complexity": "Simple case; straightforward accommodation needs",
+              "special_considerations": "Student found accommodation independently after initial inquiry"
+            }
+          }
+        }
+      }
+    }
+  }
+}

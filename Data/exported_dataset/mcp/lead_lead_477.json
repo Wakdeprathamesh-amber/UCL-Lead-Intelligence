@@ -1,0 +1,271 @@
+{
+  "id": "lead_477",
+  "mobile_number": "8613242402578",
+  "email": null,
+  "timeline": [
+    {
+      "id": 7963,
+      "lead_id": 477,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-20T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-20T00:00:00\", \"lead_id\": 3134301, \"user_name\": \"QI YIFAN\\u6ca1\\u8054\\u7cfb\\u4e0a\", \"email\": \"qiyfan0824@163.com\", \"phone\": \"8613242402578\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-11\", \"budget\": 296, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8759, \"inventory_id\": 2033610}",
+      "created_at": "2025-11-18 11:16:19"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 194,
+    "lead_id": 477,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"QI YIFAN\\u6ca1\\u8054\\u7cfb\\u4e0a\", \"mobile\": [\"+8613242402578\"], \"email\": [\"qiyfan0824@163.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 296, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Contact student QI YIFAN\\u6ca1\\u8054\\u7cfb\\u4e0a via email or phone to establish communication\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Lead info shows student not contacted yet\"}], \"last_agent_response\": \"\", \"suggested_next_step\": \"Agent to follow up with student via provided contact details to initiate communication\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"QI YIFAN\\u6ca1\\u8054\\u7cfb\\u4e0a\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (qiyfan0824@163.com), Phone (8613242402578)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3296 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 (lead information received)\", \"primary_channel\": \"Email and phone provided but no contact made\", \"last_contact\": \"2025-09-20\", \"response_time\": \"No response from student\", \"key_moments\": \"Lead created but student not contacted successfully\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2033610 associated with lead\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"Attempt to contact student via provided email and phone\", \"pending_items\": \"Student response to initial contact\", \"follow_up_required\": \"Yes, follow-up to establish communication\", \"timeline\": \"Lease duration ends 2026-09-11\"}, \"agent_notes\": {\"student_tone\": \"No communication received\", \"urgency_level\": \"Unknown due to no contact\", \"complexity\": \"Simple lead with no engagement\", \"special_considerations\": \"Student has not been reached despite contact details\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"QI YIFAN\\u6ca1\\u8054\\u7cfb\\u4e0a\", \"mobile\": [\"+8613242402578\"], \"email\": [\"qiyfan0824@163.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 296, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Contact student QI YIFAN\\u6ca1\\u8054\\u7cfb\\u4e0a via email or phone to establish communication\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Lead info shows student not contacted yet\"}], \"last_agent_response\": \"\", \"suggested_next_step\": \"Agent to follow up with student via provided contact details to initiate communication\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"QI YIFAN\\u6ca1\\u8054\\u7cfb\\u4e0a\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (qiyfan0824@163.com), Phone (8613242402578)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3296 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 (lead information received)\", \"primary_channel\": \"Email and phone provided but no contact made\", \"last_contact\": \"2025-09-20\", \"response_time\": \"No response from student\", \"key_moments\": \"Lead created but student not contacted successfully\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2033610 associated with lead\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"Attempt to contact student via provided email and phone\", \"pending_items\": \"Student response to initial contact\", \"follow_up_required\": \"Yes, follow-up to establish communication\", \"timeline\": \"Lease duration ends 2026-09-11\"}, \"agent_notes\": {\"student_tone\": \"No communication received\", \"urgency_level\": \"Unknown due to no contact\", \"complexity\": \"Simple lead with no engagement\", \"special_considerations\": \"Student has not been reached despite contact details\"}}}}}",
+    "created_at": "2025-11-18 11:16:28",
+    "updated_at": "2025-11-18T16:46:28.546601",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "QI YIFAN没联系上",
+        "mobile": [
+          "+8613242402578"
+        ],
+        "email": [
+          "qiyfan0824@163.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 296,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Contact student QI YIFAN没联系上 via email or phone to establish communication",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Lead info shows student not contacted yet"
+        }
+      ],
+      "last_agent_response": "",
+      "suggested_next_step": "Agent to follow up with student via provided contact details to initiate communication"
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "QI YIFAN没联系上",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (qiyfan0824@163.com), Phone (8613242402578)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£296 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1 (lead information received)",
+            "primary_channel": "Email and phone provided but no contact made",
+            "last_contact": "2025-09-20",
+            "response_time": "No response from student",
+            "key_moments": "Lead created but student not contacted successfully"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2033610 associated with lead",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "None"
+          },
+          "next_steps": {
+            "immediate_actions": "Attempt to contact student via provided email and phone",
+            "pending_items": "Student response to initial contact",
+            "follow_up_required": "Yes, follow-up to establish communication",
+            "timeline": "Lease duration ends 2026-09-11"
+          },
+          "agent_notes": {
+            "student_tone": "No communication received",
+            "urgency_level": "Unknown due to no contact",
+            "complexity": "Simple lead with no engagement",
+            "special_considerations": "Student has not been reached despite contact details"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "QI YIFAN没联系上",
+          "mobile": [
+            "+8613242402578"
+          ],
+          "email": [
+            "qiyfan0824@163.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 296,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Contact student QI YIFAN没联系上 via email or phone to establish communication",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Lead info shows student not contacted yet"
+          }
+        ],
+        "last_agent_response": "",
+        "suggested_next_step": "Agent to follow up with student via provided contact details to initiate communication"
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "QI YIFAN没联系上",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (qiyfan0824@163.com), Phone (8613242402578)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£296 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1 (lead information received)",
+              "primary_channel": "Email and phone provided but no contact made",
+              "last_contact": "2025-09-20",
+              "response_time": "No response from student",
+              "key_moments": "Lead created but student not contacted successfully"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2033610 associated with lead",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "None"
+            },
+            "next_steps": {
+              "immediate_actions": "Attempt to contact student via provided email and phone",
+              "pending_items": "Student response to initial contact",
+              "follow_up_required": "Yes, follow-up to establish communication",
+              "timeline": "Lease duration ends 2026-09-11"
+            },
+            "agent_notes": {
+              "student_tone": "No communication received",
+              "urgency_level": "Unknown due to no contact",
+              "complexity": "Simple lead with no engagement",
+              "special_considerations": "Student has not been reached despite contact details"
+            }
+          }
+        }
+      }
+    }
+  }
+}

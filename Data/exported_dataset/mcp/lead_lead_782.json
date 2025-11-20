@@ -1,0 +1,328 @@
+{
+  "id": "lead_782",
+  "mobile_number": "971565716044",
+  "email": null,
+  "timeline": [
+    {
+      "id": 12407,
+      "lead_id": 782,
+      "event_type": "call",
+      "timestamp": "2025-08-28T09:37:02.240589",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7773526",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-28T09:37:02.240589\", \"id\": 7773526, \"duration\": \"0\", \"to_number\": \"971565716044\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:57:55"
+    },
+    {
+      "id": 12408,
+      "lead_id": 782,
+      "event_type": "call",
+      "timestamp": "2025-09-02T15:03:17.848398",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7803908",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-02T15:03:17.848398\", \"id\": 7803908, \"duration\": \"12\", \"to_number\": \"971565716044\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/7454cc60-9aaf-4cb5-af10-454b9a86e52e.wav\"}",
+      "created_at": "2025-11-18 12:57:55"
+    },
+    {
+      "id": 12409,
+      "lead_id": 782,
+      "event_type": "call",
+      "timestamp": "2025-09-04T12:30:09.994472",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7815935",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-04T12:30:09.994472\", \"id\": 7815935, \"duration\": \"0\", \"to_number\": \"971565716044\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:57:55"
+    },
+    {
+      "id": 12410,
+      "lead_id": 782,
+      "event_type": "call",
+      "timestamp": "2025-09-06T12:47:41.310972",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7829328",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-06T12:47:41.310972\", \"id\": 7829328, \"duration\": \"0\", \"to_number\": \"971565716044\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:57:55"
+    },
+    {
+      "id": 12411,
+      "lead_id": 782,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3184779, \"user_name\": \"Manasvi Umar\", \"email\": \"manasviumar@gmail.com\", \"phone\": \"971565716044\", \"university\": \"university-college-london-1811059954160\", \"lease_duration\": \"\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 137043}",
+      "created_at": "2025-11-18 12:57:55"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 615,
+      "lead_id": 782,
+      "call_id": "7803908",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/7454cc60-9aaf-4cb5-af10-454b9a86e52e.wav",
+      "transcript_text": "Speaker A: Hello? Yeah, hello. Am I speaking with hello, am I speaking with manashi here? Hello? Yeah, hello. Am I speaking with manashi here? Am I?",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:58:00"
+    }
+  ],
+  "summary": {
+    "id": 321,
+    "lead_id": 782,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Manasvi Umar\", \"mobile\": [\"+971565716044\"], \"email\": [\"manasviumar@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with student Manasvi Umar via call or message to establish contact and discuss accommodation details.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple calls made to student phone number 971565716044 with no successful connection.\"}], \"last_agent_response\": \"Agent attempted multiple calls to student Manasvi Umar at 971565716044 but was unable to establish contact.\", \"suggested_next_step\": \"Agent to continue follow-up attempts with student Manasvi Umar within the next 24 hours to initiate communication.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Manasvi Umar\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to 971565716044 from 447456741634\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly basis\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-06\", \"response_time\": \"Not clearly established\", \"key_moments\": \"Call on 2025-09-02 lasted 12 seconds with attempted conversation; other calls had zero duration indicating no answer or missed calls\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137043 (specific property not named)\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish contact with student to progress inquiry\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Follow up on unanswered calls and clarify accommodation preferences\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not clearly established due to limited call duration and no transcript except brief greeting\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Multiple missed or unanswered calls suggest difficulty reaching student\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Manasvi Umar\", \"mobile\": [\"+971565716044\"], \"email\": [\"manasviumar@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with student Manasvi Umar via call or message to establish contact and discuss accommodation details.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple calls made to student phone number 971565716044 with no successful connection.\"}], \"last_agent_response\": \"Agent attempted multiple calls to student Manasvi Umar at 971565716044 but was unable to establish contact.\", \"suggested_next_step\": \"Agent to continue follow-up attempts with student Manasvi Umar within the next 24 hours to initiate communication.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Manasvi Umar\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to 971565716044 from 447456741634\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly basis\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-06\", \"response_time\": \"Not clearly established\", \"key_moments\": \"Call on 2025-09-02 lasted 12 seconds with attempted conversation; other calls had zero duration indicating no answer or missed calls\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137043 (specific property not named)\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish contact with student to progress inquiry\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Follow up on unanswered calls and clarify accommodation preferences\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not clearly established due to limited call duration and no transcript except brief greeting\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Multiple missed or unanswered calls suggest difficulty reaching student\"}}}}}",
+    "created_at": "2025-11-18 12:58:08",
+    "updated_at": "2025-11-18T18:28:08.916175",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Manasvi Umar",
+        "mobile": [
+          "+971565716044"
+        ],
+        "email": [
+          "manasviumar@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student Manasvi Umar via call or message to establish contact and discuss accommodation details.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple calls made to student phone number 971565716044 with no successful connection."
+        }
+      ],
+      "last_agent_response": "Agent attempted multiple calls to student Manasvi Umar at 971565716044 but was unable to establish contact.",
+      "suggested_next_step": "Agent to continue follow-up attempts with student Manasvi Umar within the next 24 hours to initiate communication."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Manasvi Umar",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls to 971565716044 from 447456741634",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "Budget in pounds, weekly basis",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "5 calls",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-09-06",
+            "response_time": "Not clearly established",
+            "key_moments": "Call on 2025-09-02 lasted 12 seconds with attempted conversation; other calls had zero duration indicating no answer or missed calls"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 137043 (specific property not named)",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Establish contact with student to progress inquiry",
+            "pending_items": "Student response to calls",
+            "follow_up_required": "Follow up on unanswered calls and clarify accommodation preferences",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Not clearly established due to limited call duration and no transcript except brief greeting",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Multiple missed or unanswered calls suggest difficulty reaching student"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Manasvi Umar",
+          "mobile": [
+            "+971565716044"
+          ],
+          "email": [
+            "manasviumar@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student Manasvi Umar via call or message to establish contact and discuss accommodation details.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple calls made to student phone number 971565716044 with no successful connection."
+          }
+        ],
+        "last_agent_response": "Agent attempted multiple calls to student Manasvi Umar at 971565716044 but was unable to establish contact.",
+        "suggested_next_step": "Agent to continue follow-up attempts with student Manasvi Umar within the next 24 hours to initiate communication."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Manasvi Umar",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls to 971565716044 from 447456741634",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "Budget in pounds, weekly basis",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "5 calls",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-09-06",
+              "response_time": "Not clearly established",
+              "key_moments": "Call on 2025-09-02 lasted 12 seconds with attempted conversation; other calls had zero duration indicating no answer or missed calls"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 137043 (specific property not named)",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Establish contact with student to progress inquiry",
+              "pending_items": "Student response to calls",
+              "follow_up_required": "Follow up on unanswered calls and clarify accommodation preferences",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Not clearly established due to limited call duration and no transcript except brief greeting",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Multiple missed or unanswered calls suggest difficulty reaching student"
+            }
+          }
+        }
+      }
+    }
+  }
+}

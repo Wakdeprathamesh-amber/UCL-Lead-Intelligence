@@ -1,0 +1,282 @@
+{
+  "id": "lead_363",
+  "mobile_number": "8613621149496",
+  "email": null,
+  "timeline": [
+    {
+      "id": 6214,
+      "lead_id": 363,
+      "event_type": "email",
+      "timestamp": "2025-09-03T02:44:59",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-03T02:44:59\", \"sender_email\": \"qingyao.w@amberstudent.com\", \"recipient_email\": \"guochenan211402@163.com\", \"subject\": \"Amberstudent\", \"message\": \"\\u54c8\\u55bd\\u540c\\u5b66\\u4f60\\u597d\\uff1a\\\\n\\u6211\\u662famberstudent\\u7684\\u79df\\u623f\\u987e\\u95eevivi,\\u770b\\u540c\\u5b66\\u5728\\u6211\\u4eec\\u7f51\\u7ad9\\u770bondon\\u7684\\u5b66\\u751f\\u516c\\u5bd3\\uff0c\\u53ef\\u4ee5\\u6dfb\\u52a0\\u5fae\\u4fe1\\u514d\\u8d39\\u54a8\\u8be2\\u7533\\u8bf7\\u8ba2\\u623f\\u54e6\\uff0c\\u53ef\\u4ee5\\u626b\\u7801\\u52a0\\u6211\\u4f01\\u4e1a\\u5fae\\u4fe1[inline_image]\", \"snippet\": \"\\u54c8\\u55bd\\u540c\\u5b66\\u4f60\\u597d\\uff1a \\u6211\\u662famberstudent\\u7684\\u79df\\u623f\\u987e\\u95eevivi,\\u770b\\u540c\\u5b66\\u5728\\u6211\\u4eec\\u7f51\\u7ad9\\u770bondon\\u7684\\u5b66\\u751f\\u516c\\u5bd3\\uff0c\\u53ef\\u4ee5\\u6dfb\\u52a0\\u5fae\\u4fe1\\u514d\\u8d39\\u54a8\\u8be2\\u7533\\u8bf7\\u8ba2\\u623f\\u54e6\\uff0c\\u53ef\\u4ee5\\u626b\\u7801\\u52a0\\u6211\\u4f01\\u4e1a\\u5fae\\u4fe1\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"qingyao.w@amberstudent.com\", \"student_email\": \"guochenan211402@163.com\"}",
+      "created_at": "2025-11-18 10:55:25"
+    },
+    {
+      "id": 6215,
+      "lead_id": 363,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3199573, \"user_name\": \"guochenan\", \"email\": \"guochenan211402@163.com\", \"phone\": \"8613621149496\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 365, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3943, \"inventory_id\": 2093456}",
+      "created_at": "2025-11-18 10:55:25"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 147,
+    "lead_id": 363,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"guochenan\", \"mobile\": [\"+8613621149496\"], \"email\": [\"guochenan211402@163.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 365, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Student to add agent Vivi on WeChat for free consultation and booking application.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent Vivi's email on 2025-09-03 inviting student to add WeChat for consultation\"}], \"last_agent_response\": \"Agent Vivi sent an email inviting the student to add her on WeChat for free consultation and booking application.\", \"suggested_next_step\": \"Student should add agent Vivi on WeChat to start consultation and proceed with booking.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"guochenan\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (guochenan211402@163.com), phone (8613621149496), WeChat invitation via agent\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3365 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (1 outbound email from agent, 1 lead info record)\", \"primary_channel\": \"Email, with invitation to WeChat for further communication\", \"last_contact\": \"2025-09-13 (lead info recorded)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Agent sent introductory email with WeChat contact invitation; lead information captured including budget and lease duration\"}, \"properties_discussed\": {\"properties_mentioned\": \"Student viewed London student apartments on website; specific properties not detailed\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to add agent on WeChat for free consultation and booking application\", \"pending_items\": \"Student response on WeChat or email\", \"follow_up_required\": \"Agent to follow up if no student contact after WeChat invitation\", \"timeline\": \"Lease duration ends 2026-09-04\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student has a clear budget and lease duration; agent should encourage WeChat communication for faster engagement\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"guochenan\", \"mobile\": [\"+8613621149496\"], \"email\": [\"guochenan211402@163.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 365, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Student to add agent Vivi on WeChat for free consultation and booking application.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent Vivi's email on 2025-09-03 inviting student to add WeChat for consultation\"}], \"last_agent_response\": \"Agent Vivi sent an email inviting the student to add her on WeChat for free consultation and booking application.\", \"suggested_next_step\": \"Student should add agent Vivi on WeChat to start consultation and proceed with booking.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"guochenan\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (guochenan211402@163.com), phone (8613621149496), WeChat invitation via agent\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3365 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (1 outbound email from agent, 1 lead info record)\", \"primary_channel\": \"Email, with invitation to WeChat for further communication\", \"last_contact\": \"2025-09-13 (lead info recorded)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Agent sent introductory email with WeChat contact invitation; lead information captured including budget and lease duration\"}, \"properties_discussed\": {\"properties_mentioned\": \"Student viewed London student apartments on website; specific properties not detailed\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to add agent on WeChat for free consultation and booking application\", \"pending_items\": \"Student response on WeChat or email\", \"follow_up_required\": \"Agent to follow up if no student contact after WeChat invitation\", \"timeline\": \"Lease duration ends 2026-09-04\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student has a clear budget and lease duration; agent should encourage WeChat communication for faster engagement\"}}}}}",
+    "created_at": "2025-11-18 10:55:32",
+    "updated_at": "2025-11-18T16:25:32.322472",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "guochenan",
+        "mobile": [
+          "+8613621149496"
+        ],
+        "email": [
+          "guochenan211402@163.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 365,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Student to add agent Vivi on WeChat for free consultation and booking application.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent Vivi's email on 2025-09-03 inviting student to add WeChat for consultation"
+        }
+      ],
+      "last_agent_response": "Agent Vivi sent an email inviting the student to add her on WeChat for free consultation and booking application.",
+      "suggested_next_step": "Student should add agent Vivi on WeChat to start consultation and proceed with booking."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "guochenan",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (guochenan211402@163.com), phone (8613621149496), WeChat invitation via agent",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£365 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 (1 outbound email from agent, 1 lead info record)",
+            "primary_channel": "Email, with invitation to WeChat for further communication",
+            "last_contact": "2025-09-13 (lead info recorded)",
+            "response_time": "Not mentioned",
+            "key_moments": "Agent sent introductory email with WeChat contact invitation; lead information captured including budget and lease duration"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Student viewed London student apartments on website; specific properties not detailed",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to add agent on WeChat for free consultation and booking application",
+            "pending_items": "Student response on WeChat or email",
+            "follow_up_required": "Agent to follow up if no student contact after WeChat invitation",
+            "timeline": "Lease duration ends 2026-09-04"
+          },
+          "agent_notes": {
+            "student_tone": "Not mentioned",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Student has a clear budget and lease duration; agent should encourage WeChat communication for faster engagement"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "guochenan",
+          "mobile": [
+            "+8613621149496"
+          ],
+          "email": [
+            "guochenan211402@163.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 365,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Student to add agent Vivi on WeChat for free consultation and booking application.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent Vivi's email on 2025-09-03 inviting student to add WeChat for consultation"
+          }
+        ],
+        "last_agent_response": "Agent Vivi sent an email inviting the student to add her on WeChat for free consultation and booking application.",
+        "suggested_next_step": "Student should add agent Vivi on WeChat to start consultation and proceed with booking."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "guochenan",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (guochenan211402@163.com), phone (8613621149496), WeChat invitation via agent",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£365 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 (1 outbound email from agent, 1 lead info record)",
+              "primary_channel": "Email, with invitation to WeChat for further communication",
+              "last_contact": "2025-09-13 (lead info recorded)",
+              "response_time": "Not mentioned",
+              "key_moments": "Agent sent introductory email with WeChat contact invitation; lead information captured including budget and lease duration"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Student viewed London student apartments on website; specific properties not detailed",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to add agent on WeChat for free consultation and booking application",
+              "pending_items": "Student response on WeChat or email",
+              "follow_up_required": "Agent to follow up if no student contact after WeChat invitation",
+              "timeline": "Lease duration ends 2026-09-04"
+            },
+            "agent_notes": {
+              "student_tone": "Not mentioned",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Student has a clear budget and lease duration; agent should encourage WeChat communication for faster engagement"
+            }
+          }
+        }
+      }
+    }
+  }
+}

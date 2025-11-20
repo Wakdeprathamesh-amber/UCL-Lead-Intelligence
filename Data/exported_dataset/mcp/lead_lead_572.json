@@ -1,0 +1,344 @@
+{
+  "id": "lead_572",
+  "mobile_number": "447827639655",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8910,
+      "lead_id": 572,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3160266, \"user_name\": \"Jin Woo Choi\", \"email\": \"jinwooc04@gmail.com\", \"phone\": \"447827639655\", \"lease_duration\": \"39 week\", \"move_out_date\": \"2026-06-05\", \"budget\": 330, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2040889}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8911,
+      "lead_id": 572,
+      "event_type": "call",
+      "timestamp": "2025-08-20T09:25:25.766836",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7721312",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T09:25:25.766836\", \"id\": 7721312, \"duration\": \"12\", \"to_number\": \"447827639655\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3248530e-6ad8-4457-8e58-3f2ea5a301b0.wav\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8912,
+      "lead_id": 572,
+      "event_type": "email",
+      "timestamp": "2025-08-20T09:47:31",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-20T09:47:31\", \"sender_email\": \"jinwooc04@gmail.com\", \"recipient_email\": \"tufnellhouse@iqstudentaccomodation.com\", \"subject\": \"Booking Referral Confirmation\", \"message\": \"Dear IQ Tufnell House,\\\\n\\\\nI hope you're well.\\\\n\\\\nI am writing to confirm that I booked my accommodation at IQ Tufnell House through Amber and would like Amber to be recorded as my referring agent.\\\\nPlease let me know if you require any further details to process this request.\\\\n\\\\nKing Regards,\\\\n\\\\nJinwoo Choi\\\\nResident ID: 508215\", \"snippet\": \"Dear IQ Tufnell House, I hope you&#39;re well. I am writing to confirm that I booked my accommodation at IQ Tufnell House through Amber and would like Amber to be recorded as my referring agent. Please\", \"sender_type\": \"student\", \"agent_email\": \"tufnellhouse@iqstudentaccomodation.com\", \"student_email\": \"jinwooc04@gmail.com\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8913,
+      "lead_id": 572,
+      "event_type": "email",
+      "timestamp": "2025-08-20T10:33:45",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-20T10:33:45\", \"sender_email\": \"jinwooc04@gmail.com\", \"recipient_email\": \"hello@iqstudentaccomodation.com\", \"subject\": \"Booking Referral Confirmation\", \"message\": \"Dear IQ Student Accommodation,\\\\n\\\\nI hope you're well.\\\\n\\\\nI am writing to confirm that I booked my accommodation at IQ Tufnell House through Amber and would like Amber to be recorded as my referring agent.\\\\nPlease let me know if you require any further details to process this request.\\\\n\\\\nKind Regards,\\\\n\\\\nJinwoo Choi\\\\nResident ID: 508215\", \"snippet\": \"Dear IQ Student Accommodation, I hope you&#39;re well. I am writing to confirm that I booked my accommodation at IQ Tufnell House through Amber and would like Amber to be recorded as my referring agent\", \"sender_type\": \"student\", \"agent_email\": \"hello@iqstudentaccomodation.com\", \"student_email\": \"jinwooc04@gmail.com\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8914,
+      "lead_id": 572,
+      "event_type": "call",
+      "timestamp": "2025-08-22T08:43:28.518609",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7736122",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-22T08:43:28.518609\", \"id\": 7736122, \"duration\": \"3\", \"to_number\": \"447827639655\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/cf81c87e-f59a-4f1c-9d86-72a81fe0ff89.wav\"}",
+      "created_at": "2025-11-18 11:38:05"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 450,
+      "lead_id": 572,
+      "call_id": "7721312",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3248530e-6ad8-4457-8e58-3f2ea5a301b0.wav",
+      "transcript_text": "Speaker A: Here's the Vodafone Voicemail Service 407-827-6396, Level 5. Please leave a message after the tow.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:38:09"
+    },
+    {
+      "id": 453,
+      "lead_id": 572,
+      "call_id": "7736122",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/cf81c87e-f59a-4f1c-9d86-72a81fe0ff89.wav",
+      "transcript_text": "Speaker A: Here's the Vodafone voicemail service for a.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:38:13"
+    }
+  ],
+  "summary": {
+    "id": 239,
+    "lead_id": 572,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Jin Woo Choi\", \"mobile\": [\"447827639655\"], \"email\": [\"jinwooc04@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": null, \"budget\": {\"max\": 330, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Tufnell House\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Amber\"}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Record Amber as the referring agent for Jin Woo Choi's booking at IQ Tufnell House.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Emails from Jin Woo Choi on 2025-08-20 requesting Amber to be recorded as referring agent\"}], \"last_agent_response\": \"No agent response recorded in the timeline after the student's referral confirmation emails.\", \"suggested_next_step\": \"Agent to confirm and update the referral record to show Amber as the referring agent for Jin Woo Choi's booking.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jin Woo Choi\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (jinwooc04@gmail.com), Phone (+44 7827 639655)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3330 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"39 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking confirmed at IQ Tufnell House\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 (2 calls, 3 emails)\", \"primary_channel\": \"Email\", \"last_contact\": \"2025-08-22 (call)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Student confirmed booking at IQ Tufnell House and requested Amber to be recorded as referring agent via two emails on 2025-08-20; two calls to student's phone went to voicemail.\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ Tufnell House\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm recording Amber as referring agent for the booking\", \"pending_items\": \"Confirmation from accommodation team regarding referral agent recording\", \"follow_up_required\": \"Agent to verify referral agent status and update student\", \"timeline\": \"Move-out date noted as 2026-06-05; no immediate deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and formal in emails\", \"urgency_level\": \"Low to moderate; student has already booked accommodation\", \"complexity\": \"Simple case focused on referral agent confirmation\", \"special_considerations\": \"Student emphasizes correct referral agent attribution\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Jin Woo Choi\", \"mobile\": [\"447827639655\"], \"email\": [\"jinwooc04@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": null, \"budget\": {\"max\": 330, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Tufnell House\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Amber\"}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Record Amber as the referring agent for Jin Woo Choi's booking at IQ Tufnell House.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Emails from Jin Woo Choi on 2025-08-20 requesting Amber to be recorded as referring agent\"}], \"last_agent_response\": \"No agent response recorded in the timeline after the student's referral confirmation emails.\", \"suggested_next_step\": \"Agent to confirm and update the referral record to show Amber as the referring agent for Jin Woo Choi's booking.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jin Woo Choi\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (jinwooc04@gmail.com), Phone (+44 7827 639655)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3330 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"39 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking confirmed at IQ Tufnell House\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 (2 calls, 3 emails)\", \"primary_channel\": \"Email\", \"last_contact\": \"2025-08-22 (call)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Student confirmed booking at IQ Tufnell House and requested Amber to be recorded as referring agent via two emails on 2025-08-20; two calls to student's phone went to voicemail.\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ Tufnell House\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm recording Amber as referring agent for the booking\", \"pending_items\": \"Confirmation from accommodation team regarding referral agent recording\", \"follow_up_required\": \"Agent to verify referral agent status and update student\", \"timeline\": \"Move-out date noted as 2026-06-05; no immediate deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and formal in emails\", \"urgency_level\": \"Low to moderate; student has already booked accommodation\", \"complexity\": \"Simple case focused on referral agent confirmation\", \"special_considerations\": \"Student emphasizes correct referral agent attribution\"}}}}}",
+    "created_at": "2025-11-18 11:38:22",
+    "updated_at": "2025-11-18T17:08:22.429574",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Jin Woo Choi",
+        "mobile": [
+          "447827639655"
+        ],
+        "email": [
+          "jinwooc04@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 39,
+        "room_type": null,
+        "budget": {
+          "max": 330,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "IQ Tufnell House"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": "Amber"
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Record Amber as the referring agent for Jin Woo Choi's booking at IQ Tufnell House.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Emails from Jin Woo Choi on 2025-08-20 requesting Amber to be recorded as referring agent"
+        }
+      ],
+      "last_agent_response": "No agent response recorded in the timeline after the student's referral confirmation emails.",
+      "suggested_next_step": "Agent to confirm and update the referral record to show Amber as the referring agent for Jin Woo Choi's booking."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Jin Woo Choi",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (jinwooc04@gmail.com), Phone (+44 7827 639655)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£330 per week",
+            "move_in_date": "Not explicitly mentioned",
+            "lease_duration": "39 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking confirmed at IQ Tufnell House",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "5 (2 calls, 3 emails)",
+            "primary_channel": "Email",
+            "last_contact": "2025-08-22 (call)",
+            "response_time": "Not explicitly mentioned",
+            "key_moments": "Student confirmed booking at IQ Tufnell House and requested Amber to be recorded as referring agent via two emails on 2025-08-20; two calls to student's phone went to voicemail."
+          },
+          "properties_discussed": {
+            "properties_mentioned": "IQ Tufnell House",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Confirm recording Amber as referring agent for the booking",
+            "pending_items": "Confirmation from accommodation team regarding referral agent recording",
+            "follow_up_required": "Agent to verify referral agent status and update student",
+            "timeline": "Move-out date noted as 2026-06-05; no immediate deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and formal in emails",
+            "urgency_level": "Low to moderate; student has already booked accommodation",
+            "complexity": "Simple case focused on referral agent confirmation",
+            "special_considerations": "Student emphasizes correct referral agent attribution"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Jin Woo Choi",
+          "mobile": [
+            "447827639655"
+          ],
+          "email": [
+            "jinwooc04@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 39,
+          "room_type": null,
+          "budget": {
+            "max": 330,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "IQ Tufnell House"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": "Amber"
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Record Amber as the referring agent for Jin Woo Choi's booking at IQ Tufnell House.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Emails from Jin Woo Choi on 2025-08-20 requesting Amber to be recorded as referring agent"
+          }
+        ],
+        "last_agent_response": "No agent response recorded in the timeline after the student's referral confirmation emails.",
+        "suggested_next_step": "Agent to confirm and update the referral record to show Amber as the referring agent for Jin Woo Choi's booking."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Jin Woo Choi",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (jinwooc04@gmail.com), Phone (+44 7827 639655)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£330 per week",
+              "move_in_date": "Not explicitly mentioned",
+              "lease_duration": "39 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking confirmed at IQ Tufnell House",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "5 (2 calls, 3 emails)",
+              "primary_channel": "Email",
+              "last_contact": "2025-08-22 (call)",
+              "response_time": "Not explicitly mentioned",
+              "key_moments": "Student confirmed booking at IQ Tufnell House and requested Amber to be recorded as referring agent via two emails on 2025-08-20; two calls to student's phone went to voicemail."
+            },
+            "properties_discussed": {
+              "properties_mentioned": "IQ Tufnell House",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Confirm recording Amber as referring agent for the booking",
+              "pending_items": "Confirmation from accommodation team regarding referral agent recording",
+              "follow_up_required": "Agent to verify referral agent status and update student",
+              "timeline": "Move-out date noted as 2026-06-05; no immediate deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and formal in emails",
+              "urgency_level": "Low to moderate; student has already booked accommodation",
+              "complexity": "Simple case focused on referral agent confirmation",
+              "special_considerations": "Student emphasizes correct referral agent attribution"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "id": "lead_133",
+  "mobile_number": "85290170813",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2178,
+      "lead_id": 133,
+      "event_type": "call",
+      "timestamp": "2025-09-19T10:16:23.179078",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7899439",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-19T10:16:23.179078\", \"id\": 7899439, \"duration\": \"3\", \"to_number\": \"85290170813\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/eecb7d4d-0b56-409c-80fa-cb5e2b204925.wav\"}",
+      "created_at": "2025-11-18 10:17:28"
+    },
+    {
+      "id": 2179,
+      "lead_id": 133,
+      "event_type": "lead_info",
+      "timestamp": "2025-11-18T15:47:28.314996",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-11-18T15:47:28.314996\", \"lead_id\": 3220593, \"user_name\": \"Augustine Hui\", \"email\": \"augustineh817@gmail.com\", \"phone\": \"85290170813\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 137036}",
+      "created_at": "2025-11-18 10:17:28"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 65,
+      "lead_id": 133,
+      "call_id": "7899439",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/eecb7d4d-0b56-409c-80fa-cb5e2b204925.wav",
+      "transcript_text": "Speaker A: Tai gao plang.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:17:33"
+    }
+  ],
+  "summary": {
+    "id": 55,
+    "lead_id": 133,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Augustine Hui\", \"mobile\": [\"+85290170813\"], \"email\": [\"augustineh817@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"Contact Augustine Hui to confirm interest and discuss next steps for accommodation booking.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Augustine Hui\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: +85290170813, Email: augustineh817@gmail.com, Phone call recorded on 2025-09-19\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (1 phone call, 1 lead info submission)\", \"primary_channel\": \"Phone call and email\", \"last_contact\": \"2025-11-18\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Phone call on 2025-09-19; lead information received on 2025-11-18\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137036 referenced\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to clarify accommodation preferences and move-in details\", \"pending_items\": \"Confirmation of room type, move-in date, and lease duration\", \"follow_up_required\": \"Yes, to gather more detailed preferences and progress booking\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not clearly discernible from limited transcript\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student uses UK and Hong Kong phone numbers; budget weekly in pounds\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Augustine Hui\", \"mobile\": [\"+85290170813\"], \"email\": [\"augustineh817@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"Contact Augustine Hui to confirm interest and discuss next steps for accommodation booking.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Augustine Hui\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: +85290170813, Email: augustineh817@gmail.com, Phone call recorded on 2025-09-19\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (1 phone call, 1 lead info submission)\", \"primary_channel\": \"Phone call and email\", \"last_contact\": \"2025-11-18\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Phone call on 2025-09-19; lead information received on 2025-11-18\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137036 referenced\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to clarify accommodation preferences and move-in details\", \"pending_items\": \"Confirmation of room type, move-in date, and lease duration\", \"follow_up_required\": \"Yes, to gather more detailed preferences and progress booking\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not clearly discernible from limited transcript\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student uses UK and Hong Kong phone numbers; budget weekly in pounds\"}}}}}",
+    "created_at": "2025-11-18 10:17:41",
+    "updated_at": "2025-11-18T15:47:41.487928",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Augustine Hui",
+        "mobile": [
+          "+85290170813"
+        ],
+        "email": [
+          "augustineh817@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "",
+      "suggested_next_step": "Contact Augustine Hui to confirm interest and discuss next steps for accommodation booking."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Augustine Hui",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone: +85290170813, Email: augustineh817@gmail.com, Phone call recorded on 2025-09-19",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "Budget in pounds, weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 (1 phone call, 1 lead info submission)",
+            "primary_channel": "Phone call and email",
+            "last_contact": "2025-11-18",
+            "response_time": "Not mentioned",
+            "key_moments": "Phone call on 2025-09-19; lead information received on 2025-11-18"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 137036 referenced",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Contact student to clarify accommodation preferences and move-in details",
+            "pending_items": "Confirmation of room type, move-in date, and lease duration",
+            "follow_up_required": "Yes, to gather more detailed preferences and progress booking",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Not clearly discernible from limited transcript",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Student uses UK and Hong Kong phone numbers; budget weekly in pounds"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Augustine Hui",
+          "mobile": [
+            "+85290170813"
+          ],
+          "email": [
+            "augustineh817@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "",
+        "suggested_next_step": "Contact Augustine Hui to confirm interest and discuss next steps for accommodation booking."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Augustine Hui",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone: +85290170813, Email: augustineh817@gmail.com, Phone call recorded on 2025-09-19",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "Budget in pounds, weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 (1 phone call, 1 lead info submission)",
+              "primary_channel": "Phone call and email",
+              "last_contact": "2025-11-18",
+              "response_time": "Not mentioned",
+              "key_moments": "Phone call on 2025-09-19; lead information received on 2025-11-18"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 137036 referenced",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Contact student to clarify accommodation preferences and move-in details",
+              "pending_items": "Confirmation of room type, move-in date, and lease duration",
+              "follow_up_required": "Yes, to gather more detailed preferences and progress booking",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Not clearly discernible from limited transcript",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Student uses UK and Hong Kong phone numbers; budget weekly in pounds"
+            }
+          }
+        }
+      }
+    }
+  }
+}

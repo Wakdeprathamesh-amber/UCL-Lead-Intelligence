@@ -1,0 +1,985 @@
+{
+  "id": "lead_95",
+  "mobile_number": "15719992752",
+  "email": null,
+  "timeline": [
+    {
+      "id": 1902,
+      "lead_id": 95,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3171038, \"user_name\": \"Lauren Grady\", \"email\": \"lauren.grady03@gmail.com\", \"phone\": \"15719992752\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 439, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1135355}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1903,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T21:54:57",
+      "content": "Hello",
+      "source": "whatsapp",
+      "event_id": "7688812",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T21:54:57\", \"id\": 7688812, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_1F29B97EAF27C54EBFA79AF7E42D5B25\", \"message_type\": \"text\", \"message_content\": \"Hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T21:54:57.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello\\\", \\\"Datetime\\\": 1755899697000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_1F29B97EAF27C54EBFA79AF7E42D5B25\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T21:54:58.202322\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1904,
+      "lead_id": 95,
+      "event_type": "call",
+      "timestamp": "2025-08-22T21:55:20.131179",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7742841",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-22T21:55:20.131179\", \"id\": 7742841, \"duration\": \"36\", \"to_number\": \"15719992752\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/08d06334-1079-49b6-8ea7-749b74ccd0ef.wav\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1905,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T21:58:02",
+      "content": "Lauren my name is Husyn from UCL accommodation portal powered by amber please confirm are you still looking for accommodation?",
+      "source": "whatsapp",
+      "event_id": "7688850",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T21:58:02\", \"id\": 7688850, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_BF91B87C8A0E1BA10B59E7A242069C4C\", \"message_type\": \"text\", \"message_content\": \"Lauren my name is Husyn from UCL accommodation portal powered by amber please confirm are you still looking for accommodation?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T21:58:02.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Lauren my name is Husyn from UCL accommodation portal powered by amber please confirm are you still looking for accommodation?\\\", \\\"Datetime\\\": 1755899882000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_BF91B87C8A0E1BA10B59E7A242069C4C\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T21:58:02.601184\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1906,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T23:06:30",
+      "content": "Hello Lauren, we have received your booking request for Flora Building, London",
+      "source": "whatsapp",
+      "event_id": "7689466",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T23:06:30\", \"id\": 7689466, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_0F09F43440BB53B79840FB4B5C95D126\", \"message_type\": \"text\", \"message_content\": \"Hello Lauren, we have received your booking request for Flora Building, London\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T23:06:30.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello Lauren, we have received your booking request for Flora Building, London\\\", \\\"Datetime\\\": 1755903990000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_0F09F43440BB53B79840FB4B5C95D126\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T23:06:31.047430\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1907,
+      "lead_id": 95,
+      "event_type": "call",
+      "timestamp": "2025-08-23T13:20:01.561644",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7746226",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-23T13:20:01.561644\", \"id\": 7746226, \"duration\": \"39\", \"to_number\": \"15719992752\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/15508bf5-2be0-489c-a167-9a3f07a589f0.wav\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1908,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-23T22:07:34",
+      "content": "Hello! Great, thank you for letting me know.",
+      "source": "whatsapp",
+      "event_id": "7728862",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-23T22:07:34\", \"id\": 7728862, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3A947AD6B31D00408444\", \"message_type\": \"text\", \"message_content\": \"Hello! Great, thank you for letting me know.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-23T22:07:34.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello! Great, thank you for letting me know.\\\", \\\"Datetime\\\": 1755986854000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3A947AD6B31D00408444\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-23T22:07:34.691767\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1909,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-23T22:08:47",
+      "content": "Please share your passport with name mentioned on it.",
+      "source": "whatsapp",
+      "event_id": "7728878",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-23T22:08:47\", \"id\": 7728878, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3537388774C96207FBF701B139641F38\", \"message_type\": \"text\", \"message_content\": \"Please share your passport with name mentioned on it.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-23T22:08:47.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Please share your passport with name mentioned on it.\\\", \\\"Datetime\\\": 1755986927000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3537388774C96207FBF701B139641F38\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-23T22:08:47.615234\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1910,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-24T20:56:54",
+      "content": "Hi, my apologies for the delayed reply. Is there a more secure method of sending my passport rather than on WhatsApp?",
+      "source": "whatsapp",
+      "event_id": "7744650",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-24T20:56:54\", \"id\": 7744650, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3AA7643A9510FB55CEDF\", \"message_type\": \"text\", \"message_content\": \"Hi, my apologies for the delayed reply. Is there a more secure method of sending my passport rather than on WhatsApp?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-24T20:56:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hi, my apologies for the delayed reply. Is there a more secure method of sending my passport rather than on WhatsApp?\\\", \\\"Datetime\\\": 1756069014000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3AA7643A9510FB55CEDF\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-24T20:56:55.308973\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1911,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-24T23:00:11",
+      "content": "Hello",
+      "source": "whatsapp",
+      "event_id": "7745405",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-24T23:00:11\", \"id\": 7745405, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_CAAB948A53075125D49BA5E6F650512F\", \"message_type\": \"text\", \"message_content\": \"Hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-24T23:00:11.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello\\\", \\\"Datetime\\\": 1756076411000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_CAAB948A53075125D49BA5E6F650512F\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-24T23:00:11.876232\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1912,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-24T23:02:19",
+      "content": "For passports are needed to verify students address and name uk students can send their passport or driving licence but for international students it is compulsory to share passport in case you are uncomfortable sending your passport over whatsapp you can share over email \n\nmahmudul.h@amberstudent.com",
+      "source": "whatsapp",
+      "event_id": "7745417",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-24T23:02:19\", \"id\": 7745417, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_2596F369FE64A840DAFC403EC572FB66\", \"message_type\": \"text\", \"message_content\": \"For passports are needed to verify students address and name uk students can send their passport or driving licence but for international students it is compulsory to share passport in case you are uncomfortable sending your passport over whatsapp you can share over email \\n\\nmahmudul.h@amberstudent.com\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-24T23:02:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"For passports are needed to verify students address and name uk students can send their passport or driving licence but for international students it is compulsory to share passport in case you are uncomfortable sending your passport over whatsapp you can share over email \\\\n\\\\nmahmudul.h@amberstudent.com\\\", \\\"Datetime\\\": 1756076539000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_2596F369FE64A840DAFC403EC572FB66\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-24T23:02:19.840776\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1913,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T13:37:42",
+      "content": "Waiting for your response",
+      "source": "whatsapp",
+      "event_id": "7775370",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T13:37:42\", \"id\": 7775370, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_5CEE82CFCB54197CD0BF7847816B63AB\", \"message_type\": \"text\", \"message_content\": \"Waiting for your response\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T13:37:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Waiting for your response\\\", \\\"Datetime\\\": 1756129062000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_5CEE82CFCB54197CD0BF7847816B63AB\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T13:37:42.357091\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1914,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T15:30:18",
+      "content": "Hi, here is my passport",
+      "source": "whatsapp",
+      "event_id": "7781937",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T15:30:18\", \"id\": 7781937, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3A963D03E39A266A70E4\", \"message_type\": \"text\", \"message_content\": \"Hi, here is my passport\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T15:30:18.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447446219714/3A963D03E39A266A70E4.pdf\\\", \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hi, here is my passport\\\", \\\"Datetime\\\": 1756135818000, \\\"FileName\\\": \\\"Passport.pdf\\\", \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3A963D03E39A266A70E4\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T15:30:20.031176\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1915,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T15:37:09",
+      "content": "thankyou i am starting the process please stay active",
+      "source": "whatsapp",
+      "event_id": "7782451",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T15:37:09\", \"id\": 7782451, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3F4ADB4886741576C18C\", \"message_type\": \"text\", \"message_content\": \"thankyou i am starting the process please stay active\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T15:37:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"thankyou i am starting the process please stay active\\\", \\\"Datetime\\\": 1756136229000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3F4ADB4886741576C18C\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T15:37:09.527503\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1916,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T15:37:27",
+      "content": "Will do, thank you so much!",
+      "source": "whatsapp",
+      "event_id": "7782470",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T15:37:27\", \"id\": 7782470, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3A9F616107D23908A361\", \"message_type\": \"text\", \"message_content\": \"Will do, thank you so much!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T15:37:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Will do, thank you so much!\\\", \\\"Datetime\\\": 1756136247000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3A9F616107D23908A361\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T15:37:28.077586\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1917,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T15:47:46",
+      "content": "i have added a cash back reward of 250 GBP as well",
+      "source": "whatsapp",
+      "event_id": "7783080",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T15:47:46\", \"id\": 7783080, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3FA5B885E055370BBF76\", \"message_type\": \"text\", \"message_content\": \"i have added a cash back reward of 250 GBP as well\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T15:47:46.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"i have added a cash back reward of 250 GBP as well\\\", \\\"Datetime\\\": 1756136866000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3FA5B885E055370BBF76\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T15:47:47.283720\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1918,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T15:49:02",
+      "content": "Awesome thank you!",
+      "source": "whatsapp",
+      "event_id": "7783160",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T15:49:02\", \"id\": 7783160, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3A9D0936FB89B3944C1A\", \"message_type\": \"text\", \"message_content\": \"Awesome thank you!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T15:49:02.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Awesome thank you!\\\", \\\"Datetime\\\": 1756136942000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3A9D0936FB89B3944C1A\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T15:49:03.198315\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1919,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T15:49:54",
+      "content": "no worries will share the login credentials",
+      "source": "whatsapp",
+      "event_id": "7783200",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T15:49:54\", \"id\": 7783200, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3F8F693A55BED60AF055\", \"message_type\": \"text\", \"message_content\": \"no worries will share the login credentials\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T15:49:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"no worries will share the login credentials\\\", \\\"Datetime\\\": 1756136994000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3F8F693A55BED60AF055\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T15:49:55.589928\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1920,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T15:50:05",
+      "content": "👍",
+      "source": "whatsapp",
+      "event_id": "7783204",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T15:50:05\", \"id\": 7783204, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3AFB7DC1553351D712AC\", \"message_type\": \"text\", \"message_content\": \"\\ud83d\\udc4d\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T15:50:05.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"\\ud83d\\udc4d\\\", \\\"Datetime\\\": 1756137005000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3AFB7DC1553351D712AC\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T15:50:05.674351\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1921,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:14:05",
+      "content": "• Student ID  FLO526182\n• Account Email: lauren.grady03@gmail.com\n• Account Password: Amber.123\nhttps://kxweb.prestigestudentliving.com/default.aspx?wf=ppplogin",
+      "source": "whatsapp",
+      "event_id": "7784477",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:14:05\", \"id\": 7784477, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_375E9CC16BA21DCEB52374D952B9E7BE\", \"message_type\": \"text\", \"message_content\": \"\\u2022 Student ID  FLO526182\\n\\u2022 Account Email: lauren.grady03@gmail.com\\n\\u2022 Account Password: Amber.123\\nhttps://kxweb.prestigestudentliving.com/default.aspx?wf=ppplogin\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:14:05.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"\\u2022 Student ID  FLO526182\\\\n\\u2022 Account Email: lauren.grady03@gmail.com\\\\n\\u2022 Account Password: Amber.123\\\\nhttps://kxweb.prestigestudentliving.com/default.aspx?wf=ppplogin\\\", \\\"Datetime\\\": 1756138445000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_375E9CC16BA21DCEB52374D952B9E7BE\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:14:05.880164\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1922,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:14:20",
+      "content": "Please log in using the email and password",
+      "source": "whatsapp",
+      "event_id": "7784492",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:14:20\", \"id\": 7784492, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_59DCCEC2FDDCF544715A6BE3306293C8\", \"message_type\": \"text\", \"message_content\": \"Please log in using the email and password\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:14:20.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Please log in using the email and password\\\", \\\"Datetime\\\": 1756138460000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_59DCCEC2FDDCF544715A6BE3306293C8\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:14:20.767475\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1923,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:14:33",
+      "content": "Pay the deposit and sign the agreement",
+      "source": "whatsapp",
+      "event_id": "7784507",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:14:33\", \"id\": 7784507, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_7C860F1CC37594A83A47BC7AE70E38B6\", \"message_type\": \"text\", \"message_content\": \"Pay the deposit and sign the agreement\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:14:33.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Pay the deposit and sign the agreement\\\", \\\"Datetime\\\": 1756138473000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_7C860F1CC37594A83A47BC7AE70E38B6\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:14:34.355956\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1924,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:14:44",
+      "content": "As only one unit left",
+      "source": "whatsapp",
+      "event_id": "7784518",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:14:44\", \"id\": 7784518, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_524FD23785FADC99789671D11E6B2603\", \"message_type\": \"text\", \"message_content\": \"As only one unit left\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:14:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"As only one unit left\\\", \\\"Datetime\\\": 1756138484000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_524FD23785FADC99789671D11E6B2603\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:14:45.337693\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1925,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:15:19",
+      "content": "Hi, will do that now and text when I have finished paying and signing",
+      "source": "whatsapp",
+      "event_id": "7784556",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:15:19\", \"id\": 7784556, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3AD0852F7CB0F256AA4B\", \"message_type\": \"text\", \"message_content\": \"Hi, will do that now and text when I have finished paying and signing\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T16:15:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hi, will do that now and text when I have finished paying and signing\\\", \\\"Datetime\\\": 1756138519000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3AD0852F7CB0F256AA4B\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:15:19.217057\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1926,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:15:29",
+      "content": "Yes",
+      "source": "whatsapp",
+      "event_id": "7784562",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:15:29\", \"id\": 7784562, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_43FAE6A0BA59CB5E61D8CD3B93EFF88C\", \"message_type\": \"text\", \"message_content\": \"Yes\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:15:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Yes\\\", \\\"Datetime\\\": 1756138529000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_43FAE6A0BA59CB5E61D8CD3B93EFF88C\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:15:29.269483\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1927,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:15:32",
+      "content": "After signing",
+      "source": "whatsapp",
+      "event_id": "7784568",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:15:32\", \"id\": 7784568, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_9074C4BA92ACBC4AE89F573DCFFC10BC\", \"message_type\": \"text\", \"message_content\": \"After signing\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:15:32.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"After signing\\\", \\\"Datetime\\\": 1756138532000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_9074C4BA92ACBC4AE89F573DCFFC10BC\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:15:33.153826\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1928,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:15:42",
+      "content": "I will guide you on the rest",
+      "source": "whatsapp",
+      "event_id": "7784578",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:15:42\", \"id\": 7784578, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_9F6700D5D4F40D596F04498C655576C9\", \"message_type\": \"text\", \"message_content\": \"I will guide you on the rest\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:15:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"I will guide you on the rest\\\", \\\"Datetime\\\": 1756138542000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_9F6700D5D4F40D596F04498C655576C9\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:15:42.445723\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1929,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:15:51",
+      "content": "👍",
+      "source": "whatsapp",
+      "event_id": "7784585",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:15:51\", \"id\": 7784585, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3AF9A7CD4BA06F991069\", \"message_type\": \"text\", \"message_content\": \"\\ud83d\\udc4d\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T16:15:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"\\ud83d\\udc4d\\\", \\\"Datetime\\\": 1756138551000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3AF9A7CD4BA06F991069\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:15:51.905814\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1930,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:28:15",
+      "content": "Hi, I was reading the tenancy agreement and wanted to ask if you could please explain the passage about having a UK guarantor to me?",
+      "source": "whatsapp",
+      "event_id": "7785350",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:28:15\", \"id\": 7785350, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3AC64781647E2723F209\", \"message_type\": \"text\", \"message_content\": \"Hi, I was reading the tenancy agreement and wanted to ask if you could please explain the passage about having a UK guarantor to me?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T16:28:15.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hi, I was reading the tenancy agreement and wanted to ask if you could please explain the passage about having a UK guarantor to me?\\\", \\\"Datetime\\\": 1756139295000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3AC64781647E2723F209\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:28:16.199890\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1931,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:40:13",
+      "content": "uk guarantor means someone who is in uk and can be your guarantor",
+      "source": "whatsapp",
+      "event_id": "7785895",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:40:13\", \"id\": 7785895, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3FDEEAB11FD069AD45B9\", \"message_type\": \"text\", \"message_content\": \"uk guarantor means someone who is in uk and can be your guarantor\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:40:13.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"uk guarantor means someone who is in uk and can be your guarantor\\\", \\\"Datetime\\\": 1756140013000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3FDEEAB11FD069AD45B9\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:40:13.774408\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1932,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:40:51",
+      "content": "anyone who is staying there from a year or have a job can be",
+      "source": "whatsapp",
+      "event_id": "7785929",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:40:51\", \"id\": 7785929, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3FFA772C4F4FCCC26636\", \"message_type\": \"text\", \"message_content\": \"anyone who is staying there from a year or have a job can be\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:40:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"anyone who is staying there from a year or have a job can be\\\", \\\"Datetime\\\": 1756140051000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3FFA772C4F4FCCC26636\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:40:52.389213\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1933,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:41:57",
+      "content": "Yes. I do not have a UK guarantor however as my mom would be my guarantor but is a U.S. citizen. Is there a way for me to get UK guarantor? I heard about the Housing Hand guarantor service",
+      "source": "whatsapp",
+      "event_id": "7785977",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:41:57\", \"id\": 7785977, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3AF4C1C570B571E293A9\", \"message_type\": \"text\", \"message_content\": \"Yes. I do not have a UK guarantor however as my mom would be my guarantor but is a U.S. citizen. Is there a way for me to get UK guarantor? I heard about the Housing Hand guarantor service\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T16:41:57.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Yes. I do not have a UK guarantor however as my mom would be my guarantor but is a U.S. citizen. Is there a way for me to get UK guarantor? I heard about the Housing Hand guarantor service\\\", \\\"Datetime\\\": 1756140117000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3AF4C1C570B571E293A9\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:41:58.125892\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1934,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:42:15",
+      "content": "yes",
+      "source": "whatsapp",
+      "event_id": "7785990",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:42:15\", \"id\": 7785990, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3F04E7F71105C82933ED\", \"message_type\": \"text\", \"message_content\": \"yes\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:42:15.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"yes\\\", \\\"Datetime\\\": 1756140135000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3F04E7F71105C82933ED\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:42:15.365758\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1935,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:42:28",
+      "content": "lets connect on a call",
+      "source": "whatsapp",
+      "event_id": "7785997",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:42:28\", \"id\": 7785997, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3F74B7212917F4123B9D\", \"message_type\": \"text\", \"message_content\": \"lets connect on a call\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:42:28.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"lets connect on a call\\\", \\\"Datetime\\\": 1756140148000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3F74B7212917F4123B9D\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:42:28.403454\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1936,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:42:41",
+      "content": "so i can explain you better",
+      "source": "whatsapp",
+      "event_id": "7786004",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:42:41\", \"id\": 7786004, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3FAD6B65D7B2AB7014F6\", \"message_type\": \"text\", \"message_content\": \"so i can explain you better\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T16:42:41.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"so i can explain you better\\\", \\\"Datetime\\\": 1756140161000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3FAD6B65D7B2AB7014F6\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:42:41.936031\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1937,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T16:42:55",
+      "content": "👍",
+      "source": "whatsapp",
+      "event_id": "7786019",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T16:42:55\", \"id\": 7786019, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3A608714DF46839BA65B\", \"message_type\": \"text\", \"message_content\": \"\\ud83d\\udc4d\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T16:42:55.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"\\ud83d\\udc4d\\\", \\\"Datetime\\\": 1756140175000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3A608714DF46839BA65B\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T16:42:55.486478\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1938,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T17:12:06",
+      "content": "hello",
+      "source": "whatsapp",
+      "event_id": "7787602",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T17:12:06\", \"id\": 7787602, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3F8B684D62E735CEC592\", \"message_type\": \"text\", \"message_content\": \"hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T17:12:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"hello\\\", \\\"Datetime\\\": 1756141926000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3F8B684D62E735CEC592\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T17:12:06.271335\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1939,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T17:12:36",
+      "content": "have you made a decision?",
+      "source": "whatsapp",
+      "event_id": "7787624",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T17:12:36\", \"id\": 7787624, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3F61EB36718A67C4C027\", \"message_type\": \"text\", \"message_content\": \"have you made a decision?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T17:12:36.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"have you made a decision?\\\", \\\"Datetime\\\": 1756141956000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3F61EB36718A67C4C027\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T17:12:36.508642\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1940,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T17:16:36",
+      "content": "Hello not yet sorry",
+      "source": "whatsapp",
+      "event_id": "7787797",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T17:16:36\", \"id\": 7787797, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3AF866C49DEC76EC7F91\", \"message_type\": \"text\", \"message_content\": \"Hello not yet sorry\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T17:16:36.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello not yet sorry\\\", \\\"Datetime\\\": 1756142196000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3AF866C49DEC76EC7F91\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T17:16:36.781394\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1941,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T17:17:32",
+      "content": "if your mother wants to talk to me please dont hesitate",
+      "source": "whatsapp",
+      "event_id": "7787846",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T17:17:32\", \"id\": 7787846, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_3F609B6F9C1135DBD11B\", \"message_type\": \"text\", \"message_content\": \"if your mother wants to talk to me please dont hesitate\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T17:17:32.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"if your mother wants to talk to me please dont hesitate\\\", \\\"Datetime\\\": 1756142252000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_3F609B6F9C1135DBD11B\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T17:17:33.283998\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1942,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T17:21:03",
+      "content": "Yes that would be good, her number is +1 703 220 1586",
+      "source": "whatsapp",
+      "event_id": "7788016",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T17:21:03\", \"id\": 7788016, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3AAA69C6E0CA0D6F3CA3\", \"message_type\": \"text\", \"message_content\": \"Yes that would be good, her number is +1 703 220 1586\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T17:21:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Yes that would be good, her number is +1 703 220 1586\\\", \\\"Datetime\\\": 1756142463000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3AAA69C6E0CA0D6F3CA3\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T17:21:04.007157\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1943,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T17:26:04",
+      "content": "",
+      "source": "whatsapp",
+      "event_id": "7788288",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T17:26:04\", \"id\": 7788288, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3A2EB465F01AEED8DF74\", \"message_type\": \"text\", \"message_content\": \"\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T17:26:04.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"\\\", \\\"Datetime\\\": 1756142764000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3A2EB465F01AEED8DF74\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T17:26:04.699281\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1944,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T17:44:03",
+      "content": "Please drop a text here once the signing is completed",
+      "source": "whatsapp",
+      "event_id": "7789133",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T17:44:03\", \"id\": 7789133, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_E7B2C072A05B7D9A65E9F1DD35CFF36D\", \"message_type\": \"text\", \"message_content\": \"Please drop a text here once the signing is completed\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T17:44:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Please drop a text here once the signing is completed\\\", \\\"Datetime\\\": 1756143843000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_E7B2C072A05B7D9A65E9F1DD35CFF36D\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T17:44:04.353045\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1945,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T17:44:49",
+      "content": "Hi will do 👍",
+      "source": "whatsapp",
+      "event_id": "7789163",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T17:44:49\", \"id\": 7789163, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3A3F1A912798932A33B4\", \"message_type\": \"text\", \"message_content\": \"Hi will do \\ud83d\\udc4d\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T17:44:49.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hi will do \\ud83d\\udc4d\\\", \\\"Datetime\\\": 1756143889000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3A3F1A912798932A33B4\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T17:44:50.186749\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1946,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T18:58:44",
+      "content": "Hey",
+      "source": "whatsapp",
+      "event_id": "7792049",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T18:58:44\", \"id\": 7792049, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_70986408EFCCE2103E6954FEAF796FAB\", \"message_type\": \"text\", \"message_content\": \"Hey\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T18:58:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hey\\\", \\\"Datetime\\\": 1756148324000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_70986408EFCCE2103E6954FEAF796FAB\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T18:58:44.977210\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1947,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T18:58:49",
+      "content": "https://www.trustpilot.com/evaluate-link/a845636629337620013e97ce22dcae40",
+      "source": "whatsapp",
+      "event_id": "7792053",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T18:58:49\", \"id\": 7792053, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_B56F03BDED09483EEDA0203DB33F6DA9\", \"message_type\": \"text\", \"message_content\": \"https://www.trustpilot.com/evaluate-link/a845636629337620013e97ce22dcae40\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T18:58:49.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"https://www.trustpilot.com/evaluate-link/a845636629337620013e97ce22dcae40\\\", \\\"Datetime\\\": 1756148329000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_B56F03BDED09483EEDA0203DB33F6DA9\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T18:58:49.837437\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1948,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T18:59:14",
+      "content": "Please share your experience with Husyn and rate my service it will really really help me grow",
+      "source": "whatsapp",
+      "event_id": "7792071",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T18:59:14\", \"id\": 7792071, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_7F3710F773574006B5A0061291133518\", \"message_type\": \"text\", \"message_content\": \"Please share your experience with Husyn and rate my service it will really really help me grow\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T18:59:14.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Please share your experience with Husyn and rate my service it will really really help me grow\\\", \\\"Datetime\\\": 1756148354000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_7F3710F773574006B5A0061291133518\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T18:59:15.251843\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1949,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T18:59:42",
+      "content": "And will make me your point of contact so you can directly reach out for any help",
+      "source": "whatsapp",
+      "event_id": "7792080",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T18:59:42\", \"id\": 7792080, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_07831689315E0644AA3A2670FF53A9EC\", \"message_type\": \"text\", \"message_content\": \"And will make me your point of contact so you can directly reach out for any help\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T18:59:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"And will make me your point of contact so you can directly reach out for any help\\\", \\\"Datetime\\\": 1756148382000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_07831689315E0644AA3A2670FF53A9EC\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T18:59:42.526555\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1950,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T19:00:07",
+      "content": "Do mention my name and please provide a ss of what you wrote I will have to upload",
+      "source": "whatsapp",
+      "event_id": "7792089",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T19:00:07\", \"id\": 7792089, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_871F13A3AA7C7D7F491B0A8EA3F98A2E\", \"message_type\": \"text\", \"message_content\": \"Do mention my name and please provide a ss of what you wrote I will have to upload\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T19:00:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Do mention my name and please provide a ss of what you wrote I will have to upload\\\", \\\"Datetime\\\": 1756148407000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_871F13A3AA7C7D7F491B0A8EA3F98A2E\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T19:00:07.763090\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1951,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T19:01:26",
+      "content": "Will do!! 5 stars ⭐️",
+      "source": "whatsapp",
+      "event_id": "7792135",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T19:01:26\", \"id\": 7792135, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3AC746B371A8B847EDD3\", \"message_type\": \"text\", \"message_content\": \"Will do!! 5 stars \\u2b50\\ufe0f\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T19:01:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Will do!! 5 stars \\u2b50\\ufe0f\\\", \\\"Datetime\\\": 1756148486000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3AC746B371A8B847EDD3\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T19:01:32.422733\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1952,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T19:01:37",
+      "content": "Thankyou so much",
+      "source": "whatsapp",
+      "event_id": "7792140",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T19:01:37\", \"id\": 7792140, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_B99BFEA6979F56BBF7AB48545645B19D\", \"message_type\": \"text\", \"message_content\": \"Thankyou so much\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T19:01:37.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Thankyou so much\\\", \\\"Datetime\\\": 1756148497000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_B99BFEA6979F56BBF7AB48545645B19D\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T19:01:38.183491\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1953,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T19:01:44",
+      "content": "Do write a review too",
+      "source": "whatsapp",
+      "event_id": "7792142",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T19:01:44\", \"id\": 7792142, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_477DBA4F396073E5A07F636D4DDC3DE9\", \"message_type\": \"text\", \"message_content\": \"Do write a review too\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T19:01:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Do write a review too\\\", \\\"Datetime\\\": 1756148504000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_477DBA4F396073E5A07F636D4DDC3DE9\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T19:01:44.665387\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1954,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T19:11:25",
+      "content": "image.jpeg",
+      "source": "whatsapp",
+      "event_id": "7792474",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T19:11:25\", \"id\": 7792474, \"email\": \"\", \"from_number\": \"15719992752\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_15719992752@c.us_3AA71EBD16589001E0C0\", \"message_type\": \"text\", \"message_content\": \"image.jpeg\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"15719992752@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-25T19:11:25.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447446219714/3AA71EBD16589001E0C0.jpeg\\\", \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"image.jpeg\\\", \\\"Datetime\\\": 1756149085000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"15719992752@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_15719992752@c.us_3AA71EBD16589001E0C0\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"15719992752\\\", \\\"sentByUserId\\\": \\\"15719992752@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T19:11:25.563121\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1955,
+      "lead_id": 95,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T19:14:29",
+      "content": "Made my day",
+      "source": "whatsapp",
+      "event_id": "7792606",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T19:14:29\", \"id\": 7792606, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"15719992752\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_15719992752@c.us_85F968FAFBED7B1889AD410B3DBB551A\", \"message_type\": \"text\", \"message_content\": \"Made my day\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T19:14:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Made my day\\\", \\\"Datetime\\\": 1756149269000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"15719992752@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_15719992752@c.us_85F968FAFBED7B1889AD410B3DBB551A\\\", \\\"ChannelName\\\": \\\"15719992752\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T19:14:30.217987\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"15719992752\"}",
+      "created_at": "2025-11-18 10:10:12"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 46,
+      "lead_id": 95,
+      "call_id": "7742841",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/08d06334-1079-49b6-8ea7-749b74ccd0ef.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.\nSpeaker B: Hey, Dorian, this is Hussein. I'm calling from UCL accommodation portal powered by Amber. We can see you are interested in Elizabeth Crow House, London. Could you please reach me back on this number? Or you can revert on the WhatsApp, or you can get me back on email. Please reach me out before this accommodation gets sold out. Thank you so much. Take care.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:10:20"
+    },
+    {
+      "id": 48,
+      "lead_id": 95,
+      "call_id": "7746226",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/15508bf5-2be0-489c-a167-9a3f07a589f0.wav",
+      "transcript_text": "Speaker A: Or a call has been forwarded to an automated voice messaging system. 571-999-2752 is not available. At the tone, please record your message. When you've finished recording, you may hang up or press 1 for more options.\nSpeaker B: Hey, Lauren, this is Hussein calling from your accommodation again. I can see you have applied for Flora Building, London. Could you please revert me on WhatsApp? Check my messages on WhatsApp and answer me there so I can help you or complete the booking. Thank you so much.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:10:26"
+    }
+  ],
+  "summary": {
+    "id": 39,
+    "lead_id": 95,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Lauren Grady\", \"mobile\": [\"+15719992752\"], \"email\": [\"lauren.grady03@gmail.com\"], \"whatsapp\": [\"+15719992752\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 439, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": \"no\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Elizabeth Crow House\", \"Flora Building\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"cash back reward of 250 GBP\"}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"document_required\", \"description\": \"Student to provide passport for identity and address verification. If uncomfortable sending via WhatsApp, student can send via email to mahmudul.h@amberstudent.com\", \"due\": \"asap\", \"status\": \"completed\", \"task_for\": \"student\", \"source_reference\": \"Agent requested passport on WhatsApp on 2025-08-23 and student sent passport on 2025-08-25\"}, {\"type\": \"booking_action\", \"description\": \"Student to log in to the booking portal using provided email and password, pay the deposit, and sign the tenancy agreement\", \"due\": \"asap\", \"status\": \"in_progress\", \"task_for\": \"student\", \"source_reference\": \"Agent shared login credentials and instructed to pay deposit and sign agreement on 2025-08-25\"}, {\"type\": \"follow_up\", \"description\": \"Student to notify agent via WhatsApp once deposit payment and signing of agreement is completed\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent requested student to drop a text after signing on 2025-08-25\"}, {\"type\": \"communication\", \"description\": \"Agent to explain UK guarantor requirements and discuss guarantor options with student and student's parent via call\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent offered to connect on call to explain UK guarantor details on 2025-08-25\"}, {\"type\": \"communication\", \"description\": \"Agent to be available for communication with student's mother (guarantor) at provided phone number +1 703 220 1586\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student provided mother's contact for guarantor discussion on 2025-08-25\"}, {\"type\": \"communication\", \"description\": \"Agent to share Trustpilot review link and encourage student to provide feedback and review of agent's service\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent shared review link and requested feedback on 2025-08-25\"}, {\"type\": \"communication\", \"description\": \"Agent to share login credentials for booking portal with student\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent shared login credentials on 2025-08-25\"}], \"last_agent_response\": \"Agent shared login credentials, instructed student to pay deposit and sign agreement, explained UK guarantor requirements, offered call to discuss guarantor, and requested review feedback on 2025-08-25.\", \"suggested_next_step\": \"Student to complete payment and signing of agreement and notify agent upon completion.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Lauren Grady\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (lauren.grady03@gmail.com), Phone (+44 15719992752), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"UCL (implied by accommodation portal name)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3439 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking request received for Flora Building, London; deposit payment and agreement signing pending\", \"documents_status\": \"Passport received; verification process started\", \"payment_status\": \"Payment pending (deposit to be paid)\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages and two voicemail calls over 4 days\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-25T19:14:29\", \"response_time\": \"Generally responsive within hours to a day; some delayed replies\", \"key_moments\": \"Initial greeting and inquiry; booking request confirmation; passport submission; explanation of UK guarantor requirement; deposit and agreement instructions; cashback reward offered; review request\"}, \"properties_discussed\": {\"properties_mentioned\": \"Elizabeth Crow House, Flora Building (both London)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Interest in Flora Building confirmed\", \"offers_made\": \"\\u00a3250 cashback reward added\"}, \"next_steps\": {\"immediate_actions\": \"Student to pay deposit and sign tenancy agreement\", \"pending_items\": \"Confirmation of payment and signed agreement from student\", \"follow_up_required\": \"Agent to guide student post-signing; connect on call to explain guarantor options\", \"timeline\": \"Urgent as only one unit left\"}, \"agent_notes\": {\"student_tone\": \"Polite, cooperative, and appreciative\", \"urgency_level\": \"High urgency due to limited availability\", \"complexity\": \"Moderate complexity due to guarantor requirement and document security concerns\", \"special_considerations\": \"Student requested secure method to send passport; international student without UK guarantor; mother is US citizen guarantor; Housing Hand guarantor service mentioned; agent offered to speak with mother\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Lauren Grady\", \"mobile\": [\"+15719992752\"], \"email\": [\"lauren.grady03@gmail.com\"], \"whatsapp\": [\"+15719992752\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 439, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": \"no\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Elizabeth Crow House\", \"Flora Building\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"cash back reward of 250 GBP\"}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"document_required\", \"description\": \"Student to provide passport for identity and address verification. If uncomfortable sending via WhatsApp, student can send via email to mahmudul.h@amberstudent.com\", \"due\": \"asap\", \"status\": \"completed\", \"task_for\": \"student\", \"source_reference\": \"Agent requested passport on WhatsApp on 2025-08-23 and student sent passport on 2025-08-25\"}, {\"type\": \"booking_action\", \"description\": \"Student to log in to the booking portal using provided email and password, pay the deposit, and sign the tenancy agreement\", \"due\": \"asap\", \"status\": \"in_progress\", \"task_for\": \"student\", \"source_reference\": \"Agent shared login credentials and instructed to pay deposit and sign agreement on 2025-08-25\"}, {\"type\": \"follow_up\", \"description\": \"Student to notify agent via WhatsApp once deposit payment and signing of agreement is completed\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent requested student to drop a text after signing on 2025-08-25\"}, {\"type\": \"communication\", \"description\": \"Agent to explain UK guarantor requirements and discuss guarantor options with student and student's parent via call\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent offered to connect on call to explain UK guarantor details on 2025-08-25\"}, {\"type\": \"communication\", \"description\": \"Agent to be available for communication with student's mother (guarantor) at provided phone number +1 703 220 1586\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student provided mother's contact for guarantor discussion on 2025-08-25\"}, {\"type\": \"communication\", \"description\": \"Agent to share Trustpilot review link and encourage student to provide feedback and review of agent's service\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent shared review link and requested feedback on 2025-08-25\"}, {\"type\": \"communication\", \"description\": \"Agent to share login credentials for booking portal with student\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent shared login credentials on 2025-08-25\"}], \"last_agent_response\": \"Agent shared login credentials, instructed student to pay deposit and sign agreement, explained UK guarantor requirements, offered call to discuss guarantor, and requested review feedback on 2025-08-25.\", \"suggested_next_step\": \"Student to complete payment and signing of agreement and notify agent upon completion.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Lauren Grady\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (lauren.grady03@gmail.com), Phone (+44 15719992752), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"UCL (implied by accommodation portal name)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3439 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking request received for Flora Building, London; deposit payment and agreement signing pending\", \"documents_status\": \"Passport received; verification process started\", \"payment_status\": \"Payment pending (deposit to be paid)\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages and two voicemail calls over 4 days\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-25T19:14:29\", \"response_time\": \"Generally responsive within hours to a day; some delayed replies\", \"key_moments\": \"Initial greeting and inquiry; booking request confirmation; passport submission; explanation of UK guarantor requirement; deposit and agreement instructions; cashback reward offered; review request\"}, \"properties_discussed\": {\"properties_mentioned\": \"Elizabeth Crow House, Flora Building (both London)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Interest in Flora Building confirmed\", \"offers_made\": \"\\u00a3250 cashback reward added\"}, \"next_steps\": {\"immediate_actions\": \"Student to pay deposit and sign tenancy agreement\", \"pending_items\": \"Confirmation of payment and signed agreement from student\", \"follow_up_required\": \"Agent to guide student post-signing; connect on call to explain guarantor options\", \"timeline\": \"Urgent as only one unit left\"}, \"agent_notes\": {\"student_tone\": \"Polite, cooperative, and appreciative\", \"urgency_level\": \"High urgency due to limited availability\", \"complexity\": \"Moderate complexity due to guarantor requirement and document security concerns\", \"special_considerations\": \"Student requested secure method to send passport; international student without UK guarantor; mother is US citizen guarantor; Housing Hand guarantor service mentioned; agent offered to speak with mother\"}}}}}",
+    "created_at": "2025-11-18 10:10:39",
+    "updated_at": "2025-11-18T15:40:39.529215",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Lauren Grady",
+        "mobile": [
+          "+15719992752"
+        ],
+        "email": [
+          "lauren.grady03@gmail.com"
+        ],
+        "whatsapp": [
+          "+15719992752"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 439,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "UCL",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": "no"
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Elizabeth Crow House",
+          "Flora Building"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": "cash back reward of 250 GBP"
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "document_required",
+          "description": "Student to provide passport for identity and address verification. If uncomfortable sending via WhatsApp, student can send via email to mahmudul.h@amberstudent.com",
+          "due": "asap",
+          "status": "completed",
+          "task_for": "student",
+          "source_reference": "Agent requested passport on WhatsApp on 2025-08-23 and student sent passport on 2025-08-25"
+        },
+        {
+          "type": "booking_action",
+          "description": "Student to log in to the booking portal using provided email and password, pay the deposit, and sign the tenancy agreement",
+          "due": "asap",
+          "status": "in_progress",
+          "task_for": "student",
+          "source_reference": "Agent shared login credentials and instructed to pay deposit and sign agreement on 2025-08-25"
+        },
+        {
+          "type": "follow_up",
+          "description": "Student to notify agent via WhatsApp once deposit payment and signing of agreement is completed",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent requested student to drop a text after signing on 2025-08-25"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to explain UK guarantor requirements and discuss guarantor options with student and student's parent via call",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent offered to connect on call to explain UK guarantor details on 2025-08-25"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to be available for communication with student's mother (guarantor) at provided phone number +1 703 220 1586",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student provided mother's contact for guarantor discussion on 2025-08-25"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to share Trustpilot review link and encourage student to provide feedback and review of agent's service",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent shared review link and requested feedback on 2025-08-25"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to share login credentials for booking portal with student",
+          "due": "completed",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent shared login credentials on 2025-08-25"
+        }
+      ],
+      "last_agent_response": "Agent shared login credentials, instructed student to pay deposit and sign agreement, explained UK guarantor requirements, offered call to discuss guarantor, and requested review feedback on 2025-08-25.",
+      "suggested_next_step": "Student to complete payment and signing of agreement and notify agent upon completion."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Lauren Grady",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (lauren.grady03@gmail.com), Phone (+44 15719992752), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "UCL (implied by accommodation portal name)",
+            "room_type": "Not mentioned",
+            "budget_range": "£439 per week",
+            "move_in_date": "Not explicitly mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking request received for Flora Building, London; deposit payment and agreement signing pending",
+            "documents_status": "Passport received; verification process started",
+            "payment_status": "Payment pending (deposit to be paid)",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple WhatsApp messages and two voicemail calls over 4 days",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-08-25T19:14:29",
+            "response_time": "Generally responsive within hours to a day; some delayed replies",
+            "key_moments": "Initial greeting and inquiry; booking request confirmation; passport submission; explanation of UK guarantor requirement; deposit and agreement instructions; cashback reward offered; review request"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Elizabeth Crow House, Flora Building (both London)",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Interest in Flora Building confirmed",
+            "offers_made": "£250 cashback reward added"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to pay deposit and sign tenancy agreement",
+            "pending_items": "Confirmation of payment and signed agreement from student",
+            "follow_up_required": "Agent to guide student post-signing; connect on call to explain guarantor options",
+            "timeline": "Urgent as only one unit left"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, cooperative, and appreciative",
+            "urgency_level": "High urgency due to limited availability",
+            "complexity": "Moderate complexity due to guarantor requirement and document security concerns",
+            "special_considerations": "Student requested secure method to send passport; international student without UK guarantor; mother is US citizen guarantor; Housing Hand guarantor service mentioned; agent offered to speak with mother"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Lauren Grady",
+          "mobile": [
+            "+15719992752"
+          ],
+          "email": [
+            "lauren.grady03@gmail.com"
+          ],
+          "whatsapp": [
+            "+15719992752"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 439,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "UCL",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": "no"
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Elizabeth Crow House",
+            "Flora Building"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": "cash back reward of 250 GBP"
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "document_required",
+            "description": "Student to provide passport for identity and address verification. If uncomfortable sending via WhatsApp, student can send via email to mahmudul.h@amberstudent.com",
+            "due": "asap",
+            "status": "completed",
+            "task_for": "student",
+            "source_reference": "Agent requested passport on WhatsApp on 2025-08-23 and student sent passport on 2025-08-25"
+          },
+          {
+            "type": "booking_action",
+            "description": "Student to log in to the booking portal using provided email and password, pay the deposit, and sign the tenancy agreement",
+            "due": "asap",
+            "status": "in_progress",
+            "task_for": "student",
+            "source_reference": "Agent shared login credentials and instructed to pay deposit and sign agreement on 2025-08-25"
+          },
+          {
+            "type": "follow_up",
+            "description": "Student to notify agent via WhatsApp once deposit payment and signing of agreement is completed",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent requested student to drop a text after signing on 2025-08-25"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to explain UK guarantor requirements and discuss guarantor options with student and student's parent via call",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent offered to connect on call to explain UK guarantor details on 2025-08-25"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to be available for communication with student's mother (guarantor) at provided phone number +1 703 220 1586",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student provided mother's contact for guarantor discussion on 2025-08-25"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to share Trustpilot review link and encourage student to provide feedback and review of agent's service",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent shared review link and requested feedback on 2025-08-25"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to share login credentials for booking portal with student",
+            "due": "completed",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent shared login credentials on 2025-08-25"
+          }
+        ],
+        "last_agent_response": "Agent shared login credentials, instructed student to pay deposit and sign agreement, explained UK guarantor requirements, offered call to discuss guarantor, and requested review feedback on 2025-08-25.",
+        "suggested_next_step": "Student to complete payment and signing of agreement and notify agent upon completion."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Lauren Grady",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (lauren.grady03@gmail.com), Phone (+44 15719992752), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "UCL (implied by accommodation portal name)",
+              "room_type": "Not mentioned",
+              "budget_range": "£439 per week",
+              "move_in_date": "Not explicitly mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking request received for Flora Building, London; deposit payment and agreement signing pending",
+              "documents_status": "Passport received; verification process started",
+              "payment_status": "Payment pending (deposit to be paid)",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple WhatsApp messages and two voicemail calls over 4 days",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-08-25T19:14:29",
+              "response_time": "Generally responsive within hours to a day; some delayed replies",
+              "key_moments": "Initial greeting and inquiry; booking request confirmation; passport submission; explanation of UK guarantor requirement; deposit and agreement instructions; cashback reward offered; review request"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Elizabeth Crow House, Flora Building (both London)",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Interest in Flora Building confirmed",
+              "offers_made": "£250 cashback reward added"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to pay deposit and sign tenancy agreement",
+              "pending_items": "Confirmation of payment and signed agreement from student",
+              "follow_up_required": "Agent to guide student post-signing; connect on call to explain guarantor options",
+              "timeline": "Urgent as only one unit left"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, cooperative, and appreciative",
+              "urgency_level": "High urgency due to limited availability",
+              "complexity": "Moderate complexity due to guarantor requirement and document security concerns",
+              "special_considerations": "Student requested secure method to send passport; international student without UK guarantor; mother is US citizen guarantor; Housing Hand guarantor service mentioned; agent offered to speak with mother"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "id": "lead_790",
+  "mobile_number": "447878701223",
+  "email": null,
+  "timeline": [
+    {
+      "id": 12637,
+      "lead_id": 790,
+      "event_type": "call",
+      "timestamp": "2025-09-18T12:47:57.945402",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7895375",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T12:47:57.945402\", \"id\": 7895375, \"duration\": \"189\", \"to_number\": \"447878701223\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0169f57c-0a53-4f60-99ed-006a90bd3b3e.wav\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12638,
+      "lead_id": 790,
+      "event_type": "lead_info",
+      "timestamp": "2025-10-18T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-10-18T00:00:00\", \"lead_id\": 3238422, \"user_name\": \"121\", \"email\": \"213@gmail.com\", \"phone\": \"447878701223\", \"lease_duration\": \"29 week\", \"move_out_date\": \"2026-05-08\", \"budget\": 390, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Wembley\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 883, \"inventory_id\": 2027406}",
+      "created_at": "2025-11-18 13:00:00"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 624,
+      "lead_id": 790,
+      "call_id": "7895375",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0169f57c-0a53-4f60-99ed-006a90bd3b3e.wav",
+      "transcript_text": "Speaker A: Hello? Hello? Hello? Hello. Yeah, hi, this is Shikha from Amber Student. May I know whom I'm speaking with? I'm sorry, we have a moment. Hello? Hello, can you hear me? Sorry. Okay. Can you say okay? Yeah, yeah. I'm calling from Amber Student. This is regarding your accommodation. Actually we are official partner with. Can you say again? Which company are you from? I'm calling from Amber Student. This is regarding your accommodation. You are searching in London. So we are official partner with University College London to help you out with your accommodation. So sorry, you have. I can't. I can't catch your company name. Can you say it's no name. Amber Student. Amber Student. Yes, that's correct. Amber Student. Amber Student. E, M B E R. Amber. No, no, no, it's a M B E R. Yeah, and then Student. Yes, that's correct. Amber Student. Student. Give me a second. Oh, you're calling for Amber Student. Is it about. Yeah, and then it is about. Yeah, this is about your accommodation. Yeah, yeah, yes. So I can see that you have like shortlist one of the property on our website. It is Go Britannia, Wembley, Arthur House, London for your stay for. Okay, you are from Amber Student. Hello, you are from Amber Student and you are calling about a property in London. A property in London? Sorry, I don't have a property in London. I'm calling you to help you out in your accommodation in London. Recommendation to London. Accommodation. Accommodation. I mean accommodation. Are you searching for accommodation in London? Give me a second. No, are you not looking for accommodation? No, no, sorry, no. Okay, so is there any in your known who is searching for accommodation? No, no one searching for accommodation. Okay, you are asking if anyone looking for a house or a flat to live in. Right then. No, no one is asking for that one. Okay, so like are you looking for some other place apart from London? No. Oh, okay. Okay. Thank you. All right, no worries. In case in future if you need any help, you can just let me know. I'll be happy to help you out. Okay, thank you. Bye. No worries. Bye. Bye. Thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:00:12"
+    }
+  ],
+  "summary": {
+    "id": 328,
+    "lead_id": 790,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": null, \"mobile\": [\"447878701223\"], \"email\": [\"213@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 29, \"room_type\": null, \"budget\": {\"max\": 390, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent called the lead to discuss accommodation options in London, but the lead confirmed they are not currently searching for accommodation and no one they know is searching either.\", \"suggested_next_step\": \"No immediate action required as the lead is not currently interested in accommodation; monitor for future interest.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Not mentioned\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone call and lead info with email and phone number\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"University College London (mentioned as official partner)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3390 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"29 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with no confirmed interest in accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (one call and one lead info record)\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-10-18 (lead info timestamp)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Call revealed student is not currently searching for accommodation; lead info shows budget and lease details\"}, \"properties_discussed\": {\"properties_mentioned\": \"Go Britannia, Wembley, Arthur House, London\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"No interest expressed in London accommodation during call\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action as student is not currently searching for accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"Follow up if student expresses future interest\", \"timeline\": \"Move-out date noted as 2026-05-08\"}, \"agent_notes\": {\"student_tone\": \"Uninterested and unengaged during call\", \"urgency_level\": \"Low\", \"complexity\": \"Simple case\", \"special_considerations\": \"Student currently not looking for accommodation; maintain contact for future needs\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": null, \"mobile\": [\"447878701223\"], \"email\": [\"213@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 29, \"room_type\": null, \"budget\": {\"max\": 390, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent called the lead to discuss accommodation options in London, but the lead confirmed they are not currently searching for accommodation and no one they know is searching either.\", \"suggested_next_step\": \"No immediate action required as the lead is not currently interested in accommodation; monitor for future interest.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Not mentioned\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone call and lead info with email and phone number\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"University College London (mentioned as official partner)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3390 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"29 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with no confirmed interest in accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (one call and one lead info record)\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-10-18 (lead info timestamp)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Call revealed student is not currently searching for accommodation; lead info shows budget and lease details\"}, \"properties_discussed\": {\"properties_mentioned\": \"Go Britannia, Wembley, Arthur House, London\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"No interest expressed in London accommodation during call\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action as student is not currently searching for accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"Follow up if student expresses future interest\", \"timeline\": \"Move-out date noted as 2026-05-08\"}, \"agent_notes\": {\"student_tone\": \"Uninterested and unengaged during call\", \"urgency_level\": \"Low\", \"complexity\": \"Simple case\", \"special_considerations\": \"Student currently not looking for accommodation; maintain contact for future needs\"}}}}}",
+    "created_at": "2025-11-18 13:00:20",
+    "updated_at": "2025-11-18T18:30:20.299853",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": null,
+        "mobile": [
+          "447878701223"
+        ],
+        "email": [
+          "213@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Wembley"
+        ],
+        "lease_duration_weeks": 29,
+        "room_type": null,
+        "budget": {
+          "max": 390,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent called the lead to discuss accommodation options in London, but the lead confirmed they are not currently searching for accommodation and no one they know is searching either.",
+      "suggested_next_step": "No immediate action required as the lead is not currently interested in accommodation; monitor for future interest."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Not mentioned",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone call and lead info with email and phone number",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "Wembley, England, United Kingdom",
+            "university": "University College London (mentioned as official partner)",
+            "room_type": "Not mentioned",
+            "budget_range": "£390 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "29 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry with no confirmed interest in accommodation",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 (one call and one lead info record)",
+            "primary_channel": "Phone call",
+            "last_contact": "2025-10-18 (lead info timestamp)",
+            "response_time": "Not mentioned",
+            "key_moments": "Call revealed student is not currently searching for accommodation; lead info shows budget and lease details"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Go Britannia, Wembley, Arthur House, London",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "No interest expressed in London accommodation during call",
+            "offers_made": "None"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action as student is not currently searching for accommodation",
+            "pending_items": "None",
+            "follow_up_required": "Follow up if student expresses future interest",
+            "timeline": "Move-out date noted as 2026-05-08"
+          },
+          "agent_notes": {
+            "student_tone": "Uninterested and unengaged during call",
+            "urgency_level": "Low",
+            "complexity": "Simple case",
+            "special_considerations": "Student currently not looking for accommodation; maintain contact for future needs"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": null,
+          "mobile": [
+            "447878701223"
+          ],
+          "email": [
+            "213@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Wembley"
+          ],
+          "lease_duration_weeks": 29,
+          "room_type": null,
+          "budget": {
+            "max": 390,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent called the lead to discuss accommodation options in London, but the lead confirmed they are not currently searching for accommodation and no one they know is searching either.",
+        "suggested_next_step": "No immediate action required as the lead is not currently interested in accommodation; monitor for future interest."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Not mentioned",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone call and lead info with email and phone number",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "Wembley, England, United Kingdom",
+              "university": "University College London (mentioned as official partner)",
+              "room_type": "Not mentioned",
+              "budget_range": "£390 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "29 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry with no confirmed interest in accommodation",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 (one call and one lead info record)",
+              "primary_channel": "Phone call",
+              "last_contact": "2025-10-18 (lead info timestamp)",
+              "response_time": "Not mentioned",
+              "key_moments": "Call revealed student is not currently searching for accommodation; lead info shows budget and lease details"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Go Britannia, Wembley, Arthur House, London",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "No interest expressed in London accommodation during call",
+              "offers_made": "None"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action as student is not currently searching for accommodation",
+              "pending_items": "None",
+              "follow_up_required": "Follow up if student expresses future interest",
+              "timeline": "Move-out date noted as 2026-05-08"
+            },
+            "agent_notes": {
+              "student_tone": "Uninterested and unengaged during call",
+              "urgency_level": "Low",
+              "complexity": "Simple case",
+              "special_considerations": "Student currently not looking for accommodation; maintain contact for future needs"
+            }
+          }
+        }
+      }
+    }
+  }
+}

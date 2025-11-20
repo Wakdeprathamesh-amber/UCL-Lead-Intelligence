@@ -1,0 +1,390 @@
+{
+  "id": "lead_564",
+  "mobile_number": "447305500450",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8847,
+      "lead_id": 564,
+      "event_type": "lead_info",
+      "timestamp": "2025-05-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-05-09T00:00:00\", \"lead_id\": 3158372, \"user_name\": \"Yaameen Zafar\", \"email\": \"yaameenzafar2507@gmail.com\", \"phone\": \"447305500450\", \"lease_duration\": \"52 week\", \"move_out_date\": \"2026-09-03\", \"budget\": 435, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3306, \"inventory_id\": 1344870}",
+      "created_at": "2025-11-18 11:34:10"
+    },
+    {
+      "id": 8848,
+      "lead_id": 564,
+      "event_type": "call",
+      "timestamp": "2025-08-19T13:22:48.223573",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7716074",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T13:22:48.223573\", \"id\": 7716074, \"duration\": \"0\", \"to_number\": \"447305500450\", \"from_number\": \"447312161523\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:34:10"
+    },
+    {
+      "id": 8849,
+      "lead_id": 564,
+      "event_type": "call",
+      "timestamp": "2025-08-19T13:30:13.601587",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7716151",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T13:30:13.601587\", \"id\": 7716151, \"duration\": \"0\", \"to_number\": \"918099537848\", \"from_number\": \"447305500450\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:34:10"
+    },
+    {
+      "id": 8850,
+      "lead_id": 564,
+      "event_type": "call",
+      "timestamp": "2025-08-19T19:06:43.030268",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7719029",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T19:06:43.030268\", \"id\": 7719029, \"duration\": \"3\", \"to_number\": \"447305500450\", \"from_number\": \"447312161523\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/694e79a7-8824-456c-9fce-da8c9e9f063a.wav\"}",
+      "created_at": "2025-11-18 11:34:10"
+    },
+    {
+      "id": 8851,
+      "lead_id": 564,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-19T19:07:53",
+      "content": "Hello, this is Mahmudul from   University college London  accommodation powered by Amberstudents. Please let me know when we can connect to finalize your accommodation",
+      "source": "whatsapp",
+      "event_id": "7504956",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-19T19:07:53\", \"id\": 7504956, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447305500450\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447305500450@c.us_3FD363EA8E22F8A19BB4\", \"message_type\": \"text\", \"message_content\": \"Hello, this is Mahmudul from   University college London  accommodation powered by Amberstudents. Please let me know when we can connect to finalize your accommodation\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-19T19:07:53.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello, this is Mahmudul from   University college London  accommodation powered by Amberstudents. Please let me know when we can connect to finalize your accommodation\\\", \\\"Datetime\\\": 1755630473000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447305500450@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447305500450@c.us_3FD363EA8E22F8A19BB4\\\", \\\"ChannelName\\\": \\\"447305500450\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-19T19:07:53.663100\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447305500450\"}",
+      "created_at": "2025-11-18 11:34:10"
+    },
+    {
+      "id": 8852,
+      "lead_id": 564,
+      "event_type": "call",
+      "timestamp": "2025-08-26T13:32:21.802748",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7762697",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T13:32:21.802748\", \"id\": 7762697, \"duration\": \"40\", \"to_number\": \"447305500450\", \"from_number\": \"447312161523\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/393353a0-fc41-4cf6-9061-be4b25246088.wav\"}",
+      "created_at": "2025-11-18 11:34:10"
+    },
+    {
+      "id": 8853,
+      "lead_id": 564,
+      "event_type": "call",
+      "timestamp": "2025-08-31T15:21:52.156676",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7792539",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-31T15:21:52.156676\", \"id\": 7792539, \"duration\": \"31\", \"to_number\": \"447305500450\", \"from_number\": \"447312161523\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b759d609-cf01-4f12-9432-3197d64d14e4.wav\"}",
+      "created_at": "2025-11-18 11:34:10"
+    },
+    {
+      "id": 8854,
+      "lead_id": 564,
+      "event_type": "call",
+      "timestamp": "2025-09-03T07:57:08.161148",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7806835",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-03T07:57:08.161148\", \"id\": 7806835, \"duration\": \"0\", \"to_number\": \"447305500450\", \"from_number\": \"447312161523\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:34:10"
+    },
+    {
+      "id": 8855,
+      "lead_id": 564,
+      "event_type": "call",
+      "timestamp": "2025-09-03T13:11:26.219571",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7809548",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-03T13:11:26.219571\", \"id\": 7809548, \"duration\": \"46\", \"to_number\": \"447305500450\", \"from_number\": \"447312161523\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/6b1dc4c8-ebba-4b04-9f86-c56362f14d9d.wav\"}",
+      "created_at": "2025-11-18 11:34:10"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 434,
+      "lead_id": 564,
+      "call_id": "7719029",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/694e79a7-8824-456c-9fce-da8c9e9f063a.wav",
+      "transcript_text": "Speaker A: Or call has been forwarded to voicemail, the person.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:34:15"
+    },
+    {
+      "id": 435,
+      "lead_id": 564,
+      "call_id": "7762697",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/393353a0-fc41-4cf6-9061-be4b25246088.wav",
+      "transcript_text": "Speaker B: Call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.\nSpeaker A: Hi Yemen, this is Hussain. I'm calling regarding your accommodation. I'm calling from the University of University College London and powered by Amber and we are looking to connect with you from a few days. Can you please let me know when you're available so we can connect on the call and we can get back? Thank you so much.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:34:19"
+    },
+    {
+      "id": 436,
+      "lead_id": 564,
+      "call_id": "7792539",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b759d609-cf01-4f12-9432-3197d64d14e4.wav",
+      "transcript_text": "Speaker A: Call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.\nSpeaker B: Hi, Amen, this is Hussain. I'm calling from your accommodation portal. I was trying to reach you out regarding your accommodation from UCL accommodation portal by Amber. Can you please call me back on this number or you can revert over WhatsApp so I can help you out with your accommodation. Thank you so much. Take care.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:34:23"
+    },
+    {
+      "id": 437,
+      "lead_id": 564,
+      "call_id": "7809548",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/6b1dc4c8-ebba-4b04-9f86-c56362f14d9d.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Hello?\nSpeaker B: Hi.\nSpeaker A: Hi, I'm speaking with Yamin. Yeah, this is Rachana calling on behalf of University College London.\nSpeaker B: So you know my accommodation? I've already sorted out my accommodation. I've got student accommodation, so I don't need any private accommodation. Thank you.\nSpeaker A: Sure. You got it from where?\nSpeaker B: UCL itself. I've got private accommodation. I've got a student accommodation.\nSpeaker A: I'm calling on behalf of UCR itself. I am, actually, regarding the accommodation. So have you, like, booked it already or you're searching about it?\nSpeaker B: I've already booked one. It's at Langton Close. I've already booked an accommodation and everything. Paid deposit, everything.\nSpeaker A: Okay, perfect. Sounds good. Thank you.\nSpeaker B: Thank you. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:34:30"
+    }
+  ],
+  "summary": {
+    "id": 234,
+    "lead_id": 564,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Yaameen Zafar\", \"mobile\": [\"447305500450\"], \"email\": [\"yaameenzafar2507@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 52, \"room_type\": null, \"budget\": {\"max\": 435, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent Rachana contacted student Yaameen Zafar on 2025-09-03 and was informed that the student has already booked and paid a deposit for accommodation at Langton Close through UCL.\", \"suggested_next_step\": \"No further action required as the student has confirmed accommodation is already secured.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Yaameen Zafar\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages on number 447305500450 and email yaameenzafar2507@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3435 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 52 weeks with move out date 2026-09-03\", \"lease_duration\": \"52 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking already completed independently; student confirmed having secured accommodation at Langton Close with UCL\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Deposit paid for accommodation at Langton Close\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"9 (including 6 calls and 1 WhatsApp message pack)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-03\", \"response_time\": \"Multiple unanswered calls with voicemail messages left; final call on 2025-09-03 resulted in direct conversation\", \"key_moments\": \"Initial lead on 2025-05-09; multiple call attempts in August 2025; WhatsApp outreach on 2025-08-19; final successful call on 2025-09-03 where student confirmed accommodation already booked\"}, \"properties_discussed\": {\"properties_mentioned\": \"Langton Close (student's booked accommodation)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student did not express preferences during conversation; confirmed accommodation already secured\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No further action required as student has confirmed booking\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Move out date noted as 2026-09-03\"}, \"agent_notes\": {\"student_tone\": \"Polite but firm; student clearly stated accommodation is already arranged\", \"urgency_level\": \"Low, booking completed\", \"complexity\": \"Simple case; student self-managed booking\", \"special_considerations\": \"Student booked accommodation directly through UCL; no further assistance needed\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Yaameen Zafar\", \"mobile\": [\"447305500450\"], \"email\": [\"yaameenzafar2507@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 52, \"room_type\": null, \"budget\": {\"max\": 435, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent Rachana contacted student Yaameen Zafar on 2025-09-03 and was informed that the student has already booked and paid a deposit for accommodation at Langton Close through UCL.\", \"suggested_next_step\": \"No further action required as the student has confirmed accommodation is already secured.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Yaameen Zafar\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages on number 447305500450 and email yaameenzafar2507@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3435 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 52 weeks with move out date 2026-09-03\", \"lease_duration\": \"52 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking already completed independently; student confirmed having secured accommodation at Langton Close with UCL\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Deposit paid for accommodation at Langton Close\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"9 (including 6 calls and 1 WhatsApp message pack)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-03\", \"response_time\": \"Multiple unanswered calls with voicemail messages left; final call on 2025-09-03 resulted in direct conversation\", \"key_moments\": \"Initial lead on 2025-05-09; multiple call attempts in August 2025; WhatsApp outreach on 2025-08-19; final successful call on 2025-09-03 where student confirmed accommodation already booked\"}, \"properties_discussed\": {\"properties_mentioned\": \"Langton Close (student's booked accommodation)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student did not express preferences during conversation; confirmed accommodation already secured\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No further action required as student has confirmed booking\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Move out date noted as 2026-09-03\"}, \"agent_notes\": {\"student_tone\": \"Polite but firm; student clearly stated accommodation is already arranged\", \"urgency_level\": \"Low, booking completed\", \"complexity\": \"Simple case; student self-managed booking\", \"special_considerations\": \"Student booked accommodation directly through UCL; no further assistance needed\"}}}}}",
+    "created_at": "2025-11-18 11:34:39",
+    "updated_at": "2025-11-18T17:04:39.611838",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Yaameen Zafar",
+        "mobile": [
+          "447305500450"
+        ],
+        "email": [
+          "yaameenzafar2507@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 52,
+        "room_type": null,
+        "budget": {
+          "max": 435,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent Rachana contacted student Yaameen Zafar on 2025-09-03 and was informed that the student has already booked and paid a deposit for accommodation at Langton Close through UCL.",
+      "suggested_next_step": "No further action required as the student has confirmed accommodation is already secured."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Yaameen Zafar",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Contacted via phone calls and WhatsApp messages on number 447305500450 and email yaameenzafar2507@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£435 per week",
+            "move_in_date": "Not explicitly mentioned; lease duration 52 weeks with move out date 2026-09-03",
+            "lease_duration": "52 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking already completed independently; student confirmed having secured accommodation at Langton Close with UCL",
+            "documents_status": "Not mentioned",
+            "payment_status": "Deposit paid for accommodation at Langton Close",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "9 (including 6 calls and 1 WhatsApp message pack)",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-09-03",
+            "response_time": "Multiple unanswered calls with voicemail messages left; final call on 2025-09-03 resulted in direct conversation",
+            "key_moments": "Initial lead on 2025-05-09; multiple call attempts in August 2025; WhatsApp outreach on 2025-08-19; final successful call on 2025-09-03 where student confirmed accommodation already booked"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Langton Close (student's booked accommodation)",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Student did not express preferences during conversation; confirmed accommodation already secured",
+            "offers_made": "None mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "No further action required as student has confirmed booking",
+            "pending_items": "None",
+            "follow_up_required": "No follow-up needed unless student re-engages",
+            "timeline": "Move out date noted as 2026-09-03"
+          },
+          "agent_notes": {
+            "student_tone": "Polite but firm; student clearly stated accommodation is already arranged",
+            "urgency_level": "Low, booking completed",
+            "complexity": "Simple case; student self-managed booking",
+            "special_considerations": "Student booked accommodation directly through UCL; no further assistance needed"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Yaameen Zafar",
+          "mobile": [
+            "447305500450"
+          ],
+          "email": [
+            "yaameenzafar2507@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 52,
+          "room_type": null,
+          "budget": {
+            "max": 435,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent Rachana contacted student Yaameen Zafar on 2025-09-03 and was informed that the student has already booked and paid a deposit for accommodation at Langton Close through UCL.",
+        "suggested_next_step": "No further action required as the student has confirmed accommodation is already secured."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Yaameen Zafar",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Contacted via phone calls and WhatsApp messages on number 447305500450 and email yaameenzafar2507@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£435 per week",
+              "move_in_date": "Not explicitly mentioned; lease duration 52 weeks with move out date 2026-09-03",
+              "lease_duration": "52 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking already completed independently; student confirmed having secured accommodation at Langton Close with UCL",
+              "documents_status": "Not mentioned",
+              "payment_status": "Deposit paid for accommodation at Langton Close",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "9 (including 6 calls and 1 WhatsApp message pack)",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-09-03",
+              "response_time": "Multiple unanswered calls with voicemail messages left; final call on 2025-09-03 resulted in direct conversation",
+              "key_moments": "Initial lead on 2025-05-09; multiple call attempts in August 2025; WhatsApp outreach on 2025-08-19; final successful call on 2025-09-03 where student confirmed accommodation already booked"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Langton Close (student's booked accommodation)",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Student did not express preferences during conversation; confirmed accommodation already secured",
+              "offers_made": "None mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "No further action required as student has confirmed booking",
+              "pending_items": "None",
+              "follow_up_required": "No follow-up needed unless student re-engages",
+              "timeline": "Move out date noted as 2026-09-03"
+            },
+            "agent_notes": {
+              "student_tone": "Polite but firm; student clearly stated accommodation is already arranged",
+              "urgency_level": "Low, booking completed",
+              "complexity": "Simple case; student self-managed booking",
+              "special_considerations": "Student booked accommodation directly through UCL; no further assistance needed"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "id": "lead_160",
+  "mobile_number": "12029243356",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2454,
+      "lead_id": 160,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3223730, \"user_name\": \"Naoko Sofia Kinoshita-Ruiz\", \"email\": \"naokokr@gmail.com\", \"phone\": \"12029243356\", \"lease_duration\": \"50 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 445, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2154587}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2455,
+      "lead_id": 160,
+      "event_type": "call",
+      "timestamp": "2025-09-15T16:12:31.369605",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7878873",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-15T16:12:31.369605\", \"id\": 7878873, \"duration\": \"9\", \"to_number\": \"12029243356\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/22e51172-1e4c-4dac-b5cf-baa6fbb89809.wav\"}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2456,
+      "lead_id": 160,
+      "event_type": "call",
+      "timestamp": "2025-09-15T16:14:32.763239",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7878881",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-15T16:14:32.763239\", \"id\": 7878881, \"duration\": \"7\", \"to_number\": \"12029243356\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/250457c8-f1dd-445f-9fd7-9b817b6b0c5e.wav\"}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2457,
+      "lead_id": 160,
+      "event_type": "call",
+      "timestamp": "2025-09-16T13:43:19.290765",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7883872",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-16T13:43:19.290765\", \"id\": 7883872, \"duration\": \"28\", \"to_number\": \"12029243356\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3f2442e6-3af1-4bbf-8f54-75ae722df815.wav\"}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2458,
+      "lead_id": 160,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-16T13:45:42",
+      "content": "Hello Naoko, thank you for contacting Amber Student for your accommodation search in London! As the official partner of UCL, we’re here to ensure you find the perfect place to stay.\n\nI’m Shikha, and I’ll be guiding you through the process. Please let me know a convenient time to connect so we can move forward with discussing and exploring your preferred accommodation options.\n\nLooking forward to hearing from you!\n\nThankyou",
+      "source": "whatsapp",
+      "event_id": "8694057",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-16T13:45:42\", \"id\": 8694057, \"email\": \"\", \"from_number\": \"447897036566\", \"to_number\": \"12029243356\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12029243356@c.us_3EB0C7A14E2CEDFDA04B2D\", \"message_type\": \"text\", \"message_content\": \"Hello Naoko, thank you for contacting Amber Student for your accommodation search in London! As the official partner of UCL, we\\u2019re here to ensure you find the perfect place to stay.\\n\\nI\\u2019m Shikha, and I\\u2019ll be guiding you through the process. Please let me know a convenient time to connect so we can move forward with discussing and exploring your preferred accommodation options.\\n\\nLooking forward to hearing from you!\\n\\nThankyou\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447897036566@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-16T13:45:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447897036566@c.us\\\", \\\"Message\\\": \\\"Hello Naoko, thank you for contacting Amber Student for your accommodation search in London! As the official partner of UCL, we\\u2019re here to ensure you find the perfect place to stay.\\\\n\\\\nI\\u2019m Shikha, and I\\u2019ll be guiding you through the process. Please let me know a convenient time to connect so we can move forward with discussing and exploring your preferred accommodation options.\\\\n\\\\nLooking forward to hearing from you!\\\\n\\\\nThankyou\\\", \\\"Datetime\\\": 1758030342000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12029243356@c.us\\\", \\\"Sentbyid\\\": \\\"447897036566@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12029243356@c.us_3EB0C7A14E2CEDFDA04B2D\\\", \\\"ChannelName\\\": \\\"12029243356\\\", \\\"SentByNumber\\\": \\\"447897036566\\\", \\\"sentByUserId\\\": \\\"447897036566@c.us\\\", \\\"CreatedByUser\\\": \\\"447897036566\\\"}]}\", \"updated_at\": \"2025-09-16T13:45:43.148254\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 883, \"agent_number\": \"447897036566\", \"customer_number\": \"12029243356\"}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2459,
+      "lead_id": 160,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-16T13:56:16",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *CHAPTER KINGS CROSS, LONDON*\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from London City Center:*\n*Drive:* 2.6 mi (19 mins)\n*Walk:* 2.2 mi (50 mins)\n*Bus/Train:* 2.5 mi (24 mins)\n\n🏘 *ROOM TYPES:*\n*Bronze Twin Studio Shared Lower Level:*\n  £308/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £338/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\n\n*Silver Twin Studio Shared Lower Level:*\n  £330/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £360/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\n\n*Silver Twin Studio Shared Mid Level:*\n  £335/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £365/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\n\n*Bronze Studio Shared Lower Level:*\n  £557/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £587/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339/form?url=shikha.s%40amberstudent.com&amp;inventory_id=136672\n\n------------",
+      "source": "whatsapp",
+      "event_id": "8694627",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-16T13:56:16\", \"id\": 8694627, \"email\": \"\", \"from_number\": \"447897036566\", \"to_number\": \"12029243356\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12029243356@c.us_3EB03250D8907CEE09DA19\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *CHAPTER KINGS CROSS, LONDON*\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\n*Drive:* 2.6 mi (19 mins)\\n*Walk:* 2.2 mi (50 mins)\\n*Bus/Train:* 2.5 mi (24 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Bronze Twin Studio Shared Lower Level:*\\n\\u00a0\\u00a0\\u00a3308/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3338/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n*Silver Twin Studio Shared Lower Level:*\\n\\u00a0\\u00a0\\u00a3330/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n*Silver Twin Studio Shared Mid Level:*\\n\\u00a0\\u00a0\\u00a3335/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3365/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n*Bronze Studio Shared Lower Level:*\\n\\u00a0\\u00a0\\u00a3557/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3587/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339/form?url=shikha.s%40amberstudent.com&amp;inventory_id=136672\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447897036566@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-16T13:56:16.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447897036566@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *CHAPTER KINGS CROSS, LONDON*\\\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\\\n*Drive:* 2.6 mi (19 mins)\\\\n*Walk:* 2.2 mi (50 mins)\\\\n*Bus/Train:* 2.5 mi (24 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Bronze Twin Studio Shared Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3308/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3338/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Silver Twin Studio Shared Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3330/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Silver Twin Studio Shared Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3335/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3365/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Bronze Studio Shared Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3557/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3587/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339/form?url=shikha.s%40amberstudent.com&amp;inventory_id=136672\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1758030976000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12029243356@c.us\\\", \\\"Sentbyid\\\": \\\"447897036566@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12029243356@c.us_3EB03250D8907CEE09DA19\\\", \\\"ChannelName\\\": \\\"12029243356\\\", \\\"SentByNumber\\\": \\\"447897036566\\\", \\\"sentByUserId\\\": \\\"447897036566@c.us\\\", \\\"CreatedByUser\\\": \\\"447897036566\\\"}]}\", \"updated_at\": \"2025-09-16T13:56:16.877619\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 883, \"agent_number\": \"447897036566\", \"customer_number\": \"12029243356\"}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2460,
+      "lead_id": 160,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-16T14:12:09",
+      "content": "You have filled the booking form for this property, Should I start the booking process for you ?",
+      "source": "whatsapp",
+      "event_id": "8695503",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-16T14:12:09\", \"id\": 8695503, \"email\": \"\", \"from_number\": \"447897036566\", \"to_number\": \"12029243356\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12029243356@c.us_3EB0ACF6D9FFEA4ECBDB76\", \"message_type\": \"text\", \"message_content\": \"You have filled the booking form for this property, Should I start the booking process for you ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447897036566@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-16T14:12:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447897036566@c.us\\\", \\\"Message\\\": \\\"You have filled the booking form for this property, Should I start the booking process for you ?\\\", \\\"Datetime\\\": 1758031929000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12029243356@c.us\\\", \\\"Sentbyid\\\": \\\"447897036566@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12029243356@c.us_3EB0ACF6D9FFEA4ECBDB76\\\", \\\"ChannelName\\\": \\\"12029243356\\\", \\\"SentByNumber\\\": \\\"447897036566\\\", \\\"sentByUserId\\\": \\\"447897036566@c.us\\\", \\\"CreatedByUser\\\": \\\"447897036566\\\"}]}\", \"updated_at\": \"2025-09-16T14:12:10.303672\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 883, \"agent_number\": \"447897036566\", \"customer_number\": \"12029243356\"}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2461,
+      "lead_id": 160,
+      "event_type": "call",
+      "timestamp": "2025-09-17T14:21:50.042173",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7890158",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-17T14:21:50.042173\", \"id\": 7890158, \"duration\": \"16\", \"to_number\": \"12029243356\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a0a38b6f-9a88-4b16-8424-99120b970cda.wav\"}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2462,
+      "lead_id": 160,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T14:25:26",
+      "content": "Hello Naoko\nGreetings",
+      "source": "whatsapp",
+      "event_id": "8736078",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T14:25:26\", \"id\": 8736078, \"email\": \"\", \"from_number\": \"447897036566\", \"to_number\": \"12029243356\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12029243356@c.us_3EB0471869BEA9232BA81A\", \"message_type\": \"text\", \"message_content\": \"Hello Naoko\\nGreetings\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447897036566@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T14:25:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447897036566@c.us\\\", \\\"Message\\\": \\\"Hello Naoko\\\\nGreetings\\\", \\\"Datetime\\\": 1758119126000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12029243356@c.us\\\", \\\"Sentbyid\\\": \\\"447897036566@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12029243356@c.us_3EB0471869BEA9232BA81A\\\", \\\"ChannelName\\\": \\\"12029243356\\\", \\\"SentByNumber\\\": \\\"447897036566\\\", \\\"sentByUserId\\\": \\\"447897036566@c.us\\\", \\\"CreatedByUser\\\": \\\"447897036566\\\"}]}\", \"updated_at\": \"2025-09-17T14:25:27.041080\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 883, \"agent_number\": \"447897036566\", \"customer_number\": \"12029243356\"}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2463,
+      "lead_id": 160,
+      "event_type": "call",
+      "timestamp": "2025-09-19T15:37:03.037828",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7901994",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-19T15:37:03.037828\", \"id\": 7901994, \"duration\": \"12\", \"to_number\": \"12029243356\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ebdad0bf-ce20-4d4b-8e0e-3a6c83fa22bf.wav\"}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2464,
+      "lead_id": 160,
+      "event_type": "call",
+      "timestamp": "2025-09-20T15:06:16.697853",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7906163",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-20T15:06:16.697853\", \"id\": 7906163, \"duration\": \"28\", \"to_number\": \"12029243356\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d7657ac7-f8a7-42c9-abb9-9ef5ebab2a4b.wav\"}",
+      "created_at": "2025-11-18 10:21:26"
+    },
+    {
+      "id": 2465,
+      "lead_id": 160,
+      "event_type": "call",
+      "timestamp": "2025-09-23T14:11:39.852195",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7918305",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-23T14:11:39.852195\", \"id\": 7918305, \"duration\": \"0\", \"to_number\": \"12029243356\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:21:26"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 81,
+      "lead_id": 160,
+      "call_id": "7878873",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/22e51172-1e4c-4dac-b5cf-baa6fbb89809.wav",
+      "transcript_text": "Speaker A: Hello? Hello?",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:21:31"
+    },
+    {
+      "id": 83,
+      "lead_id": 160,
+      "call_id": "7878881",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/250457c8-f1dd-445f-9fd7-9b817b6b0c5e.wav",
+      "transcript_text": "Speaker A: Hello? I can't come to the phone right now. Please call me back later. At the tone, please record your mess.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:21:35"
+    },
+    {
+      "id": 85,
+      "lead_id": 160,
+      "call_id": "7883872",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3f2442e6-3af1-4bbf-8f54-75ae722df815.wav",
+      "transcript_text": "Speaker B: Hello? I can't come to the phone right now. Please call me back later.\nSpeaker A: At the tone, please record your message. When you've finished recording, you may hang up or press 1 for more options.\nSpeaker B: Hey, Nicole, it's Ayesha Kau from Amber and this call is regarding your accommodation. You are searching in London, so let me know your convenient time to connect with you or else you can reach out to me on WhatsApp. Thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:21:40"
+    },
+    {
+      "id": 86,
+      "lead_id": 160,
+      "call_id": "7890158",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a0a38b6f-9a88-4b16-8424-99120b970cda.wav",
+      "transcript_text": "Speaker A: Hello? I can't come to the phone right now. Please call me back later.\nSpeaker B: At the tone, please record your message. When you've finished recording, you may hang up or press 1 for more options.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:21:44"
+    },
+    {
+      "id": 87,
+      "lead_id": 160,
+      "call_id": "7901994",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ebdad0bf-ce20-4d4b-8e0e-3a6c83fa22bf.wav",
+      "transcript_text": "Speaker A: Hello? I can't come to the phone right now. Please call me back later.\nSpeaker B: At the tone, please record your message. When you've finished recording, you may hang up or press 1 for more.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:21:48"
+    },
+    {
+      "id": 88,
+      "lead_id": 160,
+      "call_id": "7906163",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d7657ac7-f8a7-42c9-abb9-9ef5ebab2a4b.wav",
+      "transcript_text": "Speaker B: Hello? I can't come to the phone right now. Please call me back later.\nSpeaker A: At the tone, please record your message. When you've finished recording, you may hang up or press 1 for more options. We didn't get your message, either because you were not speaking or because of a bad connection. To disconnect, press 1. To record your message, press 2.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:21:52"
+    }
+  ],
+  "summary": {
+    "id": 67,
+    "lead_id": 160,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Naoko Sofia Kinoshita-Ruiz\", \"mobile\": [\"12029243356\"], \"email\": [\"naokokr@gmail.com\"], \"whatsapp\": [\"447897036566\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 50, \"room_type\": \"studio\", \"budget\": {\"max\": 445, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-06\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chapter Kings Cross, London\"], \"rooms_considered\": [\"Bronze Twin Studio Shared Lower Level\", \"Silver Twin Studio Shared Lower Level\", \"Silver Twin Studio Shared Mid Level\", \"Bronze Studio Shared Lower Level\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Follow up with Naoko to confirm a convenient time to connect and discuss accommodation options.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-16T13:45:42 asking for a convenient time to connect\"}, {\"type\": \"booking_action\", \"description\": \"Wait for Naoko to respond whether she wants to start the booking process for the property she filled the booking form for.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-16T14:12:09 asking if agent should start booking process\"}, {\"type\": \"follow_up\", \"description\": \"Call Naoko to follow up on her response to the booking process initiation offer.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"No response recorded after agent asked to start booking process on 2025-09-16\"}], \"last_agent_response\": \"Sent property suggestions with detailed links and asked if Naoko wants to start the booking process for the property she filled the form for (WhatsApp messages on 2025-09-16).\", \"suggested_next_step\": \"Agent to follow up with Naoko via call or WhatsApp to get confirmation on starting the booking process.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Naoko Sofia Kinoshita-Ruiz\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number 12029243356\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London (UCL) implied by official partner mention\", \"room_type\": \"Not explicitly mentioned; property suggestions include Bronze and Silver Twin Studio Shared Lower and Mid Level, and Bronze Studio Shared Lower Level\", \"budget_range\": \"\\u00a3445 per week budget stated; property options range from \\u00a3308/week to \\u00a3587/week depending on room type and lease duration\", \"move_in_date\": \"6 September 2025\", \"lease_duration\": \"50 weeks (stated), property options include 44 or 51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; booking form filled for a property and agent asked to start booking process\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Approximately 10 interactions including 6 calls and multiple WhatsApp messages\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-09-20 via call; last WhatsApp message sent on 2025-09-17\", \"response_time\": \"Student did not answer multiple calls; left no voicemail; agent sent follow-up WhatsApp messages promptly after calls\", \"key_moments\": \"Initial lead info on 2025-09-13; multiple unsuccessful calls; WhatsApp introduction and property suggestions on 2025-09-16; student filled booking form; agent offered to start booking process; no confirmed response recorded\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Kings Cross, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Agent provided detailed property options with prices, videos, 3D tours, and booking link\"}, \"next_steps\": {\"immediate_actions\": \"Agent to confirm with student whether to start the booking process as student has filled booking form\", \"pending_items\": \"Student\\u2019s confirmation to proceed with booking\", \"follow_up_required\": \"Follow-up contact to obtain student\\u2019s response on booking process initiation\", \"timeline\": \"Move-in date targeted for 6 September 2025; lease duration 50 weeks ending 28 August 2026\"}, \"agent_notes\": {\"student_tone\": \"Unresponsive to calls; no direct replies recorded; engagement only via booking form submission\", \"urgency_level\": \"Moderate; move-in date approaching but no confirmed booking yet\", \"complexity\": \"Standard booking process; no special requirements or complications noted\", \"special_considerations\": \"Student prefers communication via WhatsApp; multiple call attempts unsuccessful\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Naoko Sofia Kinoshita-Ruiz\", \"mobile\": [\"12029243356\"], \"email\": [\"naokokr@gmail.com\"], \"whatsapp\": [\"447897036566\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 50, \"room_type\": \"studio\", \"budget\": {\"max\": 445, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-06\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chapter Kings Cross, London\"], \"rooms_considered\": [\"Bronze Twin Studio Shared Lower Level\", \"Silver Twin Studio Shared Lower Level\", \"Silver Twin Studio Shared Mid Level\", \"Bronze Studio Shared Lower Level\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Follow up with Naoko to confirm a convenient time to connect and discuss accommodation options.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-16T13:45:42 asking for a convenient time to connect\"}, {\"type\": \"booking_action\", \"description\": \"Wait for Naoko to respond whether she wants to start the booking process for the property she filled the booking form for.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-16T14:12:09 asking if agent should start booking process\"}, {\"type\": \"follow_up\", \"description\": \"Call Naoko to follow up on her response to the booking process initiation offer.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"No response recorded after agent asked to start booking process on 2025-09-16\"}], \"last_agent_response\": \"Sent property suggestions with detailed links and asked if Naoko wants to start the booking process for the property she filled the form for (WhatsApp messages on 2025-09-16).\", \"suggested_next_step\": \"Agent to follow up with Naoko via call or WhatsApp to get confirmation on starting the booking process.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Naoko Sofia Kinoshita-Ruiz\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number 12029243356\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London (UCL) implied by official partner mention\", \"room_type\": \"Not explicitly mentioned; property suggestions include Bronze and Silver Twin Studio Shared Lower and Mid Level, and Bronze Studio Shared Lower Level\", \"budget_range\": \"\\u00a3445 per week budget stated; property options range from \\u00a3308/week to \\u00a3587/week depending on room type and lease duration\", \"move_in_date\": \"6 September 2025\", \"lease_duration\": \"50 weeks (stated), property options include 44 or 51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; booking form filled for a property and agent asked to start booking process\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Approximately 10 interactions including 6 calls and multiple WhatsApp messages\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-09-20 via call; last WhatsApp message sent on 2025-09-17\", \"response_time\": \"Student did not answer multiple calls; left no voicemail; agent sent follow-up WhatsApp messages promptly after calls\", \"key_moments\": \"Initial lead info on 2025-09-13; multiple unsuccessful calls; WhatsApp introduction and property suggestions on 2025-09-16; student filled booking form; agent offered to start booking process; no confirmed response recorded\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Kings Cross, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Agent provided detailed property options with prices, videos, 3D tours, and booking link\"}, \"next_steps\": {\"immediate_actions\": \"Agent to confirm with student whether to start the booking process as student has filled booking form\", \"pending_items\": \"Student\\u2019s confirmation to proceed with booking\", \"follow_up_required\": \"Follow-up contact to obtain student\\u2019s response on booking process initiation\", \"timeline\": \"Move-in date targeted for 6 September 2025; lease duration 50 weeks ending 28 August 2026\"}, \"agent_notes\": {\"student_tone\": \"Unresponsive to calls; no direct replies recorded; engagement only via booking form submission\", \"urgency_level\": \"Moderate; move-in date approaching but no confirmed booking yet\", \"complexity\": \"Standard booking process; no special requirements or complications noted\", \"special_considerations\": \"Student prefers communication via WhatsApp; multiple call attempts unsuccessful\"}}}}}",
+    "created_at": "2025-11-18 10:22:03",
+    "updated_at": "2025-11-18T15:52:03.518056",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Naoko Sofia Kinoshita-Ruiz",
+        "mobile": [
+          "12029243356"
+        ],
+        "email": [
+          "naokokr@gmail.com"
+        ],
+        "whatsapp": [
+          "447897036566"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 50,
+        "room_type": "studio",
+        "budget": {
+          "max": 445,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": "2025-09-06",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": "pbsa",
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Chapter Kings Cross, London"
+        ],
+        "rooms_considered": [
+          "Bronze Twin Studio Shared Lower Level",
+          "Silver Twin Studio Shared Lower Level",
+          "Silver Twin Studio Shared Mid Level",
+          "Bronze Studio Shared Lower Level"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Follow up with Naoko to confirm a convenient time to connect and discuss accommodation options.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-09-16T13:45:42 asking for a convenient time to connect"
+        },
+        {
+          "type": "booking_action",
+          "description": "Wait for Naoko to respond whether she wants to start the booking process for the property she filled the booking form for.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp message on 2025-09-16T14:12:09 asking if agent should start booking process"
+        },
+        {
+          "type": "follow_up",
+          "description": "Call Naoko to follow up on her response to the booking process initiation offer.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "No response recorded after agent asked to start booking process on 2025-09-16"
+        }
+      ],
+      "last_agent_response": "Sent property suggestions with detailed links and asked if Naoko wants to start the booking process for the property she filled the form for (WhatsApp messages on 2025-09-16).",
+      "suggested_next_step": "Agent to follow up with Naoko via call or WhatsApp to get confirmation on starting the booking process."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Naoko Sofia Kinoshita-Ruiz",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via number 12029243356",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London (UCL) implied by official partner mention",
+            "room_type": "Not explicitly mentioned; property suggestions include Bronze and Silver Twin Studio Shared Lower and Mid Level, and Bronze Studio Shared Lower Level",
+            "budget_range": "£445 per week budget stated; property options range from £308/week to £587/week depending on room type and lease duration",
+            "move_in_date": "6 September 2025",
+            "lease_duration": "50 weeks (stated), property options include 44 or 51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage; booking form filled for a property and agent asked to start booking process",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Approximately 10 interactions including 6 calls and multiple WhatsApp messages",
+            "primary_channel": "WhatsApp messaging",
+            "last_contact": "2025-09-20 via call; last WhatsApp message sent on 2025-09-17",
+            "response_time": "Student did not answer multiple calls; left no voicemail; agent sent follow-up WhatsApp messages promptly after calls",
+            "key_moments": "Initial lead info on 2025-09-13; multiple unsuccessful calls; WhatsApp introduction and property suggestions on 2025-09-16; student filled booking form; agent offered to start booking process; no confirmed response recorded"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Chapter Kings Cross, London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Agent provided detailed property options with prices, videos, 3D tours, and booking link"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to confirm with student whether to start the booking process as student has filled booking form",
+            "pending_items": "Student’s confirmation to proceed with booking",
+            "follow_up_required": "Follow-up contact to obtain student’s response on booking process initiation",
+            "timeline": "Move-in date targeted for 6 September 2025; lease duration 50 weeks ending 28 August 2026"
+          },
+          "agent_notes": {
+            "student_tone": "Unresponsive to calls; no direct replies recorded; engagement only via booking form submission",
+            "urgency_level": "Moderate; move-in date approaching but no confirmed booking yet",
+            "complexity": "Standard booking process; no special requirements or complications noted",
+            "special_considerations": "Student prefers communication via WhatsApp; multiple call attempts unsuccessful"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Naoko Sofia Kinoshita-Ruiz",
+          "mobile": [
+            "12029243356"
+          ],
+          "email": [
+            "naokokr@gmail.com"
+          ],
+          "whatsapp": [
+            "447897036566"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 50,
+          "room_type": "studio",
+          "budget": {
+            "max": 445,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": "2025-09-06",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": "pbsa",
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Chapter Kings Cross, London"
+          ],
+          "rooms_considered": [
+            "Bronze Twin Studio Shared Lower Level",
+            "Silver Twin Studio Shared Lower Level",
+            "Silver Twin Studio Shared Mid Level",
+            "Bronze Studio Shared Lower Level"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Follow up with Naoko to confirm a convenient time to connect and discuss accommodation options.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-09-16T13:45:42 asking for a convenient time to connect"
+          },
+          {
+            "type": "booking_action",
+            "description": "Wait for Naoko to respond whether she wants to start the booking process for the property she filled the booking form for.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp message on 2025-09-16T14:12:09 asking if agent should start booking process"
+          },
+          {
+            "type": "follow_up",
+            "description": "Call Naoko to follow up on her response to the booking process initiation offer.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "No response recorded after agent asked to start booking process on 2025-09-16"
+          }
+        ],
+        "last_agent_response": "Sent property suggestions with detailed links and asked if Naoko wants to start the booking process for the property she filled the form for (WhatsApp messages on 2025-09-16).",
+        "suggested_next_step": "Agent to follow up with Naoko via call or WhatsApp to get confirmation on starting the booking process."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Naoko Sofia Kinoshita-Ruiz",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via number 12029243356",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London (UCL) implied by official partner mention",
+              "room_type": "Not explicitly mentioned; property suggestions include Bronze and Silver Twin Studio Shared Lower and Mid Level, and Bronze Studio Shared Lower Level",
+              "budget_range": "£445 per week budget stated; property options range from £308/week to £587/week depending on room type and lease duration",
+              "move_in_date": "6 September 2025",
+              "lease_duration": "50 weeks (stated), property options include 44 or 51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage; booking form filled for a property and agent asked to start booking process",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Approximately 10 interactions including 6 calls and multiple WhatsApp messages",
+              "primary_channel": "WhatsApp messaging",
+              "last_contact": "2025-09-20 via call; last WhatsApp message sent on 2025-09-17",
+              "response_time": "Student did not answer multiple calls; left no voicemail; agent sent follow-up WhatsApp messages promptly after calls",
+              "key_moments": "Initial lead info on 2025-09-13; multiple unsuccessful calls; WhatsApp introduction and property suggestions on 2025-09-16; student filled booking form; agent offered to start booking process; no confirmed response recorded"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Chapter Kings Cross, London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Agent provided detailed property options with prices, videos, 3D tours, and booking link"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to confirm with student whether to start the booking process as student has filled booking form",
+              "pending_items": "Student’s confirmation to proceed with booking",
+              "follow_up_required": "Follow-up contact to obtain student’s response on booking process initiation",
+              "timeline": "Move-in date targeted for 6 September 2025; lease duration 50 weeks ending 28 August 2026"
+            },
+            "agent_notes": {
+              "student_tone": "Unresponsive to calls; no direct replies recorded; engagement only via booking form submission",
+              "urgency_level": "Moderate; move-in date approaching but no confirmed booking yet",
+              "complexity": "Standard booking process; no special requirements or complications noted",
+              "special_considerations": "Student prefers communication via WhatsApp; multiple call attempts unsuccessful"
+            }
+          }
+        }
+      }
+    }
+  }
+}

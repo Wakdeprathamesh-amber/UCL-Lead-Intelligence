@@ -10,7 +10,7 @@
 **Start here:**
 1. **[README.md](README.md)** - What is this project?
 2. **[DEMO_SCRIPT.md](DEMO_SCRIPT.md)** - How to present it
-3. **[PROJECT_STATUS.md](PROJECT_STATUS.md)** - What's built and working
+3. **[ARCHITECTURE.md](ARCHITECTURE.md)** - System overview
 
 ### 👨‍💻 I'm a Developer
 **Start here:**
@@ -31,22 +31,29 @@
 ### 🚀 Getting Started
 | File | Purpose | Time to Read |
 |------|---------|--------------|
-| **[SETUP_COMPLETE.md](SETUP_COMPLETE.md)** | Setup confirmation and first steps | 3 min |
 | **[QUICKSTART.md](QUICKSTART.md)** | 5-minute quick start guide | 5 min |
 | **[README.md](README.md)** | Project overview and features | 10 min |
+| **[DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)** | Deployment instructions | 15 min |
 
 ### 🏗️ Technical Documentation
 | File | Purpose | Time to Read |
 |------|---------|--------------|
 | **[TECHNICAL_OVERVIEW.md](TECHNICAL_OVERVIEW.md)** | Quick technical reference | 10 min |
 | **[ARCHITECTURE.md](ARCHITECTURE.md)** | Complete architecture deep dive | 30 min |
+| **[ARCHITECTURE_SCALABILITY.md](ARCHITECTURE_SCALABILITY.md)** | Scalability and performance | 15 min |
 | **[QUERY_FLOW_DIAGRAMS.md](QUERY_FLOW_DIAGRAMS.md)** | Visual query flows with examples | 20 min |
 
-### 📊 Project Status & Demo
+### 📊 Data & Integration
 | File | Purpose | Time to Read |
 |------|---------|--------------|
-| **[PROJECT_STATUS.md](PROJECT_STATUS.md)** | Current status and deliverables | 10 min |
+| **[CONVERSATION_DATA_USAGE.md](CONVERSATION_DATA_USAGE.md)** | How conversation data is used | 10 min |
+
+### 🎬 Demo & Usage
+| File | Purpose | Time to Read |
+|------|---------|--------------|
 | **[DEMO_SCRIPT.md](DEMO_SCRIPT.md)** | Step-by-step demo presentation | 15 min |
+| **[DEMO_QUESTIONS.md](DEMO_QUESTIONS.md)** | Demo questions to try | 10 min |
+| **[DEMO_QUESTIONS_REFERENCE.md](DEMO_QUESTIONS_REFERENCE.md)** | Reference guide for demo | 10 min |
 
 ---
 
@@ -69,8 +76,8 @@
 1. Read DEMO_SCRIPT.md (10 min)
    → Learn the demo flow
    
-2. Read PROJECT_STATUS.md (5 min)
-   → Know what's built
+2. Read DEMO_QUESTIONS.md (5 min)
+   → Know what queries to try
    
 3. Practice queries (5 min)
    → Get comfortable with the UI
@@ -104,8 +111,8 @@
 → **[DEMO_SCRIPT.md](DEMO_SCRIPT.md)** - Sample queries and usage
 
 ### "What's the status?"
-→ **[PROJECT_STATUS.md](PROJECT_STATUS.md)** - Complete status report
-→ **[SETUP_COMPLETE.md](SETUP_COMPLETE.md)** - Setup confirmation
+→ **[README.md](README.md)** - Project overview and current status
+→ **[ARCHITECTURE.md](ARCHITECTURE.md)** - System architecture and design
 
 ### "How does query routing work?"
 → **[QUERY_FLOW_DIAGRAMS.md](QUERY_FLOW_DIAGRAMS.md)** - Visual flows
@@ -154,9 +161,10 @@
        │                   │
        ▼                   ▼
 ┌──────────────┐    ┌──────────────┐
-│ PROJECT      │    │ QUERY_FLOW   │
-│ _STATUS.md   │    │ _DIAGRAMS.md │
-└──────────────┘    └──────────────┘
+│ EXPORTED     │    │ QUERY_FLOW   │
+│ _DATASET     │    │ _DIAGRAMS.md │
+│ _ANALYSIS.md │    └──────────────┘
+└──────────────┘
 ```
 
 ---
@@ -186,12 +194,15 @@
 
 ### Setup & Usage
 - [Quick Start](QUICKSTART.md)
-- [Setup Complete](SETUP_COMPLETE.md)
+- [Deployment Guide](DEPLOYMENT_GUIDE.md)
+- [API Key Setup](ADD_API_KEY_STREAMLIT.md)
 - [Demo Script](DEMO_SCRIPT.md)
 
+### Data & Integration
+- [Conversation Data Usage](CONVERSATION_DATA_USAGE.md)
+
 ### Project Info
-- [Project Status](PROJECT_STATUS.md)
-- [What's Built](PROJECT_STATUS.md#deliverables-checklist)
+- [Architecture Scalability](ARCHITECTURE_SCALABILITY.md)
 - [Performance Metrics](TECHNICAL_OVERVIEW.md#performance)
 
 ---
@@ -203,7 +214,7 @@ All documentation files follow these conventions:
 - **Markdown Format**: Easy to read in GitHub or any text editor
 - **Visual Diagrams**: ASCII art for compatibility
 - **Code Examples**: Syntax highlighted when possible
-- **Real Examples**: Based on actual 14 leads data
+- **Real Examples**: Based on actual lead data
 - **Cross-References**: Links between related docs
 
 ---
@@ -212,10 +223,8 @@ All documentation files follow these conventions:
 
 | File | Last Updated | Major Changes |
 |------|-------------|---------------|
-| ARCHITECTURE.md | Just created | Initial comprehensive architecture doc |
-| QUERY_FLOW_DIAGRAMS.md | Just created | Visual flow diagrams added |
-| TECHNICAL_OVERVIEW.md | Just created | Quick reference guide |
-| DOCUMENTATION_INDEX.md | Just created | This navigation guide |
+| DOCUMENTATION_INDEX.md | November 18, 2025 | Updated after cleanup |
+| Codebase | November 18, 2025 | Cleaned up temporary files and scripts |
 
 ---
 
@@ -235,8 +244,8 @@ All documentation files follow these conventions:
 
 ### For Demo Preparation:
 1. **DEMO_SCRIPT.md** (15 min)
-2. **QUICKSTART.md** (5 min)
-3. **PROJECT_STATUS.md** (5 min)
+2. **DEMO_QUESTIONS.md** (5 min)
+3. **QUICKSTART.md** (5 min)
 4. Practice in the app
 
 ---
@@ -247,7 +256,7 @@ All documentation files follow these conventions:
 1. Update ARCHITECTURE.md if architecture changes
 2. Update QUERY_FLOW_DIAGRAMS.md if query routing changes
 3. Update TECHNICAL_OVERVIEW.md if key concepts change
-4. Update PROJECT_STATUS.md with new deliverables
+4. Update README.md with new features
 
 **When fixing bugs:**
 1. Update relevant technical docs if behavior changes
@@ -266,12 +275,12 @@ All documentation files follow these conventions:
 **Want to contribute documentation?**
 - Follow existing format and style
 - Include visual diagrams where helpful
-- Use real examples from the 14 leads
+- Use real examples from the 402 leads
 - Cross-reference related docs
 
 ---
 
 **Happy Reading! 📚**
 
-*Last Updated: November 13, 2025*
+*Last Updated: November 18, 2025*
 

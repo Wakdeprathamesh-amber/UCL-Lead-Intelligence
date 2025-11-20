@@ -55,7 +55,7 @@
     │   SQLite DB      │      │   ChromaDB        │
     │  (Structured     │      │  (Vector Store)   │
     │   Data)          │      │                   │
-    │  • 14 Leads      │      │  • 24 Documents   │
+    │  • 402 Leads     │      │  • 10,000+ Docs   │
     │  • 5 Tables      │      │  • Embeddings     │
     │  • Relational    │      │  • Semantic       │
     └──────────────────┘      └───────────────────┘
@@ -895,7 +895,7 @@ result = agent_executor.invoke({"input": user_query})
 
 ## 🚀 Scalability Considerations
 
-### Current POC (14 leads):
+### Current POC (402 leads):
 - ✅ SQLite: Perfect
 - ✅ ChromaDB: Perfect
 - ✅ Single instance

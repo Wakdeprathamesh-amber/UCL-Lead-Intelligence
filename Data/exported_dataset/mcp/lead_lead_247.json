@@ -1,0 +1,277 @@
+{
+  "id": "lead_247",
+  "mobile_number": "85261001010",
+  "email": null,
+  "timeline": [
+    {
+      "id": 3547,
+      "lead_id": 247,
+      "event_type": "call",
+      "timestamp": "2025-09-11T02:39:35.352187",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7854279",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-11T02:39:35.352187\", \"id\": 7854279, \"duration\": \"13\", \"to_number\": \"85261001010\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d7860af5-916e-4a84-80d1-d72bf88caa9c.wav\"}",
+      "created_at": "2025-11-18 10:32:21"
+    },
+    {
+      "id": 3548,
+      "lead_id": 247,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-17T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-17T00:00:00\", \"lead_id\": 3221297, \"user_name\": \"Leung Kwai To Dickson\", \"email\": \"dickson.leung.25@ucl.ac.uk\", \"phone\": \"85261001010\", \"lease_duration\": \"49 week\", \"move_out_date\": \"2026-08-25\", \"budget\": 384, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3943, \"inventory_id\": 2165934}",
+      "created_at": "2025-11-18 10:32:21"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 154,
+      "lead_id": 247,
+      "call_id": "7854279",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d7860af5-916e-4a84-80d1-d72bf88caa9c.wav",
+      "transcript_text": "Speaker A: 哈 喽 哈 喽 你好 哎 这边 是 安波 丁 的 啊 跟 飞鸟 公司 合作 的 然后 看 同学 是 我 在 网上.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:32:29"
+    }
+  ],
+  "summary": {
+    "id": 100,
+    "lead_id": 247,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Leung Kwai To Dickson\", \"mobile\": [\"+85261001010\"], \"email\": [\"dickson.leung.25@ucl.ac.uk\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 49, \"room_type\": null, \"budget\": {\"max\": 384, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Initial call made by agent to student regarding accommodation inquiry.\", \"suggested_next_step\": \"Agent to follow up with student to confirm accommodation preferences and next steps.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Leung Kwai To Dickson\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: 85261001010, Email: dickson.leung.25@ucl.ac.uk\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3384 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"49 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2\", \"primary_channel\": \"Phone call and lead information submission\", \"last_contact\": \"2025-09-17\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial phone call on 2025-09-11; lead information recorded on 2025-09-17\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2165934 referenced\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up with student regarding property details and preferences\", \"pending_items\": \"Confirmation of move-in date and room type\", \"follow_up_required\": \"Yes, to clarify accommodation preferences and booking progress\", \"timeline\": \"Lease ends 2026-08-25\"}, \"agent_notes\": {\"student_tone\": \"Not clearly discernible from transcript\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student is booking for a long lease (49 weeks) in London\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Leung Kwai To Dickson\", \"mobile\": [\"+85261001010\"], \"email\": [\"dickson.leung.25@ucl.ac.uk\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 49, \"room_type\": null, \"budget\": {\"max\": 384, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Initial call made by agent to student regarding accommodation inquiry.\", \"suggested_next_step\": \"Agent to follow up with student to confirm accommodation preferences and next steps.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Leung Kwai To Dickson\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: 85261001010, Email: dickson.leung.25@ucl.ac.uk\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3384 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"49 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2\", \"primary_channel\": \"Phone call and lead information submission\", \"last_contact\": \"2025-09-17\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial phone call on 2025-09-11; lead information recorded on 2025-09-17\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2165934 referenced\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up with student regarding property details and preferences\", \"pending_items\": \"Confirmation of move-in date and room type\", \"follow_up_required\": \"Yes, to clarify accommodation preferences and booking progress\", \"timeline\": \"Lease ends 2026-08-25\"}, \"agent_notes\": {\"student_tone\": \"Not clearly discernible from transcript\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student is booking for a long lease (49 weeks) in London\"}}}}}",
+    "created_at": "2025-11-18 10:32:37",
+    "updated_at": "2025-11-18T16:02:37.147618",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Leung Kwai To Dickson",
+        "mobile": [
+          "+85261001010"
+        ],
+        "email": [
+          "dickson.leung.25@ucl.ac.uk"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 49,
+        "room_type": null,
+        "budget": {
+          "max": 384,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Initial call made by agent to student regarding accommodation inquiry.",
+      "suggested_next_step": "Agent to follow up with student to confirm accommodation preferences and next steps."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Leung Kwai To Dickson",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone: 85261001010, Email: dickson.leung.25@ucl.ac.uk",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£384 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "49 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2",
+            "primary_channel": "Phone call and lead information submission",
+            "last_contact": "2025-09-17",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial phone call on 2025-09-11; lead information recorded on 2025-09-17"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2165934 referenced",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up with student regarding property details and preferences",
+            "pending_items": "Confirmation of move-in date and room type",
+            "follow_up_required": "Yes, to clarify accommodation preferences and booking progress",
+            "timeline": "Lease ends 2026-08-25"
+          },
+          "agent_notes": {
+            "student_tone": "Not clearly discernible from transcript",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Student is booking for a long lease (49 weeks) in London"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Leung Kwai To Dickson",
+          "mobile": [
+            "+85261001010"
+          ],
+          "email": [
+            "dickson.leung.25@ucl.ac.uk"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 49,
+          "room_type": null,
+          "budget": {
+            "max": 384,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Initial call made by agent to student regarding accommodation inquiry.",
+        "suggested_next_step": "Agent to follow up with student to confirm accommodation preferences and next steps."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Leung Kwai To Dickson",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone: 85261001010, Email: dickson.leung.25@ucl.ac.uk",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£384 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "49 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2",
+              "primary_channel": "Phone call and lead information submission",
+              "last_contact": "2025-09-17",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial phone call on 2025-09-11; lead information recorded on 2025-09-17"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2165934 referenced",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up with student regarding property details and preferences",
+              "pending_items": "Confirmation of move-in date and room type",
+              "follow_up_required": "Yes, to clarify accommodation preferences and booking progress",
+              "timeline": "Lease ends 2026-08-25"
+            },
+            "agent_notes": {
+              "student_tone": "Not clearly discernible from transcript",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Student is booking for a long lease (49 weeks) in London"
+            }
+          }
+        }
+      }
+    }
+  }
+}

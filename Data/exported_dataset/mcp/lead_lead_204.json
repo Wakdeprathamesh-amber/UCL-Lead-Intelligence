@@ -1,0 +1,409 @@
+{
+  "id": "lead_204",
+  "mobile_number": "447305266386",
+  "email": null,
+  "timeline": [
+    {
+      "id": 13917,
+      "lead_id": 204,
+      "event_type": "call",
+      "timestamp": "2025-09-13T10:52:38.635783",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7869379",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-13T10:52:38.635783\", \"id\": 7869379, \"duration\": \"10\", \"to_number\": \"447305266386\", \"from_number\": \"447378157217\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a0356481-adfc-4793-a0ed-8d59528bb9dd.wav\"}",
+      "created_at": "2025-11-18 13:24:53"
+    },
+    {
+      "id": 13918,
+      "lead_id": 204,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-13T10:55:48",
+      "content": "Hey Rhia, \n\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \n\nHappy to assist you with the process ahead. Thankyou : )",
+      "source": "whatsapp",
+      "event_id": "8594128",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-13T10:55:48\", \"id\": 8594128, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447305266386\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447305266386@c.us_3F7B8A99A9D152315EBF\", \"message_type\": \"text\", \"message_content\": \"Hey Rhia, \\n\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\n\\nHappy to assist you with the process ahead. Thankyou : )\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-13T10:55:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hey Rhia, \\\\n\\\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\\\n\\\\nHappy to assist you with the process ahead. Thankyou : )\\\", \\\"Datetime\\\": 1757760948000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447305266386@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447305266386@c.us_3F7B8A99A9D152315EBF\\\", \\\"ChannelName\\\": \\\"447305266386\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-13T10:55:49.390772\", \"direction\": \"outbound\", \"sbase_user_id\": 2496488, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447305266386\"}",
+      "created_at": "2025-11-18 13:24:53"
+    },
+    {
+      "id": 13919,
+      "lead_id": 204,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-13T12:01:09",
+      "content": "Hi! I noticed that you had 39 week contracts beginning on the 13th of September. I was wondering if it was possible to edit the contract to have it start on the 20th of September instead?",
+      "source": "whatsapp",
+      "event_id": "8596607",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-13T12:01:09\", \"id\": 8596607, \"email\": \"\", \"from_number\": \"447305266386\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447305266386@c.us_3F49DE72A661052FDF52\", \"message_type\": \"text\", \"message_content\": \"Hi! I noticed that you had 39 week contracts beginning on the 13th of September. I was wondering if it was possible to edit the contract to have it start on the 20th of September instead?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447305266386@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-13T12:01:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi! I noticed that you had 39 week contracts beginning on the 13th of September. I was wondering if it was possible to edit the contract to have it start on the 20th of September instead?\\\", \\\"Datetime\\\": 1757764869000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"447305266386@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447305266386@c.us_3F49DE72A661052FDF52\\\", \\\"ChannelName\\\": \\\"447305266386\\\", \\\"SentByNumber\\\": \\\"447305266386\\\", \\\"sentByUserId\\\": \\\"447305266386@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-13T12:01:10.118219\", \"direction\": \"inbound\", \"sbase_user_id\": 2496488, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447305266386\"}",
+      "created_at": "2025-11-18 13:24:53"
+    },
+    {
+      "id": 13920,
+      "lead_id": 204,
+      "event_type": "call",
+      "timestamp": "2025-09-15T12:22:31.850449",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7876944",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-15T12:22:31.850449\", \"id\": 7876944, \"duration\": \"379\", \"to_number\": \"447305266386\", \"from_number\": \"447378157217\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/5f32a168-ff68-4d9e-8aae-e087606dfacd.wav\"}",
+      "created_at": "2025-11-18 13:24:53"
+    },
+    {
+      "id": 13921,
+      "lead_id": 204,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-15T12:25:13",
+      "content": "https://amberstudent.com/places/louise-house-1912024622150/agent-view?whitelabelv2=true&amp;utm_source=university-fad44b73",
+      "source": "whatsapp",
+      "event_id": "8648178",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-15T12:25:13\", \"id\": 8648178, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447305266386\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447305266386@c.us_3F37A98422CC33E7B389\", \"message_type\": \"text\", \"message_content\": \"https://amberstudent.com/places/louise-house-1912024622150/agent-view?whitelabelv2=true&amp;utm_source=university-fad44b73\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-15T12:25:13.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"https://amberstudent.com/places/louise-house-1912024622150/agent-view?whitelabelv2=true&amp;utm_source=university-fad44b73\\\", \\\"Datetime\\\": 1757939113000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447305266386@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447305266386@c.us_3F37A98422CC33E7B389\\\", \\\"ChannelName\\\": \\\"447305266386\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-15T12:25:14.170371\", \"direction\": \"outbound\", \"sbase_user_id\": 2496488, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447305266386\"}",
+      "created_at": "2025-11-18 13:24:53"
+    },
+    {
+      "id": 13922,
+      "lead_id": 204,
+      "event_type": "call",
+      "timestamp": "2025-09-16T12:31:28.673579",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7883426",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-16T12:31:28.673579\", \"id\": 7883426, \"duration\": \"96\", \"to_number\": \"447305266386\", \"from_number\": \"447378157217\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e388aaf5-16a1-44db-be68-932d91c99aa4.wav\"}",
+      "created_at": "2025-11-18 13:24:53"
+    },
+    {
+      "id": 13923,
+      "lead_id": 204,
+      "event_type": "call",
+      "timestamp": "2025-09-19T12:24:53.969263",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7900341",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-19T12:24:53.969263\", \"id\": 7900341, \"duration\": \"116\", \"to_number\": \"447305266386\", \"from_number\": \"447378157217\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/9b5bfab7-e32a-4d75-827d-2a88ac8e1734.wav\"}",
+      "created_at": "2025-11-18 13:24:53"
+    },
+    {
+      "id": 13924,
+      "lead_id": 204,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3228085, \"user_name\": \"Rhia Aurora\", \"email\": \"raurora1824@gmail.com\", \"phone\": \"447305266386\", \"lease_duration\": \"26 - 40 Weeks\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 976, \"inventory_id\": 147510}",
+      "created_at": "2025-11-18 13:24:53"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 692,
+      "lead_id": 204,
+      "call_id": "7876944",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/5f32a168-ff68-4d9e-8aae-e087606dfacd.wav",
+      "transcript_text": "Speaker A: Hello? Hello? Yeah, hi. Am I speaking with Rhea?\nSpeaker B: Yeah.\nSpeaker A: Yeah, hi Rhea. Good afternoon. I am Prachi from Ambo student for accommodation assistance. We are partnered with University College London for the accommodation. You texted me on WhatsApp.\nSpeaker B: Yes, I had a question about the. Your contracts for.\nSpeaker A: Yeah, the moving date can like you want to move to the property from 20th. Right. But see the. The moving date can be like for the immediate movements if you want to book, you can book for 36 weeks. 36 weeks is also available.\nSpeaker B: Okay. But the. The problem of that would be is that then I. The contract would end before my. My course ends which then would mean that I'm kind of stuck.\nSpeaker A: Yeah, you know I. I totally understand. It's just a contract. If you are taking from 28 if you're looking for. So they, they are having the contract for 36 weeks as I can see. And if you are taking something for the immediate move in the move in date would be mentioned for today. If you want for more than 36 weeks like you want for 39 weeks, then the move in date will be adjusted from the starting date would be mentioned from today for the immediate movement if you start the process tomorrow. So the movement date will be mentioned by tomorrow.\nSpeaker B: Okay. So for the 38, 39 waste verb. Are you saying that if I say like the moving date will become the day I took it? Right?\nSpeaker A: Yeah. If you, if you want to book that 39 week contract only then the movement date will be shifted according to the day you are booking. Like today if you are booking. So it will be mentioned as from 15th of September, 39 weeks. The date will be according to that. But if you specifically want an accommodation from 20th of September then they have it for 36 weeks. I am sharing the link with you on WhatsApp of the Lewis property you're talking about. Right? The Lewis house. So I have shared like the property link with you in which different, different room types and like different contracts are given.\nSpeaker B: Okay. And one more question, sorry. What happens if I don't move in on the move in date? Like let's say I book it like today or tomorrow. Yeah. Just if, if. But I can't move in until the 20th. Is that like do I have to move in on the exact move in date?\nSpeaker A: No, no, no, no. Your contract, the contract will be charged from today or tomorrow. Okay. If you have a. Suppose if we are starting the process tomorrow and your move in date will be mentioned over there. 16th of September. Okay.\nSpeaker B: Yeah.\nSpeaker A: So the calculation of your rent will be starting from 16th of September, but you can move in by 28th, that is Saturday. Okay. Because as the property is also having the move in date over there. But you need to mention it to the property by May that I will be coming on 20th only because on weekend they don't provide move in as they don't work on weekends. So they won't be having people over there to help you out to basically settle in your room. Okay.\nSpeaker B: Okay.\nSpeaker A: But the property is also having the move in date by 28. So you can move in by 28. It's just you need to mention it to the property. When you complete all the process you can mail it that I will be coming by. This is. And this is my timing. I will be arriving and so kindly let anybody over there in the reception center be available so that I can easily move in Sunday. Moving won't be allowed.\nSpeaker B: Okay. Okay. Yes, that makes sense. Okay, thank you.\nSpeaker A: Not a problem. Do have a look on the link. Do let me know when you want to start the process so that we can start a day SAP because the process is going to take some time. So I just want if you are starting the process tomorrow so you can give your time to the process while you need to, you need to sign the contract, your guarantee need to sign the contract and you also need to pay the first installment. All the installment amounts will be mentioned in your contract. You will be getting it. Okay. So after checking everything, you can sign your contract, your guarantee can sign the contract and we can complete your booking in a day school.\nSpeaker B: Okay, that makes sense.\nSpeaker A: Okay, that's great. So I'll be connecting with you tomorrow for an update so that we can start your booking and completed exam.\nSpeaker B: Okay.\nSpeaker A: Just to be clear, I'm not like.\nSpeaker B: Confirming I'm not agreeing to anything right now.\nSpeaker A: Yeah, definitely not a problem. I totally understand that. See you were having some difficulty regarding the duration period and the move in date. So if in case. Yeah if in case you are interested in the other accommodation, you can let me know. I will help you out with it. So it's not a problem. I totally understand that. Obviously right now you are checking some options so you won't be confirmed about it. But try to decide about the options. If you are confirmed, you are going to the University College London and you will be arriving by 20th. So we can look for the accommodation and book the accommodation because for the immediate move in the process is a bit, you know, like what. What I can say a bit problematic because we need to complete all the steps in a day. Okay.\nSpeaker B: Okay.\nSpeaker A: Okay. Not a problem. I'll connect with you by tomorrow for an update. You can let me know. Okay? Okay.\nSpeaker B: Thank you.\nSpeaker A: Okay, Bye. Bye. Take care.\nSpeaker B: Have a nice day. Goodbye.\nSpeaker A: Have a nice day. Bye. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:25:05"
+    },
+    {
+      "id": 693,
+      "lead_id": 204,
+      "call_id": "7883426",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e388aaf5-16a1-44db-be68-932d91c99aa4.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Hello?\nSpeaker A: Yeah, Hi, Rhea.\nSpeaker B: Hi.\nSpeaker A: Hi. Good afternoon. How are you doing?\nSpeaker B: I'm doing well, thank you. How are you?\nSpeaker A: I'm good too. Thank you for asking. So were you able to check out the option again yesterday when we discussed about the move in date?\nSpeaker B: Yeah, we've been thinking about and. Yeah, but we're not really ready to go just yet. Maybe later on, but right now we're not quite ready to make that commitment.\nSpeaker A: I'm sorry. Okay, so right now you want some time to think about the property?\nSpeaker B: Yeah, that'd be ideal, if possible.\nSpeaker A: Not a problem. So you can tell me, like, when do you feel convenient to connect with me? If you want a one or two days of a time period and after that you want to have a call that is okay. That. That's not a problem at all.\nSpeaker B: Okay. Yeah.\nSpeaker A: Yeah. So if you want, I'll connect with the day after tomorrow so that you can have a proper discussion over your family and friends.\nSpeaker B: Could you do Friday instead, if that's all right?\nSpeaker A: Sorry?\nSpeaker B: Could you connect on Friday instead, if that's all right?\nSpeaker A: Friday? Yeah, sure. That's not a problem. I'll connect with you by Friday then.\nSpeaker B: That'll be ideal. Thank you.\nSpeaker A: Okay, thank you. Bye. Bye. Take care.\nSpeaker B: Have a lovely day. Thank you.\nSpeaker A: Bye.\nSpeaker B: Bye. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:25:12"
+    },
+    {
+      "id": 694,
+      "lead_id": 204,
+      "call_id": "7900341",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/9b5bfab7-e32a-4d75-827d-2a88ac8e1734.wav",
+      "transcript_text": "Speaker B: Hello.\nSpeaker A: Hello. Yeah. Hi, Rhea. Good afternoon. I am Prachi from Amber Student for accommodation assistance.\nSpeaker B: From. Hi.\nSpeaker A: Hi. Yeah. I called you regarding the accommodation part. You told me that you will be confirming me regarding the property in which you are interested in booking.\nSpeaker B: Yeah. Is it possible to decline it? We've already sorted out something else so.\nSpeaker A: Okay. Not a problem.\nSpeaker B: Yeah. Sorry. Someone called. Yes, the same thing. So.\nSpeaker A: Sorry.\nSpeaker B: This is definitely iq. Right. Sorry, I'm just a bit confused because someone called yesterday and asked the same thing.\nSpeaker A: Someone called you? Not to.\nSpeaker B: Someone called yesterday and asked for the same thing. It doesn't matter. Just. Just checking. Right.\nSpeaker A: No, no, no. I am from Amber Student. We are connected with the apartment at the University College London. We had a call like two to three days before. You told me to connect with you today. That's why I called you today.\nSpeaker B: Okay. I see. Sorry. I was a bit confused because someone from IQ called me yesterday.\nSpeaker A: Not a problem. Yeah. Yeah. You were actually interested in the Lewis house at that time. So you said that I need some time to book the accommodation. So that's why you told me to call me on Friday. That's right.\nSpeaker B: Yeah. I would like to decline it. We've already sorted out something else. So.\nSpeaker A: Okay. Not. Not a problem. I totally understand your point. If in future require any assistance. You can connect with me anytime. O. Okay.\nSpeaker B: Okay. Thank you so much. You've been so kind.\nSpeaker A: Okay. Bye. Bye. Take care. Bye. Bye.\nSpeaker B: Lovely day.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:26:09"
+    }
+  ],
+  "summary": {
+    "id": 366,
+    "lead_id": 204,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Rhia Aurora\", \"mobile\": [\"+447305266386\"], \"email\": [\"raurora1824@gmail.com\"], \"whatsapp\": [\"+447305266386\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-20\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Louise House\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to connect with Rhia on 2025-09-19 (Friday) for an update on accommodation decision.\", \"due\": \"2025-09-19\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-16 where Rhia requested to be contacted on Friday for follow-up.\"}, {\"type\": \"communication\", \"description\": \"Agent to send property link for Louise House to Rhia for review.\", \"due\": \"within_24h\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-15 with property link sent.\"}], \"last_agent_response\": \"Agent acknowledged Rhia's request for more time to decide and agreed to follow up on Friday (2025-09-19). Agent also provided property link and explained contract terms and move-in dates clearly.\", \"suggested_next_step\": \"No further action required as Rhia declined the accommodation on 2025-09-19; agent to close the inquiry but remain available for future assistance.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Rhia Aurora\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via mobile number 447305266386\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Not mentioned\", \"move_in_date\": \"Preferred move-in date requested as 20th September 2025 instead of 13th September 2025\", \"lease_duration\": \"26 - 40 weeks (specifically discussed 36 and 39 week contracts)\", \"special_requirements\": \"Requested to start contract on 20th September; discussed flexibility on move-in date with contract start date earlier than actual move-in\"}, \"current_status\": {\"booking_stage\": \"Considering options; no booking confirmed; declined offer after exploring alternatives\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 (3 phone calls, 2 WhatsApp message packs with multiple messages)\", \"primary_channel\": \"Phone calls and WhatsApp\", \"last_contact\": \"2025-09-19\", \"response_time\": \"Student responds within hours to days; requested follow-up calls on specific days\", \"key_moments\": \"Initial inquiry and contract date adjustment request on 2025-09-13; detailed contract and move-in date discussion on 2025-09-15; student requested time to decide; final call on 2025-09-19 where student declined accommodation as they sorted out alternative\"}, \"properties_discussed\": {\"properties_mentioned\": \"Louise House (Lewis House) in London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interested in 39 week contract but concerned about contract ending before course end; preferred move-in date 20th September\", \"offers_made\": \"Agent shared property link and explained contract options (36 vs 39 weeks) and move-in flexibility\"}, \"next_steps\": {\"immediate_actions\": \"None, as student declined accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"None unless student requests assistance in future\", \"timeline\": \"Student requested follow-up call on Friday 2025-09-19; final call occurred and student declined\"}, \"agent_notes\": {\"student_tone\": \"Polite, thoughtful, cautious about commitment; requested time to consider options\", \"urgency_level\": \"Low to moderate; student was not ready to commit immediately and requested delays\", \"complexity\": \"Moderate due to contract date and move-in date negotiation and student\\u2019s concerns about contract length\", \"special_considerations\": \"Student clarified they are not agreeing to anything until fully decided; student declined after exploring other options; multiple follow-ups were respectful and patient\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Rhia Aurora\", \"mobile\": [\"+447305266386\"], \"email\": [\"raurora1824@gmail.com\"], \"whatsapp\": [\"+447305266386\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-20\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Louise House\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to connect with Rhia on 2025-09-19 (Friday) for an update on accommodation decision.\", \"due\": \"2025-09-19\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-16 where Rhia requested to be contacted on Friday for follow-up.\"}, {\"type\": \"communication\", \"description\": \"Agent to send property link for Louise House to Rhia for review.\", \"due\": \"within_24h\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-15 with property link sent.\"}], \"last_agent_response\": \"Agent acknowledged Rhia's request for more time to decide and agreed to follow up on Friday (2025-09-19). Agent also provided property link and explained contract terms and move-in dates clearly.\", \"suggested_next_step\": \"No further action required as Rhia declined the accommodation on 2025-09-19; agent to close the inquiry but remain available for future assistance.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Rhia Aurora\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via mobile number 447305266386\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Not mentioned\", \"move_in_date\": \"Preferred move-in date requested as 20th September 2025 instead of 13th September 2025\", \"lease_duration\": \"26 - 40 weeks (specifically discussed 36 and 39 week contracts)\", \"special_requirements\": \"Requested to start contract on 20th September; discussed flexibility on move-in date with contract start date earlier than actual move-in\"}, \"current_status\": {\"booking_stage\": \"Considering options; no booking confirmed; declined offer after exploring alternatives\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 (3 phone calls, 2 WhatsApp message packs with multiple messages)\", \"primary_channel\": \"Phone calls and WhatsApp\", \"last_contact\": \"2025-09-19\", \"response_time\": \"Student responds within hours to days; requested follow-up calls on specific days\", \"key_moments\": \"Initial inquiry and contract date adjustment request on 2025-09-13; detailed contract and move-in date discussion on 2025-09-15; student requested time to decide; final call on 2025-09-19 where student declined accommodation as they sorted out alternative\"}, \"properties_discussed\": {\"properties_mentioned\": \"Louise House (Lewis House) in London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interested in 39 week contract but concerned about contract ending before course end; preferred move-in date 20th September\", \"offers_made\": \"Agent shared property link and explained contract options (36 vs 39 weeks) and move-in flexibility\"}, \"next_steps\": {\"immediate_actions\": \"None, as student declined accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"None unless student requests assistance in future\", \"timeline\": \"Student requested follow-up call on Friday 2025-09-19; final call occurred and student declined\"}, \"agent_notes\": {\"student_tone\": \"Polite, thoughtful, cautious about commitment; requested time to consider options\", \"urgency_level\": \"Low to moderate; student was not ready to commit immediately and requested delays\", \"complexity\": \"Moderate due to contract date and move-in date negotiation and student\\u2019s concerns about contract length\", \"special_considerations\": \"Student clarified they are not agreeing to anything until fully decided; student declined after exploring other options; multiple follow-ups were respectful and patient\"}}}}}",
+    "created_at": "2025-11-18 13:26:28",
+    "updated_at": "2025-11-18T18:56:28.844422",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Rhia Aurora",
+        "mobile": [
+          "+447305266386"
+        ],
+        "email": [
+          "raurora1824@gmail.com"
+        ],
+        "whatsapp": [
+          "+447305266386"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 39,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": "2025-09-20",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": "installment",
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Louise House"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to connect with Rhia on 2025-09-19 (Friday) for an update on accommodation decision.",
+          "due": "2025-09-19",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-09-16 where Rhia requested to be contacted on Friday for follow-up."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to send property link for Louise House to Rhia for review.",
+          "due": "within_24h",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-09-15 with property link sent."
+        }
+      ],
+      "last_agent_response": "Agent acknowledged Rhia's request for more time to decide and agreed to follow up on Friday (2025-09-19). Agent also provided property link and explained contract terms and move-in dates clearly.",
+      "suggested_next_step": "No further action required as Rhia declined the accommodation on 2025-09-19; agent to close the inquiry but remain available for future assistance."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Rhia Aurora",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via mobile number 447305266386",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "Not mentioned",
+            "move_in_date": "Preferred move-in date requested as 20th September 2025 instead of 13th September 2025",
+            "lease_duration": "26 - 40 weeks (specifically discussed 36 and 39 week contracts)",
+            "special_requirements": "Requested to start contract on 20th September; discussed flexibility on move-in date with contract start date earlier than actual move-in"
+          },
+          "current_status": {
+            "booking_stage": "Considering options; no booking confirmed; declined offer after exploring alternatives",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "6 (3 phone calls, 2 WhatsApp message packs with multiple messages)",
+            "primary_channel": "Phone calls and WhatsApp",
+            "last_contact": "2025-09-19",
+            "response_time": "Student responds within hours to days; requested follow-up calls on specific days",
+            "key_moments": "Initial inquiry and contract date adjustment request on 2025-09-13; detailed contract and move-in date discussion on 2025-09-15; student requested time to decide; final call on 2025-09-19 where student declined accommodation as they sorted out alternative"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Louise House (Lewis House) in London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Interested in 39 week contract but concerned about contract ending before course end; preferred move-in date 20th September",
+            "offers_made": "Agent shared property link and explained contract options (36 vs 39 weeks) and move-in flexibility"
+          },
+          "next_steps": {
+            "immediate_actions": "None, as student declined accommodation",
+            "pending_items": "None",
+            "follow_up_required": "None unless student requests assistance in future",
+            "timeline": "Student requested follow-up call on Friday 2025-09-19; final call occurred and student declined"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, thoughtful, cautious about commitment; requested time to consider options",
+            "urgency_level": "Low to moderate; student was not ready to commit immediately and requested delays",
+            "complexity": "Moderate due to contract date and move-in date negotiation and student’s concerns about contract length",
+            "special_considerations": "Student clarified they are not agreeing to anything until fully decided; student declined after exploring other options; multiple follow-ups were respectful and patient"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Rhia Aurora",
+          "mobile": [
+            "+447305266386"
+          ],
+          "email": [
+            "raurora1824@gmail.com"
+          ],
+          "whatsapp": [
+            "+447305266386"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 39,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": "2025-09-20",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": "installment",
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Louise House"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to connect with Rhia on 2025-09-19 (Friday) for an update on accommodation decision.",
+            "due": "2025-09-19",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-09-16 where Rhia requested to be contacted on Friday for follow-up."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to send property link for Louise House to Rhia for review.",
+            "due": "within_24h",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-09-15 with property link sent."
+          }
+        ],
+        "last_agent_response": "Agent acknowledged Rhia's request for more time to decide and agreed to follow up on Friday (2025-09-19). Agent also provided property link and explained contract terms and move-in dates clearly.",
+        "suggested_next_step": "No further action required as Rhia declined the accommodation on 2025-09-19; agent to close the inquiry but remain available for future assistance."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Rhia Aurora",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via mobile number 447305266386",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "Not mentioned",
+              "move_in_date": "Preferred move-in date requested as 20th September 2025 instead of 13th September 2025",
+              "lease_duration": "26 - 40 weeks (specifically discussed 36 and 39 week contracts)",
+              "special_requirements": "Requested to start contract on 20th September; discussed flexibility on move-in date with contract start date earlier than actual move-in"
+            },
+            "current_status": {
+              "booking_stage": "Considering options; no booking confirmed; declined offer after exploring alternatives",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "6 (3 phone calls, 2 WhatsApp message packs with multiple messages)",
+              "primary_channel": "Phone calls and WhatsApp",
+              "last_contact": "2025-09-19",
+              "response_time": "Student responds within hours to days; requested follow-up calls on specific days",
+              "key_moments": "Initial inquiry and contract date adjustment request on 2025-09-13; detailed contract and move-in date discussion on 2025-09-15; student requested time to decide; final call on 2025-09-19 where student declined accommodation as they sorted out alternative"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Louise House (Lewis House) in London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Interested in 39 week contract but concerned about contract ending before course end; preferred move-in date 20th September",
+              "offers_made": "Agent shared property link and explained contract options (36 vs 39 weeks) and move-in flexibility"
+            },
+            "next_steps": {
+              "immediate_actions": "None, as student declined accommodation",
+              "pending_items": "None",
+              "follow_up_required": "None unless student requests assistance in future",
+              "timeline": "Student requested follow-up call on Friday 2025-09-19; final call occurred and student declined"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, thoughtful, cautious about commitment; requested time to consider options",
+              "urgency_level": "Low to moderate; student was not ready to commit immediately and requested delays",
+              "complexity": "Moderate due to contract date and move-in date negotiation and student’s concerns about contract length",
+              "special_considerations": "Student clarified they are not agreeing to anything until fully decided; student declined after exploring other options; multiple follow-ups were respectful and patient"
+            }
+          }
+        }
+      }
+    }
+  }
+}

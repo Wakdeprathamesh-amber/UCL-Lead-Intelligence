@@ -1,0 +1,310 @@
+{
+  "id": "lead_434",
+  "mobile_number": "85284819231",
+  "email": null,
+  "timeline": [
+    {
+      "id": 7477,
+      "lead_id": 434,
+      "event_type": "email",
+      "timestamp": "2025-08-20T09:09:07",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-20T09:09:07\", \"sender_email\": \"echo.tian@amberstudent.com\", \"recipient_email\": \"alanaleee9231@gmail.com\", \"subject\": \"Hi Alana, amber is here to help you book your ideal student home in London! Let's go!\", \"message\": \"Hi Alana,\\\\n\\\\nI am Echo, your booking manager for London. It is my pleasure to help you book the accommodation as requested.\\\\n\\\\nFor relevant suggestions for your accommodation search \\u2013 Reach out via call, email, or WhatsApp - or just let me know a good time to connect.\\\\n\\\\nWhatsapp\\uff1a8615111461586\\\\n\\\\nThanks again for choosing Amber - we\\u2019re excited to get you all set for your stay!\\\\n\\\\necho tian\\\\n\\\\nOperations Consultant\\\\n\\\\nPhone: +8613032320906\\\\n\\\\nEmail: [echo.tian@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\", \"snippet\": \"Hi Alana, I am Echo, your booking manager for London. It is my pleasure to help you book the accommodation as requested. For relevant suggestions for your accommodation search \\u2013 Reach out via call,\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"echo.tian@amberstudent.com\", \"student_email\": \"alanaleee9231@gmail.com\"}",
+      "created_at": "2025-11-18 11:10:43"
+    },
+    {
+      "id": 7478,
+      "lead_id": 434,
+      "event_type": "call",
+      "timestamp": "2025-08-21T09:31:42.816305",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7728805",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T09:31:42.816305\", \"id\": 7728805, \"duration\": \"13\", \"to_number\": \"85284819231\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ae68f8e0-9a51-4d25-ad33-1f5d2ab86715.wav\"}",
+      "created_at": "2025-11-18 11:10:43"
+    },
+    {
+      "id": 7479,
+      "lead_id": 434,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3158915, \"user_name\": \"Lee Pui Wan Alana\", \"email\": \"alanaleee9231@gmail.com\", \"phone\": \"85284819231\", \"lease_duration\": \"\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 6517, \"inventory_id\": 137083}",
+      "created_at": "2025-11-18 11:10:43"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 324,
+      "lead_id": 434,
+      "call_id": "7728805",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ae68f8e0-9a51-4d25-ad33-1f5d2ab86715.wav",
+      "transcript_text": "Speaker A: 您 已 被 接駁 至 8419-23 郵箱, 留下 聯絡 電話 號碼 按 1 字.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:10:50"
+    }
+  ],
+  "summary": {
+    "id": 179,
+    "lead_id": 434,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Lee Pui Wan Alana\", \"mobile\": [\"+85284819231\"], \"email\": [\"alanaleee9231@gmail.com\"], \"whatsapp\": [\"+8615111461586\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent Echo to follow up with Alana to discuss accommodation options and schedule a call or WhatsApp chat as per her availability.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email from Echo Tian offering to help and suggesting to connect via call, email, or WhatsApp.\"}], \"last_agent_response\": \"Agent Echo Tian introduced herself as the booking manager for London and invited Alana to reach out via call, email, or WhatsApp to discuss accommodation options.\", \"suggested_next_step\": \"Agent Echo to proactively contact Alana to arrange a suitable time for a call or WhatsApp conversation to assist with accommodation booking.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Lee Pui Wan Alana\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email: alanaleee9231@gmail.com; Phone/WhatsApp: 85284819231\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 (1 email outbound, 1 call inbound, 1 lead info record)\", \"primary_channel\": \"Email and phone call\", \"last_contact\": \"2025-08-21 (call)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial outreach email sent by agent Echo Tian; phone call connected to student with voicemail message\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137083 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to respond or connect via call, email, or WhatsApp to discuss accommodation options\", \"pending_items\": \"Student\\u2019s lease duration and move-in date details\", \"follow_up_required\": \"Agent to follow up if no student response\", \"timeline\": \"Not mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not available\", \"urgency_level\": \"Not mentioned\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student prefers communication via multiple channels including WhatsApp\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Lee Pui Wan Alana\", \"mobile\": [\"+85284819231\"], \"email\": [\"alanaleee9231@gmail.com\"], \"whatsapp\": [\"+8615111461586\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent Echo to follow up with Alana to discuss accommodation options and schedule a call or WhatsApp chat as per her availability.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email from Echo Tian offering to help and suggesting to connect via call, email, or WhatsApp.\"}], \"last_agent_response\": \"Agent Echo Tian introduced herself as the booking manager for London and invited Alana to reach out via call, email, or WhatsApp to discuss accommodation options.\", \"suggested_next_step\": \"Agent Echo to proactively contact Alana to arrange a suitable time for a call or WhatsApp conversation to assist with accommodation booking.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Lee Pui Wan Alana\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email: alanaleee9231@gmail.com; Phone/WhatsApp: 85284819231\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 (1 email outbound, 1 call inbound, 1 lead info record)\", \"primary_channel\": \"Email and phone call\", \"last_contact\": \"2025-08-21 (call)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial outreach email sent by agent Echo Tian; phone call connected to student with voicemail message\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137083 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to respond or connect via call, email, or WhatsApp to discuss accommodation options\", \"pending_items\": \"Student\\u2019s lease duration and move-in date details\", \"follow_up_required\": \"Agent to follow up if no student response\", \"timeline\": \"Not mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not available\", \"urgency_level\": \"Not mentioned\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student prefers communication via multiple channels including WhatsApp\"}}}}}",
+    "created_at": "2025-11-18 11:10:56",
+    "updated_at": "2025-11-18T16:40:56.064983",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Lee Pui Wan Alana",
+        "mobile": [
+          "+85284819231"
+        ],
+        "email": [
+          "alanaleee9231@gmail.com"
+        ],
+        "whatsapp": [
+          "+8615111461586"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent Echo to follow up with Alana to discuss accommodation options and schedule a call or WhatsApp chat as per her availability.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Email from Echo Tian offering to help and suggesting to connect via call, email, or WhatsApp."
+        }
+      ],
+      "last_agent_response": "Agent Echo Tian introduced herself as the booking manager for London and invited Alana to reach out via call, email, or WhatsApp to discuss accommodation options.",
+      "suggested_next_step": "Agent Echo to proactively contact Alana to arrange a suitable time for a call or WhatsApp conversation to assist with accommodation booking."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Lee Pui Wan Alana",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email: alanaleee9231@gmail.com; Phone/WhatsApp: 85284819231",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "Weekly budget in pounds",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 (1 email outbound, 1 call inbound, 1 lead info record)",
+            "primary_channel": "Email and phone call",
+            "last_contact": "2025-08-21 (call)",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial outreach email sent by agent Echo Tian; phone call connected to student with voicemail message"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 137083 associated with lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to respond or connect via call, email, or WhatsApp to discuss accommodation options",
+            "pending_items": "Student’s lease duration and move-in date details",
+            "follow_up_required": "Agent to follow up if no student response",
+            "timeline": "Not mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Not available",
+            "urgency_level": "Not mentioned",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Student prefers communication via multiple channels including WhatsApp"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Lee Pui Wan Alana",
+          "mobile": [
+            "+85284819231"
+          ],
+          "email": [
+            "alanaleee9231@gmail.com"
+          ],
+          "whatsapp": [
+            "+8615111461586"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent Echo to follow up with Alana to discuss accommodation options and schedule a call or WhatsApp chat as per her availability.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Email from Echo Tian offering to help and suggesting to connect via call, email, or WhatsApp."
+          }
+        ],
+        "last_agent_response": "Agent Echo Tian introduced herself as the booking manager for London and invited Alana to reach out via call, email, or WhatsApp to discuss accommodation options.",
+        "suggested_next_step": "Agent Echo to proactively contact Alana to arrange a suitable time for a call or WhatsApp conversation to assist with accommodation booking."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Lee Pui Wan Alana",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email: alanaleee9231@gmail.com; Phone/WhatsApp: 85284819231",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "Weekly budget in pounds",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 (1 email outbound, 1 call inbound, 1 lead info record)",
+              "primary_channel": "Email and phone call",
+              "last_contact": "2025-08-21 (call)",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial outreach email sent by agent Echo Tian; phone call connected to student with voicemail message"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 137083 associated with lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to respond or connect via call, email, or WhatsApp to discuss accommodation options",
+              "pending_items": "Student’s lease duration and move-in date details",
+              "follow_up_required": "Agent to follow up if no student response",
+              "timeline": "Not mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Not available",
+              "urgency_level": "Not mentioned",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Student prefers communication via multiple channels including WhatsApp"
+            }
+          }
+        }
+      }
+    }
+  }
+}

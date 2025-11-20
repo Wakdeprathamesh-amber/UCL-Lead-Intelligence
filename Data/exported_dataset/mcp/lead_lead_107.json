@@ -1,0 +1,319 @@
+{
+  "id": "lead_107",
+  "mobile_number": "821076292242",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2027,
+      "lead_id": 107,
+      "event_type": "call",
+      "timestamp": "2025-08-26T14:36:28.671114",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7763361",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T14:36:28.671114\", \"id\": 7763361, \"duration\": \"0\", \"to_number\": \"821076292242\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:14:23"
+    },
+    {
+      "id": 2028,
+      "lead_id": 107,
+      "event_type": "call",
+      "timestamp": "2025-08-26T14:59:55.747835",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7763580",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T14:59:55.747835\", \"id\": 7763580, \"duration\": \"0\", \"to_number\": \"821076292242\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:14:23"
+    },
+    {
+      "id": 2029,
+      "lead_id": 107,
+      "event_type": "call",
+      "timestamp": "2025-08-26T15:00:01.306826",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7763583",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T15:00:01.306826\", \"id\": 7763583, \"duration\": \"0\", \"to_number\": \"821076292242\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:14:23"
+    },
+    {
+      "id": 2030,
+      "lead_id": 107,
+      "event_type": "call",
+      "timestamp": "2025-08-27T07:51:44.872759",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7766643",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-27T07:51:44.872759\", \"id\": 7766643, \"duration\": \"0\", \"to_number\": \"821076292242\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:14:23"
+    },
+    {
+      "id": 2031,
+      "lead_id": 107,
+      "event_type": "call",
+      "timestamp": "2025-08-29T07:26:30.829681",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7779627",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-29T07:26:30.829681\", \"id\": 7779627, \"duration\": \"0\", \"to_number\": \"821076292242\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:14:23"
+    },
+    {
+      "id": 2032,
+      "lead_id": 107,
+      "event_type": "call",
+      "timestamp": "2025-08-29T07:26:49.928002",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7779631",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-29T07:26:49.928002\", \"id\": 7779631, \"duration\": \"0\", \"to_number\": \"821076292242\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:14:23"
+    },
+    {
+      "id": 2033,
+      "lead_id": 107,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3180662, \"user_name\": \"Anna Jo\", \"email\": \"whdkssk9696@gmail.com\", \"phone\": \"821076292242\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 270, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8860, \"inventory_id\": 1562465}",
+      "created_at": "2025-11-18 10:14:23"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 45,
+    "lead_id": 107,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Anna Jo\", \"mobile\": [\"821076292242\"], \"email\": [\"whdkssk9696@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 270, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Multiple calls were made by the agent to the student phone number with no duration indicating no successful contact.\", \"suggested_next_step\": \"Agent should follow up with the student via call or alternative communication to confirm interest and next steps.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Anna Jo\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 821076292242; email whdkssk9696@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3270 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry stage; no confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"7 phone call attempts\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-29\", \"response_time\": \"No calls connected (all calls duration 0 seconds)\", \"key_moments\": \"Multiple call attempts over several days without connection; lead information received on 2025-09-13\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1562465 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish successful contact with student to discuss accommodation options\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Agent to follow up via alternative contact methods or email\", \"timeline\": \"Move-out date noted as 2026-09-04; lease duration 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"Not available due to no connected calls\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry with no detailed preferences or confirmed booking\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest difficulty reaching student; consider alternative communication channels\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Anna Jo\", \"mobile\": [\"821076292242\"], \"email\": [\"whdkssk9696@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 270, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Multiple calls were made by the agent to the student phone number with no duration indicating no successful contact.\", \"suggested_next_step\": \"Agent should follow up with the student via call or alternative communication to confirm interest and next steps.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Anna Jo\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 821076292242; email whdkssk9696@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3270 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry stage; no confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"7 phone call attempts\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-29\", \"response_time\": \"No calls connected (all calls duration 0 seconds)\", \"key_moments\": \"Multiple call attempts over several days without connection; lead information received on 2025-09-13\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1562465 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish successful contact with student to discuss accommodation options\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Agent to follow up via alternative contact methods or email\", \"timeline\": \"Move-out date noted as 2026-09-04; lease duration 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"Not available due to no connected calls\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry with no detailed preferences or confirmed booking\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest difficulty reaching student; consider alternative communication channels\"}}}}}",
+    "created_at": "2025-11-18 10:14:32",
+    "updated_at": "2025-11-18T15:44:32.524719",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Anna Jo",
+        "mobile": [
+          "821076292242"
+        ],
+        "email": [
+          "whdkssk9696@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 270,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Multiple calls were made by the agent to the student phone number with no duration indicating no successful contact.",
+      "suggested_next_step": "Agent should follow up with the student via call or alternative communication to confirm interest and next steps."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Anna Jo",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls to number 821076292242; email whdkssk9696@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£270 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry stage; no confirmed booking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "7 phone call attempts",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-29",
+            "response_time": "No calls connected (all calls duration 0 seconds)",
+            "key_moments": "Multiple call attempts over several days without connection; lead information received on 2025-09-13"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1562465 associated with lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Establish successful contact with student to discuss accommodation options",
+            "pending_items": "Student response to calls",
+            "follow_up_required": "Agent to follow up via alternative contact methods or email",
+            "timeline": "Move-out date noted as 2026-09-04; lease duration 51 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "Not available due to no connected calls",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry with no detailed preferences or confirmed booking",
+            "special_considerations": "Multiple unsuccessful call attempts suggest difficulty reaching student; consider alternative communication channels"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Anna Jo",
+          "mobile": [
+            "821076292242"
+          ],
+          "email": [
+            "whdkssk9696@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 270,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Multiple calls were made by the agent to the student phone number with no duration indicating no successful contact.",
+        "suggested_next_step": "Agent should follow up with the student via call or alternative communication to confirm interest and next steps."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Anna Jo",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls to number 821076292242; email whdkssk9696@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£270 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry stage; no confirmed booking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "7 phone call attempts",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-29",
+              "response_time": "No calls connected (all calls duration 0 seconds)",
+              "key_moments": "Multiple call attempts over several days without connection; lead information received on 2025-09-13"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1562465 associated with lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Establish successful contact with student to discuss accommodation options",
+              "pending_items": "Student response to calls",
+              "follow_up_required": "Agent to follow up via alternative contact methods or email",
+              "timeline": "Move-out date noted as 2026-09-04; lease duration 51 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "Not available due to no connected calls",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry with no detailed preferences or confirmed booking",
+              "special_considerations": "Multiple unsuccessful call attempts suggest difficulty reaching student; consider alternative communication channels"
+            }
+          }
+        }
+      }
+    }
+  }
+}

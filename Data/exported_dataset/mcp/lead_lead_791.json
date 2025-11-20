@@ -1,0 +1,569 @@
+{
+  "id": "lead_791",
+  "mobile_number": "393342898833",
+  "email": null,
+  "timeline": [
+    {
+      "id": 12643,
+      "lead_id": 791,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3100566, \"user_name\": \"Anna Alessio\", \"email\": \"anna.alessio07@gmail.com\", \"phone\": \"393342898833\", \"lease_duration\": \"35 week\", \"move_out_date\": \"2026-05-08\", \"budget\": 324, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8217, \"inventory_id\": 2000655}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12644,
+      "lead_id": 791,
+      "event_type": "call",
+      "timestamp": "2025-07-29T16:43:05.420914",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7588982",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-29T16:43:05.420914\", \"id\": 7588982, \"duration\": \"5\", \"to_number\": \"393342898833\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d71f3a79-ce48-404a-8ae0-ff2f2e1a7f65.wav\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12645,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-29T16:47:31",
+      "content": "Hey Anna, Good evening. This is Booking Manager Anuranan from Amber Student.",
+      "source": "whatsapp",
+      "event_id": "6576019",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-29T16:47:31\", \"id\": 6576019, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"393342898833\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_393342898833@c.us_3EB05E9BEDD390286B0672\", \"message_type\": \"text\", \"message_content\": \"Hey Anna, Good evening. This is Booking Manager Anuranan from Amber Student.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-29T16:47:31.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Anna, Good evening. This is Booking Manager Anuranan from Amber Student.\\\", \\\"Datetime\\\": 1753807651000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"393342898833@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_393342898833@c.us_3EB05E9BEDD390286B0672\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-29T16:47:31.830490\", \"direction\": \"outbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12646,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-29T16:48:20",
+      "content": "I will be assisting you in booking your ideal accommodation near UCL.",
+      "source": "whatsapp",
+      "event_id": "6576042",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-29T16:48:20\", \"id\": 6576042, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"393342898833\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_393342898833@c.us_3EB0536EB4B7E157613210\", \"message_type\": \"text\", \"message_content\": \"I will be assisting you in booking your ideal accommodation near UCL.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-29T16:48:20.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"I will be assisting you in booking your ideal accommodation near UCL.\\\", \\\"Datetime\\\": 1753807700000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"393342898833@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_393342898833@c.us_3EB0536EB4B7E157613210\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-29T16:48:20.707025\", \"direction\": \"outbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12647,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-30T16:17:21",
+      "content": "Have you find something?",
+      "source": "whatsapp",
+      "event_id": "6619316",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-30T16:17:21\", \"id\": 6619316, \"email\": \"\", \"from_number\": \"393342898833\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_393342898833@c.us_3A965B8CB779D4B27DF1\", \"message_type\": \"text\", \"message_content\": \"Have you find something?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"393342898833@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-30T16:17:21.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Have you find something?\\\", \\\"Datetime\\\": 1753892241000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"393342898833@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_393342898833@c.us_3A965B8CB779D4B27DF1\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"393342898833\\\", \\\"sentByUserId\\\": \\\"393342898833@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-30T16:17:21.659075\", \"direction\": \"inbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12648,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-30T16:21:26",
+      "content": "Hey Anna, Apologies for the delay in getting back to you. Here are a few properties you can check out near UCL.",
+      "source": "whatsapp",
+      "event_id": "6619527",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-30T16:21:26\", \"id\": 6619527, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"393342898833\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_393342898833@c.us_3EB0B89D9DDAE9480F149C\", \"message_type\": \"text\", \"message_content\": \"Hey Anna, Apologies for the delay in getting back to you. Here are a few properties you can check out near UCL.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-30T16:21:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Anna, Apologies for the delay in getting back to you. Here are a few properties you can check out near UCL.\\\", \\\"Datetime\\\": 1753892486000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"393342898833@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_393342898833@c.us_3EB0B89D9DDAE9480F149C\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-30T16:21:27.580265\", \"direction\": \"outbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12649,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-30T16:27:57",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *ARBOUR HOUSE, LONDON*\nhttps://amberstudent.com/places/arbour-house-2002143129812\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.1 mi (13 mins)\n*Walk:* 1.7 mi (30 mins)\n*Bus/Train:* 2.7 mi (21 mins)\n\n🏘 *ROOM TYPES:*\n*Classic Studio :*\n  £415/week (Duration: 51 week) (Move in: 20 Sep, 2025) (Move out: 12 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/arbour-house-2002143129812/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=148926\n\n------------\n\n🏡 *IQ CITY, LONDON*\nhttps://amberstudent.com/places/iq-city-london-1811192172260\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.4 mi (14 mins)\n*Walk:* 2.1 mi (35 mins)\n*Bus/Train:* 2.6 mi (18 mins)\n\n🏘 *ROOM TYPES:*\n\n*Gold En Suite:*\n  £451/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze En Suite Plus:*\n  £403/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £443/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Gold 2 Bed Apt Plus:*\n  £442/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Platinum 2 Bed Apt Plus:*\n£428 - £449/week (Duration: 4 week - 51 week) (Move in: 2 Aug, 2025)\n\n*Silver 2 Bed Apt Plus:*\n  £478/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Studio:*\n  £482/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Silver Studio:*\n  £510/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Studio Plus:*\n  £465/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/iq-city-london-1811192172260/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=143256\n\n------------\n\n🏡 *CHAPTER ISLINGTON, LONDON*\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.2 mi (13 mins)\n*Bus/Train:* 2.5 mi (24 mins)\n\n🏘 *ROOM TYPES:*\n*Ensuite Silver Lower Level:*\n  £372/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £402/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n\n*Ensuite Silver Mid Level:*\n  £377/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £377/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n  £407/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n\n*Ensuite Silver Upper Level:*\n  £382/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £402/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £412/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n\n*Ensuite Gold Lower Level:*\n  £383/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £413/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n\n*Ensuite Gold Mid Level :*\n  £388/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £418/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n\n*Ensuite Gold Upper Level:*\n  £393/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £423/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n\n*Ensuite Platinum Lower Level:*\n  £452/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n\n*Ensuite Platinum Mid Level:*\n  £457/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n\n*Ensuite Platinum Upper Level:*\n  £462/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n\n*Studio Silver Upper Level:*\n  £552/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=136682\n\n------------\n\n🏡 *EAST CENTRAL HOUSE, LONDON*\nhttps://amberstudent.com/places/east-central-house-london-2311140711466\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.3 mi (15 mins)\n*Bus/Train:* 2.4 mi (23 mins)\n\n🏘 *ROOM TYPES:*\n*Classic Ensuite :*\n  £365/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Premium Range 2 Ensuite :*\n  £386/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/east-central-house-london-2311140711466/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=924781\n\n------------\n\n🏡 *MOONRAKER POINT, LONDON*\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.0 mi (19 mins)\n*Bus/Train:* 5.1 mi (18 mins)\n\n🏘 *ROOM TYPES:*\n*Classic Ensuite:*\n  £357/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Premium Range 1 Ensuite:*\n  £373/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Premium Range 2 Ensuite:*\n  £388/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=137881\n\n------------",
+      "source": "whatsapp",
+      "event_id": "6619817",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-30T16:27:57\", \"id\": 6619817, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"393342898833\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_393342898833@c.us_3EB0A5C5E96D23C05DE637\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *ARBOUR HOUSE, LONDON*\\nhttps://amberstudent.com/places/arbour-house-2002143129812\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.1 mi (13 mins)\\n*Walk:* 1.7 mi (30 mins)\\n*Bus/Train:* 2.7 mi (21 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Classic Studio :*\\n\\u00a0\\u00a0\\u00a3415/week (Duration: 51 week) (Move in: 20 Sep, 2025) (Move out: 12 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/arbour-house-2002143129812/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=148926\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ CITY, LONDON*\\nhttps://amberstudent.com/places/iq-city-london-1811192172260\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.4 mi (14 mins)\\n*Walk:* 2.1 mi (35 mins)\\n*Bus/Train:* 2.6 mi (18 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n\\n*Gold En Suite:*\\n\\u00a0\\u00a0\\u00a3451/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze En Suite Plus:*\\n\\u00a0\\u00a0\\u00a3403/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3443/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Gold 2 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3442/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Platinum 2 Bed Apt Plus:*\\n\\u00a3428 - \\u00a3449/week (Duration: 4 week - 51 week) (Move in: 2 Aug, 2025)\\n\\n*Silver 2 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3478/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Studio:*\\n\\u00a0\\u00a0\\u00a3482/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Silver Studio:*\\n\\u00a0\\u00a0\\u00a3510/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Studio Plus:*\\n\\u00a0\\u00a0\\u00a3465/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/iq-city-london-1811192172260/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=143256\\n\\n------------\\n\\n\\ud83c\\udfe1 *CHAPTER ISLINGTON, LONDON*\\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.2 mi (13 mins)\\n*Bus/Train:* 2.5 mi (24 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Ensuite Silver Lower Level:*\\n\\u00a0\\u00a0\\u00a3372/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3402/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n*Ensuite Silver Mid Level:*\\n\\u00a0\\u00a0\\u00a3377/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3377/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3407/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n*Ensuite Silver Upper Level:*\\n\\u00a0\\u00a0\\u00a3382/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3402/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3412/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n*Ensuite Gold Lower Level:*\\n\\u00a0\\u00a0\\u00a3383/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3413/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n*Ensuite Gold Mid Level :*\\n\\u00a0\\u00a0\\u00a3388/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3418/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n*Ensuite Gold Upper Level:*\\n\\u00a0\\u00a0\\u00a3393/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3423/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n*Ensuite Platinum Lower Level:*\\n\\u00a0\\u00a0\\u00a3452/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n*Ensuite Platinum Mid Level:*\\n\\u00a0\\u00a0\\u00a3457/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n*Ensuite Platinum Upper Level:*\\n\\u00a0\\u00a0\\u00a3462/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n*Studio Silver Upper Level:*\\n\\u00a0\\u00a0\\u00a3552/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=136682\\n\\n------------\\n\\n\\ud83c\\udfe1 *EAST CENTRAL HOUSE, LONDON*\\nhttps://amberstudent.com/places/east-central-house-london-2311140711466\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.3 mi (15 mins)\\n*Bus/Train:* 2.4 mi (23 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Classic Ensuite :*\\n\\u00a0\\u00a0\\u00a3365/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Premium Range 2 Ensuite :*\\n\\u00a0\\u00a0\\u00a3386/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/east-central-house-london-2311140711466/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=924781\\n\\n------------\\n\\n\\ud83c\\udfe1 *MOONRAKER POINT, LONDON*\\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.0 mi (19 mins)\\n*Bus/Train:* 5.1 mi (18 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Classic Ensuite:*\\n\\u00a0\\u00a0\\u00a3357/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Premium Range 1 Ensuite:*\\n\\u00a0\\u00a0\\u00a3373/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Premium Range 2 Ensuite:*\\n\\u00a0\\u00a0\\u00a3388/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=137881\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-30T16:27:57.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *ARBOUR HOUSE, LONDON*\\\\nhttps://amberstudent.com/places/arbour-house-2002143129812\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.1 mi (13 mins)\\\\n*Walk:* 1.7 mi (30 mins)\\\\n*Bus/Train:* 2.7 mi (21 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Classic Studio :*\\\\n\\u00a0\\u00a0\\u00a3415/week (Duration: 51 week) (Move in: 20 Sep, 2025) (Move out: 12 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/arbour-house-2002143129812/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=148926\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ CITY, LONDON*\\\\nhttps://amberstudent.com/places/iq-city-london-1811192172260\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.4 mi (14 mins)\\\\n*Walk:* 2.1 mi (35 mins)\\\\n*Bus/Train:* 2.6 mi (18 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n\\\\n*Gold En Suite:*\\\\n\\u00a0\\u00a0\\u00a3451/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze En Suite Plus:*\\\\n\\u00a0\\u00a0\\u00a3403/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3443/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Gold 2 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3442/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Platinum 2 Bed Apt Plus:*\\\\n\\u00a3428 - \\u00a3449/week (Duration: 4 week - 51 week) (Move in: 2 Aug, 2025)\\\\n\\\\n*Silver 2 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3478/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Studio:*\\\\n\\u00a0\\u00a0\\u00a3482/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver Studio:*\\\\n\\u00a0\\u00a0\\u00a3510/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Studio Plus:*\\\\n\\u00a0\\u00a0\\u00a3465/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/iq-city-london-1811192172260/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=143256\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CHAPTER ISLINGTON, LONDON*\\\\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.2 mi (13 mins)\\\\n*Bus/Train:* 2.5 mi (24 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Ensuite Silver Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3372/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3402/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n*Ensuite Silver Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3377/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3377/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3407/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n*Ensuite Silver Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3382/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3402/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3412/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n*Ensuite Gold Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3383/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3413/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n*Ensuite Gold Mid Level :*\\\\n\\u00a0\\u00a0\\u00a3388/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3418/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n*Ensuite Gold Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3393/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3423/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n*Ensuite Platinum Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3452/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n*Ensuite Platinum Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3457/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n*Ensuite Platinum Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3462/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n*Studio Silver Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3552/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=136682\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *EAST CENTRAL HOUSE, LONDON*\\\\nhttps://amberstudent.com/places/east-central-house-london-2311140711466\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.3 mi (15 mins)\\\\n*Bus/Train:* 2.4 mi (23 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Classic Ensuite :*\\\\n\\u00a0\\u00a0\\u00a3365/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Premium Range 2 Ensuite :*\\\\n\\u00a0\\u00a0\\u00a3386/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/east-central-house-london-2311140711466/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=924781\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *MOONRAKER POINT, LONDON*\\\\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.0 mi (19 mins)\\\\n*Bus/Train:* 5.1 mi (18 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Classic Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3357/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Premium Range 1 Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3373/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Premium Range 2 Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3388/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/moonraker-point-london-1710250639933/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=137881\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1753892877000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"393342898833@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_393342898833@c.us_3EB0A5C5E96D23C05DE637\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-30T16:27:58.239500\", \"direction\": \"outbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12650,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-30T16:35:25",
+      "content": "Thanks!",
+      "source": "whatsapp",
+      "event_id": "6620152",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-30T16:35:25\", \"id\": 6620152, \"email\": \"\", \"from_number\": \"393342898833\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_393342898833@c.us_3AB1C25EF9C127BB092E\", \"message_type\": \"text\", \"message_content\": \"Thanks!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"393342898833@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-30T16:35:25.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Thanks!\\\", \\\"Datetime\\\": 1753893325000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"393342898833@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_393342898833@c.us_3AB1C25EF9C127BB092E\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"393342898833\\\", \\\"sentByUserId\\\": \\\"393342898833@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-30T16:35:26.116449\", \"direction\": \"inbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12651,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-30T17:38:26",
+      "content": "This Rooms are all availabe right?",
+      "source": "whatsapp",
+      "event_id": "6622983",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-30T17:38:26\", \"id\": 6622983, \"email\": \"\", \"from_number\": \"393342898833\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_393342898833@c.us_3A4F5152828023AAFBC3\", \"message_type\": \"text\", \"message_content\": \"This Rooms are all availabe right?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"393342898833@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-30T17:38:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"This Rooms are all availabe right?\\\", \\\"Datetime\\\": 1753897106000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"393342898833@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_393342898833@c.us_3A4F5152828023AAFBC3\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"393342898833\\\", \\\"sentByUserId\\\": \\\"393342898833@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-30T17:38:26.786152\", \"direction\": \"inbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12652,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-02T11:54:45",
+      "content": "Hey Anna, Hope you are doing well! I just wanted to check if you were able to go through the options?",
+      "source": "whatsapp",
+      "event_id": "6728514",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-02T11:54:45\", \"id\": 6728514, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"393342898833\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_393342898833@c.us_3EB0A8E708EB4E116A9814\", \"message_type\": \"text\", \"message_content\": \"Hey Anna, Hope you are doing well! I just wanted to check if you were able to go through the options?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-02T11:54:45.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Anna, Hope you are doing well! I just wanted to check if you were able to go through the options?\\\", \\\"Datetime\\\": 1754135685000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"393342898833@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_393342898833@c.us_3EB0A8E708EB4E116A9814\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-02T11:54:45.929825\", \"direction\": \"outbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12653,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-05T16:03:47",
+      "content": "Hey Anna, Look forward to hearing from you",
+      "source": "whatsapp",
+      "event_id": "6841523",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-05T16:03:47\", \"id\": 6841523, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"393342898833\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_393342898833@c.us_3EB0A5B1C7982C4D3B8744\", \"message_type\": \"text\", \"message_content\": \"Hey Anna, Look forward to hearing from you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-05T16:03:47.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Anna, Look forward to hearing from you\\\", \\\"Datetime\\\": 1754409827000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"393342898833@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_393342898833@c.us_3EB0A5B1C7982C4D3B8744\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-05T16:03:47.503551\", \"direction\": \"outbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12654,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-05T19:50:36",
+      "content": "I’m considering different option. I’ll let you know when I will decide. Thanks!!!",
+      "source": "whatsapp",
+      "event_id": "6850900",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-05T19:50:36\", \"id\": 6850900, \"email\": \"\", \"from_number\": \"393342898833\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_393342898833@c.us_3A3EAD9F2A13426DA3C7\", \"message_type\": \"text\", \"message_content\": \"I\\u2019m considering different option. I\\u2019ll let you know when I will decide. Thanks!!!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"393342898833@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-05T19:50:36.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"I\\u2019m considering different option. I\\u2019ll let you know when I will decide. Thanks!!!\\\", \\\"Datetime\\\": 1754423436000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"393342898833@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_393342898833@c.us_3A3EAD9F2A13426DA3C7\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"393342898833\\\", \\\"sentByUserId\\\": \\\"393342898833@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-05T19:50:37.125322\", \"direction\": \"inbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12655,
+      "lead_id": 791,
+      "event_type": "call",
+      "timestamp": "2025-08-12T15:21:04.572074",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7669595",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-12T15:21:04.572074\", \"id\": 7669595, \"duration\": \"0\", \"to_number\": \"393342898833\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12656,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-12T15:22:24",
+      "content": "Hey Anna, are you still looking for Student accmmodations near UCL?",
+      "source": "whatsapp",
+      "event_id": "7127053",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-12T15:22:24\", \"id\": 7127053, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"393342898833\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_393342898833@c.us_3EB0B1F28F0E2C1F790C37\", \"message_type\": \"text\", \"message_content\": \"Hey Anna, are you still looking for Student accmmodations near UCL?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-12T15:22:24.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Anna, are you still looking for Student accmmodations near UCL?\\\", \\\"Datetime\\\": 1755012144000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"393342898833@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_393342898833@c.us_3EB0B1F28F0E2C1F790C37\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-12T15:22:24.267344\", \"direction\": \"outbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12657,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-12T18:56:28",
+      "content": "Yes",
+      "source": "whatsapp",
+      "event_id": "7138246",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-12T18:56:28\", \"id\": 7138246, \"email\": \"\", \"from_number\": \"393342898833\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_393342898833@c.us_3A864090C4CECC2AC3BD\", \"message_type\": \"text\", \"message_content\": \"Yes\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"393342898833@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-12T18:56:28.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Yes\\\", \\\"Datetime\\\": 1755024988000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"393342898833@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_393342898833@c.us_3A864090C4CECC2AC3BD\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"393342898833\\\", \\\"sentByUserId\\\": \\\"393342898833@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-12T18:56:28.944453\", \"direction\": \"inbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12658,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T08:37:12",
+      "content": "Okay, do you want to check out more options apart from the ones shared earlier?",
+      "source": "whatsapp",
+      "event_id": "7151759",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T08:37:12\", \"id\": 7151759, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"393342898833\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_393342898833@c.us_3EB09F384935EAD747FB7A\", \"message_type\": \"text\", \"message_content\": \"Okay, do you want to check out more options apart from the ones shared earlier?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T08:37:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Okay, do you want to check out more options apart from the ones shared earlier?\\\", \\\"Datetime\\\": 1755074232000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"393342898833@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_393342898833@c.us_3EB09F384935EAD747FB7A\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-13T08:37:12.942302\", \"direction\": \"outbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12659,
+      "lead_id": 791,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T18:04:06",
+      "content": "Hey Anna, let me know if you would like to explore more accommodation options",
+      "source": "whatsapp",
+      "event_id": "7298665",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T18:04:06\", \"id\": 7298665, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"393342898833\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_393342898833@c.us_3EB026498416EFBD7980C9\", \"message_type\": \"text\", \"message_content\": \"Hey Anna, let me know if you would like to explore more accommodation options\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T18:04:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Anna, let me know if you would like to explore more accommodation options\\\", \\\"Datetime\\\": 1755281046000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"393342898833@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_393342898833@c.us_3EB026498416EFBD7980C9\\\", \\\"ChannelName\\\": \\\"393342898833\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-15T18:04:07.246448\", \"direction\": \"outbound\", \"sbase_user_id\": 2401353, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"393342898833\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12660,
+      "lead_id": 791,
+      "event_type": "call",
+      "timestamp": "2025-08-21T17:45:45.618891",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7733643",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T17:45:45.618891\", \"id\": 7733643, \"duration\": \"39\", \"to_number\": \"393342898833\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/6b4f7d4e-fbbc-4c29-af14-eef9eafda4db.wav\"}",
+      "created_at": "2025-11-18 13:00:00"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 623,
+      "lead_id": 791,
+      "call_id": "7588982",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d71f3a79-ce48-404a-8ae0-ff2f2e1a7f65.wav",
+      "transcript_text": "Speaker A: Iliad risponde il servizio di segreteria telefonica del numero.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:00:05"
+    },
+    {
+      "id": 625,
+      "lead_id": 791,
+      "call_id": "7733643",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/6b4f7d4e-fbbc-4c29-af14-eef9eafda4db.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Hello, Am I speaking with Anna?\nSpeaker B: Yes.\nSpeaker A: Hi, Anna. I'm calling from Amber. Student. I just wanted to check, are you still looking for student accommodations near ucl?\nSpeaker B: No, I don't because I find an accommodation in IQ City. Accommodation.\nSpeaker A: Okay.\nSpeaker C: Did you already book IQ City?\nSpeaker B: No, no, I have already book.\nSpeaker C: Okay. Did you book directly with the property?\nSpeaker B: Yeah.\nSpeaker A: Okay.\nSpeaker C: All right, Got it.\nSpeaker A: Thank you, thank.\nSpeaker B: You, thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:00:13"
+    }
+  ],
+  "summary": {
+    "id": 329,
+    "lead_id": 791,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Anna Alessio\", \"mobile\": [\"393342898833\"], \"email\": [\"anna.alessio07@gmail.com\"], \"whatsapp\": [\"393342898833\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 35, \"room_type\": null, \"budget\": {\"max\": 324, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Arbour House\", \"IQ City\", \"Chapter Islington\", \"East Central House\", \"Moonraker Point\"], \"rooms_considered\": [\"Classic Studio (Arbour House)\", \"Gold En Suite (IQ City)\", \"Bronze En Suite Plus (IQ City)\", \"Gold 2 Bed Apt Plus (IQ City)\", \"Platinum 2 Bed Apt Plus (IQ City)\", \"Silver 2 Bed Apt Plus (IQ City)\", \"Bronze Studio (IQ City)\", \"Silver Studio (IQ City)\", \"Bronze Studio Plus (IQ City)\", \"Ensuite Silver Lower Level (Chapter Islington)\", \"Ensuite Silver Mid Level (Chapter Islington)\", \"Ensuite Silver Upper Level (Chapter Islington)\", \"Ensuite Gold Lower Level (Chapter Islington)\", \"Ensuite Gold Mid Level (Chapter Islington)\", \"Ensuite Gold Upper Level (Chapter Islington)\", \"Ensuite Platinum Lower Level (Chapter Islington)\", \"Ensuite Platinum Mid Level (Chapter Islington)\", \"Ensuite Platinum Upper Level (Chapter Islington)\", \"Studio Silver Upper Level (Chapter Islington)\", \"Classic Ensuite (East Central House)\", \"Premium Range 2 Ensuite (East Central House)\", \"Classic Ensuite (Moonraker Point)\", \"Premium Range 1 Ensuite (Moonraker Point)\", \"Premium Range 2 Ensuite (Moonraker Point)\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Follow up with Anna to confirm if she wants to explore more accommodation options or proceed with booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent messages on 2025-08-12, 2025-08-13, and 2025-08-15 asking if Anna wants more options\"}, {\"type\": \"booking_action\", \"description\": \"Wait for Anna to decide on accommodation choice and inform agent to proceed with booking or further assistance.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Anna's message on 2025-08-05 stating she is considering options and will inform when decided\"}], \"last_agent_response\": \"Agent sent messages on 2025-08-12, 2025-08-13, and 2025-08-15 checking if Anna wants to explore more accommodation options.\", \"suggested_next_step\": \"Agent to follow up with Anna within a week to get her decision or offer further assistance.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Anna Alessio\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages on mobile number 393342898833 and email anna.alessio07@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, near University College London (UCL)\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not explicitly stated; multiple room types shown including studios, en suites, and apartments\", \"budget_range\": \"\\u00a3324 per week budget stated; properties offered ranged from approx. \\u00a3357 to \\u00a3552 per week\", \"move_in_date\": \"Around mid-September 2025 (various properties with move-in dates from 2 Aug to 20 Sep 2025)\", \"lease_duration\": \"35 weeks stated initially; property options ranged from 4 weeks to 51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking completed independently by student at IQ City; no booking through agent\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages (at least 15) and 3 phone calls\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-21 (phone call)\", \"response_time\": \"Agent responded within hours to days; student responded same day or within a few days\", \"key_moments\": \"Initial contact on 2025-07-29; agent shared multiple property options on 2025-07-30; student confirmed considering other options on 2025-08-05; agent followed up on 2025-08-12; final call on 2025-08-21 where student confirmed booking IQ City directly\"}, \"properties_discussed\": {\"properties_mentioned\": \"Arbour House, IQ City, Chapter Islington, East Central House, Moonraker Point (all in London near UCL)\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student asked if all rooms were available; no explicit preferences stated\", \"offers_made\": \"No offers or deals discussed\"}, \"next_steps\": {\"immediate_actions\": \"None required as student has booked independently\", \"pending_items\": \"None\", \"follow_up_required\": \"None unless student re-engages\", \"timeline\": \"Move-in expected around September 2025; lease duration approx. 35 weeks\"}, \"agent_notes\": {\"student_tone\": \"Polite and responsive; considering options but ultimately booked independently\", \"urgency_level\": \"Moderate initially; booking completed independently indicating lower urgency for agent intervention\", \"complexity\": \"Simple case; standard accommodation search\", \"special_considerations\": \"Student prefers to book directly; agent should note no booking through agency\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Anna Alessio\", \"mobile\": [\"393342898833\"], \"email\": [\"anna.alessio07@gmail.com\"], \"whatsapp\": [\"393342898833\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 35, \"room_type\": null, \"budget\": {\"max\": 324, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Arbour House\", \"IQ City\", \"Chapter Islington\", \"East Central House\", \"Moonraker Point\"], \"rooms_considered\": [\"Classic Studio (Arbour House)\", \"Gold En Suite (IQ City)\", \"Bronze En Suite Plus (IQ City)\", \"Gold 2 Bed Apt Plus (IQ City)\", \"Platinum 2 Bed Apt Plus (IQ City)\", \"Silver 2 Bed Apt Plus (IQ City)\", \"Bronze Studio (IQ City)\", \"Silver Studio (IQ City)\", \"Bronze Studio Plus (IQ City)\", \"Ensuite Silver Lower Level (Chapter Islington)\", \"Ensuite Silver Mid Level (Chapter Islington)\", \"Ensuite Silver Upper Level (Chapter Islington)\", \"Ensuite Gold Lower Level (Chapter Islington)\", \"Ensuite Gold Mid Level (Chapter Islington)\", \"Ensuite Gold Upper Level (Chapter Islington)\", \"Ensuite Platinum Lower Level (Chapter Islington)\", \"Ensuite Platinum Mid Level (Chapter Islington)\", \"Ensuite Platinum Upper Level (Chapter Islington)\", \"Studio Silver Upper Level (Chapter Islington)\", \"Classic Ensuite (East Central House)\", \"Premium Range 2 Ensuite (East Central House)\", \"Classic Ensuite (Moonraker Point)\", \"Premium Range 1 Ensuite (Moonraker Point)\", \"Premium Range 2 Ensuite (Moonraker Point)\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Follow up with Anna to confirm if she wants to explore more accommodation options or proceed with booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent messages on 2025-08-12, 2025-08-13, and 2025-08-15 asking if Anna wants more options\"}, {\"type\": \"booking_action\", \"description\": \"Wait for Anna to decide on accommodation choice and inform agent to proceed with booking or further assistance.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Anna's message on 2025-08-05 stating she is considering options and will inform when decided\"}], \"last_agent_response\": \"Agent sent messages on 2025-08-12, 2025-08-13, and 2025-08-15 checking if Anna wants to explore more accommodation options.\", \"suggested_next_step\": \"Agent to follow up with Anna within a week to get her decision or offer further assistance.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Anna Alessio\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages on mobile number 393342898833 and email anna.alessio07@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, near University College London (UCL)\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not explicitly stated; multiple room types shown including studios, en suites, and apartments\", \"budget_range\": \"\\u00a3324 per week budget stated; properties offered ranged from approx. \\u00a3357 to \\u00a3552 per week\", \"move_in_date\": \"Around mid-September 2025 (various properties with move-in dates from 2 Aug to 20 Sep 2025)\", \"lease_duration\": \"35 weeks stated initially; property options ranged from 4 weeks to 51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking completed independently by student at IQ City; no booking through agent\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages (at least 15) and 3 phone calls\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-21 (phone call)\", \"response_time\": \"Agent responded within hours to days; student responded same day or within a few days\", \"key_moments\": \"Initial contact on 2025-07-29; agent shared multiple property options on 2025-07-30; student confirmed considering other options on 2025-08-05; agent followed up on 2025-08-12; final call on 2025-08-21 where student confirmed booking IQ City directly\"}, \"properties_discussed\": {\"properties_mentioned\": \"Arbour House, IQ City, Chapter Islington, East Central House, Moonraker Point (all in London near UCL)\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student asked if all rooms were available; no explicit preferences stated\", \"offers_made\": \"No offers or deals discussed\"}, \"next_steps\": {\"immediate_actions\": \"None required as student has booked independently\", \"pending_items\": \"None\", \"follow_up_required\": \"None unless student re-engages\", \"timeline\": \"Move-in expected around September 2025; lease duration approx. 35 weeks\"}, \"agent_notes\": {\"student_tone\": \"Polite and responsive; considering options but ultimately booked independently\", \"urgency_level\": \"Moderate initially; booking completed independently indicating lower urgency for agent intervention\", \"complexity\": \"Simple case; standard accommodation search\", \"special_considerations\": \"Student prefers to book directly; agent should note no booking through agency\"}}}}}",
+    "created_at": "2025-11-18 13:00:26",
+    "updated_at": "2025-11-18T18:30:26.508703",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Anna Alessio",
+        "mobile": [
+          "393342898833"
+        ],
+        "email": [
+          "anna.alessio07@gmail.com"
+        ],
+        "whatsapp": [
+          "393342898833"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 35,
+        "room_type": null,
+        "budget": {
+          "max": 324,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Arbour House",
+          "IQ City",
+          "Chapter Islington",
+          "East Central House",
+          "Moonraker Point"
+        ],
+        "rooms_considered": [
+          "Classic Studio (Arbour House)",
+          "Gold En Suite (IQ City)",
+          "Bronze En Suite Plus (IQ City)",
+          "Gold 2 Bed Apt Plus (IQ City)",
+          "Platinum 2 Bed Apt Plus (IQ City)",
+          "Silver 2 Bed Apt Plus (IQ City)",
+          "Bronze Studio (IQ City)",
+          "Silver Studio (IQ City)",
+          "Bronze Studio Plus (IQ City)",
+          "Ensuite Silver Lower Level (Chapter Islington)",
+          "Ensuite Silver Mid Level (Chapter Islington)",
+          "Ensuite Silver Upper Level (Chapter Islington)",
+          "Ensuite Gold Lower Level (Chapter Islington)",
+          "Ensuite Gold Mid Level (Chapter Islington)",
+          "Ensuite Gold Upper Level (Chapter Islington)",
+          "Ensuite Platinum Lower Level (Chapter Islington)",
+          "Ensuite Platinum Mid Level (Chapter Islington)",
+          "Ensuite Platinum Upper Level (Chapter Islington)",
+          "Studio Silver Upper Level (Chapter Islington)",
+          "Classic Ensuite (East Central House)",
+          "Premium Range 2 Ensuite (East Central House)",
+          "Classic Ensuite (Moonraker Point)",
+          "Premium Range 1 Ensuite (Moonraker Point)",
+          "Premium Range 2 Ensuite (Moonraker Point)"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Follow up with Anna to confirm if she wants to explore more accommodation options or proceed with booking.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent messages on 2025-08-12, 2025-08-13, and 2025-08-15 asking if Anna wants more options"
+        },
+        {
+          "type": "booking_action",
+          "description": "Wait for Anna to decide on accommodation choice and inform agent to proceed with booking or further assistance.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Anna's message on 2025-08-05 stating she is considering options and will inform when decided"
+        }
+      ],
+      "last_agent_response": "Agent sent messages on 2025-08-12, 2025-08-13, and 2025-08-15 checking if Anna wants to explore more accommodation options.",
+      "suggested_next_step": "Agent to follow up with Anna within a week to get her decision or offer further assistance."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Anna Alessio",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Contacted via phone calls and WhatsApp messages on mobile number 393342898833 and email anna.alessio07@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, near University College London (UCL)",
+            "university": "University College London (UCL)",
+            "room_type": "Not explicitly stated; multiple room types shown including studios, en suites, and apartments",
+            "budget_range": "£324 per week budget stated; properties offered ranged from approx. £357 to £552 per week",
+            "move_in_date": "Around mid-September 2025 (various properties with move-in dates from 2 Aug to 20 Sep 2025)",
+            "lease_duration": "35 weeks stated initially; property options ranged from 4 weeks to 51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking completed independently by student at IQ City; no booking through agent",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple WhatsApp messages (at least 15) and 3 phone calls",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-08-21 (phone call)",
+            "response_time": "Agent responded within hours to days; student responded same day or within a few days",
+            "key_moments": "Initial contact on 2025-07-29; agent shared multiple property options on 2025-07-30; student confirmed considering other options on 2025-08-05; agent followed up on 2025-08-12; final call on 2025-08-21 where student confirmed booking IQ City directly"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Arbour House, IQ City, Chapter Islington, East Central House, Moonraker Point (all in London near UCL)",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Student asked if all rooms were available; no explicit preferences stated",
+            "offers_made": "No offers or deals discussed"
+          },
+          "next_steps": {
+            "immediate_actions": "None required as student has booked independently",
+            "pending_items": "None",
+            "follow_up_required": "None unless student re-engages",
+            "timeline": "Move-in expected around September 2025; lease duration approx. 35 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and responsive; considering options but ultimately booked independently",
+            "urgency_level": "Moderate initially; booking completed independently indicating lower urgency for agent intervention",
+            "complexity": "Simple case; standard accommodation search",
+            "special_considerations": "Student prefers to book directly; agent should note no booking through agency"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Anna Alessio",
+          "mobile": [
+            "393342898833"
+          ],
+          "email": [
+            "anna.alessio07@gmail.com"
+          ],
+          "whatsapp": [
+            "393342898833"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 35,
+          "room_type": null,
+          "budget": {
+            "max": 324,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Arbour House",
+            "IQ City",
+            "Chapter Islington",
+            "East Central House",
+            "Moonraker Point"
+          ],
+          "rooms_considered": [
+            "Classic Studio (Arbour House)",
+            "Gold En Suite (IQ City)",
+            "Bronze En Suite Plus (IQ City)",
+            "Gold 2 Bed Apt Plus (IQ City)",
+            "Platinum 2 Bed Apt Plus (IQ City)",
+            "Silver 2 Bed Apt Plus (IQ City)",
+            "Bronze Studio (IQ City)",
+            "Silver Studio (IQ City)",
+            "Bronze Studio Plus (IQ City)",
+            "Ensuite Silver Lower Level (Chapter Islington)",
+            "Ensuite Silver Mid Level (Chapter Islington)",
+            "Ensuite Silver Upper Level (Chapter Islington)",
+            "Ensuite Gold Lower Level (Chapter Islington)",
+            "Ensuite Gold Mid Level (Chapter Islington)",
+            "Ensuite Gold Upper Level (Chapter Islington)",
+            "Ensuite Platinum Lower Level (Chapter Islington)",
+            "Ensuite Platinum Mid Level (Chapter Islington)",
+            "Ensuite Platinum Upper Level (Chapter Islington)",
+            "Studio Silver Upper Level (Chapter Islington)",
+            "Classic Ensuite (East Central House)",
+            "Premium Range 2 Ensuite (East Central House)",
+            "Classic Ensuite (Moonraker Point)",
+            "Premium Range 1 Ensuite (Moonraker Point)",
+            "Premium Range 2 Ensuite (Moonraker Point)"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Follow up with Anna to confirm if she wants to explore more accommodation options or proceed with booking.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent messages on 2025-08-12, 2025-08-13, and 2025-08-15 asking if Anna wants more options"
+          },
+          {
+            "type": "booking_action",
+            "description": "Wait for Anna to decide on accommodation choice and inform agent to proceed with booking or further assistance.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Anna's message on 2025-08-05 stating she is considering options and will inform when decided"
+          }
+        ],
+        "last_agent_response": "Agent sent messages on 2025-08-12, 2025-08-13, and 2025-08-15 checking if Anna wants to explore more accommodation options.",
+        "suggested_next_step": "Agent to follow up with Anna within a week to get her decision or offer further assistance."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Anna Alessio",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Contacted via phone calls and WhatsApp messages on mobile number 393342898833 and email anna.alessio07@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, near University College London (UCL)",
+              "university": "University College London (UCL)",
+              "room_type": "Not explicitly stated; multiple room types shown including studios, en suites, and apartments",
+              "budget_range": "£324 per week budget stated; properties offered ranged from approx. £357 to £552 per week",
+              "move_in_date": "Around mid-September 2025 (various properties with move-in dates from 2 Aug to 20 Sep 2025)",
+              "lease_duration": "35 weeks stated initially; property options ranged from 4 weeks to 51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking completed independently by student at IQ City; no booking through agent",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple WhatsApp messages (at least 15) and 3 phone calls",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-08-21 (phone call)",
+              "response_time": "Agent responded within hours to days; student responded same day or within a few days",
+              "key_moments": "Initial contact on 2025-07-29; agent shared multiple property options on 2025-07-30; student confirmed considering other options on 2025-08-05; agent followed up on 2025-08-12; final call on 2025-08-21 where student confirmed booking IQ City directly"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Arbour House, IQ City, Chapter Islington, East Central House, Moonraker Point (all in London near UCL)",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Student asked if all rooms were available; no explicit preferences stated",
+              "offers_made": "No offers or deals discussed"
+            },
+            "next_steps": {
+              "immediate_actions": "None required as student has booked independently",
+              "pending_items": "None",
+              "follow_up_required": "None unless student re-engages",
+              "timeline": "Move-in expected around September 2025; lease duration approx. 35 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and responsive; considering options but ultimately booked independently",
+              "urgency_level": "Moderate initially; booking completed independently indicating lower urgency for agent intervention",
+              "complexity": "Simple case; standard accommodation search",
+              "special_considerations": "Student prefers to book directly; agent should note no booking through agency"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "id": "lead_562",
+  "mobile_number": "447935170120",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8865,
+      "lead_id": 562,
+      "event_type": "call",
+      "timestamp": "2025-08-19T19:24:01.192550",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7719111",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T19:24:01.192550\", \"id\": 7719111, \"duration\": \"0\", \"to_number\": \"447935170120\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:34:11"
+    },
+    {
+      "id": 8866,
+      "lead_id": 562,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3159352, \"user_name\": \"saivansh chopra\", \"email\": \"saivansh.chopra@gmail.com\", \"phone\": \"447935170120\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 767, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 1427975}",
+      "created_at": "2025-11-18 11:34:11"
+    },
+    {
+      "id": 8867,
+      "lead_id": 562,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T19:30:51",
+      "content": "Hi I need some help please",
+      "source": "whatsapp",
+      "event_id": "9027530",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T19:30:51\", \"id\": 9027530, \"email\": \"\", \"from_number\": \"447935170120\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447935170120@c.us_3AB4A1E5400E34CA9EFE\", \"message_type\": \"text\", \"message_content\": \"Hi I need some help please\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447935170120@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-26T19:30:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Hi I need some help please\\\", \\\"Datetime\\\": 1758915051000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447935170120@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447935170120@c.us_3AB4A1E5400E34CA9EFE\\\", \\\"ChannelName\\\": \\\"447935170120\\\", \\\"SentByNumber\\\": \\\"447935170120\\\", \\\"sentByUserId\\\": \\\"447935170120@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T19:30:52.185867\", \"direction\": \"inbound\", \"sbase_user_id\": 2445403, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447935170120\"}",
+      "created_at": "2025-11-18 11:34:11"
+    },
+    {
+      "id": 8868,
+      "lead_id": 562,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T19:30:56",
+      "content": "I’ve tried to make a payment for my rent",
+      "source": "whatsapp",
+      "event_id": "9027531",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T19:30:56\", \"id\": 9027531, \"email\": \"\", \"from_number\": \"447935170120\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447935170120@c.us_3A844FD068580CE7AC81\", \"message_type\": \"text\", \"message_content\": \"I\\u2019ve tried to make a payment for my rent\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447935170120@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-26T19:30:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"I\\u2019ve tried to make a payment for my rent\\\", \\\"Datetime\\\": 1758915056000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447935170120@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447935170120@c.us_3A844FD068580CE7AC81\\\", \\\"ChannelName\\\": \\\"447935170120\\\", \\\"SentByNumber\\\": \\\"447935170120\\\", \\\"sentByUserId\\\": \\\"447935170120@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T19:30:57.110436\", \"direction\": \"inbound\", \"sbase_user_id\": 2445403, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447935170120\"}",
+      "created_at": "2025-11-18 11:34:11"
+    },
+    {
+      "id": 8869,
+      "lead_id": 562,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T19:31:03",
+      "content": "It shows on my end that it’s gone through by",
+      "source": "whatsapp",
+      "event_id": "9027534",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T19:31:03\", \"id\": 9027534, \"email\": \"\", \"from_number\": \"447935170120\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447935170120@c.us_3A02DA87C3F2943AAD25\", \"message_type\": \"text\", \"message_content\": \"It shows on my end that it\\u2019s gone through by\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447935170120@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-26T19:31:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"It shows on my end that it\\u2019s gone through by\\\", \\\"Datetime\\\": 1758915063000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447935170120@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447935170120@c.us_3A02DA87C3F2943AAD25\\\", \\\"ChannelName\\\": \\\"447935170120\\\", \\\"SentByNumber\\\": \\\"447935170120\\\", \\\"sentByUserId\\\": \\\"447935170120@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T19:31:03.928296\", \"direction\": \"inbound\", \"sbase_user_id\": 2445403, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447935170120\"}",
+      "created_at": "2025-11-18 11:34:11"
+    },
+    {
+      "id": 8870,
+      "lead_id": 562,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T19:31:09",
+      "content": "But it still shows my rent is overdue",
+      "source": "whatsapp",
+      "event_id": "9027539",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T19:31:09\", \"id\": 9027539, \"email\": \"\", \"from_number\": \"447935170120\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447935170120@c.us_3A84D945E78EB1B9927F\", \"message_type\": \"text\", \"message_content\": \"But it still shows my rent is overdue\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447935170120@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-26T19:31:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"But it still shows my rent is overdue\\\", \\\"Datetime\\\": 1758915069000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447935170120@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447935170120@c.us_3A84D945E78EB1B9927F\\\", \\\"ChannelName\\\": \\\"447935170120\\\", \\\"SentByNumber\\\": \\\"447935170120\\\", \\\"sentByUserId\\\": \\\"447935170120@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T19:31:10.264587\", \"direction\": \"inbound\", \"sbase_user_id\": 2445403, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447935170120\"}",
+      "created_at": "2025-11-18 11:34:11"
+    },
+    {
+      "id": 8871,
+      "lead_id": 562,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-27T03:57:59",
+      "content": "It'll reflect soon",
+      "source": "whatsapp",
+      "event_id": "9030221",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-27T03:57:59\", \"id\": 9030221, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447935170120\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447935170120@c.us_A504394EA25BA02931E600C47C9B59FA\", \"message_type\": \"text\", \"message_content\": \"It'll reflect soon\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-27T03:57:59.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"It'll reflect soon\\\", \\\"Datetime\\\": 1758945479000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447935170120@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447935170120@c.us_A504394EA25BA02931E600C47C9B59FA\\\", \\\"ChannelName\\\": \\\"447935170120\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-27T03:58:00.249129\", \"direction\": \"outbound\", \"sbase_user_id\": 2445403, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447935170120\"}",
+      "created_at": "2025-11-18 11:34:11"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 232,
+    "lead_id": 562,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"saivansh chopra\", \"mobile\": [\"447935170120\"], \"email\": [\"saivansh.chopra@gmail.com\"], \"whatsapp\": [\"447935170120\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 767, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"payment\", \"description\": \"Confirm and update the rent payment status to reflect the recent payment made by the student.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student reported rent payment made but system still shows rent as overdue (WhatsApp messages on 2025-09-26).\"}], \"last_agent_response\": \"Agent informed the student that the payment status will reflect soon (WhatsApp message on 2025-09-27).\", \"suggested_next_step\": \"Agent to verify payment receipt and update the system to clear the overdue rent status immediately.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Saivansh Chopra\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number 447935170120\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3767 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"payment_pending\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Student attempted rent payment; payment shows as processed on student's end but system still shows rent overdue\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 1 call and multiple WhatsApp messages over two days\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-27T03:57:59\", \"response_time\": \"Agent responded approximately 8 hours after initial WhatsApp messages\", \"key_moments\": \"Student reported payment issue with rent showing overdue despite payment confirmation; agent assured payment status will update soon\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1427975 referenced but no specific property details discussed\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to monitor payment status update and confirm with student\", \"pending_items\": \"Confirmation of payment reflected in system\", \"follow_up_required\": \"Yes, follow-up on payment status to ensure rent is marked as paid\", \"timeline\": \"Lease ends 2026-09-04; no immediate move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Polite and seeking assistance\", \"urgency_level\": \"Moderate urgency due to payment issue\", \"complexity\": \"Low complexity; issue related to payment status update\", \"special_considerations\": \"Ensure payment status is updated promptly to avoid confusion or penalties\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"saivansh chopra\", \"mobile\": [\"447935170120\"], \"email\": [\"saivansh.chopra@gmail.com\"], \"whatsapp\": [\"447935170120\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 767, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"payment\", \"description\": \"Confirm and update the rent payment status to reflect the recent payment made by the student.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student reported rent payment made but system still shows rent as overdue (WhatsApp messages on 2025-09-26).\"}], \"last_agent_response\": \"Agent informed the student that the payment status will reflect soon (WhatsApp message on 2025-09-27).\", \"suggested_next_step\": \"Agent to verify payment receipt and update the system to clear the overdue rent status immediately.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Saivansh Chopra\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number 447935170120\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3767 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"payment_pending\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Student attempted rent payment; payment shows as processed on student's end but system still shows rent overdue\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 1 call and multiple WhatsApp messages over two days\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-27T03:57:59\", \"response_time\": \"Agent responded approximately 8 hours after initial WhatsApp messages\", \"key_moments\": \"Student reported payment issue with rent showing overdue despite payment confirmation; agent assured payment status will update soon\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1427975 referenced but no specific property details discussed\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to monitor payment status update and confirm with student\", \"pending_items\": \"Confirmation of payment reflected in system\", \"follow_up_required\": \"Yes, follow-up on payment status to ensure rent is marked as paid\", \"timeline\": \"Lease ends 2026-09-04; no immediate move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Polite and seeking assistance\", \"urgency_level\": \"Moderate urgency due to payment issue\", \"complexity\": \"Low complexity; issue related to payment status update\", \"special_considerations\": \"Ensure payment status is updated promptly to avoid confusion or penalties\"}}}}}",
+    "created_at": "2025-11-18 11:34:20",
+    "updated_at": "2025-11-18T17:04:20.043971",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "saivansh chopra",
+        "mobile": [
+          "447935170120"
+        ],
+        "email": [
+          "saivansh.chopra@gmail.com"
+        ],
+        "whatsapp": [
+          "447935170120"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 767,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "payment",
+          "description": "Confirm and update the rent payment status to reflect the recent payment made by the student.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student reported rent payment made but system still shows rent as overdue (WhatsApp messages on 2025-09-26)."
+        }
+      ],
+      "last_agent_response": "Agent informed the student that the payment status will reflect soon (WhatsApp message on 2025-09-27).",
+      "suggested_next_step": "Agent to verify payment receipt and update the system to clear the overdue rent status immediately."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Saivansh Chopra",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via number 447935170120",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£767 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "payment_pending",
+            "documents_status": "Not mentioned",
+            "payment_status": "Student attempted rent payment; payment shows as processed on student's end but system still shows rent overdue",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "At least 1 call and multiple WhatsApp messages over two days",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-27T03:57:59",
+            "response_time": "Agent responded approximately 8 hours after initial WhatsApp messages",
+            "key_moments": "Student reported payment issue with rent showing overdue despite payment confirmation; agent assured payment status will update soon"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1427975 referenced but no specific property details discussed",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to monitor payment status update and confirm with student",
+            "pending_items": "Confirmation of payment reflected in system",
+            "follow_up_required": "Yes, follow-up on payment status to ensure rent is marked as paid",
+            "timeline": "Lease ends 2026-09-04; no immediate move-in date specified"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and seeking assistance",
+            "urgency_level": "Moderate urgency due to payment issue",
+            "complexity": "Low complexity; issue related to payment status update",
+            "special_considerations": "Ensure payment status is updated promptly to avoid confusion or penalties"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "saivansh chopra",
+          "mobile": [
+            "447935170120"
+          ],
+          "email": [
+            "saivansh.chopra@gmail.com"
+          ],
+          "whatsapp": [
+            "447935170120"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 767,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "payment",
+            "description": "Confirm and update the rent payment status to reflect the recent payment made by the student.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student reported rent payment made but system still shows rent as overdue (WhatsApp messages on 2025-09-26)."
+          }
+        ],
+        "last_agent_response": "Agent informed the student that the payment status will reflect soon (WhatsApp message on 2025-09-27).",
+        "suggested_next_step": "Agent to verify payment receipt and update the system to clear the overdue rent status immediately."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Saivansh Chopra",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via number 447935170120",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£767 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "payment_pending",
+              "documents_status": "Not mentioned",
+              "payment_status": "Student attempted rent payment; payment shows as processed on student's end but system still shows rent overdue",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "At least 1 call and multiple WhatsApp messages over two days",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-27T03:57:59",
+              "response_time": "Agent responded approximately 8 hours after initial WhatsApp messages",
+              "key_moments": "Student reported payment issue with rent showing overdue despite payment confirmation; agent assured payment status will update soon"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1427975 referenced but no specific property details discussed",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to monitor payment status update and confirm with student",
+              "pending_items": "Confirmation of payment reflected in system",
+              "follow_up_required": "Yes, follow-up on payment status to ensure rent is marked as paid",
+              "timeline": "Lease ends 2026-09-04; no immediate move-in date specified"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and seeking assistance",
+              "urgency_level": "Moderate urgency due to payment issue",
+              "complexity": "Low complexity; issue related to payment status update",
+              "special_considerations": "Ensure payment status is updated promptly to avoid confusion or penalties"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "id": "lead_555",
+  "mobile_number": "2348097091880",
+  "email": null,
+  "timeline": [
+    {
+      "id": 15578,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2022-01-27T15:03:43.141777",
+      "content": "",
+      "source": "twilio",
+      "event_id": "970904",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2022-01-27T15:03:43.141777\", \"id\": 970904, \"to_number\": \"917820855591\", \"from_number\": \"2348097091880\", \"source\": \"twilio\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15579,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2022-01-27T15:04:43.885502",
+      "content": "",
+      "source": "twilio",
+      "event_id": "970913",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2022-01-27T15:04:43.885502\", \"id\": 970913, \"to_number\": \"917820855591\", \"from_number\": \"2348097091880\", \"source\": \"twilio\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15580,
+      "lead_id": 555,
+      "event_type": "lead_info",
+      "timestamp": "2022-10-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2022-10-09T00:00:00\", \"lead_id\": 3262680, \"user_name\": \"Rabiyya Ahmed\", \"email\": \"ahmedrabiyya@gmail.com\", \"phone\": \"2348097091880\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2023-07-14\", \"budget\": 220, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Wembley\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 203477}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15581,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2023-08-23T13:06:24.199596",
+      "content": "",
+      "source": "twilio",
+      "event_id": "3716716",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2023-08-23T13:06:24.199596\", \"id\": 3716716, \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"twilio\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15582,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-09-23T08:05:00.217549",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7915815",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-23T08:05:00.217549\", \"id\": 7915815, \"duration\": \"5\", \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/06027217-4af7-4469-82f8-4defe111aa56.wav\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15583,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-09-25T08:14:35.902566",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7926390",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-25T08:14:35.902566\", \"id\": 7926390, \"duration\": \"8\", \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b3299075-0754-44a1-8afe-322be572ae06.wav\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15584,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-09-25T08:15:14.419398",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7926397",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-25T08:15:14.419398\", \"id\": 7926397, \"to_number\": \"2348097091880\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15585,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-09-25T08:15:22.501143",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7926398",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-25T08:15:22.501143\", \"id\": 7926398, \"duration\": \"26\", \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/31dbb801-1e6e-47e9-854e-21347aaac073.wav\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15586,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-09-27T08:24:33.980254",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7937065",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-27T08:24:33.980254\", \"id\": 7937065, \"duration\": \"5\", \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4150c289-1eaa-47a0-a846-d0e51fcd105d.wav\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15587,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-09-27T08:24:54.441889",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7937069",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-27T08:24:54.441889\", \"id\": 7937069, \"duration\": \"75\", \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ff3ef5b5-b1c2-4c34-ba5f-053482a11fbc.wav\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15588,
+      "lead_id": 555,
+      "event_type": "email",
+      "timestamp": "2025-09-27T11:04:56",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-27T11:04:56\", \"sender_email\": \"ahmedrabiyya@gmail.com\", \"recipient_email\": \"rishabh.m@amberstudent.com\", \"subject\": \"Re: Hi Rabiyya, Secure Your UCL Student Accommodation Today!\", \"message\": \"Hi,\\\\n\\\\nI\\u2019m interested in the 239 pounds per week Bronze studio at Pavilion Court London and moving in on the 29th of September.\\\\n\\\\nOn 26 Sep 2025, at 09:00, rishabh.m@amberstudent.com wrote:\\\\n\\\\n\\ufeff\\\\nHi Rabiyya,\\\\n\\\\nWe hope this email finds you well. This is our final call to complete your Student Accommodation Booking. We have reached out to you several times but have not received a response. It's crucial to take immediate action to Secure your Preferred Accommodation.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nThank you for considering our services, and we wish you the best for your upcoming academic journey.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[amberstudent.com]\\\\n\\\\nRishabh M\\\\n\\\\nSenior Operation Associate\\\\n\\\\nPhone: [+447460047271]()\\\\n\\\\nWhatsapp: [+447460047271]()\\\\n\\\\nEmail: [rishabh.m@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\", \"snippet\": \"Hi, I&#39;m interested in the 239 pounds per week Bronze studio at Pavilion Court London and moving in on the 29th of September. On 26 Sep 2025, at 09:00, rishabh.m@amberstudent.com wrote: \\ufeff Hi Rabiyya\", \"direction\": \"inbound\", \"sender_type\": \"student\", \"agent_email\": \"rishabh.m@amberstudent.com\", \"student_email\": \"ahmedrabiyya@gmail.com\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15589,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-10-01T08:45:06.233656",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7949772",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-10-01T08:45:06.233656\", \"id\": 7949772, \"duration\": \"141\", \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/82cc6820-edfe-4e8f-bc3d-b98a969dc21d.wav\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15590,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-10-03T10:40:57.329238",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7954638",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-10-03T10:40:57.329238\", \"id\": 7954638, \"duration\": \"146\", \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e91f5eeb-faa8-47bb-8785-bd2247ed4b96.wav\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15591,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-10-06T12:19:51.534607",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7962009",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-10-06T12:19:51.534607\", \"id\": 7962009, \"duration\": \"286\", \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d6305120-3a86-4cf8-bb88-4be7287e9ef7.wav\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15592,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-10-13T09:39:55.230849",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7983667",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-10-13T09:39:55.230849\", \"id\": 7983667, \"duration\": \"63\", \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/81188610-3fe8-4c1a-84a3-2d6e9e52f0c9.wav\"}",
+      "created_at": "2025-11-18 13:33:36"
+    },
+    {
+      "id": 15593,
+      "lead_id": 555,
+      "event_type": "call",
+      "timestamp": "2025-10-16T09:25:14.827398",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7994837",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-10-16T09:25:14.827398\", \"id\": 7994837, \"duration\": \"3\", \"to_number\": \"2348097091880\", \"from_number\": \"447782388772\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a5e6cdcf-80b7-4734-8eba-f562c5ac7963.wav\"}",
+      "created_at": "2025-11-18 13:33:36"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 419,
+      "lead_id": 555,
+      "call_id": "7915815",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/06027217-4af7-4469-82f8-4defe111aa56.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available at the tone.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:31:31"
+    },
+    {
+      "id": 423,
+      "lead_id": 555,
+      "call_id": "7926390",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b3299075-0754-44a1-8afe-322be572ae06.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:31:35"
+    },
+    {
+      "id": 424,
+      "lead_id": 555,
+      "call_id": "7926398",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/31dbb801-1e6e-47e9-854e-21347aaac073.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:31:40"
+    },
+    {
+      "id": 426,
+      "lead_id": 555,
+      "call_id": "7937065",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4150c289-1eaa-47a0-a846-d0e51fcd105d.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available at the tone.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:31:44"
+    },
+    {
+      "id": 428,
+      "lead_id": 555,
+      "call_id": "7937069",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ff3ef5b5-b1c2-4c34-ba5f-053482a11fbc.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.\nSpeaker B: And Western system back and Western System back and Western System back and Western system back and Western System back and Western system back and Western system back and Western system back and Western system back and Western system back and Western active Western system active Western system active Western system active Western system active Western system Activ.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:31:51"
+    },
+    {
+      "id": 429,
+      "lead_id": 555,
+      "call_id": "7949772",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/82cc6820-edfe-4e8f-bc3d-b98a969dc21d.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Yeah, hello.\nSpeaker C: Okay, hi.\nSpeaker D: Yeah, hi.\nSpeaker E: Rabia. Rabia, we have refunded your £100 which you have paid to us. You must have received an email confirming.\nSpeaker B: The same, so it will hit your bank account.\nSpeaker D: Sorry, like we have refunded the hundred.\nSpeaker B: Pounds which you have paid. Okay. It will hit your bank account within 2, 3 days. You must have received an email as well, correct?\nSpeaker A: Yes.\nSpeaker B: Okay, done then.\nSpeaker D: Have you selected any other accommodation yet?\nSpeaker A: I'm just looking through and I'm also in contact with, with Pavilion Court as well to see, you know, like what they could do about my own case, about my own situation. But I'm also looking at other options.\nSpeaker B: Whatever option that you are looking, just.\nSpeaker E: Let me know, I'll be able to.\nSpeaker D: Get everything sorted for you and along.\nSpeaker E: With that I can provide you some cashback system.\nSpeaker D: Okay.\nSpeaker B: Sorry, what I'm saying here is.\nSpeaker D: Whichever property that you choose, just let.\nSpeaker E: Me know so that I can check if I can offer you some cash back for that. Okay. And I spell cash back.\nSpeaker A: Yeah, but they're offering cash back in, in Pavilion Court. £750. But it's only for 44 weeks. It's only for the initial. It's for 44 weeks and mine is for 51 weeks and I'm trying to get them to, you know, change me from the. For, for the, from the 51 to the 44.\nSpeaker F: And what they have responded to for.\nSpeaker D: That.\nSpeaker A: I don't know, they said they're going to check and see.\nSpeaker D: Okay, so let's wait for today and tomorrow.\nSpeaker F: If they are going to give you a reply, then we will proceed.\nSpeaker D: Otherwise we will look for an alternate option. Sounds good to you?\nSpeaker C: Okay, yeah, that's fine.\nSpeaker B: Okay.\nSpeaker E: And also, like I promised, I have.\nSpeaker D: Refunded the 100 pound. Otherwise. Okay.\nSpeaker C: Okay, thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:31:58"
+    },
+    {
+      "id": 430,
+      "lead_id": 555,
+      "call_id": "7954638",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e91f5eeb-faa8-47bb-8785-bd2247ed4b96.wav",
+      "transcript_text": "Speaker A: Hello, we are.\nSpeaker B: Yeah, Ravi, I remember.\nSpeaker A: Yeah. Hi.\nSpeaker B: Hello, Ravi. Yesterday you told me to connect, so I was just wanted to confirm, like.\nSpeaker C: What'S the issue here?\nSpeaker A: You just wanted to confirm what?\nSpeaker B: Like yesterday you called me.\nSpeaker D: Yesterday you told me to give a call back.\nSpeaker B: Correct?\nSpeaker E: Yeah.\nSpeaker A: From.\nSpeaker E: From where?\nSpeaker F: From Amsterdam.\nSpeaker D: We have process to booking for familiar.\nSpeaker G: Yes. So, yeah, because I applied to cancel.\nSpeaker A: My accommodation with them.\nSpeaker C: Okay.\nSpeaker A: With the pavilion port.\nSpeaker D: Yes.\nSpeaker G: And they said that they don't know if they're going to be able to.\nSpeaker A: Give me back my deposit.\nSpeaker C: Why?\nSpeaker H: So.\nSpeaker G: I have no idea. So they said they're not sure, but.\nSpeaker A: They'Ll get back to me.\nSpeaker G: I mean, that's ridiculous.\nSpeaker B: Absolutely.\nSpeaker D: It is.\nSpeaker C: It is.\nSpeaker F: But you can do one thing here.\nSpeaker I: I mean, you can directly drop them.\nSpeaker C: An email by today as well. That hello, team, I'll be using my deposit.\nSpeaker B: You can drop them an email by today.\nSpeaker D: Once again, that hello, team, I will be needing my deposit since I have not signed the contract. Please return it back to me since I am not proceeding ahead.\nSpeaker I: Just drop them an email once again.\nSpeaker C: And you are good to go. They will be able to do that.\nSpeaker D: I think that won't be an issue.\nSpeaker C: By dropping an email.\nSpeaker A: Yeah, I've dropped an email to them, but I'm going to drop another one.\nSpeaker B: Yeah, sure.\nSpeaker F: Are you in London at the moment?\nSpeaker A: No, not yet, but I'm coming in on Monday.\nSpeaker C: On Monday. Okay, that's not an issue.\nSpeaker D: Just take your time.\nSpeaker C: Drop them an email.\nSpeaker D: And I'm hoping that everything will be.\nSpeaker C: Sorted out by then.\nSpeaker H: Okay.\nSpeaker F: Because they will be able to do something.\nSpeaker B: I mean, they will be able to.\nSpeaker D: Provide you the cashback refund since you have not signed the contract and they have.\nSpeaker I: They are.\nSpeaker A: No, I haven't.\nSpeaker F: Yeah, that's the thing.\nSpeaker C: You are not able to sign the contract and. And also you do not wish to.\nSpeaker D: Proceed here because they do not have your desired tenancy.\nSpeaker C: So that is not an issue.\nSpeaker H: Okay.\nSpeaker E: Okay. Yeah, that's fine. Thank you.\nSpeaker A: I'll stay in touch.\nSpeaker E: Thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:32:06"
+    },
+    {
+      "id": 431,
+      "lead_id": 555,
+      "call_id": "7962009",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d6305120-3a86-4cf8-bb88-4be7287e9ef7.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Yeah. Hello, am I speaking?\nSpeaker A: Hello?\nSpeaker B: Yeah, Ravi, I. Rishabh the site calling you from Ambrose Student. Okay Ravi, I just wanted to confirm if you have decided anything with the student accommodation.\nSpeaker A: No, I haven't.\nSpeaker B: You have not decided it?\nSpeaker A: Yes, I've requested for a refund for the deposits that I put for Pavilion Court.\nSpeaker B: Okay.\nSpeaker A: And they told. And I have not signed the contract with them. So they're telling me somebody on the phone was telling me they would have to decide on my refund.\nSpeaker B: You can also let them know that you are ready to take the room if the contract is for 42 weeks. Not more than that. Only that's per. Even you don't visit the program. You can also let them know that you are ready to proceed. If the con. You can also let them know you can. You are ready to proceed.\nSpeaker A: To proceed. I don't want the room anymore. I'm not ready to proceed.\nSpeaker B: I don't want to just, just ask them for the.\nSpeaker A: Their service was terrible.\nSpeaker B: Yes, it is indeed. Should I share you some alternative options?\nSpeaker A: You said. Sorry, can I hear something? You said that if I had, if I said I'm booked with them they would reduce. Somebody told you on the phone that they would reduce my contract 51 weeks and that's why I booked with them. So when I booked with them they now changed their story and they said that oh, they're not able to reduce my contract from 51 weeks to 42 weeks so I would have to stay there for 51 weeks. So obviously that's not what I wanted and I usually know requested for a re for my refund back. But they said okay. Yeah, they would have to give a reason as to why I'm asking for a refund on my deposit back. What do you mean? They have to see the reason. That's very stupid. Like I, I think the reason is because I don't want to stay there. So why would they keep my, my deposit and not give it back to me? I have not signed anything. I have not signed the contract with them. Mind.\nSpeaker B: Absolutely. Absolutely. I thought the amount also hasn't been paid until you told me that you, you have made the payment. You told me that there was some click. You told me that there was some glitch and I haven't paid the deposit amount. So I went ahead with it. Then later you told me that you have also paid the deposit amount. So that is also. We need to confirm, get it done. But that's not an issue. They will be able to do so most probably. I don't think that this will take more time. Just give them a call by tomorrow. Hopefully it will. They will be able to sort this out. Okay. Or you can directly visit the property.\nSpeaker A: That they'll be able to give me back. You think they'll give me back my deposits?\nSpeaker B: I think so. There is a good chance that they will be able to do that. Meanwhile, you can do one thing here. You can. Since you are already in London. If you are, or you are, if you have someone here, I mean, in London, then you can directly ask them to reach the property once directly and then get it all sorted.\nSpeaker A: If I have somebody in London, I can ask them to go to the property.\nSpeaker B: Absolutely. That can be more done. Then they will be able to do everything.\nSpeaker A: Okay. Because like, you can see how I. I paid the deposit on the basis of. Oh, okay. My contract would be reduced. Right. So they can't tell. They can't change their mind after refused to give me back my deposit and I do not want to stay with them.\nSpeaker B: Yeah.\nSpeaker A: Okay. So. Yeah. And is there a way for Amber students to reach out to Pavilion Court and explain this to them on behalf?\nSpeaker B: I mean. Yeah, but it will again take time. It will again take another two weeks or three weeks because they will not respond very soon. They will tell us the same thing. They will tell us the same thing. So it's better if you directly visit the property once and get this sorted. That that would be more good. Just send someone at the property, then let me know what's the status and then I'll be able to act accordingly. Okay.\nSpeaker A: Sorry, can you repeat yourself?\nSpeaker B: Yes. What I'm saying here is send someone at the property so that they can have a check and whatever the conclusion is, just let me know so that I can take the action accordingly. Okay.\nSpeaker A: Okay, that's fine. I'll keep you updated. Are you the one I'm chatting with on WhatsApp?\nSpeaker B: Yes, I am the one. Do not worry. Okay.\nSpeaker A: Oh, that's fine. I'll keep you updated accordingly. Thank you very much.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:32:17"
+    },
+    {
+      "id": 432,
+      "lead_id": 555,
+      "call_id": "7983667",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/81188610-3fe8-4c1a-84a3-2d6e9e52f0c9.wav",
+      "transcript_text": "Speaker A: Yeah. Hello, Rabia.\nSpeaker B: Hi.\nSpeaker A: Hi, Raviya. How are you?\nSpeaker B: I'm fine, thank you. And you?\nSpeaker A: I'm also good. Thank you for asking. Ravi, I just wanted to confirm if you have decided anything with the student accommodation apart from the Pacific Port.\nSpeaker B: Yeah, I'm still actually deciding, but I would have made up my mind within this week.\nSpeaker A: Do you have any property in your mind so that I can check if that suits you or not?\nSpeaker B: No, I don't. But I'll get back to you on WhatsApp.\nSpeaker A: Sure. Just let me know whichever property that you choose so that I can check for some cash. Cash back and I'll do the process more. Okay?\nSpeaker B: Okay, thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:32:25"
+    }
+  ],
+  "summary": {
+    "id": 388,
+    "lead_id": 555,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Rabiyya Ahmed\", \"mobile\": [\"+2348097091880\"], \"email\": [\"ahmedrabiyya@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\", \"London\"], \"lease_duration_weeks\": 44, \"room_type\": \"studio\", \"budget\": {\"max\": 239, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": \"2025-09-29\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Pavilion Court\"], \"rooms_considered\": [\"Bronze studio\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Confirm and secure the booking for the 239 pounds per week Bronze studio at Pavilion Court London with move-in date on 2025-09-29.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-27 expressing interest in Bronze studio at Pavilion Court London moving in on 29th September.\"}, {\"type\": \"payment\", \"description\": \"Send payment instructions and collect payment to secure the Bronze studio booking at Pavilion Court London.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-27 confirming interest in booking.\"}, {\"type\": \"communication\", \"description\": \"Respond to student email confirming interest and provide next steps for booking and payment.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-27.\"}], \"last_agent_response\": \"Agent sent a final call email on 2025-09-26 urging student to complete booking and secure accommodation.\", \"suggested_next_step\": \"Agent to promptly respond to student's email confirming interest and initiate booking confirmation and payment process.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Rabiyya Ahmed\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and emails; phone number +2348097091880, email ahmedrabiyya@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom; also interested in Pavilion Court London\", \"university\": \"Not mentioned\", \"room_type\": \"Bronze studio\", \"budget_range\": \"220-239 pounds per week\", \"move_in_date\": \"29th September 2025\", \"lease_duration\": \"44 weeks (noted in 2022 lead info)\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Payment pending / finalizing booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 16 calls and 1 email over multiple years\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"16 October 2025 (phone call)\", \"response_time\": \"Multiple calls and follow-ups over days; student responded by email after agent's final call attempts\", \"key_moments\": \"Initial lead in 2022; renewed contact in August 2023; multiple calls in September-October 2025; student expressed interest in specific property and move-in date via email on 27 September 2025\"}, \"properties_discussed\": {\"properties_mentioned\": \"Bronze studio at Pavilion Court London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interested in Bronze studio at 239 pounds per week\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm booking details and payment for Bronze studio at Pavilion Court London\", \"pending_items\": \"Payment confirmation and any required documents\", \"follow_up_required\": \"Agent to follow up on booking completion and payment\", \"timeline\": \"Move-in date 29 September 2025\"}, \"agent_notes\": {\"student_tone\": \"Interested and responsive after multiple follow-ups; proactive in confirming property and move-in date\", \"urgency_level\": \"High, given final call attempts and student\\u2019s prompt email response\", \"complexity\": \"Moderate; long timeline with gaps but clear recent engagement\", \"special_considerations\": \"Student has a long lead time from initial inquiry to booking; ensure timely follow-up to secure booking\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Rabiyya Ahmed\", \"mobile\": [\"+2348097091880\"], \"email\": [\"ahmedrabiyya@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\", \"London\"], \"lease_duration_weeks\": 44, \"room_type\": \"studio\", \"budget\": {\"max\": 239, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": \"2025-09-29\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Pavilion Court\"], \"rooms_considered\": [\"Bronze studio\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Confirm and secure the booking for the 239 pounds per week Bronze studio at Pavilion Court London with move-in date on 2025-09-29.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-27 expressing interest in Bronze studio at Pavilion Court London moving in on 29th September.\"}, {\"type\": \"payment\", \"description\": \"Send payment instructions and collect payment to secure the Bronze studio booking at Pavilion Court London.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-27 confirming interest in booking.\"}, {\"type\": \"communication\", \"description\": \"Respond to student email confirming interest and provide next steps for booking and payment.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-27.\"}], \"last_agent_response\": \"Agent sent a final call email on 2025-09-26 urging student to complete booking and secure accommodation.\", \"suggested_next_step\": \"Agent to promptly respond to student's email confirming interest and initiate booking confirmation and payment process.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Rabiyya Ahmed\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and emails; phone number +2348097091880, email ahmedrabiyya@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom; also interested in Pavilion Court London\", \"university\": \"Not mentioned\", \"room_type\": \"Bronze studio\", \"budget_range\": \"220-239 pounds per week\", \"move_in_date\": \"29th September 2025\", \"lease_duration\": \"44 weeks (noted in 2022 lead info)\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Payment pending / finalizing booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 16 calls and 1 email over multiple years\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"16 October 2025 (phone call)\", \"response_time\": \"Multiple calls and follow-ups over days; student responded by email after agent's final call attempts\", \"key_moments\": \"Initial lead in 2022; renewed contact in August 2023; multiple calls in September-October 2025; student expressed interest in specific property and move-in date via email on 27 September 2025\"}, \"properties_discussed\": {\"properties_mentioned\": \"Bronze studio at Pavilion Court London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interested in Bronze studio at 239 pounds per week\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm booking details and payment for Bronze studio at Pavilion Court London\", \"pending_items\": \"Payment confirmation and any required documents\", \"follow_up_required\": \"Agent to follow up on booking completion and payment\", \"timeline\": \"Move-in date 29 September 2025\"}, \"agent_notes\": {\"student_tone\": \"Interested and responsive after multiple follow-ups; proactive in confirming property and move-in date\", \"urgency_level\": \"High, given final call attempts and student\\u2019s prompt email response\", \"complexity\": \"Moderate; long timeline with gaps but clear recent engagement\", \"special_considerations\": \"Student has a long lead time from initial inquiry to booking; ensure timely follow-up to secure booking\"}}}}}",
+    "created_at": "2025-11-18 13:33:47",
+    "updated_at": "2025-11-18T19:03:47.082930",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Rabiyya Ahmed",
+        "mobile": [
+          "+2348097091880"
+        ],
+        "email": [
+          "ahmedrabiyya@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Wembley",
+          "London"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": "studio",
+        "budget": {
+          "max": 239,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": "2025-09-29",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Pavilion Court"
+        ],
+        "rooms_considered": [
+          "Bronze studio"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Confirm and secure the booking for the 239 pounds per week Bronze studio at Pavilion Court London with move-in date on 2025-09-29.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student email on 2025-09-27 expressing interest in Bronze studio at Pavilion Court London moving in on 29th September."
+        },
+        {
+          "type": "payment",
+          "description": "Send payment instructions and collect payment to secure the Bronze studio booking at Pavilion Court London.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student email on 2025-09-27 confirming interest in booking."
+        },
+        {
+          "type": "communication",
+          "description": "Respond to student email confirming interest and provide next steps for booking and payment.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student email on 2025-09-27."
+        }
+      ],
+      "last_agent_response": "Agent sent a final call email on 2025-09-26 urging student to complete booking and secure accommodation.",
+      "suggested_next_step": "Agent to promptly respond to student's email confirming interest and initiate booking confirmation and payment process."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Rabiyya Ahmed",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and emails; phone number +2348097091880, email ahmedrabiyya@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "Wembley, England, United Kingdom; also interested in Pavilion Court London",
+            "university": "Not mentioned",
+            "room_type": "Bronze studio",
+            "budget_range": "220-239 pounds per week",
+            "move_in_date": "29th September 2025",
+            "lease_duration": "44 weeks (noted in 2022 lead info)",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Payment pending / finalizing booking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "At least 16 calls and 1 email over multiple years",
+            "primary_channel": "Phone calls",
+            "last_contact": "16 October 2025 (phone call)",
+            "response_time": "Multiple calls and follow-ups over days; student responded by email after agent's final call attempts",
+            "key_moments": "Initial lead in 2022; renewed contact in August 2023; multiple calls in September-October 2025; student expressed interest in specific property and move-in date via email on 27 September 2025"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Bronze studio at Pavilion Court London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Interested in Bronze studio at 239 pounds per week",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Confirm booking details and payment for Bronze studio at Pavilion Court London",
+            "pending_items": "Payment confirmation and any required documents",
+            "follow_up_required": "Agent to follow up on booking completion and payment",
+            "timeline": "Move-in date 29 September 2025"
+          },
+          "agent_notes": {
+            "student_tone": "Interested and responsive after multiple follow-ups; proactive in confirming property and move-in date",
+            "urgency_level": "High, given final call attempts and student’s prompt email response",
+            "complexity": "Moderate; long timeline with gaps but clear recent engagement",
+            "special_considerations": "Student has a long lead time from initial inquiry to booking; ensure timely follow-up to secure booking"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Rabiyya Ahmed",
+          "mobile": [
+            "+2348097091880"
+          ],
+          "email": [
+            "ahmedrabiyya@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Wembley",
+            "London"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": "studio",
+          "budget": {
+            "max": 239,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": "2025-09-29",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Pavilion Court"
+          ],
+          "rooms_considered": [
+            "Bronze studio"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Confirm and secure the booking for the 239 pounds per week Bronze studio at Pavilion Court London with move-in date on 2025-09-29.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student email on 2025-09-27 expressing interest in Bronze studio at Pavilion Court London moving in on 29th September."
+          },
+          {
+            "type": "payment",
+            "description": "Send payment instructions and collect payment to secure the Bronze studio booking at Pavilion Court London.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student email on 2025-09-27 confirming interest in booking."
+          },
+          {
+            "type": "communication",
+            "description": "Respond to student email confirming interest and provide next steps for booking and payment.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student email on 2025-09-27."
+          }
+        ],
+        "last_agent_response": "Agent sent a final call email on 2025-09-26 urging student to complete booking and secure accommodation.",
+        "suggested_next_step": "Agent to promptly respond to student's email confirming interest and initiate booking confirmation and payment process."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Rabiyya Ahmed",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and emails; phone number +2348097091880, email ahmedrabiyya@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "Wembley, England, United Kingdom; also interested in Pavilion Court London",
+              "university": "Not mentioned",
+              "room_type": "Bronze studio",
+              "budget_range": "220-239 pounds per week",
+              "move_in_date": "29th September 2025",
+              "lease_duration": "44 weeks (noted in 2022 lead info)",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Payment pending / finalizing booking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "At least 16 calls and 1 email over multiple years",
+              "primary_channel": "Phone calls",
+              "last_contact": "16 October 2025 (phone call)",
+              "response_time": "Multiple calls and follow-ups over days; student responded by email after agent's final call attempts",
+              "key_moments": "Initial lead in 2022; renewed contact in August 2023; multiple calls in September-October 2025; student expressed interest in specific property and move-in date via email on 27 September 2025"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Bronze studio at Pavilion Court London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Interested in Bronze studio at 239 pounds per week",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Confirm booking details and payment for Bronze studio at Pavilion Court London",
+              "pending_items": "Payment confirmation and any required documents",
+              "follow_up_required": "Agent to follow up on booking completion and payment",
+              "timeline": "Move-in date 29 September 2025"
+            },
+            "agent_notes": {
+              "student_tone": "Interested and responsive after multiple follow-ups; proactive in confirming property and move-in date",
+              "urgency_level": "High, given final call attempts and student’s prompt email response",
+              "complexity": "Moderate; long timeline with gaps but clear recent engagement",
+              "special_considerations": "Student has a long lead time from initial inquiry to booking; ensure timely follow-up to secure booking"
+            }
+          }
+        }
+      }
+    }
+  }
+}

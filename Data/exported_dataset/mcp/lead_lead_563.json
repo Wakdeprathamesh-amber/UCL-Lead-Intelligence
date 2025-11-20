@@ -1,0 +1,253 @@
+{
+  "id": "lead_563",
+  "mobile_number": "8613013880413",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8872,
+      "lead_id": 563,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3221649, \"user_name\": \"Coralie Xiong\", \"email\": \"coralie.xjw@gmail.com\", \"phone\": \"8613013880413\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 393, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Wembley\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 10588, \"inventory_id\": 141532}",
+      "created_at": "2025-11-18 11:34:11"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 231,
+    "lead_id": 563,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Coralie Xiong\", \"mobile\": [\"+8613013880413\"], \"email\": [\"coralie.xjw@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 393, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Coralie Xiong\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (coralie.xjw@gmail.com), Phone (+86 13013880413)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3393 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Not mentioned\", \"last_contact\": \"2025-09-13\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Lead information received with initial preferences and contact details\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 141532\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm move-in date and room preferences\", \"pending_items\": \"Move-in date confirmation, room type preference, payment details\", \"follow_up_required\": \"Yes, to clarify accommodation preferences and booking details\", \"timeline\": \"Lease ends on 2026-09-04\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student budget is \\u00a3393 weekly for a 51-week lease in Wembley\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Coralie Xiong\", \"mobile\": [\"+8613013880413\"], \"email\": [\"coralie.xjw@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 393, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Coralie Xiong\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (coralie.xjw@gmail.com), Phone (+86 13013880413)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3393 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Not mentioned\", \"last_contact\": \"2025-09-13\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Lead information received with initial preferences and contact details\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 141532\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm move-in date and room preferences\", \"pending_items\": \"Move-in date confirmation, room type preference, payment details\", \"follow_up_required\": \"Yes, to clarify accommodation preferences and booking details\", \"timeline\": \"Lease ends on 2026-09-04\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student budget is \\u00a3393 weekly for a 51-week lease in Wembley\"}}}}}",
+    "created_at": "2025-11-18 11:34:18",
+    "updated_at": "2025-11-18T17:04:18.192541",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Coralie Xiong",
+        "mobile": [
+          "+8613013880413"
+        ],
+        "email": [
+          "coralie.xjw@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Wembley"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 393,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "",
+      "suggested_next_step": ""
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Coralie Xiong",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (coralie.xjw@gmail.com), Phone (+86 13013880413)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "Wembley, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£393 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1",
+            "primary_channel": "Not mentioned",
+            "last_contact": "2025-09-13",
+            "response_time": "Not mentioned",
+            "key_moments": "Lead information received with initial preferences and contact details"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 141532",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Contact student to confirm move-in date and room preferences",
+            "pending_items": "Move-in date confirmation, room type preference, payment details",
+            "follow_up_required": "Yes, to clarify accommodation preferences and booking details",
+            "timeline": "Lease ends on 2026-09-04"
+          },
+          "agent_notes": {
+            "student_tone": "Not mentioned",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Student budget is £393 weekly for a 51-week lease in Wembley"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Coralie Xiong",
+          "mobile": [
+            "+8613013880413"
+          ],
+          "email": [
+            "coralie.xjw@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Wembley"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 393,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "",
+        "suggested_next_step": ""
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Coralie Xiong",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (coralie.xjw@gmail.com), Phone (+86 13013880413)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "Wembley, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£393 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1",
+              "primary_channel": "Not mentioned",
+              "last_contact": "2025-09-13",
+              "response_time": "Not mentioned",
+              "key_moments": "Lead information received with initial preferences and contact details"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 141532",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Contact student to confirm move-in date and room preferences",
+              "pending_items": "Move-in date confirmation, room type preference, payment details",
+              "follow_up_required": "Yes, to clarify accommodation preferences and booking details",
+              "timeline": "Lease ends on 2026-09-04"
+            },
+            "agent_notes": {
+              "student_tone": "Not mentioned",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Student budget is £393 weekly for a 51-week lease in Wembley"
+            }
+          }
+        }
+      }
+    }
+  }
+}

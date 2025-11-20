@@ -1,0 +1,264 @@
+{
+  "id": "lead_257",
+  "mobile_number": "8618070073713",
+  "email": null,
+  "timeline": [
+    {
+      "id": 3561,
+      "lead_id": 257,
+      "event_type": "lead_info",
+      "timestamp": "2025-08-30T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-08-30T00:00:00\", \"lead_id\": 3193773, \"user_name\": \"songjingxin\", \"email\": \"jingxinsong6@gmail.com\", \"phone\": \"8618070073713\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-21\", \"budget\": 309, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1426846}",
+      "created_at": "2025-11-18 10:34:14"
+    },
+    {
+      "id": 3562,
+      "lead_id": 257,
+      "event_type": "call",
+      "timestamp": "2025-09-01T02:23:54.731141",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7793237",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T02:23:54.731141\", \"id\": 7793237, \"duration\": \"0\", \"to_number\": \"8618070073713\", \"from_number\": \"447360546291\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:34:14"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 104,
+    "lead_id": 257,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": null, \"mobile\": [\"+8618070073713\"], \"email\": [\"jingxinsong6@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 309, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Placed a call to the student at the provided phone number on 2025-09-01; call duration was zero seconds indicating no conversation took place.\", \"suggested_next_step\": \"Agent to follow up with the student via call or email to establish contact and discuss accommodation options.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"songjingxin\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (jingxinsong6@gmail.com), Phone (8618070073713)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3309 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks, move out by 2026-08-21\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (lead info submission and one call attempt)\", \"primary_channel\": \"Email and phone call\", \"last_contact\": \"2025-09-01 (call attempt)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Lead information received on 2025-08-30; outbound call made on 2025-09-01 with zero duration (no answer or no conversation)\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1426846 referenced in lead info\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on call attempt to engage student\", \"pending_items\": \"Student response to call or email\", \"follow_up_required\": \"Yes, to confirm interest and discuss accommodation details\", \"timeline\": \"Lease duration ends 2026-08-21; no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Not applicable (no conversation recorded)\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student budget and lease duration clearly stated; no other preferences or details provided\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": null, \"mobile\": [\"+8618070073713\"], \"email\": [\"jingxinsong6@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 309, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Placed a call to the student at the provided phone number on 2025-09-01; call duration was zero seconds indicating no conversation took place.\", \"suggested_next_step\": \"Agent to follow up with the student via call or email to establish contact and discuss accommodation options.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"songjingxin\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (jingxinsong6@gmail.com), Phone (8618070073713)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3309 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks, move out by 2026-08-21\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (lead info submission and one call attempt)\", \"primary_channel\": \"Email and phone call\", \"last_contact\": \"2025-09-01 (call attempt)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Lead information received on 2025-08-30; outbound call made on 2025-09-01 with zero duration (no answer or no conversation)\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1426846 referenced in lead info\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on call attempt to engage student\", \"pending_items\": \"Student response to call or email\", \"follow_up_required\": \"Yes, to confirm interest and discuss accommodation details\", \"timeline\": \"Lease duration ends 2026-08-21; no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Not applicable (no conversation recorded)\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student budget and lease duration clearly stated; no other preferences or details provided\"}}}}}",
+    "created_at": "2025-11-18 10:34:23",
+    "updated_at": "2025-11-18T16:04:23.056433",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": null,
+        "mobile": [
+          "+8618070073713"
+        ],
+        "email": [
+          "jingxinsong6@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 309,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Placed a call to the student at the provided phone number on 2025-09-01; call duration was zero seconds indicating no conversation took place.",
+      "suggested_next_step": "Agent to follow up with the student via call or email to establish contact and discuss accommodation options."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "songjingxin",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (jingxinsong6@gmail.com), Phone (8618070073713)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£309 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks, move out by 2026-08-21",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 (lead info submission and one call attempt)",
+            "primary_channel": "Email and phone call",
+            "last_contact": "2025-09-01 (call attempt)",
+            "response_time": "Not mentioned",
+            "key_moments": "Lead information received on 2025-08-30; outbound call made on 2025-09-01 with zero duration (no answer or no conversation)"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1426846 referenced in lead info",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up on call attempt to engage student",
+            "pending_items": "Student response to call or email",
+            "follow_up_required": "Yes, to confirm interest and discuss accommodation details",
+            "timeline": "Lease duration ends 2026-08-21; no move-in date specified"
+          },
+          "agent_notes": {
+            "student_tone": "Not applicable (no conversation recorded)",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Student budget and lease duration clearly stated; no other preferences or details provided"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": null,
+          "mobile": [
+            "+8618070073713"
+          ],
+          "email": [
+            "jingxinsong6@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 309,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Placed a call to the student at the provided phone number on 2025-09-01; call duration was zero seconds indicating no conversation took place.",
+        "suggested_next_step": "Agent to follow up with the student via call or email to establish contact and discuss accommodation options."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "songjingxin",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (jingxinsong6@gmail.com), Phone (8618070073713)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£309 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks, move out by 2026-08-21",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 (lead info submission and one call attempt)",
+              "primary_channel": "Email and phone call",
+              "last_contact": "2025-09-01 (call attempt)",
+              "response_time": "Not mentioned",
+              "key_moments": "Lead information received on 2025-08-30; outbound call made on 2025-09-01 with zero duration (no answer or no conversation)"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1426846 referenced in lead info",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up on call attempt to engage student",
+              "pending_items": "Student response to call or email",
+              "follow_up_required": "Yes, to confirm interest and discuss accommodation details",
+              "timeline": "Lease duration ends 2026-08-21; no move-in date specified"
+            },
+            "agent_notes": {
+              "student_tone": "Not applicable (no conversation recorded)",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Student budget and lease duration clearly stated; no other preferences or details provided"
+            }
+          }
+        }
+      }
+    }
+  }
+}

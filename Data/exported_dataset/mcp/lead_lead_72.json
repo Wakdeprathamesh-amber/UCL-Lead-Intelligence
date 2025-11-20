@@ -1,0 +1,600 @@
+{
+  "id": "lead_72",
+  "mobile_number": "821029959003",
+  "email": null,
+  "timeline": [
+    {
+      "id": 13763,
+      "lead_id": 72,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3082788, \"user_name\": \"Hyungji Ha\", \"email\": \"hhj6748@dankook.ac.kr\", \"phone\": \"821029959003\", \"lease_duration\": \"43 week\", \"move_out_date\": \"2026-07-04\", \"budget\": 272, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Wembley\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2002287}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13764,
+      "lead_id": 72,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-21T14:43:58",
+      "content": "hello",
+      "source": "whatsapp",
+      "event_id": "6250981",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-21T14:43:58\", \"id\": 6250981, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"821029959003\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_821029959003@c.us_3FBA5C30F839BA5B3D98\", \"message_type\": \"text\", \"message_content\": \"hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-21T14:43:58.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"hello\\\", \\\"Datetime\\\": 1753109038000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"821029959003@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_821029959003@c.us_3FBA5C30F839BA5B3D98\\\", \\\"ChannelName\\\": \\\"821029959003\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-07-21T14:43:59.340746\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"821029959003\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13765,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-21T14:44:15.667470",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7542957",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-21T14:44:15.667470\", \"id\": 7542957, \"duration\": \"0\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13766,
+      "lead_id": 72,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-21T14:44:39",
+      "content": "Hey Hyungji, \n\nThanks for contacting amber for your accommodation search in London!\nI am Mahmudul and I'll be helping you book your ideal student home.\n\nHappy to assist you with the process ahead. Thankyou : )",
+      "source": "whatsapp",
+      "event_id": "6251031",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-21T14:44:39\", \"id\": 6251031, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"821029959003\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_821029959003@c.us_3FFED4CC27FA14FE27FE\", \"message_type\": \"text\", \"message_content\": \"Hey Hyungji, \\n\\nThanks for contacting amber for your accommodation search in London!\\nI am Mahmudul and I'll be helping you book your ideal student home.\\n\\nHappy to assist you with the process ahead. Thankyou : )\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-21T14:44:39.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hey Hyungji, \\\\n\\\\nThanks for contacting amber for your accommodation search in London!\\\\nI am Mahmudul and I'll be helping you book your ideal student home.\\\\n\\\\nHappy to assist you with the process ahead. Thankyou : )\\\", \\\"Datetime\\\": 1753109079000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"821029959003@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_821029959003@c.us_3FFED4CC27FA14FE27FE\\\", \\\"ChannelName\\\": \\\"821029959003\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-07-21T14:44:39.530477\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"821029959003\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13767,
+      "lead_id": 72,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-21T14:54:58",
+      "content": "Thankyou for completing your bookform please let us know when you are available for a call",
+      "source": "whatsapp",
+      "event_id": "6251787",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-21T14:54:58\", \"id\": 6251787, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"821029959003\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_821029959003@c.us_F8F37F1C27C8DC5B7242A1EB646223D1\", \"message_type\": \"text\", \"message_content\": \"Thankyou for completing your bookform please let us know when you are available for a call\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-21T14:54:58.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Thankyou for completing your bookform please let us know when you are available for a call\\\", \\\"Datetime\\\": 1753109698000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"821029959003@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_821029959003@c.us_F8F37F1C27C8DC5B7242A1EB646223D1\\\", \\\"ChannelName\\\": \\\"821029959003\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-07-21T14:54:59.100504\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"821029959003\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13768,
+      "lead_id": 72,
+      "event_type": "email",
+      "timestamp": "2025-07-21T14:58:05",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-07-21T14:58:05\", \"sender_email\": \"mahmudul.h@amberstudent.com\", \"recipient_email\": \"hhj6748@dankook.ac.kr\", \"subject\": \"Book form completed\", \"message\": \"Thankyou for filling your book form please let me know when can we connect on call as the options running out really fast let's connect on call and complete your booking.\\\\n\\\\nThankyou\\\\n\\\\n[amberstudent.com]\\\\n\\\\nMahmudul H\\\\n\\\\nSenior Operations Associate\\\\n\\\\nPhone: [+447897026561]()\\\\n\\\\nWhatsapp: [+447782694334]()\\\\n\\\\nEmail: [mahmudul.h@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\", \"snippet\": \"Thankyou for filling your book form please let me know when can we connect on call as the options running out really fast let&#39;s connect on call and complete your booking. Thankyou Mahmudul H Senior\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"mahmudul.h@amberstudent.com\", \"student_email\": \"hhj6748@dankook.ac.kr\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13769,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-21T15:00:14.228331",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7543143",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-21T15:00:14.228331\", \"id\": 7543143, \"duration\": \"0\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13770,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-22T07:47:47.174582",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7546526",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-22T07:47:47.174582\", \"id\": 7546526, \"duration\": \"13\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f96e1397-e44f-449d-86c6-a84575cc105c.wav\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13771,
+      "lead_id": 72,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-23T08:34:49",
+      "content": "hello",
+      "source": "whatsapp",
+      "event_id": "6325631",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-23T08:34:49\", \"id\": 6325631, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"821029959003\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_821029959003@c.us_3FF72522C1D140912D2E\", \"message_type\": \"text\", \"message_content\": \"hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-23T08:34:49.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"hello\\\", \\\"Datetime\\\": 1753259689000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"821029959003@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_821029959003@c.us_3FF72522C1D140912D2E\\\", \\\"ChannelName\\\": \\\"821029959003\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-07-23T08:34:49.945519\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"821029959003\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13772,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-23T08:34:57.351545",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7552668",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-23T08:34:57.351545\", \"id\": 7552668, \"duration\": \"0\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13773,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-23T10:18:30.351462",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7553572",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-23T10:18:30.351462\", \"id\": 7553572, \"duration\": \"0\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13774,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-25T23:11:55.283905",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7570399",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-25T23:11:55.283905\", \"id\": 7570399, \"duration\": \"0\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13775,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-30T09:41:35.839587",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7591900",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-30T09:41:35.839587\", \"id\": 7591900, \"duration\": \"0\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13776,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-30T09:44:25.331172",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7591927",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-30T09:44:25.331172\", \"id\": 7591927, \"duration\": \"0\", \"to_number\": \"918099537848\", \"from_number\": \"821029959003\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13777,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-30T09:53:17.272770",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7592018",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-30T09:53:17.272770\", \"id\": 7592018, \"duration\": \"305\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/23329ce8-d04d-4772-8ef6-d8bd3caae1e1.wav\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13778,
+      "lead_id": 72,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-30T09:56:22",
+      "content": "hello",
+      "source": "whatsapp",
+      "event_id": "6597168",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-30T09:56:22\", \"id\": 6597168, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"821029959003\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_821029959003@c.us_3F363175D5A8042AF719\", \"message_type\": \"text\", \"message_content\": \"hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-30T09:56:22.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"hello\\\", \\\"Datetime\\\": 1753869382000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"821029959003@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_821029959003@c.us_3F363175D5A8042AF719\\\", \\\"ChannelName\\\": \\\"821029959003\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-07-30T09:56:22.355350\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"821029959003\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13779,
+      "lead_id": 72,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-30T09:56:30",
+      "content": "Here are your property suggestions:_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_🏡 *IQ STERLING COURT, LONDON*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400📹 *VIEW VIDEOS*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos🕶️ *VIEW 3D TOUR*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D📍 *DISTANCE from London City Center:* *Drive:* 11.7 mi (44 mins) *Walk:* 8.7 mi (2 hours 56 mins) *Bus/Train:* 9.4 mi (42 mins)🏘 *ROOM TYPES:* *Bronze En Suite Plus:*   £296/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze En Suite Premium:*   £279/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026)   £304/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze En Suite Deluxe:*   £286/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026)   £312/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Silver Studio:*   £354/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze Studio Deluxe:*   £335/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026)   £344/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Silver Studio Premium:*   £340/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) *Silver Studio Deluxe:*   £347/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026)   £357/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze Studio:*   £341/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Silver Studio Plus:* £362/week (Duration:  43 weeks)  *(SOLD OUT)**Gold Studio Deluxe:* £437/week (Duration:  51 weeks)  *(SOLD OUT)**Bronze En Suite:* £288/week (Duration:  43 weeks)  *(SOLD OUT)**Bronze Studio Plus:* £320/week *(SOLD OUT)**Gold Studio Plus:* £465/week (Duration:  43 weeks)  *(SOLD OUT)**Copper En Suite:* £269/week (Duration:  43 weeks)  *(SOLD OUT)**Bronze Studio Premium:* £319/week *(SOLD OUT)**Gold Studio Premium:* £421/week *(SOLD OUT)**Copper En Suite Premium:* £261/week *(SOLD OUT)*✅ *Click this link to secure the room:*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=143147------------",
+      "source": "whatsapp",
+      "event_id": "6597183",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-30T09:56:30\", \"id\": 6597183, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"821029959003\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_821029959003@c.us_3EB0CB6449514380083D80\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400\\ud83d\\udcf9 *VIEW VIDEOS*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\ud83d\\udccd *DISTANCE from London City Center:* *Drive:* 11.7 mi (44 mins) *Walk:* 8.7 mi (2 hours 56 mins) *Bus/Train:* 9.4 mi (42 mins)\\ud83c\\udfd8 *ROOM TYPES:* *Bronze En Suite Plus:* \\u00a0\\u00a0\\u00a3296/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze En Suite Premium:* \\u00a0\\u00a0\\u00a3279/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) \\u00a0\\u00a0\\u00a3304/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze En Suite Deluxe:* \\u00a0\\u00a0\\u00a3286/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) \\u00a0\\u00a0\\u00a3312/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Silver Studio:* \\u00a0\\u00a0\\u00a3354/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze Studio Deluxe:* \\u00a0\\u00a0\\u00a3335/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) \\u00a0\\u00a0\\u00a3344/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Silver Studio Premium:* \\u00a0\\u00a0\\u00a3340/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) *Silver Studio Deluxe:* \\u00a0\\u00a0\\u00a3347/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) \\u00a0\\u00a0\\u00a3357/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze Studio:* \\u00a0\\u00a0\\u00a3341/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Silver Studio Plus:* \\u00a3362/week (Duration:  43 weeks)  *(SOLD OUT)**Gold Studio Deluxe:* \\u00a3437/week (Duration:  51 weeks)  *(SOLD OUT)**Bronze En Suite:* \\u00a3288/week (Duration:  43 weeks)  *(SOLD OUT)**Bronze Studio Plus:* \\u00a3320/week *(SOLD OUT)**Gold Studio Plus:* \\u00a3465/week (Duration:  43 weeks)  *(SOLD OUT)**Copper En Suite:* \\u00a3269/week (Duration:  43 weeks)  *(SOLD OUT)**Bronze Studio Premium:* \\u00a3319/week *(SOLD OUT)**Gold Studio Premium:* \\u00a3421/week *(SOLD OUT)**Copper En Suite Premium:* \\u00a3261/week *(SOLD OUT)*\\u2705 *Click this link to secure the room:*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=143147------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-30T09:56:30.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400\\ud83d\\udcf9 *VIEW VIDEOS*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\ud83d\\udccd *DISTANCE from London City Center:* *Drive:* 11.7 mi (44 mins) *Walk:* 8.7 mi (2 hours 56 mins) *Bus/Train:* 9.4 mi (42 mins)\\ud83c\\udfd8 *ROOM TYPES:* *Bronze En Suite Plus:* \\u00a0\\u00a0\\u00a3296/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze En Suite Premium:* \\u00a0\\u00a0\\u00a3279/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) \\u00a0\\u00a0\\u00a3304/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze En Suite Deluxe:* \\u00a0\\u00a0\\u00a3286/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) \\u00a0\\u00a0\\u00a3312/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Silver Studio:* \\u00a0\\u00a0\\u00a3354/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze Studio Deluxe:* \\u00a0\\u00a0\\u00a3335/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) \\u00a0\\u00a0\\u00a3344/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Silver Studio Premium:* \\u00a0\\u00a0\\u00a3340/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) *Silver Studio Deluxe:* \\u00a0\\u00a0\\u00a3347/week (Duration:  51 weeks)  (Move in:  6 Sep, 2025)  (Move out:  29 Aug, 2026) \\u00a0\\u00a0\\u00a3357/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Bronze Studio:* \\u00a0\\u00a0\\u00a3341/week (Duration:  43 weeks)  (Move in:  6 Sep, 2025)  (Move out:  4 Jul, 2026) *Silver Studio Plus:* \\u00a3362/week (Duration:  43 weeks)  *(SOLD OUT)**Gold Studio Deluxe:* \\u00a3437/week (Duration:  51 weeks)  *(SOLD OUT)**Bronze En Suite:* \\u00a3288/week (Duration:  43 weeks)  *(SOLD OUT)**Bronze Studio Plus:* \\u00a3320/week *(SOLD OUT)**Gold Studio Plus:* \\u00a3465/week (Duration:  43 weeks)  *(SOLD OUT)**Copper En Suite:* \\u00a3269/week (Duration:  43 weeks)  *(SOLD OUT)**Bronze Studio Premium:* \\u00a3319/week *(SOLD OUT)**Gold Studio Premium:* \\u00a3421/week *(SOLD OUT)**Copper En Suite Premium:* \\u00a3261/week *(SOLD OUT)*\\u2705 *Click this link to secure the room:*https://amberstudent.com/places/iq-sterling-court-wembley-1811167912400/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=143147------------\\\", \\\"Datetime\\\": 1753869390000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"821029959003@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_821029959003@c.us_3EB0CB6449514380083D80\\\", \\\"ChannelName\\\": \\\"821029959003\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-07-30T09:56:30.958037\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"821029959003\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13780,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-30T10:03:22.365605",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7592121",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-30T10:03:22.365605\", \"id\": 7592121, \"duration\": \"0\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13781,
+      "lead_id": 72,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-30T10:04:19",
+      "content": "Hi Hyungji Ha, 😊\nHope you're doing well! 🌟\n\nThis is Ashutush from AmberStudent. I’ve been trying to get in touch with you to discuss your student accommodation search and booking! 🏡✨\n\nPlease let me know a convenient time for us to connect. Looking forward to assisting you! 😊",
+      "source": "whatsapp",
+      "event_id": "6597671",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-30T10:04:19\", \"id\": 6597671, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"821029959003\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_821029959003@c.us_3F77B77427CED3B8E067\", \"message_type\": \"text\", \"message_content\": \"Hi Hyungji Ha, \\ud83d\\ude0a\\nHope you're doing well! \\ud83c\\udf1f\\n\\nThis is Ashutush from AmberStudent. I\\u2019ve been trying to get in touch with you to discuss your student accommodation search and booking! \\ud83c\\udfe1\\u2728\\n\\nPlease let me know a convenient time for us to connect. Looking forward to assisting you! \\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-30T10:04:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Hyungji Ha, \\ud83d\\ude0a\\\\nHope you're doing well! \\ud83c\\udf1f\\\\n\\\\nThis is Ashutush from AmberStudent. I\\u2019ve been trying to get in touch with you to discuss your student accommodation search and booking! \\ud83c\\udfe1\\u2728\\\\n\\\\nPlease let me know a convenient time for us to connect. Looking forward to assisting you! \\ud83d\\ude0a\\\", \\\"Datetime\\\": 1753869859000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"821029959003@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_821029959003@c.us_3F77B77427CED3B8E067\\\", \\\"ChannelName\\\": \\\"821029959003\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-30T10:04:20.057437\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"821029959003\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13782,
+      "lead_id": 72,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-30T10:05:06",
+      "content": "I see you have filled a booking form for iQ Sterling Court, London",
+      "source": "whatsapp",
+      "event_id": "6597724",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-30T10:05:06\", \"id\": 6597724, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"821029959003\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_821029959003@c.us_3FA74909570D03C62C3D\", \"message_type\": \"text\", \"message_content\": \"I see you have filled a booking form for iQ Sterling Court, London\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-30T10:05:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"I see you have filled a booking form for iQ Sterling Court, London\\\", \\\"Datetime\\\": 1753869906000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"821029959003@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_821029959003@c.us_3FA74909570D03C62C3D\\\", \\\"ChannelName\\\": \\\"821029959003\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-30T10:05:06.664705\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"821029959003\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13783,
+      "lead_id": 72,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-30T10:05:22",
+      "content": "If you want to proceed with this booking do let me know!",
+      "source": "whatsapp",
+      "event_id": "6597744",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-30T10:05:22\", \"id\": 6597744, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"821029959003\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_821029959003@c.us_3F11F630B8FA7966695E\", \"message_type\": \"text\", \"message_content\": \"If you want to proceed with this booking do let me know!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-30T10:05:22.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"If you want to proceed with this booking do let me know!\\\", \\\"Datetime\\\": 1753869922000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"821029959003@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_821029959003@c.us_3F11F630B8FA7966695E\\\", \\\"ChannelName\\\": \\\"821029959003\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-30T10:05:22.414991\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"821029959003\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13784,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-07-30T10:07:29.187944",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7592161",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-30T10:07:29.187944\", \"id\": 7592161, \"duration\": \"0\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:22:32"
+    },
+    {
+      "id": 13785,
+      "lead_id": 72,
+      "event_type": "call",
+      "timestamp": "2025-08-01T08:40:45.172624",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7604692",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-01T08:40:45.172624\", \"id\": 7604692, \"duration\": \"0\", \"to_number\": \"821029959003\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:22:32"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 690,
+      "lead_id": 72,
+      "call_id": "7592018",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/23329ce8-d04d-4772-8ef6-d8bd3caae1e1.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Hello? Hi, am I speaking with Hyungi?\nSpeaker C: Oh yes.\nSpeaker B: Hi. How are you doing?\nSpeaker C: I just waiting for moving in London.\nSpeaker B: Perfect. But your accommodation. You were checking for some accommodation in our website, correct? And you have to IQ.\nSpeaker A: Your card.\nSpeaker B: Yeah. IQ Arcade.\nSpeaker D: But your payment is still pending so.\nSpeaker B: We are not able to proceed with the booking.\nSpeaker D: So could you please confirm?\nSpeaker B: Yeah.\nSpeaker C: Well, like two minutes ago I upload my mine 30 application document.\nSpeaker B: Okay.\nSpeaker C: Then you could check it and then if there are any other process that you need.\nSpeaker D: I can see you were. You were applying for IQ steering port.\nSpeaker A: I'm sorry?\nSpeaker D: You applied for IQ steering port, right?\nSpeaker A: IQ steering.\nSpeaker C: Oh yeah. Floor. Fourth floor.\nSpeaker D: IQ steering code.\nSpeaker A: Okay. Student court.\nSpeaker B: Yeah.\nSpeaker D: IQ steering code. Which accommodation you selected? You selected IQ Skip steering code.\nSpeaker B: Payment for saver ensuite, correct?\nSpeaker A: I don't think so.\nSpeaker D: Let me check WhatsApp on the number.\nSpeaker B: You have WhatsApp on the number, right?\nSpeaker C: Oh yes.\nSpeaker B: Yeah. Just hold on one second. Just open your WhatsApp. I'm sharing with the property and you can confirm me if you have applied for the same property.\nSpeaker C: Okay.\nSpeaker B: It. Yeah.\nSpeaker D: Have you opened your WhatsApp?\nSpeaker C: Yes.\nSpeaker B: Did you got my text? I said hello.\nSpeaker A: Oh, I'm so sorry.\nSpeaker C: Is it. What is your accommodation name?\nSpeaker B: Official partners with the university. My company name? Amber Student.\nSpeaker A: Amber Student? Oh, I just don't for to London. Oh, I'm sorry.\nSpeaker B: Pardon?\nSpeaker A: I'm so sorry.\nSpeaker C: Because I already booked another accommodation.\nSpeaker B: Okay. Can you tell me the name?\nSpeaker A: Tell me what? Tell you what?\nSpeaker B: Name the name of the accommodation so I can check.\nSpeaker A: Iq.\nSpeaker B: Are you not going to University College London?\nSpeaker C: Yes.\nSpeaker B: Then did you book from another's website?\nSpeaker C: Yes, unfortunately.\nSpeaker B: But that is not advisable from the university, right? You know another website can be scam or some other things, right?\nSpeaker C: Oh yes, of course.\nSpeaker B: That's why the university always recommend to book from us with official partners.\nSpeaker D: Yeah. Have you signed the agreement?\nSpeaker C: Oh yes, I already sign it and book it and I already pay it.\nSpeaker B: Okay.\nSpeaker D: You have already made the payment, right?\nSpeaker B: Okay.\nSpeaker D: What was the name of the agency or the company where you made the payment?\nSpeaker A: Oh, I'm so sorry.\nSpeaker C: I cannot offer that name. So I have to do my workspace from right now.\nSpeaker A: So I'm sorry and thank you for calling.\nSpeaker D: No worries.\nSpeaker B: I was just looking out for you. So I can make sure you have not booked from any somewhere that is not authentic.\nSpeaker C: No, you don't have to. Okay, have a good day.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:22:47"
+    }
+  ],
+  "summary": {
+    "id": 360,
+    "lead_id": 72,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Hyungji Ha\", \"mobile\": [\"821029959003\"], \"email\": [\"hhj6748@dankook.ac.kr\"], \"whatsapp\": [\"821029959003\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\", \"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 272, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-06\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"London City Center\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [\"to_be_booked\", \"\"], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Sterling Court\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with student to schedule a call to discuss accommodation booking and complete the booking process.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple WhatsApp messages and email from Mahmudul on 2025-07-21 requesting call availability to complete booking.\"}, {\"type\": \"communication\", \"description\": \"Agent to send property suggestions and booking links for IQ Sterling Court to student.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-07-30 with detailed property suggestions and booking links.\"}, {\"type\": \"booking_action\", \"description\": \"Student to review property suggestions for IQ Sterling Court and confirm if they want to proceed with the booking.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp messages from Ashutush on 2025-07-30 asking student to confirm if they want to proceed with booking.\"}, {\"type\": \"communication\", \"description\": \"Agent to clarify with student about their current booking status and advise on official booking channels.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-07-30 where agent confirmed student had booked accommodation elsewhere and advised about official partners.\"}], \"last_agent_response\": \"Agent Ashutush sent WhatsApp messages on 2025-07-30 with property suggestions for IQ Sterling Court and requested student confirmation to proceed with booking.\", \"suggested_next_step\": \"Student to review the property suggestions sent and confirm with the agent if they wish to proceed with the booking.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Hyungji Ha\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (hhj6748@dankook.ac.kr), Phone (+82 1029959003), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, London, England, United Kingdom\", \"university\": \"University College London (implied)\", \"room_type\": \"Not explicitly stated; multiple room types suggested including Bronze En Suite, Silver Studio, Bronze Studio, Gold Studio\", \"budget_range\": \"\\u00a3272 per week (student's budget); property options range from approx. \\u00a3261 to \\u00a3465 per week\", \"move_in_date\": \"6 September 2025\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Payment pending; booking form completed; student has already booked accommodation elsewhere\", \"documents_status\": \"Application documents uploaded recently (within minutes before call on 2025-07-30)\", \"payment_status\": \"Payment not made through AmberStudent; student confirmed payment made to another agency\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages and calls between 2025-07-21 and 2025-08-01; at least 10 calls (mostly outbound, many unanswered or zero duration), several WhatsApp message packs\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-01 (call attempt)\", \"response_time\": \"Agent initiated most contacts; student responded during a call on 2025-07-30 and via WhatsApp booking form; limited direct student replies\", \"key_moments\": \"Initial contact and welcome message on 2025-07-21; booking form completion confirmed; multiple call attempts; 13-minute call on 2025-07-22; 5-minute call on 2025-07-30 where student disclosed booking elsewhere; property suggestions sent on 2025-07-30; agent follow-up messages and calls continuing after student declined AmberStudent booking\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ Sterling Court, Wembley, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student did not express preferences explicitly; declined AmberStudent options due to prior booking\", \"offers_made\": \"Property suggestions with detailed room types and prices sent on 2025-07-30\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action from student as they have booked elsewhere; agent to close or archive lead\", \"pending_items\": \"No pending items from student side\", \"follow_up_required\": \"No follow-up required unless student re-engages\", \"timeline\": \"Move-in date 6 September 2025; lease ends 4 July 2026\"}, \"agent_notes\": {\"student_tone\": \"Polite but brief; limited engagement; declined further assistance after disclosing prior booking\", \"urgency_level\": \"Low, as student has already secured accommodation\", \"complexity\": \"Moderate due to student booking outside official channels\", \"special_considerations\": \"Student booked through non-university recommended agency; advised about risks but student declined to share details\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Hyungji Ha\", \"mobile\": [\"821029959003\"], \"email\": [\"hhj6748@dankook.ac.kr\"], \"whatsapp\": [\"821029959003\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\", \"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 272, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-06\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"London City Center\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [\"to_be_booked\", \"\"], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Sterling Court\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with student to schedule a call to discuss accommodation booking and complete the booking process.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple WhatsApp messages and email from Mahmudul on 2025-07-21 requesting call availability to complete booking.\"}, {\"type\": \"communication\", \"description\": \"Agent to send property suggestions and booking links for IQ Sterling Court to student.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-07-30 with detailed property suggestions and booking links.\"}, {\"type\": \"booking_action\", \"description\": \"Student to review property suggestions for IQ Sterling Court and confirm if they want to proceed with the booking.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp messages from Ashutush on 2025-07-30 asking student to confirm if they want to proceed with booking.\"}, {\"type\": \"communication\", \"description\": \"Agent to clarify with student about their current booking status and advise on official booking channels.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-07-30 where agent confirmed student had booked accommodation elsewhere and advised about official partners.\"}], \"last_agent_response\": \"Agent Ashutush sent WhatsApp messages on 2025-07-30 with property suggestions for IQ Sterling Court and requested student confirmation to proceed with booking.\", \"suggested_next_step\": \"Student to review the property suggestions sent and confirm with the agent if they wish to proceed with the booking.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Hyungji Ha\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (hhj6748@dankook.ac.kr), Phone (+82 1029959003), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, London, England, United Kingdom\", \"university\": \"University College London (implied)\", \"room_type\": \"Not explicitly stated; multiple room types suggested including Bronze En Suite, Silver Studio, Bronze Studio, Gold Studio\", \"budget_range\": \"\\u00a3272 per week (student's budget); property options range from approx. \\u00a3261 to \\u00a3465 per week\", \"move_in_date\": \"6 September 2025\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Payment pending; booking form completed; student has already booked accommodation elsewhere\", \"documents_status\": \"Application documents uploaded recently (within minutes before call on 2025-07-30)\", \"payment_status\": \"Payment not made through AmberStudent; student confirmed payment made to another agency\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages and calls between 2025-07-21 and 2025-08-01; at least 10 calls (mostly outbound, many unanswered or zero duration), several WhatsApp message packs\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-01 (call attempt)\", \"response_time\": \"Agent initiated most contacts; student responded during a call on 2025-07-30 and via WhatsApp booking form; limited direct student replies\", \"key_moments\": \"Initial contact and welcome message on 2025-07-21; booking form completion confirmed; multiple call attempts; 13-minute call on 2025-07-22; 5-minute call on 2025-07-30 where student disclosed booking elsewhere; property suggestions sent on 2025-07-30; agent follow-up messages and calls continuing after student declined AmberStudent booking\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ Sterling Court, Wembley, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student did not express preferences explicitly; declined AmberStudent options due to prior booking\", \"offers_made\": \"Property suggestions with detailed room types and prices sent on 2025-07-30\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action from student as they have booked elsewhere; agent to close or archive lead\", \"pending_items\": \"No pending items from student side\", \"follow_up_required\": \"No follow-up required unless student re-engages\", \"timeline\": \"Move-in date 6 September 2025; lease ends 4 July 2026\"}, \"agent_notes\": {\"student_tone\": \"Polite but brief; limited engagement; declined further assistance after disclosing prior booking\", \"urgency_level\": \"Low, as student has already secured accommodation\", \"complexity\": \"Moderate due to student booking outside official channels\", \"special_considerations\": \"Student booked through non-university recommended agency; advised about risks but student declined to share details\"}}}}}",
+    "created_at": "2025-11-18 13:22:59",
+    "updated_at": "2025-11-18T18:52:59.956310",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Hyungji Ha",
+        "mobile": [
+          "821029959003"
+        ],
+        "email": [
+          "hhj6748@dankook.ac.kr"
+        ],
+        "whatsapp": [
+          "821029959003"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Wembley",
+          "London"
+        ],
+        "lease_duration_weeks": 43,
+        "room_type": null,
+        "budget": {
+          "max": 272,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": "2025-09-06",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": "pbsa",
+        "nearby_preferences": [
+          "London City Center"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "University College London"
+        ],
+        "flight_booking": [
+          "to_be_booked",
+          ""
+        ],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "IQ Sterling Court"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student to schedule a call to discuss accommodation booking and complete the booking process.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple WhatsApp messages and email from Mahmudul on 2025-07-21 requesting call availability to complete booking."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to send property suggestions and booking links for IQ Sterling Court to student.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-07-30 with detailed property suggestions and booking links."
+        },
+        {
+          "type": "booking_action",
+          "description": "Student to review property suggestions for IQ Sterling Court and confirm if they want to proceed with the booking.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp messages from Ashutush on 2025-07-30 asking student to confirm if they want to proceed with booking."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to clarify with student about their current booking status and advise on official booking channels.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-07-30 where agent confirmed student had booked accommodation elsewhere and advised about official partners."
+        }
+      ],
+      "last_agent_response": "Agent Ashutush sent WhatsApp messages on 2025-07-30 with property suggestions for IQ Sterling Court and requested student confirmation to proceed with booking.",
+      "suggested_next_step": "Student to review the property suggestions sent and confirm with the agent if they wish to proceed with the booking."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Hyungji Ha",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (hhj6748@dankook.ac.kr), Phone (+82 1029959003), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "Wembley, London, England, United Kingdom",
+            "university": "University College London (implied)",
+            "room_type": "Not explicitly stated; multiple room types suggested including Bronze En Suite, Silver Studio, Bronze Studio, Gold Studio",
+            "budget_range": "£272 per week (student's budget); property options range from approx. £261 to £465 per week",
+            "move_in_date": "6 September 2025",
+            "lease_duration": "43 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Payment pending; booking form completed; student has already booked accommodation elsewhere",
+            "documents_status": "Application documents uploaded recently (within minutes before call on 2025-07-30)",
+            "payment_status": "Payment not made through AmberStudent; student confirmed payment made to another agency",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple WhatsApp messages and calls between 2025-07-21 and 2025-08-01; at least 10 calls (mostly outbound, many unanswered or zero duration), several WhatsApp message packs",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-08-01 (call attempt)",
+            "response_time": "Agent initiated most contacts; student responded during a call on 2025-07-30 and via WhatsApp booking form; limited direct student replies",
+            "key_moments": "Initial contact and welcome message on 2025-07-21; booking form completion confirmed; multiple call attempts; 13-minute call on 2025-07-22; 5-minute call on 2025-07-30 where student disclosed booking elsewhere; property suggestions sent on 2025-07-30; agent follow-up messages and calls continuing after student declined AmberStudent booking"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "IQ Sterling Court, Wembley, London",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Student did not express preferences explicitly; declined AmberStudent options due to prior booking",
+            "offers_made": "Property suggestions with detailed room types and prices sent on 2025-07-30"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action from student as they have booked elsewhere; agent to close or archive lead",
+            "pending_items": "No pending items from student side",
+            "follow_up_required": "No follow-up required unless student re-engages",
+            "timeline": "Move-in date 6 September 2025; lease ends 4 July 2026"
+          },
+          "agent_notes": {
+            "student_tone": "Polite but brief; limited engagement; declined further assistance after disclosing prior booking",
+            "urgency_level": "Low, as student has already secured accommodation",
+            "complexity": "Moderate due to student booking outside official channels",
+            "special_considerations": "Student booked through non-university recommended agency; advised about risks but student declined to share details"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Hyungji Ha",
+          "mobile": [
+            "821029959003"
+          ],
+          "email": [
+            "hhj6748@dankook.ac.kr"
+          ],
+          "whatsapp": [
+            "821029959003"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Wembley",
+            "London"
+          ],
+          "lease_duration_weeks": 43,
+          "room_type": null,
+          "budget": {
+            "max": 272,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": "2025-09-06",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": "pbsa",
+          "nearby_preferences": [
+            "London City Center"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "University College London"
+          ],
+          "flight_booking": [
+            "to_be_booked",
+            ""
+          ],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "IQ Sterling Court"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student to schedule a call to discuss accommodation booking and complete the booking process.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple WhatsApp messages and email from Mahmudul on 2025-07-21 requesting call availability to complete booking."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to send property suggestions and booking links for IQ Sterling Court to student.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-07-30 with detailed property suggestions and booking links."
+          },
+          {
+            "type": "booking_action",
+            "description": "Student to review property suggestions for IQ Sterling Court and confirm if they want to proceed with the booking.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp messages from Ashutush on 2025-07-30 asking student to confirm if they want to proceed with booking."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to clarify with student about their current booking status and advise on official booking channels.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-07-30 where agent confirmed student had booked accommodation elsewhere and advised about official partners."
+          }
+        ],
+        "last_agent_response": "Agent Ashutush sent WhatsApp messages on 2025-07-30 with property suggestions for IQ Sterling Court and requested student confirmation to proceed with booking.",
+        "suggested_next_step": "Student to review the property suggestions sent and confirm with the agent if they wish to proceed with the booking."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Hyungji Ha",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (hhj6748@dankook.ac.kr), Phone (+82 1029959003), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "Wembley, London, England, United Kingdom",
+              "university": "University College London (implied)",
+              "room_type": "Not explicitly stated; multiple room types suggested including Bronze En Suite, Silver Studio, Bronze Studio, Gold Studio",
+              "budget_range": "£272 per week (student's budget); property options range from approx. £261 to £465 per week",
+              "move_in_date": "6 September 2025",
+              "lease_duration": "43 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Payment pending; booking form completed; student has already booked accommodation elsewhere",
+              "documents_status": "Application documents uploaded recently (within minutes before call on 2025-07-30)",
+              "payment_status": "Payment not made through AmberStudent; student confirmed payment made to another agency",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple WhatsApp messages and calls between 2025-07-21 and 2025-08-01; at least 10 calls (mostly outbound, many unanswered or zero duration), several WhatsApp message packs",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-08-01 (call attempt)",
+              "response_time": "Agent initiated most contacts; student responded during a call on 2025-07-30 and via WhatsApp booking form; limited direct student replies",
+              "key_moments": "Initial contact and welcome message on 2025-07-21; booking form completion confirmed; multiple call attempts; 13-minute call on 2025-07-22; 5-minute call on 2025-07-30 where student disclosed booking elsewhere; property suggestions sent on 2025-07-30; agent follow-up messages and calls continuing after student declined AmberStudent booking"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "IQ Sterling Court, Wembley, London",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Student did not express preferences explicitly; declined AmberStudent options due to prior booking",
+              "offers_made": "Property suggestions with detailed room types and prices sent on 2025-07-30"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action from student as they have booked elsewhere; agent to close or archive lead",
+              "pending_items": "No pending items from student side",
+              "follow_up_required": "No follow-up required unless student re-engages",
+              "timeline": "Move-in date 6 September 2025; lease ends 4 July 2026"
+            },
+            "agent_notes": {
+              "student_tone": "Polite but brief; limited engagement; declined further assistance after disclosing prior booking",
+              "urgency_level": "Low, as student has already secured accommodation",
+              "complexity": "Moderate due to student booking outside official channels",
+              "special_considerations": "Student booked through non-university recommended agency; advised about risks but student declined to share details"
+            }
+          }
+        }
+      }
+    }
+  }
+}

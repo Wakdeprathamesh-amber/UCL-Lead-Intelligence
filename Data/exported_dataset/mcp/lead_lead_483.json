@@ -1,0 +1,542 @@
+{
+  "id": "lead_483",
+  "mobile_number": "23057230888",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8096,
+      "lead_id": 483,
+      "event_type": "call",
+      "timestamp": "2025-09-01T09:06:27.625508",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7794425",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T09:06:27.625508\", \"id\": 7794425, \"duration\": \"0\", \"to_number\": \"23057230888\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8097,
+      "lead_id": 483,
+      "event_type": "call",
+      "timestamp": "2025-09-01T12:49:28.955812",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7796310",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T12:49:28.955812\", \"id\": 7796310, \"duration\": \"193\", \"to_number\": \"23057230888\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d881b129-f77a-47ac-8a87-7b7bb72a62cf.wav\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8098,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-01T12:50:54",
+      "content": "Hi Natacha, \nGood Day\n\nRachna Ahuja this side on behalf of *University College London* powered by Amber \n\n I will be happy to help you in booking the right accommodation for you. \n\nThanks",
+      "source": "whatsapp",
+      "event_id": "8096789",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-01T12:50:54\", \"id\": 8096789, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"23057230888\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_23057230888@c.us_3EB04CB6D00EAE439F0676\", \"message_type\": \"text\", \"message_content\": \"Hi Natacha, \\nGood Day\\n\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\n\\n I will be happy to help you in booking the right accommodation for you. \\n\\nThanks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-01T12:50:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Natacha, \\\\nGood Day\\\\n\\\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\\\n\\\\n I will be happy to help you in booking the right accommodation for you. \\\\n\\\\nThanks\\\", \\\"Datetime\\\": 1756731054000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"23057230888@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_23057230888@c.us_3EB04CB6D00EAE439F0676\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-01T12:50:54.306795\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8099,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-01T12:54:16",
+      "content": "Hi Rachna. Thanks for your call.",
+      "source": "whatsapp",
+      "event_id": "8097047",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-01T12:54:16\", \"id\": 8097047, \"email\": \"\", \"from_number\": \"23057230888\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_23057230888@c.us_D85A0527728C0A39DA276CB4A21F2781\", \"message_type\": \"text\", \"message_content\": \"Hi Rachna. Thanks for your call.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"23057230888@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-01T12:54:16.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Rachna. Thanks for your call.\\\", \\\"Datetime\\\": 1756731256000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"23057230888@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_23057230888@c.us_D85A0527728C0A39DA276CB4A21F2781\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"23057230888\\\", \\\"sentByUserId\\\": \\\"23057230888@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-01T12:54:16.898423\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8100,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-01T22:04:39",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *IQ STERLING COURT, LONDON*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 10.2 mi (34 mins)\n*Walk:* 8.1 mi (2 hours 45 mins)\n*Bus/Train:* 8.4 mi (34 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143147\n\n------------\n\n🏡 *IQ THE ARCADE, LONDON*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.0 mi (17 mins)\n*Walk:* 2.8 mi (57 mins)\n*Bus/Train:* 3.0 mi (30 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143139\n\n------------\n\n🏡 *IQ HIGHBURY, LONDON*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.3 mi (17 mins)\n*Walk:* 3.4 mi (1 hour 9 mins)\n*Bus/Train:* 4.1 mi (16 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143159\n\n------------\n\n🏡 *IQ ALDGATE, LONDON*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.6 mi (24 mins)\n*Walk:* 3.4 mi (1 hour 18 mins)\n*Bus/Train:* 3.7 mi (25 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267/form?url=rachna.a%40amberstudent.com&amp;inventory_id=136693\n\n------------\n\n🏡 *CAMDEN HAWLEY CRESCENT, LONDON *\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.0 mi (12 mins)\n*Walk:* 1.4 mi (31 mins)\n*Bus/Train:* 1.7 mi (15 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\n\n------------\n\n🏡 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 0.1 mi (1 min)\n*Walk:* 0.1 mi (3 mins)\n*Bus/Train:* 0.1 mi (3 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137083\n\n------------\n\n🏡 *PORTOBELLO GARROW HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.7 mi (20 mins)\n*Walk:* 3.7 mi (1 hour 24 mins)\n*Bus/Train:* 3.8 mi (24 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137073\n\n------------\n\n🏡 *CHELSEA LIGHTFOOT HALL, LONDON*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.9 mi (25 mins)\n*Walk:* 3.8 mi (1 hour 18 mins)\n*Bus/Train:* 4.3 mi (33 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137043\n\n------------",
+      "source": "whatsapp",
+      "event_id": "8123362",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-01T22:04:39\", \"id\": 8123362, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"23057230888\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_23057230888@c.us_3EB0C52015D3C1030C702B\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 10.2 mi (34 mins)\\n*Walk:* 8.1 mi (2 hours 45 mins)\\n*Bus/Train:* 8.4 mi (34 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143147\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ THE ARCADE, LONDON*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.0 mi (17 mins)\\n*Walk:* 2.8 mi (57 mins)\\n*Bus/Train:* 3.0 mi (30 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143139\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ HIGHBURY, LONDON*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.3 mi (17 mins)\\n*Walk:* 3.4 mi (1 hour 9 mins)\\n*Bus/Train:* 4.1 mi (16 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143159\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ ALDGATE, LONDON*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.6 mi (24 mins)\\n*Walk:* 3.4 mi (1 hour 18 mins)\\n*Bus/Train:* 3.7 mi (25 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267/form?url=rachna.a%40amberstudent.com&amp;inventory_id=136693\\n\\n------------\\n\\n\\ud83c\\udfe1 *CAMDEN HAWLEY CRESCENT, LONDON *\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.0 mi (12 mins)\\n*Walk:* 1.4 mi (31 mins)\\n*Bus/Train:* 1.7 mi (15 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\\n\\n------------\\n\\n\\ud83c\\udfe1 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 0.1 mi (1 min)\\n*Walk:* 0.1 mi (3 mins)\\n*Bus/Train:* 0.1 mi (3 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137083\\n\\n------------\\n\\n\\ud83c\\udfe1 *PORTOBELLO GARROW HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.7 mi (20 mins)\\n*Walk:* 3.7 mi (1 hour 24 mins)\\n*Bus/Train:* 3.8 mi (24 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137073\\n\\n------------\\n\\n\\ud83c\\udfe1 *CHELSEA LIGHTFOOT HALL, LONDON*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.9 mi (25 mins)\\n*Walk:* 3.8 mi (1 hour 18 mins)\\n*Bus/Train:* 4.3 mi (33 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137043\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-01T22:04:39.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 10.2 mi (34 mins)\\\\n*Walk:* 8.1 mi (2 hours 45 mins)\\\\n*Bus/Train:* 8.4 mi (34 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143147\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ THE ARCADE, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.0 mi (17 mins)\\\\n*Walk:* 2.8 mi (57 mins)\\\\n*Bus/Train:* 3.0 mi (30 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143139\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ HIGHBURY, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.3 mi (17 mins)\\\\n*Walk:* 3.4 mi (1 hour 9 mins)\\\\n*Bus/Train:* 4.1 mi (16 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143159\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ ALDGATE, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.6 mi (24 mins)\\\\n*Walk:* 3.4 mi (1 hour 18 mins)\\\\n*Bus/Train:* 3.7 mi (25 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267/form?url=rachna.a%40amberstudent.com&amp;inventory_id=136693\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CAMDEN HAWLEY CRESCENT, LONDON *\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.0 mi (12 mins)\\\\n*Walk:* 1.4 mi (31 mins)\\\\n*Bus/Train:* 1.7 mi (15 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 0.1 mi (1 min)\\\\n*Walk:* 0.1 mi (3 mins)\\\\n*Bus/Train:* 0.1 mi (3 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137083\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *PORTOBELLO GARROW HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.7 mi (20 mins)\\\\n*Walk:* 3.7 mi (1 hour 24 mins)\\\\n*Bus/Train:* 3.8 mi (24 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137073\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CHELSEA LIGHTFOOT HALL, LONDON*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.9 mi (25 mins)\\\\n*Walk:* 3.8 mi (1 hour 18 mins)\\\\n*Bus/Train:* 4.3 mi (33 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137043\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1756764279000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"23057230888@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_23057230888@c.us_3EB0C52015D3C1030C702B\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-01T22:04:39.412646\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8101,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-02T08:41:46",
+      "content": "Hi. Any chance we can get this one at Janet Poole. How does the waitlist work?",
+      "source": "whatsapp",
+      "event_id": "8133409",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-02T08:41:46\", \"id\": 8133409, \"email\": \"\", \"from_number\": \"23057230888\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_23057230888@c.us_F6871C831D9614EBC6499173C7E9E7C3\", \"message_type\": \"text\", \"message_content\": \"Hi. Any chance we can get this one at Janet Poole. How does the waitlist work?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"23057230888@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-02T08:41:46.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447832625341/F6871C831D9614EBC6499173C7E9E7C3.jpeg\\\", \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi. Any chance we can get this one at Janet Poole. How does the waitlist work?\\\", \\\"Datetime\\\": 1756802506000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"23057230888@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_23057230888@c.us_F6871C831D9614EBC6499173C7E9E7C3\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"23057230888\\\", \\\"sentByUserId\\\": \\\"23057230888@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-02T08:41:46.367583\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8102,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-02T08:41:51",
+      "content": "Thank you Rachna.",
+      "source": "whatsapp",
+      "event_id": "8133415",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-02T08:41:51\", \"id\": 8133415, \"email\": \"\", \"from_number\": \"23057230888\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_23057230888@c.us_062D4BCE790BD5DA1BA7E39A59CBDAA2\", \"message_type\": \"text\", \"message_content\": \"Thank you Rachna.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"23057230888@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-02T08:41:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Thank you Rachna.\\\", \\\"Datetime\\\": 1756802511000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"23057230888@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_23057230888@c.us_062D4BCE790BD5DA1BA7E39A59CBDAA2\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"23057230888\\\", \\\"sentByUserId\\\": \\\"23057230888@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-02T08:41:51.888547\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8103,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-02T08:53:47",
+      "content": "Waiting list chances are 0.001%",
+      "source": "whatsapp",
+      "event_id": "8134000",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-02T08:53:47\", \"id\": 8134000, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"23057230888\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_23057230888@c.us_3A96CBD44A9A2A8EFF04\", \"message_type\": \"text\", \"message_content\": \"Waiting list chances are 0.001%\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-02T08:53:47.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Waiting list chances are 0.001%\\\", \\\"Datetime\\\": 1756803227000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"23057230888@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_23057230888@c.us_3A96CBD44A9A2A8EFF04\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-02T08:53:47.601897\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8104,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T21:43:06",
+      "content": "Hi Natacha\n\nAny update?",
+      "source": "whatsapp",
+      "event_id": "8217352",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T21:43:06\", \"id\": 8217352, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"23057230888\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_23057230888@c.us_3EB09A2A1B1C46F75BC5D4\", \"message_type\": \"text\", \"message_content\": \"Hi Natacha\\n\\nAny update?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T21:43:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Natacha\\\\n\\\\nAny update?\\\", \\\"Datetime\\\": 1756935786000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"23057230888@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_23057230888@c.us_3EB09A2A1B1C46F75BC5D4\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T21:43:07.184630\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8105,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T04:06:17",
+      "content": "Hi Rachna. We are still browsing.",
+      "source": "whatsapp",
+      "event_id": "8219771",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T04:06:17\", \"id\": 8219771, \"email\": \"\", \"from_number\": \"23057230888\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_23057230888@c.us_7F46A37F9B91FCCB979667CF850DC4B8\", \"message_type\": \"text\", \"message_content\": \"Hi Rachna. We are still browsing.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"23057230888@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-04T04:06:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Rachna. We are still browsing.\\\", \\\"Datetime\\\": 1756958777000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"23057230888@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_23057230888@c.us_7F46A37F9B91FCCB979667CF850DC4B8\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"23057230888\\\", \\\"sentByUserId\\\": \\\"23057230888@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-04T04:06:18.591291\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8106,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T14:50:22",
+      "content": "Ok understood",
+      "source": "whatsapp",
+      "event_id": "8247370",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T14:50:22\", \"id\": 8247370, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"23057230888\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_23057230888@c.us_3EB0EBF47CF16CFD0710BC\", \"message_type\": \"text\", \"message_content\": \"Ok understood\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T14:50:22.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Ok understood\\\", \\\"Datetime\\\": 1756997422000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"23057230888@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_23057230888@c.us_3EB0EBF47CF16CFD0710BC\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-04T14:50:22.857951\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8107,
+      "lead_id": 483,
+      "event_type": "call",
+      "timestamp": "2025-09-13T10:48:50.441600",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7869350",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-13T10:48:50.441600\", \"id\": 7869350, \"duration\": \"0\", \"to_number\": \"23057230888\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8108,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-13T10:48:56",
+      "content": "Hi Natacha",
+      "source": "whatsapp",
+      "event_id": "8593932",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-13T10:48:56\", \"id\": 8593932, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"23057230888\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_23057230888@c.us_3EB092D5B10E5606CAB3BA\", \"message_type\": \"text\", \"message_content\": \"Hi Natacha\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-13T10:48:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Natacha\\\", \\\"Datetime\\\": 1757760536000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"23057230888@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_23057230888@c.us_3EB092D5B10E5606CAB3BA\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-13T10:48:56.609066\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8109,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-13T12:22:07",
+      "content": "Hi Rachna.",
+      "source": "whatsapp",
+      "event_id": "8597368",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-13T12:22:07\", \"id\": 8597368, \"email\": \"\", \"from_number\": \"23057230888\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_23057230888@c.us_AC1CF56C1A57C2E65C3BC5B8A7347BE8\", \"message_type\": \"text\", \"message_content\": \"Hi Rachna.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"23057230888@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-13T12:22:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Rachna.\\\", \\\"Datetime\\\": 1757766127000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"23057230888@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_23057230888@c.us_AC1CF56C1A57C2E65C3BC5B8A7347BE8\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"23057230888\\\", \\\"sentByUserId\\\": \\\"23057230888@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-13T12:22:08.109244\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8110,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-13T12:23:11",
+      "content": "Sorry for not reverting back earlier. We managed to find something.",
+      "source": "whatsapp",
+      "event_id": "8597405",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-13T12:23:11\", \"id\": 8597405, \"email\": \"\", \"from_number\": \"23057230888\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_23057230888@c.us_AC95D3461ACA928A99457D65CD924A9A\", \"message_type\": \"text\", \"message_content\": \"Sorry for not reverting back earlier. We managed to find something.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"23057230888@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-13T12:23:11.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Sorry for not reverting back earlier. We managed to find something.\\\", \\\"Datetime\\\": 1757766191000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"23057230888@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_23057230888@c.us_AC95D3461ACA928A99457D65CD924A9A\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"23057230888\\\", \\\"sentByUserId\\\": \\\"23057230888@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-13T12:23:12.312270\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8111,
+      "lead_id": 483,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-13T15:32:48",
+      "content": "Ok thanks",
+      "source": "whatsapp",
+      "event_id": "8604007",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-13T15:32:48\", \"id\": 8604007, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"23057230888\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_23057230888@c.us_3A4C75624F49549205C4\", \"message_type\": \"text\", \"message_content\": \"Ok thanks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-13T15:32:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Ok thanks\\\", \\\"Datetime\\\": 1757777568000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"23057230888@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_23057230888@c.us_3A4C75624F49549205C4\\\", \\\"ChannelName\\\": \\\"23057230888\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-13T15:32:48.486167\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"23057230888\"}",
+      "created_at": "2025-11-18 11:18:02"
+    },
+    {
+      "id": 8112,
+      "lead_id": 483,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-16T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-16T00:00:00\", \"lead_id\": 3195811, \"user_name\": \"Natacha Ip Min Wan\", \"email\": \"natachagraceip@gmail.com\", \"phone\": \"23057230888\", \"university\": \"university-college-london-1811059954160\", \"lease_duration\": \"41 - 45 Weeks\", \"move_out_date\": \"2026-07-27\", \"budget\": 399, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3306, \"inventory_id\": 138770}",
+      "created_at": "2025-11-18 11:18:02"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 363,
+      "lead_id": 483,
+      "call_id": "7796310",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d881b129-f77a-47ac-8a87-7b7bb72a62cf.wav",
+      "transcript_text": "Speaker A: Hello? Hello? Yes, hi, I'm speaking with Natasha. Yes, Natasha, this is Rachana calling on behalf of University College London. You were looking for some accommodations, right? Yes, it's for my son actually because he's going to enroll at UCO in September. So. So. And I think the one he got was we've shared bathroom. So he was looking. So that's why we're interested in the one I sent you. Is it called Wright Gardens? Is it this one I sent you? Is it the Camden Holy Crescent? Sorry? Is it the Camden Holy Crescent? Oh, yeah, yeah, I think. Oh, I also looked into this one also. I think that it's the Camden one as well. You're calling for the Camden? Yeah. Okay. Correct. I'm calling for overall because I will be helping on the accommodation side. I'm the destination expert in terms of accommodations and I'm going to help on the same. Okay, so the Camden is a little bit further away from ucl. Right. Do you have anything else, like nearer? Yes, I can definitely have a check on and I'll see that, you know, if I can share some great options with you and I can suggest some great. Sorry. For the Camden one because I was checking, I was looking at the length of the contract. I think it's for 51 weeks. Right. I was thinking whether it's possible to shorten it to. For like to up to June, So something like 44 weeks. Right. Okay. What I can do is I can suggest you some options which are like allowing you the options of 44 weeks so that you can look only for those options. And that would be close by two. Okay. Ucl. Okay, I would only. Okay, that's great. Just want to check as well. Do you have like any student accommodation that's on like, like for sale? Yeah, yeah, definitely. I'll show you a mix of all the options. Okay. I'll just share all the options of this so they can, you know, you can look into it and you can let me know which one you like. So UCL is in collaboration with Amber, which is like, you know, that helps you with the campus and the student accommodation. So don't worry, I'll share both the options and you'll be. And anyway, I've dropped your WhatsApp text so that we can connect and we can discover, you know. Thank you very much. Thank you. Okay, thank you. Thank you so much. Have a good day ahead.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:18:11"
+    }
+  ],
+  "summary": {
+    "id": 201,
+    "lead_id": 483,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"child\", \"name\": \"Natacha Ip Min Wan\", \"mobile\": [\"23057230888\"], \"email\": [\"natachagraceip@gmail.com\"], \"whatsapp\": [\"23057230888\"], \"student_status\": \"non_student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 399, \"currency\": \"GBP\"}, \"bathroom_type\": \"shared_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"yes_student\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Camden Hawley Crescent\", \"Janet Poole House\", \"IQ Sterling Court\", \"IQ The Arcade\", \"IQ Highbury\", \"IQ Aldgate\", \"Bloomsbury Janet Poole House\", \"Portobello Garrow House\", \"Chelsea Lightfoot Hall\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to review the shared accommodation options and decide which property to proceed with.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent shared multiple property suggestions via WhatsApp on 2025-09-01.\"}, {\"type\": \"communication\", \"description\": \"Agent to provide detailed information about the waiting list process for Janet Poole House.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Student asked about Janet Poole House waitlist on 2025-09-02; agent responded with low chances.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student for updates on accommodation decision.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent asked for update on 2025-09-03; student replied still browsing on 2025-09-04.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to confirm with student about their found accommodation and close the inquiry or assist further if needed.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student informed agent on 2025-09-13 that they managed to find something.\"}], \"last_agent_response\": \"Agent acknowledged student found accommodation with 'Ok thanks' message on 2025-09-13.\", \"suggested_next_step\": \"Agent to confirm with student if any further assistance is needed or to close the case.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Natacha Ip Min Wan\", \"nationality\": \"Not mentioned\", \"student_status\": \"Parent (booking for son)\", \"contact_info\": \"Phone calls and WhatsApp messages\", \"booking_for\": \"Son enrolling at University College London\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically near University College London; interest in Camden area and other nearby locations\", \"university\": \"University College London\", \"room_type\": \"Not explicitly mentioned; concern about shared bathroom in initial accommodation\", \"budget_range\": \"\\u00a3399 per week\", \"move_in_date\": \"September 2025\", \"lease_duration\": \"41-45 weeks; preference expressed for shorter lease around 44 weeks instead of 51 weeks\", \"special_requirements\": \"Closer proximity to UCL preferred; shorter lease duration; interest in options for sale also mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; browsing properties and considering options\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 3 calls and multiple WhatsApp messages over two weeks\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-13\", \"response_time\": \"Generally within hours to a day; some delays noted\", \"key_moments\": \"Initial call clarifying accommodation needs and lease duration; property suggestions sent with detailed links; inquiry about waitlist for Janet Poole House; confirmation that waitlist chances are very low; final update that they have found accommodation elsewhere\"}, \"properties_discussed\": {\"properties_mentioned\": \"Camden Hawley Crescent, Janet Poole House, IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interest in Janet Poole House; concern about lease length and proximity to UCL; preference for shorter lease and closer locations\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"None required as student has found accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"None indicated\", \"timeline\": \"Move-in planned for September 2025; lease duration preference up to June 2026 (44 weeks)\"}, \"agent_notes\": {\"student_tone\": \"Polite, appreciative, and responsive\", \"urgency_level\": \"Moderate urgency initially, but no immediate pressure as browsing continued\", \"complexity\": \"Moderate complexity due to lease duration and location preferences\", \"special_considerations\": \"Booking is for a child; lease duration flexibility important; waitlist chances for preferred property very low\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"child\", \"name\": \"Natacha Ip Min Wan\", \"mobile\": [\"23057230888\"], \"email\": [\"natachagraceip@gmail.com\"], \"whatsapp\": [\"23057230888\"], \"student_status\": \"non_student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 399, \"currency\": \"GBP\"}, \"bathroom_type\": \"shared_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"yes_student\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Camden Hawley Crescent\", \"Janet Poole House\", \"IQ Sterling Court\", \"IQ The Arcade\", \"IQ Highbury\", \"IQ Aldgate\", \"Bloomsbury Janet Poole House\", \"Portobello Garrow House\", \"Chelsea Lightfoot Hall\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to review the shared accommodation options and decide which property to proceed with.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent shared multiple property suggestions via WhatsApp on 2025-09-01.\"}, {\"type\": \"communication\", \"description\": \"Agent to provide detailed information about the waiting list process for Janet Poole House.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Student asked about Janet Poole House waitlist on 2025-09-02; agent responded with low chances.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student for updates on accommodation decision.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent asked for update on 2025-09-03; student replied still browsing on 2025-09-04.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to confirm with student about their found accommodation and close the inquiry or assist further if needed.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student informed agent on 2025-09-13 that they managed to find something.\"}], \"last_agent_response\": \"Agent acknowledged student found accommodation with 'Ok thanks' message on 2025-09-13.\", \"suggested_next_step\": \"Agent to confirm with student if any further assistance is needed or to close the case.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Natacha Ip Min Wan\", \"nationality\": \"Not mentioned\", \"student_status\": \"Parent (booking for son)\", \"contact_info\": \"Phone calls and WhatsApp messages\", \"booking_for\": \"Son enrolling at University College London\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically near University College London; interest in Camden area and other nearby locations\", \"university\": \"University College London\", \"room_type\": \"Not explicitly mentioned; concern about shared bathroom in initial accommodation\", \"budget_range\": \"\\u00a3399 per week\", \"move_in_date\": \"September 2025\", \"lease_duration\": \"41-45 weeks; preference expressed for shorter lease around 44 weeks instead of 51 weeks\", \"special_requirements\": \"Closer proximity to UCL preferred; shorter lease duration; interest in options for sale also mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; browsing properties and considering options\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 3 calls and multiple WhatsApp messages over two weeks\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-13\", \"response_time\": \"Generally within hours to a day; some delays noted\", \"key_moments\": \"Initial call clarifying accommodation needs and lease duration; property suggestions sent with detailed links; inquiry about waitlist for Janet Poole House; confirmation that waitlist chances are very low; final update that they have found accommodation elsewhere\"}, \"properties_discussed\": {\"properties_mentioned\": \"Camden Hawley Crescent, Janet Poole House, IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interest in Janet Poole House; concern about lease length and proximity to UCL; preference for shorter lease and closer locations\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"None required as student has found accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"None indicated\", \"timeline\": \"Move-in planned for September 2025; lease duration preference up to June 2026 (44 weeks)\"}, \"agent_notes\": {\"student_tone\": \"Polite, appreciative, and responsive\", \"urgency_level\": \"Moderate urgency initially, but no immediate pressure as browsing continued\", \"complexity\": \"Moderate complexity due to lease duration and location preferences\", \"special_considerations\": \"Booking is for a child; lease duration flexibility important; waitlist chances for preferred property very low\"}}}}}",
+    "created_at": "2025-11-18 11:18:21",
+    "updated_at": "2025-11-18T16:48:21.517481",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "child",
+        "name": "Natacha Ip Min Wan",
+        "mobile": [
+          "23057230888"
+        ],
+        "email": [
+          "natachagraceip@gmail.com"
+        ],
+        "whatsapp": [
+          "23057230888"
+        ],
+        "student_status": "non_student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": null,
+        "budget": {
+          "max": 399,
+          "currency": "GBP"
+        },
+        "bathroom_type": "shared_bathroom",
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "yes_student",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "University College London"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Camden Hawley Crescent",
+          "Janet Poole House",
+          "IQ Sterling Court",
+          "IQ The Arcade",
+          "IQ Highbury",
+          "IQ Aldgate",
+          "Bloomsbury Janet Poole House",
+          "Portobello Garrow House",
+          "Chelsea Lightfoot Hall"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Student to review the shared accommodation options and decide which property to proceed with.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent shared multiple property suggestions via WhatsApp on 2025-09-01."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to provide detailed information about the waiting list process for Janet Poole House.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Student asked about Janet Poole House waitlist on 2025-09-02; agent responded with low chances."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student for updates on accommodation decision.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent asked for update on 2025-09-03; student replied still browsing on 2025-09-04."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to confirm with student about their found accommodation and close the inquiry or assist further if needed.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student informed agent on 2025-09-13 that they managed to find something."
+        }
+      ],
+      "last_agent_response": "Agent acknowledged student found accommodation with 'Ok thanks' message on 2025-09-13.",
+      "suggested_next_step": "Agent to confirm with student if any further assistance is needed or to close the case."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Natacha Ip Min Wan",
+            "nationality": "Not mentioned",
+            "student_status": "Parent (booking for son)",
+            "contact_info": "Phone calls and WhatsApp messages",
+            "booking_for": "Son enrolling at University College London"
+          },
+          "accommodation_preferences": {
+            "locations": "London, specifically near University College London; interest in Camden area and other nearby locations",
+            "university": "University College London",
+            "room_type": "Not explicitly mentioned; concern about shared bathroom in initial accommodation",
+            "budget_range": "£399 per week",
+            "move_in_date": "September 2025",
+            "lease_duration": "41-45 weeks; preference expressed for shorter lease around 44 weeks instead of 51 weeks",
+            "special_requirements": "Closer proximity to UCL preferred; shorter lease duration; interest in options for sale also mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage; browsing properties and considering options",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "At least 3 calls and multiple WhatsApp messages over two weeks",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-13",
+            "response_time": "Generally within hours to a day; some delays noted",
+            "key_moments": "Initial call clarifying accommodation needs and lease duration; property suggestions sent with detailed links; inquiry about waitlist for Janet Poole House; confirmation that waitlist chances are very low; final update that they have found accommodation elsewhere"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Camden Hawley Crescent, Janet Poole House, IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Interest in Janet Poole House; concern about lease length and proximity to UCL; preference for shorter lease and closer locations",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "None required as student has found accommodation",
+            "pending_items": "None",
+            "follow_up_required": "None indicated",
+            "timeline": "Move-in planned for September 2025; lease duration preference up to June 2026 (44 weeks)"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, appreciative, and responsive",
+            "urgency_level": "Moderate urgency initially, but no immediate pressure as browsing continued",
+            "complexity": "Moderate complexity due to lease duration and location preferences",
+            "special_considerations": "Booking is for a child; lease duration flexibility important; waitlist chances for preferred property very low"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "child",
+          "name": "Natacha Ip Min Wan",
+          "mobile": [
+            "23057230888"
+          ],
+          "email": [
+            "natachagraceip@gmail.com"
+          ],
+          "whatsapp": [
+            "23057230888"
+          ],
+          "student_status": "non_student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": null,
+          "budget": {
+            "max": 399,
+            "currency": "GBP"
+          },
+          "bathroom_type": "shared_bathroom",
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "yes_student",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "University College London"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Camden Hawley Crescent",
+            "Janet Poole House",
+            "IQ Sterling Court",
+            "IQ The Arcade",
+            "IQ Highbury",
+            "IQ Aldgate",
+            "Bloomsbury Janet Poole House",
+            "Portobello Garrow House",
+            "Chelsea Lightfoot Hall"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Student to review the shared accommodation options and decide which property to proceed with.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent shared multiple property suggestions via WhatsApp on 2025-09-01."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to provide detailed information about the waiting list process for Janet Poole House.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Student asked about Janet Poole House waitlist on 2025-09-02; agent responded with low chances."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student for updates on accommodation decision.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent asked for update on 2025-09-03; student replied still browsing on 2025-09-04."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to confirm with student about their found accommodation and close the inquiry or assist further if needed.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student informed agent on 2025-09-13 that they managed to find something."
+          }
+        ],
+        "last_agent_response": "Agent acknowledged student found accommodation with 'Ok thanks' message on 2025-09-13.",
+        "suggested_next_step": "Agent to confirm with student if any further assistance is needed or to close the case."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Natacha Ip Min Wan",
+              "nationality": "Not mentioned",
+              "student_status": "Parent (booking for son)",
+              "contact_info": "Phone calls and WhatsApp messages",
+              "booking_for": "Son enrolling at University College London"
+            },
+            "accommodation_preferences": {
+              "locations": "London, specifically near University College London; interest in Camden area and other nearby locations",
+              "university": "University College London",
+              "room_type": "Not explicitly mentioned; concern about shared bathroom in initial accommodation",
+              "budget_range": "£399 per week",
+              "move_in_date": "September 2025",
+              "lease_duration": "41-45 weeks; preference expressed for shorter lease around 44 weeks instead of 51 weeks",
+              "special_requirements": "Closer proximity to UCL preferred; shorter lease duration; interest in options for sale also mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage; browsing properties and considering options",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "At least 3 calls and multiple WhatsApp messages over two weeks",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-13",
+              "response_time": "Generally within hours to a day; some delays noted",
+              "key_moments": "Initial call clarifying accommodation needs and lease duration; property suggestions sent with detailed links; inquiry about waitlist for Janet Poole House; confirmation that waitlist chances are very low; final update that they have found accommodation elsewhere"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Camden Hawley Crescent, Janet Poole House, IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Interest in Janet Poole House; concern about lease length and proximity to UCL; preference for shorter lease and closer locations",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "None required as student has found accommodation",
+              "pending_items": "None",
+              "follow_up_required": "None indicated",
+              "timeline": "Move-in planned for September 2025; lease duration preference up to June 2026 (44 weeks)"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, appreciative, and responsive",
+              "urgency_level": "Moderate urgency initially, but no immediate pressure as browsing continued",
+              "complexity": "Moderate complexity due to lease duration and location preferences",
+              "special_considerations": "Booking is for a child; lease duration flexibility important; waitlist chances for preferred property very low"
+            }
+          }
+        }
+      }
+    }
+  }
+}

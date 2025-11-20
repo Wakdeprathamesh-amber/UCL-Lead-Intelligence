@@ -1,0 +1,299 @@
+{
+  "id": "lead_84",
+  "mobile_number": "447479351757",
+  "email": null,
+  "timeline": [
+    {
+      "id": 13733,
+      "lead_id": 84,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3189710, \"user_name\": \"Xu Yau Hin\", \"email\": \"yokoxu1008@gmail.com\", \"phone\": \"447479351757\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 573, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1565036}",
+      "created_at": "2025-11-18 13:22:21"
+    },
+    {
+      "id": 13734,
+      "lead_id": 84,
+      "event_type": "call",
+      "timestamp": "2025-08-21T08:14:22.512546",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7728185",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T08:14:22.512546\", \"id\": 7728185, \"duration\": \"6\", \"to_number\": \"447479351757\", \"from_number\": \"447832625341\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b94e9e89-868e-4601-9c37-43ec27c13480.wav\"}",
+      "created_at": "2025-11-18 13:22:21"
+    },
+    {
+      "id": 13735,
+      "lead_id": 84,
+      "event_type": "call",
+      "timestamp": "2025-08-21T13:16:20.104152",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7731076",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T13:16:20.104152\", \"id\": 7731076, \"duration\": \"9\", \"to_number\": \"447479351757\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/1da86e61-0a42-4918-8fc5-220b9dfd4db9.wav\"}",
+      "created_at": "2025-11-18 13:22:21"
+    },
+    {
+      "id": 13736,
+      "lead_id": 84,
+      "event_type": "call",
+      "timestamp": "2025-08-23T16:15:21.615082",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7747711",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-23T16:15:21.615082\", \"id\": 7747711, \"duration\": \"20\", \"to_number\": \"447479351757\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/37c261e6-8d3c-4fc3-b843-2ef4c73d3c7f.wav\"}",
+      "created_at": "2025-11-18 13:22:21"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 689,
+      "lead_id": 84,
+      "call_id": "7747711",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/37c261e6-8d3c-4fc3-b843-2ef4c73d3c7f.wav",
+      "transcript_text": "Speaker A: 074-793-51757. Can't take your call right now, just leave your message after the tone. When you're done, press hash or just hang up.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:22:26"
+    }
+  ],
+  "summary": {
+    "id": 357,
+    "lead_id": 84,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Xu Yau Hin\", \"mobile\": [\"447479351757\"], \"email\": [\"yokoxu1008@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 573, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student at the provided phone number, with the last call going unanswered and reaching voicemail.\", \"suggested_next_step\": \"Agent to follow up with the student via phone or email to confirm interest and discuss next steps.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Xu Yau Hin\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (yokoxu1008@gmail.com), Phone (+44 7479 351757)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3573 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 44 weeks ending 2026-07-10\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with ongoing communication\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-23\", \"response_time\": \"Unknown\", \"key_moments\": \"Two calls on 2025-08-21 (6 and 9 minutes), one call on 2025-08-23 (20 minutes, voicemail left)\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1565036 referenced in lead info\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on voicemail left on 2025-08-23\", \"pending_items\": \"Student response to voicemail\", \"follow_up_required\": \"Agent to contact student to progress booking\", \"timeline\": \"Lease ends 2026-07-10; no explicit move-in date provided\"}, \"agent_notes\": {\"student_tone\": \"Not directly available; calls indicate engagement\", \"urgency_level\": \"Unknown\", \"complexity\": \"Standard inquiry based on available data\", \"special_considerations\": \"None noted\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Xu Yau Hin\", \"mobile\": [\"447479351757\"], \"email\": [\"yokoxu1008@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 573, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student at the provided phone number, with the last call going unanswered and reaching voicemail.\", \"suggested_next_step\": \"Agent to follow up with the student via phone or email to confirm interest and discuss next steps.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Xu Yau Hin\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (yokoxu1008@gmail.com), Phone (+44 7479 351757)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3573 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 44 weeks ending 2026-07-10\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with ongoing communication\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-23\", \"response_time\": \"Unknown\", \"key_moments\": \"Two calls on 2025-08-21 (6 and 9 minutes), one call on 2025-08-23 (20 minutes, voicemail left)\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1565036 referenced in lead info\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on voicemail left on 2025-08-23\", \"pending_items\": \"Student response to voicemail\", \"follow_up_required\": \"Agent to contact student to progress booking\", \"timeline\": \"Lease ends 2026-07-10; no explicit move-in date provided\"}, \"agent_notes\": {\"student_tone\": \"Not directly available; calls indicate engagement\", \"urgency_level\": \"Unknown\", \"complexity\": \"Standard inquiry based on available data\", \"special_considerations\": \"None noted\"}}}}}",
+    "created_at": "2025-11-18 13:22:35",
+    "updated_at": "2025-11-18T18:52:35.096455",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Xu Yau Hin",
+        "mobile": [
+          "447479351757"
+        ],
+        "email": [
+          "yokoxu1008@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": null,
+        "budget": {
+          "max": 573,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Multiple calls were made to the student at the provided phone number, with the last call going unanswered and reaching voicemail.",
+      "suggested_next_step": "Agent to follow up with the student via phone or email to confirm interest and discuss next steps."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Xu Yau Hin",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (yokoxu1008@gmail.com), Phone (+44 7479 351757)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£573 per week",
+            "move_in_date": "Not explicitly mentioned; lease duration 44 weeks ending 2026-07-10",
+            "lease_duration": "44 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry with ongoing communication",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 calls",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-23",
+            "response_time": "Unknown",
+            "key_moments": "Two calls on 2025-08-21 (6 and 9 minutes), one call on 2025-08-23 (20 minutes, voicemail left)"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1565036 referenced in lead info",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up on voicemail left on 2025-08-23",
+            "pending_items": "Student response to voicemail",
+            "follow_up_required": "Agent to contact student to progress booking",
+            "timeline": "Lease ends 2026-07-10; no explicit move-in date provided"
+          },
+          "agent_notes": {
+            "student_tone": "Not directly available; calls indicate engagement",
+            "urgency_level": "Unknown",
+            "complexity": "Standard inquiry based on available data",
+            "special_considerations": "None noted"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Xu Yau Hin",
+          "mobile": [
+            "447479351757"
+          ],
+          "email": [
+            "yokoxu1008@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": null,
+          "budget": {
+            "max": 573,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Multiple calls were made to the student at the provided phone number, with the last call going unanswered and reaching voicemail.",
+        "suggested_next_step": "Agent to follow up with the student via phone or email to confirm interest and discuss next steps."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Xu Yau Hin",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (yokoxu1008@gmail.com), Phone (+44 7479 351757)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£573 per week",
+              "move_in_date": "Not explicitly mentioned; lease duration 44 weeks ending 2026-07-10",
+              "lease_duration": "44 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry with ongoing communication",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 calls",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-23",
+              "response_time": "Unknown",
+              "key_moments": "Two calls on 2025-08-21 (6 and 9 minutes), one call on 2025-08-23 (20 minutes, voicemail left)"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1565036 referenced in lead info",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up on voicemail left on 2025-08-23",
+              "pending_items": "Student response to voicemail",
+              "follow_up_required": "Agent to contact student to progress booking",
+              "timeline": "Lease ends 2026-07-10; no explicit move-in date provided"
+            },
+            "agent_notes": {
+              "student_tone": "Not directly available; calls indicate engagement",
+              "urgency_level": "Unknown",
+              "complexity": "Standard inquiry based on available data",
+              "special_considerations": "None noted"
+            }
+          }
+        }
+      }
+    }
+  }
+}

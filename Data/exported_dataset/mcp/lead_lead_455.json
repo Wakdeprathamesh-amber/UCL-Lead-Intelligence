@@ -1,0 +1,312 @@
+{
+  "id": "lead_455",
+  "mobile_number": "447410981981",
+  "email": null,
+  "timeline": [
+    {
+      "id": 7761,
+      "lead_id": 455,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3104602, \"user_name\": \"Jintong Hu\", \"email\": \"hujintong44@gmail.com\", \"phone\": \"447410981981\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 324, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 2000656}",
+      "created_at": "2025-11-18 11:13:10"
+    },
+    {
+      "id": 7762,
+      "lead_id": 455,
+      "event_type": "call",
+      "timestamp": "2025-07-31T08:15:07.410786",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7598222",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-31T08:15:07.410786\", \"id\": 7598222, \"duration\": \"0\", \"to_number\": \"447410981981\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:13:10"
+    },
+    {
+      "id": 7763,
+      "lead_id": 455,
+      "event_type": "call",
+      "timestamp": "2025-08-02T09:22:51.306966",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7611586",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-02T09:22:51.306966\", \"id\": 7611586, \"duration\": \"0\", \"to_number\": \"447410981981\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:13:10"
+    },
+    {
+      "id": 7764,
+      "lead_id": 455,
+      "event_type": "call",
+      "timestamp": "2025-08-05T10:45:34.109595",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7626319",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-05T10:45:34.109595\", \"id\": 7626319, \"duration\": \"0\", \"to_number\": \"447410981981\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:13:10"
+    },
+    {
+      "id": 7765,
+      "lead_id": 455,
+      "event_type": "call",
+      "timestamp": "2025-08-09T11:44:58.859741",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7653100",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-09T11:44:58.859741\", \"id\": 7653100, \"duration\": \"0\", \"to_number\": \"447410981981\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:13:10"
+    },
+    {
+      "id": 7766,
+      "lead_id": 455,
+      "event_type": "call",
+      "timestamp": "2025-08-11T15:33:36.579582",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7662532",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-11T15:33:36.579582\", \"id\": 7662532, \"duration\": \"0\", \"to_number\": \"447410981981\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:13:10"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 185,
+    "lead_id": 455,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Jintong Hu\", \"mobile\": [\"447410981981\"], \"email\": [\"hujintong44@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 324, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [2000656], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Multiple calls were made by the agent to the student between 2025-07-31 and 2025-08-11, but all calls had zero duration indicating no contact was established.\", \"suggested_next_step\": \"Agent should follow up with the student via alternative communication methods (e.g., email or SMS) to establish contact and discuss next steps.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jintong Hu\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (hujintong44@gmail.com), Phone (+44 7410 981981)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3324 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 calls (all outbound attempts with zero duration)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-11\", \"response_time\": \"No answered calls recorded; no response time established\", \"key_moments\": \"Multiple unsuccessful call attempts from agent to student between 2025-07-31 and 2025-08-11\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2000656 linked to lead\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to establish contact with student to discuss accommodation details\", \"pending_items\": \"Student response to agent calls\", \"follow_up_required\": \"Continue outreach via phone or alternative channels\", \"timeline\": \"Lease end date 2026-08-28; no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Not established due to no answered calls\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple lead with basic information; no engagement yet\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest need for alternative contact approach\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Jintong Hu\", \"mobile\": [\"447410981981\"], \"email\": [\"hujintong44@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 324, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [2000656], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Multiple calls were made by the agent to the student between 2025-07-31 and 2025-08-11, but all calls had zero duration indicating no contact was established.\", \"suggested_next_step\": \"Agent should follow up with the student via alternative communication methods (e.g., email or SMS) to establish contact and discuss next steps.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jintong Hu\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (hujintong44@gmail.com), Phone (+44 7410 981981)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3324 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 calls (all outbound attempts with zero duration)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-11\", \"response_time\": \"No answered calls recorded; no response time established\", \"key_moments\": \"Multiple unsuccessful call attempts from agent to student between 2025-07-31 and 2025-08-11\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2000656 linked to lead\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to establish contact with student to discuss accommodation details\", \"pending_items\": \"Student response to agent calls\", \"follow_up_required\": \"Continue outreach via phone or alternative channels\", \"timeline\": \"Lease end date 2026-08-28; no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Not established due to no answered calls\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple lead with basic information; no engagement yet\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest need for alternative contact approach\"}}}}}",
+    "created_at": "2025-11-18 11:13:21",
+    "updated_at": "2025-11-18T16:43:21.658273",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Jintong Hu",
+        "mobile": [
+          "447410981981"
+        ],
+        "email": [
+          "hujintong44@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 324,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          2000656
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Multiple calls were made by the agent to the student between 2025-07-31 and 2025-08-11, but all calls had zero duration indicating no contact was established.",
+      "suggested_next_step": "Agent should follow up with the student via alternative communication methods (e.g., email or SMS) to establish contact and discuss next steps."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Jintong Hu",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (hujintong44@gmail.com), Phone (+44 7410 981981)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£324 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "6 calls (all outbound attempts with zero duration)",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-11",
+            "response_time": "No answered calls recorded; no response time established",
+            "key_moments": "Multiple unsuccessful call attempts from agent to student between 2025-07-31 and 2025-08-11"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2000656 linked to lead",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to establish contact with student to discuss accommodation details",
+            "pending_items": "Student response to agent calls",
+            "follow_up_required": "Continue outreach via phone or alternative channels",
+            "timeline": "Lease end date 2026-08-28; no move-in date specified"
+          },
+          "agent_notes": {
+            "student_tone": "Not established due to no answered calls",
+            "urgency_level": "Unknown",
+            "complexity": "Simple lead with basic information; no engagement yet",
+            "special_considerations": "Multiple unsuccessful call attempts suggest need for alternative contact approach"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Jintong Hu",
+          "mobile": [
+            "447410981981"
+          ],
+          "email": [
+            "hujintong44@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 324,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            2000656
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Multiple calls were made by the agent to the student between 2025-07-31 and 2025-08-11, but all calls had zero duration indicating no contact was established.",
+        "suggested_next_step": "Agent should follow up with the student via alternative communication methods (e.g., email or SMS) to establish contact and discuss next steps."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Jintong Hu",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (hujintong44@gmail.com), Phone (+44 7410 981981)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£324 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "6 calls (all outbound attempts with zero duration)",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-11",
+              "response_time": "No answered calls recorded; no response time established",
+              "key_moments": "Multiple unsuccessful call attempts from agent to student between 2025-07-31 and 2025-08-11"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2000656 linked to lead",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to establish contact with student to discuss accommodation details",
+              "pending_items": "Student response to agent calls",
+              "follow_up_required": "Continue outreach via phone or alternative channels",
+              "timeline": "Lease end date 2026-08-28; no move-in date specified"
+            },
+            "agent_notes": {
+              "student_tone": "Not established due to no answered calls",
+              "urgency_level": "Unknown",
+              "complexity": "Simple lead with basic information; no engagement yet",
+              "special_considerations": "Multiple unsuccessful call attempts suggest need for alternative contact approach"
+            }
+          }
+        }
+      }
+    }
+  }
+}

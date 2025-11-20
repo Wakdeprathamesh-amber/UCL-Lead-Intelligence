@@ -1,0 +1,297 @@
+{
+  "id": "lead_693",
+  "mobile_number": "447908563781",
+  "email": null,
+  "timeline": [
+    {
+      "id": 11163,
+      "lead_id": 693,
+      "event_type": "call",
+      "timestamp": "2025-08-18T19:36:42.809007",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7711281",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T19:36:42.809007\", \"id\": 7711281, \"duration\": \"0\", \"to_number\": \"447908563781\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:42:36"
+    },
+    {
+      "id": 11164,
+      "lead_id": 693,
+      "event_type": "call",
+      "timestamp": "2025-08-21T07:59:58.777644",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7728109",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T07:59:58.777644\", \"id\": 7728109, \"duration\": \"0\", \"to_number\": \"447908563781\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:42:36"
+    },
+    {
+      "id": 11165,
+      "lead_id": 693,
+      "event_type": "call",
+      "timestamp": "2025-08-24T08:16:40.032185",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7749886",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-24T08:16:40.032185\", \"id\": 7749886, \"duration\": \"0\", \"to_number\": \"447908563781\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:42:36"
+    },
+    {
+      "id": 11166,
+      "lead_id": 693,
+      "event_type": "call",
+      "timestamp": "2025-08-26T14:40:15.886601",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7763400",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T14:40:15.886601\", \"id\": 7763400, \"duration\": \"0\", \"to_number\": \"447908563781\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:42:36"
+    },
+    {
+      "id": 11167,
+      "lead_id": 693,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3155786, \"user_name\": \"Annsley Baleswaran\", \"email\": \"annsley_20@outlook.com\", \"phone\": \"447908563781\", \"university\": \"university-college-london-1811059954160\", \"lease_duration\": \"26 - 40 Weeks\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 143139}",
+      "created_at": "2025-11-18 12:42:36"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 283,
+    "lead_id": 693,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Annsley Baleswaran\", \"mobile\": [\"+447908563781\"], \"email\": [\"annsley_20@outlook.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 33, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Multiple calls were made by the agent to the student phone number, but no duration or further details indicate no successful contact or action taken.\", \"suggested_next_step\": \"Agent to follow up with the student via call or alternative communication channel to establish contact and discuss accommodation options.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Annsley Baleswaran\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls made to 447908563781 from agent number 447460047271\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds, exact amount not specified\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"26 - 40 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry - no confirmed booking or payment mentioned\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 phone call attempts\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-26\", \"response_time\": \"Calls had zero duration, suggesting no answer or no conversation\", \"key_moments\": \"Multiple call attempts over 8 days with no answered calls\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 143139 associated with the lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Attempt to contact student again via phone or alternative channels\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Yes, follow-up calls or messages to establish contact\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not applicable due to no answered calls\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry with no further details\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest difficulty reaching student\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Annsley Baleswaran\", \"mobile\": [\"+447908563781\"], \"email\": [\"annsley_20@outlook.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 33, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Multiple calls were made by the agent to the student phone number, but no duration or further details indicate no successful contact or action taken.\", \"suggested_next_step\": \"Agent to follow up with the student via call or alternative communication channel to establish contact and discuss accommodation options.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Annsley Baleswaran\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls made to 447908563781 from agent number 447460047271\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds, exact amount not specified\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"26 - 40 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry - no confirmed booking or payment mentioned\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 phone call attempts\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-26\", \"response_time\": \"Calls had zero duration, suggesting no answer or no conversation\", \"key_moments\": \"Multiple call attempts over 8 days with no answered calls\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 143139 associated with the lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Attempt to contact student again via phone or alternative channels\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Yes, follow-up calls or messages to establish contact\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not applicable due to no answered calls\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry with no further details\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest difficulty reaching student\"}}}}}",
+    "created_at": "2025-11-18 12:42:43",
+    "updated_at": "2025-11-18T18:12:43.388064",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Annsley Baleswaran",
+        "mobile": [
+          "+447908563781"
+        ],
+        "email": [
+          "annsley_20@outlook.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 33,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Multiple calls were made by the agent to the student phone number, but no duration or further details indicate no successful contact or action taken.",
+      "suggested_next_step": "Agent to follow up with the student via call or alternative communication channel to establish contact and discuss accommodation options."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Annsley Baleswaran",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls made to 447908563781 from agent number 447460047271",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "Weekly budget in pounds, exact amount not specified",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "26 - 40 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry - no confirmed booking or payment mentioned",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "4 phone call attempts",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-26",
+            "response_time": "Calls had zero duration, suggesting no answer or no conversation",
+            "key_moments": "Multiple call attempts over 8 days with no answered calls"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 143139 associated with the lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Attempt to contact student again via phone or alternative channels",
+            "pending_items": "Student response to calls",
+            "follow_up_required": "Yes, follow-up calls or messages to establish contact",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Not applicable due to no answered calls",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry with no further details",
+            "special_considerations": "Multiple unsuccessful call attempts suggest difficulty reaching student"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Annsley Baleswaran",
+          "mobile": [
+            "+447908563781"
+          ],
+          "email": [
+            "annsley_20@outlook.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 33,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Multiple calls were made by the agent to the student phone number, but no duration or further details indicate no successful contact or action taken.",
+        "suggested_next_step": "Agent to follow up with the student via call or alternative communication channel to establish contact and discuss accommodation options."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Annsley Baleswaran",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls made to 447908563781 from agent number 447460047271",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "Weekly budget in pounds, exact amount not specified",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "26 - 40 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry - no confirmed booking or payment mentioned",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "4 phone call attempts",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-26",
+              "response_time": "Calls had zero duration, suggesting no answer or no conversation",
+              "key_moments": "Multiple call attempts over 8 days with no answered calls"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 143139 associated with the lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Attempt to contact student again via phone or alternative channels",
+              "pending_items": "Student response to calls",
+              "follow_up_required": "Yes, follow-up calls or messages to establish contact",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Not applicable due to no answered calls",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry with no further details",
+              "special_considerations": "Multiple unsuccessful call attempts suggest difficulty reaching student"
+            }
+          }
+        }
+      }
+    }
+  }
+}

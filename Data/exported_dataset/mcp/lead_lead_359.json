@@ -1,0 +1,843 @@
+{
+  "id": "lead_359",
+  "mobile_number": "2348169747534",
+  "email": null,
+  "timeline": [
+    {
+      "id": 15346,
+      "lead_id": 359,
+      "event_type": "call",
+      "timestamp": "2025-08-27T11:50:30.585825",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7768229",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-27T11:50:30.585825\", \"id\": 7768229, \"duration\": \"144\", \"to_number\": \"2348169747534\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e3bc7445-c843-4149-9473-fe6ee0677a2e.wav\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15347,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-27T11:54:27",
+      "content": "Hi Ejiro Ayara, 😊\n\nI hope you're doing well! 🌟\n\nI'm Aashutush from the UCL Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Chelsea Lightfoot Hall, London . 🏡\n\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! ✨\n\nThanks a lot! 😊\n\nBest regards,\nAshutush",
+      "source": "whatsapp",
+      "event_id": "7873229",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-27T11:54:27\", \"id\": 7873229, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3FCBFD1AF7C4ECD25245\", \"message_type\": \"text\", \"message_content\": \"Hi Ejiro Ayara, \\ud83d\\ude0a\\n\\nI hope you're doing well! \\ud83c\\udf1f\\n\\nI'm Aashutush from the UCL Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Chelsea Lightfoot Hall, London . \\ud83c\\udfe1\\n\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\n\\nThanks a lot! \\ud83d\\ude0a\\n\\nBest regards,\\nAshutush\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-27T11:54:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Ejiro Ayara, \\ud83d\\ude0a\\\\n\\\\nI hope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI'm Aashutush from the UCL Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Chelsea Lightfoot Hall, London . \\ud83c\\udfe1\\\\n\\\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\\\n\\\\nThanks a lot! \\ud83d\\ude0a\\\\n\\\\nBest regards,\\\\nAshutush\\\", \\\"Datetime\\\": 1756295667000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3FCBFD1AF7C4ECD25245\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-27T11:54:27.206854\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15348,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-27T12:01:54",
+      "content": "Thank you Ashutush",
+      "source": "whatsapp",
+      "event_id": "7873694",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-27T12:01:54\", \"id\": 7873694, \"email\": \"\", \"from_number\": \"2348169747534\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_2348169747534@c.us_3AEA56C464A1E8E1E5BB\", \"message_type\": \"text\", \"message_content\": \"Thank you Ashutush\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"2348169747534@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-27T12:01:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Thank you Ashutush\\\", \\\"Datetime\\\": 1756296114000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"2348169747534@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_2348169747534@c.us_3AEA56C464A1E8E1E5BB\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"2348169747534\\\", \\\"sentByUserId\\\": \\\"2348169747534@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-27T12:01:54.633494\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15349,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-27T12:01:59",
+      "content": "I will be in touch",
+      "source": "whatsapp",
+      "event_id": "7873703",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-27T12:01:59\", \"id\": 7873703, \"email\": \"\", \"from_number\": \"2348169747534\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_2348169747534@c.us_3A569D2FA77D7FB011BC\", \"message_type\": \"text\", \"message_content\": \"I will be in touch\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"2348169747534@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-27T12:01:59.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"I will be in touch\\\", \\\"Datetime\\\": 1756296119000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"2348169747534@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_2348169747534@c.us_3A569D2FA77D7FB011BC\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"2348169747534\\\", \\\"sentByUserId\\\": \\\"2348169747534@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-27T12:01:59.800193\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15350,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-27T12:02:11",
+      "content": "Please do!",
+      "source": "whatsapp",
+      "event_id": "7873723",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-27T12:02:11\", \"id\": 7873723, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F0E31DD0BC0D8493ADF\", \"message_type\": \"text\", \"message_content\": \"Please do!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-27T12:02:11.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Please do!\\\", \\\"Datetime\\\": 1756296131000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F0E31DD0BC0D8493ADF\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-27T12:02:11.331800\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15351,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-27T12:02:19",
+      "content": "let me know ASAP!",
+      "source": "whatsapp",
+      "event_id": "7873735",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-27T12:02:19\", \"id\": 7873735, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F572E752EDA646767A5\", \"message_type\": \"text\", \"message_content\": \"let me know ASAP!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-27T12:02:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"let me know ASAP!\\\", \\\"Datetime\\\": 1756296139000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F572E752EDA646767A5\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-27T12:02:19.246612\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15352,
+      "lead_id": 359,
+      "event_type": "call",
+      "timestamp": "2025-08-29T13:30:29.342616",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7782970",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-29T13:30:29.342616\", \"id\": 7782970, \"duration\": \"0\", \"to_number\": \"2348169747534\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15353,
+      "lead_id": 359,
+      "event_type": "call",
+      "timestamp": "2025-08-29T13:30:40.210847",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7782972",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-29T13:30:40.210847\", \"id\": 7782972, \"duration\": \"0\", \"to_number\": \"2348169747534\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15354,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T13:30:59",
+      "content": "Hello Ejiro Ayara, 😊\n\nAny updates on when we can get your booking done? 🗓\n\nSince property availability is low and rents are also rising 📈, I am starting to feel a bit tense about this as well. 😬\n\nPlease let me know when we can proceed. Thank you! 🙏",
+      "source": "whatsapp",
+      "event_id": "7991139",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T13:30:59\", \"id\": 7991139, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F5A96EBE99B53F3AE93\", \"message_type\": \"text\", \"message_content\": \"Hello Ejiro Ayara, \\ud83d\\ude0a\\n\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\n\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\n\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-29T13:30:59.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hello Ejiro Ayara, \\ud83d\\ude0a\\\\n\\\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\\\n\\\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\\\n\\\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\\\", \\\"Datetime\\\": 1756474259000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F5A96EBE99B53F3AE93\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-29T13:31:00.037619\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15355,
+      "lead_id": 359,
+      "event_type": "email",
+      "timestamp": "2025-08-31T12:30:57",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-31T12:30:57\", \"sender_email\": \"ayara.ejiro@gmail.com\", \"recipient_email\": \"ashutush.k@amberstudent.com\", \"subject\": \"Re: Complete your UCL accommodation booking | Final Steps to Secure your Room\", \"message\": \"Dear Ashutush,\\\\n\\\\nMy sincere apologies for the delay in responding. I am currently in the process of resigning from my job, while applying for my visa, so it has been really intense. I have not received an allocation from UCL yet. I wanted to confirm if there are any rooms still available with 150-200 per week.\\\\n\\\\nAgain, my apologies for the late response. I would appreciate any assistance you can provide.\\\\n\\\\nThank you\\\\n\\\\nOn Sat, 30 Aug 2025 at 11:30, <[ashutush.k@amberstudent.com]()> wrote:\\\\n\\\\nHi Ejiro,\\\\n\\\\nWe hope this email finds you well. This is our final call to complete your Student Accommodation Booking. We have reached out to you several times but have not received a response. It's crucial to take immediate action to Secure your Preferred Accommodation.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nThank you for considering our services, and we wish you the best for your upcoming academic journey.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nAshutush K\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][ashutush.k@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp]+447446196852\", \"snippet\": \"Dear Ashutush, My sincere apologies for the delay in responding. I am currently in the process of resigning from my job, while applying for my visa, so it has been really intense. I have not received\", \"direction\": \"inbound\", \"sender_type\": \"student\", \"agent_email\": \"ashutush.k@amberstudent.com\", \"student_email\": \"ayara.ejiro@gmail.com\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15356,
+      "lead_id": 359,
+      "event_type": "email",
+      "timestamp": "2025-08-31T12:41:18",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-31T12:41:18\", \"sender_email\": \"ashutush.k@amberstudent.com\", \"recipient_email\": \"ayara.ejiro@gmail.com\", \"subject\": \"Re: Complete your UCL accommodation booking | Final Steps to Secure your Room\", \"message\": \"Sorry, but all our currently available options are starting from around 310 GBP/week!\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nAshutush K\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][ashutush.k@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp]+447446196852\\\\n\\\\nOn Sun, Aug 31, 2025 at 6:01\\u202fPM Ejiro Ayara <[ayara.ejiro@gmail.com]()> wrote:\\\\n\\\\nDear Ashutush,\\\\n\\\\nMy sincere apologies for the delay in responding. I am currently in the process of resigning from my job, while applying for my visa, so it has been really intense. I have not received an allocation from UCL yet. I wanted to confirm if there are any rooms still available with 150-200 per week.\\\\n\\\\nAgain, my apologies for the late response. I would appreciate any assistance you can provide.\\\\n\\\\nThank you\\\\n\\\\nOn Sat, 30 Aug 2025 at 11:30, <[ashutush.k@amberstudent.com]()> wrote:\\\\n\\\\nHi Ejiro,\\\\n\\\\nWe hope this email finds you well. This is our final call to complete your Student Accommodation Booking. We have reached out to you several times but have not received a response. It's crucial to take immediate action to Secure your Preferred Accommodation.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nThank you for considering our services, and we wish you the best for your upcoming academic journey.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nAshutush K\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][ashutush.k@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp]+447446196852\", \"snippet\": \"Sorry, but all our currently available options are starting from around 310 GBP/week! Trustpilot rating Facebook LinkedIn Instagram Twitter Ashutush K Operations Associate amberstudent.com ashutush.k@\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"ashutush.k@amberstudent.com\", \"student_email\": \"ayara.ejiro@gmail.com\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15357,
+      "lead_id": 359,
+      "event_type": "email",
+      "timestamp": "2025-08-31T12:42:12",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-31T12:42:12\", \"sender_email\": \"ayara.ejiro@gmail.com\", \"recipient_email\": \"ashutush.k@amberstudent.com\", \"subject\": \"Re: Complete your UCL accommodation booking | Final Steps to Secure your Room\", \"message\": \"Okay. Thank you for the update.\\\\n\\\\nOn Sun, 31 Aug 2025 at 13:41, Ashutush Kashyap <[ashutush.k@amberstudent.com]()> wrote:\\\\n\\\\nSorry, but all our currently available options are starting from around 310 GBP/week!\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nAshutush K\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][ashutush.k@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp]+447446196852\\\\n\\\\nOn Sun, Aug 31, 2025 at 6:01\\u202fPM Ejiro Ayara <[ayara.ejiro@gmail.com]()> wrote:\\\\n\\\\nDear Ashutush,\\\\n\\\\nMy sincere apologies for the delay in responding. I am currently in the process of resigning from my job, while applying for my visa, so it has been really intense. I have not received an allocation from UCL yet. I wanted to confirm if there are any rooms still available with 150-200 per week.\\\\n\\\\nAgain, my apologies for the late response. I would appreciate any assistance you can provide.\\\\n\\\\nThank you\\\\n\\\\nOn Sat, 30 Aug 2025 at 11:30, <[ashutush.k@amberstudent.com]()> wrote:\\\\n\\\\nHi Ejiro,\\\\n\\\\nWe hope this email finds you well. This is our final call to complete your Student Accommodation Booking. We have reached out to you several times but have not received a response. It's crucial to take immediate action to Secure your Preferred Accommodation.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nThank you for considering our services, and we wish you the best for your upcoming academic journey.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nAshutush K\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][ashutush.k@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp]+447446196852\", \"snippet\": \"Okay. Thank you for the update. On Sun, 31 Aug 2025 at 13:41, Ashutush Kashyap &lt;ashutush.k@amberstudent.com&gt; wrote: Sorry, but all our currently available options are starting from around 310 GBP\", \"direction\": \"inbound\", \"sender_type\": \"student\", \"agent_email\": \"ashutush.k@amberstudent.com\", \"student_email\": \"ayara.ejiro@gmail.com\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15358,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:10:50",
+      "content": "Good afternoon Ashutush",
+      "source": "whatsapp",
+      "event_id": "8521629",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:10:50\", \"id\": 8521629, \"email\": \"\", \"from_number\": \"2348169747534\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_2348169747534@c.us_3AE533D0FA466F21B408\", \"message_type\": \"text\", \"message_content\": \"Good afternoon Ashutush\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"2348169747534@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-11T14:10:50.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Good afternoon Ashutush\\\", \\\"Datetime\\\": 1757599850000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"2348169747534@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_2348169747534@c.us_3AE533D0FA466F21B408\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"2348169747534\\\", \\\"sentByUserId\\\": \\\"2348169747534@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:10:51.152446\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15359,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:11:17",
+      "content": "Sorry for the late response. I have been occupied trying to get my visa and making other travel arrangements",
+      "source": "whatsapp",
+      "event_id": "8521649",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:11:17\", \"id\": 8521649, \"email\": \"\", \"from_number\": \"2348169747534\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_2348169747534@c.us_3A3916D75B1DB5581AF6\", \"message_type\": \"text\", \"message_content\": \"Sorry for the late response. I have been occupied trying to get my visa and making other travel arrangements\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"2348169747534@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-11T14:11:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Sorry for the late response. I have been occupied trying to get my visa and making other travel arrangements\\\", \\\"Datetime\\\": 1757599877000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"2348169747534@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_2348169747534@c.us_3A3916D75B1DB5581AF6\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"2348169747534\\\", \\\"sentByUserId\\\": \\\"2348169747534@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:11:18.882810\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15360,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:11:55",
+      "content": "UCL Accommodations has not been able to provide an accommodation for me",
+      "source": "whatsapp",
+      "event_id": "8521685",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:11:55\", \"id\": 8521685, \"email\": \"\", \"from_number\": \"2348169747534\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_2348169747534@c.us_3AED138FD3D46A684016\", \"message_type\": \"text\", \"message_content\": \"UCL Accommodations has not been able to provide an accommodation for me\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"2348169747534@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-11T14:11:55.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"UCL Accommodations has not been able to provide an accommodation for me\\\", \\\"Datetime\\\": 1757599915000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"2348169747534@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_2348169747534@c.us_3AED138FD3D46A684016\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"2348169747534\\\", \\\"sentByUserId\\\": \\\"2348169747534@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:11:56.353569\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15361,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:12:08",
+      "content": "Are there any allocations left?",
+      "source": "whatsapp",
+      "event_id": "8521690",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:12:08\", \"id\": 8521690, \"email\": \"\", \"from_number\": \"2348169747534\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_2348169747534@c.us_3A753C17ADDA6E31E5E5\", \"message_type\": \"text\", \"message_content\": \"Are there any allocations left?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"2348169747534@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-11T14:12:08.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Are there any allocations left?\\\", \\\"Datetime\\\": 1757599928000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"2348169747534@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_2348169747534@c.us_3A753C17ADDA6E31E5E5\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"2348169747534\\\", \\\"sentByUserId\\\": \\\"2348169747534@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:12:09.343788\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15362,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:12:15",
+      "content": "I understand",
+      "source": "whatsapp",
+      "event_id": "8521694",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:12:15\", \"id\": 8521694, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3FC4F6C01DBEFC825C76\", \"message_type\": \"text\", \"message_content\": \"I understand\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:12:15.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"I understand\\\", \\\"Datetime\\\": 1757599935000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3FC4F6C01DBEFC825C76\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:12:15.814096\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15363,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:12:28",
+      "content": "most of our properties are also sold out",
+      "source": "whatsapp",
+      "event_id": "8521706",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:12:28\", \"id\": 8521706, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F792D84A06DF3E95538\", \"message_type\": \"text\", \"message_content\": \"most of our properties are also sold out\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:12:28.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"most of our properties are also sold out\\\", \\\"Datetime\\\": 1757599948000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F792D84A06DF3E95538\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:12:29.414018\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15364,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:12:44",
+      "content": "Allow me a moment let me check!",
+      "source": "whatsapp",
+      "event_id": "8521717",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:12:44\", \"id\": 8521717, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3FAC18B86FDB1A7BBABE\", \"message_type\": \"text\", \"message_content\": \"Allow me a moment let me check!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:12:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Allow me a moment let me check!\\\", \\\"Datetime\\\": 1757599964000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3FAC18B86FDB1A7BBABE\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:12:45.313758\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15365,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:15:42",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *IQ PARIS GARDENS, LONDON*\nhttps://amberstudent.com/places/iq-paris-gardens-london-1608304485980\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/iq-paris-gardens-london-1608304485980?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from London City Center:*\n*Drive:* 1.5 mi (11 mins)\n*Walk:* 1.2 mi (24 mins)\n*Bus/Train:* 1.3 mi (16 mins)\n\n🏘 *ROOM TYPES:*\n*Bronze 2 Bed Apt Plus:*\n  £446/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £487/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\n\n*Silver 3 Bed Apt Plus:*\n  £427/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Silver 2 Bed Apt Plus:*\n  £457/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £498/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\n\n*Gold 2 Bed Apt Plus:*\n  £466/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £503/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\n\n*Gold 3 Bed Apt Plus:*\n  £446/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Platinum 2 Bed Apt Plus:*\n  £476/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £514/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\n\n*Bronze Studio Plus:*\n  £669/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/iq-paris-gardens-london-1608304485980/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=133440\n\n------------",
+      "source": "whatsapp",
+      "event_id": "8521826",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:15:42\", \"id\": 8521826, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3FFD637FB5F41E242A49\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *IQ PARIS GARDENS, LONDON*\\nhttps://amberstudent.com/places/iq-paris-gardens-london-1608304485980\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/iq-paris-gardens-london-1608304485980?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\n*Drive:* 1.5 mi (11 mins)\\n*Walk:* 1.2 mi (24 mins)\\n*Bus/Train:* 1.3 mi (16 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Bronze 2 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3446/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3487/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n*Silver 3 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3427/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Silver 2 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3457/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3498/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n*Gold 2 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3466/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3503/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n*Gold 3 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3446/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Platinum 2 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3476/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3514/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n*Bronze Studio Plus:*\\n\\u00a0\\u00a0\\u00a3669/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/iq-paris-gardens-london-1608304485980/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=133440\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:15:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *IQ PARIS GARDENS, LONDON*\\\\nhttps://amberstudent.com/places/iq-paris-gardens-london-1608304485980\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/iq-paris-gardens-london-1608304485980?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\\\n*Drive:* 1.5 mi (11 mins)\\\\n*Walk:* 1.2 mi (24 mins)\\\\n*Bus/Train:* 1.3 mi (16 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Bronze 2 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3446/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3487/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Silver 3 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3427/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Silver 2 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3457/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3498/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Gold 2 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3466/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3503/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Gold 3 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3446/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Platinum 2 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3476/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3514/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Bronze Studio Plus:*\\\\n\\u00a0\\u00a0\\u00a3669/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/iq-paris-gardens-london-1608304485980/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=133440\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1757600142000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3FFD637FB5F41E242A49\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:15:42.190044\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15366,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:17:02",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *FUSION BRENT CROSS TOWN, LONDON*\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from London City Center:*\n*Drive:* 7.5 mi (37 mins)\n*Walk:* 6.8 mi (2 hours 32 mins)\n*Bus/Train:* 7.6 mi (39 mins)\n\n🏘 *ROOM TYPES:*\n*Social Studio:*\n  £355/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\n  £355/week (Duration: 43 week) (Move in: 11 Sep, 2025) (Move out: 10 Jul, 2026)\n  £360/week (Duration: 43 week) (Move in: 11 Sep, 2025) (Move out: 10 Jul, 2026)\n\n*Classic Studio:*\n  £343/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\n  £345/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\n  £355/week (Duration: 43 week) (Move in: 11 Sep, 2025) (Move out: 10 Jul, 2026)\n  £360/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\n  £364/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=1629687\n\n------------",
+      "source": "whatsapp",
+      "event_id": "8521905",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:17:02\", \"id\": 8521905, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F1C12FFD40A9242BF14\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *FUSION BRENT CROSS TOWN, LONDON*\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\n*Drive:* 7.5 mi (37 mins)\\n*Walk:* 6.8 mi (2 hours 32 mins)\\n*Bus/Train:* 7.6 mi (39 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Social Studio:*\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 43 week) (Move in: 11 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 43 week) (Move in: 11 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n*Classic Studio:*\\n\\u00a0\\u00a0\\u00a3343/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 43 week) (Move in: 11 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3364/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=1629687\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:17:02.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *FUSION BRENT CROSS TOWN, LONDON*\\\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\\\n*Drive:* 7.5 mi (37 mins)\\\\n*Walk:* 6.8 mi (2 hours 32 mins)\\\\n*Bus/Train:* 7.6 mi (39 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Social Studio:*\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 43 week) (Move in: 11 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 43 week) (Move in: 11 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Classic Studio:*\\\\n\\u00a0\\u00a0\\u00a3343/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 43 week) (Move in: 11 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3364/week (Duration: 50 week) (Move in: 11 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=1629687\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1757600222000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F1C12FFD40A9242BF14\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:17:03.151238\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15367,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:17:14",
+      "content": "Thank you.\n\nFor the two bedroom apartments, is the amount per week for just one bed space?",
+      "source": "whatsapp",
+      "event_id": "8521912",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:17:14\", \"id\": 8521912, \"email\": \"\", \"from_number\": \"2348169747534\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_2348169747534@c.us_3A2DE5FE4D5C6CA46571\", \"message_type\": \"text\", \"message_content\": \"Thank you.\\n\\nFor the two bedroom apartments, is the amount per week for just one bed space?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"2348169747534@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-11T14:17:14.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Thank you.\\\\n\\\\nFor the two bedroom apartments, is the amount per week for just one bed space?\\\", \\\"Datetime\\\": 1757600234000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"2348169747534@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_2348169747534@c.us_3A2DE5FE4D5C6CA46571\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"2348169747534\\\", \\\"sentByUserId\\\": \\\"2348169747534@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:17:14.825197\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15368,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:17:44",
+      "content": "It will be an appartment with 2 bedrooms",
+      "source": "whatsapp",
+      "event_id": "8521936",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:17:44\", \"id\": 8521936, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F54427F28F21F7B8155\", \"message_type\": \"text\", \"message_content\": \"It will be an appartment with 2 bedrooms\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:17:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"It will be an appartment with 2 bedrooms\\\", \\\"Datetime\\\": 1757600264000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F54427F28F21F7B8155\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:17:44.802810\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15369,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:17:48",
+      "content": "1 washroom",
+      "source": "whatsapp",
+      "event_id": "8521938",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:17:48\", \"id\": 8521938, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F464D1F903EA49EDBDD\", \"message_type\": \"text\", \"message_content\": \"1 washroom\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:17:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"1 washroom\\\", \\\"Datetime\\\": 1757600268000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F464D1F903EA49EDBDD\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:17:48.414694\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15370,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:17:51",
+      "content": "And 1 kitchen",
+      "source": "whatsapp",
+      "event_id": "8521942",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:17:51\", \"id\": 8521942, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3FE3713C650A16C6C9A2\", \"message_type\": \"text\", \"message_content\": \"And 1 kitchen\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:17:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"And 1 kitchen\\\", \\\"Datetime\\\": 1757600271000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3FE3713C650A16C6C9A2\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:17:51.945703\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15371,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:18:03",
+      "content": "the washroom and kitchen shared between 2 prople",
+      "source": "whatsapp",
+      "event_id": "8521954",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:18:03\", \"id\": 8521954, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F9968634B9E24291DE4\", \"message_type\": \"text\", \"message_content\": \"the washroom and kitchen shared between 2 prople\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:18:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"the washroom and kitchen shared between 2 prople\\\", \\\"Datetime\\\": 1757600283000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F9968634B9E24291DE4\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:18:05.146997\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15372,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:18:10",
+      "content": "bedrooms private to each",
+      "source": "whatsapp",
+      "event_id": "8521957",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:18:10\", \"id\": 8521957, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F5661B860A3B5CD8E2F\", \"message_type\": \"text\", \"message_content\": \"bedrooms private to each\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:18:10.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"bedrooms private to each\\\", \\\"Datetime\\\": 1757600290000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F5661B860A3B5CD8E2F\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:18:10.622364\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15373,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:18:46",
+      "content": "Oh okay. And the price stated is what each person will be paying, correct?",
+      "source": "whatsapp",
+      "event_id": "8521978",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:18:46\", \"id\": 8521978, \"email\": \"\", \"from_number\": \"2348169747534\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_2348169747534@c.us_3A91719560D0DD5930AE\", \"message_type\": \"text\", \"message_content\": \"Oh okay. And the price stated is what each person will be paying, correct?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"2348169747534@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-11T14:18:46.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Oh okay. And the price stated is what each person will be paying, correct?\\\", \\\"Datetime\\\": 1757600326000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"2348169747534@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_2348169747534@c.us_3A91719560D0DD5930AE\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"2348169747534\\\", \\\"sentByUserId\\\": \\\"2348169747534@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:18:47.155790\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15374,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:18:56",
+      "content": "Yes",
+      "source": "whatsapp",
+      "event_id": "8521987",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:18:56\", \"id\": 8521987, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3FD888E806F5D77E7BD9\", \"message_type\": \"text\", \"message_content\": \"Yes\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:18:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Yes\\\", \\\"Datetime\\\": 1757600336000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3FD888E806F5D77E7BD9\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:18:56.836961\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15375,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:20:31",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *GOBRITANYA YOUR TRIBE SOUTHWARK, LONDON*\nhttps://amberstudent.com/places/gobritanya-your-tribe-southwark-london-2507164895270\n\n📍 *DISTANCE from London City Center:*\n*Drive:* 4.5 mi (27 mins)\n*Walk:* 3.6 mi (1 hour 25 mins)\n*Bus/Train:* 3.7 mi (42 mins)\n\n🏘 *ROOM TYPES:*\n*Superior En-Suite:*\n  £365/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\n  £375/week (Duration: 37 week) (Move in: 13 Sep, 2025) (Move out: 29 May, 2026)\n\n*Ultimate En-Suite:*\n  £375/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\n  £385/week (Duration: 37 week) (Move in: 13 Sep, 2025) (Move out: 29 May, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/gobritanya-your-tribe-southwark-london-2507164895270/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=1997504\n\n------------",
+      "source": "whatsapp",
+      "event_id": "8522058",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:20:31\", \"id\": 8522058, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3FFE003986AE16DA9E4A\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *GOBRITANYA YOUR TRIBE SOUTHWARK, LONDON*\\nhttps://amberstudent.com/places/gobritanya-your-tribe-southwark-london-2507164895270\\n\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\n*Drive:* 4.5 mi (27 mins)\\n*Walk:* 3.6 mi (1 hour 25 mins)\\n*Bus/Train:* 3.7 mi (42 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Superior En-Suite:*\\n\\u00a0\\u00a0\\u00a3365/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3375/week (Duration: 37 week) (Move in: 13 Sep, 2025) (Move out: 29 May, 2026)\\n\\n*Ultimate En-Suite:*\\n\\u00a0\\u00a0\\u00a3375/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3385/week (Duration: 37 week) (Move in: 13 Sep, 2025) (Move out: 29 May, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/gobritanya-your-tribe-southwark-london-2507164895270/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=1997504\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T14:20:31.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *GOBRITANYA YOUR TRIBE SOUTHWARK, LONDON*\\\\nhttps://amberstudent.com/places/gobritanya-your-tribe-southwark-london-2507164895270\\\\n\\\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\\\n*Drive:* 4.5 mi (27 mins)\\\\n*Walk:* 3.6 mi (1 hour 25 mins)\\\\n*Bus/Train:* 3.7 mi (42 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Superior En-Suite:*\\\\n\\u00a0\\u00a0\\u00a3365/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3375/week (Duration: 37 week) (Move in: 13 Sep, 2025) (Move out: 29 May, 2026)\\\\n\\\\n*Ultimate En-Suite:*\\\\n\\u00a0\\u00a0\\u00a3375/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3385/week (Duration: 37 week) (Move in: 13 Sep, 2025) (Move out: 29 May, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/gobritanya-your-tribe-southwark-london-2507164895270/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=1997504\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1757600431000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3FFE003986AE16DA9E4A\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:20:31.318880\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15376,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:45:54",
+      "content": "Thank you so much",
+      "source": "whatsapp",
+      "event_id": "8523423",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:45:54\", \"id\": 8523423, \"email\": \"\", \"from_number\": \"2348169747534\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_2348169747534@c.us_3A00E039D26AB9AE1C7D\", \"message_type\": \"text\", \"message_content\": \"Thank you so much\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"2348169747534@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-11T14:45:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Thank you so much\\\", \\\"Datetime\\\": 1757601954000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"2348169747534@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_2348169747534@c.us_3A00E039D26AB9AE1C7D\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"2348169747534\\\", \\\"sentByUserId\\\": \\\"2348169747534@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:45:55.908850\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15377,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T14:46:00",
+      "content": "I am checking them out",
+      "source": "whatsapp",
+      "event_id": "8523431",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T14:46:00\", \"id\": 8523431, \"email\": \"\", \"from_number\": \"2348169747534\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_2348169747534@c.us_3AD792ED6537B012B484\", \"message_type\": \"text\", \"message_content\": \"I am checking them out\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"2348169747534@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-11T14:46:00.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"I am checking them out\\\", \\\"Datetime\\\": 1757601960000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"2348169747534@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_2348169747534@c.us_3AD792ED6537B012B484\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"2348169747534\\\", \\\"sentByUserId\\\": \\\"2348169747534@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T14:46:03.581010\", \"direction\": \"inbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15378,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-11T15:10:33",
+      "content": "This will only be availably by eod today",
+      "source": "whatsapp",
+      "event_id": "8524816",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-11T15:10:33\", \"id\": 8524816, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F77507F82E7775D217F\", \"message_type\": \"text\", \"message_content\": \"This will only be availably by eod today\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-11T15:10:33.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"This will only be availably by eod today\\\", \\\"Datetime\\\": 1757603433000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F77507F82E7775D217F\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-11T15:10:33.812655\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15379,
+      "lead_id": 359,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3183593, \"user_name\": \"Ejiro Ayara\", \"email\": \"ayara.ejiro@gmail.com\", \"phone\": \"2348169747534\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 219, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8860, \"inventory_id\": 1185402}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15380,
+      "lead_id": 359,
+      "event_type": "call",
+      "timestamp": "2025-09-13T20:39:21.094323",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7872199",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-13T20:39:21.094323\", \"id\": 7872199, \"duration\": \"0\", \"to_number\": \"2348169747534\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15381,
+      "lead_id": 359,
+      "event_type": "call",
+      "timestamp": "2025-09-15T14:39:19.442742",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7878122",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-15T14:39:19.442742\", \"id\": 7878122, \"duration\": \"0\", \"to_number\": \"2348169747534\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b27bf7d1-48a7-452f-bfbb-1fd08b62994e.wav\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15382,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-15T14:41:11",
+      "content": "Hello Ejiro Ayara, 😊\n\nAny updates on when we can get your booking done? 🗓\n\nSince property availability is low and rents are also rising 📈, I am starting to feel a bit tense about this as well. 😬\n\nPlease let me know when we can proceed. Thank you! 🙏",
+      "source": "whatsapp",
+      "event_id": "8655925",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-15T14:41:11\", \"id\": 8655925, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3FD9403A0CF36FA6E351\", \"message_type\": \"text\", \"message_content\": \"Hello Ejiro Ayara, \\ud83d\\ude0a\\n\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\n\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\n\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-15T14:41:11.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hello Ejiro Ayara, \\ud83d\\ude0a\\\\n\\\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\\\n\\\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\\\n\\\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\\\", \\\"Datetime\\\": 1757947271000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3FD9403A0CF36FA6E351\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-15T14:41:11.823912\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15383,
+      "lead_id": 359,
+      "event_type": "call",
+      "timestamp": "2025-09-17T08:44:52.339445",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7887408",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-17T08:44:52.339445\", \"id\": 7887408, \"duration\": \"0\", \"to_number\": \"2348169747534\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15384,
+      "lead_id": 359,
+      "event_type": "call",
+      "timestamp": "2025-09-17T08:45:04.165009",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7887412",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-17T08:45:04.165009\", \"id\": 7887412, \"duration\": \"0\", \"to_number\": \"2348169747534\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:29:26"
+    },
+    {
+      "id": 15385,
+      "lead_id": 359,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T08:45:26",
+      "content": "Hi Ejiro Ayara, 😊\nHope you're doing well! 🌟\n\nI’ve been trying to get in touch to discuss the move-in date and the booking process. 🏡✨\n\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! 📞😊",
+      "source": "whatsapp",
+      "event_id": "8718216",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T08:45:26\", \"id\": 8718216, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"2348169747534\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_2348169747534@c.us_3F2E1D41317C8BEB5AAB\", \"message_type\": \"text\", \"message_content\": \"Hi Ejiro Ayara, \\ud83d\\ude0a\\nHope you're doing well! \\ud83c\\udf1f\\n\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\n\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T08:45:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Ejiro Ayara, \\ud83d\\ude0a\\\\nHope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\\\n\\\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\\\", \\\"Datetime\\\": 1758098726000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"2348169747534@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_2348169747534@c.us_3F2E1D41317C8BEB5AAB\\\", \\\"ChannelName\\\": \\\"2348169747534\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-17T08:45:27.089723\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"2348169747534\"}",
+      "created_at": "2025-11-18 13:29:26"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 259,
+      "lead_id": 359,
+      "call_id": "7768229",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e3bc7445-c843-4149-9473-fe6ee0677a2e.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Hello?\nSpeaker A: Hello, Good afternoon. Good afternoon.\nSpeaker B: Good afternoon. Yes. Am I speaking with Aziro Ira?\nSpeaker A: Yes you are.\nSpeaker B: Hi Ashutosh this side from UCL accommodation Portal and I see you have placed your request place your interest in one of our properties. That is Chelsea Lightwood Hall, London. Right? Lcr Lightfoot Hall, London.\nSpeaker A: Yes I did but I'm so I'm still trying to wait for the student accommodation. I haven't got. They haven't gotten back to me yet. So that's why I'm a bit worried. I don't want to double book two accommodations.\nSpeaker B: Two accommodations in the sense which other accommodation are you trying to book?\nSpeaker A: So I had, I had submitted an application for the UCL accommodation. So yes, that's the one that's from the school and the school's accommodation. But then I haven't got, they haven't gotten back to me so they said that they're supposed to get back to me at the end of August, but I still haven't heard from them.\nSpeaker B: Basically you are waiting for the university halls reply, right? You also apply for the university hall, but to be very honest it's the end of August. I would suggest if, in case you to make it quick and you can try emailing them like giving them a follow up email on your status. Since it's the end of August as you can see and September is your intakes, most of the students they go by September 1st and 2nd so you won't get properties available after that. You just have two trade two days time in your hand to book a property if you want to go for a student accommodation. Right?\nSpeaker A: Yes, yes.\nSpeaker B: Okay. Yeah, yeah.\nSpeaker A: Okay.\nSpeaker B: Just try getting the confirmation to day after tomorrow. I'll connect with you day after tomorrow. Sounds good.\nSpeaker A: Yes, please. Yes, yes.\nSpeaker B: Okay. Okay. I will also drop a WhatsApp text to you from my end so that you can reply to me if you in case you need anything.\nSpeaker A: Okay. Thank you so much.\nSpeaker B: Thank you so much. Have a nice day.\nSpeaker A: Yeah, have a nice day. You too. Bye bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:55:28"
+    }
+  ],
+  "summary": {
+    "id": 378,
+    "lead_id": 359,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Ejiro Ayara\", \"mobile\": [\"+2348169747534\"], \"email\": [\"ayara.ejiro@gmail.com\"], \"whatsapp\": [\"+447446196852\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"2 bedroom apartment\", \"budget\": {\"max\": 219, \"currency\": \"GBP\"}, \"bathroom_type\": \"shared_bathroom\", \"kitchen_type\": \"shared_kitchen\", \"dual_occupancy\": true, \"university\": \"UCL\", \"move_in_date\": \"2025-09-11\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"pending\", \"No allocation received from UCL yet\"], \"flight_booking\": [], \"visa_status\": [\"pending\", \"Applying for visa\"], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chelsea Lightfoot Hall, London\", \"IQ Paris Gardens, London\", \"Fusion Brent Cross Town, London\", \"Gobritanya Your Tribe Southwark, London\"], \"rooms_considered\": [\"Bronze 2 Bed Apt Plus\", \"Silver 3 Bed Apt Plus\", \"Silver 2 Bed Apt Plus\", \"Gold 2 Bed Apt Plus\", \"Gold 3 Bed Apt Plus\", \"Platinum 2 Bed Apt Plus\", \"Bronze Studio Plus\", \"Social Studio\", \"Classic Studio\", \"Superior En-Suite\", \"Ultimate En-Suite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to review the property suggestions sent by agent (IQ Paris Gardens, Fusion Brent Cross Town, Gobritanya Your Tribe Southwark) and decide on which property to book.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp messages on 2025-09-11 with property suggestions and student response 'I am checking them out'\"}, {\"type\": \"communication\", \"description\": \"Agent to clarify to student that the weekly rent prices for two-bedroom apartments are for the entire apartment, not per bed space.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp conversation on 2025-09-11 where student asked about two-bedroom apartment pricing and agent responded\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student regarding move-in date and booking process, and arrange a suitable time to connect.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message from agent on 2025-09-17 asking for a good time to connect about move-in date and booking\"}, {\"type\": \"booking_action\", \"description\": \"Student to confirm when they can proceed with the booking and secure a room from the available options.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Multiple WhatsApp messages on 2025-08-27, 2025-08-29, 2025-09-15 requesting update on booking progress\"}, {\"type\": \"communication\", \"description\": \"Agent to inform student that all currently available options start from around \\u00a3310/week, which is above student's budget of \\u00a3150-200/week.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Email response from agent on 2025-08-31\"}, {\"type\": \"follow_up\", \"description\": \"Agent to check availability of any remaining allocations or properties for student and update accordingly.\", \"due\": \"within_24h\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-11 'Allow me a moment let me check!' after student asked about allocations\"}], \"last_agent_response\": \"Agent provided multiple property suggestions with links and details on 2025-09-11, clarified pricing details, and requested updates on booking progress on 2025-09-15 and 2025-09-17.\", \"suggested_next_step\": \"Student to review the property options provided and confirm which property they wish to book or provide update on booking timeline.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Ejiro Ayara\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls, WhatsApp messages, Emails\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"UCL\", \"room_type\": \"Two bedroom apartments, studios, en-suite rooms discussed\", \"budget_range\": \"Initially requested 150-200 GBP/week; informed available options start around 310 GBP/week; current budget recorded as 219 GBP/week\", \"move_in_date\": \"Mid-September 2025 (e.g., 11-13 Sep 2025 mentioned in property options)\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; no confirmed booking yet\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Student is in process of applying for visa\", \"flight_status\": \"Student mentioned making travel arrangements\"}, \"communication_summary\": {\"total_interactions\": \"Multiple interactions including at least 6 phone calls, numerous WhatsApp messages across several days, and email exchanges\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-17 via WhatsApp message from agent\", \"response_time\": \"Student responses sometimes delayed due to visa and job resignation process; agent follows up persistently\", \"key_moments\": \"Initial contact on 2025-08-27; student expressed intention to be in touch; budget mismatch clarified via email on 2025-08-31; multiple property suggestions provided on 2025-09-11; student checking options; agent reminders on 2025-08-29, 2025-09-15, and 2025-09-17 about booking urgency\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chelsea Lightfoot Hall (initial interest), IQ Paris Gardens London, Fusion Brent Cross Town London, GoBritanya Your Tribe Southwark London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interest in two bedroom apartments; clarification sought if weekly price is per person; student checking suggested properties\", \"offers_made\": \"No special offers or discounts mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to confirm booking decision ASAP due to low availability and rising rents\", \"pending_items\": \"Student to finalize booking and confirm move-in date\", \"follow_up_required\": \"Agent to continue follow-up on booking status and assist with any queries\", \"timeline\": \"Properties available for move-in from mid-September 2025; agent emphasized urgency on 2025-08-29, 2025-09-15, and 2025-09-17\"}, \"agent_notes\": {\"student_tone\": \"Polite, apologetic for delays, responsive when able, cautious due to visa and job situation\", \"urgency_level\": \"Medium to high urgency due to low property availability and rising rents\", \"complexity\": \"Moderate complexity due to budget constraints and visa/travel arrangements delaying booking\", \"special_considerations\": \"Student has not received UCL accommodation allocation; budget is below current available options; student is managing visa and job resignation simultaneously\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Ejiro Ayara\", \"mobile\": [\"+2348169747534\"], \"email\": [\"ayara.ejiro@gmail.com\"], \"whatsapp\": [\"+447446196852\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"2 bedroom apartment\", \"budget\": {\"max\": 219, \"currency\": \"GBP\"}, \"bathroom_type\": \"shared_bathroom\", \"kitchen_type\": \"shared_kitchen\", \"dual_occupancy\": true, \"university\": \"UCL\", \"move_in_date\": \"2025-09-11\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"pending\", \"No allocation received from UCL yet\"], \"flight_booking\": [], \"visa_status\": [\"pending\", \"Applying for visa\"], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chelsea Lightfoot Hall, London\", \"IQ Paris Gardens, London\", \"Fusion Brent Cross Town, London\", \"Gobritanya Your Tribe Southwark, London\"], \"rooms_considered\": [\"Bronze 2 Bed Apt Plus\", \"Silver 3 Bed Apt Plus\", \"Silver 2 Bed Apt Plus\", \"Gold 2 Bed Apt Plus\", \"Gold 3 Bed Apt Plus\", \"Platinum 2 Bed Apt Plus\", \"Bronze Studio Plus\", \"Social Studio\", \"Classic Studio\", \"Superior En-Suite\", \"Ultimate En-Suite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to review the property suggestions sent by agent (IQ Paris Gardens, Fusion Brent Cross Town, Gobritanya Your Tribe Southwark) and decide on which property to book.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp messages on 2025-09-11 with property suggestions and student response 'I am checking them out'\"}, {\"type\": \"communication\", \"description\": \"Agent to clarify to student that the weekly rent prices for two-bedroom apartments are for the entire apartment, not per bed space.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp conversation on 2025-09-11 where student asked about two-bedroom apartment pricing and agent responded\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student regarding move-in date and booking process, and arrange a suitable time to connect.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message from agent on 2025-09-17 asking for a good time to connect about move-in date and booking\"}, {\"type\": \"booking_action\", \"description\": \"Student to confirm when they can proceed with the booking and secure a room from the available options.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Multiple WhatsApp messages on 2025-08-27, 2025-08-29, 2025-09-15 requesting update on booking progress\"}, {\"type\": \"communication\", \"description\": \"Agent to inform student that all currently available options start from around \\u00a3310/week, which is above student's budget of \\u00a3150-200/week.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Email response from agent on 2025-08-31\"}, {\"type\": \"follow_up\", \"description\": \"Agent to check availability of any remaining allocations or properties for student and update accordingly.\", \"due\": \"within_24h\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-11 'Allow me a moment let me check!' after student asked about allocations\"}], \"last_agent_response\": \"Agent provided multiple property suggestions with links and details on 2025-09-11, clarified pricing details, and requested updates on booking progress on 2025-09-15 and 2025-09-17.\", \"suggested_next_step\": \"Student to review the property options provided and confirm which property they wish to book or provide update on booking timeline.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Ejiro Ayara\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls, WhatsApp messages, Emails\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"UCL\", \"room_type\": \"Two bedroom apartments, studios, en-suite rooms discussed\", \"budget_range\": \"Initially requested 150-200 GBP/week; informed available options start around 310 GBP/week; current budget recorded as 219 GBP/week\", \"move_in_date\": \"Mid-September 2025 (e.g., 11-13 Sep 2025 mentioned in property options)\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; no confirmed booking yet\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Student is in process of applying for visa\", \"flight_status\": \"Student mentioned making travel arrangements\"}, \"communication_summary\": {\"total_interactions\": \"Multiple interactions including at least 6 phone calls, numerous WhatsApp messages across several days, and email exchanges\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-17 via WhatsApp message from agent\", \"response_time\": \"Student responses sometimes delayed due to visa and job resignation process; agent follows up persistently\", \"key_moments\": \"Initial contact on 2025-08-27; student expressed intention to be in touch; budget mismatch clarified via email on 2025-08-31; multiple property suggestions provided on 2025-09-11; student checking options; agent reminders on 2025-08-29, 2025-09-15, and 2025-09-17 about booking urgency\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chelsea Lightfoot Hall (initial interest), IQ Paris Gardens London, Fusion Brent Cross Town London, GoBritanya Your Tribe Southwark London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interest in two bedroom apartments; clarification sought if weekly price is per person; student checking suggested properties\", \"offers_made\": \"No special offers or discounts mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to confirm booking decision ASAP due to low availability and rising rents\", \"pending_items\": \"Student to finalize booking and confirm move-in date\", \"follow_up_required\": \"Agent to continue follow-up on booking status and assist with any queries\", \"timeline\": \"Properties available for move-in from mid-September 2025; agent emphasized urgency on 2025-08-29, 2025-09-15, and 2025-09-17\"}, \"agent_notes\": {\"student_tone\": \"Polite, apologetic for delays, responsive when able, cautious due to visa and job situation\", \"urgency_level\": \"Medium to high urgency due to low property availability and rising rents\", \"complexity\": \"Moderate complexity due to budget constraints and visa/travel arrangements delaying booking\", \"special_considerations\": \"Student has not received UCL accommodation allocation; budget is below current available options; student is managing visa and job resignation simultaneously\"}}}}}",
+    "created_at": "2025-11-18 13:29:38",
+    "updated_at": "2025-11-18T18:59:38.060581",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Ejiro Ayara",
+        "mobile": [
+          "+2348169747534"
+        ],
+        "email": [
+          "ayara.ejiro@gmail.com"
+        ],
+        "whatsapp": [
+          "+447446196852"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "2 bedroom apartment",
+        "budget": {
+          "max": 219,
+          "currency": "GBP"
+        },
+        "bathroom_type": "shared_bathroom",
+        "kitchen_type": "shared_kitchen",
+        "dual_occupancy": true,
+        "university": "UCL",
+        "move_in_date": "2025-09-11",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "pending",
+          "No allocation received from UCL yet"
+        ],
+        "flight_booking": [],
+        "visa_status": [
+          "pending",
+          "Applying for visa"
+        ],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Chelsea Lightfoot Hall, London",
+          "IQ Paris Gardens, London",
+          "Fusion Brent Cross Town, London",
+          "Gobritanya Your Tribe Southwark, London"
+        ],
+        "rooms_considered": [
+          "Bronze 2 Bed Apt Plus",
+          "Silver 3 Bed Apt Plus",
+          "Silver 2 Bed Apt Plus",
+          "Gold 2 Bed Apt Plus",
+          "Gold 3 Bed Apt Plus",
+          "Platinum 2 Bed Apt Plus",
+          "Bronze Studio Plus",
+          "Social Studio",
+          "Classic Studio",
+          "Superior En-Suite",
+          "Ultimate En-Suite"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Student to review the property suggestions sent by agent (IQ Paris Gardens, Fusion Brent Cross Town, Gobritanya Your Tribe Southwark) and decide on which property to book.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp messages on 2025-09-11 with property suggestions and student response 'I am checking them out'"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to clarify to student that the weekly rent prices for two-bedroom apartments are for the entire apartment, not per bed space.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "WhatsApp conversation on 2025-09-11 where student asked about two-bedroom apartment pricing and agent responded"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student regarding move-in date and booking process, and arrange a suitable time to connect.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message from agent on 2025-09-17 asking for a good time to connect about move-in date and booking"
+        },
+        {
+          "type": "booking_action",
+          "description": "Student to confirm when they can proceed with the booking and secure a room from the available options.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Multiple WhatsApp messages on 2025-08-27, 2025-08-29, 2025-09-15 requesting update on booking progress"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to inform student that all currently available options start from around £310/week, which is above student's budget of £150-200/week.",
+          "due": "completed",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Email response from agent on 2025-08-31"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to check availability of any remaining allocations or properties for student and update accordingly.",
+          "due": "within_24h",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-09-11 'Allow me a moment let me check!' after student asked about allocations"
+        }
+      ],
+      "last_agent_response": "Agent provided multiple property suggestions with links and details on 2025-09-11, clarified pricing details, and requested updates on booking progress on 2025-09-15 and 2025-09-17.",
+      "suggested_next_step": "Student to review the property options provided and confirm which property they wish to book or provide update on booking timeline."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Ejiro Ayara",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls, WhatsApp messages, Emails",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "UCL",
+            "room_type": "Two bedroom apartments, studios, en-suite rooms discussed",
+            "budget_range": "Initially requested 150-200 GBP/week; informed available options start around 310 GBP/week; current budget recorded as 219 GBP/week",
+            "move_in_date": "Mid-September 2025 (e.g., 11-13 Sep 2025 mentioned in property options)",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage; no confirmed booking yet",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Student is in process of applying for visa",
+            "flight_status": "Student mentioned making travel arrangements"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple interactions including at least 6 phone calls, numerous WhatsApp messages across several days, and email exchanges",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-17 via WhatsApp message from agent",
+            "response_time": "Student responses sometimes delayed due to visa and job resignation process; agent follows up persistently",
+            "key_moments": "Initial contact on 2025-08-27; student expressed intention to be in touch; budget mismatch clarified via email on 2025-08-31; multiple property suggestions provided on 2025-09-11; student checking options; agent reminders on 2025-08-29, 2025-09-15, and 2025-09-17 about booking urgency"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Chelsea Lightfoot Hall (initial interest), IQ Paris Gardens London, Fusion Brent Cross Town London, GoBritanya Your Tribe Southwark London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Interest in two bedroom apartments; clarification sought if weekly price is per person; student checking suggested properties",
+            "offers_made": "No special offers or discounts mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to confirm booking decision ASAP due to low availability and rising rents",
+            "pending_items": "Student to finalize booking and confirm move-in date",
+            "follow_up_required": "Agent to continue follow-up on booking status and assist with any queries",
+            "timeline": "Properties available for move-in from mid-September 2025; agent emphasized urgency on 2025-08-29, 2025-09-15, and 2025-09-17"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, apologetic for delays, responsive when able, cautious due to visa and job situation",
+            "urgency_level": "Medium to high urgency due to low property availability and rising rents",
+            "complexity": "Moderate complexity due to budget constraints and visa/travel arrangements delaying booking",
+            "special_considerations": "Student has not received UCL accommodation allocation; budget is below current available options; student is managing visa and job resignation simultaneously"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Ejiro Ayara",
+          "mobile": [
+            "+2348169747534"
+          ],
+          "email": [
+            "ayara.ejiro@gmail.com"
+          ],
+          "whatsapp": [
+            "+447446196852"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "2 bedroom apartment",
+          "budget": {
+            "max": 219,
+            "currency": "GBP"
+          },
+          "bathroom_type": "shared_bathroom",
+          "kitchen_type": "shared_kitchen",
+          "dual_occupancy": true,
+          "university": "UCL",
+          "move_in_date": "2025-09-11",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "pending",
+            "No allocation received from UCL yet"
+          ],
+          "flight_booking": [],
+          "visa_status": [
+            "pending",
+            "Applying for visa"
+          ],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Chelsea Lightfoot Hall, London",
+            "IQ Paris Gardens, London",
+            "Fusion Brent Cross Town, London",
+            "Gobritanya Your Tribe Southwark, London"
+          ],
+          "rooms_considered": [
+            "Bronze 2 Bed Apt Plus",
+            "Silver 3 Bed Apt Plus",
+            "Silver 2 Bed Apt Plus",
+            "Gold 2 Bed Apt Plus",
+            "Gold 3 Bed Apt Plus",
+            "Platinum 2 Bed Apt Plus",
+            "Bronze Studio Plus",
+            "Social Studio",
+            "Classic Studio",
+            "Superior En-Suite",
+            "Ultimate En-Suite"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Student to review the property suggestions sent by agent (IQ Paris Gardens, Fusion Brent Cross Town, Gobritanya Your Tribe Southwark) and decide on which property to book.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp messages on 2025-09-11 with property suggestions and student response 'I am checking them out'"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to clarify to student that the weekly rent prices for two-bedroom apartments are for the entire apartment, not per bed space.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "WhatsApp conversation on 2025-09-11 where student asked about two-bedroom apartment pricing and agent responded"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student regarding move-in date and booking process, and arrange a suitable time to connect.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message from agent on 2025-09-17 asking for a good time to connect about move-in date and booking"
+          },
+          {
+            "type": "booking_action",
+            "description": "Student to confirm when they can proceed with the booking and secure a room from the available options.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Multiple WhatsApp messages on 2025-08-27, 2025-08-29, 2025-09-15 requesting update on booking progress"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to inform student that all currently available options start from around £310/week, which is above student's budget of £150-200/week.",
+            "due": "completed",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Email response from agent on 2025-08-31"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to check availability of any remaining allocations or properties for student and update accordingly.",
+            "due": "within_24h",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-09-11 'Allow me a moment let me check!' after student asked about allocations"
+          }
+        ],
+        "last_agent_response": "Agent provided multiple property suggestions with links and details on 2025-09-11, clarified pricing details, and requested updates on booking progress on 2025-09-15 and 2025-09-17.",
+        "suggested_next_step": "Student to review the property options provided and confirm which property they wish to book or provide update on booking timeline."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Ejiro Ayara",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls, WhatsApp messages, Emails",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "UCL",
+              "room_type": "Two bedroom apartments, studios, en-suite rooms discussed",
+              "budget_range": "Initially requested 150-200 GBP/week; informed available options start around 310 GBP/week; current budget recorded as 219 GBP/week",
+              "move_in_date": "Mid-September 2025 (e.g., 11-13 Sep 2025 mentioned in property options)",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage; no confirmed booking yet",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Student is in process of applying for visa",
+              "flight_status": "Student mentioned making travel arrangements"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple interactions including at least 6 phone calls, numerous WhatsApp messages across several days, and email exchanges",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-17 via WhatsApp message from agent",
+              "response_time": "Student responses sometimes delayed due to visa and job resignation process; agent follows up persistently",
+              "key_moments": "Initial contact on 2025-08-27; student expressed intention to be in touch; budget mismatch clarified via email on 2025-08-31; multiple property suggestions provided on 2025-09-11; student checking options; agent reminders on 2025-08-29, 2025-09-15, and 2025-09-17 about booking urgency"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Chelsea Lightfoot Hall (initial interest), IQ Paris Gardens London, Fusion Brent Cross Town London, GoBritanya Your Tribe Southwark London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Interest in two bedroom apartments; clarification sought if weekly price is per person; student checking suggested properties",
+              "offers_made": "No special offers or discounts mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to confirm booking decision ASAP due to low availability and rising rents",
+              "pending_items": "Student to finalize booking and confirm move-in date",
+              "follow_up_required": "Agent to continue follow-up on booking status and assist with any queries",
+              "timeline": "Properties available for move-in from mid-September 2025; agent emphasized urgency on 2025-08-29, 2025-09-15, and 2025-09-17"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, apologetic for delays, responsive when able, cautious due to visa and job situation",
+              "urgency_level": "Medium to high urgency due to low property availability and rising rents",
+              "complexity": "Moderate complexity due to budget constraints and visa/travel arrangements delaying booking",
+              "special_considerations": "Student has not received UCL accommodation allocation; budget is below current available options; student is managing visa and job resignation simultaneously"
+            }
+          }
+        }
+      }
+    }
+  }
+}

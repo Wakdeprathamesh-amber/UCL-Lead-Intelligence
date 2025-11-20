@@ -1,0 +1,253 @@
+{
+  "id": "lead_661",
+  "mobile_number": "8613051779582",
+  "email": null,
+  "timeline": [
+    {
+      "id": 10716,
+      "lead_id": 661,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3223588, \"user_name\": \"Xiangyu Meng\", \"email\": \"mengxiang5025yu@outlook.com\", \"phone\": \"8613051779582\", \"university\": \"university-college-london-1811059954160\", \"lease_duration\": \"43 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 259, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 9453, \"inventory_id\": 1427987}",
+      "created_at": "2025-11-18 12:33:36"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 271,
+    "lead_id": 661,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Xiangyu Meng\", \"mobile\": [\"8613051779582\"], \"email\": [\"mengxiang5025yu@outlook.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 259, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Xiangyu Meng\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (mengxiang5025yu@outlook.com), Phone (+86 13051779582)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3259 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Not mentioned\", \"last_contact\": \"2025-09-13\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1427987\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm preferences and provide property details\", \"pending_items\": \"Student confirmation on move-in date and room type\", \"follow_up_required\": \"Yes, follow up on lease details and booking confirmation\", \"timeline\": \"Move-out date noted as 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Not applicable - single lead entry\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple - initial inquiry stage\", \"special_considerations\": \"Budget and lease duration clearly stated; no other special requirements noted\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Xiangyu Meng\", \"mobile\": [\"8613051779582\"], \"email\": [\"mengxiang5025yu@outlook.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 259, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Xiangyu Meng\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (mengxiang5025yu@outlook.com), Phone (+86 13051779582)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3259 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Not mentioned\", \"last_contact\": \"2025-09-13\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1427987\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm preferences and provide property details\", \"pending_items\": \"Student confirmation on move-in date and room type\", \"follow_up_required\": \"Yes, follow up on lease details and booking confirmation\", \"timeline\": \"Move-out date noted as 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Not applicable - single lead entry\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple - initial inquiry stage\", \"special_considerations\": \"Budget and lease duration clearly stated; no other special requirements noted\"}}}}}",
+    "created_at": "2025-11-18 12:33:44",
+    "updated_at": "2025-11-18T18:03:44.195763",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Xiangyu Meng",
+        "mobile": [
+          "8613051779582"
+        ],
+        "email": [
+          "mengxiang5025yu@outlook.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 43,
+        "room_type": null,
+        "budget": {
+          "max": 259,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "",
+      "suggested_next_step": ""
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Xiangyu Meng",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (mengxiang5025yu@outlook.com), Phone (+86 13051779582)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£259 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "43 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1",
+            "primary_channel": "Not mentioned",
+            "last_contact": "2025-09-13",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial lead information received"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1427987",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Contact student to confirm preferences and provide property details",
+            "pending_items": "Student confirmation on move-in date and room type",
+            "follow_up_required": "Yes, follow up on lease details and booking confirmation",
+            "timeline": "Move-out date noted as 2026-07-10"
+          },
+          "agent_notes": {
+            "student_tone": "Not applicable - single lead entry",
+            "urgency_level": "Unknown",
+            "complexity": "Simple - initial inquiry stage",
+            "special_considerations": "Budget and lease duration clearly stated; no other special requirements noted"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Xiangyu Meng",
+          "mobile": [
+            "8613051779582"
+          ],
+          "email": [
+            "mengxiang5025yu@outlook.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 43,
+          "room_type": null,
+          "budget": {
+            "max": 259,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "",
+        "suggested_next_step": ""
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Xiangyu Meng",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (mengxiang5025yu@outlook.com), Phone (+86 13051779582)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£259 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "43 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1",
+              "primary_channel": "Not mentioned",
+              "last_contact": "2025-09-13",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial lead information received"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1427987",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Contact student to confirm preferences and provide property details",
+              "pending_items": "Student confirmation on move-in date and room type",
+              "follow_up_required": "Yes, follow up on lease details and booking confirmation",
+              "timeline": "Move-out date noted as 2026-07-10"
+            },
+            "agent_notes": {
+              "student_tone": "Not applicable - single lead entry",
+              "urgency_level": "Unknown",
+              "complexity": "Simple - initial inquiry stage",
+              "special_considerations": "Budget and lease duration clearly stated; no other special requirements noted"
+            }
+          }
+        }
+      }
+    }
+  }
+}

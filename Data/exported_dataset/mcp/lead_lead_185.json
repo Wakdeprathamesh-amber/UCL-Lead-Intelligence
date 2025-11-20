@@ -1,0 +1,649 @@
+{
+  "id": "lead_185",
+  "mobile_number": "447884149390",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2730,
+      "lead_id": 185,
+      "event_type": "call",
+      "timestamp": "2025-09-12T09:09:22.964593",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7862309",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-12T09:09:22.964593\", \"id\": 7862309, \"duration\": \"0\", \"to_number\": \"447884149390\", \"from_number\": \"447378157217\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2731,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T09:10:38",
+      "content": "Hey Minseung, \n\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \n\nHappy to assist you with the process ahead. Thankyou : )",
+      "source": "whatsapp",
+      "event_id": "8548747",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T09:10:38\", \"id\": 8548747, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3F39B38F3020E66D0CCF\", \"message_type\": \"text\", \"message_content\": \"Hey Minseung, \\n\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\n\\nHappy to assist you with the process ahead. Thankyou : )\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-12T09:10:38.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hey Minseung, \\\\n\\\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\\\n\\\\nHappy to assist you with the process ahead. Thankyou : )\\\", \\\"Datetime\\\": 1757668238000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3F39B38F3020E66D0CCF\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-12T09:10:38.407487\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2732,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T14:47:19",
+      "content": "Hello, I was wondering if I could  schedule a viewing of the Club Room in the Louise House?",
+      "source": "whatsapp",
+      "event_id": "8567446",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T14:47:19\", \"id\": 8567446, \"email\": \"\", \"from_number\": \"447884149390\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447884149390@c.us_3A30D50E9B69950356C0\", \"message_type\": \"text\", \"message_content\": \"Hello, I was wondering if I could  schedule a viewing of the Club Room in the Louise House?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447884149390@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-12T14:47:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello, I was wondering if I could  schedule a viewing of the Club Room in the Louise House?\\\", \\\"Datetime\\\": 1757688439000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"447884149390@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447884149390@c.us_3A30D50E9B69950356C0\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447884149390\\\", \\\"sentByUserId\\\": \\\"447884149390@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-12T14:47:19.530919\", \"direction\": \"inbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2733,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T15:54:14",
+      "content": "Can you please mention the date and time I'll mail the property for that",
+      "source": "whatsapp",
+      "event_id": "8571062",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T15:54:14\", \"id\": 8571062, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3FA843CBBE372B5253E2\", \"message_type\": \"text\", \"message_content\": \"Can you please mention the date and time I'll mail the property for that\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-12T15:54:14.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Can you please mention the date and time I'll mail the property for that\\\", \\\"Datetime\\\": 1757692454000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3FA843CBBE372B5253E2\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-12T15:54:14.802118\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2734,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T15:55:03",
+      "content": "17th in the AM would be great",
+      "source": "whatsapp",
+      "event_id": "8571096",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T15:55:03\", \"id\": 8571096, \"email\": \"\", \"from_number\": \"447884149390\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447884149390@c.us_3A304E3FA356B8BC71AA\", \"message_type\": \"text\", \"message_content\": \"17th in the AM would be great\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447884149390@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-12T15:55:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"17th in the AM would be great\\\", \\\"Datetime\\\": 1757692503000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"447884149390@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447884149390@c.us_3A304E3FA356B8BC71AA\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447884149390\\\", \\\"sentByUserId\\\": \\\"447884149390@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-12T15:55:03.610326\", \"direction\": \"inbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2735,
+      "lead_id": 185,
+      "event_type": "call",
+      "timestamp": "2025-09-13T11:37:52.903227",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7869725",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-13T11:37:52.903227\", \"id\": 7869725, \"duration\": \"0\", \"to_number\": \"447884149390\", \"from_number\": \"447378157217\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2736,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-13T11:40:56",
+      "content": "I have mailed the property waiting for the revert will let you know till Monday for the viewing request",
+      "source": "whatsapp",
+      "event_id": "8595737",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-13T11:40:56\", \"id\": 8595737, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3F36013C9537CDFB7688\", \"message_type\": \"text\", \"message_content\": \"I have mailed the property waiting for the revert will let you know till Monday for the viewing request\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-13T11:40:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"I have mailed the property waiting for the revert will let you know till Monday for the viewing request\\\", \\\"Datetime\\\": 1757763656000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3F36013C9537CDFB7688\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-13T11:40:56.962637\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2737,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-13T11:42:12",
+      "content": "Okay thank you",
+      "source": "whatsapp",
+      "event_id": "8595798",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-13T11:42:12\", \"id\": 8595798, \"email\": \"\", \"from_number\": \"447884149390\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447884149390@c.us_3A1EFC29C8C0AE135FF5\", \"message_type\": \"text\", \"message_content\": \"Okay thank you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447884149390@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-13T11:42:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Okay thank you\\\", \\\"Datetime\\\": 1757763732000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"447884149390@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447884149390@c.us_3A1EFC29C8C0AE135FF5\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447884149390\\\", \\\"sentByUserId\\\": \\\"447884149390@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-13T11:42:12.176748\", \"direction\": \"inbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2738,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-13T11:42:30",
+      "content": "your welcome",
+      "source": "whatsapp",
+      "event_id": "8595819",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-13T11:42:30\", \"id\": 8595819, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3F609A00610465C2F00A\", \"message_type\": \"text\", \"message_content\": \"your welcome\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-13T11:42:30.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"your welcome\\\", \\\"Datetime\\\": 1757763750000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3F609A00610465C2F00A\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-13T11:42:31.335904\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2739,
+      "lead_id": 185,
+      "event_type": "email",
+      "timestamp": "2025-09-14T15:30:59",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-14T15:30:59\", \"sender_email\": \"stellamin0601@gmail.com\", \"recipient_email\": \"prachi.ko@amberstudent.com\", \"subject\": \"Re: Hi Minseung, Let\\u2019s Complete Your UCL Student Accommodation Booking in London.\", \"message\": \"I will be in touch after a viewing. I\\u2019ve already booked one.\\\\n\\\\n2025\\ub144 9\\uc6d4 14\\uc77c (\\uc77c) 18:30, <[prachi.ko@amberstudent.com]()>\\ub2d8\\uc774 \\uc791\\uc131:\\\\n\\\\nHi Minseung,\\\\n\\\\nWe hope this email finds you well. We recently contacted you regarding your Student Accommodation Booking. However, we have not yet received a response from you. This is a friendly reminder to take action and Secure your Preferred Accommodation before it's too late.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nBookings Executive\\\\n\\\\nPhone: [+447830319649]() | Whatsapp Me\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\", \"snippet\": \"I will be in touch after a viewing. I&#39;ve already booked one. 2025\\ub144 9\\uc6d4 14\\uc77c (\\uc77c) 18:30, &lt;prachi.ko@amberstudent.com&gt;\\ub2d8\\uc774 \\uc791\\uc131: Hi Minseung, We hope this email finds you well. We recently contacted\", \"direction\": \"inbound\", \"sender_type\": \"student\", \"agent_email\": \"prachi.ko@amberstudent.com\", \"student_email\": \"stellamin0601@gmail.com\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2740,
+      "lead_id": 185,
+      "event_type": "call",
+      "timestamp": "2025-09-15T12:57:32.748836",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7877253",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-15T12:57:32.748836\", \"id\": 7877253, \"duration\": \"0\", \"to_number\": \"447884149390\", \"from_number\": \"447378157217\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2741,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-15T12:58:10",
+      "content": "Hello Minsueng\nGood afternoon\nWe are still waiting for the update on your viewing request will let you know when I receive an update",
+      "source": "whatsapp",
+      "event_id": "8650266",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-15T12:58:10\", \"id\": 8650266, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3FD49094DD2F769E7E57\", \"message_type\": \"text\", \"message_content\": \"Hello Minsueng\\nGood afternoon\\nWe are still waiting for the update on your viewing request will let you know when I receive an update\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-15T12:58:10.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello Minsueng\\\\nGood afternoon\\\\nWe are still waiting for the update on your viewing request will let you know when I receive an update\\\", \\\"Datetime\\\": 1757941090000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3FD49094DD2F769E7E57\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-15T12:58:10.913680\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2742,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-15T13:08:56",
+      "content": "Yes thank you",
+      "source": "whatsapp",
+      "event_id": "8650930",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-15T13:08:56\", \"id\": 8650930, \"email\": \"\", \"from_number\": \"447884149390\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447884149390@c.us_3AA21430368305042A0C\", \"message_type\": \"text\", \"message_content\": \"Yes thank you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447884149390@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-15T13:08:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Yes thank you\\\", \\\"Datetime\\\": 1757941736000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"447884149390@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447884149390@c.us_3AA21430368305042A0C\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447884149390\\\", \\\"sentByUserId\\\": \\\"447884149390@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-15T13:08:56.547292\", \"direction\": \"inbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2743,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-16T05:46:03",
+      "content": "property confirmed your viewing",
+      "source": "whatsapp",
+      "event_id": "8673472",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-16T05:46:03\", \"id\": 8673472, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3FAEFE459FA37C6945DA\", \"message_type\": \"text\", \"message_content\": \"property confirmed your viewing\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-16T05:46:03.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447883304744/3FAEFE459FA37C6945DA.jpeg\\\", \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"property confirmed your viewing\\\", \\\"Datetime\\\": 1758001563000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3FAEFE459FA37C6945DA\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-16T05:46:04.804064\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2744,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T10:06:19",
+      "content": "I am at the property now and there is no one there.",
+      "source": "whatsapp",
+      "event_id": "8722330",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T10:06:19\", \"id\": 8722330, \"email\": \"\", \"from_number\": \"447884149390\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447884149390@c.us_3A52E0216FF0B4DC0F82\", \"message_type\": \"text\", \"message_content\": \"I am at the property now and there is no one there.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447884149390@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-17T10:06:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"I am at the property now and there is no one there.\\\", \\\"Datetime\\\": 1758103579000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"447884149390@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447884149390@c.us_3A52E0216FF0B4DC0F82\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447884149390\\\", \\\"sentByUserId\\\": \\\"447884149390@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-17T10:06:19.355947\", \"direction\": \"inbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2745,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T10:06:26",
+      "content": "I’ve tried calling but no one picks up.",
+      "source": "whatsapp",
+      "event_id": "8722337",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T10:06:26\", \"id\": 8722337, \"email\": \"\", \"from_number\": \"447884149390\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447884149390@c.us_3A8692535E2CCF4B7AF7\", \"message_type\": \"text\", \"message_content\": \"I\\u2019ve tried calling but no one picks up.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447884149390@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-17T10:06:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"I\\u2019ve tried calling but no one picks up.\\\", \\\"Datetime\\\": 1758103586000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"447884149390@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447884149390@c.us_3A8692535E2CCF4B7AF7\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447884149390\\\", \\\"sentByUserId\\\": \\\"447884149390@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-17T10:06:26.578920\", \"direction\": \"inbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2746,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T10:11:37",
+      "content": "you can ask some one on reception",
+      "source": "whatsapp",
+      "event_id": "8722630",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T10:11:37\", \"id\": 8722630, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3F28CAA9543B7E599113\", \"message_type\": \"text\", \"message_content\": \"you can ask some one on reception\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T10:11:37.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"you can ask some one on reception\\\", \\\"Datetime\\\": 1758103897000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3F28CAA9543B7E599113\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-17T10:11:38.037535\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2747,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T10:13:08",
+      "content": "there is nobody at reception",
+      "source": "whatsapp",
+      "event_id": "8722700",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T10:13:08\", \"id\": 8722700, \"email\": \"\", \"from_number\": \"447884149390\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447884149390@c.us_3A2031655B597979F2FD\", \"message_type\": \"text\", \"message_content\": \"there is nobody at reception\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447884149390@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-17T10:13:08.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"there is nobody at reception\\\", \\\"Datetime\\\": 1758103988000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"447884149390@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447884149390@c.us_3A2031655B597979F2FD\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447884149390\\\", \\\"sentByUserId\\\": \\\"447884149390@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-17T10:13:08.509427\", \"direction\": \"inbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2748,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T11:33:01",
+      "content": "Hello",
+      "source": "whatsapp",
+      "event_id": "8726752",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T11:33:01\", \"id\": 8726752, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3F56EDEB39029A483DDB\", \"message_type\": \"text\", \"message_content\": \"Hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T11:33:01.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello\\\", \\\"Datetime\\\": 1758108781000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3F56EDEB39029A483DDB\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-17T11:33:01.602070\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2749,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T11:33:07",
+      "content": "Did you get someone over their?",
+      "source": "whatsapp",
+      "event_id": "8726756",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T11:33:07\", \"id\": 8726756, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3F78F3310ADA427DF98B\", \"message_type\": \"text\", \"message_content\": \"Did you get someone over their?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T11:33:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Did you get someone over their?\\\", \\\"Datetime\\\": 1758108787000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3F78F3310ADA427DF98B\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-17T11:33:08.043067\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2750,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T11:33:11",
+      "content": "Is the matter sorted",
+      "source": "whatsapp",
+      "event_id": "8726761",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T11:33:11\", \"id\": 8726761, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3FF0710D24F8535D405C\", \"message_type\": \"text\", \"message_content\": \"Is the matter sorted\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T11:33:11.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Is the matter sorted\\\", \\\"Datetime\\\": 1758108791000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3FF0710D24F8535D405C\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-17T11:33:12.110078\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2751,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T11:33:40",
+      "content": "yes a resident showed me around but the person on duty said they received no email about me coming",
+      "source": "whatsapp",
+      "event_id": "8726788",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T11:33:40\", \"id\": 8726788, \"email\": \"\", \"from_number\": \"447884149390\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447884149390@c.us_3A9335F1D90B8F0F20BA\", \"message_type\": \"text\", \"message_content\": \"yes a resident showed me around but the person on duty said they received no email about me coming\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447884149390@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-17T11:33:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"yes a resident showed me around but the person on duty said they received no email about me coming\\\", \\\"Datetime\\\": 1758108820000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"447884149390@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447884149390@c.us_3A9335F1D90B8F0F20BA\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447884149390\\\", \\\"sentByUserId\\\": \\\"447884149390@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-17T11:33:41.018714\", \"direction\": \"inbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2752,
+      "lead_id": 185,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T11:48:07",
+      "content": "no I have shared the email screenshot with you",
+      "source": "whatsapp",
+      "event_id": "8727652",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T11:48:07\", \"id\": 8727652, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447884149390\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447884149390@c.us_3FFD011167222A9816A5\", \"message_type\": \"text\", \"message_content\": \"no I have shared the email screenshot with you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T11:48:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"no I have shared the email screenshot with you\\\", \\\"Datetime\\\": 1758109687000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447884149390@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447884149390@c.us_3FFD011167222A9816A5\\\", \\\"ChannelName\\\": \\\"447884149390\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-17T11:48:07.604667\", \"direction\": \"outbound\", \"sbase_user_id\": 2481126, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447884149390\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2753,
+      "lead_id": 185,
+      "event_type": "call",
+      "timestamp": "2025-09-17T13:06:07.277216",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7889649",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-17T13:06:07.277216\", \"id\": 7889649, \"duration\": \"143\", \"to_number\": \"447884149390\", \"from_number\": \"447378157217\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/bcb46336-6f99-4aa8-894a-5f78ea57680a.wav\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2754,
+      "lead_id": 185,
+      "event_type": "call",
+      "timestamp": "2025-09-18T12:10:54.027393",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7895140",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T12:10:54.027393\", \"id\": 7895140, \"duration\": \"77\", \"to_number\": \"447884149390\", \"from_number\": \"447378157217\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/bb9ce50f-421b-477c-8ac8-494941469dea.wav\"}",
+      "created_at": "2025-11-18 10:24:21"
+    },
+    {
+      "id": 2755,
+      "lead_id": 185,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3225613, \"user_name\": \"Minseung Kang\", \"email\": \"stellamin0601@gmail.com\", \"phone\": \"447884149390\", \"lease_duration\": \"\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 976, \"inventory_id\": 147510}",
+      "created_at": "2025-11-18 10:24:21"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 96,
+      "lead_id": 185,
+      "call_id": "7889649",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/bcb46336-6f99-4aa8-894a-5f78ea57680a.wav",
+      "transcript_text": "Speaker A: Hello? Yeah, hi, I'm. Good afternoon. I am Prachi from Amber Students.\nSpeaker B: Yeah, hello.\nSpeaker C: Yeah, I am really sorry. I have. I really don't have any idea why.\nSpeaker D: The property reception person said that there is no email that they have received. That's why I shared a screenshot with you. You could have, like, shown them that, but not a problem. So your viewing was okay, right? You had a proper view for the property?\nSpeaker E: I mean.\nSpeaker B: Yeah, I. I saw the screenshot, so I. I went there and no, there.\nSpeaker F: Was no other reception.\nSpeaker B: So one of the.\nSpeaker F: One of the people living there let me and they showed me around.\nSpeaker B: So I. I did see the property and I. And if I'm gonna contract, I.\nSpeaker G: They said I'll. I have to call the people there, so I'll do that.\nSpeaker D: Sorry.\nSpeaker C: Like, you have done the viewing, right?\nSpeaker B: Yeah, I've done the viewing, but I'm still looking at different accommodations.\nSpeaker G: So I'm not sure if I'm gonna book there or not.\nSpeaker A: Not a problem.\nSpeaker C: So when do you think that you.\nSpeaker D: Will be able to decide?\nSpeaker A: Like, do you want to have a.\nSpeaker D: Call day after tomorrow? Like, you can take one or two days of a time period and we can connect day after tomorrow for an update. Sorry, I'm saying you can take some time to look for the other options too. So do you want to have a call for an update day after tomorrow?\nSpeaker B: Yeah, I'll probably book wherever it is tomorrow. But they said I'll probably book with.\nSpeaker G: The person that was at. Like, there was a person that worked there and she said to call her if I want to book. So I'll probably end up calling her.\nSpeaker C: Like, calling her to book the accommodation.\nSpeaker B: Yes, because she. She worked there. She.\nSpeaker F: She was the one that was.\nSpeaker B: That was supposed to be at the reception.\nSpeaker A: I totally understand your point, but as.\nSpeaker D: We like, like help you, like, have a viewing in the accommodation, so you can start the process with us if you want to book any room in that accommodation.\nSpeaker E: I'll. I'll.\nSpeaker B: I'll have a thought. I'll have a thought and I'll let you know.\nSpeaker E: Sure.\nSpeaker A: I'll just have a call with you tomorrow.\nSpeaker D: You can let me know. Okay.\nSpeaker B: Okay. Okay.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:24:30"
+    },
+    {
+      "id": 100,
+      "lead_id": 185,
+      "call_id": "7895140",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/bb9ce50f-421b-477c-8ac8-494941469dea.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Yeah, hi, Min Singh. Good afternoon.\nSpeaker B: Good afternoon.\nSpeaker A: Yeah, I'm Prachi from Amber, Student for accommodation assistance.\nSpeaker B: Yes. Sorry, who is this?\nSpeaker A: I'm the one who arranged your viewing for the accommodation.\nSpeaker B: Oh, for which accommodation?\nSpeaker A: For Lewis House.\nSpeaker B: Oh, Louise Hall. Yeah, so I. I'm signing a contract today for a different house, so.\nSpeaker A: Yeah. Okay. So is it a private accommodation that you are booking or a student accommodation?\nSpeaker B: Yeah, I'm. I'm signing with Canvas Walton.\nSpeaker A: Stow, so.\nSpeaker B: And I'm. I'm already. That's already arranged.\nSpeaker A: So you're booking directly with the accommodation?\nSpeaker B: Yeah, yeah.\nSpeaker A: Okay, not a problem. Thank you for the information. If, in case you required any assistance. So you can let us know if you want. You want to book that accommodation with us so I can also help you out.\nSpeaker B: Yeah, thank you, but I'm booking. I'll be booking with London next, so thank you, but.\nSpeaker A: Yeah, not a problem. Thank you, thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:24:37"
+    }
+  ],
+  "summary": {
+    "id": 77,
+    "lead_id": 185,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Minseung Kang\", \"mobile\": [\"+447884149390\"], \"email\": [\"stellamin0601@gmail.com\"], \"whatsapp\": [\"+447884149390\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Louise House\", \"Canvas Walton\"], \"rooms_considered\": [\"Club Room\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Agent to confirm viewing request for Club Room in Louise House on 17th in the AM by mailing the property.\", \"due\": \"2025-09-15\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent messaged on 2025-09-13 that property was mailed and waiting for revert.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with the property team and inform student about the viewing request status by Monday (2025-09-15).\", \"due\": \"2025-09-15\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent message on 2025-09-13 about waiting for revert and update by Monday.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to check with property team regarding the email confirmation issue reported by student on 2025-09-17 and clarify with property team.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student reported on 2025-09-17 that property reception had no email about viewing; agent shared email screenshot.\"}, {\"type\": \"communication\", \"description\": \"Agent to communicate with student to confirm if the viewing issue is resolved and if further assistance is needed.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent asked student on 2025-09-17 if matter is sorted after student reported no one at reception.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to schedule a follow-up call with student two days after 2025-09-17 to get update on accommodation decision.\", \"due\": \"2025-09-19\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call transcript on 2025-09-17 where agent proposed call day after tomorrow for update.\"}], \"last_agent_response\": \"Agent shared email screenshot with student on 2025-09-17 to confirm viewing booking with property and asked if the matter is sorted.\", \"suggested_next_step\": \"Agent to urgently follow up with property team to resolve the email confirmation issue and confirm viewing details with student.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Minseung Kang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via WhatsApp, email, and phone calls using UK mobile number +447884149390 and email stellamin0601@gmail.com\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"UCL (implied from email subject)\", \"room_type\": \"Club Room in Louise House\", \"budget_range\": \"Not mentioned\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Viewing requested and completed; student is still considering options and has booked a viewing independently\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp message packs, 5 phone calls, and 1 email exchanged between 2025-09-12 and 2025-09-18\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-18 via phone call\", \"response_time\": \"Generally same day responses on WhatsApp; some waiting for property replies on viewing requests\", \"key_moments\": \"Initial contact and introduction by agent Prachi; student requested viewing for Club Room in Louise House; viewing confirmed by property; student attended viewing but reported no staff present; agent shared email screenshot with property; phone call confirmed student completed viewing and is still exploring options; student informed agent they booked a different accommodation directly (Canvas Walton); agent offered further assistance\"}, \"properties_discussed\": {\"properties_mentioned\": \"Louise House (Club Room), Canvas Walton (booked independently by student)\", \"viewings_scheduled\": \"Viewing requested for 17th AM at Louise House; viewing completed\", \"preferences_expressed\": \"Interest in Club Room at Louise House; no explicit likes/dislikes mentioned\", \"offers_made\": \"No offers or deals discussed\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up with student after their decision; no immediate booking action required\", \"pending_items\": \"Awaiting student's final accommodation decision\", \"follow_up_required\": \"Follow-up call suggested day after tomorrow from 2025-09-17 call to check student's booking decision\", \"timeline\": \"Viewing was on 17th September; follow-up call proposed around 19th September\"}, \"agent_notes\": {\"student_tone\": \"Polite, cooperative, and clear in communication; responsive but cautious in decision-making\", \"urgency_level\": \"Moderate; student is actively viewing but taking time to decide\", \"complexity\": \"Moderate; student booked viewing independently and is considering multiple options\", \"special_considerations\": \"Student reported lack of reception staff during viewing; agent provided support by sharing email confirmation; student prefers direct contact with property for booking\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Minseung Kang\", \"mobile\": [\"+447884149390\"], \"email\": [\"stellamin0601@gmail.com\"], \"whatsapp\": [\"+447884149390\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Louise House\", \"Canvas Walton\"], \"rooms_considered\": [\"Club Room\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Agent to confirm viewing request for Club Room in Louise House on 17th in the AM by mailing the property.\", \"due\": \"2025-09-15\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent messaged on 2025-09-13 that property was mailed and waiting for revert.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with the property team and inform student about the viewing request status by Monday (2025-09-15).\", \"due\": \"2025-09-15\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent message on 2025-09-13 about waiting for revert and update by Monday.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to check with property team regarding the email confirmation issue reported by student on 2025-09-17 and clarify with property team.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student reported on 2025-09-17 that property reception had no email about viewing; agent shared email screenshot.\"}, {\"type\": \"communication\", \"description\": \"Agent to communicate with student to confirm if the viewing issue is resolved and if further assistance is needed.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent asked student on 2025-09-17 if matter is sorted after student reported no one at reception.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to schedule a follow-up call with student two days after 2025-09-17 to get update on accommodation decision.\", \"due\": \"2025-09-19\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call transcript on 2025-09-17 where agent proposed call day after tomorrow for update.\"}], \"last_agent_response\": \"Agent shared email screenshot with student on 2025-09-17 to confirm viewing booking with property and asked if the matter is sorted.\", \"suggested_next_step\": \"Agent to urgently follow up with property team to resolve the email confirmation issue and confirm viewing details with student.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Minseung Kang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via WhatsApp, email, and phone calls using UK mobile number +447884149390 and email stellamin0601@gmail.com\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"UCL (implied from email subject)\", \"room_type\": \"Club Room in Louise House\", \"budget_range\": \"Not mentioned\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Viewing requested and completed; student is still considering options and has booked a viewing independently\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp message packs, 5 phone calls, and 1 email exchanged between 2025-09-12 and 2025-09-18\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-18 via phone call\", \"response_time\": \"Generally same day responses on WhatsApp; some waiting for property replies on viewing requests\", \"key_moments\": \"Initial contact and introduction by agent Prachi; student requested viewing for Club Room in Louise House; viewing confirmed by property; student attended viewing but reported no staff present; agent shared email screenshot with property; phone call confirmed student completed viewing and is still exploring options; student informed agent they booked a different accommodation directly (Canvas Walton); agent offered further assistance\"}, \"properties_discussed\": {\"properties_mentioned\": \"Louise House (Club Room), Canvas Walton (booked independently by student)\", \"viewings_scheduled\": \"Viewing requested for 17th AM at Louise House; viewing completed\", \"preferences_expressed\": \"Interest in Club Room at Louise House; no explicit likes/dislikes mentioned\", \"offers_made\": \"No offers or deals discussed\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up with student after their decision; no immediate booking action required\", \"pending_items\": \"Awaiting student's final accommodation decision\", \"follow_up_required\": \"Follow-up call suggested day after tomorrow from 2025-09-17 call to check student's booking decision\", \"timeline\": \"Viewing was on 17th September; follow-up call proposed around 19th September\"}, \"agent_notes\": {\"student_tone\": \"Polite, cooperative, and clear in communication; responsive but cautious in decision-making\", \"urgency_level\": \"Moderate; student is actively viewing but taking time to decide\", \"complexity\": \"Moderate; student booked viewing independently and is considering multiple options\", \"special_considerations\": \"Student reported lack of reception staff during viewing; agent provided support by sharing email confirmation; student prefers direct contact with property for booking\"}}}}}",
+    "created_at": "2025-11-18 10:24:51",
+    "updated_at": "2025-11-18T15:54:51.744740",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Minseung Kang",
+        "mobile": [
+          "+447884149390"
+        ],
+        "email": [
+          "stellamin0601@gmail.com"
+        ],
+        "whatsapp": [
+          "+447884149390"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "UCL",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Louise House",
+          "Canvas Walton"
+        ],
+        "rooms_considered": [
+          "Club Room"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Agent to confirm viewing request for Club Room in Louise House on 17th in the AM by mailing the property.",
+          "due": "2025-09-15",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent messaged on 2025-09-13 that property was mailed and waiting for revert."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with the property team and inform student about the viewing request status by Monday (2025-09-15).",
+          "due": "2025-09-15",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent message on 2025-09-13 about waiting for revert and update by Monday."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to check with property team regarding the email confirmation issue reported by student on 2025-09-17 and clarify with property team.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student reported on 2025-09-17 that property reception had no email about viewing; agent shared email screenshot."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to communicate with student to confirm if the viewing issue is resolved and if further assistance is needed.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent asked student on 2025-09-17 if matter is sorted after student reported no one at reception."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to schedule a follow-up call with student two days after 2025-09-17 to get update on accommodation decision.",
+          "due": "2025-09-19",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call transcript on 2025-09-17 where agent proposed call day after tomorrow for update."
+        }
+      ],
+      "last_agent_response": "Agent shared email screenshot with student on 2025-09-17 to confirm viewing booking with property and asked if the matter is sorted.",
+      "suggested_next_step": "Agent to urgently follow up with property team to resolve the email confirmation issue and confirm viewing details with student."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Minseung Kang",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Contacted via WhatsApp, email, and phone calls using UK mobile number +447884149390 and email stellamin0601@gmail.com",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "UCL (implied from email subject)",
+            "room_type": "Club Room in Louise House",
+            "budget_range": "Not mentioned",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Viewing requested and completed; student is still considering options and has booked a viewing independently",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple WhatsApp message packs, 5 phone calls, and 1 email exchanged between 2025-09-12 and 2025-09-18",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-18 via phone call",
+            "response_time": "Generally same day responses on WhatsApp; some waiting for property replies on viewing requests",
+            "key_moments": "Initial contact and introduction by agent Prachi; student requested viewing for Club Room in Louise House; viewing confirmed by property; student attended viewing but reported no staff present; agent shared email screenshot with property; phone call confirmed student completed viewing and is still exploring options; student informed agent they booked a different accommodation directly (Canvas Walton); agent offered further assistance"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Louise House (Club Room), Canvas Walton (booked independently by student)",
+            "viewings_scheduled": "Viewing requested for 17th AM at Louise House; viewing completed",
+            "preferences_expressed": "Interest in Club Room at Louise House; no explicit likes/dislikes mentioned",
+            "offers_made": "No offers or deals discussed"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to follow up with student after their decision; no immediate booking action required",
+            "pending_items": "Awaiting student's final accommodation decision",
+            "follow_up_required": "Follow-up call suggested day after tomorrow from 2025-09-17 call to check student's booking decision",
+            "timeline": "Viewing was on 17th September; follow-up call proposed around 19th September"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, cooperative, and clear in communication; responsive but cautious in decision-making",
+            "urgency_level": "Moderate; student is actively viewing but taking time to decide",
+            "complexity": "Moderate; student booked viewing independently and is considering multiple options",
+            "special_considerations": "Student reported lack of reception staff during viewing; agent provided support by sharing email confirmation; student prefers direct contact with property for booking"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Minseung Kang",
+          "mobile": [
+            "+447884149390"
+          ],
+          "email": [
+            "stellamin0601@gmail.com"
+          ],
+          "whatsapp": [
+            "+447884149390"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "UCL",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Louise House",
+            "Canvas Walton"
+          ],
+          "rooms_considered": [
+            "Club Room"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Agent to confirm viewing request for Club Room in Louise House on 17th in the AM by mailing the property.",
+            "due": "2025-09-15",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent messaged on 2025-09-13 that property was mailed and waiting for revert."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with the property team and inform student about the viewing request status by Monday (2025-09-15).",
+            "due": "2025-09-15",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent message on 2025-09-13 about waiting for revert and update by Monday."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to check with property team regarding the email confirmation issue reported by student on 2025-09-17 and clarify with property team.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student reported on 2025-09-17 that property reception had no email about viewing; agent shared email screenshot."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to communicate with student to confirm if the viewing issue is resolved and if further assistance is needed.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent asked student on 2025-09-17 if matter is sorted after student reported no one at reception."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to schedule a follow-up call with student two days after 2025-09-17 to get update on accommodation decision.",
+            "due": "2025-09-19",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call transcript on 2025-09-17 where agent proposed call day after tomorrow for update."
+          }
+        ],
+        "last_agent_response": "Agent shared email screenshot with student on 2025-09-17 to confirm viewing booking with property and asked if the matter is sorted.",
+        "suggested_next_step": "Agent to urgently follow up with property team to resolve the email confirmation issue and confirm viewing details with student."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Minseung Kang",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Contacted via WhatsApp, email, and phone calls using UK mobile number +447884149390 and email stellamin0601@gmail.com",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "UCL (implied from email subject)",
+              "room_type": "Club Room in Louise House",
+              "budget_range": "Not mentioned",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Viewing requested and completed; student is still considering options and has booked a viewing independently",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple WhatsApp message packs, 5 phone calls, and 1 email exchanged between 2025-09-12 and 2025-09-18",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-18 via phone call",
+              "response_time": "Generally same day responses on WhatsApp; some waiting for property replies on viewing requests",
+              "key_moments": "Initial contact and introduction by agent Prachi; student requested viewing for Club Room in Louise House; viewing confirmed by property; student attended viewing but reported no staff present; agent shared email screenshot with property; phone call confirmed student completed viewing and is still exploring options; student informed agent they booked a different accommodation directly (Canvas Walton); agent offered further assistance"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Louise House (Club Room), Canvas Walton (booked independently by student)",
+              "viewings_scheduled": "Viewing requested for 17th AM at Louise House; viewing completed",
+              "preferences_expressed": "Interest in Club Room at Louise House; no explicit likes/dislikes mentioned",
+              "offers_made": "No offers or deals discussed"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to follow up with student after their decision; no immediate booking action required",
+              "pending_items": "Awaiting student's final accommodation decision",
+              "follow_up_required": "Follow-up call suggested day after tomorrow from 2025-09-17 call to check student's booking decision",
+              "timeline": "Viewing was on 17th September; follow-up call proposed around 19th September"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, cooperative, and clear in communication; responsive but cautious in decision-making",
+              "urgency_level": "Moderate; student is actively viewing but taking time to decide",
+              "complexity": "Moderate; student booked viewing independently and is considering multiple options",
+              "special_considerations": "Student reported lack of reception staff during viewing; agent provided support by sharing email confirmation; student prefers direct contact with property for booking"
+            }
+          }
+        }
+      }
+    }
+  }
+}

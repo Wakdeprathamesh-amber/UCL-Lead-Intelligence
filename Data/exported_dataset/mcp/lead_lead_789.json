@@ -1,0 +1,286 @@
+{
+  "id": "lead_789",
+  "mobile_number": "818093816746",
+  "email": null,
+  "timeline": [
+    {
+      "id": 12639,
+      "lead_id": 789,
+      "event_type": "call",
+      "timestamp": "2025-08-21T14:04:31.710034",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7731665",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T14:04:31.710034\", \"id\": 7731665, \"duration\": \"0\", \"to_number\": \"818093816746\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12640,
+      "lead_id": 789,
+      "event_type": "call",
+      "timestamp": "2025-08-23T12:41:47.170666",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7745972",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-23T12:41:47.170666\", \"id\": 7745972, \"duration\": \"0\", \"to_number\": \"818093816746\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12641,
+      "lead_id": 789,
+      "event_type": "call",
+      "timestamp": "2025-08-26T15:52:35.396429",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7764067",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T15:52:35.396429\", \"id\": 7764067, \"duration\": \"0\", \"to_number\": \"818093816746\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:00:00"
+    },
+    {
+      "id": 12642,
+      "lead_id": 789,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3166076, \"user_name\": \"Naoki Hashimoto\", \"email\": \"naokih25@gmail.com\", \"phone\": \"818093816746\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 219, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1185402}",
+      "created_at": "2025-11-18 13:00:00"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 327,
+    "lead_id": 789,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Naoki Hashimoto\", \"mobile\": [\"+818093816746\"], \"email\": [\"naokih25@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 219, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"No agent responses or actions recorded in the timeline.\", \"suggested_next_step\": \"Agent to follow up with student Naoki Hashimoto to confirm interest and discuss next steps for booking.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Naoki Hashimoto\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls from +447456741634 to +818093816746; email naokih25@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3219 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry stage; no confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 phone call attempts with zero duration, 1 lead info submission\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-26\", \"response_time\": \"No successful calls connected; response pattern unknown\", \"key_moments\": \"Lead information received on 2025-09-13 with detailed preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1185402 referenced in lead info\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish successful contact with student to confirm preferences and progress booking\", \"pending_items\": \"Student response to calls; confirmation of room type and move-in date\", \"follow_up_required\": \"Agent to follow up via phone or email to engage student\", \"timeline\": \"Lease ends 2026-09-04; lease duration 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"Not assessable due to no call duration\", \"urgency_level\": \"Unknown; no explicit urgency stated\", \"complexity\": \"Simple initial inquiry with basic lead info\", \"special_considerations\": \"Multiple unsuccessful call attempts; consider alternative contact methods\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Naoki Hashimoto\", \"mobile\": [\"+818093816746\"], \"email\": [\"naokih25@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 219, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"No agent responses or actions recorded in the timeline.\", \"suggested_next_step\": \"Agent to follow up with student Naoki Hashimoto to confirm interest and discuss next steps for booking.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Naoki Hashimoto\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls from +447456741634 to +818093816746; email naokih25@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3219 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry stage; no confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 phone call attempts with zero duration, 1 lead info submission\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-26\", \"response_time\": \"No successful calls connected; response pattern unknown\", \"key_moments\": \"Lead information received on 2025-09-13 with detailed preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1185402 referenced in lead info\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish successful contact with student to confirm preferences and progress booking\", \"pending_items\": \"Student response to calls; confirmation of room type and move-in date\", \"follow_up_required\": \"Agent to follow up via phone or email to engage student\", \"timeline\": \"Lease ends 2026-09-04; lease duration 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"Not assessable due to no call duration\", \"urgency_level\": \"Unknown; no explicit urgency stated\", \"complexity\": \"Simple initial inquiry with basic lead info\", \"special_considerations\": \"Multiple unsuccessful call attempts; consider alternative contact methods\"}}}}}",
+    "created_at": "2025-11-18 13:00:10",
+    "updated_at": "2025-11-18T18:30:10.619278",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Naoki Hashimoto",
+        "mobile": [
+          "+818093816746"
+        ],
+        "email": [
+          "naokih25@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 219,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "No agent responses or actions recorded in the timeline.",
+      "suggested_next_step": "Agent to follow up with student Naoki Hashimoto to confirm interest and discuss next steps for booking."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Naoki Hashimoto",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls from +447456741634 to +818093816746; email naokih25@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£219 per week",
+            "move_in_date": "Not explicitly mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry stage; no confirmed booking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 phone call attempts with zero duration, 1 lead info submission",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-26",
+            "response_time": "No successful calls connected; response pattern unknown",
+            "key_moments": "Lead information received on 2025-09-13 with detailed preferences"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1185402 referenced in lead info",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Establish successful contact with student to confirm preferences and progress booking",
+            "pending_items": "Student response to calls; confirmation of room type and move-in date",
+            "follow_up_required": "Agent to follow up via phone or email to engage student",
+            "timeline": "Lease ends 2026-09-04; lease duration 51 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "Not assessable due to no call duration",
+            "urgency_level": "Unknown; no explicit urgency stated",
+            "complexity": "Simple initial inquiry with basic lead info",
+            "special_considerations": "Multiple unsuccessful call attempts; consider alternative contact methods"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Naoki Hashimoto",
+          "mobile": [
+            "+818093816746"
+          ],
+          "email": [
+            "naokih25@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 219,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "No agent responses or actions recorded in the timeline.",
+        "suggested_next_step": "Agent to follow up with student Naoki Hashimoto to confirm interest and discuss next steps for booking."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Naoki Hashimoto",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls from +447456741634 to +818093816746; email naokih25@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£219 per week",
+              "move_in_date": "Not explicitly mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry stage; no confirmed booking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 phone call attempts with zero duration, 1 lead info submission",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-26",
+              "response_time": "No successful calls connected; response pattern unknown",
+              "key_moments": "Lead information received on 2025-09-13 with detailed preferences"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1185402 referenced in lead info",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Establish successful contact with student to confirm preferences and progress booking",
+              "pending_items": "Student response to calls; confirmation of room type and move-in date",
+              "follow_up_required": "Agent to follow up via phone or email to engage student",
+              "timeline": "Lease ends 2026-09-04; lease duration 51 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "Not assessable due to no call duration",
+              "urgency_level": "Unknown; no explicit urgency stated",
+              "complexity": "Simple initial inquiry with basic lead info",
+              "special_considerations": "Multiple unsuccessful call attempts; consider alternative contact methods"
+            }
+          }
+        }
+      }
+    }
+  }
+}

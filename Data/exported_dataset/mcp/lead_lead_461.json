@@ -1,0 +1,317 @@
+{
+  "id": "lead_461",
+  "mobile_number": "8618930259536",
+  "email": null,
+  "timeline": [
+    {
+      "id": 7895,
+      "lead_id": 461,
+      "event_type": "call",
+      "timestamp": "2025-08-21T05:25:59.596539",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7727792",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T05:25:59.596539\", \"id\": 7727792, \"duration\": \"94\", \"to_number\": \"8618930259536\", \"from_number\": \"447360546291\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e4c2011d-5f0a-4a5b-ac41-e186e48b3892.wav\"}",
+      "created_at": "2025-11-18 11:14:23"
+    },
+    {
+      "id": 7896,
+      "lead_id": 461,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-20T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-20T00:00:00\", \"lead_id\": 3164279, \"user_name\": \"Annabelle Ji\", \"email\": \"jinquerr@icloud.com\", \"phone\": \"8618930259536\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2026-07-24\", \"budget\": 430, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1943949}",
+      "created_at": "2025-11-18 11:14:23"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 350,
+      "lead_id": 461,
+      "call_id": "7727792",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e4c2011d-5f0a-4a5b-ac41-e186e48b3892.wav",
+      "transcript_text": "Speaker A: 喂 你好 喂 同学 你好 这边 是 amberstudent 然后 看 你 是 有 在 我们 网站 订 了 文工 的 学生公寓 是 吧 你 是 amberstudent 是 吧 对 amberstudent 你 是 UCL 的 网站 合作 的 对 不 对 对 我们 是 amberstudent 这边 然后 我 看 是 有 那个 university 合作 的 应该 是 这边 直接 过来 的 对 对 对 是 的 是 的 嗯 嗯 有 那个 微信 或者 其他 联系方式 吗 就是 需要 加上 你 确认 一下 信息 然后 我 帮 你 安排 申请 的 哦 哎 你 能加 我 吗 因为 我 是 他 妈妈 我 可能 你 跟 我 联系 会 比较 好 我 给 你 另外 一个 电话号码 你 可以 加 我 微信 哦 行 那 您 说 一下 号码 吧 一下 嗯 1381381759175948634868 好 的 我 看 一下 你们 在 上海 也 有 office 吗 对 的 我们 在 国内 是 有 分部 给 负责 中国 学生 预订 的 OK 好 的 我 参加 了 你 看 一下 我 叫 薇 薇 然后 应该 在 你 微信 的 服务 通知 里边 因为 我 是 用 写 微信加 的 我 看 一眼 好像 有 了 好 那 后续 我们 就 微信合 併 好 的 好好 拜拜.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:14:37"
+    }
+  ],
+  "summary": {
+    "id": 189,
+    "lead_id": 461,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"parent\", \"name\": \"Annabelle Ji\", \"mobile\": [\"+8618930259536\", \"+8613813817591\"], \"email\": [\"jinquerr@icloud.com\"], \"whatsapp\": [\"+8613813817591\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 430, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Add the student's parent on WeChat to confirm information and arrange the application process.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call transcript where agent requests to add parent's WeChat for confirmation and application arrangement.\"}, {\"type\": \"follow_up\", \"description\": \"Confirm details and proceed with the application process via WeChat communication with the parent.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call transcript indicating follow-up via WeChat after adding parent's contact.\"}], \"last_agent_response\": \"Agent requested to add the student's parent on WeChat to confirm information and arrange the application.\", \"suggested_next_step\": \"Agent to add the parent on WeChat and confirm application details.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Annabelle Ji\", \"nationality\": \"Not mentioned\", \"student_status\": \"Parent (mother) acting as contact\", \"contact_info\": \"Phone: +86 18930259536; WeChat contact provided by mother\", \"booking_for\": \"Student (Annabelle Ji), contact is mother\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3430 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and contact information confirmation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call and 1 lead info record\", \"primary_channel\": \"Phone call and WeChat\", \"last_contact\": \"2025-09-20 (lead info recorded)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial phone call with mother confirming student details and WeChat contact exchange\"}, \"properties_discussed\": {\"properties_mentioned\": \"\\u6587\\u5de5\\u5b66\\u751f\\u516c\\u5bd3 (Wengong Student Accommodation) via Amberstudent\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm student information via WeChat and proceed with application arrangement\", \"pending_items\": \"Awaiting confirmation and further communication via WeChat\", \"follow_up_required\": \"Agent to continue communication with mother on WeChat\", \"timeline\": \"Move-out date noted as 2026-07-24\"}, \"agent_notes\": {\"student_tone\": \"Mother is cooperative and prefers communication via WeChat\", \"urgency_level\": \"Not explicitly urgent\", \"complexity\": \"Simple case with parent as main contact\", \"special_considerations\": \"Primary contact is mother; ensure communication is directed accordingly\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"parent\", \"name\": \"Annabelle Ji\", \"mobile\": [\"+8618930259536\", \"+8613813817591\"], \"email\": [\"jinquerr@icloud.com\"], \"whatsapp\": [\"+8613813817591\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 430, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Add the student's parent on WeChat to confirm information and arrange the application process.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call transcript where agent requests to add parent's WeChat for confirmation and application arrangement.\"}, {\"type\": \"follow_up\", \"description\": \"Confirm details and proceed with the application process via WeChat communication with the parent.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call transcript indicating follow-up via WeChat after adding parent's contact.\"}], \"last_agent_response\": \"Agent requested to add the student's parent on WeChat to confirm information and arrange the application.\", \"suggested_next_step\": \"Agent to add the parent on WeChat and confirm application details.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Annabelle Ji\", \"nationality\": \"Not mentioned\", \"student_status\": \"Parent (mother) acting as contact\", \"contact_info\": \"Phone: +86 18930259536; WeChat contact provided by mother\", \"booking_for\": \"Student (Annabelle Ji), contact is mother\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3430 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and contact information confirmation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call and 1 lead info record\", \"primary_channel\": \"Phone call and WeChat\", \"last_contact\": \"2025-09-20 (lead info recorded)\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial phone call with mother confirming student details and WeChat contact exchange\"}, \"properties_discussed\": {\"properties_mentioned\": \"\\u6587\\u5de5\\u5b66\\u751f\\u516c\\u5bd3 (Wengong Student Accommodation) via Amberstudent\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm student information via WeChat and proceed with application arrangement\", \"pending_items\": \"Awaiting confirmation and further communication via WeChat\", \"follow_up_required\": \"Agent to continue communication with mother on WeChat\", \"timeline\": \"Move-out date noted as 2026-07-24\"}, \"agent_notes\": {\"student_tone\": \"Mother is cooperative and prefers communication via WeChat\", \"urgency_level\": \"Not explicitly urgent\", \"complexity\": \"Simple case with parent as main contact\", \"special_considerations\": \"Primary contact is mother; ensure communication is directed accordingly\"}}}}}",
+    "created_at": "2025-11-18 11:14:47",
+    "updated_at": "2025-11-18T16:44:47.273999",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "parent",
+        "name": "Annabelle Ji",
+        "mobile": [
+          "+8618930259536",
+          "+8613813817591"
+        ],
+        "email": [
+          "jinquerr@icloud.com"
+        ],
+        "whatsapp": [
+          "+8613813817591"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": null,
+        "budget": {
+          "max": 430,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "UCL",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Add the student's parent on WeChat to confirm information and arrange the application process.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call transcript where agent requests to add parent's WeChat for confirmation and application arrangement."
+        },
+        {
+          "type": "follow_up",
+          "description": "Confirm details and proceed with the application process via WeChat communication with the parent.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call transcript indicating follow-up via WeChat after adding parent's contact."
+        }
+      ],
+      "last_agent_response": "Agent requested to add the student's parent on WeChat to confirm information and arrange the application.",
+      "suggested_next_step": "Agent to add the parent on WeChat and confirm application details."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Annabelle Ji",
+            "nationality": "Not mentioned",
+            "student_status": "Parent (mother) acting as contact",
+            "contact_info": "Phone: +86 18930259536; WeChat contact provided by mother",
+            "booking_for": "Student (Annabelle Ji), contact is mother"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College London (UCL)",
+            "room_type": "Not mentioned",
+            "budget_range": "£430 per week",
+            "move_in_date": "Not explicitly mentioned",
+            "lease_duration": "44 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry and contact information confirmation",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1 call and 1 lead info record",
+            "primary_channel": "Phone call and WeChat",
+            "last_contact": "2025-09-20 (lead info recorded)",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial phone call with mother confirming student details and WeChat contact exchange"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "文工学生公寓 (Wengong Student Accommodation) via Amberstudent",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Confirm student information via WeChat and proceed with application arrangement",
+            "pending_items": "Awaiting confirmation and further communication via WeChat",
+            "follow_up_required": "Agent to continue communication with mother on WeChat",
+            "timeline": "Move-out date noted as 2026-07-24"
+          },
+          "agent_notes": {
+            "student_tone": "Mother is cooperative and prefers communication via WeChat",
+            "urgency_level": "Not explicitly urgent",
+            "complexity": "Simple case with parent as main contact",
+            "special_considerations": "Primary contact is mother; ensure communication is directed accordingly"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "parent",
+          "name": "Annabelle Ji",
+          "mobile": [
+            "+8618930259536",
+            "+8613813817591"
+          ],
+          "email": [
+            "jinquerr@icloud.com"
+          ],
+          "whatsapp": [
+            "+8613813817591"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": null,
+          "budget": {
+            "max": 430,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "UCL",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Add the student's parent on WeChat to confirm information and arrange the application process.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call transcript where agent requests to add parent's WeChat for confirmation and application arrangement."
+          },
+          {
+            "type": "follow_up",
+            "description": "Confirm details and proceed with the application process via WeChat communication with the parent.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call transcript indicating follow-up via WeChat after adding parent's contact."
+          }
+        ],
+        "last_agent_response": "Agent requested to add the student's parent on WeChat to confirm information and arrange the application.",
+        "suggested_next_step": "Agent to add the parent on WeChat and confirm application details."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Annabelle Ji",
+              "nationality": "Not mentioned",
+              "student_status": "Parent (mother) acting as contact",
+              "contact_info": "Phone: +86 18930259536; WeChat contact provided by mother",
+              "booking_for": "Student (Annabelle Ji), contact is mother"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College London (UCL)",
+              "room_type": "Not mentioned",
+              "budget_range": "£430 per week",
+              "move_in_date": "Not explicitly mentioned",
+              "lease_duration": "44 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry and contact information confirmation",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1 call and 1 lead info record",
+              "primary_channel": "Phone call and WeChat",
+              "last_contact": "2025-09-20 (lead info recorded)",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial phone call with mother confirming student details and WeChat contact exchange"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "文工学生公寓 (Wengong Student Accommodation) via Amberstudent",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Confirm student information via WeChat and proceed with application arrangement",
+              "pending_items": "Awaiting confirmation and further communication via WeChat",
+              "follow_up_required": "Agent to continue communication with mother on WeChat",
+              "timeline": "Move-out date noted as 2026-07-24"
+            },
+            "agent_notes": {
+              "student_tone": "Mother is cooperative and prefers communication via WeChat",
+              "urgency_level": "Not explicitly urgent",
+              "complexity": "Simple case with parent as main contact",
+              "special_considerations": "Primary contact is mother; ensure communication is directed accordingly"
+            }
+          }
+        }
+      }
+    }
+  }
+}

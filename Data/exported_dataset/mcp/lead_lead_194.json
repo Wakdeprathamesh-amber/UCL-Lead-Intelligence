@@ -1,0 +1,461 @@
+{
+  "id": "lead_194",
+  "mobile_number": "447539323542",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2811,
+      "lead_id": 194,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-24T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-24T00:00:00\", \"lead_id\": 3252520, \"user_name\": \"Mohammod Mustafa Ahmed\", \"email\": \"31mustafaahmed@gmail.com\", \"phone\": \"447539323542\", \"lease_duration\": \"49 week\", \"move_out_date\": \"2026-09-01\", \"budget\": 239, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Wembley\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 2217425}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2812,
+      "lead_id": 194,
+      "event_type": "call",
+      "timestamp": "2025-09-25T11:07:35.921845",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7927754",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-25T11:07:35.921845\", \"id\": 7927754, \"duration\": \"39\", \"to_number\": \"447539323542\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0b74e083-eb55-440c-bba3-20b88a098b5c.wav\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2813,
+      "lead_id": 194,
+      "event_type": "call",
+      "timestamp": "2025-09-26T11:27:51.876745",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7933326",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-26T11:27:51.876745\", \"id\": 7933326, \"duration\": \"65\", \"to_number\": \"447539323542\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/6584ef76-fc80-41bb-abeb-7db07e14c36d.wav\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2814,
+      "lead_id": 194,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T11:29:44",
+      "content": "Please share it to me",
+      "source": "whatsapp",
+      "event_id": "9013017",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T11:29:44\", \"id\": 9013017, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447539323542\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447539323542@c.us_3FD611A2CA316B7E181D\", \"message_type\": \"text\", \"message_content\": \"Please share it to me\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T11:29:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Please share it to me\\\", \\\"Datetime\\\": 1758886184000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447539323542@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447539323542@c.us_3FD611A2CA316B7E181D\\\", \\\"ChannelName\\\": \\\"447539323542\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T11:29:45.135906\", \"direction\": \"outbound\", \"sbase_user_id\": 2515459, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447539323542\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2815,
+      "lead_id": 194,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T11:31:48",
+      "content": "You can download it by logging into the portal",
+      "source": "whatsapp",
+      "event_id": "9013082",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T11:31:48\", \"id\": 9013082, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447539323542\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447539323542@c.us_3F22BDF5F803B8156641\", \"message_type\": \"text\", \"message_content\": \"You can download it by logging into the portal\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T11:31:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"You can download it by logging into the portal\\\", \\\"Datetime\\\": 1758886308000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447539323542@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447539323542@c.us_3F22BDF5F803B8156641\\\", \\\"ChannelName\\\": \\\"447539323542\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T11:31:48.483652\", \"direction\": \"outbound\", \"sbase_user_id\": 2515459, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447539323542\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2816,
+      "lead_id": 194,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T13:49:02",
+      "content": "Hi,\n\nI won’t be sharing my booking reference. I secured the accommodation directly at a cheaper rate, avoiding the non-refundable booking fee Amber was trying to charge.\n\nWhen we first spoke, you also shared another student’s personal details with me. That was a serious breach of privacy and made me very uncomfortable.\n\nFor these reasons, I do not want any further contact. Please close my enquiry on your side. If I am contacted again, I will have no choice but to report this matter to UCL.",
+      "source": "whatsapp",
+      "event_id": "9018636",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T13:49:02\", \"id\": 9018636, \"email\": \"\", \"from_number\": \"447539323542\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447539323542@c.us_3A210DC8041D9A7AD343\", \"message_type\": \"text\", \"message_content\": \"Hi,\\n\\nI won\\u2019t be sharing my booking reference. I secured the accommodation directly at a cheaper rate, avoiding the non-refundable booking fee Amber was trying to charge.\\n\\nWhen we first spoke, you also shared another student\\u2019s personal details with me. That was a serious breach of privacy and made me very uncomfortable.\\n\\nFor these reasons, I do not want any further contact. Please close my enquiry on your side. If I am contacted again, I will have no choice but to report this matter to UCL.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447539323542@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-26T13:49:02.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Hi,\\\\n\\\\nI won\\u2019t be sharing my booking reference. I secured the accommodation directly at a cheaper rate, avoiding the non-refundable booking fee Amber was trying to charge.\\\\n\\\\nWhen we first spoke, you also shared another student\\u2019s personal details with me. That was a serious breach of privacy and made me very uncomfortable.\\\\n\\\\nFor these reasons, I do not want any further contact. Please close my enquiry on your side. If I am contacted again, I will have no choice but to report this matter to UCL.\\\", \\\"Datetime\\\": 1758894542000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447539323542@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447539323542@c.us_3A210DC8041D9A7AD343\\\", \\\"ChannelName\\\": \\\"447539323542\\\", \\\"SentByNumber\\\": \\\"447539323542\\\", \\\"sentByUserId\\\": \\\"447539323542@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T13:49:03.198789\", \"direction\": \"inbound\", \"sbase_user_id\": 2515459, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447539323542\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2817,
+      "lead_id": 194,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T13:50:04",
+      "content": "I have shared with you the screenshot of the payment terms because that is something which won't cause an issue rest assured everything is confidential here",
+      "source": "whatsapp",
+      "event_id": "9018692",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T13:50:04\", \"id\": 9018692, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447539323542\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447539323542@c.us_A59B23B78F008941EF8F9504EF34EB6B\", \"message_type\": \"text\", \"message_content\": \"I have shared with you the screenshot of the payment terms because that is something which won't cause an issue rest assured everything is confidential here\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T13:50:04.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"I have shared with you the screenshot of the payment terms because that is something which won't cause an issue rest assured everything is confidential here\\\", \\\"Datetime\\\": 1758894604000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447539323542@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447539323542@c.us_A59B23B78F008941EF8F9504EF34EB6B\\\", \\\"ChannelName\\\": \\\"447539323542\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T13:50:06.520257\", \"direction\": \"outbound\", \"sbase_user_id\": 2515459, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447539323542\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2818,
+      "lead_id": 194,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T13:51:35",
+      "content": "We do not want the contract here you all I want which room type booked along side the pricing and the duration",
+      "source": "whatsapp",
+      "event_id": "9018762",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T13:51:35\", \"id\": 9018762, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447539323542\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447539323542@c.us_A5B122A740D163997DB3BACC3713D397\", \"message_type\": \"text\", \"message_content\": \"We do not want the contract here you all I want which room type booked along side the pricing and the duration\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T13:51:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"We do not want the contract here you all I want which room type booked along side the pricing and the duration\\\", \\\"Datetime\\\": 1758894695000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447539323542@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447539323542@c.us_A5B122A740D163997DB3BACC3713D397\\\", \\\"ChannelName\\\": \\\"447539323542\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T13:51:35.599094\", \"direction\": \"outbound\", \"sbase_user_id\": 2515459, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447539323542\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2819,
+      "lead_id": 194,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T13:51:39",
+      "content": "Will be happy to close this",
+      "source": "whatsapp",
+      "event_id": "9018765",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T13:51:39\", \"id\": 9018765, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447539323542\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447539323542@c.us_A589263E078BA6BEA9FA56E94649AAA4\", \"message_type\": \"text\", \"message_content\": \"Will be happy to close this\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T13:51:39.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Will be happy to close this\\\", \\\"Datetime\\\": 1758894699000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447539323542@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447539323542@c.us_A589263E078BA6BEA9FA56E94649AAA4\\\", \\\"ChannelName\\\": \\\"447539323542\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T13:51:40.247641\", \"direction\": \"outbound\", \"sbase_user_id\": 2515459, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447539323542\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2820,
+      "lead_id": 194,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T13:52:06",
+      "content": "Plus I have assisted you through all your questions so don't worry Amber is a safe place for students to book an accommodation",
+      "source": "whatsapp",
+      "event_id": "9018781",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T13:52:06\", \"id\": 9018781, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447539323542\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447539323542@c.us_A5FD516BBBD8FC582801D891ECB17431\", \"message_type\": \"text\", \"message_content\": \"Plus I have assisted you through all your questions so don't worry Amber is a safe place for students to book an accommodation\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T13:52:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Plus I have assisted you through all your questions so don't worry Amber is a safe place for students to book an accommodation\\\", \\\"Datetime\\\": 1758894726000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447539323542@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447539323542@c.us_A5FD516BBBD8FC582801D891ECB17431\\\", \\\"ChannelName\\\": \\\"447539323542\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T13:52:06.617633\", \"direction\": \"outbound\", \"sbase_user_id\": 2515459, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447539323542\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2821,
+      "lead_id": 194,
+      "event_type": "call",
+      "timestamp": "2025-09-27T09:10:39.621164",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7937341",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-27T09:10:39.621164\", \"id\": 7937341, \"duration\": \"7\", \"to_number\": \"447539323542\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/7d6ef254-9a80-46e5-918a-3876d10d7f6d.wav\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2822,
+      "lead_id": 194,
+      "event_type": "call",
+      "timestamp": "2025-09-29T09:51:34.242082",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7941428",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-29T09:51:34.242082\", \"id\": 7941428, \"duration\": \"8\", \"to_number\": \"447539323542\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e765957d-f46f-41e1-99cc-b864357c8119.wav\"}",
+      "created_at": "2025-11-18 10:25:38"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 106,
+      "lead_id": 194,
+      "call_id": "7927754",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0b74e083-eb55-440c-bba3-20b88a098b5c.wav",
+      "transcript_text": "Speaker A: Hello? Yeah, hello, Mustafar Ish up the site from Amber. Sorry, from Amber. Yeah, yesterday we had a conversation regarding the accommodation. Yeah, I've emailed them. I'm just waiting for them to reply. You have mailed them? Okay. They will be replying you within 24 to 48 hours. If they reply you. If they did not apply you by today, give them a remander email. They will be able to do that time. Okay. All right, thank you. Just let me know once they reply back to you. Okay? Yeah, no worries. Bye. Bye, bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:25:43"
+    },
+    {
+      "id": 108,
+      "lead_id": 194,
+      "call_id": "7933326",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/6584ef76-fc80-41bb-abeb-7db07e14c36d.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Yeah, hello, Mustafa from Ambro.\nSpeaker B: Oh, hi. Yes, I forgot to inform you, I booked it through the website directly itself.\nSpeaker A: Okay, that is not an issue. Even if you have booked it directly, can you please do one thing? Can you please share me the tenancy agreement or at least like the signing and the page so that I can also mark this completed from my end? Although have they agreed for the payment terms?\nSpeaker B: Yeah, it's all been set up. I chose to go through the website directly instead because Amber wants to charge me like some processing fee.\nSpeaker A: No, no, actually we did not charge you. That is an exception for UC student. You could have just asked me for that. And nonetheless, it's totally fine. It's totally fine. You do not need to do anything again. Just share with the contract once and confirm if everything is settled on the WhatsApp so that I can pass this as close from my end. Okay?\nSpeaker B: All right, no worries. Thank you.\nSpeaker A: Just do it as soon as possible, please.\nSpeaker B: Sorry?\nSpeaker A: Just do it as soon as possible. Yeah, okay.\nSpeaker B: All right, thank you.\nSpeaker A: Welcome.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:25:51"
+    },
+    {
+      "id": 109,
+      "lead_id": 194,
+      "call_id": "7937341",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/7d6ef254-9a80-46e5-918a-3876d10d7f6d.wav",
+      "transcript_text": "Speaker A: The person you're calling, Mustafa is on another line. Just leave your message.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:25:55"
+    },
+    {
+      "id": 110,
+      "lead_id": 194,
+      "call_id": "7941428",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e765957d-f46f-41e1-99cc-b864357c8119.wav",
+      "transcript_text": "Speaker A: The person you're calling, Mustafa is on another line. Just leave your message after the.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:25:59"
+    }
+  ],
+  "summary": {
+    "id": 83,
+    "lead_id": 194,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Mohammod Mustafa Ahmed\", \"mobile\": [\"447539323542\"], \"email\": [\"31mustafaahmed@gmail.com\"], \"whatsapp\": [\"447539323542\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 49, \"room_type\": null, \"budget\": {\"max\": 239, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"document_required\", \"description\": \"Student to share tenancy agreement or at least the signing page and details of room type booked, pricing, and duration to allow agent to close the enquiry.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-26 and WhatsApp messages on 2025-09-26 requesting tenancy agreement or booking details\"}, {\"type\": \"follow_up\", \"description\": \"Agent to close the enquiry on their side as per student's request and cease further contact.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student WhatsApp message on 2025-09-26 requesting closure of enquiry and no further contact\"}], \"last_agent_response\": \"Agent requested tenancy agreement or booking details to close enquiry and reassured confidentiality; also expressed willingness to close the case.\", \"suggested_next_step\": \"Agent to close the enquiry immediately and stop further contact as per student's explicit request.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Mohammod Mustafa Ahmed\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (31mustafaahmed@gmail.com), Phone (+447539323542), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3239 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"49 weeks, move out by 2026-09-01\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking completed directly by student through website; agent awaiting tenancy agreement or confirmation details to close enquiry\", \"documents_status\": \"Student declined to share booking reference or contract; no documents received\", \"payment_status\": \"Payment terms agreed and set up by student directly; no issues reported\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"9 (4 calls, 5 WhatsApp messages)\", \"primary_channel\": \"Calls and WhatsApp\", \"last_contact\": \"2025-09-29 via call (voicemail left)\", \"response_time\": \"Agent responded promptly within hours; student responded same day on WhatsApp\", \"key_moments\": \"Student booked accommodation directly to avoid non-refundable booking fee; student raised serious privacy concern about agent sharing another student's details; student requested no further contact and to close enquiry\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2217425 (implied from lead info)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student preferred cheaper rate by booking directly, avoiding Amber's booking fee\", \"offers_made\": \"Agent offered to close enquiry once contract details or confirmation shared\"}, \"next_steps\": {\"immediate_actions\": \"No further action requested by student; enquiry to be closed\", \"pending_items\": \"None, as student refused to share booking details\", \"follow_up_required\": \"No follow-up; student threatened to report if contacted again\", \"timeline\": \"Enquiry to be closed immediately per student request\"}, \"agent_notes\": {\"student_tone\": \"Firm, dissatisfied, and uncomfortable due to privacy breach; clear request to cease contact\", \"urgency_level\": \"Low, as student already secured accommodation independently\", \"complexity\": \"Moderate due to privacy issue and refusal to share booking details\", \"special_considerations\": \"Agent must respect student's request to close enquiry and avoid further contact to prevent escalation\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Mohammod Mustafa Ahmed\", \"mobile\": [\"447539323542\"], \"email\": [\"31mustafaahmed@gmail.com\"], \"whatsapp\": [\"447539323542\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 49, \"room_type\": null, \"budget\": {\"max\": 239, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"document_required\", \"description\": \"Student to share tenancy agreement or at least the signing page and details of room type booked, pricing, and duration to allow agent to close the enquiry.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-26 and WhatsApp messages on 2025-09-26 requesting tenancy agreement or booking details\"}, {\"type\": \"follow_up\", \"description\": \"Agent to close the enquiry on their side as per student's request and cease further contact.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student WhatsApp message on 2025-09-26 requesting closure of enquiry and no further contact\"}], \"last_agent_response\": \"Agent requested tenancy agreement or booking details to close enquiry and reassured confidentiality; also expressed willingness to close the case.\", \"suggested_next_step\": \"Agent to close the enquiry immediately and stop further contact as per student's explicit request.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Mohammod Mustafa Ahmed\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (31mustafaahmed@gmail.com), Phone (+447539323542), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3239 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"49 weeks, move out by 2026-09-01\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking completed directly by student through website; agent awaiting tenancy agreement or confirmation details to close enquiry\", \"documents_status\": \"Student declined to share booking reference or contract; no documents received\", \"payment_status\": \"Payment terms agreed and set up by student directly; no issues reported\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"9 (4 calls, 5 WhatsApp messages)\", \"primary_channel\": \"Calls and WhatsApp\", \"last_contact\": \"2025-09-29 via call (voicemail left)\", \"response_time\": \"Agent responded promptly within hours; student responded same day on WhatsApp\", \"key_moments\": \"Student booked accommodation directly to avoid non-refundable booking fee; student raised serious privacy concern about agent sharing another student's details; student requested no further contact and to close enquiry\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2217425 (implied from lead info)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student preferred cheaper rate by booking directly, avoiding Amber's booking fee\", \"offers_made\": \"Agent offered to close enquiry once contract details or confirmation shared\"}, \"next_steps\": {\"immediate_actions\": \"No further action requested by student; enquiry to be closed\", \"pending_items\": \"None, as student refused to share booking details\", \"follow_up_required\": \"No follow-up; student threatened to report if contacted again\", \"timeline\": \"Enquiry to be closed immediately per student request\"}, \"agent_notes\": {\"student_tone\": \"Firm, dissatisfied, and uncomfortable due to privacy breach; clear request to cease contact\", \"urgency_level\": \"Low, as student already secured accommodation independently\", \"complexity\": \"Moderate due to privacy issue and refusal to share booking details\", \"special_considerations\": \"Agent must respect student's request to close enquiry and avoid further contact to prevent escalation\"}}}}}",
+    "created_at": "2025-11-18 10:26:09",
+    "updated_at": "2025-11-18T15:56:09.872271",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Mohammod Mustafa Ahmed",
+        "mobile": [
+          "447539323542"
+        ],
+        "email": [
+          "31mustafaahmed@gmail.com"
+        ],
+        "whatsapp": [
+          "447539323542"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Wembley"
+        ],
+        "lease_duration_weeks": 49,
+        "room_type": null,
+        "budget": {
+          "max": 239,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "document_required",
+          "description": "Student to share tenancy agreement or at least the signing page and details of room type booked, pricing, and duration to allow agent to close the enquiry.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Call on 2025-09-26 and WhatsApp messages on 2025-09-26 requesting tenancy agreement or booking details"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to close the enquiry on their side as per student's request and cease further contact.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student WhatsApp message on 2025-09-26 requesting closure of enquiry and no further contact"
+        }
+      ],
+      "last_agent_response": "Agent requested tenancy agreement or booking details to close enquiry and reassured confidentiality; also expressed willingness to close the case.",
+      "suggested_next_step": "Agent to close the enquiry immediately and stop further contact as per student's explicit request."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Mohammod Mustafa Ahmed",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (31mustafaahmed@gmail.com), Phone (+447539323542), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "Wembley, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£239 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "49 weeks, move out by 2026-09-01",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking completed directly by student through website; agent awaiting tenancy agreement or confirmation details to close enquiry",
+            "documents_status": "Student declined to share booking reference or contract; no documents received",
+            "payment_status": "Payment terms agreed and set up by student directly; no issues reported",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "9 (4 calls, 5 WhatsApp messages)",
+            "primary_channel": "Calls and WhatsApp",
+            "last_contact": "2025-09-29 via call (voicemail left)",
+            "response_time": "Agent responded promptly within hours; student responded same day on WhatsApp",
+            "key_moments": "Student booked accommodation directly to avoid non-refundable booking fee; student raised serious privacy concern about agent sharing another student's details; student requested no further contact and to close enquiry"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2217425 (implied from lead info)",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Student preferred cheaper rate by booking directly, avoiding Amber's booking fee",
+            "offers_made": "Agent offered to close enquiry once contract details or confirmation shared"
+          },
+          "next_steps": {
+            "immediate_actions": "No further action requested by student; enquiry to be closed",
+            "pending_items": "None, as student refused to share booking details",
+            "follow_up_required": "No follow-up; student threatened to report if contacted again",
+            "timeline": "Enquiry to be closed immediately per student request"
+          },
+          "agent_notes": {
+            "student_tone": "Firm, dissatisfied, and uncomfortable due to privacy breach; clear request to cease contact",
+            "urgency_level": "Low, as student already secured accommodation independently",
+            "complexity": "Moderate due to privacy issue and refusal to share booking details",
+            "special_considerations": "Agent must respect student's request to close enquiry and avoid further contact to prevent escalation"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Mohammod Mustafa Ahmed",
+          "mobile": [
+            "447539323542"
+          ],
+          "email": [
+            "31mustafaahmed@gmail.com"
+          ],
+          "whatsapp": [
+            "447539323542"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Wembley"
+          ],
+          "lease_duration_weeks": 49,
+          "room_type": null,
+          "budget": {
+            "max": 239,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "document_required",
+            "description": "Student to share tenancy agreement or at least the signing page and details of room type booked, pricing, and duration to allow agent to close the enquiry.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Call on 2025-09-26 and WhatsApp messages on 2025-09-26 requesting tenancy agreement or booking details"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to close the enquiry on their side as per student's request and cease further contact.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student WhatsApp message on 2025-09-26 requesting closure of enquiry and no further contact"
+          }
+        ],
+        "last_agent_response": "Agent requested tenancy agreement or booking details to close enquiry and reassured confidentiality; also expressed willingness to close the case.",
+        "suggested_next_step": "Agent to close the enquiry immediately and stop further contact as per student's explicit request."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Mohammod Mustafa Ahmed",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (31mustafaahmed@gmail.com), Phone (+447539323542), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "Wembley, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£239 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "49 weeks, move out by 2026-09-01",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking completed directly by student through website; agent awaiting tenancy agreement or confirmation details to close enquiry",
+              "documents_status": "Student declined to share booking reference or contract; no documents received",
+              "payment_status": "Payment terms agreed and set up by student directly; no issues reported",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "9 (4 calls, 5 WhatsApp messages)",
+              "primary_channel": "Calls and WhatsApp",
+              "last_contact": "2025-09-29 via call (voicemail left)",
+              "response_time": "Agent responded promptly within hours; student responded same day on WhatsApp",
+              "key_moments": "Student booked accommodation directly to avoid non-refundable booking fee; student raised serious privacy concern about agent sharing another student's details; student requested no further contact and to close enquiry"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2217425 (implied from lead info)",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Student preferred cheaper rate by booking directly, avoiding Amber's booking fee",
+              "offers_made": "Agent offered to close enquiry once contract details or confirmation shared"
+            },
+            "next_steps": {
+              "immediate_actions": "No further action requested by student; enquiry to be closed",
+              "pending_items": "None, as student refused to share booking details",
+              "follow_up_required": "No follow-up; student threatened to report if contacted again",
+              "timeline": "Enquiry to be closed immediately per student request"
+            },
+            "agent_notes": {
+              "student_tone": "Firm, dissatisfied, and uncomfortable due to privacy breach; clear request to cease contact",
+              "urgency_level": "Low, as student already secured accommodation independently",
+              "complexity": "Moderate due to privacy issue and refusal to share booking details",
+              "special_considerations": "Agent must respect student's request to close enquiry and avoid further contact to prevent escalation"
+            }
+          }
+        }
+      }
+    }
+  }
+}

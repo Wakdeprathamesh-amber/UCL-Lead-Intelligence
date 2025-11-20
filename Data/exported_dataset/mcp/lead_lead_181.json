@@ -1,0 +1,303 @@
+{
+  "id": "lead_181",
+  "mobile_number": "31649794644",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2777,
+      "lead_id": 181,
+      "event_type": "call",
+      "timestamp": "2025-08-18T19:21:50.522197",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7711186",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T19:21:50.522197\", \"id\": 7711186, \"duration\": \"63\", \"to_number\": \"31649794644\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/5d3b8e47-9067-4c0c-a128-04bd89ec642f.wav\"}",
+      "created_at": "2025-11-18 10:24:22"
+    },
+    {
+      "id": 2778,
+      "lead_id": 181,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3155660, \"user_name\": \"Vikrant Gupta\", \"email\": \"vikrantguptaa55@gmail.com\", \"phone\": \"31649794644\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 295, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 914707}",
+      "created_at": "2025-11-18 10:24:22"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 97,
+      "lead_id": 181,
+      "call_id": "7711186",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/5d3b8e47-9067-4c0c-a128-04bd89ec642f.wav",
+      "transcript_text": "Speaker A: Hello? Yeah, hello, I'm sitting at Vikrant here. Sorry, am I speaking with Vikrant Gupta here? Yes, yes, yes, Vikrant calling you from AMD Student. Okay, I can see that you're looking to book a student accommodation for your University of University College London. Correct? Yeah, yeah, yeah. I've been looking for accommodation. Have you finalized any property yet? I can see that you have checked chapter kings wrong. Sorry, your. Your quality is a bit poor. Could you repeat that, please? Is it fine if I connect you on WhatsApp? There might be some networking which I'm not able to, you know, provide you a proper conversation. Yeah, on WhatsApp? Yes, on WhatsApp. Okay. Do you have my contact as it is or. Yeah, I do have that. I do have your WhatsApp number. Okay, yeah. Okay, that'll be great.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:24:30"
+    }
+  ],
+  "summary": {
+    "id": 76,
+    "lead_id": 181,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Vikrant Gupta\", \"mobile\": [\"31649794644\"], \"email\": [\"vikrantguptaa55@gmail.com\"], \"whatsapp\": [\"31649794644\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 295, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chapter Kings\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Connect with Vikrant Gupta on WhatsApp to continue accommodation discussion due to poor call quality.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call transcript on 2025-08-18 indicating poor call quality and agreement to switch to WhatsApp.\"}], \"last_agent_response\": \"Agent proposed switching communication to WhatsApp due to poor call quality and confirmed Vikrant has the WhatsApp contact.\", \"suggested_next_step\": \"Agent should initiate WhatsApp communication with Vikrant Gupta to continue accommodation discussion.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Vikrant Gupta\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone call and WhatsApp via number 31649794644\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3295 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call and agreement to continue on WhatsApp\", \"primary_channel\": \"Phone call and WhatsApp\", \"last_contact\": \"2025-08-18\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial phone call to confirm accommodation interest and university; agreed to switch communication to WhatsApp due to call quality issues\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Kings\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Looking for accommodation near University College London\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Continue communication on WhatsApp to clarify accommodation options\", \"pending_items\": \"Confirmation of property selection and further details on preferences\", \"follow_up_required\": \"Agent to follow up on WhatsApp with Vikrant Gupta\", \"timeline\": \"Lease duration until 2026-09-04\"}, \"agent_notes\": {\"student_tone\": \"Polite and cooperative\", \"urgency_level\": \"Moderate, as lease duration and budget are specified\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Communication quality issues on call; prefers WhatsApp for clearer communication\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Vikrant Gupta\", \"mobile\": [\"31649794644\"], \"email\": [\"vikrantguptaa55@gmail.com\"], \"whatsapp\": [\"31649794644\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 295, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chapter Kings\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Connect with Vikrant Gupta on WhatsApp to continue accommodation discussion due to poor call quality.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call transcript on 2025-08-18 indicating poor call quality and agreement to switch to WhatsApp.\"}], \"last_agent_response\": \"Agent proposed switching communication to WhatsApp due to poor call quality and confirmed Vikrant has the WhatsApp contact.\", \"suggested_next_step\": \"Agent should initiate WhatsApp communication with Vikrant Gupta to continue accommodation discussion.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Vikrant Gupta\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone call and WhatsApp via number 31649794644\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3295 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call and agreement to continue on WhatsApp\", \"primary_channel\": \"Phone call and WhatsApp\", \"last_contact\": \"2025-08-18\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial phone call to confirm accommodation interest and university; agreed to switch communication to WhatsApp due to call quality issues\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Kings\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Looking for accommodation near University College London\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Continue communication on WhatsApp to clarify accommodation options\", \"pending_items\": \"Confirmation of property selection and further details on preferences\", \"follow_up_required\": \"Agent to follow up on WhatsApp with Vikrant Gupta\", \"timeline\": \"Lease duration until 2026-09-04\"}, \"agent_notes\": {\"student_tone\": \"Polite and cooperative\", \"urgency_level\": \"Moderate, as lease duration and budget are specified\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Communication quality issues on call; prefers WhatsApp for clearer communication\"}}}}}",
+    "created_at": "2025-11-18 10:24:38",
+    "updated_at": "2025-11-18T15:54:38.957534",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Vikrant Gupta",
+        "mobile": [
+          "31649794644"
+        ],
+        "email": [
+          "vikrantguptaa55@gmail.com"
+        ],
+        "whatsapp": [
+          "31649794644"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 295,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Chapter Kings"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Connect with Vikrant Gupta on WhatsApp to continue accommodation discussion due to poor call quality.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call transcript on 2025-08-18 indicating poor call quality and agreement to switch to WhatsApp."
+        }
+      ],
+      "last_agent_response": "Agent proposed switching communication to WhatsApp due to poor call quality and confirmed Vikrant has the WhatsApp contact.",
+      "suggested_next_step": "Agent should initiate WhatsApp communication with Vikrant Gupta to continue accommodation discussion."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Vikrant Gupta",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone call and WhatsApp via number 31649794644",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£295 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1 call and agreement to continue on WhatsApp",
+            "primary_channel": "Phone call and WhatsApp",
+            "last_contact": "2025-08-18",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial phone call to confirm accommodation interest and university; agreed to switch communication to WhatsApp due to call quality issues"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Chapter Kings",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Looking for accommodation near University College London",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Continue communication on WhatsApp to clarify accommodation options",
+            "pending_items": "Confirmation of property selection and further details on preferences",
+            "follow_up_required": "Agent to follow up on WhatsApp with Vikrant Gupta",
+            "timeline": "Lease duration until 2026-09-04"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and cooperative",
+            "urgency_level": "Moderate, as lease duration and budget are specified",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Communication quality issues on call; prefers WhatsApp for clearer communication"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Vikrant Gupta",
+          "mobile": [
+            "31649794644"
+          ],
+          "email": [
+            "vikrantguptaa55@gmail.com"
+          ],
+          "whatsapp": [
+            "31649794644"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 295,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Chapter Kings"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Connect with Vikrant Gupta on WhatsApp to continue accommodation discussion due to poor call quality.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call transcript on 2025-08-18 indicating poor call quality and agreement to switch to WhatsApp."
+          }
+        ],
+        "last_agent_response": "Agent proposed switching communication to WhatsApp due to poor call quality and confirmed Vikrant has the WhatsApp contact.",
+        "suggested_next_step": "Agent should initiate WhatsApp communication with Vikrant Gupta to continue accommodation discussion."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Vikrant Gupta",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone call and WhatsApp via number 31649794644",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£295 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1 call and agreement to continue on WhatsApp",
+              "primary_channel": "Phone call and WhatsApp",
+              "last_contact": "2025-08-18",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial phone call to confirm accommodation interest and university; agreed to switch communication to WhatsApp due to call quality issues"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Chapter Kings",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Looking for accommodation near University College London",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Continue communication on WhatsApp to clarify accommodation options",
+              "pending_items": "Confirmation of property selection and further details on preferences",
+              "follow_up_required": "Agent to follow up on WhatsApp with Vikrant Gupta",
+              "timeline": "Lease duration until 2026-09-04"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and cooperative",
+              "urgency_level": "Moderate, as lease duration and budget are specified",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Communication quality issues on call; prefers WhatsApp for clearer communication"
+            }
+          }
+        }
+      }
+    }
+  }
+}

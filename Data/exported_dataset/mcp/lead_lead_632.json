@@ -1,0 +1,297 @@
+{
+  "id": "lead_632",
+  "mobile_number": "447512468367",
+  "email": null,
+  "timeline": [
+    {
+      "id": 10378,
+      "lead_id": 632,
+      "event_type": "lead_info",
+      "timestamp": "2025-08-08T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-08-08T00:00:00\", \"lead_id\": 3130654, \"user_name\": \"Deniel Tsoi\", \"email\": \"ultimateshovel@mail.ru\", \"phone\": \"447512468367\", \"lease_duration\": \"4 week\", \"move_out_date\": \"2025-09-04\", \"budget\": 245, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Wembley\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2012471}",
+      "created_at": "2025-11-18 11:57:50"
+    },
+    {
+      "id": 10379,
+      "lead_id": 632,
+      "event_type": "call",
+      "timestamp": "2025-08-11T08:41:03.889417",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7658331",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-11T08:41:03.889417\", \"id\": 7658331, \"duration\": \"0\", \"to_number\": \"447512468367\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:50"
+    },
+    {
+      "id": 10380,
+      "lead_id": 632,
+      "event_type": "call",
+      "timestamp": "2025-08-11T08:42:37.217561",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7658348",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-11T08:42:37.217561\", \"id\": 7658348, \"duration\": \"0\", \"to_number\": \"447512468367\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:50"
+    },
+    {
+      "id": 10381,
+      "lead_id": 632,
+      "event_type": "call",
+      "timestamp": "2025-08-27T09:43:45.240639",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7767304",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-27T09:43:45.240639\", \"id\": 7767304, \"duration\": \"0\", \"to_number\": \"447512468367\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:50"
+    },
+    {
+      "id": 10382,
+      "lead_id": 632,
+      "event_type": "call",
+      "timestamp": "2025-08-29T15:34:40.010235",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7784095",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-29T15:34:40.010235\", \"id\": 7784095, \"duration\": \"0\", \"to_number\": \"447512468367\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:50"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 260,
+    "lead_id": 632,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Deniel Tsoi\", \"mobile\": [\"447512468367\"], \"email\": [\"ultimateshovel@mail.ru\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 4, \"room_type\": null, \"budget\": {\"max\": 245, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Multiple call attempts were made to the student at the provided phone number, but no successful contact was established.\", \"suggested_next_step\": \"Agent should attempt to contact the student again via phone or alternative communication channels within the next week to discuss accommodation options and confirm interest.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Deniel Tsoi\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (ultimateshovel@mail.ru), Phone (+44 7512 468367)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3245 per week\", \"move_in_date\": \"Not explicitly mentioned; inferred before 2025-09-04\", \"lease_duration\": \"4 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 calls attempted\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-29\", \"response_time\": \"No call durations recorded; likely no answer or no engagement\", \"key_moments\": \"Multiple call attempts on 2025-08-11, 2025-08-27, and 2025-08-29 with zero duration indicating no successful connection\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2012471 linked to initial lead\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish contact with student to discuss accommodation options\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Follow-up calls or alternative contact methods to engage student\", \"timeline\": \"Move-out date 2025-09-04; lease duration 4 weeks\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded; no engagement via calls\", \"urgency_level\": \"Moderate due to approaching move-out date\", \"complexity\": \"Simple case; standard short-term lease inquiry\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest difficulty reaching student; consider alternative contact strategies\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Deniel Tsoi\", \"mobile\": [\"447512468367\"], \"email\": [\"ultimateshovel@mail.ru\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 4, \"room_type\": null, \"budget\": {\"max\": 245, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Multiple call attempts were made to the student at the provided phone number, but no successful contact was established.\", \"suggested_next_step\": \"Agent should attempt to contact the student again via phone or alternative communication channels within the next week to discuss accommodation options and confirm interest.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Deniel Tsoi\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (ultimateshovel@mail.ru), Phone (+44 7512 468367)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3245 per week\", \"move_in_date\": \"Not explicitly mentioned; inferred before 2025-09-04\", \"lease_duration\": \"4 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 calls attempted\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-29\", \"response_time\": \"No call durations recorded; likely no answer or no engagement\", \"key_moments\": \"Multiple call attempts on 2025-08-11, 2025-08-27, and 2025-08-29 with zero duration indicating no successful connection\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2012471 linked to initial lead\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish contact with student to discuss accommodation options\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Follow-up calls or alternative contact methods to engage student\", \"timeline\": \"Move-out date 2025-09-04; lease duration 4 weeks\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded; no engagement via calls\", \"urgency_level\": \"Moderate due to approaching move-out date\", \"complexity\": \"Simple case; standard short-term lease inquiry\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest difficulty reaching student; consider alternative contact strategies\"}}}}}",
+    "created_at": "2025-11-18 11:57:58",
+    "updated_at": "2025-11-18T17:27:58.734448",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Deniel Tsoi",
+        "mobile": [
+          "447512468367"
+        ],
+        "email": [
+          "ultimateshovel@mail.ru"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Wembley"
+        ],
+        "lease_duration_weeks": 4,
+        "room_type": null,
+        "budget": {
+          "max": 245,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Multiple call attempts were made to the student at the provided phone number, but no successful contact was established.",
+      "suggested_next_step": "Agent should attempt to contact the student again via phone or alternative communication channels within the next week to discuss accommodation options and confirm interest."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Deniel Tsoi",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (ultimateshovel@mail.ru), Phone (+44 7512 468367)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "Wembley, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£245 per week",
+            "move_in_date": "Not explicitly mentioned; inferred before 2025-09-04",
+            "lease_duration": "4 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "5 calls attempted",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-29",
+            "response_time": "No call durations recorded; likely no answer or no engagement",
+            "key_moments": "Multiple call attempts on 2025-08-11, 2025-08-27, and 2025-08-29 with zero duration indicating no successful connection"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2012471 linked to initial lead",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Establish contact with student to discuss accommodation options",
+            "pending_items": "Student response to calls",
+            "follow_up_required": "Follow-up calls or alternative contact methods to engage student",
+            "timeline": "Move-out date 2025-09-04; lease duration 4 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication recorded; no engagement via calls",
+            "urgency_level": "Moderate due to approaching move-out date",
+            "complexity": "Simple case; standard short-term lease inquiry",
+            "special_considerations": "Multiple unsuccessful call attempts suggest difficulty reaching student; consider alternative contact strategies"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Deniel Tsoi",
+          "mobile": [
+            "447512468367"
+          ],
+          "email": [
+            "ultimateshovel@mail.ru"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Wembley"
+          ],
+          "lease_duration_weeks": 4,
+          "room_type": null,
+          "budget": {
+            "max": 245,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Multiple call attempts were made to the student at the provided phone number, but no successful contact was established.",
+        "suggested_next_step": "Agent should attempt to contact the student again via phone or alternative communication channels within the next week to discuss accommodation options and confirm interest."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Deniel Tsoi",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (ultimateshovel@mail.ru), Phone (+44 7512 468367)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "Wembley, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£245 per week",
+              "move_in_date": "Not explicitly mentioned; inferred before 2025-09-04",
+              "lease_duration": "4 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "5 calls attempted",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-29",
+              "response_time": "No call durations recorded; likely no answer or no engagement",
+              "key_moments": "Multiple call attempts on 2025-08-11, 2025-08-27, and 2025-08-29 with zero duration indicating no successful connection"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2012471 linked to initial lead",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Establish contact with student to discuss accommodation options",
+              "pending_items": "Student response to calls",
+              "follow_up_required": "Follow-up calls or alternative contact methods to engage student",
+              "timeline": "Move-out date 2025-09-04; lease duration 4 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication recorded; no engagement via calls",
+              "urgency_level": "Moderate due to approaching move-out date",
+              "complexity": "Simple case; standard short-term lease inquiry",
+              "special_considerations": "Multiple unsuccessful call attempts suggest difficulty reaching student; consider alternative contact strategies"
+            }
+          }
+        }
+      }
+    }
+  }
+}

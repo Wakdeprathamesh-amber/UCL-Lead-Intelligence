@@ -1,0 +1,308 @@
+{
+  "id": "lead_674",
+  "mobile_number": "8615180107980",
+  "email": null,
+  "timeline": [
+    {
+      "id": 10947,
+      "lead_id": 674,
+      "event_type": "call",
+      "timestamp": "2025-09-01T02:25:20.742724",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7793238",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T02:25:20.742724\", \"id\": 7793238, \"duration\": \"0\", \"to_number\": \"8615180107980\", \"from_number\": \"447360546291\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:39:37"
+    },
+    {
+      "id": 10948,
+      "lead_id": 674,
+      "event_type": "email",
+      "timestamp": "2025-09-01T02:38:44",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-01T02:38:44\", \"sender_email\": \"qingyao.w@amberstudent.com\", \"recipient_email\": \"xkgtzxi@ucl.ac.uk\", \"subject\": \"Amberstudent\", \"message\": \"\\u54c8\\u55bd\\u540c\\u5b66\\u4f60\\u597d\\uff1a\\\\n\\u6211\\u662famberstudent\\u7684\\u79df\\u623f\\u987e\\u95eevivi,\\u770b\\u540c\\u5b66\\u5728\\u6211\\u4eec\\u7f51\\u7ad9\\u7533\\u8bf7\\u4e86london\\u7684iQ The Arcade\\u5b66\\u751f\\u516c\\u5bd3\\uff0c\\u9700\\u8981\\u6dfb\\u52a0\\u4e0b\\u6211\\u8fd9\\u8fb9\\u4eba\\u5de5\\u786e\\u8ba4\\u4fe1\\u606f\\u9012\\u4ea4\\u7533\\u8bf7\\u54e6\\uff0c\\u53ef\\u4ee5\\u626b\\u7801\\u52a0\\u6211\\u4f01\\u4e1a\\u5fae\\u4fe1[inline_image]\", \"snippet\": \"\\u54c8\\u55bd\\u540c\\u5b66\\u4f60\\u597d\\uff1a \\u6211\\u662famberstudent\\u7684\\u79df\\u623f\\u987e\\u95eevivi,\\u770b\\u540c\\u5b66\\u5728\\u6211\\u4eec\\u7f51\\u7ad9\\u7533\\u8bf7\\u4e86london\\u7684iQ The Arcade\\u5b66\\u751f\\u516c\\u5bd3\\uff0c\\u9700\\u8981\\u6dfb\\u52a0\\u4e0b\\u6211\\u8fd9\\u8fb9\\u4eba\\u5de5\\u786e\\u8ba4\\u4fe1\\u606f\\u9012\\u4ea4\\u7533\\u8bf7\\u54e6\\uff0c\\u53ef\\u4ee5\\u626b\\u7801\\u52a0\\u6211\\u4f01\\u4e1a\\u5fae\\u4fe1\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"qingyao.w@amberstudent.com\", \"student_email\": \"xkgtzxi@ucl.ac.uk\"}",
+      "created_at": "2025-11-18 12:39:37"
+    },
+    {
+      "id": 10949,
+      "lead_id": 674,
+      "event_type": "call",
+      "timestamp": "2025-09-01T03:08:54.208023",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7793255",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T03:08:54.208023\", \"id\": 7793255, \"duration\": \"0\", \"to_number\": \"8615180107980\", \"from_number\": \"447360546291\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:39:37"
+    },
+    {
+      "id": 10950,
+      "lead_id": 674,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3193813, \"user_name\": \"Zichen Xie\", \"email\": \"xkgtzxi@ucl.ac.uk\", \"phone\": \"8615180107980\", \"lease_duration\": \"43 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 279, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3943, \"inventory_id\": 2026262}",
+      "created_at": "2025-11-18 12:39:37"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 277,
+    "lead_id": 674,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Zichen Xie\", \"mobile\": [\"+8615180107980\"], \"email\": [\"xkgtzxi@ucl.ac.uk\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 279, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"iQ The Arcade\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Student needs to add the agent on WeChat to confirm information and proceed with the application for iQ The Arcade student accommodation in London.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from agent Vivi on 2025-09-01 requesting WeChat addition for manual confirmation\"}], \"last_agent_response\": \"Agent Vivi sent an email to the student on 2025-09-01 asking the student to add her on WeChat for manual confirmation to submit the application.\", \"suggested_next_step\": \"Student should add the agent on WeChat to confirm details and proceed with the application.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Zichen Xie\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone number +86 15180107980, email xkgtzxi@ucl.ac.uk\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London (implied by email domain ucl.ac.uk)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3279 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 43 weeks ending 2026-07-10\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and application submission stage; agent requested WeChat contact to confirm details and submit application\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 (2 outbound calls with zero duration, 1 outbound email, 2 calls with zero duration)\", \"primary_channel\": \"Phone calls and email\", \"last_contact\": \"2025-09-13 (lead info updated)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Student applied on website for iQ The Arcade in London; agent sent email requesting WeChat contact for manual confirmation and application submission\"}, \"properties_discussed\": {\"properties_mentioned\": \"iQ The Arcade student accommodation in London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to add agent on WeChat for manual confirmation and application submission\", \"pending_items\": \"Awaiting student to connect on WeChat and confirm details\", \"follow_up_required\": \"Agent to follow up if student does not respond via WeChat\", \"timeline\": \"Lease ends 2026-07-10; no explicit move-in date given\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; no response to calls\", \"urgency_level\": \"Unknown due to lack of student response\", \"complexity\": \"Simple initial inquiry; requires student engagement to proceed\", \"special_considerations\": \"Student uses Chinese language; initial email sent in Chinese; agent uses WeChat for communication\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Zichen Xie\", \"mobile\": [\"+8615180107980\"], \"email\": [\"xkgtzxi@ucl.ac.uk\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 279, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"iQ The Arcade\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Student needs to add the agent on WeChat to confirm information and proceed with the application for iQ The Arcade student accommodation in London.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from agent Vivi on 2025-09-01 requesting WeChat addition for manual confirmation\"}], \"last_agent_response\": \"Agent Vivi sent an email to the student on 2025-09-01 asking the student to add her on WeChat for manual confirmation to submit the application.\", \"suggested_next_step\": \"Student should add the agent on WeChat to confirm details and proceed with the application.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Zichen Xie\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone number +86 15180107980, email xkgtzxi@ucl.ac.uk\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London (implied by email domain ucl.ac.uk)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3279 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 43 weeks ending 2026-07-10\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and application submission stage; agent requested WeChat contact to confirm details and submit application\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 (2 outbound calls with zero duration, 1 outbound email, 2 calls with zero duration)\", \"primary_channel\": \"Phone calls and email\", \"last_contact\": \"2025-09-13 (lead info updated)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Student applied on website for iQ The Arcade in London; agent sent email requesting WeChat contact for manual confirmation and application submission\"}, \"properties_discussed\": {\"properties_mentioned\": \"iQ The Arcade student accommodation in London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to add agent on WeChat for manual confirmation and application submission\", \"pending_items\": \"Awaiting student to connect on WeChat and confirm details\", \"follow_up_required\": \"Agent to follow up if student does not respond via WeChat\", \"timeline\": \"Lease ends 2026-07-10; no explicit move-in date given\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; no response to calls\", \"urgency_level\": \"Unknown due to lack of student response\", \"complexity\": \"Simple initial inquiry; requires student engagement to proceed\", \"special_considerations\": \"Student uses Chinese language; initial email sent in Chinese; agent uses WeChat for communication\"}}}}}",
+    "created_at": "2025-11-18 12:39:46",
+    "updated_at": "2025-11-18T18:09:46.338640",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Zichen Xie",
+        "mobile": [
+          "+8615180107980"
+        ],
+        "email": [
+          "xkgtzxi@ucl.ac.uk"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 43,
+        "room_type": null,
+        "budget": {
+          "max": 279,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "iQ The Arcade"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Student needs to add the agent on WeChat to confirm information and proceed with the application for iQ The Arcade student accommodation in London.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Email from agent Vivi on 2025-09-01 requesting WeChat addition for manual confirmation"
+        }
+      ],
+      "last_agent_response": "Agent Vivi sent an email to the student on 2025-09-01 asking the student to add her on WeChat for manual confirmation to submit the application.",
+      "suggested_next_step": "Student should add the agent on WeChat to confirm details and proceed with the application."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Zichen Xie",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone number +86 15180107980, email xkgtzxi@ucl.ac.uk",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London (implied by email domain ucl.ac.uk)",
+            "room_type": "Not mentioned",
+            "budget_range": "£279 per week",
+            "move_in_date": "Not explicitly mentioned; lease duration 43 weeks ending 2026-07-10",
+            "lease_duration": "43 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry and application submission stage; agent requested WeChat contact to confirm details and submit application",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "5 (2 outbound calls with zero duration, 1 outbound email, 2 calls with zero duration)",
+            "primary_channel": "Phone calls and email",
+            "last_contact": "2025-09-13 (lead info updated)",
+            "response_time": "Not explicitly mentioned",
+            "key_moments": "Student applied on website for iQ The Arcade in London; agent sent email requesting WeChat contact for manual confirmation and application submission"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "iQ The Arcade student accommodation in London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to add agent on WeChat for manual confirmation and application submission",
+            "pending_items": "Awaiting student to connect on WeChat and confirm details",
+            "follow_up_required": "Agent to follow up if student does not respond via WeChat",
+            "timeline": "Lease ends 2026-07-10; no explicit move-in date given"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication from student recorded; no response to calls",
+            "urgency_level": "Unknown due to lack of student response",
+            "complexity": "Simple initial inquiry; requires student engagement to proceed",
+            "special_considerations": "Student uses Chinese language; initial email sent in Chinese; agent uses WeChat for communication"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Zichen Xie",
+          "mobile": [
+            "+8615180107980"
+          ],
+          "email": [
+            "xkgtzxi@ucl.ac.uk"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 43,
+          "room_type": null,
+          "budget": {
+            "max": 279,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "iQ The Arcade"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Student needs to add the agent on WeChat to confirm information and proceed with the application for iQ The Arcade student accommodation in London.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Email from agent Vivi on 2025-09-01 requesting WeChat addition for manual confirmation"
+          }
+        ],
+        "last_agent_response": "Agent Vivi sent an email to the student on 2025-09-01 asking the student to add her on WeChat for manual confirmation to submit the application.",
+        "suggested_next_step": "Student should add the agent on WeChat to confirm details and proceed with the application."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Zichen Xie",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone number +86 15180107980, email xkgtzxi@ucl.ac.uk",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London (implied by email domain ucl.ac.uk)",
+              "room_type": "Not mentioned",
+              "budget_range": "£279 per week",
+              "move_in_date": "Not explicitly mentioned; lease duration 43 weeks ending 2026-07-10",
+              "lease_duration": "43 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry and application submission stage; agent requested WeChat contact to confirm details and submit application",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "5 (2 outbound calls with zero duration, 1 outbound email, 2 calls with zero duration)",
+              "primary_channel": "Phone calls and email",
+              "last_contact": "2025-09-13 (lead info updated)",
+              "response_time": "Not explicitly mentioned",
+              "key_moments": "Student applied on website for iQ The Arcade in London; agent sent email requesting WeChat contact for manual confirmation and application submission"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "iQ The Arcade student accommodation in London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to add agent on WeChat for manual confirmation and application submission",
+              "pending_items": "Awaiting student to connect on WeChat and confirm details",
+              "follow_up_required": "Agent to follow up if student does not respond via WeChat",
+              "timeline": "Lease ends 2026-07-10; no explicit move-in date given"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication from student recorded; no response to calls",
+              "urgency_level": "Unknown due to lack of student response",
+              "complexity": "Simple initial inquiry; requires student engagement to proceed",
+              "special_considerations": "Student uses Chinese language; initial email sent in Chinese; agent uses WeChat for communication"
+            }
+          }
+        }
+      }
+    }
+  }
+}

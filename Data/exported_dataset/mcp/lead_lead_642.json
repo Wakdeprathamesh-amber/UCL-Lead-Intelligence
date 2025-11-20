@@ -1,0 +1,513 @@
+{
+  "id": "lead_642",
+  "mobile_number": "97699219633",
+  "email": null,
+  "timeline": [
+    {
+      "id": 10389,
+      "lead_id": 642,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3154612, \"user_name\": \"Nomin Batsukh\", \"email\": \"nomin.batsukh@gmail.com\", \"phone\": \"97699219633\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 297, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3055, \"inventory_id\": 1418214}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10390,
+      "lead_id": 642,
+      "event_type": "call",
+      "timestamp": "2025-08-18T13:38:53.420087",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7708153",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T13:38:53.420087\", \"id\": 7708153, \"duration\": \"0\", \"to_number\": \"97699219633\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10391,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T15:27:52",
+      "content": "Hi Nomin Batsukh\nWe’ve received your request for Chapter Kings Cross, London, through the University College London\naccommodation portal. Your room is ready to be confirmed ✅.\nWhen would be a good time for us to finalise your booking?",
+      "source": "whatsapp",
+      "event_id": "7429910",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T15:27:52\", \"id\": 7429910, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"97699219633\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_97699219633@c.us_3F07B7FA388D5D79FEF0\", \"message_type\": \"text\", \"message_content\": \"Hi Nomin Batsukh\\nWe\\u2019ve received your request for Chapter Kings Cross, London, through the University College London\\naccommodation portal. Your room is ready to be confirmed \\u2705.\\nWhen would be a good time for us to finalise your booking?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T15:27:52.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hi Nomin Batsukh\\\\nWe\\u2019ve received your request for Chapter Kings Cross, London, through the University College London\\\\naccommodation portal. Your room is ready to be confirmed \\u2705.\\\\nWhen would be a good time for us to finalise your booking?\\\", \\\"Datetime\\\": 1755530872000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"97699219633@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_97699219633@c.us_3F07B7FA388D5D79FEF0\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-18T15:27:52.322173\", \"direction\": \"outbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10392,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-26T20:53:52",
+      "content": "Hello Nomin could you please let me know are we still planning for accommodation?",
+      "source": "whatsapp",
+      "event_id": "7849395",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-26T20:53:52\", \"id\": 7849395, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"97699219633\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_97699219633@c.us_667FC5ADB3387E2B33DB3B0388EB2538\", \"message_type\": \"text\", \"message_content\": \"Hello Nomin could you please let me know are we still planning for accommodation?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-26T20:53:52.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello Nomin could you please let me know are we still planning for accommodation?\\\", \\\"Datetime\\\": 1756241632000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"97699219633@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_97699219633@c.us_667FC5ADB3387E2B33DB3B0388EB2538\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-26T20:53:53.071098\", \"direction\": \"outbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10393,
+      "lead_id": 642,
+      "event_type": "call",
+      "timestamp": "2025-08-29T07:48:02.727962",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7779716",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-29T07:48:02.727962\", \"id\": 7779716, \"duration\": \"0\", \"to_number\": \"97699219633\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10394,
+      "lead_id": 642,
+      "event_type": "call",
+      "timestamp": "2025-08-29T07:48:26.476929",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7779717",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-29T07:48:26.476929\", \"id\": 7779717, \"duration\": \"439\", \"to_number\": \"97699219633\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/439e9b6f-6900-4d37-bd2b-cad73905f48c.wav\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10395,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T11:23:44",
+      "content": "hello",
+      "source": "whatsapp",
+      "event_id": "7982413",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T11:23:44\", \"id\": 7982413, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"97699219633\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_97699219633@c.us_3FBAF3E311A2D91D009D\", \"message_type\": \"text\", \"message_content\": \"hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-29T11:23:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"hello\\\", \\\"Datetime\\\": 1756466624000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"97699219633@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_97699219633@c.us_3FBAF3E311A2D91D009D\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T11:23:45.263299\", \"direction\": \"outbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10396,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T11:43:16",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *MANNEQUIN HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from London City Center:*\n*Drive:* 8.6 mi (47 mins)\n*Walk:* 8.0 mi (2 hours 42 mins)\n*Bus/Train:* 8.8 mi (30 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=134941\n\n------------",
+      "source": "whatsapp",
+      "event_id": "7983704",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T11:43:16\", \"id\": 7983704, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"97699219633\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_97699219633@c.us_3EB06D7D47C8F44542F093\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *MANNEQUIN HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\n*Drive:* 8.6 mi (47 mins)\\n*Walk:* 8.0 mi (2 hours 42 mins)\\n*Bus/Train:* 8.8 mi (30 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=134941\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-29T11:43:16.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *MANNEQUIN HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\\\n*Drive:* 8.6 mi (47 mins)\\\\n*Walk:* 8.0 mi (2 hours 42 mins)\\\\n*Bus/Train:* 8.8 mi (30 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=134941\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1756467796000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"97699219633@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_97699219633@c.us_3EB06D7D47C8F44542F093\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T11:43:16.719636\", \"direction\": \"outbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10397,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T11:47:04",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *MANNEQUIN HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from London City Center:*\n*Drive:* 8.6 mi (47 mins)\n*Walk:* 8.0 mi (2 hours 42 mins)\n*Bus/Train:* 8.8 mi (30 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=134941\n\n------------",
+      "source": "whatsapp",
+      "event_id": "7984062",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T11:47:04\", \"id\": 7984062, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"97699219633\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_97699219633@c.us_3EB0986F3C01D07A4FEA39\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *MANNEQUIN HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\n*Drive:* 8.6 mi (47 mins)\\n*Walk:* 8.0 mi (2 hours 42 mins)\\n*Bus/Train:* 8.8 mi (30 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=134941\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-29T11:47:04.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *MANNEQUIN HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\\\n*Drive:* 8.6 mi (47 mins)\\\\n*Walk:* 8.0 mi (2 hours 42 mins)\\\\n*Bus/Train:* 8.8 mi (30 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=134941\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1756468024000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"97699219633@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_97699219633@c.us_3EB0986F3C01D07A4FEA39\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T11:47:05.236181\", \"direction\": \"outbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10398,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T11:50:33",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *IQ CITY, LONDON*\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=3D\n\n🏘 *ROOM TYPES:*\n*Bronze En Suite Plus:*\n  £403/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £443/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Gold En Suite Plus:*\n  £428/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £470/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Copper Studio:*\n  £435/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n  £447/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Silver 2 Bed Apt Plus:*\n  £437/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £465/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Gold 2 Bed Apt Plus:*\n  £442/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Bronze 2 Bed Apt Plus:*\n  £457/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Platinum 2 Bed Apt Plus:*\n  £447/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Silver Studio:*\n  £485/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Silver Studio Plus:*\n  £496/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £518/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Gold Studio Plus:*\n  £519/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £541/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\n\n*Platinum Studio Plus:*\n  £559/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £585/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Platinum Studio:*\n  £563/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze 1 Bed Apt Plus:*\n  £681/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £744/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Silver 1 Bed Apt Plus:*\n  £693/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n  £757/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze 2 Bed Apartment:* £432/week (Duration: 43 week) *(SOLD OUT)*\n*Gold En Suite:* £448 - £453/week (Duration: 4 week - 43 week) *(SOLD OUT)*\n*Bronze En Suite:* £418 - £421/week/person (Duration: 4 week - 43 week) *(SOLD OUT)*\n*Gold 1 Bed Apt Plus:* £748/week (Duration: 43 week) *(SOLD OUT)*\n*Bronze Studio Plus:* £465 - £480/week (Duration: 43 week - 51 week) *(SOLD OUT)*\n*Silver En Suite Plus:* £448/week (Duration: 43 week) *(SOLD OUT)*\n*Copper En Suite Plus:* £393 - £413/week (Duration: 43 week - 51 week) *(SOLD OUT)*\n*Gold 1 Bed Apartment:* £721/week (Duration: 43 week) *(SOLD OUT)*\n*Bronze Mini Studio:* £450/week (Duration: 51 week) *(SOLD OUT)*\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=143256\n\n------------",
+      "source": "whatsapp",
+      "event_id": "7984372",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T11:50:33\", \"id\": 7984372, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"97699219633\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_97699219633@c.us_3EB06AAFD3CBCF1A64E201\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *IQ CITY, LONDON*\\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=3D\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Bronze En Suite Plus:*\\n\\u00a0\\u00a0\\u00a3403/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3443/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Gold En Suite Plus:*\\n\\u00a0\\u00a0\\u00a3428/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3470/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Copper Studio:*\\n\\u00a0\\u00a0\\u00a3435/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3447/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Silver 2 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3437/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3465/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Gold 2 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3442/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Bronze 2 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3457/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Platinum 2 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3447/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Silver Studio:*\\n\\u00a0\\u00a0\\u00a3485/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Silver Studio Plus:*\\n\\u00a0\\u00a0\\u00a3496/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3518/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Gold Studio Plus:*\\n\\u00a0\\u00a0\\u00a3519/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3541/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n*Platinum Studio Plus:*\\n\\u00a0\\u00a0\\u00a3559/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3585/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Platinum Studio:*\\n\\u00a0\\u00a0\\u00a3563/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze 1 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3681/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3744/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Silver 1 Bed Apt Plus:*\\n\\u00a0\\u00a0\\u00a3693/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3757/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze 2 Bed Apartment:* \\u00a3432/week (Duration: 43 week) *(SOLD OUT)*\\n*Gold En Suite:* \\u00a3448 - \\u00a3453/week (Duration: 4 week - 43 week) *(SOLD OUT)*\\n*Bronze En Suite:* \\u00a3418 - \\u00a3421/week/person (Duration: 4 week - 43 week) *(SOLD OUT)*\\n*Gold 1 Bed Apt Plus:* \\u00a3748/week (Duration: 43 week) *(SOLD OUT)*\\n*Bronze Studio Plus:* \\u00a3465 - \\u00a3480/week (Duration: 43 week - 51 week) *(SOLD OUT)*\\n*Silver En Suite Plus:* \\u00a3448/week (Duration: 43 week) *(SOLD OUT)*\\n*Copper En Suite Plus:* \\u00a3393 - \\u00a3413/week (Duration: 43 week - 51 week) *(SOLD OUT)*\\n*Gold 1 Bed Apartment:* \\u00a3721/week (Duration: 43 week) *(SOLD OUT)*\\n*Bronze Mini Studio:* \\u00a3450/week (Duration: 51 week) *(SOLD OUT)*\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=143256\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-29T11:50:33.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *IQ CITY, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Bronze En Suite Plus:*\\\\n\\u00a0\\u00a0\\u00a3403/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3443/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Gold En Suite Plus:*\\\\n\\u00a0\\u00a0\\u00a3428/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3470/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Copper Studio:*\\\\n\\u00a0\\u00a0\\u00a3435/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3447/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver 2 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3437/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3465/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Gold 2 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3442/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Bronze 2 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3457/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Platinum 2 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3447/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Silver Studio:*\\\\n\\u00a0\\u00a0\\u00a3485/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver Studio Plus:*\\\\n\\u00a0\\u00a0\\u00a3496/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3518/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Gold Studio Plus:*\\\\n\\u00a0\\u00a0\\u00a3519/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3541/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Platinum Studio Plus:*\\\\n\\u00a0\\u00a0\\u00a3559/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3585/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Platinum Studio:*\\\\n\\u00a0\\u00a0\\u00a3563/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze 1 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3681/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3744/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver 1 Bed Apt Plus:*\\\\n\\u00a0\\u00a0\\u00a3693/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3757/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze 2 Bed Apartment:* \\u00a3432/week (Duration: 43 week) *(SOLD OUT)*\\\\n*Gold En Suite:* \\u00a3448 - \\u00a3453/week (Duration: 4 week - 43 week) *(SOLD OUT)*\\\\n*Bronze En Suite:* \\u00a3418 - \\u00a3421/week/person (Duration: 4 week - 43 week) *(SOLD OUT)*\\\\n*Gold 1 Bed Apt Plus:* \\u00a3748/week (Duration: 43 week) *(SOLD OUT)*\\\\n*Bronze Studio Plus:* \\u00a3465 - \\u00a3480/week (Duration: 43 week - 51 week) *(SOLD OUT)*\\\\n*Silver En Suite Plus:* \\u00a3448/week (Duration: 43 week) *(SOLD OUT)*\\\\n*Copper En Suite Plus:* \\u00a3393 - \\u00a3413/week (Duration: 43 week - 51 week) *(SOLD OUT)*\\\\n*Gold 1 Bed Apartment:* \\u00a3721/week (Duration: 43 week) *(SOLD OUT)*\\\\n*Bronze Mini Studio:* \\u00a3450/week (Duration: 51 week) *(SOLD OUT)*\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-city-london-1811192172260/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=143256\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1756468233000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"97699219633@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_97699219633@c.us_3EB06AAFD3CBCF1A64E201\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T11:50:33.974654\", \"direction\": \"outbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10399,
+      "lead_id": 642,
+      "event_type": "call",
+      "timestamp": "2025-08-29T11:57:55.856341",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7781967",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-29T11:57:55.856341\", \"id\": 7781967, \"duration\": \"0\", \"to_number\": \"97699219633\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10400,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T12:02:34",
+      "content": "Can you send an email about these details? I am expecting an email to get to know more about.",
+      "source": "whatsapp",
+      "event_id": "7985255",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T12:02:34\", \"id\": 7985255, \"email\": \"\", \"from_number\": \"97699219633\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_97699219633@c.us_3A2A15A10E347F1F5224\", \"message_type\": \"text\", \"message_content\": \"Can you send an email about these details? I am expecting an email to get to know more about.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"97699219633@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-29T12:02:34.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Can you send an email about these details? I am expecting an email to get to know more about.\\\", \\\"Datetime\\\": 1756468954000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"97699219633@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_97699219633@c.us_3A2A15A10E347F1F5224\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"97699219633\\\", \\\"sentByUserId\\\": \\\"97699219633@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T12:02:34.914885\", \"direction\": \"inbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10401,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T12:03:25",
+      "content": "yes i already sent the email",
+      "source": "whatsapp",
+      "event_id": "7985314",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T12:03:25\", \"id\": 7985314, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"97699219633\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_97699219633@c.us_3F8901CFE0CF0D129A1A\", \"message_type\": \"text\", \"message_content\": \"yes i already sent the email\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-29T12:03:25.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"yes i already sent the email\\\", \\\"Datetime\\\": 1756469005000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"97699219633@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_97699219633@c.us_3F8901CFE0CF0D129A1A\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T12:03:25.683679\", \"direction\": \"outbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10402,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T12:04:24",
+      "content": "please let me know when we can connect on call so i can explain better  about these accommodations",
+      "source": "whatsapp",
+      "event_id": "7985372",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T12:04:24\", \"id\": 7985372, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"97699219633\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_97699219633@c.us_3F1AE0E977C91E0827D2\", \"message_type\": \"text\", \"message_content\": \"please let me know when we can connect on call so i can explain better  about these accommodations\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-29T12:04:24.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"please let me know when we can connect on call so i can explain better  about these accommodations\\\", \\\"Datetime\\\": 1756469064000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"97699219633@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_97699219633@c.us_3F1AE0E977C91E0827D2\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T12:04:24.735509\", \"direction\": \"outbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10403,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T12:04:52",
+      "content": "Can you provide me your brief information and official position and your organization.",
+      "source": "whatsapp",
+      "event_id": "7985395",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T12:04:52\", \"id\": 7985395, \"email\": \"\", \"from_number\": \"97699219633\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_97699219633@c.us_3A533C04AF431409892B\", \"message_type\": \"text\", \"message_content\": \"Can you provide me your brief information and official position and your organization.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"97699219633@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-29T12:04:52.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Can you provide me your brief information and official position and your organization.\\\", \\\"Datetime\\\": 1756469092000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"97699219633@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_97699219633@c.us_3A533C04AF431409892B\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"97699219633\\\", \\\"sentByUserId\\\": \\\"97699219633@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T12:04:53.076022\", \"direction\": \"inbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10404,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T12:07:39",
+      "content": "Amber is the official accommodation provider for UCL and I am the booking expert for london,",
+      "source": "whatsapp",
+      "event_id": "7985558",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T12:07:39\", \"id\": 7985558, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"97699219633\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_97699219633@c.us_2433DE8C67E9CFEB493C6610F26709A6\", \"message_type\": \"text\", \"message_content\": \"Amber is the official accommodation provider for UCL and I am the booking expert for london,\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-29T12:07:39.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447446219714/2433DE8C67E9CFEB493C6610F26709A6.jpeg\\\", \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Amber is the official accommodation provider for UCL and I am the booking expert for london,\\\", \\\"Datetime\\\": 1756469259000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"97699219633@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_97699219633@c.us_2433DE8C67E9CFEB493C6610F26709A6\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T12:07:40.658464\", \"direction\": \"outbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10405,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T12:08:19",
+      "content": "As you can check in your email \n\nMy name is Mahmudul H \nEmail : mahmudul.h@amberstudent.com",
+      "source": "whatsapp",
+      "event_id": "7985610",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T12:08:19\", \"id\": 7985610, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"97699219633\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_97699219633@c.us_5596C5B463F6124556CBF9FCDE0AD6AB\", \"message_type\": \"text\", \"message_content\": \"As you can check in your email \\n\\nMy name is Mahmudul H \\nEmail : mahmudul.h@amberstudent.com\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-29T12:08:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"As you can check in your email \\\\n\\\\nMy name is Mahmudul H \\\\nEmail : mahmudul.h@amberstudent.com\\\", \\\"Datetime\\\": 1756469299000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"97699219633@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_97699219633@c.us_5596C5B463F6124556CBF9FCDE0AD6AB\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T12:08:19.522521\", \"direction\": \"outbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10406,
+      "lead_id": 642,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-29T12:09:24",
+      "content": "Thanks, i will be in touch if i am interested in about the accomodations.",
+      "source": "whatsapp",
+      "event_id": "7985671",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-29T12:09:24\", \"id\": 7985671, \"email\": \"\", \"from_number\": \"97699219633\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_97699219633@c.us_3AA6254F0E9E6B0A9263\", \"message_type\": \"text\", \"message_content\": \"Thanks, i will be in touch if i am interested in about the accomodations.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"97699219633@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-29T12:09:24.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Thanks, i will be in touch if i am interested in about the accomodations.\\\", \\\"Datetime\\\": 1756469364000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"97699219633@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_97699219633@c.us_3AA6254F0E9E6B0A9263\\\", \\\"ChannelName\\\": \\\"97699219633\\\", \\\"SentByNumber\\\": \\\"97699219633\\\", \\\"sentByUserId\\\": \\\"97699219633@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-29T12:09:24.669600\", \"direction\": \"inbound\", \"sbase_user_id\": 2442262, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"97699219633\"}",
+      "created_at": "2025-11-18 11:59:30"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 516,
+      "lead_id": 642,
+      "call_id": "7779717",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/439e9b6f-6900-4d37-bd2b-cad73905f48c.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Hi, yeah, I'm naming.\nSpeaker A: Hi Namin, how are you?\nSpeaker B: I'm fine, thank you.\nSpeaker A: This is Hussain. I'm calling from UCL accommodation portal powered by Amber. I was trying to connect your accommodation. Okay, yeah. Could you please confirm you are still looking for accommodation?\nSpeaker B: Yeah.\nSpeaker A: All right. Can we now discuss about your accommodation? Do you have some time in your hand?\nSpeaker B: Sorry, I can't catch you. Can you repeat it?\nSpeaker A: I was saying like, is it the right time to discuss about your accommodation? Are you free now?\nSpeaker B: Yeah, yeah, yeah, of course.\nSpeaker A: Perfect. So Norman, I was trying to connect with you and I texted you over WhatsApp. Also please share what kind of accommodation you're looking for right now.\nSpeaker B: Okay, so sorry, are you calling from the UCL official department or not?\nSpeaker A: Yes.\nSpeaker B: Okay. I'm. You know, I will study in the A. Great Ormond. Un. Great Ormond child healthcare center. So I would like to near the. I would like to say the nearest hospital.\nSpeaker A: Okay.\nSpeaker B: And is it possible I'm looking for the in suite accommodation.\nSpeaker A: You are looking for ensuite?\nSpeaker B: Yeah, yeah. Institute with the private bathroom. Yeah, with private room and private bathroom.\nSpeaker A: Sure. And a shared kitchen. Right, yeah. Could you let me know what is the desired budget you have?\nSpeaker B: Okay, my maximum budget is. Is 300. Sorry, 310 pounds per week. It's the maximum.\nSpeaker A: 310 pounds per week, right?\nSpeaker B: Yeah. Three one, zero.\nSpeaker A: All right, just allow me a moment, let me check what would be the best one for you and do you have any other preferences Apart from the ensuite? Do you have any other preferences? Anything at all? No, no.\nSpeaker B: Thank you. But you know my budget is very tight so if it's not. Yeah, if it's not, how can they match with my budget? I can choose the. I can choose the shared bathroom and shared kitchen. Only private room.\nSpeaker A: Yeah, that is what I was trying to advise you for. I have few accommodation which comes under your budget, but very few. Only one or two accommodations are there that will give you private bathroom in that budget. I want to know one more thing, if you don't mind. Do you have. You are international student, right?\nSpeaker B: Yeah, I'm the international student.\nSpeaker A: Perfect. So do you have a UK based guarantor? Someone staying in UK who will be your guarantor? Do you have someone like that?\nSpeaker B: Sorry, I can't understand what you're asking, but I already. My visa.\nSpeaker A: No, not about visa, this is a different thing. Let me explain it to you. So basically to book prop. Book an accommodation here, students need a UK based guarantee. That means someone who is staying In UK earnings.\nSpeaker B: I haven't any graduation but I. I have been awarded the churning scholarship. So chevening provided me my living cost.\nSpeaker A: No, it's not that. I'm talking about a different thing. Okay. I was asking you, do you have any family members? Do you have any relatives or any friends in UK can be your parent? Okay. So I have to provide you accommodations that doesn't require UK based character. Okay.\nSpeaker B: Okay. Thank you.\nSpeaker A: I have an accommodation. It is called Mannequin House and it. The rent is three under 310. Okay. I'm sharing you that one. And I'm sharing two IQ properties. IQD Arcade and IQ spelling code. Okay.\nSpeaker B: Okay.\nSpeaker A: I will be sharing this in your WhatsApp. Can you please connect. Confirm your WhatsApp number once?\nSpeaker B: Okay, so my WhatsApp number is my mobile number.\nSpeaker A: The same number as this one?\nSpeaker B: Yeah, yeah, yeah.\nSpeaker A: All right. All right. I will be sharing you the properties on your WhatsApp. Please check them out and please let me know on WhatsApp. And, and please understand like as September intake is about to be over, we are running very low on accommodations. So do check them out and let me know. Okay?\nSpeaker B: Okay.\nSpeaker A: All right, take care.\nSpeaker B: Yes.\nSpeaker A: Okay, go ahead, tell me. No, no, it's okay. Go ahead, ask me the question you were about to ask. Okay.\nSpeaker B: So you know, if it's possible, you can send me the email. Is it okay?\nSpeaker A: Yeah, I can send you the email. Yeah, I'll share on WhatsApp. Then I'll share on email also. Okay.\nSpeaker B: Okay, thank you. Thank you. Okay, all done?\nSpeaker A: Yeah, tell me.\nSpeaker B: For my side.\nSpeaker A: It's the comp.\nSpeaker B: All done?\nSpeaker A: Yes, it's done. I. I'm sharing you the properties now. Or do you want me to explain you about the property on the call?\nSpeaker B: Yeah, yeah, sure.\nSpeaker A: Just allow me a moment. Just allow me a moment. I'm sharing both of this with you and then I'm explaining about this on the call. Can I call you in a few minutes? Yeah, yeah, all right, sure. All right. No man, I will be calling in a few minutes. Take care. Bye. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:59:42"
+    }
+  ],
+  "summary": {
+    "id": 264,
+    "lead_id": 642,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Nomin Batsukh\", \"mobile\": [\"97699219633\"], \"email\": [\"nomin.batsukh@gmail.com\"], \"whatsapp\": [\"97699219633\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"ensuite\", \"budget\": {\"max\": 310, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": \"shared_kitchen\", \"dual_occupancy\": false, \"university\": \"University College London\", \"move_in_date\": \"2025-09-13\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"nearest hospital\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [\"granted\", \"has visa\"], \"guarantor\": \"no\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Mannequin House\", \"IQ City\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to review the property suggestions sent via WhatsApp and email and decide if interested in booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent shared property suggestions on WhatsApp on 2025-08-29 and student acknowledged will be in touch if interested.\"}, {\"type\": \"communication\", \"description\": \"Agent to follow up with student to explain accommodation options better via call when student is available.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent requested student to let know when to connect on call for better explanation on 2025-08-29.\"}], \"last_agent_response\": \"Agent confirmed sending property details by email and WhatsApp, provided official position and organization info, and requested student to let know when to connect on call for further explanation.\", \"suggested_next_step\": \"Agent to follow up with student via call or message to discuss accommodation options and assist with booking if student shows interest.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Nomin Batsukh\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: 97699219633, Email: nomin.batsukh@gmail.com, WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, United Kingdom\", \"university\": \"University College London (UCL)\", \"room_type\": \"Private room with ensuite bathroom preferred; open to private room with shared bathroom and kitchen if budget constraints\", \"budget_range\": \"Maximum \\u00a3310 per week\", \"move_in_date\": \"September 2025 (exact date not specified, but September intake mentioned)\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Near Great Ormond Street Hospital (Great Ormond Child Healthcare Center), ensuite bathroom preferred, UK-based guarantor not available\"}, \"current_status\": {\"booking_stage\": \"property_selection\", \"documents_status\": \"UK-based guarantor not available; visa status mentioned but no issues noted\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"International student visa confirmed\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (at least 4) and WhatsApp message packs (3) between August 18 and August 29, 2025\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-29 at 12:09 (WhatsApp)\", \"response_time\": \"Agent initiated contact multiple times; student responded within hours to days; some delays between messages\", \"key_moments\": \"Initial room confirmation offer on 2025-08-18; detailed call on 2025-08-29 discussing preferences and budget; property suggestions sent via WhatsApp on 2025-08-29; student requested email confirmation and agent provided credentials; student indicated will be in touch if interested\"}, \"properties_discussed\": {\"properties_mentioned\": \"Mannequin House, IQ City (IQD Arcade and IQ Spelling Code mentioned in call but not detailed in messages)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Preference for ensuite; budget constraints limit options; willing to consider shared bathroom if needed\", \"offers_made\": \"Agent shared links to properties within or near budget; no formal offers or discounts mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to review emailed property details and WhatsApp links\", \"pending_items\": \"Student decision on accommodation interest\", \"follow_up_required\": \"Agent to await student\\u2019s response and be ready to explain accommodations further via call if requested\", \"timeline\": \"September 2025 intake deadline approaching; urgency implied\"}, \"agent_notes\": {\"student_tone\": \"Polite, cautious, seeking clarity and official confirmation\", \"urgency_level\": \"Moderate urgency due to intake timeline and limited availability\", \"complexity\": \"Moderate complexity due to budget constraints and lack of UK guarantor\", \"special_considerations\": \"Student is international with scholarship covering living costs; requires accommodation near Great Ormond Street Hospital; budget tight; no UK guarantor available\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Nomin Batsukh\", \"mobile\": [\"97699219633\"], \"email\": [\"nomin.batsukh@gmail.com\"], \"whatsapp\": [\"97699219633\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"ensuite\", \"budget\": {\"max\": 310, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": \"shared_kitchen\", \"dual_occupancy\": false, \"university\": \"University College London\", \"move_in_date\": \"2025-09-13\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"nearest hospital\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [\"granted\", \"has visa\"], \"guarantor\": \"no\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Mannequin House\", \"IQ City\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to review the property suggestions sent via WhatsApp and email and decide if interested in booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent shared property suggestions on WhatsApp on 2025-08-29 and student acknowledged will be in touch if interested.\"}, {\"type\": \"communication\", \"description\": \"Agent to follow up with student to explain accommodation options better via call when student is available.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent requested student to let know when to connect on call for better explanation on 2025-08-29.\"}], \"last_agent_response\": \"Agent confirmed sending property details by email and WhatsApp, provided official position and organization info, and requested student to let know when to connect on call for further explanation.\", \"suggested_next_step\": \"Agent to follow up with student via call or message to discuss accommodation options and assist with booking if student shows interest.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Nomin Batsukh\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: 97699219633, Email: nomin.batsukh@gmail.com, WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, United Kingdom\", \"university\": \"University College London (UCL)\", \"room_type\": \"Private room with ensuite bathroom preferred; open to private room with shared bathroom and kitchen if budget constraints\", \"budget_range\": \"Maximum \\u00a3310 per week\", \"move_in_date\": \"September 2025 (exact date not specified, but September intake mentioned)\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Near Great Ormond Street Hospital (Great Ormond Child Healthcare Center), ensuite bathroom preferred, UK-based guarantor not available\"}, \"current_status\": {\"booking_stage\": \"property_selection\", \"documents_status\": \"UK-based guarantor not available; visa status mentioned but no issues noted\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"International student visa confirmed\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (at least 4) and WhatsApp message packs (3) between August 18 and August 29, 2025\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-29 at 12:09 (WhatsApp)\", \"response_time\": \"Agent initiated contact multiple times; student responded within hours to days; some delays between messages\", \"key_moments\": \"Initial room confirmation offer on 2025-08-18; detailed call on 2025-08-29 discussing preferences and budget; property suggestions sent via WhatsApp on 2025-08-29; student requested email confirmation and agent provided credentials; student indicated will be in touch if interested\"}, \"properties_discussed\": {\"properties_mentioned\": \"Mannequin House, IQ City (IQD Arcade and IQ Spelling Code mentioned in call but not detailed in messages)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Preference for ensuite; budget constraints limit options; willing to consider shared bathroom if needed\", \"offers_made\": \"Agent shared links to properties within or near budget; no formal offers or discounts mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to review emailed property details and WhatsApp links\", \"pending_items\": \"Student decision on accommodation interest\", \"follow_up_required\": \"Agent to await student\\u2019s response and be ready to explain accommodations further via call if requested\", \"timeline\": \"September 2025 intake deadline approaching; urgency implied\"}, \"agent_notes\": {\"student_tone\": \"Polite, cautious, seeking clarity and official confirmation\", \"urgency_level\": \"Moderate urgency due to intake timeline and limited availability\", \"complexity\": \"Moderate complexity due to budget constraints and lack of UK guarantor\", \"special_considerations\": \"Student is international with scholarship covering living costs; requires accommodation near Great Ormond Street Hospital; budget tight; no UK guarantor available\"}}}}}",
+    "created_at": "2025-11-18 11:59:54",
+    "updated_at": "2025-11-18T17:29:54.529589",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Nomin Batsukh",
+        "mobile": [
+          "97699219633"
+        ],
+        "email": [
+          "nomin.batsukh@gmail.com"
+        ],
+        "whatsapp": [
+          "97699219633"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "ensuite",
+        "budget": {
+          "max": 310,
+          "currency": "GBP"
+        },
+        "bathroom_type": "private_bathroom",
+        "kitchen_type": "shared_kitchen",
+        "dual_occupancy": false,
+        "university": "University College London",
+        "move_in_date": "2025-09-13",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "nearest hospital"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "University College London"
+        ],
+        "flight_booking": [],
+        "visa_status": [
+          "granted",
+          "has visa"
+        ],
+        "guarantor": "no"
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Mannequin House",
+          "IQ City"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Student to review the property suggestions sent via WhatsApp and email and decide if interested in booking.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent shared property suggestions on WhatsApp on 2025-08-29 and student acknowledged will be in touch if interested."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to follow up with student to explain accommodation options better via call when student is available.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent requested student to let know when to connect on call for better explanation on 2025-08-29."
+        }
+      ],
+      "last_agent_response": "Agent confirmed sending property details by email and WhatsApp, provided official position and organization info, and requested student to let know when to connect on call for further explanation.",
+      "suggested_next_step": "Agent to follow up with student via call or message to discuss accommodation options and assist with booking if student shows interest."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Nomin Batsukh",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone: 97699219633, Email: nomin.batsukh@gmail.com, WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, United Kingdom",
+            "university": "University College London (UCL)",
+            "room_type": "Private room with ensuite bathroom preferred; open to private room with shared bathroom and kitchen if budget constraints",
+            "budget_range": "Maximum £310 per week",
+            "move_in_date": "September 2025 (exact date not specified, but September intake mentioned)",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Near Great Ormond Street Hospital (Great Ormond Child Healthcare Center), ensuite bathroom preferred, UK-based guarantor not available"
+          },
+          "current_status": {
+            "booking_stage": "property_selection",
+            "documents_status": "UK-based guarantor not available; visa status mentioned but no issues noted",
+            "payment_status": "Not mentioned",
+            "visa_status": "International student visa confirmed",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple calls (at least 4) and WhatsApp message packs (3) between August 18 and August 29, 2025",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-08-29 at 12:09 (WhatsApp)",
+            "response_time": "Agent initiated contact multiple times; student responded within hours to days; some delays between messages",
+            "key_moments": "Initial room confirmation offer on 2025-08-18; detailed call on 2025-08-29 discussing preferences and budget; property suggestions sent via WhatsApp on 2025-08-29; student requested email confirmation and agent provided credentials; student indicated will be in touch if interested"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Mannequin House, IQ City (IQD Arcade and IQ Spelling Code mentioned in call but not detailed in messages)",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Preference for ensuite; budget constraints limit options; willing to consider shared bathroom if needed",
+            "offers_made": "Agent shared links to properties within or near budget; no formal offers or discounts mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to review emailed property details and WhatsApp links",
+            "pending_items": "Student decision on accommodation interest",
+            "follow_up_required": "Agent to await student’s response and be ready to explain accommodations further via call if requested",
+            "timeline": "September 2025 intake deadline approaching; urgency implied"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, cautious, seeking clarity and official confirmation",
+            "urgency_level": "Moderate urgency due to intake timeline and limited availability",
+            "complexity": "Moderate complexity due to budget constraints and lack of UK guarantor",
+            "special_considerations": "Student is international with scholarship covering living costs; requires accommodation near Great Ormond Street Hospital; budget tight; no UK guarantor available"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Nomin Batsukh",
+          "mobile": [
+            "97699219633"
+          ],
+          "email": [
+            "nomin.batsukh@gmail.com"
+          ],
+          "whatsapp": [
+            "97699219633"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "ensuite",
+          "budget": {
+            "max": 310,
+            "currency": "GBP"
+          },
+          "bathroom_type": "private_bathroom",
+          "kitchen_type": "shared_kitchen",
+          "dual_occupancy": false,
+          "university": "University College London",
+          "move_in_date": "2025-09-13",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "nearest hospital"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "University College London"
+          ],
+          "flight_booking": [],
+          "visa_status": [
+            "granted",
+            "has visa"
+          ],
+          "guarantor": "no"
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Mannequin House",
+            "IQ City"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Student to review the property suggestions sent via WhatsApp and email and decide if interested in booking.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent shared property suggestions on WhatsApp on 2025-08-29 and student acknowledged will be in touch if interested."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to follow up with student to explain accommodation options better via call when student is available.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent requested student to let know when to connect on call for better explanation on 2025-08-29."
+          }
+        ],
+        "last_agent_response": "Agent confirmed sending property details by email and WhatsApp, provided official position and organization info, and requested student to let know when to connect on call for further explanation.",
+        "suggested_next_step": "Agent to follow up with student via call or message to discuss accommodation options and assist with booking if student shows interest."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Nomin Batsukh",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone: 97699219633, Email: nomin.batsukh@gmail.com, WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, United Kingdom",
+              "university": "University College London (UCL)",
+              "room_type": "Private room with ensuite bathroom preferred; open to private room with shared bathroom and kitchen if budget constraints",
+              "budget_range": "Maximum £310 per week",
+              "move_in_date": "September 2025 (exact date not specified, but September intake mentioned)",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Near Great Ormond Street Hospital (Great Ormond Child Healthcare Center), ensuite bathroom preferred, UK-based guarantor not available"
+            },
+            "current_status": {
+              "booking_stage": "property_selection",
+              "documents_status": "UK-based guarantor not available; visa status mentioned but no issues noted",
+              "payment_status": "Not mentioned",
+              "visa_status": "International student visa confirmed",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple calls (at least 4) and WhatsApp message packs (3) between August 18 and August 29, 2025",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-08-29 at 12:09 (WhatsApp)",
+              "response_time": "Agent initiated contact multiple times; student responded within hours to days; some delays between messages",
+              "key_moments": "Initial room confirmation offer on 2025-08-18; detailed call on 2025-08-29 discussing preferences and budget; property suggestions sent via WhatsApp on 2025-08-29; student requested email confirmation and agent provided credentials; student indicated will be in touch if interested"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Mannequin House, IQ City (IQD Arcade and IQ Spelling Code mentioned in call but not detailed in messages)",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Preference for ensuite; budget constraints limit options; willing to consider shared bathroom if needed",
+              "offers_made": "Agent shared links to properties within or near budget; no formal offers or discounts mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to review emailed property details and WhatsApp links",
+              "pending_items": "Student decision on accommodation interest",
+              "follow_up_required": "Agent to await student’s response and be ready to explain accommodations further via call if requested",
+              "timeline": "September 2025 intake deadline approaching; urgency implied"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, cautious, seeking clarity and official confirmation",
+              "urgency_level": "Moderate urgency due to intake timeline and limited availability",
+              "complexity": "Moderate complexity due to budget constraints and lack of UK guarantor",
+              "special_considerations": "Student is international with scholarship covering living costs; requires accommodation near Great Ormond Street Hospital; budget tight; no UK guarantor available"
+            }
+          }
+        }
+      }
+    }
+  }
+}

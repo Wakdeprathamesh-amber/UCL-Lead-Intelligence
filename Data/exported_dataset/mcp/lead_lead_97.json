@@ -1,0 +1,402 @@
+{
+  "id": "lead_97",
+  "mobile_number": "82631555292",
+  "email": null,
+  "timeline": [
+    {
+      "id": 1784,
+      "lead_id": 97,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3089503, \"user_name\": \"Quinten Kwok\", \"email\": \"quinren99100@gmail.com\", \"phone\": \"82631555292\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 292, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8217, \"inventory_id\": 2014868}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1785,
+      "lead_id": 97,
+      "event_type": "call",
+      "timestamp": "2025-07-25T08:49:58.469152",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7565610",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-25T08:49:58.469152\", \"id\": 7565610, \"duration\": \"17\", \"to_number\": \"82631555292\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/fb158277-e264-4bc8-b91e-50844c32de9e.wav\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1786,
+      "lead_id": 97,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-25T10:15:37",
+      "content": "Hey Quinten Kwok, Hope you are doing well! This is Booking Manager Anuranan from Amber Student.",
+      "source": "whatsapp",
+      "event_id": "6421423",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-25T10:15:37\", \"id\": 6421423, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"82631555292\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_82631555292@c.us_3EB0060C82C0F13D780E4C\", \"message_type\": \"text\", \"message_content\": \"Hey Quinten Kwok, Hope you are doing well! This is Booking Manager Anuranan from Amber Student.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-25T10:15:37.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Quinten Kwok, Hope you are doing well! This is Booking Manager Anuranan from Amber Student.\\\", \\\"Datetime\\\": 1753438537000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"82631555292@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_82631555292@c.us_3EB0060C82C0F13D780E4C\\\", \\\"ChannelName\\\": \\\"82631555292\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-25T10:15:37.664692\", \"direction\": \"outbound\", \"sbase_user_id\": 2392151, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"82631555292\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1787,
+      "lead_id": 97,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-25T10:16:17",
+      "content": "I will help you find ideal student accommodations near UCL.",
+      "source": "whatsapp",
+      "event_id": "6421459",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-25T10:16:17\", \"id\": 6421459, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"82631555292\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_82631555292@c.us_3EB0835DBFF802C822F333\", \"message_type\": \"text\", \"message_content\": \"I will help you find ideal student accommodations near UCL.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-25T10:16:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"I will help you find ideal student accommodations near UCL.\\\", \\\"Datetime\\\": 1753438577000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"82631555292@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_82631555292@c.us_3EB0835DBFF802C822F333\\\", \\\"ChannelName\\\": \\\"82631555292\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-25T10:16:17.963875\", \"direction\": \"outbound\", \"sbase_user_id\": 2392151, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"82631555292\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1788,
+      "lead_id": 97,
+      "event_type": "call",
+      "timestamp": "2025-07-31T09:16:55.701063",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7598697",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-31T09:16:55.701063\", \"id\": 7598697, \"duration\": \"0\", \"to_number\": \"82631555292\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1789,
+      "lead_id": 97,
+      "event_type": "call",
+      "timestamp": "2025-08-02T08:53:54.161188",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7611374",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-02T08:53:54.161188\", \"id\": 7611374, \"duration\": \"0\", \"to_number\": \"82631555292\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1790,
+      "lead_id": 97,
+      "event_type": "call",
+      "timestamp": "2025-08-05T11:14:58.714420",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7626563",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-05T11:14:58.714420\", \"id\": 7626563, \"duration\": \"0\", \"to_number\": \"82631555292\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1791,
+      "lead_id": 97,
+      "event_type": "call",
+      "timestamp": "2025-08-07T06:01:55.600607",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7637991",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-07T06:01:55.600607\", \"id\": 7637991, \"duration\": \"0\", \"to_number\": \"82631555292\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1792,
+      "lead_id": 97,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-07T06:02:29",
+      "content": "Hey Quinten, Look forward to hearing from you",
+      "source": "whatsapp",
+      "event_id": "6906419",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-07T06:02:29\", \"id\": 6906419, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"82631555292\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_82631555292@c.us_3EB0F3F2BBAAE988641D39\", \"message_type\": \"text\", \"message_content\": \"Hey Quinten, Look forward to hearing from you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-07T06:02:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Quinten, Look forward to hearing from you\\\", \\\"Datetime\\\": 1754546549000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"82631555292@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_82631555292@c.us_3EB0F3F2BBAAE988641D39\\\", \\\"ChannelName\\\": \\\"82631555292\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-07T06:02:30.278300\", \"direction\": \"outbound\", \"sbase_user_id\": 2392151, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"82631555292\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1793,
+      "lead_id": 97,
+      "event_type": "call",
+      "timestamp": "2025-08-09T08:20:59.192614",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7652024",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-09T08:20:59.192614\", \"id\": 7652024, \"duration\": \"0\", \"to_number\": \"82631555292\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:10:12"
+    },
+    {
+      "id": 1794,
+      "lead_id": 97,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-09T08:22:06",
+      "content": "Hey Quinten, Let us know if you are looking for Ideal accommodations near UCL.",
+      "source": "whatsapp",
+      "event_id": "7002730",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-09T08:22:06\", \"id\": 7002730, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"82631555292\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_82631555292@c.us_3EB0E01E3BD61F5AAF448A\", \"message_type\": \"text\", \"message_content\": \"Hey Quinten, Let us know if you are looking for Ideal accommodations near UCL.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-09T08:22:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Quinten, Let us know if you are looking for Ideal accommodations near UCL.\\\", \\\"Datetime\\\": 1754727726000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"82631555292@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_82631555292@c.us_3EB0E01E3BD61F5AAF448A\\\", \\\"ChannelName\\\": \\\"82631555292\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-09T08:22:07.365809\", \"direction\": \"outbound\", \"sbase_user_id\": 2392151, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"82631555292\"}",
+      "created_at": "2025-11-18 10:10:12"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 45,
+      "lead_id": 97,
+      "call_id": "7565610",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/fb158277-e264-4bc8-b91e-50844c32de9e.wav",
+      "transcript_text": "Speaker A: The numbers 001-826-315292 new dialed is on a call Please don't hang.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:10:17"
+    }
+  ],
+  "summary": {
+    "id": 37,
+    "lead_id": 97,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Quinten Kwok\", \"mobile\": [\"82631555292\"], \"email\": [\"quinren99100@gmail.com\"], \"whatsapp\": [\"82631555292\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 292, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Follow up with Quinten Kwok to confirm if he is looking for ideal student accommodations near UCL.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-07 and 2025-08-09 asking Quinten to confirm interest\"}], \"last_agent_response\": \"Sent WhatsApp messages on 2025-08-07 and 2025-08-09 to Quinten Kwok expressing readiness to help and asking to confirm if he is looking for accommodations near UCL.\", \"suggested_next_step\": \"Agent to follow up with Quinten Kwok if no response is received within a week to confirm his accommodation preferences.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Quinten Kwok\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (quinren99100@gmail.com), Phone (82631555292), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, near UCL\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3292 weekly\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"51 weeks, move-out date 2026-08-28\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"13 (6 calls, 7 WhatsApp messages)\", \"primary_channel\": \"Calls and WhatsApp\", \"last_contact\": \"2025-08-09 via WhatsApp\", \"response_time\": \"Agent initiated multiple contacts; no student replies recorded\", \"key_moments\": \"Initial lead on 2025-06-09; first successful call on 2025-07-25; multiple unanswered calls from 2025-07-31 to 2025-08-09; WhatsApp messages sent to prompt response\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2014868 (specific property not detailed)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Interest in accommodations near UCL\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Await student response to agent's WhatsApp messages and calls\", \"pending_items\": \"Student confirmation or inquiry response\", \"follow_up_required\": \"Continue follow-up via WhatsApp and calls\", \"timeline\": \"Lease duration ends 2026-08-28; no immediate deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; agent initiated contact\", \"urgency_level\": \"Low to moderate; multiple follow-ups but no student replies\", \"complexity\": \"Simple initial inquiry with no complications noted\", \"special_considerations\": \"Student has not responded to multiple outreach attempts; focus on engagement\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Quinten Kwok\", \"mobile\": [\"82631555292\"], \"email\": [\"quinren99100@gmail.com\"], \"whatsapp\": [\"82631555292\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 292, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Follow up with Quinten Kwok to confirm if he is looking for ideal student accommodations near UCL.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-07 and 2025-08-09 asking Quinten to confirm interest\"}], \"last_agent_response\": \"Sent WhatsApp messages on 2025-08-07 and 2025-08-09 to Quinten Kwok expressing readiness to help and asking to confirm if he is looking for accommodations near UCL.\", \"suggested_next_step\": \"Agent to follow up with Quinten Kwok if no response is received within a week to confirm his accommodation preferences.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Quinten Kwok\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (quinren99100@gmail.com), Phone (82631555292), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, near UCL\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3292 weekly\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"51 weeks, move-out date 2026-08-28\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"13 (6 calls, 7 WhatsApp messages)\", \"primary_channel\": \"Calls and WhatsApp\", \"last_contact\": \"2025-08-09 via WhatsApp\", \"response_time\": \"Agent initiated multiple contacts; no student replies recorded\", \"key_moments\": \"Initial lead on 2025-06-09; first successful call on 2025-07-25; multiple unanswered calls from 2025-07-31 to 2025-08-09; WhatsApp messages sent to prompt response\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2014868 (specific property not detailed)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Interest in accommodations near UCL\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Await student response to agent's WhatsApp messages and calls\", \"pending_items\": \"Student confirmation or inquiry response\", \"follow_up_required\": \"Continue follow-up via WhatsApp and calls\", \"timeline\": \"Lease duration ends 2026-08-28; no immediate deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; agent initiated contact\", \"urgency_level\": \"Low to moderate; multiple follow-ups but no student replies\", \"complexity\": \"Simple initial inquiry with no complications noted\", \"special_considerations\": \"Student has not responded to multiple outreach attempts; focus on engagement\"}}}}}",
+    "created_at": "2025-11-18 10:10:25",
+    "updated_at": "2025-11-18T15:40:25.913864",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Quinten Kwok",
+        "mobile": [
+          "82631555292"
+        ],
+        "email": [
+          "quinren99100@gmail.com"
+        ],
+        "whatsapp": [
+          "82631555292"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 292,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Follow up with Quinten Kwok to confirm if he is looking for ideal student accommodations near UCL.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages on 2025-08-07 and 2025-08-09 asking Quinten to confirm interest"
+        }
+      ],
+      "last_agent_response": "Sent WhatsApp messages on 2025-08-07 and 2025-08-09 to Quinten Kwok expressing readiness to help and asking to confirm if he is looking for accommodations near UCL.",
+      "suggested_next_step": "Agent to follow up with Quinten Kwok if no response is received within a week to confirm his accommodation preferences."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Quinten Kwok",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (quinren99100@gmail.com), Phone (82631555292), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, near UCL",
+            "university": "University College London (UCL)",
+            "room_type": "Not mentioned",
+            "budget_range": "£292 weekly",
+            "move_in_date": "Not explicitly mentioned",
+            "lease_duration": "51 weeks, move-out date 2026-08-28",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "13 (6 calls, 7 WhatsApp messages)",
+            "primary_channel": "Calls and WhatsApp",
+            "last_contact": "2025-08-09 via WhatsApp",
+            "response_time": "Agent initiated multiple contacts; no student replies recorded",
+            "key_moments": "Initial lead on 2025-06-09; first successful call on 2025-07-25; multiple unanswered calls from 2025-07-31 to 2025-08-09; WhatsApp messages sent to prompt response"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2014868 (specific property not detailed)",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Interest in accommodations near UCL",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Await student response to agent's WhatsApp messages and calls",
+            "pending_items": "Student confirmation or inquiry response",
+            "follow_up_required": "Continue follow-up via WhatsApp and calls",
+            "timeline": "Lease duration ends 2026-08-28; no immediate deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication from student recorded; agent initiated contact",
+            "urgency_level": "Low to moderate; multiple follow-ups but no student replies",
+            "complexity": "Simple initial inquiry with no complications noted",
+            "special_considerations": "Student has not responded to multiple outreach attempts; focus on engagement"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Quinten Kwok",
+          "mobile": [
+            "82631555292"
+          ],
+          "email": [
+            "quinren99100@gmail.com"
+          ],
+          "whatsapp": [
+            "82631555292"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 292,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Follow up with Quinten Kwok to confirm if he is looking for ideal student accommodations near UCL.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages on 2025-08-07 and 2025-08-09 asking Quinten to confirm interest"
+          }
+        ],
+        "last_agent_response": "Sent WhatsApp messages on 2025-08-07 and 2025-08-09 to Quinten Kwok expressing readiness to help and asking to confirm if he is looking for accommodations near UCL.",
+        "suggested_next_step": "Agent to follow up with Quinten Kwok if no response is received within a week to confirm his accommodation preferences."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Quinten Kwok",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (quinren99100@gmail.com), Phone (82631555292), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, near UCL",
+              "university": "University College London (UCL)",
+              "room_type": "Not mentioned",
+              "budget_range": "£292 weekly",
+              "move_in_date": "Not explicitly mentioned",
+              "lease_duration": "51 weeks, move-out date 2026-08-28",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "13 (6 calls, 7 WhatsApp messages)",
+              "primary_channel": "Calls and WhatsApp",
+              "last_contact": "2025-08-09 via WhatsApp",
+              "response_time": "Agent initiated multiple contacts; no student replies recorded",
+              "key_moments": "Initial lead on 2025-06-09; first successful call on 2025-07-25; multiple unanswered calls from 2025-07-31 to 2025-08-09; WhatsApp messages sent to prompt response"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2014868 (specific property not detailed)",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Interest in accommodations near UCL",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Await student response to agent's WhatsApp messages and calls",
+              "pending_items": "Student confirmation or inquiry response",
+              "follow_up_required": "Continue follow-up via WhatsApp and calls",
+              "timeline": "Lease duration ends 2026-08-28; no immediate deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication from student recorded; agent initiated contact",
+              "urgency_level": "Low to moderate; multiple follow-ups but no student replies",
+              "complexity": "Simple initial inquiry with no complications noted",
+              "special_considerations": "Student has not responded to multiple outreach attempts; focus on engagement"
+            }
+          }
+        }
+      }
+    }
+  }
+}

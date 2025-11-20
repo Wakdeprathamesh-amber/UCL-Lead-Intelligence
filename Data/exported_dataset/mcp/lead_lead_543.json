@@ -1,0 +1,775 @@
+{
+  "id": "lead_543",
+  "mobile_number": "447912991590",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8698,
+      "lead_id": 543,
+      "event_type": "call",
+      "timestamp": "2025-08-14T15:07:52.982373",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7683706",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-14T15:07:52.982373\", \"id\": 7683706, \"duration\": \"440\", \"to_number\": \"447723497306\", \"from_number\": \"447912991590\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3f7de109-d7cf-41ca-82da-5a509c65aef2.wav\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8699,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T15:21:10",
+      "content": "Hello. I was just assigned you as our agent.\n\nI am looking for halls for my son who will be in first year. He has never lived away from home so 1. ideally very close to UCL.\n2. Ideally lots of other first years from UCL so that he is part of a cohesive group and somewhere where there are communal facilities for residents to meet and come together/ activities.\n\n3. He would only want a solo room, so no shared bedroom.\n4. ⁠Catering would be an option but not a deal breaker. Location and community is more important.\n\nAlso, we would like to view the options, please. We are in London on Tuesday afternoon and would be available to look from about 1pm.",
+      "source": "whatsapp",
+      "event_id": "7232376",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T15:21:10\", \"id\": 7232376, \"email\": \"\", \"from_number\": \"447912991590\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447912991590@c.us_3A5419E4844AE5F7EFBE\", \"message_type\": \"text\", \"message_content\": \"Hello. I was just assigned you as our agent.\\n\\nI am looking for halls for my son who will be in first year. He has never lived away from home so 1. ideally very close to UCL.\\n2. Ideally lots of other first years from UCL so that he is part of a cohesive group and somewhere where there are communal facilities for residents to meet and come together/ activities.\\n\\n3. He would only want a solo room, so no shared bedroom.\\n4. \\u2060Catering would be an option but not a deal breaker. Location and community is more important.\\n\\nAlso, we would like to view the options, please. We are in London on Tuesday afternoon and would be available to look from about 1pm.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447912991590@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-14T15:21:10.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hello. I was just assigned you as our agent.\\\\n\\\\nI am looking for halls for my son who will be in first year. He has never lived away from home so 1. ideally very close to UCL.\\\\n2. Ideally lots of other first years from UCL so that he is part of a cohesive group and somewhere where there are communal facilities for residents to meet and come together/ activities.\\\\n\\\\n3. He would only want a solo room, so no shared bedroom.\\\\n4. \\u2060Catering would be an option but not a deal breaker. Location and community is more important.\\\\n\\\\nAlso, we would like to view the options, please. We are in London on Tuesday afternoon and would be available to look from about 1pm.\\\", \\\"Datetime\\\": 1755184870000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"447912991590@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447912991590@c.us_3A5419E4844AE5F7EFBE\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447912991590\\\", \\\"sentByUserId\\\": \\\"447912991590@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-14T15:21:11.626449\", \"direction\": \"inbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8700,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T16:10:25",
+      "content": "I stopped working today",
+      "source": "whatsapp",
+      "event_id": "7236016",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T16:10:25\", \"id\": 7236016, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3AB758CFFDFA408944D8\", \"message_type\": \"text\", \"message_content\": \"I stopped working today\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T16:10:25.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"I stopped working today\\\", \\\"Datetime\\\": 1755187825000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3AB758CFFDFA408944D8\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-14T16:10:25.624891\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8701,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T16:10:30",
+      "content": "Can help you out tomorrow",
+      "source": "whatsapp",
+      "event_id": "7236020",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T16:10:30\", \"id\": 7236020, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3A2AD5272A9105A61582\", \"message_type\": \"text\", \"message_content\": \"Can help you out tomorrow\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T16:10:30.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Can help you out tomorrow\\\", \\\"Datetime\\\": 1755187830000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3A2AD5272A9105A61582\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-14T16:10:30.756452\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8702,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T16:10:56",
+      "content": "Great. Can we talk tomorrow at 9am? I am keen to work something out for my son.",
+      "source": "whatsapp",
+      "event_id": "7236050",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T16:10:56\", \"id\": 7236050, \"email\": \"\", \"from_number\": \"447912991590\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447912991590@c.us_3A47E83785ADC80BCDC0\", \"message_type\": \"text\", \"message_content\": \"Great. Can we talk tomorrow at 9am? I am keen to work something out for my son.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447912991590@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-14T16:10:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Great. Can we talk tomorrow at 9am? I am keen to work something out for my son.\\\", \\\"Datetime\\\": 1755187856000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"447912991590@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447912991590@c.us_3A47E83785ADC80BCDC0\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447912991590\\\", \\\"sentByUserId\\\": \\\"447912991590@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-14T16:10:56.638239\", \"direction\": \"inbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8703,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T16:20:58",
+      "content": "Lets see",
+      "source": "whatsapp",
+      "event_id": "7236673",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T16:20:58\", \"id\": 7236673, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3A2C83F9D28095B9AC72\", \"message_type\": \"text\", \"message_content\": \"Lets see\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T16:20:58.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Lets see\\\", \\\"Datetime\\\": 1755188458000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3A2C83F9D28095B9AC72\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-14T16:20:58.993407\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8704,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T16:21:14",
+      "content": "Sill send you a few options for today",
+      "source": "whatsapp",
+      "event_id": "7236685",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T16:21:14\", \"id\": 7236685, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3A08E414F8BFFA5ACE60\", \"message_type\": \"text\", \"message_content\": \"Sill send you a few options for today\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-14T16:21:14.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Sill send you a few options for today\\\", \\\"Datetime\\\": 1755188474000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3A08E414F8BFFA5ACE60\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-14T16:21:14.980409\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8705,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-14T16:32:32",
+      "content": "Thank you. I am not sure how quickly things go. Do you think we should look sooner than Tuesday?",
+      "source": "whatsapp",
+      "event_id": "7237625",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-14T16:32:32\", \"id\": 7237625, \"email\": \"\", \"from_number\": \"447912991590\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447912991590@c.us_3AF91008605AFFE1EFE7\", \"message_type\": \"text\", \"message_content\": \"Thank you. I am not sure how quickly things go. Do you think we should look sooner than Tuesday?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447912991590@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-14T16:32:32.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Thank you. I am not sure how quickly things go. Do you think we should look sooner than Tuesday?\\\", \\\"Datetime\\\": 1755189152000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"447912991590@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447912991590@c.us_3AF91008605AFFE1EFE7\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447912991590\\\", \\\"sentByUserId\\\": \\\"447912991590@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-14T16:32:32.958269\", \"direction\": \"inbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8706,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T05:37:19",
+      "content": "Obviously, i think the sooner the better",
+      "source": "whatsapp",
+      "event_id": "7255497",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T05:37:19\", \"id\": 7255497, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3A6A74AA5EFF501598EE\", \"message_type\": \"text\", \"message_content\": \"Obviously, i think the sooner the better\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T05:37:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Obviously, i think the sooner the better\\\", \\\"Datetime\\\": 1755236239000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3A6A74AA5EFF501598EE\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T05:37:19.655229\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8707,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T05:37:32",
+      "content": "Or else the properties will be sold out and",
+      "source": "whatsapp",
+      "event_id": "7255505",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T05:37:32\", \"id\": 7255505, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3A6FC2947DB083127962\", \"message_type\": \"text\", \"message_content\": \"Or else the properties will be sold out and\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T05:37:32.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Or else the properties will be sold out and\\\", \\\"Datetime\\\": 1755236252000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3A6FC2947DB083127962\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T05:37:32.412253\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8708,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T05:37:39",
+      "content": "The rents might also increase",
+      "source": "whatsapp",
+      "event_id": "7255507",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T05:37:39\", \"id\": 7255507, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3AA7C53D693801962F51\", \"message_type\": \"text\", \"message_content\": \"The rents might also increase\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T05:37:39.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"The rents might also increase\\\", \\\"Datetime\\\": 1755236259000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3AA7C53D693801962F51\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T05:37:39.969502\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8709,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T08:22:55",
+      "content": "Can you call me back, please?",
+      "source": "whatsapp",
+      "event_id": "7260431",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T08:22:55\", \"id\": 7260431, \"email\": \"\", \"from_number\": \"447912991590\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447912991590@c.us_3AB700C7E914891036DC\", \"message_type\": \"text\", \"message_content\": \"Can you call me back, please?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447912991590@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-15T08:22:55.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Can you call me back, please?\\\", \\\"Datetime\\\": 1755246175000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"447912991590@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447912991590@c.us_3AB700C7E914891036DC\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447912991590\\\", \\\"sentByUserId\\\": \\\"447912991590@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T08:22:55.623279\", \"direction\": \"inbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8710,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T08:56:53",
+      "content": "Have you sent me options? I have not seen any!",
+      "source": "whatsapp",
+      "event_id": "7262371",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T08:56:53\", \"id\": 7262371, \"email\": \"\", \"from_number\": \"447912991590\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447912991590@c.us_3A2C2536B9B18806A35A\", \"message_type\": \"text\", \"message_content\": \"Have you sent me options? I have not seen any!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447912991590@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-15T08:56:53.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Have you sent me options? I have not seen any!\\\", \\\"Datetime\\\": 1755248213000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"447912991590@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447912991590@c.us_3A2C2536B9B18806A35A\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447912991590\\\", \\\"sentByUserId\\\": \\\"447912991590@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T08:56:53.827796\", \"direction\": \"inbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8711,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T10:22:59",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *FUSION BRENT CROSS TOWN, LONDON*\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 6.2 mi (27 mins)\n*Walk:* 5.9 mi (2 hours 11 mins)\n*Bus/Train:* 6.5 mi (42 mins)\n\n🏘 *ROOM TYPES:*\n*Social Studio:*\n  £342/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £343/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\n  £350/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\n  £355/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £360/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\n\n*Classic Studio:*\n  £343/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £345/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £347/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\n  £355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\n  £360/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £364/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Premium Studio:*\n  £350/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Superior Studio:*\n  £370/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Accessible Studio:*\n  £381/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £386/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £393/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £400/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=1629687\n\n------------\n\n🏡 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 0.1 mi (1 min)\n*Walk:* 0.1 mi (3 mins)\n*Bus/Train:* 0.1 mi (3 mins)\n\n🏘 *ROOM TYPES:*\n*Bronze Twin Ensuite Room:*\n  £365/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n\n*Gold Twin Studio:*\n  £409/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n\n*Platinum Twin Apartment:*\n  £449/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\n\n*Gold Studio:*\n  £699/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=137083\n\n------------\n\n🏡 *CHAPTER KINGS CROSS, LONDON*\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 1.2 mi (9 mins)\n*Walk:* 1.0 mi (24 mins)\n*Bus/Train:* 1.1 mi (14 mins)\n\n🏘 *ROOM TYPES:*\n*Bronze Twin Studio Shared Lower Level:*\n  £292/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Bronze Twin Studio Shared Mid Level:*\n  £297/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £327/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Silver Twin Studio Shared Lower Level:*\n  £320/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £350/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Silver Twin Studio Shared Mid Level:*\n  £325/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Ensuite Shared Upper Level:*\n  £553/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £583/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Studio Private Lower Level:*\n  £543/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £553/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £573/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n  £583/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Studio Private Mid Level:*\n  £548/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £578/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Studio Private Upper Level:*\n  £555/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £585/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n  £585/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Gold Studio Private Mid Level:*\n  £683/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Gold Studio Private Lower Level:*\n  £648/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £678/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Ensuite Shared Mid Level:*\n  £556/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £576/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Studio Private Penthouse:*\n  £558/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £588/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £588/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n  £618/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Silver Studio Private Lower Level:*\n  £622/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Silver Studio Private Mid Level:*\n  £627/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £637/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £657/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Silver Studio Private Upper Level:*\n  £634/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Gold Studio Private Upper Level:*\n  £690/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=136672\n\n------------",
+      "source": "whatsapp",
+      "event_id": "7267756",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T10:22:59\", \"id\": 7267756, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3F386DB842B1D4903539\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *FUSION BRENT CROSS TOWN, LONDON*\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 6.2 mi (27 mins)\\n*Walk:* 5.9 mi (2 hours 11 mins)\\n*Bus/Train:* 6.5 mi (42 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Social Studio:*\\n\\u00a0\\u00a0\\u00a3342/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3343/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3350/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\n*Classic Studio:*\\n\\u00a0\\u00a0\\u00a3343/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3347/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3364/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Premium Studio:*\\n\\u00a0\\u00a0\\u00a3350/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Superior Studio:*\\n\\u00a0\\u00a0\\u00a3370/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Accessible Studio:*\\n\\u00a0\\u00a0\\u00a3381/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3386/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3393/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3400/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=1629687\\n\\n------------\\n\\n\\ud83c\\udfe1 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 0.1 mi (1 min)\\n*Walk:* 0.1 mi (3 mins)\\n*Bus/Train:* 0.1 mi (3 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Bronze Twin Ensuite Room:*\\n\\u00a0\\u00a0\\u00a3365/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\n*Gold Twin Studio:*\\n\\u00a0\\u00a0\\u00a3409/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\n*Platinum Twin Apartment:*\\n\\u00a0\\u00a0\\u00a3449/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\n*Gold Studio:*\\n\\u00a0\\u00a0\\u00a3699/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=137083\\n\\n------------\\n\\n\\ud83c\\udfe1 *CHAPTER KINGS CROSS, LONDON*\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 1.2 mi (9 mins)\\n*Walk:* 1.0 mi (24 mins)\\n*Bus/Train:* 1.1 mi (14 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Bronze Twin Studio Shared Lower Level:*\\n\\u00a0\\u00a0\\u00a3292/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Bronze Twin Studio Shared Mid Level:*\\n\\u00a0\\u00a0\\u00a3297/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3327/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Silver Twin Studio Shared Lower Level:*\\n\\u00a0\\u00a0\\u00a3320/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3350/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Silver Twin Studio Shared Mid Level:*\\n\\u00a0\\u00a0\\u00a3325/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Ensuite Shared Upper Level:*\\n\\u00a0\\u00a0\\u00a3553/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3583/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Studio Private Lower Level:*\\n\\u00a0\\u00a0\\u00a3543/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3553/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3573/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3583/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Studio Private Mid Level:*\\n\\u00a0\\u00a0\\u00a3548/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3578/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Studio Private Upper Level:*\\n\\u00a0\\u00a0\\u00a3555/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3585/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3585/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Gold Studio Private Mid Level:*\\n\\u00a0\\u00a0\\u00a3683/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Gold Studio Private Lower Level:*\\n\\u00a0\\u00a0\\u00a3648/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3678/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Ensuite Shared Mid Level:*\\n\\u00a0\\u00a0\\u00a3556/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3576/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Studio Private Penthouse:*\\n\\u00a0\\u00a0\\u00a3558/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3588/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3588/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3618/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Silver Studio Private Lower Level:*\\n\\u00a0\\u00a0\\u00a3622/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Silver Studio Private Mid Level:*\\n\\u00a0\\u00a0\\u00a3627/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3637/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3657/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Silver Studio Private Upper Level:*\\n\\u00a0\\u00a0\\u00a3634/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Gold Studio Private Upper Level:*\\n\\u00a0\\u00a0\\u00a3690/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=136672\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T10:22:59.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *FUSION BRENT CROSS TOWN, LONDON*\\\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 6.2 mi (27 mins)\\\\n*Walk:* 5.9 mi (2 hours 11 mins)\\\\n*Bus/Train:* 6.5 mi (42 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Social Studio:*\\\\n\\u00a0\\u00a0\\u00a3342/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3343/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3350/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Classic Studio:*\\\\n\\u00a0\\u00a0\\u00a3343/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3347/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3364/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Premium Studio:*\\\\n\\u00a0\\u00a0\\u00a3350/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Superior Studio:*\\\\n\\u00a0\\u00a0\\u00a3370/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Accessible Studio:*\\\\n\\u00a0\\u00a0\\u00a3381/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3386/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3393/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3400/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/fusion-brent-cross-town-london-2502064252833/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=1629687\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\\\\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 0.1 mi (1 min)\\\\n*Walk:* 0.1 mi (3 mins)\\\\n*Bus/Train:* 0.1 mi (3 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Bronze Twin Ensuite Room:*\\\\n\\u00a0\\u00a0\\u00a3365/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\\\n*Gold Twin Studio:*\\\\n\\u00a0\\u00a0\\u00a3409/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\\\n*Platinum Twin Apartment:*\\\\n\\u00a0\\u00a0\\u00a3449/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\\\n*Gold Studio:*\\\\n\\u00a0\\u00a0\\u00a3699/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=137083\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CHAPTER KINGS CROSS, LONDON*\\\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 1.2 mi (9 mins)\\\\n*Walk:* 1.0 mi (24 mins)\\\\n*Bus/Train:* 1.1 mi (14 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Bronze Twin Studio Shared Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3292/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Bronze Twin Studio Shared Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3297/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3327/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver Twin Studio Shared Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3320/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3350/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver Twin Studio Shared Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3325/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Ensuite Shared Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3553/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3583/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Studio Private Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3543/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3553/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3573/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3583/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Studio Private Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3548/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3578/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Studio Private Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3555/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3585/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3585/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Gold Studio Private Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3683/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Gold Studio Private Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3648/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3678/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Ensuite Shared Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3556/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3576/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Studio Private Penthouse:*\\\\n\\u00a0\\u00a0\\u00a3558/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3588/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3588/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3618/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver Studio Private Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3622/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Silver Studio Private Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3627/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3637/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3657/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver Studio Private Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3634/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Gold Studio Private Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3690/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/chapter-kings-cross-london-1707293068339/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=136672\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1755253379000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3F386DB842B1D4903539\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T10:23:00.286828\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8712,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T10:37:05",
+      "content": "Has Bloomsbury Janet Poole sold out?",
+      "source": "whatsapp",
+      "event_id": "7268578",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T10:37:05\", \"id\": 7268578, \"email\": \"\", \"from_number\": \"447912991590\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447912991590@c.us_3AB1E4253901EE056FCF\", \"message_type\": \"text\", \"message_content\": \"Has Bloomsbury Janet Poole sold out?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447912991590@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-15T10:37:05.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Has Bloomsbury Janet Poole sold out?\\\", \\\"Datetime\\\": 1755254225000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"447912991590@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447912991590@c.us_3AB1E4253901EE056FCF\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447912991590\\\", \\\"sentByUserId\\\": \\\"447912991590@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T10:37:06.331214\", \"direction\": \"inbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8713,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T10:46:02",
+      "content": "image.jpeg",
+      "source": "whatsapp",
+      "event_id": "7269186",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T10:46:02\", \"id\": 7269186, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3F84CFE82F1100C4083A\", \"message_type\": \"text\", \"message_content\": \"image.jpeg\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T10:46:02.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447446196852/3F84CFE82F1100C4083A.jpeg\\\", \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"image.jpeg\\\", \\\"Datetime\\\": 1755254762000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3F84CFE82F1100C4083A\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T10:46:03.535437\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8714,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T10:46:02",
+      "content": "image.jpeg",
+      "source": "whatsapp",
+      "event_id": "7269185",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T10:46:02\", \"id\": 7269185, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3F0010989D3D0CFD657F\", \"message_type\": \"text\", \"message_content\": \"image.jpeg\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T10:46:02.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447446196852/3F0010989D3D0CFD657F.jpeg\\\", \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"image.jpeg\\\", \\\"Datetime\\\": 1755254762000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3F0010989D3D0CFD657F\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T10:46:03.251449\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8715,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T10:51:58",
+      "content": "These are the available room types",
+      "source": "whatsapp",
+      "event_id": "7269668",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T10:51:58\", \"id\": 7269668, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3F3D91B5E0F8B5395BDE\", \"message_type\": \"text\", \"message_content\": \"These are the available room types\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T10:51:58.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"These are the available room types\\\", \\\"Datetime\\\": 1755255118000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3F3D91B5E0F8B5395BDE\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T10:51:58.804399\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8716,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T12:04:15",
+      "content": "Chapter King’s Cross would be good to view if possible.",
+      "source": "whatsapp",
+      "event_id": "7274601",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T12:04:15\", \"id\": 7274601, \"email\": \"\", \"from_number\": \"447912991590\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447912991590@c.us_3A0817BEEFD8B38D5A46\", \"message_type\": \"text\", \"message_content\": \"Chapter King\\u2019s Cross would be good to view if possible.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447912991590@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-15T12:04:15.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Chapter King\\u2019s Cross would be good to view if possible.\\\", \\\"Datetime\\\": 1755259455000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"447912991590@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447912991590@c.us_3A0817BEEFD8B38D5A46\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447912991590\\\", \\\"sentByUserId\\\": \\\"447912991590@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T12:04:15.892912\", \"direction\": \"inbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8717,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T12:04:32",
+      "content": "You want a viewing",
+      "source": "whatsapp",
+      "event_id": "7274616",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T12:04:32\", \"id\": 7274616, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3F314DB187242BC903C4\", \"message_type\": \"text\", \"message_content\": \"You want a viewing\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T12:04:32.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"You want a viewing\\\", \\\"Datetime\\\": 1755259472000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3F314DB187242BC903C4\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T12:04:33.186989\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8718,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T12:04:58",
+      "content": "Most of the properties stopped viewings since they are almost booked",
+      "source": "whatsapp",
+      "event_id": "7274640",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T12:04:58\", \"id\": 7274640, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3F7F138F0D7CD95B7957\", \"message_type\": \"text\", \"message_content\": \"Most of the properties stopped viewings since they are almost booked\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T12:04:58.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Most of the properties stopped viewings since they are almost booked\\\", \\\"Datetime\\\": 1755259498000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3F7F138F0D7CD95B7957\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T12:04:59.099454\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8719,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T12:05:33",
+      "content": "And in some you might get a viewing but till you view the property and confirm someone else will directly book it!",
+      "source": "whatsapp",
+      "event_id": "7274674",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T12:05:33\", \"id\": 7274674, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3F81780F6927BE33CB60\", \"message_type\": \"text\", \"message_content\": \"And in some you might get a viewing but till you view the property and confirm someone else will directly book it!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T12:05:33.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"And in some you might get a viewing but till you view the property and confirm someone else will directly book it!\\\", \\\"Datetime\\\": 1755259533000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3F81780F6927BE33CB60\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T12:05:34.553828\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8720,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T12:06:15",
+      "content": "Since UCAS results are out, the availability becomes very fluctuating!",
+      "source": "whatsapp",
+      "event_id": "7274751",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T12:06:15\", \"id\": 7274751, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3F03A32A15F8223BCEED\", \"message_type\": \"text\", \"message_content\": \"Since UCAS results are out, the availability becomes very fluctuating!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-15T12:06:15.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Since UCAS results are out, the availability becomes very fluctuating!\\\", \\\"Datetime\\\": 1755259575000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3F03A32A15F8223BCEED\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T12:06:16.042492\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8721,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-15T12:47:57",
+      "content": "Thank you for the advice.",
+      "source": "whatsapp",
+      "event_id": "7277863",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-15T12:47:57\", \"id\": 7277863, \"email\": \"\", \"from_number\": \"447912991590\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447912991590@c.us_3A9780D6A32A7D457700\", \"message_type\": \"text\", \"message_content\": \"Thank you for the advice.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447912991590@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-15T12:47:57.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Thank you for the advice.\\\", \\\"Datetime\\\": 1755262077000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"447912991590@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447912991590@c.us_3A9780D6A32A7D457700\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447912991590\\\", \\\"sentByUserId\\\": \\\"447912991590@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-15T12:47:57.682273\", \"direction\": \"inbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8722,
+      "lead_id": 543,
+      "event_type": "call",
+      "timestamp": "2025-08-16T10:37:23.185535",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7695506",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-16T10:37:23.185535\", \"id\": 7695506, \"duration\": \"0\", \"to_number\": \"447912991590\", \"from_number\": \"447446196852\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8723,
+      "lead_id": 543,
+      "event_type": "call",
+      "timestamp": "2025-08-17T14:36:27.470360",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7702547",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-17T14:36:27.470360\", \"id\": 7702547, \"duration\": \"0\", \"to_number\": \"447912991590\", \"from_number\": \"447446196852\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8724,
+      "lead_id": 543,
+      "event_type": "call",
+      "timestamp": "2025-08-18T14:13:15.250213",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7708522",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T14:13:15.250213\", \"id\": 7708522, \"duration\": \"0\", \"to_number\": \"447912991590\", \"from_number\": \"447446196852\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8725,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T14:13:37",
+      "content": "Hello Emma Fenton Tun, 😊\n\nAny updates on when we can get your booking done? 🗓\n\nSince property availability is low and rents are also rising 📈, I am starting to feel a bit tense about this as well. 😬\n\nPlease let me know when we can proceed. Thank you! 🙏",
+      "source": "whatsapp",
+      "event_id": "7424217",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T14:13:37\", \"id\": 7424217, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3FD967185233C3676764\", \"message_type\": \"text\", \"message_content\": \"Hello Emma Fenton Tun, \\ud83d\\ude0a\\n\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\n\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\n\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T14:13:37.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hello Emma Fenton Tun, \\ud83d\\ude0a\\\\n\\\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\\\n\\\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\\\n\\\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\\\", \\\"Datetime\\\": 1755526417000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3FD967185233C3676764\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-18T14:13:37.223621\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8726,
+      "lead_id": 543,
+      "event_type": "call",
+      "timestamp": "2025-08-20T15:17:11.427193",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7724611",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T15:17:11.427193\", \"id\": 7724611, \"duration\": \"0\", \"to_number\": \"447912991590\", \"from_number\": \"447446196852\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8727,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T15:17:37",
+      "content": "Hi Emma Fenton Tun, 😊\nHope you're doing well! 🌟\n\nI’ve been trying to get in touch to discuss the move-in date and the booking process. 🏡✨\n\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! 📞😊",
+      "source": "whatsapp",
+      "event_id": "7551382",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T15:17:37\", \"id\": 7551382, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3F4B6B1EFFB481D58474\", \"message_type\": \"text\", \"message_content\": \"Hi Emma Fenton Tun, \\ud83d\\ude0a\\nHope you're doing well! \\ud83c\\udf1f\\n\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\n\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T15:17:37.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Emma Fenton Tun, \\ud83d\\ude0a\\\\nHope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\\\n\\\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\\\", \\\"Datetime\\\": 1755703057000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3F4B6B1EFFB481D58474\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-20T15:17:38.102276\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8728,
+      "lead_id": 543,
+      "event_type": "call",
+      "timestamp": "2025-08-22T12:22:20.919039",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7738407",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-22T12:22:20.919039\", \"id\": 7738407, \"duration\": \"0\", \"to_number\": \"447912991590\", \"from_number\": \"447446196852\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8729,
+      "lead_id": 543,
+      "event_type": "call",
+      "timestamp": "2025-08-22T12:22:30.451766",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7738409",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-22T12:22:30.451766\", \"id\": 7738409, \"duration\": \"0\", \"to_number\": \"447912991590\", \"from_number\": \"447446196852\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8730,
+      "lead_id": 543,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T12:22:51",
+      "content": "Hello Emma Fenton Tun, 😊\n\nAny updates on when we can get your booking done? 🗓\n\nSince property availability is low and rents are also rising 📈, I am starting to feel a bit tense about this as well. 😬\n\nPlease let me know when we can proceed. Thank you! 🙏",
+      "source": "whatsapp",
+      "event_id": "7657372",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T12:22:51\", \"id\": 7657372, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"447912991590\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447912991590@c.us_3F22FA0D4D08C8A5AA4F\", \"message_type\": \"text\", \"message_content\": \"Hello Emma Fenton Tun, \\ud83d\\ude0a\\n\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\n\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\n\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T12:22:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hello Emma Fenton Tun, \\ud83d\\ude0a\\\\n\\\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\\\n\\\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\\\n\\\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\\\", \\\"Datetime\\\": 1755865371000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447912991590@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447912991590@c.us_3F22FA0D4D08C8A5AA4F\\\", \\\"ChannelName\\\": \\\"447912991590\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-22T12:22:51.935780\", \"direction\": \"outbound\", \"sbase_user_id\": 2432515, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"447912991590\"}",
+      "created_at": "2025-11-18 11:29:28"
+    },
+    {
+      "id": 8731,
+      "lead_id": 543,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3141245, \"user_name\": \"Emma Fenton Tun\", \"email\": \"albertahouse1@icloud.com\", \"phone\": \"447912991590\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 365, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8860, \"inventory_id\": 2061634}",
+      "created_at": "2025-11-18 11:29:28"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 415,
+      "lead_id": 543,
+      "call_id": "7683706",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3f7de109-d7cf-41ca-82da-5a509c65aef2.wav",
+      "transcript_text": "Speaker A: Welcome to Amber Booking for the first time, press 1. Facing issues with your current booking, press 2. To partner with us, press 3. To speak with our customer support agent, press 4. To hear these options again, press 0. Please wait while we connect you to our support agent. This call will be recorded for training and quality purposes. Thank you for contacting Amber. Please wait while we connect you to our support executive. Thank you for contacting Amber. Please wait while we connect you to our support executive.\nSpeaker B: Thank you for calling Amber. Student. My name is Kirk. How may I help you today?\nSpeaker A: Oh, hello.\nSpeaker C: I'm just calling because my son has got into ucla. He has not been given accommodation for next year and so. And I can see it seems you've got. You do have availability in various halls. I just wanted to get an idea of, like, which one might be appropriate for him.\nSpeaker B: Okay, so I can see your. You had inquired. Use. Interested exhibition. You are just in Bloomsbury.\nSpeaker C: Sorry, what did you say?\nSpeaker B: I can see you. Are you able to hear me now?\nSpeaker C: Yeah, I can hear you, yeah. There's a lot of background noise. There's a lot of background noise for you, like beeping.\nSpeaker B: Beating. Okay, yeah, I'm working remotely. Right. So maybe that's the reason, the background.\nSpeaker C: Yeah, it's very hard to hear you.\nSpeaker B: I'm still. Sorry. So now is it better? Is it much better now?\nSpeaker C: Yeah. Hopefully they'll stop hooting their horns. Yeah. So. Okay, so you haven't been given it.\nSpeaker B: Sorry, yeah, I. I'm sorry to cut you up. I said you had inquired for Bloomsbury. Janet Pool in London. Right. I can see you checking. You were looking at that property. The one.\nSpeaker C: Yeah. How can you see what I'm looking at?\nSpeaker B: So I can. So since you had inquired for this property, a form has been created. Right.\nSpeaker C: Yes, Yes, I really. I sort of did that by accident in a way because I was kind of looking at. Was sort of trying to find ones that are near UCL that will be, you know, appropriate because he's never lived away from home before and so obviously we'd. Ideally he would have been in a catered university hall, but obviously nothing's catered here, from what I can see. Is that correct? None of the options. Hello? Yeah. So from what I can see, you can't get a catered private haul on Amber. Is that right?\nSpeaker B: What do you mean, make it catered?\nSpeaker C: No, catered food. I mean catering food.\nSpeaker B: Yeah, catering. Some. There are some properties that do provide catering. We need to check. We will need to check for the.\nSpeaker C: I can't hear you. I cannot Hear you.\nSpeaker B: Are you able to hear me now?\nSpeaker C: Yeah.\nSpeaker B: To hear me now? Yeah. Is it clear? Clearer now?\nSpeaker C: Yeah. It's just so much background noise.\nSpeaker B: Right. Okay. So there are properties that allow casing. So what I've done is for you, I've gone and assign an executive. The executive will reach out to you. You must have received a message on your number that is 991-590. You must have received a message with the executive details. I'll give you the number as well. You can reach out to him directly. His name is Ashutosh and The number is 7 4, 4, 61967.\nSpeaker C: Double 4, 6, 1, 9. Yeah.\nSpeaker B: 6, 8, 5.\nSpeaker C: Yeah.\nSpeaker B: So you can reach out to him direct. Yeah.\nSpeaker C: What's his name again?\nSpeaker B: His name is Ashutosh. A, E for Alpha, S for Sierra.\nSpeaker C: Yep.\nSpeaker B: H for Hotel.\nSpeaker C: Yep.\nSpeaker B: U for Umbrella.\nSpeaker C: Yeah.\nSpeaker B: T for Tango. U for Umbrella, S for Sierra. H for Hotel. That's okay.\nSpeaker C: And that's 074-461-96852. So will he be able to answer all my kind of questions about generally the different options and what might be most appropriate for my son?\nSpeaker B: Sure. So he's. He's your son's assigned booking executive. He's the agent who will be assisting you further. So you can. You can reach out to him directly, Emma, and he will help you out with all your questions.\nSpeaker C: Also, would we be able to go and look at the property? Like, would we be able to go to you? Like, yes. Yeah.\nSpeaker B: So, like, that would be in person, right? In person, Right. You would like to. You. You would like to take a tour of the property in person?\nSpeaker C: Yeah, definitely. Yeah.\nSpeaker B: Okay. Yeah. So this can be done, but it takes at least around 36 to 48 hours. 36 to 48 hours for us to arrange a virtual. A tour, A viewing. Because there are many people we need to check with the property management team.\nSpeaker C: Yeah.\nSpeaker B: For the available slots. Because there are many people who are booking or viewing.\nSpeaker C: Yeah, I was. I was thinking next week on maybe like Thursday or something. Tuesday. Next Tuesday.\nSpeaker B: Okay. Yeah, Tuesday. Thursday should be a great. It should. Should be great. So I will just inform Ashutosh from my end that you are looking for a viewing as well and reach out to you. You can even drop him a message on WhatsApp.\nSpeaker C: Yeah, I will.\nSpeaker B: I WhatsApp him.\nSpeaker C: That's great.\nSpeaker B: So you can even send him your queries and all the questions you have. You can even drop him a message on WhatsApp regarding that as well. Well, and he will contact you and assist you further.\nSpeaker C: Right.\nSpeaker B: Thank you.\nSpeaker C: Very helpful.\nSpeaker B: Welcome. Thank you so much. And I'm extremely sorry, extremely sorry for the background noise.\nSpeaker C: We got there in the end. Thank you.\nSpeaker B: Okay. Thank you so much.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:29:44"
+    }
+  ],
+  "summary": {
+    "id": 226,
+    "lead_id": 543,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"child\", \"name\": \"Emma Fenton Tun\", \"mobile\": [\"447912991590\"], \"email\": [\"albertahouse1@icloud.com\"], \"whatsapp\": [\"447912991590\"], \"student_status\": \"non_student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"solo room\", \"budget\": {\"max\": 365, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": false, \"university\": \"University College London\", \"move_in_date\": \"2025-09-06\", \"dependents\": \"no\", \"amenities\": [\"communal facilities\", \"activities\"], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": \"1st year\"}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Bloomsbury Janet Poole House\", \"Fusion Brent Cross Town\", \"Chapter Kings Cross\"], \"rooms_considered\": [\"Bronze Twin Ensuite Room\", \"Gold Twin Studio\", \"Platinum Twin Apartment\", \"Gold Studio\", \"Social Studio\", \"Classic Studio\", \"Premium Studio\", \"Superior Studio\", \"Accessible Studio\", \"Bronze Twin Studio Shared Lower Level\", \"Bronze Twin Studio Shared Mid Level\", \"Silver Twin Studio Shared Lower Level\", \"Silver Twin Studio Shared Mid Level\", \"Bronze Ensuite Shared Upper Level\", \"Bronze Studio Private Lower Level\", \"Bronze Studio Private Mid Level\", \"Bronze Studio Private Upper Level\", \"Gold Studio Private Mid Level\", \"Gold Studio Private Lower Level\", \"Bronze Ensuite Shared Mid Level\", \"Bronze Studio Private Penthouse\", \"Silver Studio Private Lower Level\", \"Silver Studio Private Mid Level\", \"Silver Studio Private Upper Level\", \"Gold Studio Private Upper Level\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Arrange and confirm property viewings for Emma's son, prioritizing options close to UCL and including Chapter King's Cross as requested.\", \"due\": \"asap\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-14 and WhatsApp messages on 2025-08-15 requesting viewings and discussing availability\"}, {\"type\": \"communication\", \"description\": \"Send updated property options and availability details to Emma, including confirmation if Bloomsbury Janet Poole House is sold out.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-15 where Emma asked about options and Bloomsbury Janet Poole availability\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Emma to discuss move-in date and booking process and confirm when she is ready to proceed with booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-18 and 2025-08-20 requesting updates on booking and move-in date\"}, {\"type\": \"booking_action\", \"description\": \"Advise Emma to proceed with booking soon due to low property availability and rising rents to avoid losing preferred options.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent messages on 2025-08-15 and 2025-08-18 about fluctuating availability and urgency\"}], \"last_agent_response\": \"Sent detailed property options with links and room types on 2025-08-15; followed up multiple times via WhatsApp urging to proceed with booking due to low availability and rising rents.\", \"suggested_next_step\": \"Agent to contact Emma urgently to confirm viewing appointments and encourage prompt booking to secure preferred accommodation.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Emma Fenton Tun\", \"nationality\": \"Not mentioned\", \"student_status\": \"Parent booking for son\", \"contact_info\": \"Phone calls and WhatsApp messages between numbers 447912991590 (parent) and 447446196852 (agent)\", \"booking_for\": \"Son who will be a first-year student at UCLA\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically near University College London (UCL)\", \"university\": \"University College London (UCL)\", \"room_type\": \"Solo room only, no shared bedrooms\", \"budget_range\": \"Around \\u00a3365 per week (weekly budget mentioned)\", \"move_in_date\": \"Early September 2025 (around 6th to 13th September 2025)\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Close to UCL; community with many first-year UCL students; communal facilities for social activities; catering preferred but not essential\"}, \"current_status\": {\"booking_stage\": \"Property selection stage with options provided; viewing requests pending; booking not yet confirmed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple interactions including at least 2 calls and over a dozen WhatsApp messages over 5 days\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-08-22 via WhatsApp message from agent\", \"response_time\": \"Generally within hours; some delays noted in sending property options\", \"key_moments\": \"Initial call on 2025-08-14 to discuss accommodation needs; assignment of agent Ashutosh; WhatsApp messages detailing preferences and scheduling; agent provided multiple property options on 2025-08-15; client expressed interest in viewing Chapter King\\u2019s Cross; agent advised limited viewing availability due to high demand; multiple follow-up attempts by agent to confirm booking progress\"}, \"properties_discussed\": {\"properties_mentioned\": \"Bloomsbury Janet Poole House, Fusion Brent Cross Town, Chapter Kings Cross\", \"viewings_scheduled\": \"No confirmed viewings; client requested viewing on Tuesday afternoon (2025-08-19) and later expressed interest in Chapter King\\u2019s Cross viewing; agent noted most properties stopped viewings due to near full booking\", \"preferences_expressed\": \"Preference for location near UCL, solo rooms, community with other first years, communal facilities, catering optional\", \"offers_made\": \"Agent shared detailed room types and pricing for three properties with booking links\"}, \"next_steps\": {\"immediate_actions\": \"Client to confirm booking decision; agent to assist with booking process and move-in date discussion\", \"pending_items\": \"Client\\u2019s confirmation on property choice and booking completion\", \"follow_up_required\": \"Agent to continue follow-up on booking status and move-in date; encourage client to act quickly due to fluctuating availability and rising rents\", \"timeline\": \"Move-in expected early September 2025; lease duration 51 weeks; urgency due to limited availability post-UCAS results\"}, \"agent_notes\": {\"student_tone\": \"Polite, concerned about finding suitable accommodation quickly; appreciative of advice\", \"urgency_level\": \"Moderate to high urgency due to limited availability and rising rents\", \"complexity\": \"Moderate complexity due to preference for community, location, and viewing constraints\", \"special_considerations\": \"Client is a parent booking for a son new to living away from home; prefers catered options if possible; viewing opportunities limited due to high demand\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"child\", \"name\": \"Emma Fenton Tun\", \"mobile\": [\"447912991590\"], \"email\": [\"albertahouse1@icloud.com\"], \"whatsapp\": [\"447912991590\"], \"student_status\": \"non_student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"solo room\", \"budget\": {\"max\": 365, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": false, \"university\": \"University College London\", \"move_in_date\": \"2025-09-06\", \"dependents\": \"no\", \"amenities\": [\"communal facilities\", \"activities\"], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": \"1st year\"}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Bloomsbury Janet Poole House\", \"Fusion Brent Cross Town\", \"Chapter Kings Cross\"], \"rooms_considered\": [\"Bronze Twin Ensuite Room\", \"Gold Twin Studio\", \"Platinum Twin Apartment\", \"Gold Studio\", \"Social Studio\", \"Classic Studio\", \"Premium Studio\", \"Superior Studio\", \"Accessible Studio\", \"Bronze Twin Studio Shared Lower Level\", \"Bronze Twin Studio Shared Mid Level\", \"Silver Twin Studio Shared Lower Level\", \"Silver Twin Studio Shared Mid Level\", \"Bronze Ensuite Shared Upper Level\", \"Bronze Studio Private Lower Level\", \"Bronze Studio Private Mid Level\", \"Bronze Studio Private Upper Level\", \"Gold Studio Private Mid Level\", \"Gold Studio Private Lower Level\", \"Bronze Ensuite Shared Mid Level\", \"Bronze Studio Private Penthouse\", \"Silver Studio Private Lower Level\", \"Silver Studio Private Mid Level\", \"Silver Studio Private Upper Level\", \"Gold Studio Private Upper Level\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Arrange and confirm property viewings for Emma's son, prioritizing options close to UCL and including Chapter King's Cross as requested.\", \"due\": \"asap\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-14 and WhatsApp messages on 2025-08-15 requesting viewings and discussing availability\"}, {\"type\": \"communication\", \"description\": \"Send updated property options and availability details to Emma, including confirmation if Bloomsbury Janet Poole House is sold out.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-15 where Emma asked about options and Bloomsbury Janet Poole availability\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Emma to discuss move-in date and booking process and confirm when she is ready to proceed with booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-18 and 2025-08-20 requesting updates on booking and move-in date\"}, {\"type\": \"booking_action\", \"description\": \"Advise Emma to proceed with booking soon due to low property availability and rising rents to avoid losing preferred options.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent messages on 2025-08-15 and 2025-08-18 about fluctuating availability and urgency\"}], \"last_agent_response\": \"Sent detailed property options with links and room types on 2025-08-15; followed up multiple times via WhatsApp urging to proceed with booking due to low availability and rising rents.\", \"suggested_next_step\": \"Agent to contact Emma urgently to confirm viewing appointments and encourage prompt booking to secure preferred accommodation.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Emma Fenton Tun\", \"nationality\": \"Not mentioned\", \"student_status\": \"Parent booking for son\", \"contact_info\": \"Phone calls and WhatsApp messages between numbers 447912991590 (parent) and 447446196852 (agent)\", \"booking_for\": \"Son who will be a first-year student at UCLA\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically near University College London (UCL)\", \"university\": \"University College London (UCL)\", \"room_type\": \"Solo room only, no shared bedrooms\", \"budget_range\": \"Around \\u00a3365 per week (weekly budget mentioned)\", \"move_in_date\": \"Early September 2025 (around 6th to 13th September 2025)\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Close to UCL; community with many first-year UCL students; communal facilities for social activities; catering preferred but not essential\"}, \"current_status\": {\"booking_stage\": \"Property selection stage with options provided; viewing requests pending; booking not yet confirmed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple interactions including at least 2 calls and over a dozen WhatsApp messages over 5 days\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-08-22 via WhatsApp message from agent\", \"response_time\": \"Generally within hours; some delays noted in sending property options\", \"key_moments\": \"Initial call on 2025-08-14 to discuss accommodation needs; assignment of agent Ashutosh; WhatsApp messages detailing preferences and scheduling; agent provided multiple property options on 2025-08-15; client expressed interest in viewing Chapter King\\u2019s Cross; agent advised limited viewing availability due to high demand; multiple follow-up attempts by agent to confirm booking progress\"}, \"properties_discussed\": {\"properties_mentioned\": \"Bloomsbury Janet Poole House, Fusion Brent Cross Town, Chapter Kings Cross\", \"viewings_scheduled\": \"No confirmed viewings; client requested viewing on Tuesday afternoon (2025-08-19) and later expressed interest in Chapter King\\u2019s Cross viewing; agent noted most properties stopped viewings due to near full booking\", \"preferences_expressed\": \"Preference for location near UCL, solo rooms, community with other first years, communal facilities, catering optional\", \"offers_made\": \"Agent shared detailed room types and pricing for three properties with booking links\"}, \"next_steps\": {\"immediate_actions\": \"Client to confirm booking decision; agent to assist with booking process and move-in date discussion\", \"pending_items\": \"Client\\u2019s confirmation on property choice and booking completion\", \"follow_up_required\": \"Agent to continue follow-up on booking status and move-in date; encourage client to act quickly due to fluctuating availability and rising rents\", \"timeline\": \"Move-in expected early September 2025; lease duration 51 weeks; urgency due to limited availability post-UCAS results\"}, \"agent_notes\": {\"student_tone\": \"Polite, concerned about finding suitable accommodation quickly; appreciative of advice\", \"urgency_level\": \"Moderate to high urgency due to limited availability and rising rents\", \"complexity\": \"Moderate complexity due to preference for community, location, and viewing constraints\", \"special_considerations\": \"Client is a parent booking for a son new to living away from home; prefers catered options if possible; viewing opportunities limited due to high demand\"}}}}}",
+    "created_at": "2025-11-18 11:30:01",
+    "updated_at": "2025-11-18T17:00:01.889292",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "child",
+        "name": "Emma Fenton Tun",
+        "mobile": [
+          "447912991590"
+        ],
+        "email": [
+          "albertahouse1@icloud.com"
+        ],
+        "whatsapp": [
+          "447912991590"
+        ],
+        "student_status": "non_student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "solo room",
+        "budget": {
+          "max": 365,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": false,
+        "university": "University College London",
+        "move_in_date": "2025-09-06",
+        "dependents": "no",
+        "amenities": [
+          "communal facilities",
+          "activities"
+        ],
+        "housing_type": "pbsa",
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": "1st year"
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "University College London"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Bloomsbury Janet Poole House",
+          "Fusion Brent Cross Town",
+          "Chapter Kings Cross"
+        ],
+        "rooms_considered": [
+          "Bronze Twin Ensuite Room",
+          "Gold Twin Studio",
+          "Platinum Twin Apartment",
+          "Gold Studio",
+          "Social Studio",
+          "Classic Studio",
+          "Premium Studio",
+          "Superior Studio",
+          "Accessible Studio",
+          "Bronze Twin Studio Shared Lower Level",
+          "Bronze Twin Studio Shared Mid Level",
+          "Silver Twin Studio Shared Lower Level",
+          "Silver Twin Studio Shared Mid Level",
+          "Bronze Ensuite Shared Upper Level",
+          "Bronze Studio Private Lower Level",
+          "Bronze Studio Private Mid Level",
+          "Bronze Studio Private Upper Level",
+          "Gold Studio Private Mid Level",
+          "Gold Studio Private Lower Level",
+          "Bronze Ensuite Shared Mid Level",
+          "Bronze Studio Private Penthouse",
+          "Silver Studio Private Lower Level",
+          "Silver Studio Private Mid Level",
+          "Silver Studio Private Upper Level",
+          "Gold Studio Private Upper Level"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Arrange and confirm property viewings for Emma's son, prioritizing options close to UCL and including Chapter King's Cross as requested.",
+          "due": "asap",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-08-14 and WhatsApp messages on 2025-08-15 requesting viewings and discussing availability"
+        },
+        {
+          "type": "communication",
+          "description": "Send updated property options and availability details to Emma, including confirmation if Bloomsbury Janet Poole House is sold out.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages on 2025-08-15 where Emma asked about options and Bloomsbury Janet Poole availability"
+        },
+        {
+          "type": "follow_up",
+          "description": "Follow up with Emma to discuss move-in date and booking process and confirm when she is ready to proceed with booking.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages on 2025-08-18 and 2025-08-20 requesting updates on booking and move-in date"
+        },
+        {
+          "type": "booking_action",
+          "description": "Advise Emma to proceed with booking soon due to low property availability and rising rents to avoid losing preferred options.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent messages on 2025-08-15 and 2025-08-18 about fluctuating availability and urgency"
+        }
+      ],
+      "last_agent_response": "Sent detailed property options with links and room types on 2025-08-15; followed up multiple times via WhatsApp urging to proceed with booking due to low availability and rising rents.",
+      "suggested_next_step": "Agent to contact Emma urgently to confirm viewing appointments and encourage prompt booking to secure preferred accommodation."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Emma Fenton Tun",
+            "nationality": "Not mentioned",
+            "student_status": "Parent booking for son",
+            "contact_info": "Phone calls and WhatsApp messages between numbers 447912991590 (parent) and 447446196852 (agent)",
+            "booking_for": "Son who will be a first-year student at UCLA"
+          },
+          "accommodation_preferences": {
+            "locations": "London, specifically near University College London (UCL)",
+            "university": "University College London (UCL)",
+            "room_type": "Solo room only, no shared bedrooms",
+            "budget_range": "Around £365 per week (weekly budget mentioned)",
+            "move_in_date": "Early September 2025 (around 6th to 13th September 2025)",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Close to UCL; community with many first-year UCL students; communal facilities for social activities; catering preferred but not essential"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage with options provided; viewing requests pending; booking not yet confirmed",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple interactions including at least 2 calls and over a dozen WhatsApp messages over 5 days",
+            "primary_channel": "WhatsApp messaging",
+            "last_contact": "2025-08-22 via WhatsApp message from agent",
+            "response_time": "Generally within hours; some delays noted in sending property options",
+            "key_moments": "Initial call on 2025-08-14 to discuss accommodation needs; assignment of agent Ashutosh; WhatsApp messages detailing preferences and scheduling; agent provided multiple property options on 2025-08-15; client expressed interest in viewing Chapter King’s Cross; agent advised limited viewing availability due to high demand; multiple follow-up attempts by agent to confirm booking progress"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Bloomsbury Janet Poole House, Fusion Brent Cross Town, Chapter Kings Cross",
+            "viewings_scheduled": "No confirmed viewings; client requested viewing on Tuesday afternoon (2025-08-19) and later expressed interest in Chapter King’s Cross viewing; agent noted most properties stopped viewings due to near full booking",
+            "preferences_expressed": "Preference for location near UCL, solo rooms, community with other first years, communal facilities, catering optional",
+            "offers_made": "Agent shared detailed room types and pricing for three properties with booking links"
+          },
+          "next_steps": {
+            "immediate_actions": "Client to confirm booking decision; agent to assist with booking process and move-in date discussion",
+            "pending_items": "Client’s confirmation on property choice and booking completion",
+            "follow_up_required": "Agent to continue follow-up on booking status and move-in date; encourage client to act quickly due to fluctuating availability and rising rents",
+            "timeline": "Move-in expected early September 2025; lease duration 51 weeks; urgency due to limited availability post-UCAS results"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, concerned about finding suitable accommodation quickly; appreciative of advice",
+            "urgency_level": "Moderate to high urgency due to limited availability and rising rents",
+            "complexity": "Moderate complexity due to preference for community, location, and viewing constraints",
+            "special_considerations": "Client is a parent booking for a son new to living away from home; prefers catered options if possible; viewing opportunities limited due to high demand"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "child",
+          "name": "Emma Fenton Tun",
+          "mobile": [
+            "447912991590"
+          ],
+          "email": [
+            "albertahouse1@icloud.com"
+          ],
+          "whatsapp": [
+            "447912991590"
+          ],
+          "student_status": "non_student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "solo room",
+          "budget": {
+            "max": 365,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": false,
+          "university": "University College London",
+          "move_in_date": "2025-09-06",
+          "dependents": "no",
+          "amenities": [
+            "communal facilities",
+            "activities"
+          ],
+          "housing_type": "pbsa",
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": "1st year"
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "University College London"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Bloomsbury Janet Poole House",
+            "Fusion Brent Cross Town",
+            "Chapter Kings Cross"
+          ],
+          "rooms_considered": [
+            "Bronze Twin Ensuite Room",
+            "Gold Twin Studio",
+            "Platinum Twin Apartment",
+            "Gold Studio",
+            "Social Studio",
+            "Classic Studio",
+            "Premium Studio",
+            "Superior Studio",
+            "Accessible Studio",
+            "Bronze Twin Studio Shared Lower Level",
+            "Bronze Twin Studio Shared Mid Level",
+            "Silver Twin Studio Shared Lower Level",
+            "Silver Twin Studio Shared Mid Level",
+            "Bronze Ensuite Shared Upper Level",
+            "Bronze Studio Private Lower Level",
+            "Bronze Studio Private Mid Level",
+            "Bronze Studio Private Upper Level",
+            "Gold Studio Private Mid Level",
+            "Gold Studio Private Lower Level",
+            "Bronze Ensuite Shared Mid Level",
+            "Bronze Studio Private Penthouse",
+            "Silver Studio Private Lower Level",
+            "Silver Studio Private Mid Level",
+            "Silver Studio Private Upper Level",
+            "Gold Studio Private Upper Level"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Arrange and confirm property viewings for Emma's son, prioritizing options close to UCL and including Chapter King's Cross as requested.",
+            "due": "asap",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-08-14 and WhatsApp messages on 2025-08-15 requesting viewings and discussing availability"
+          },
+          {
+            "type": "communication",
+            "description": "Send updated property options and availability details to Emma, including confirmation if Bloomsbury Janet Poole House is sold out.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages on 2025-08-15 where Emma asked about options and Bloomsbury Janet Poole availability"
+          },
+          {
+            "type": "follow_up",
+            "description": "Follow up with Emma to discuss move-in date and booking process and confirm when she is ready to proceed with booking.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages on 2025-08-18 and 2025-08-20 requesting updates on booking and move-in date"
+          },
+          {
+            "type": "booking_action",
+            "description": "Advise Emma to proceed with booking soon due to low property availability and rising rents to avoid losing preferred options.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent messages on 2025-08-15 and 2025-08-18 about fluctuating availability and urgency"
+          }
+        ],
+        "last_agent_response": "Sent detailed property options with links and room types on 2025-08-15; followed up multiple times via WhatsApp urging to proceed with booking due to low availability and rising rents.",
+        "suggested_next_step": "Agent to contact Emma urgently to confirm viewing appointments and encourage prompt booking to secure preferred accommodation."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Emma Fenton Tun",
+              "nationality": "Not mentioned",
+              "student_status": "Parent booking for son",
+              "contact_info": "Phone calls and WhatsApp messages between numbers 447912991590 (parent) and 447446196852 (agent)",
+              "booking_for": "Son who will be a first-year student at UCLA"
+            },
+            "accommodation_preferences": {
+              "locations": "London, specifically near University College London (UCL)",
+              "university": "University College London (UCL)",
+              "room_type": "Solo room only, no shared bedrooms",
+              "budget_range": "Around £365 per week (weekly budget mentioned)",
+              "move_in_date": "Early September 2025 (around 6th to 13th September 2025)",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Close to UCL; community with many first-year UCL students; communal facilities for social activities; catering preferred but not essential"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage with options provided; viewing requests pending; booking not yet confirmed",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple interactions including at least 2 calls and over a dozen WhatsApp messages over 5 days",
+              "primary_channel": "WhatsApp messaging",
+              "last_contact": "2025-08-22 via WhatsApp message from agent",
+              "response_time": "Generally within hours; some delays noted in sending property options",
+              "key_moments": "Initial call on 2025-08-14 to discuss accommodation needs; assignment of agent Ashutosh; WhatsApp messages detailing preferences and scheduling; agent provided multiple property options on 2025-08-15; client expressed interest in viewing Chapter King’s Cross; agent advised limited viewing availability due to high demand; multiple follow-up attempts by agent to confirm booking progress"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Bloomsbury Janet Poole House, Fusion Brent Cross Town, Chapter Kings Cross",
+              "viewings_scheduled": "No confirmed viewings; client requested viewing on Tuesday afternoon (2025-08-19) and later expressed interest in Chapter King’s Cross viewing; agent noted most properties stopped viewings due to near full booking",
+              "preferences_expressed": "Preference for location near UCL, solo rooms, community with other first years, communal facilities, catering optional",
+              "offers_made": "Agent shared detailed room types and pricing for three properties with booking links"
+            },
+            "next_steps": {
+              "immediate_actions": "Client to confirm booking decision; agent to assist with booking process and move-in date discussion",
+              "pending_items": "Client’s confirmation on property choice and booking completion",
+              "follow_up_required": "Agent to continue follow-up on booking status and move-in date; encourage client to act quickly due to fluctuating availability and rising rents",
+              "timeline": "Move-in expected early September 2025; lease duration 51 weeks; urgency due to limited availability post-UCAS results"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, concerned about finding suitable accommodation quickly; appreciative of advice",
+              "urgency_level": "Moderate to high urgency due to limited availability and rising rents",
+              "complexity": "Moderate complexity due to preference for community, location, and viewing constraints",
+              "special_considerations": "Client is a parent booking for a son new to living away from home; prefers catered options if possible; viewing opportunities limited due to high demand"
+            }
+          }
+        }
+      }
+    }
+  }
+}

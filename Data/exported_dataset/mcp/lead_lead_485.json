@@ -1,0 +1,253 @@
+{
+  "id": "lead_485",
+  "mobile_number": "8618357370312",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8072,
+      "lead_id": 485,
+      "event_type": "lead_info",
+      "timestamp": "2025-11-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-11-09T00:00:00\", \"lead_id\": 3224777, \"user_name\": \"Ziqing Shen\", \"email\": \"2129901316@qq.com\", \"phone\": \"8618357370312\", \"lease_duration\": \"43 week\", \"move_out_date\": \"2026-07-08\", \"budget\": 355, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2081277}",
+      "created_at": "2025-11-18 11:18:02"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 199,
+    "lead_id": 485,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Ziqing Shen\", \"mobile\": [\"+8618357370312\"], \"email\": [\"2129901316@qq.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 355, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Ziqing Shen\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (2129901316@qq.com), Phone (+86 18357370312)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3355 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Lead submission via email/phone\", \"last_contact\": \"2025-11-09\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received with budget and lease duration\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2081277\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm move-in date and room preferences\", \"pending_items\": \"Move-in date confirmation, room type preference, university details\", \"follow_up_required\": \"Yes, to clarify accommodation preferences and progress booking\", \"timeline\": \"Lease ends 2026-07-08\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget set at \\u00a3355 weekly for a 43-week lease in London\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Ziqing Shen\", \"mobile\": [\"+8618357370312\"], \"email\": [\"2129901316@qq.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 355, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Ziqing Shen\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (2129901316@qq.com), Phone (+86 18357370312)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3355 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Lead submission via email/phone\", \"last_contact\": \"2025-11-09\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received with budget and lease duration\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2081277\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm move-in date and room preferences\", \"pending_items\": \"Move-in date confirmation, room type preference, university details\", \"follow_up_required\": \"Yes, to clarify accommodation preferences and progress booking\", \"timeline\": \"Lease ends 2026-07-08\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget set at \\u00a3355 weekly for a 43-week lease in London\"}}}}}",
+    "created_at": "2025-11-18 11:18:10",
+    "updated_at": "2025-11-18T16:48:10.087393",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Ziqing Shen",
+        "mobile": [
+          "+8618357370312"
+        ],
+        "email": [
+          "2129901316@qq.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 43,
+        "room_type": null,
+        "budget": {
+          "max": 355,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "",
+      "suggested_next_step": ""
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Ziqing Shen",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (2129901316@qq.com), Phone (+86 18357370312)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£355 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "43 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1",
+            "primary_channel": "Lead submission via email/phone",
+            "last_contact": "2025-11-09",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial lead information received with budget and lease duration"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2081277",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Contact student to confirm move-in date and room preferences",
+            "pending_items": "Move-in date confirmation, room type preference, university details",
+            "follow_up_required": "Yes, to clarify accommodation preferences and progress booking",
+            "timeline": "Lease ends 2026-07-08"
+          },
+          "agent_notes": {
+            "student_tone": "Not mentioned",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Budget set at £355 weekly for a 43-week lease in London"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Ziqing Shen",
+          "mobile": [
+            "+8618357370312"
+          ],
+          "email": [
+            "2129901316@qq.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 43,
+          "room_type": null,
+          "budget": {
+            "max": 355,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "",
+        "suggested_next_step": ""
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Ziqing Shen",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (2129901316@qq.com), Phone (+86 18357370312)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£355 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "43 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1",
+              "primary_channel": "Lead submission via email/phone",
+              "last_contact": "2025-11-09",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial lead information received with budget and lease duration"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2081277",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Contact student to confirm move-in date and room preferences",
+              "pending_items": "Move-in date confirmation, room type preference, university details",
+              "follow_up_required": "Yes, to clarify accommodation preferences and progress booking",
+              "timeline": "Lease ends 2026-07-08"
+            },
+            "agent_notes": {
+              "student_tone": "Not mentioned",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Budget set at £355 weekly for a 43-week lease in London"
+            }
+          }
+        }
+      }
+    }
+  }
+}

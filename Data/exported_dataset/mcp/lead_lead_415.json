@@ -1,0 +1,410 @@
+{
+  "id": "lead_415",
+  "mobile_number": "8801886541091",
+  "email": null,
+  "timeline": [
+    {
+      "id": 7246,
+      "lead_id": 415,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3224611, \"user_name\": \"Parisa Abeni Haque\", \"email\": \"parisabeni@gmail.com\", \"phone\": \"8801886541091\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 260, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2094198}",
+      "created_at": "2025-11-18 11:08:05"
+    },
+    {
+      "id": 7247,
+      "lead_id": 415,
+      "event_type": "call",
+      "timestamp": "2025-09-12T09:22:40.728289",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7862416",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-12T09:22:40.728289\", \"id\": 7862416, \"duration\": \"0\", \"to_number\": \"8801886541091\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:08:05"
+    },
+    {
+      "id": 7248,
+      "lead_id": 415,
+      "event_type": "call",
+      "timestamp": "2025-09-12T09:23:03.703142",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7862419",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-12T09:23:03.703142\", \"id\": 7862419, \"duration\": \"0\", \"to_number\": \"8801886541091\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:08:05"
+    },
+    {
+      "id": 7249,
+      "lead_id": 415,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T09:24:06",
+      "content": "Hi Parisa Abeni Haque, 😊\n\nI hope you're doing well! 🌟\n\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, London Nest Canvas Walthamstow, London . 🏡\n\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! ✨\n\nThanks a lot! 😊\n\nBest regards,\nAshutush",
+      "source": "whatsapp",
+      "event_id": "8549481",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T09:24:06\", \"id\": 8549481, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"8801886541091\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_8801886541091@c.us_3FA3AABEA383FD2BCA0B\", \"message_type\": \"text\", \"message_content\": \"Hi Parisa Abeni Haque, \\ud83d\\ude0a\\n\\nI hope you're doing well! \\ud83c\\udf1f\\n\\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, London Nest Canvas Walthamstow, London . \\ud83c\\udfe1\\n\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\n\\nThanks a lot! \\ud83d\\ude0a\\n\\nBest regards,\\nAshutush\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-12T09:24:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Parisa Abeni Haque, \\ud83d\\ude0a\\\\n\\\\nI hope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, London Nest Canvas Walthamstow, London . \\ud83c\\udfe1\\\\n\\\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\\\n\\\\nThanks a lot! \\ud83d\\ude0a\\\\n\\\\nBest regards,\\\\nAshutush\\\", \\\"Datetime\\\": 1757669046000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"8801886541091@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_8801886541091@c.us_3FA3AABEA383FD2BCA0B\\\", \\\"ChannelName\\\": \\\"8801886541091\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-12T09:24:06.255201\", \"direction\": \"outbound\", \"sbase_user_id\": 2493847, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"8801886541091\"}",
+      "created_at": "2025-11-18 11:08:05"
+    },
+    {
+      "id": 7250,
+      "lead_id": 415,
+      "event_type": "call",
+      "timestamp": "2025-09-15T10:59:42.038429",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7876167",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-15T10:59:42.038429\", \"id\": 7876167, \"duration\": \"0\", \"to_number\": \"8801886541091\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:08:05"
+    },
+    {
+      "id": 7251,
+      "lead_id": 415,
+      "event_type": "call",
+      "timestamp": "2025-09-17T08:47:05.059214",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7887432",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-17T08:47:05.059214\", \"id\": 7887432, \"duration\": \"0\", \"to_number\": \"8801886541091\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:08:05"
+    },
+    {
+      "id": 7252,
+      "lead_id": 415,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T08:47:40",
+      "content": "Hi Parisa Abeni Haque, 😊\nHope you're doing well! 🌟\n\nI’ve been trying to get in touch to discuss the move-in date and the booking process. 🏡✨\n\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! 📞😊",
+      "source": "whatsapp",
+      "event_id": "8718312",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T08:47:40\", \"id\": 8718312, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"8801886541091\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_8801886541091@c.us_3FAC042018ECFAF49779\", \"message_type\": \"text\", \"message_content\": \"Hi Parisa Abeni Haque, \\ud83d\\ude0a\\nHope you're doing well! \\ud83c\\udf1f\\n\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\n\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T08:47:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Parisa Abeni Haque, \\ud83d\\ude0a\\\\nHope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\\\n\\\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\\\", \\\"Datetime\\\": 1758098860000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"8801886541091@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_8801886541091@c.us_3FAC042018ECFAF49779\\\", \\\"ChannelName\\\": \\\"8801886541091\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-17T08:47:40.913918\", \"direction\": \"outbound\", \"sbase_user_id\": 2493847, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"8801886541091\"}",
+      "created_at": "2025-11-18 11:08:05"
+    },
+    {
+      "id": 7253,
+      "lead_id": 415,
+      "event_type": "call",
+      "timestamp": "2025-09-18T08:40:39.455721",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7893510",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T08:40:39.455721\", \"id\": 7893510, \"duration\": \"0\", \"to_number\": \"8801886541091\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:08:05"
+    },
+    {
+      "id": 7254,
+      "lead_id": 415,
+      "event_type": "call",
+      "timestamp": "2025-09-18T08:40:52.438630",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7893513",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T08:40:52.438630\", \"id\": 7893513, \"duration\": \"0\", \"to_number\": \"8801886541091\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:08:05"
+    },
+    {
+      "id": 7255,
+      "lead_id": 415,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-18T08:41:14",
+      "content": "Hello Parisa Abeni Haque, 😊\n\nAny updates on when we can get your booking done? 🗓\n\nSince property availability is low and rents are also rising 📈, I am starting to feel a bit tense about this as well. 😬\n\nPlease let me know when we can proceed. Thank you! 🙏",
+      "source": "whatsapp",
+      "event_id": "8754754",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-18T08:41:14\", \"id\": 8754754, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"8801886541091\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_8801886541091@c.us_3F3EA2FF2CF2CA261E8F\", \"message_type\": \"text\", \"message_content\": \"Hello Parisa Abeni Haque, \\ud83d\\ude0a\\n\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\n\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\n\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-18T08:41:14.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hello Parisa Abeni Haque, \\ud83d\\ude0a\\\\n\\\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\\\n\\\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\\\n\\\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\\\", \\\"Datetime\\\": 1758184874000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"8801886541091@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_8801886541091@c.us_3F3EA2FF2CF2CA261E8F\\\", \\\"ChannelName\\\": \\\"8801886541091\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-09-18T08:41:15.187355\", \"direction\": \"outbound\", \"sbase_user_id\": 2493847, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"8801886541091\"}",
+      "created_at": "2025-11-18 11:08:05"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 174,
+    "lead_id": 415,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Parisa Abeni Haque\", \"mobile\": [\"8801886541091\"], \"email\": [\"parisabeni@gmail.com\"], \"whatsapp\": [\"8801886541091\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 260, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"London Nest Canvas Walthamstow\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Parisa to discuss move-in date and booking process.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-17 requesting a good time to connect about move-in date and booking process.\"}, {\"type\": \"communication\", \"description\": \"Student to provide a suitable time to connect for discussing move-in date and booking process.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp messages on 2025-09-12 and 2025-09-17 asking for a good time to connect.\"}, {\"type\": \"booking_action\", \"description\": \"Student to update agent on when they can proceed with the booking.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-18 requesting updates on booking timing.\"}], \"last_agent_response\": \"Agent sent WhatsApp messages on 2025-09-18 asking for updates on booking timing and expressing urgency due to low availability and rising rents.\", \"suggested_next_step\": \"Agent to follow up promptly with Parisa to schedule a call to discuss move-in date and booking process.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Parisa Abeni Haque\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages on phone number 8801886541091\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3260 per week\", \"move_in_date\": \"Not explicitly mentioned; move-out date is 2026-07-10\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with attempts to discuss move-in date and booking process; booking not yet confirmed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"9 (6 calls with zero duration, 3 WhatsApp message packs)\", \"primary_channel\": \"Phone calls and WhatsApp messages\", \"last_contact\": \"2025-09-18T08:41:14\", \"response_time\": \"No responses from student recorded; multiple outbound attempts by agent\", \"key_moments\": \"Agent reached out multiple times via calls and WhatsApp messages between 2025-09-12 and 2025-09-18; messages focused on scheduling a call, discussing move-in date, booking process, and urgency due to low availability and rising rents\"}, \"properties_discussed\": {\"properties_mentioned\": \"London Nest Canvas Walthamstow, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Await student response to confirm move-in date and proceed with booking\", \"pending_items\": \"Student confirmation on booking timing\", \"follow_up_required\": \"Continue follow-up to secure booking due to low availability and rising rents\", \"timeline\": \"Lease duration is 44 weeks ending 2026-07-10; urgency implied due to market conditions\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; no tone available\", \"urgency_level\": \"High urgency from agent side due to low property availability and rising rents\", \"complexity\": \"Standard inquiry with difficulty in establishing contact\", \"special_considerations\": \"Multiple unsuccessful call attempts; agent should consider alternative contact methods or timing\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Parisa Abeni Haque\", \"mobile\": [\"8801886541091\"], \"email\": [\"parisabeni@gmail.com\"], \"whatsapp\": [\"8801886541091\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 260, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"London Nest Canvas Walthamstow\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Parisa to discuss move-in date and booking process.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-17 requesting a good time to connect about move-in date and booking process.\"}, {\"type\": \"communication\", \"description\": \"Student to provide a suitable time to connect for discussing move-in date and booking process.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp messages on 2025-09-12 and 2025-09-17 asking for a good time to connect.\"}, {\"type\": \"booking_action\", \"description\": \"Student to update agent on when they can proceed with the booking.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-18 requesting updates on booking timing.\"}], \"last_agent_response\": \"Agent sent WhatsApp messages on 2025-09-18 asking for updates on booking timing and expressing urgency due to low availability and rising rents.\", \"suggested_next_step\": \"Agent to follow up promptly with Parisa to schedule a call to discuss move-in date and booking process.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Parisa Abeni Haque\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages on phone number 8801886541091\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3260 per week\", \"move_in_date\": \"Not explicitly mentioned; move-out date is 2026-07-10\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with attempts to discuss move-in date and booking process; booking not yet confirmed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"9 (6 calls with zero duration, 3 WhatsApp message packs)\", \"primary_channel\": \"Phone calls and WhatsApp messages\", \"last_contact\": \"2025-09-18T08:41:14\", \"response_time\": \"No responses from student recorded; multiple outbound attempts by agent\", \"key_moments\": \"Agent reached out multiple times via calls and WhatsApp messages between 2025-09-12 and 2025-09-18; messages focused on scheduling a call, discussing move-in date, booking process, and urgency due to low availability and rising rents\"}, \"properties_discussed\": {\"properties_mentioned\": \"London Nest Canvas Walthamstow, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Await student response to confirm move-in date and proceed with booking\", \"pending_items\": \"Student confirmation on booking timing\", \"follow_up_required\": \"Continue follow-up to secure booking due to low availability and rising rents\", \"timeline\": \"Lease duration is 44 weeks ending 2026-07-10; urgency implied due to market conditions\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; no tone available\", \"urgency_level\": \"High urgency from agent side due to low property availability and rising rents\", \"complexity\": \"Standard inquiry with difficulty in establishing contact\", \"special_considerations\": \"Multiple unsuccessful call attempts; agent should consider alternative contact methods or timing\"}}}}}",
+    "created_at": "2025-11-18 11:08:18",
+    "updated_at": "2025-11-18T16:38:18.198037",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Parisa Abeni Haque",
+        "mobile": [
+          "8801886541091"
+        ],
+        "email": [
+          "parisabeni@gmail.com"
+        ],
+        "whatsapp": [
+          "8801886541091"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": null,
+        "budget": {
+          "max": 260,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "London Nest Canvas Walthamstow"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Parisa to discuss move-in date and booking process.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-09-17 requesting a good time to connect about move-in date and booking process."
+        },
+        {
+          "type": "communication",
+          "description": "Student to provide a suitable time to connect for discussing move-in date and booking process.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp messages on 2025-09-12 and 2025-09-17 asking for a good time to connect."
+        },
+        {
+          "type": "booking_action",
+          "description": "Student to update agent on when they can proceed with the booking.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp message on 2025-09-18 requesting updates on booking timing."
+        }
+      ],
+      "last_agent_response": "Agent sent WhatsApp messages on 2025-09-18 asking for updates on booking timing and expressing urgency due to low availability and rising rents.",
+      "suggested_next_step": "Agent to follow up promptly with Parisa to schedule a call to discuss move-in date and booking process."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Parisa Abeni Haque",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Contacted via phone calls and WhatsApp messages on phone number 8801886541091",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£260 per week",
+            "move_in_date": "Not explicitly mentioned; move-out date is 2026-07-10",
+            "lease_duration": "44 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry with attempts to discuss move-in date and booking process; booking not yet confirmed",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "9 (6 calls with zero duration, 3 WhatsApp message packs)",
+            "primary_channel": "Phone calls and WhatsApp messages",
+            "last_contact": "2025-09-18T08:41:14",
+            "response_time": "No responses from student recorded; multiple outbound attempts by agent",
+            "key_moments": "Agent reached out multiple times via calls and WhatsApp messages between 2025-09-12 and 2025-09-18; messages focused on scheduling a call, discussing move-in date, booking process, and urgency due to low availability and rising rents"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "London Nest Canvas Walthamstow, London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Await student response to confirm move-in date and proceed with booking",
+            "pending_items": "Student confirmation on booking timing",
+            "follow_up_required": "Continue follow-up to secure booking due to low availability and rising rents",
+            "timeline": "Lease duration is 44 weeks ending 2026-07-10; urgency implied due to market conditions"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication from student recorded; no tone available",
+            "urgency_level": "High urgency from agent side due to low property availability and rising rents",
+            "complexity": "Standard inquiry with difficulty in establishing contact",
+            "special_considerations": "Multiple unsuccessful call attempts; agent should consider alternative contact methods or timing"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Parisa Abeni Haque",
+          "mobile": [
+            "8801886541091"
+          ],
+          "email": [
+            "parisabeni@gmail.com"
+          ],
+          "whatsapp": [
+            "8801886541091"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": null,
+          "budget": {
+            "max": 260,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "London Nest Canvas Walthamstow"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Parisa to discuss move-in date and booking process.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-09-17 requesting a good time to connect about move-in date and booking process."
+          },
+          {
+            "type": "communication",
+            "description": "Student to provide a suitable time to connect for discussing move-in date and booking process.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp messages on 2025-09-12 and 2025-09-17 asking for a good time to connect."
+          },
+          {
+            "type": "booking_action",
+            "description": "Student to update agent on when they can proceed with the booking.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp message on 2025-09-18 requesting updates on booking timing."
+          }
+        ],
+        "last_agent_response": "Agent sent WhatsApp messages on 2025-09-18 asking for updates on booking timing and expressing urgency due to low availability and rising rents.",
+        "suggested_next_step": "Agent to follow up promptly with Parisa to schedule a call to discuss move-in date and booking process."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Parisa Abeni Haque",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Contacted via phone calls and WhatsApp messages on phone number 8801886541091",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£260 per week",
+              "move_in_date": "Not explicitly mentioned; move-out date is 2026-07-10",
+              "lease_duration": "44 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry with attempts to discuss move-in date and booking process; booking not yet confirmed",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "9 (6 calls with zero duration, 3 WhatsApp message packs)",
+              "primary_channel": "Phone calls and WhatsApp messages",
+              "last_contact": "2025-09-18T08:41:14",
+              "response_time": "No responses from student recorded; multiple outbound attempts by agent",
+              "key_moments": "Agent reached out multiple times via calls and WhatsApp messages between 2025-09-12 and 2025-09-18; messages focused on scheduling a call, discussing move-in date, booking process, and urgency due to low availability and rising rents"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "London Nest Canvas Walthamstow, London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Await student response to confirm move-in date and proceed with booking",
+              "pending_items": "Student confirmation on booking timing",
+              "follow_up_required": "Continue follow-up to secure booking due to low availability and rising rents",
+              "timeline": "Lease duration is 44 weeks ending 2026-07-10; urgency implied due to market conditions"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication from student recorded; no tone available",
+              "urgency_level": "High urgency from agent side due to low property availability and rising rents",
+              "complexity": "Standard inquiry with difficulty in establishing contact",
+              "special_considerations": "Multiple unsuccessful call attempts; agent should consider alternative contact methods or timing"
+            }
+          }
+        }
+      }
+    }
+  }
+}

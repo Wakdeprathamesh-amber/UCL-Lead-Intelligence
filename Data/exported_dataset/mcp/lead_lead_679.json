@@ -1,0 +1,350 @@
+{
+  "id": "lead_679",
+  "mobile_number": "8801751469888",
+  "email": null,
+  "timeline": [
+    {
+      "id": 10981,
+      "lead_id": 679,
+      "event_type": "call",
+      "timestamp": "2025-09-11T08:27:26.421132",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7855047",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-11T08:27:26.421132\", \"id\": 7855047, \"duration\": \"55\", \"to_number\": \"8801751469888\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e4b5ef11-7ca1-4dd2-8f77-79d4f5aaf5a9.wav\"}",
+      "created_at": "2025-11-18 12:40:43"
+    },
+    {
+      "id": 10982,
+      "lead_id": 679,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3222091, \"user_name\": \"Rahee Hasan Chowdhury\", \"email\": \"raheehasan1@gmail.com\", \"phone\": \"8801751469888\", \"lease_duration\": \"50 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 249, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 2168297}",
+      "created_at": "2025-11-18 12:40:43"
+    },
+    {
+      "id": 10983,
+      "lead_id": 679,
+      "event_type": "email",
+      "timestamp": "2025-09-26T13:17:09",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-26T13:17:09\", \"sender_email\": \"raheehasan1@gmail.com\", \"recipient_email\": \"flavia.dsouza@thisisfresh.com\", \"subject\": \"Regarding booking cancellation and reimbursement of advance rent (150 GBP)\", \"message\": \"Dear authority,\\\\n\\\\nI am writing to let you know that due to the confusions regarding the phone conversation about payment of the 1st instalment of my rent, I would like to cancel my booking of a Bronze Premium En Suite (51 Weeks) room at Pavilion Court. Since I am a Commonwealth PhD Scholar and my stipends will start from October 1, 2025, I am unable to pay any instalment before October 1.\\\\n\\\\nI am therefore requesting you to reimburse my booking money (advance rent) of 150 GBP. Please let me know if you want any alternative bank account to process the refund.\\\\n\\\\nYours sincerely,\\\\n\\\\nRahee Hasan Chowdhury\", \"snippet\": \"Dear authority, I am writing to let you know that due to the confusions regarding the phone conversation about payment of the 1 st instalment of my rent, I would like to cancel my booking of a Bronze\", \"sender_type\": \"student\", \"agent_email\": \"flavia.dsouza@thisisfresh.com\", \"student_email\": \"raheehasan1@gmail.com\"}",
+      "created_at": "2025-11-18 12:40:43"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 538,
+      "lead_id": 679,
+      "call_id": "7855047",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e4b5ef11-7ca1-4dd2-8f77-79d4f5aaf5a9.wav",
+      "transcript_text": "Speaker A: Hello. Yeah, hello, am I speaking at Rahi here? Hello, am I speaking with Rahi? Yes, yes, I'm ready. Yeah. Calling you from Amsterdam. Sorry. Rahi Dish of this site calling you from Rahi. Rishabh, this site calling you from Ambassador. Student from. From Amber. Students. Yeah, from Amber. The official accommodation partner. Oh yes, yes. University College London. Yes, yes. So I just wanted to update regarding my query. Is it fine if I connect you on WhatsApp? I think that the network is a bit broken. It's not working properly. Yes, yes, please, please. This is my WhatsApp number. Yes, yes, you can connect me by WhatsApp. Yes.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:40:51"
+    }
+  ],
+  "summary": {
+    "id": 280,
+    "lead_id": 679,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Rahee Hasan Chowdhury\", \"mobile\": [\"+8801751469888\"], \"email\": [\"raheehasan1@gmail.com\"], \"whatsapp\": [\"+8801751469888\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 50, \"room_type\": \"ensuite\", \"budget\": {\"max\": 249, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Pavilion Court\"], \"rooms_considered\": [\"Bronze Premium En Suite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Process the cancellation of Rahee Hasan Chowdhury's booking for the Bronze Premium En Suite room at Pavilion Court.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-26 requesting booking cancellation due to payment confusion\"}, {\"type\": \"payment\", \"description\": \"Process reimbursement of the advance rent payment of 150 GBP to Rahee Hasan Chowdhury.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-26 requesting refund of advance rent\"}, {\"type\": \"communication\", \"description\": \"Confirm with Rahee Hasan Chowdhury if an alternative bank account is needed for the refund process.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-26 asking to confirm alternative bank account details if needed\"}], \"last_agent_response\": \"Agent agreed to connect via WhatsApp to continue communication after initial call on 2025-09-11.\", \"suggested_next_step\": \"Agent should acknowledge the cancellation request and initiate the refund process, while confirming bank details with the student.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Rahee Hasan Chowdhury\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp (phone number +8801751469888), email (raheehasan1@gmail.com)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Bronze Premium En Suite\", \"budget_range\": \"249 pounds weekly\", \"move_in_date\": \"Not mentioned explicitly\", \"lease_duration\": \"50 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"booking cancelled by student\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Advance rent of 150 GBP paid, refund requested due to cancellation\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least three (one call, one lead info submission, one email)\", \"primary_channel\": \"Phone call and email\", \"last_contact\": \"2025-09-26 (email regarding cancellation)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Initial phone call on 2025-09-11 with WhatsApp follow-up; lead info recorded on 2025-09-13; booking cancellation and refund request email sent on 2025-09-26\"}, \"properties_discussed\": {\"properties_mentioned\": \"Bronze Premium En Suite room at Pavilion Court\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Preferred Bronze Premium En Suite room\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Process refund of 150 GBP advance rent as requested\", \"pending_items\": \"Confirmation of refund processing and any alternative bank account details if needed\", \"follow_up_required\": \"Agent to respond to cancellation and refund request\", \"timeline\": \"Refund requested after 2025-09-26 email\"}, \"agent_notes\": {\"student_tone\": \"Polite and formal, clear about financial constraints and cancellation reasons\", \"urgency_level\": \"Moderate urgency due to refund request\", \"complexity\": \"Moderate; involves cancellation and refund due to stipend start date\", \"special_considerations\": \"Student is a Commonwealth PhD Scholar with stipend starting October 1, 2025; unable to pay rent instalments before then\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Rahee Hasan Chowdhury\", \"mobile\": [\"+8801751469888\"], \"email\": [\"raheehasan1@gmail.com\"], \"whatsapp\": [\"+8801751469888\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 50, \"room_type\": \"ensuite\", \"budget\": {\"max\": 249, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Pavilion Court\"], \"rooms_considered\": [\"Bronze Premium En Suite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Process the cancellation of Rahee Hasan Chowdhury's booking for the Bronze Premium En Suite room at Pavilion Court.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-26 requesting booking cancellation due to payment confusion\"}, {\"type\": \"payment\", \"description\": \"Process reimbursement of the advance rent payment of 150 GBP to Rahee Hasan Chowdhury.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-26 requesting refund of advance rent\"}, {\"type\": \"communication\", \"description\": \"Confirm with Rahee Hasan Chowdhury if an alternative bank account is needed for the refund process.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-09-26 asking to confirm alternative bank account details if needed\"}], \"last_agent_response\": \"Agent agreed to connect via WhatsApp to continue communication after initial call on 2025-09-11.\", \"suggested_next_step\": \"Agent should acknowledge the cancellation request and initiate the refund process, while confirming bank details with the student.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Rahee Hasan Chowdhury\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp (phone number +8801751469888), email (raheehasan1@gmail.com)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Bronze Premium En Suite\", \"budget_range\": \"249 pounds weekly\", \"move_in_date\": \"Not mentioned explicitly\", \"lease_duration\": \"50 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"booking cancelled by student\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Advance rent of 150 GBP paid, refund requested due to cancellation\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least three (one call, one lead info submission, one email)\", \"primary_channel\": \"Phone call and email\", \"last_contact\": \"2025-09-26 (email regarding cancellation)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Initial phone call on 2025-09-11 with WhatsApp follow-up; lead info recorded on 2025-09-13; booking cancellation and refund request email sent on 2025-09-26\"}, \"properties_discussed\": {\"properties_mentioned\": \"Bronze Premium En Suite room at Pavilion Court\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Preferred Bronze Premium En Suite room\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Process refund of 150 GBP advance rent as requested\", \"pending_items\": \"Confirmation of refund processing and any alternative bank account details if needed\", \"follow_up_required\": \"Agent to respond to cancellation and refund request\", \"timeline\": \"Refund requested after 2025-09-26 email\"}, \"agent_notes\": {\"student_tone\": \"Polite and formal, clear about financial constraints and cancellation reasons\", \"urgency_level\": \"Moderate urgency due to refund request\", \"complexity\": \"Moderate; involves cancellation and refund due to stipend start date\", \"special_considerations\": \"Student is a Commonwealth PhD Scholar with stipend starting October 1, 2025; unable to pay rent instalments before then\"}}}}}",
+    "created_at": "2025-11-18 12:41:00",
+    "updated_at": "2025-11-18T18:11:00.964605",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Rahee Hasan Chowdhury",
+        "mobile": [
+          "+8801751469888"
+        ],
+        "email": [
+          "raheehasan1@gmail.com"
+        ],
+        "whatsapp": [
+          "+8801751469888"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 50,
+        "room_type": "ensuite",
+        "budget": {
+          "max": 249,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": "installment",
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Pavilion Court"
+        ],
+        "rooms_considered": [
+          "Bronze Premium En Suite"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Process the cancellation of Rahee Hasan Chowdhury's booking for the Bronze Premium En Suite room at Pavilion Court.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student email on 2025-09-26 requesting booking cancellation due to payment confusion"
+        },
+        {
+          "type": "payment",
+          "description": "Process reimbursement of the advance rent payment of 150 GBP to Rahee Hasan Chowdhury.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student email on 2025-09-26 requesting refund of advance rent"
+        },
+        {
+          "type": "communication",
+          "description": "Confirm with Rahee Hasan Chowdhury if an alternative bank account is needed for the refund process.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student email on 2025-09-26 asking to confirm alternative bank account details if needed"
+        }
+      ],
+      "last_agent_response": "Agent agreed to connect via WhatsApp to continue communication after initial call on 2025-09-11.",
+      "suggested_next_step": "Agent should acknowledge the cancellation request and initiate the refund process, while confirming bank details with the student."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Rahee Hasan Chowdhury",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp (phone number +8801751469888), email (raheehasan1@gmail.com)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College London",
+            "room_type": "Bronze Premium En Suite",
+            "budget_range": "249 pounds weekly",
+            "move_in_date": "Not mentioned explicitly",
+            "lease_duration": "50 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "booking cancelled by student",
+            "documents_status": "Not mentioned",
+            "payment_status": "Advance rent of 150 GBP paid, refund requested due to cancellation",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "At least three (one call, one lead info submission, one email)",
+            "primary_channel": "Phone call and email",
+            "last_contact": "2025-09-26 (email regarding cancellation)",
+            "response_time": "Not explicitly mentioned",
+            "key_moments": "Initial phone call on 2025-09-11 with WhatsApp follow-up; lead info recorded on 2025-09-13; booking cancellation and refund request email sent on 2025-09-26"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Bronze Premium En Suite room at Pavilion Court",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Preferred Bronze Premium En Suite room",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Process refund of 150 GBP advance rent as requested",
+            "pending_items": "Confirmation of refund processing and any alternative bank account details if needed",
+            "follow_up_required": "Agent to respond to cancellation and refund request",
+            "timeline": "Refund requested after 2025-09-26 email"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and formal, clear about financial constraints and cancellation reasons",
+            "urgency_level": "Moderate urgency due to refund request",
+            "complexity": "Moderate; involves cancellation and refund due to stipend start date",
+            "special_considerations": "Student is a Commonwealth PhD Scholar with stipend starting October 1, 2025; unable to pay rent instalments before then"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Rahee Hasan Chowdhury",
+          "mobile": [
+            "+8801751469888"
+          ],
+          "email": [
+            "raheehasan1@gmail.com"
+          ],
+          "whatsapp": [
+            "+8801751469888"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 50,
+          "room_type": "ensuite",
+          "budget": {
+            "max": 249,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": "installment",
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Pavilion Court"
+          ],
+          "rooms_considered": [
+            "Bronze Premium En Suite"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Process the cancellation of Rahee Hasan Chowdhury's booking for the Bronze Premium En Suite room at Pavilion Court.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student email on 2025-09-26 requesting booking cancellation due to payment confusion"
+          },
+          {
+            "type": "payment",
+            "description": "Process reimbursement of the advance rent payment of 150 GBP to Rahee Hasan Chowdhury.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student email on 2025-09-26 requesting refund of advance rent"
+          },
+          {
+            "type": "communication",
+            "description": "Confirm with Rahee Hasan Chowdhury if an alternative bank account is needed for the refund process.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student email on 2025-09-26 asking to confirm alternative bank account details if needed"
+          }
+        ],
+        "last_agent_response": "Agent agreed to connect via WhatsApp to continue communication after initial call on 2025-09-11.",
+        "suggested_next_step": "Agent should acknowledge the cancellation request and initiate the refund process, while confirming bank details with the student."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Rahee Hasan Chowdhury",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp (phone number +8801751469888), email (raheehasan1@gmail.com)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College London",
+              "room_type": "Bronze Premium En Suite",
+              "budget_range": "249 pounds weekly",
+              "move_in_date": "Not mentioned explicitly",
+              "lease_duration": "50 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "booking cancelled by student",
+              "documents_status": "Not mentioned",
+              "payment_status": "Advance rent of 150 GBP paid, refund requested due to cancellation",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "At least three (one call, one lead info submission, one email)",
+              "primary_channel": "Phone call and email",
+              "last_contact": "2025-09-26 (email regarding cancellation)",
+              "response_time": "Not explicitly mentioned",
+              "key_moments": "Initial phone call on 2025-09-11 with WhatsApp follow-up; lead info recorded on 2025-09-13; booking cancellation and refund request email sent on 2025-09-26"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Bronze Premium En Suite room at Pavilion Court",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Preferred Bronze Premium En Suite room",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Process refund of 150 GBP advance rent as requested",
+              "pending_items": "Confirmation of refund processing and any alternative bank account details if needed",
+              "follow_up_required": "Agent to respond to cancellation and refund request",
+              "timeline": "Refund requested after 2025-09-26 email"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and formal, clear about financial constraints and cancellation reasons",
+              "urgency_level": "Moderate urgency due to refund request",
+              "complexity": "Moderate; involves cancellation and refund due to stipend start date",
+              "special_considerations": "Student is a Commonwealth PhD Scholar with stipend starting October 1, 2025; unable to pay rent instalments before then"
+            }
+          }
+        }
+      }
+    }
+  }
+}

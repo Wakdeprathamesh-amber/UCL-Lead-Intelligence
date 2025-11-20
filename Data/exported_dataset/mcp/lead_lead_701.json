@@ -1,0 +1,462 @@
+{
+  "id": "lead_701",
+  "mobile_number": "447962950777",
+  "email": null,
+  "timeline": [
+    {
+      "id": 11311,
+      "lead_id": 701,
+      "event_type": "call",
+      "timestamp": "2025-07-29T11:30:51.215449",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7586050",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-29T11:30:51.215449\", \"id\": 7586050, \"duration\": \"8\", \"to_number\": \"447962950777\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4d19f9d5-05a5-4906-bc3a-9ca77ba02032.wav\"}",
+      "created_at": "2025-11-18 12:45:47"
+    },
+    {
+      "id": 11312,
+      "lead_id": 701,
+      "event_type": "call",
+      "timestamp": "2025-07-31T12:07:40.158943",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7600171",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-31T12:07:40.158943\", \"id\": 7600171, \"duration\": \"4\", \"to_number\": \"447962950777\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ded2f74f-9047-433c-9a74-1349fbc95b97.wav\"}",
+      "created_at": "2025-11-18 12:45:47"
+    },
+    {
+      "id": 11313,
+      "lead_id": 701,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-31T12:15:29",
+      "content": "Hey, Good Afternoon. This is Booking Manager Anuranan from Amber Student.",
+      "source": "whatsapp",
+      "event_id": "6647661",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-31T12:15:29\", \"id\": 6647661, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"447962950777\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447962950777@c.us_3EB02561FA603FDA8E4C53\", \"message_type\": \"text\", \"message_content\": \"Hey, Good Afternoon. This is Booking Manager Anuranan from Amber Student.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-31T12:15:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey, Good Afternoon. This is Booking Manager Anuranan from Amber Student.\\\", \\\"Datetime\\\": 1753964129000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447962950777@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447962950777@c.us_3EB02561FA603FDA8E4C53\\\", \\\"ChannelName\\\": \\\"447962950777\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-31T12:15:29.993344\", \"direction\": \"outbound\", \"sbase_user_id\": 2387269, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"447962950777\"}",
+      "created_at": "2025-11-18 12:45:47"
+    },
+    {
+      "id": 11314,
+      "lead_id": 701,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-31T12:17:06",
+      "content": "I will help you book your ideal student accommodation near UCL.",
+      "source": "whatsapp",
+      "event_id": "6647750",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-31T12:17:06\", \"id\": 6647750, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"447962950777\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447962950777@c.us_3EB0620FCC85677B8C38A0\", \"message_type\": \"text\", \"message_content\": \"I will help you book your ideal student accommodation near UCL.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-31T12:17:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"I will help you book your ideal student accommodation near UCL.\\\", \\\"Datetime\\\": 1753964226000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447962950777@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447962950777@c.us_3EB0620FCC85677B8C38A0\\\", \\\"ChannelName\\\": \\\"447962950777\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-31T12:17:06.523948\", \"direction\": \"outbound\", \"sbase_user_id\": 2387269, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"447962950777\"}",
+      "created_at": "2025-11-18 12:45:47"
+    },
+    {
+      "id": 11315,
+      "lead_id": 701,
+      "event_type": "call",
+      "timestamp": "2025-08-02T12:10:58.461020",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7612927",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-02T12:10:58.461020\", \"id\": 7612927, \"duration\": \"9\", \"to_number\": \"447962950777\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/771b0cc8-a087-401e-98ae-7a86b49e96df.wav\"}",
+      "created_at": "2025-11-18 12:45:47"
+    },
+    {
+      "id": 11316,
+      "lead_id": 701,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-02T12:11:48",
+      "content": "Hey, Tried calling you. Let me know when you will be free to connect.",
+      "source": "whatsapp",
+      "event_id": "6729188",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-02T12:11:48\", \"id\": 6729188, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"447962950777\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447962950777@c.us_3EB07E628157903702C47F\", \"message_type\": \"text\", \"message_content\": \"Hey, Tried calling you. Let me know when you will be free to connect.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-02T12:11:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey, Tried calling you. Let me know when you will be free to connect.\\\", \\\"Datetime\\\": 1754136708000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447962950777@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447962950777@c.us_3EB07E628157903702C47F\\\", \\\"ChannelName\\\": \\\"447962950777\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-02T12:11:49.219918\", \"direction\": \"outbound\", \"sbase_user_id\": 2400900, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"447962950777\"}",
+      "created_at": "2025-11-18 12:45:47"
+    },
+    {
+      "id": 11317,
+      "lead_id": 701,
+      "event_type": "call",
+      "timestamp": "2025-08-07T16:03:58.349542",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7642535",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-07T16:03:58.349542\", \"id\": 7642535, \"duration\": \"5\", \"to_number\": \"447962950777\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4e2871c2-f1ea-42ac-8307-8df935a11bb5.wav\"}",
+      "created_at": "2025-11-18 12:45:47"
+    },
+    {
+      "id": 11318,
+      "lead_id": 701,
+      "event_type": "call",
+      "timestamp": "2025-08-09T13:53:47.049532",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7653921",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-09T13:53:47.049532\", \"id\": 7653921, \"duration\": \"5\", \"to_number\": \"447962950777\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4fb011cf-c281-4c1f-9561-ec43d5147c67.wav\"}",
+      "created_at": "2025-11-18 12:45:47"
+    },
+    {
+      "id": 11319,
+      "lead_id": 701,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-09T13:55:23",
+      "content": "Hey, let us know if you are still looking for accommodations",
+      "source": "whatsapp",
+      "event_id": "7014972",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-09T13:55:23\", \"id\": 7014972, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"447962950777\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447962950777@c.us_3EB0BA6B22B1AF0B1EDFE1\", \"message_type\": \"text\", \"message_content\": \"Hey, let us know if you are still looking for accommodations\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-09T13:55:23.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey, let us know if you are still looking for accommodations\\\", \\\"Datetime\\\": 1754747723000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447962950777@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447962950777@c.us_3EB0BA6B22B1AF0B1EDFE1\\\", \\\"ChannelName\\\": \\\"447962950777\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-08-09T13:55:24.002919\", \"direction\": \"outbound\", \"sbase_user_id\": 2400900, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"447962950777\"}",
+      "created_at": "2025-11-18 12:45:47"
+    },
+    {
+      "id": 11320,
+      "lead_id": 701,
+      "event_type": "call",
+      "timestamp": "2025-08-12T13:54:34.393080",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7668752",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-12T13:54:34.393080\", \"id\": 7668752, \"duration\": \"5\", \"to_number\": \"447962950777\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a56f7934-293a-4455-8d58-25d0bff1d85a.wav\"}",
+      "created_at": "2025-11-18 12:45:47"
+    },
+    {
+      "id": 11321,
+      "lead_id": 701,
+      "event_type": "lead_info",
+      "timestamp": "2025-11-18T18:15:47.228833",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-11-18T18:15:47.228833\", \"lead_id\": 3099658, \"user_name\": \"Student\", \"email\": \"zzz842560@163.com\", \"phone\": \"447962950777\", \"lease_duration\": \"51 week\", \"budget\": 294, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8217, \"inventory_id\": 1834016}",
+      "created_at": "2025-11-18 12:45:47"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 563,
+      "lead_id": 701,
+      "call_id": "7586050",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4d19f9d5-05a5-4906-bc3a-9ca77ba02032.wav",
+      "transcript_text": "Speaker A: 通话 已 转至 语音 留言 你 尝试 联系 的 用户 无法 接听 请 在 提示音 后 录制 留言 录音 完成 后.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:46:34"
+    },
+    {
+      "id": 564,
+      "lead_id": 701,
+      "call_id": "7600171",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ded2f74f-9047-433c-9a74-1349fbc95b97.wav",
+      "transcript_text": "Speaker A: 通话 已 转至 语音 留言 你 尝试 联系 的 用户 无法.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:46:42"
+    },
+    {
+      "id": 565,
+      "lead_id": 701,
+      "call_id": "7612927",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/771b0cc8-a087-401e-98ae-7a86b49e96df.wav",
+      "transcript_text": "Speaker A: This person you are calling is currently unavailable. Please leave a message after the tone. After you leave a message, you can mod.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:46:46"
+    },
+    {
+      "id": 566,
+      "lead_id": 701,
+      "call_id": "7642535",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4e2871c2-f1ea-42ac-8307-8df935a11bb5.wav",
+      "transcript_text": "Speaker A: This person you are calling is currently unavailable. Please.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:46:50"
+    },
+    {
+      "id": 567,
+      "lead_id": 701,
+      "call_id": "7653921",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4fb011cf-c281-4c1f-9561-ec43d5147c67.wav",
+      "transcript_text": "Speaker A: This person you are calling is currently unavailable. Please leave.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:46:54"
+    },
+    {
+      "id": 568,
+      "lead_id": 701,
+      "call_id": "7668752",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a56f7934-293a-4455-8d58-25d0bff1d85a.wav",
+      "transcript_text": "Speaker A: This person you are calling is currently unavailable. Please leave a mess.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:46:58"
+    }
+  ],
+  "summary": {
+    "id": 292,
+    "lead_id": 701,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Student\", \"mobile\": [\"+447962950777\"], \"email\": [\"zzz842560@163.com\"], \"whatsapp\": [\"+447962950777\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 294, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with the student to confirm if they are still looking for accommodation and to arrange a convenient time to connect.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple unsuccessful call attempts and WhatsApp messages on 2025-07-31, 2025-08-02, 2025-08-09 asking student to confirm availability and interest.\"}], \"last_agent_response\": \"Agent sent WhatsApp messages on 2025-08-09 asking the student to confirm if they are still looking for accommodation.\", \"suggested_next_step\": \"Agent to follow up with the student via WhatsApp or call to get confirmation on accommodation interest and schedule a call.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Student\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via UK numbers\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"UCL\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3294 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry, no confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"9 (6 calls, 3 WhatsApp message packs)\", \"primary_channel\": \"Phone calls with follow-up WhatsApp messages\", \"last_contact\": \"2025-11-18 (lead info updated)\", \"response_time\": \"No direct student responses recorded; multiple unanswered calls and outbound messages\", \"key_moments\": \"Multiple call attempts left voicemail; initial WhatsApp introduction and offer to assist with booking near UCL; follow-up WhatsApp messages checking availability and interest\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1834016 (specific property not named)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Interest in accommodation near UCL, budget and lease duration specified\", \"offers_made\": \"Agent offered help to book ideal student accommodation near UCL\"}, \"next_steps\": {\"immediate_actions\": \"Await student response to WhatsApp messages or calls\", \"pending_items\": \"Student confirmation on interest and availability\", \"follow_up_required\": \"Continue outreach to establish contact and confirm booking intent\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; unresponsive to calls\", \"urgency_level\": \"Unknown due to lack of student response\", \"complexity\": \"Standard inquiry with no complications noted\", \"special_considerations\": \"Multiple unsuccessful contact attempts; consider alternative contact strategies\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Student\", \"mobile\": [\"+447962950777\"], \"email\": [\"zzz842560@163.com\"], \"whatsapp\": [\"+447962950777\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 294, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with the student to confirm if they are still looking for accommodation and to arrange a convenient time to connect.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple unsuccessful call attempts and WhatsApp messages on 2025-07-31, 2025-08-02, 2025-08-09 asking student to confirm availability and interest.\"}], \"last_agent_response\": \"Agent sent WhatsApp messages on 2025-08-09 asking the student to confirm if they are still looking for accommodation.\", \"suggested_next_step\": \"Agent to follow up with the student via WhatsApp or call to get confirmation on accommodation interest and schedule a call.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Student\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via UK numbers\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"UCL\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3294 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry, no confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"9 (6 calls, 3 WhatsApp message packs)\", \"primary_channel\": \"Phone calls with follow-up WhatsApp messages\", \"last_contact\": \"2025-11-18 (lead info updated)\", \"response_time\": \"No direct student responses recorded; multiple unanswered calls and outbound messages\", \"key_moments\": \"Multiple call attempts left voicemail; initial WhatsApp introduction and offer to assist with booking near UCL; follow-up WhatsApp messages checking availability and interest\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1834016 (specific property not named)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Interest in accommodation near UCL, budget and lease duration specified\", \"offers_made\": \"Agent offered help to book ideal student accommodation near UCL\"}, \"next_steps\": {\"immediate_actions\": \"Await student response to WhatsApp messages or calls\", \"pending_items\": \"Student confirmation on interest and availability\", \"follow_up_required\": \"Continue outreach to establish contact and confirm booking intent\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded; unresponsive to calls\", \"urgency_level\": \"Unknown due to lack of student response\", \"complexity\": \"Standard inquiry with no complications noted\", \"special_considerations\": \"Multiple unsuccessful contact attempts; consider alternative contact strategies\"}}}}}",
+    "created_at": "2025-11-18 12:47:06",
+    "updated_at": "2025-11-18T18:17:06.131247",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Student",
+        "mobile": [
+          "+447962950777"
+        ],
+        "email": [
+          "zzz842560@163.com"
+        ],
+        "whatsapp": [
+          "+447962950777"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 294,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "UCL",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with the student to confirm if they are still looking for accommodation and to arrange a convenient time to connect.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple unsuccessful call attempts and WhatsApp messages on 2025-07-31, 2025-08-02, 2025-08-09 asking student to confirm availability and interest."
+        }
+      ],
+      "last_agent_response": "Agent sent WhatsApp messages on 2025-08-09 asking the student to confirm if they are still looking for accommodation.",
+      "suggested_next_step": "Agent to follow up with the student via WhatsApp or call to get confirmation on accommodation interest and schedule a call."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Student",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via UK numbers",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "UCL",
+            "room_type": "Not mentioned",
+            "budget_range": "£294 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry, no confirmed booking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "9 (6 calls, 3 WhatsApp message packs)",
+            "primary_channel": "Phone calls with follow-up WhatsApp messages",
+            "last_contact": "2025-11-18 (lead info updated)",
+            "response_time": "No direct student responses recorded; multiple unanswered calls and outbound messages",
+            "key_moments": "Multiple call attempts left voicemail; initial WhatsApp introduction and offer to assist with booking near UCL; follow-up WhatsApp messages checking availability and interest"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1834016 (specific property not named)",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Interest in accommodation near UCL, budget and lease duration specified",
+            "offers_made": "Agent offered help to book ideal student accommodation near UCL"
+          },
+          "next_steps": {
+            "immediate_actions": "Await student response to WhatsApp messages or calls",
+            "pending_items": "Student confirmation on interest and availability",
+            "follow_up_required": "Continue outreach to establish contact and confirm booking intent",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication from student recorded; unresponsive to calls",
+            "urgency_level": "Unknown due to lack of student response",
+            "complexity": "Standard inquiry with no complications noted",
+            "special_considerations": "Multiple unsuccessful contact attempts; consider alternative contact strategies"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Student",
+          "mobile": [
+            "+447962950777"
+          ],
+          "email": [
+            "zzz842560@163.com"
+          ],
+          "whatsapp": [
+            "+447962950777"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 294,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "UCL",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with the student to confirm if they are still looking for accommodation and to arrange a convenient time to connect.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple unsuccessful call attempts and WhatsApp messages on 2025-07-31, 2025-08-02, 2025-08-09 asking student to confirm availability and interest."
+          }
+        ],
+        "last_agent_response": "Agent sent WhatsApp messages on 2025-08-09 asking the student to confirm if they are still looking for accommodation.",
+        "suggested_next_step": "Agent to follow up with the student via WhatsApp or call to get confirmation on accommodation interest and schedule a call."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Student",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via UK numbers",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "UCL",
+              "room_type": "Not mentioned",
+              "budget_range": "£294 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry, no confirmed booking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "9 (6 calls, 3 WhatsApp message packs)",
+              "primary_channel": "Phone calls with follow-up WhatsApp messages",
+              "last_contact": "2025-11-18 (lead info updated)",
+              "response_time": "No direct student responses recorded; multiple unanswered calls and outbound messages",
+              "key_moments": "Multiple call attempts left voicemail; initial WhatsApp introduction and offer to assist with booking near UCL; follow-up WhatsApp messages checking availability and interest"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1834016 (specific property not named)",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Interest in accommodation near UCL, budget and lease duration specified",
+              "offers_made": "Agent offered help to book ideal student accommodation near UCL"
+            },
+            "next_steps": {
+              "immediate_actions": "Await student response to WhatsApp messages or calls",
+              "pending_items": "Student confirmation on interest and availability",
+              "follow_up_required": "Continue outreach to establish contact and confirm booking intent",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication from student recorded; unresponsive to calls",
+              "urgency_level": "Unknown due to lack of student response",
+              "complexity": "Standard inquiry with no complications noted",
+              "special_considerations": "Multiple unsuccessful contact attempts; consider alternative contact strategies"
+            }
+          }
+        }
+      }
+    }
+  }
+}

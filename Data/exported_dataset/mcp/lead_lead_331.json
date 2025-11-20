@@ -1,0 +1,631 @@
+{
+  "id": "lead_331",
+  "mobile_number": "447775618841",
+  "email": null,
+  "timeline": [
+    {
+      "id": 5392,
+      "lead_id": 331,
+      "event_type": "call",
+      "timestamp": "2025-08-19T12:48:46.619003",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7715721",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T12:48:46.619003\", \"id\": 7715721, \"duration\": \"6\", \"to_number\": \"447775618841\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f963ab66-375e-46b0-a674-846d0ebbf5d5.wav\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5393,
+      "lead_id": 331,
+      "event_type": "call",
+      "timestamp": "2025-08-19T15:55:19.143922",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7717617",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T15:55:19.143922\", \"id\": 7717617, \"duration\": \"3\", \"to_number\": \"447775618841\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/486cf95e-59f9-4619-84a9-15dbf859a197.wav\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5394,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T11:05:04",
+      "content": "Hi Rachna, I'm an incoming 23 yr old postgraduate student (MSc) at UCL. I'm not familiar with London, and I was wondering what sort of accommodation is normally chosen by postgraduate/mature students in London. My max budget is £350/week, and I'd like to be within 30 mins transit of the bloomsbury campus.",
+      "source": "whatsapp",
+      "event_id": "7532379",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T11:05:04\", \"id\": 7532379, \"email\": \"\", \"from_number\": \"447775618841\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447775618841@c.us_BE4090208E7D6BDFE632F92301BF1F57\", \"message_type\": \"text\", \"message_content\": \"Hi Rachna, I'm an incoming 23 yr old postgraduate student (MSc) at UCL. I'm not familiar with London, and I was wondering what sort of accommodation is normally chosen by postgraduate/mature students in London. My max budget is \\u00a3350/week, and I'd like to be within 30 mins transit of the bloomsbury campus.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447775618841@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-20T11:05:04.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Rachna, I'm an incoming 23 yr old postgraduate student (MSc) at UCL. I'm not familiar with London, and I was wondering what sort of accommodation is normally chosen by postgraduate/mature students in London. My max budget is \\u00a3350/week, and I'd like to be within 30 mins transit of the bloomsbury campus.\\\", \\\"Datetime\\\": 1755687904000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447775618841@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447775618841@c.us_BE4090208E7D6BDFE632F92301BF1F57\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447775618841\\\", \\\"sentByUserId\\\": \\\"447775618841@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-20T11:05:05.352814\", \"direction\": \"inbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5395,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T11:33:42",
+      "content": "Hi Thomas",
+      "source": "whatsapp",
+      "event_id": "7534557",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T11:33:42\", \"id\": 7534557, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447775618841\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447775618841@c.us_3EB044FADBEA16C41CF821\", \"message_type\": \"text\", \"message_content\": \"Hi Thomas\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T11:33:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Thomas\\\", \\\"Datetime\\\": 1755689622000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447775618841@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447775618841@c.us_3EB044FADBEA16C41CF821\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-20T11:33:42.793867\", \"direction\": \"outbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5396,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T11:34:00",
+      "content": "Noted the whole of the info",
+      "source": "whatsapp",
+      "event_id": "7534577",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T11:34:00\", \"id\": 7534577, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447775618841\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447775618841@c.us_3EB02498E5E17167CE32AD\", \"message_type\": \"text\", \"message_content\": \"Noted the whole of the info\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T11:34:00.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Noted the whole of the info\\\", \\\"Datetime\\\": 1755689640000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447775618841@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447775618841@c.us_3EB02498E5E17167CE32AD\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-20T11:34:00.902011\", \"direction\": \"outbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5397,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T11:34:33",
+      "content": "Can you help me with the Room preference? \nEnsuite - Private room, Private washroo, kitchen shared \nStudio - All private",
+      "source": "whatsapp",
+      "event_id": "7534611",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T11:34:33\", \"id\": 7534611, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447775618841\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447775618841@c.us_3EB03F78F3E755EC126767\", \"message_type\": \"text\", \"message_content\": \"Can you help me with the Room preference? \\nEnsuite - Private room, Private washroo, kitchen shared \\nStudio - All private\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T11:34:33.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Can you help me with the Room preference? \\\\nEnsuite - Private room, Private washroo, kitchen shared \\\\nStudio - All private\\\", \\\"Datetime\\\": 1755689673000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447775618841@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447775618841@c.us_3EB03F78F3E755EC126767\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-20T11:34:33.752085\", \"direction\": \"outbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5398,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T11:44:27",
+      "content": "Thank you. I would prefer an ensuite, though I don't mind shared bathroom. I don't mind Studio either as long as it's within budget.",
+      "source": "whatsapp",
+      "event_id": "7535338",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T11:44:27\", \"id\": 7535338, \"email\": \"\", \"from_number\": \"447775618841\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447775618841@c.us_90B43D83031AA0D79C9742C209EE8C01\", \"message_type\": \"text\", \"message_content\": \"Thank you. I would prefer an ensuite, though I don't mind shared bathroom. I don't mind Studio either as long as it's within budget.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447775618841@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-20T11:44:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Thank you. I would prefer an ensuite, though I don't mind shared bathroom. I don't mind Studio either as long as it's within budget.\\\", \\\"Datetime\\\": 1755690267000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447775618841@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447775618841@c.us_90B43D83031AA0D79C9742C209EE8C01\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447775618841\\\", \\\"sentByUserId\\\": \\\"447775618841@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-20T11:44:28.143021\", \"direction\": \"inbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5399,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T11:44:33",
+      "content": "so ensuite.",
+      "source": "whatsapp",
+      "event_id": "7535352",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T11:44:33\", \"id\": 7535352, \"email\": \"\", \"from_number\": \"447775618841\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447775618841@c.us_729BC44D7762188456A083B8900EFDB2\", \"message_type\": \"text\", \"message_content\": \"so ensuite.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447775618841@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-20T11:44:33.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"so ensuite.\\\", \\\"Datetime\\\": 1755690273000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447775618841@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447775618841@c.us_729BC44D7762188456A083B8900EFDB2\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447775618841\\\", \\\"sentByUserId\\\": \\\"447775618841@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-20T11:44:33.530002\", \"direction\": \"inbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5400,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T11:44:43",
+      "content": "Ok sure",
+      "source": "whatsapp",
+      "event_id": "7535366",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T11:44:43\", \"id\": 7535366, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447775618841\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447775618841@c.us_3EB0C6B2E0E16428EA5FBC\", \"message_type\": \"text\", \"message_content\": \"Ok sure\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T11:44:43.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Ok sure\\\", \\\"Datetime\\\": 1755690283000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447775618841@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447775618841@c.us_3EB0C6B2E0E16428EA5FBC\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-20T11:44:43.366287\", \"direction\": \"outbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5401,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T13:05:12",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *MANNEQUIN HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\n*Drive:* 7.2 mi (37 mins)\n*Walk:* 7.0 mi (2 hours 24 mins)\n*Bus/Train:* 7.6 mi (26 mins)\n\n🏘 *ROOM TYPES:*\n*Ensuite Gold:*\n  £309/week (Duration: 51 week) (Move in: 30 Aug, 2025)\n  £315/week (Duration: 51 week) (Move in: 30 Aug, 2025)\n\n*Ensuite Platinum:*\n  £329/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\n  £333/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\n  £339/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\n  £345/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\n\n*Ensuite Platinum Plus:*\n  £339/week (Duration: 51 week) (Move in: 30 Aug, 2025)\n  £345/week (Duration: 51 week) (Move in: 30 Aug, 2025)\n\n*Studio Silver:*\n  £406/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\n  £411/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013/form?url=rachna.a%40amberstudent.com&amp;inventory_id=134941\n\n------------\n\n🏡 *GOBRITANYA ISLINGTON RESIDENCE, LONDON*\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\n*Drive:* 2.2 mi (14 mins)\n*Walk:* 2.0 mi (44 mins)\n*Bus/Train:* 2.1 mi (28 mins)\n\n🏘 *ROOM TYPES:*\n*Silver Ensuite Lower Level:*\n  £385/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n  £385/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n  £385/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n\n*Bronze Ensuite Upper Level:*\n  £390/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n  £390/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n  £390/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n\n*Silver Ensuite Mid Level :*\n  £420/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n  £420/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n  £420/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n\n*Silver Ensuite Upper Level:*\n  £430/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n  £430/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n  £430/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n\n*Platinum Ensuite Mid Level:*\n  £430/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n  £430/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n  £430/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n\n*Gold Ensuite Lower Level:*\n  £435/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n  £435/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n  £435/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n\n*Platinum Ensuite Upper Level:*\n  £440/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n  £440/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n  £440/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n\n*Gold Ensuite Mid Level:*\n  £445/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n  £445/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n  £445/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n\n*Gold Ensuite Upper Level:*\n  £445/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n  £445/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n  £445/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n\n*Bronze Studio Lower Level:*\n  £495/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n  £495/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n  £495/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n\n*Bronze Studio Upper Level:*\n  £505/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n  £505/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £525/week (Duration: 37 week) (Move in: 6 Sep, 2025) (Move out: 23 May, 2026)\n\n*Silver Studio XL Upper Level:*\n  £525/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\n  £525/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\n  £525/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830/form?url=rachna.a%40amberstudent.com&amp;inventory_id=159545\n\n------------\n\n🏡 *CAMDEN HAWLEY CRESCENT, LONDON *\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\n*Drive:* 2.1 mi (14 mins)\n*Walk:* 1.4 mi (31 mins)\n*Bus/Train:* 1.7 mi (19 mins)\n\n🏘 *ROOM TYPES:*\n*Silver Twin Studio:*\n  £295/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Bronze Studio:*\n  £395/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Silver Studio:*\n  £399/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Gold Studio:*\n  £459/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\n\n------------\n\n🏡 *CHAPTER KINGS CROSS, LONDON*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\n*Drive:* 1.3 mi (10 mins)\n*Walk:* 0.9 mi (21 mins)\n*Bus/Train:* 0.9 mi (14 mins)\n\n🏘 *ROOM TYPES:*\n*Bronze Twin Studio Shared Lower Level:*\n  £297/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £327/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Twin Studio Shared Mid Level:*\n  £302/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £332/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Silver Twin Studio Shared Lower Level:*\n  £321/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £351/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Silver Twin Studio Shared Mid Level:*\n  £326/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £356/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Studio Shared Lower Level:*\n  £297/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £327/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 20",
+      "source": "whatsapp",
+      "event_id": "7541223",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T13:05:12\", \"id\": 7541223, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447775618841\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447775618841@c.us_3EB05B041A9E69BF468C62\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *MANNEQUIN HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\n*Drive:* 7.2 mi (37 mins)\\n*Walk:* 7.0 mi (2 hours 24 mins)\\n*Bus/Train:* 7.6 mi (26 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Ensuite Gold:*\\n\\u00a0\\u00a0\\u00a3309/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\n\\u00a0\\u00a0\\u00a3315/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\n\\n*Ensuite Platinum:*\\n\\u00a0\\u00a0\\u00a3329/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3333/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\\n\\n*Ensuite Platinum Plus:*\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\n\\n*Studio Silver:*\\n\\u00a0\\u00a0\\u00a3406/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3411/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013/form?url=rachna.a%40amberstudent.com&amp;inventory_id=134941\\n\\n------------\\n\\n\\ud83c\\udfe1 *GOBRITANYA ISLINGTON RESIDENCE, LONDON*\\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\n*Drive:* 2.2 mi (14 mins)\\n*Walk:* 2.0 mi (44 mins)\\n*Bus/Train:* 2.1 mi (28 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Silver Ensuite Lower Level:*\\n\\u00a0\\u00a0\\u00a3385/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\u00a0\\u00a0\\u00a3385/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3385/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\n*Bronze Ensuite Upper Level:*\\n\\u00a0\\u00a0\\u00a3390/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\u00a0\\u00a0\\u00a3390/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3390/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\n*Silver Ensuite Mid Level :*\\n\\u00a0\\u00a0\\u00a3420/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\u00a0\\u00a0\\u00a3420/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\u00a0\\u00a0\\u00a3420/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\n*Silver Ensuite Upper Level:*\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\n*Platinum Ensuite Mid Level:*\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\n*Gold Ensuite Lower Level:*\\n\\u00a0\\u00a0\\u00a3435/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\u00a0\\u00a0\\u00a3435/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\u00a0\\u00a0\\u00a3435/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\n*Platinum Ensuite Upper Level:*\\n\\u00a0\\u00a0\\u00a3440/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\u00a0\\u00a0\\u00a3440/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\u00a0\\u00a0\\u00a3440/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\n*Gold Ensuite Mid Level:*\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\n*Gold Ensuite Upper Level:*\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\n*Bronze Studio Lower Level:*\\n\\u00a0\\u00a0\\u00a3495/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3495/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\u00a0\\u00a0\\u00a3495/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\n*Bronze Studio Upper Level:*\\n\\u00a0\\u00a0\\u00a3505/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3505/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3525/week (Duration: 37 week) (Move in: 6 Sep, 2025) (Move out: 23 May, 2026)\\n\\n*Silver Studio XL Upper Level:*\\n\\u00a0\\u00a0\\u00a3525/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\n\\u00a0\\u00a0\\u00a3525/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3525/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830/form?url=rachna.a%40amberstudent.com&amp;inventory_id=159545\\n\\n------------\\n\\n\\ud83c\\udfe1 *CAMDEN HAWLEY CRESCENT, LONDON *\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\n*Drive:* 2.1 mi (14 mins)\\n*Walk:* 1.4 mi (31 mins)\\n*Bus/Train:* 1.7 mi (19 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Silver Twin Studio:*\\n\\u00a0\\u00a0\\u00a3295/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Bronze Studio:*\\n\\u00a0\\u00a0\\u00a3395/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Silver Studio:*\\n\\u00a0\\u00a0\\u00a3399/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Gold Studio:*\\n\\u00a0\\u00a0\\u00a3459/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\\n\\n------------\\n\\n\\ud83c\\udfe1 *CHAPTER KINGS CROSS, LONDON*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\n*Drive:* 1.3 mi (10 mins)\\n*Walk:* 0.9 mi (21 mins)\\n*Bus/Train:* 0.9 mi (14 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Bronze Twin Studio Shared Lower Level:*\\n\\u00a0\\u00a0\\u00a3297/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3327/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Twin Studio Shared Mid Level:*\\n\\u00a0\\u00a0\\u00a3302/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3332/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Silver Twin Studio Shared Lower Level:*\\n\\u00a0\\u00a0\\u00a3321/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3351/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Silver Twin Studio Shared Mid Level:*\\n\\u00a0\\u00a0\\u00a3326/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3356/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Studio Shared Lower Level:*\\n\\u00a0\\u00a0\\u00a3297/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3327/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 20\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T13:05:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *MANNEQUIN HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 7.2 mi (37 mins)\\\\n*Walk:* 7.0 mi (2 hours 24 mins)\\\\n*Bus/Train:* 7.6 mi (26 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Ensuite Gold:*\\\\n\\u00a0\\u00a0\\u00a3309/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\\\n\\u00a0\\u00a0\\u00a3315/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\\\n\\\\n*Ensuite Platinum:*\\\\n\\u00a0\\u00a0\\u00a3329/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3333/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 44 week) (Move in: 30 Aug, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Ensuite Platinum Plus:*\\\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 51 week) (Move in: 30 Aug, 2025)\\\\n\\\\n*Studio Silver:*\\\\n\\u00a0\\u00a0\\u00a3406/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3411/week (Duration: 51 week) (Move in: 30 Aug, 2025) (Move out: 22 Aug, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/mannequin-house-london-1706057856013/form?url=rachna.a%40amberstudent.com&amp;inventory_id=134941\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *GOBRITANYA ISLINGTON RESIDENCE, LONDON*\\\\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 2.2 mi (14 mins)\\\\n*Walk:* 2.0 mi (44 mins)\\\\n*Bus/Train:* 2.1 mi (28 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Silver Ensuite Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3385/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\u00a0\\u00a0\\u00a3385/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3385/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\\\n*Bronze Ensuite Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3390/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\u00a0\\u00a0\\u00a3390/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3390/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\\\n*Silver Ensuite Mid Level :*\\\\n\\u00a0\\u00a0\\u00a3420/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\u00a0\\u00a0\\u00a3420/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\u00a0\\u00a0\\u00a3420/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\\\n*Silver Ensuite Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\\\n*Platinum Ensuite Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\u00a0\\u00a0\\u00a3430/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\\\n*Gold Ensuite Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3435/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\u00a0\\u00a0\\u00a3435/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\u00a0\\u00a0\\u00a3435/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\\\n*Platinum Ensuite Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3440/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\u00a0\\u00a0\\u00a3440/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\u00a0\\u00a0\\u00a3440/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\\\n*Gold Ensuite Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\\\n*Gold Ensuite Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\u00a0\\u00a0\\u00a3445/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\\\n*Bronze Studio Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3495/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3495/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\u00a0\\u00a0\\u00a3495/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\\\n*Bronze Studio Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3505/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3505/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3525/week (Duration: 37 week) (Move in: 6 Sep, 2025) (Move out: 23 May, 2026)\\\\n\\\\n*Silver Studio XL Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3525/week (Duration: 43 week) (Move in: 1 Sep, 2025) (Move out: 28 Jun, 2026)\\\\n\\u00a0\\u00a0\\u00a3525/week (Duration: 52 week) (Move in: 1 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3525/week (Duration: 37 week) (Move in: 1 Sep, 2025) (Move out: 17 May, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/islington-residence-go-britanya-2009027357830/form?url=rachna.a%40amberstudent.com&amp;inventory_id=159545\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CAMDEN HAWLEY CRESCENT, LONDON *\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 2.1 mi (14 mins)\\\\n*Walk:* 1.4 mi (31 mins)\\\\n*Bus/Train:* 1.7 mi (19 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Silver Twin Studio:*\\\\n\\u00a0\\u00a0\\u00a3295/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Bronze Studio:*\\\\n\\u00a0\\u00a0\\u00a3395/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Silver Studio:*\\\\n\\u00a0\\u00a0\\u00a3399/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Gold Studio:*\\\\n\\u00a0\\u00a0\\u00a3459/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CHAPTER KINGS CROSS, LONDON*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 1.3 mi (10 mins)\\\\n*Walk:* 0.9 mi (21 mins)\\\\n*Bus/Train:* 0.9 mi (14 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Bronze Twin Studio Shared Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3297/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3327/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Twin Studio Shared Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3302/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3332/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver Twin Studio Shared Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3321/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3351/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver Twin Studio Shared Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3326/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3356/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Studio Shared Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3297/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3327/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Bronze Ensuite Shared Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3554/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3584/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Studio Private Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3559/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3589/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3589/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3619/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Studio Private Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3547/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3555/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3577/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3585/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Studio Private Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3552/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3582/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Gold Studio Private Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3657/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3687/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Ensuite Shared Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3547/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3555/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3577/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3585/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Bronze Studio Private Penthouse:*\\\\n\\u00a0\\u00a0\\u00a3562/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3592/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3592/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3622/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver Studio Private Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3627/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3657/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Silver Studio Private Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3632/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3662/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Silver Studio Private Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3639/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3669/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339/form?url=rachna.a%40amberstudent.com&amp;inventory_id=136672\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *FUSION BRENT CROSS TOWN, LONDON*\\\\nhttps://ucl.studentacco.com/places/fusion-brent-cross-town-london-2502064252833\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/fusion-brent-cross-town-london-2502064252833?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 6.7 mi (29 mins)\\\\n*Walk:* 5.9 mi (2 hours 11 mins)\\\\n*Bus/Train:* 6.2 mi (41 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Social Studio:*\\\\n\\u00a0\\u00a0\\u00a3342/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3343/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3350/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\\\n*Classic Studio:*\\\\n\\u00a0\\u00a0\\u00a3343/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3345/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3347/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 44 week) (Move in: 6 Sep, 2025) (Move out: 10 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3360/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3364/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Superior Studio:*\\\\n\\u00a0\\u00a0\\u00a3370/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Accessible Studio:*\\\\n\\u00a0\\u00a0\\u00a3381/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3386/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3393/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3400/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/fusion-brent-cross-town-london-2502064252833/form?url=rachna.a%40amberstudent.com&amp;inventory_id=1629687\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *LONDON NEST LADY MARGARET, LONDON *\\\\nhttps://ucl.studentacco.com/places/lady-margaret-london-nest-2006037886046\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/lady-margaret-london-nest-2006037886046?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/lady-margaret-london-nest-2006037886046?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 2.9 mi (17 mins)\\\\n*Walk:* 2.3 mi (50 mins)\\\\n*Bus/Train:* 2.8 mi (22 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Single En-suite:*\\\\n\\u00a0\\u00a0\\u00a3300/week (Duration: 51 week) (Move in: 7 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\\\n*Double En-suite:*\\\\n\\u00a0\\u00a0\\u00a3310/week (Duration: 51 week) (Move in: 7 Sep, 2025) (Move out: 30 Aug, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/lady-margaret-london-nest-2006037886046/form?url=rachna.a%40amberstudent.com&amp;inventory_id=153888\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *PICCADILLY COURT, LONDON*\\\\nhttps://ucl.studentacco.com/places/piccadilly-court-london-1710259668710\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/piccadilly-court-london-1710259668710?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/piccadilly-court-london-1710259668710?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 2.1 mi (13 mins)\\\\n*Walk:* 2.0 mi (40 mins)\\\\n*Bus/Train:* 2.4 mi (19 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Classic Ensuite :*\\\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 51 week) (Move in: 20 Sep, 2025) (Move out: 11 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/piccadilly-court-london-1710259668710/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137870\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *BRITANNIA SOUTH BANK, LONDON*\\\\nhttps://ucl.studentacco.com/places/britannia-south-bank-london-2308028175513\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/britannia-south-bank-london-2308028175513?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 3.1 mi (21 mins)\\\\n*Walk:* 2.5 mi (58 mins)\\\\n*Bus/Train:* 2.7 mi (29 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Shared Double Studio:*\\\\n\\u00a0\\u00a0\\u00a3295/week (Duration: 43 week) (Move in: 23 Aug, 2025) (Move out: 19 Jun, 2026)\\\\n\\\\n*Twin with En-suite:*\\\\n\\u00a0\\u00a0\\u00a3300/week (Duration: 43 week) (Move in: 23 Aug, 2025) (Move out: 19 Jun, 2026)\\\\n\\\\n*Twin Studio:*\\\\n\\u00a0\\u00a0\\u00a3310/week (Duration: 43 week) (Move in: 23 Aug, 2025) (Move out: 19 Jun, 2026)\\\\n\\\\n*Standard Single with Shared Bathroom:*\\\\n\\u00a3349 - \\u00a3390/week (Duration: 4 week - 43 week) (Move in: 23 Aug, 2025)\\\\n\\\\n*Premium Single Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3425/week (Duration: 43 week) (Move in: 23 Aug, 2025) (Move out: 19 Jun, 2026)\\\\n\\\\n*Superior Single with Ensuite Bathroom:*\\\\n\\u00a0\\u00a0\\u00a3460/week (Duration: 43 week) (Move in: 14 Sep, 2025) (Move out: 12 Jul, 2026)\\\\n\\\\n*Single Studio:*\\\\n\\u00a0\\u00a0\\u00a3505/week (Duration: 43 week) (Move in: 23 Aug, 2025) (Move out: 19 Jun, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\n \", \"updated_at\": \"2025-08-20T13:05:13.133743\", \"direction\": \"outbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5402,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-21T21:44:22",
+      "content": "Hi \n\nDid you get a chance to review the options ?",
+      "source": "whatsapp",
+      "event_id": "7629465",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-21T21:44:22\", \"id\": 7629465, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447775618841\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447775618841@c.us_3A5691419585B16F4FCA\", \"message_type\": \"text\", \"message_content\": \"Hi \\n\\nDid you get a chance to review the options ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-21T21:44:22.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi \\\\n\\\\nDid you get a chance to review the options ?\\\", \\\"Datetime\\\": 1755812662000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447775618841@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447775618841@c.us_3A5691419585B16F4FCA\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-21T21:44:22.920264\", \"direction\": \"outbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5403,
+      "lead_id": 331,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3230258, \"user_name\": \"Thomas Hedworth\", \"email\": \"thomashedworth@gmail.com\", \"phone\": \"447775618841\", \"lease_duration\": \"4 week\", \"move_out_date\": \"2025-10-10\", \"budget\": 540, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3306, \"inventory_id\": 1000010}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5404,
+      "lead_id": 331,
+      "event_type": "call",
+      "timestamp": "2025-09-15T10:25:32.712920",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7875940",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-15T10:25:32.712920\", \"id\": 7875940, \"duration\": \"2\", \"to_number\": \"447775618841\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4cd2e42d-75b6-4716-bca8-f957ec1b3423.wav\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5405,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-15T10:25:50",
+      "content": "Hi Thomas\n\nWaiting to hear back",
+      "source": "whatsapp",
+      "event_id": "8641395",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-15T10:25:50\", \"id\": 8641395, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447775618841\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447775618841@c.us_3EB07A79D03C0290C6776B\", \"message_type\": \"text\", \"message_content\": \"Hi Thomas\\n\\nWaiting to hear back\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-15T10:25:50.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Thomas\\\\n\\\\nWaiting to hear back\\\", \\\"Datetime\\\": 1757931950000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447775618841@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447775618841@c.us_3EB07A79D03C0290C6776B\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-15T10:25:50.971894\", \"direction\": \"outbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5406,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-15T10:50:12",
+      "content": "Hi, ive now secured accommodation, thank you",
+      "source": "whatsapp",
+      "event_id": "8642843",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-15T10:50:12\", \"id\": 8642843, \"email\": \"\", \"from_number\": \"447775618841\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447775618841@c.us_AC464F6D09030D53E8C1A400CCEA440A\", \"message_type\": \"text\", \"message_content\": \"Hi, ive now secured accommodation, thank you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447775618841@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-15T10:50:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi, ive now secured accommodation, thank you\\\", \\\"Datetime\\\": 1757933412000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447775618841@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447775618841@c.us_AC464F6D09030D53E8C1A400CCEA440A\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447775618841\\\", \\\"sentByUserId\\\": \\\"447775618841@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-15T10:50:12.902213\", \"direction\": \"inbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5407,
+      "lead_id": 331,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-15T10:51:16",
+      "content": "ok",
+      "source": "whatsapp",
+      "event_id": "8642889",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-15T10:51:16\", \"id\": 8642889, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447775618841\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447775618841@c.us_3EB0AA48B9D5E65960CF9F\", \"message_type\": \"text\", \"message_content\": \"ok\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-15T10:51:16.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"ok\\\", \\\"Datetime\\\": 1757933476000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447775618841@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447775618841@c.us_3EB0AA48B9D5E65960CF9F\\\", \\\"ChannelName\\\": \\\"447775618841\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-15T10:51:17.139078\", \"direction\": \"outbound\", \"sbase_user_id\": 2442329, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447775618841\"}",
+      "created_at": "2025-11-18 10:46:54"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 218,
+      "lead_id": 331,
+      "call_id": "7715721",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f963ab66-375e-46b0-a674-846d0ebbf5d5.wav",
+      "transcript_text": "Speaker A: The Vodafone voicemail service. 4 oh, 7, double 7, 5, 6.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:46:59"
+    },
+    {
+      "id": 219,
+      "lead_id": 331,
+      "call_id": "7717617",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/486cf95e-59f9-4619-84a9-15dbf859a197.wav",
+      "transcript_text": "Speaker A: The Vodafone voicemail service for.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:47:03"
+    },
+    {
+      "id": 222,
+      "lead_id": 331,
+      "call_id": "7875940",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4cd2e42d-75b6-4716-bca8-f957ec1b3423.wav",
+      "transcript_text": "Speaker A: The Vodafone voicemail service for.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:47:07"
+    }
+  ],
+  "summary": {
+    "id": 134,
+    "lead_id": 331,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Thomas Hedworth\", \"mobile\": [\"+447775618841\"], \"email\": [\"thomashedworth@gmail.com\"], \"whatsapp\": [\"+447775618841\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 4, \"room_type\": \"ensuite\", \"budget\": {\"max\": 350, \"currency\": \"GBP\"}, \"bathroom_type\": \"shared_bathroom\", \"kitchen_type\": \"shared_kitchen\", \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-08-30\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": \"postgrad\"}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Mannequin House, London\", \"Gobritanya Islington Residence, London\", \"Camden Hawley Crescent, London\", \"Chapter Kings Cross, London\", \"Fusion Brent Cross Town, London\", \"London Nest Lady Margaret, London\", \"Piccadilly Court, London\", \"Britannia South Bank, London\"], \"rooms_considered\": [\"Ensuite Gold\", \"Ensuite Platinum\", \"Ensuite Platinum Plus\", \"Studio Silver\", \"Silver Ensuite Lower Level\", \"Bronze Ensuite Upper Level\", \"Silver Ensuite Mid Level\", \"Silver Ensuite Upper Level\", \"Platinum Ensuite Mid Level\", \"Gold Ensuite Lower Level\", \"Platinum Ensuite Upper Level\", \"Gold Ensuite Mid Level\", \"Gold Ensuite Upper Level\", \"Bronze Studio Lower Level\", \"Bronze Studio Upper Level\", \"Silver Studio XL Upper Level\", \"Silver Twin Studio\", \"Bronze Studio\", \"Silver Studio\", \"Gold Studio\", \"Bronze Twin Studio Shared Lower Level\", \"Bronze Twin Studio Shared Mid Level\", \"Silver Twin Studio Shared Lower Level\", \"Silver Twin Studio Shared Mid Level\", \"Bronze Studio Shared Lower Level\", \"Bronze Ensuite Shared Upper Level\", \"Bronze Studio Private Upper Level\", \"Bronze Studio Private Lower Level\", \"Bronze Studio Private Mid Level\", \"Gold Studio Private Lower Level\", \"Bronze Ensuite Shared Mid Level\", \"Bronze Studio Private Penthouse\", \"Silver Studio Private Lower Level\", \"Silver Studio Private Mid Level\", \"Silver Studio Private Upper Level\", \"Social Studio\", \"Classic Studio\", \"Superior Studio\", \"Accessible Studio\", \"Single En-suite\", \"Double En-suite\", \"Classic Ensuite\", \"Shared Double Studio\", \"Twin with En-suite\", \"Twin Studio\", \"Standard Single with Shared Bathroom\", \"Premium Single Ensuite\", \"Superior Single with Ensuite Bathroom\", \"Single Studio\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Send accommodation options to Thomas based on his preference for ensuite or studio within budget and 30 mins transit of Bloomsbury campus.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent detailed property suggestions on 2025-08-20 at 13:05:12.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Thomas to check if he reviewed the accommodation options sent.\", \"due\": \"within_week\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent asked on 2025-08-21 if Thomas reviewed the options.\"}, {\"type\": \"follow_up\", \"description\": \"Wait for confirmation from Thomas regarding his accommodation decision.\", \"due\": \"within_month\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent messaged on 2025-09-15 waiting to hear back.\"}], \"last_agent_response\": \"Sent detailed accommodation options on 2025-08-20 and followed up on 2025-08-21 and 2025-09-15.\", \"suggested_next_step\": \"No further action needed as student confirmed securing accommodation on 2025-09-15.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Thomas Hedworth\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via mobile number 447775618841\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, within 30 minutes transit of UCL Bloomsbury campus\", \"university\": \"UCL\", \"room_type\": \"Prefers ensuite room; open to studio if within budget\", \"budget_range\": \"Initially stated max budget \\u00a3350/week; lead info later shows budget \\u00a3540/week\", \"move_in_date\": \"Around late August to early September 2025 (suggested move-in dates from properties range from 30 Aug to 13 Sep 2025)\", \"lease_duration\": \"Initially unspecified; lead info states 4 weeks lease duration with move-out date 10 Oct 2025\", \"special_requirements\": \"Not familiar with London; prefers accommodation suitable for postgraduate/mature students\"}, \"current_status\": {\"booking_stage\": \"Accommodation secured as of 15 Sep 2025\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls and WhatsApp messages between 19 Aug and 15 Sep 2025\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"15 Sep 2025, WhatsApp message confirming accommodation secured\", \"response_time\": \"Generally prompt responses within hours on WhatsApp\", \"key_moments\": \"Initial inquiry on 20 Aug about accommodation preferences; detailed property suggestions sent on 20 Aug; follow-up on 21 Aug; final confirmation of accommodation secured on 15 Sep\"}, \"properties_discussed\": {\"properties_mentioned\": \"Mannequin House, GoBritanya Islington Residence, Camden Hawley Crescent, Chapter Kings Cross, Fusion Brent Cross Town, London Nest Lady Margaret, Piccadilly Court, Britannia South Bank\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Prefers ensuite rooms but open to shared bathroom or studio if within budget\", \"offers_made\": \"Detailed property options with pricing and links provided; no specific offers or discounts mentioned\"}, \"next_steps\": {\"immediate_actions\": \"None required as accommodation is secured\", \"pending_items\": \"None\", \"follow_up_required\": \"Not required unless student initiates further contact\", \"timeline\": \"Move-in expected late August to mid-September 2025; lease duration 4 weeks ending 10 Oct 2025\"}, \"agent_notes\": {\"student_tone\": \"Polite, clear about preferences and budget, responsive\", \"urgency_level\": \"Moderate urgency initially; resolved by mid-September\", \"complexity\": \"Straightforward case with clear preferences and budget\", \"special_considerations\": \"Student is new to London and postgraduate; prefers accommodation suitable for mature students\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Thomas Hedworth\", \"mobile\": [\"+447775618841\"], \"email\": [\"thomashedworth@gmail.com\"], \"whatsapp\": [\"+447775618841\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 4, \"room_type\": \"ensuite\", \"budget\": {\"max\": 350, \"currency\": \"GBP\"}, \"bathroom_type\": \"shared_bathroom\", \"kitchen_type\": \"shared_kitchen\", \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-08-30\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": \"postgrad\"}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Mannequin House, London\", \"Gobritanya Islington Residence, London\", \"Camden Hawley Crescent, London\", \"Chapter Kings Cross, London\", \"Fusion Brent Cross Town, London\", \"London Nest Lady Margaret, London\", \"Piccadilly Court, London\", \"Britannia South Bank, London\"], \"rooms_considered\": [\"Ensuite Gold\", \"Ensuite Platinum\", \"Ensuite Platinum Plus\", \"Studio Silver\", \"Silver Ensuite Lower Level\", \"Bronze Ensuite Upper Level\", \"Silver Ensuite Mid Level\", \"Silver Ensuite Upper Level\", \"Platinum Ensuite Mid Level\", \"Gold Ensuite Lower Level\", \"Platinum Ensuite Upper Level\", \"Gold Ensuite Mid Level\", \"Gold Ensuite Upper Level\", \"Bronze Studio Lower Level\", \"Bronze Studio Upper Level\", \"Silver Studio XL Upper Level\", \"Silver Twin Studio\", \"Bronze Studio\", \"Silver Studio\", \"Gold Studio\", \"Bronze Twin Studio Shared Lower Level\", \"Bronze Twin Studio Shared Mid Level\", \"Silver Twin Studio Shared Lower Level\", \"Silver Twin Studio Shared Mid Level\", \"Bronze Studio Shared Lower Level\", \"Bronze Ensuite Shared Upper Level\", \"Bronze Studio Private Upper Level\", \"Bronze Studio Private Lower Level\", \"Bronze Studio Private Mid Level\", \"Gold Studio Private Lower Level\", \"Bronze Ensuite Shared Mid Level\", \"Bronze Studio Private Penthouse\", \"Silver Studio Private Lower Level\", \"Silver Studio Private Mid Level\", \"Silver Studio Private Upper Level\", \"Social Studio\", \"Classic Studio\", \"Superior Studio\", \"Accessible Studio\", \"Single En-suite\", \"Double En-suite\", \"Classic Ensuite\", \"Shared Double Studio\", \"Twin with En-suite\", \"Twin Studio\", \"Standard Single with Shared Bathroom\", \"Premium Single Ensuite\", \"Superior Single with Ensuite Bathroom\", \"Single Studio\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Send accommodation options to Thomas based on his preference for ensuite or studio within budget and 30 mins transit of Bloomsbury campus.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent detailed property suggestions on 2025-08-20 at 13:05:12.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Thomas to check if he reviewed the accommodation options sent.\", \"due\": \"within_week\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent asked on 2025-08-21 if Thomas reviewed the options.\"}, {\"type\": \"follow_up\", \"description\": \"Wait for confirmation from Thomas regarding his accommodation decision.\", \"due\": \"within_month\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent messaged on 2025-09-15 waiting to hear back.\"}], \"last_agent_response\": \"Sent detailed accommodation options on 2025-08-20 and followed up on 2025-08-21 and 2025-09-15.\", \"suggested_next_step\": \"No further action needed as student confirmed securing accommodation on 2025-09-15.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Thomas Hedworth\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via mobile number 447775618841\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, within 30 minutes transit of UCL Bloomsbury campus\", \"university\": \"UCL\", \"room_type\": \"Prefers ensuite room; open to studio if within budget\", \"budget_range\": \"Initially stated max budget \\u00a3350/week; lead info later shows budget \\u00a3540/week\", \"move_in_date\": \"Around late August to early September 2025 (suggested move-in dates from properties range from 30 Aug to 13 Sep 2025)\", \"lease_duration\": \"Initially unspecified; lead info states 4 weeks lease duration with move-out date 10 Oct 2025\", \"special_requirements\": \"Not familiar with London; prefers accommodation suitable for postgraduate/mature students\"}, \"current_status\": {\"booking_stage\": \"Accommodation secured as of 15 Sep 2025\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls and WhatsApp messages between 19 Aug and 15 Sep 2025\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"15 Sep 2025, WhatsApp message confirming accommodation secured\", \"response_time\": \"Generally prompt responses within hours on WhatsApp\", \"key_moments\": \"Initial inquiry on 20 Aug about accommodation preferences; detailed property suggestions sent on 20 Aug; follow-up on 21 Aug; final confirmation of accommodation secured on 15 Sep\"}, \"properties_discussed\": {\"properties_mentioned\": \"Mannequin House, GoBritanya Islington Residence, Camden Hawley Crescent, Chapter Kings Cross, Fusion Brent Cross Town, London Nest Lady Margaret, Piccadilly Court, Britannia South Bank\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Prefers ensuite rooms but open to shared bathroom or studio if within budget\", \"offers_made\": \"Detailed property options with pricing and links provided; no specific offers or discounts mentioned\"}, \"next_steps\": {\"immediate_actions\": \"None required as accommodation is secured\", \"pending_items\": \"None\", \"follow_up_required\": \"Not required unless student initiates further contact\", \"timeline\": \"Move-in expected late August to mid-September 2025; lease duration 4 weeks ending 10 Oct 2025\"}, \"agent_notes\": {\"student_tone\": \"Polite, clear about preferences and budget, responsive\", \"urgency_level\": \"Moderate urgency initially; resolved by mid-September\", \"complexity\": \"Straightforward case with clear preferences and budget\", \"special_considerations\": \"Student is new to London and postgraduate; prefers accommodation suitable for mature students\"}}}}}",
+    "created_at": "2025-11-18 10:47:22",
+    "updated_at": "2025-11-18T16:17:22.693498",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Thomas Hedworth",
+        "mobile": [
+          "+447775618841"
+        ],
+        "email": [
+          "thomashedworth@gmail.com"
+        ],
+        "whatsapp": [
+          "+447775618841"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 4,
+        "room_type": "ensuite",
+        "budget": {
+          "max": 350,
+          "currency": "GBP"
+        },
+        "bathroom_type": "shared_bathroom",
+        "kitchen_type": "shared_kitchen",
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": "2025-08-30",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": "postgrad"
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Mannequin House, London",
+          "Gobritanya Islington Residence, London",
+          "Camden Hawley Crescent, London",
+          "Chapter Kings Cross, London",
+          "Fusion Brent Cross Town, London",
+          "London Nest Lady Margaret, London",
+          "Piccadilly Court, London",
+          "Britannia South Bank, London"
+        ],
+        "rooms_considered": [
+          "Ensuite Gold",
+          "Ensuite Platinum",
+          "Ensuite Platinum Plus",
+          "Studio Silver",
+          "Silver Ensuite Lower Level",
+          "Bronze Ensuite Upper Level",
+          "Silver Ensuite Mid Level",
+          "Silver Ensuite Upper Level",
+          "Platinum Ensuite Mid Level",
+          "Gold Ensuite Lower Level",
+          "Platinum Ensuite Upper Level",
+          "Gold Ensuite Mid Level",
+          "Gold Ensuite Upper Level",
+          "Bronze Studio Lower Level",
+          "Bronze Studio Upper Level",
+          "Silver Studio XL Upper Level",
+          "Silver Twin Studio",
+          "Bronze Studio",
+          "Silver Studio",
+          "Gold Studio",
+          "Bronze Twin Studio Shared Lower Level",
+          "Bronze Twin Studio Shared Mid Level",
+          "Silver Twin Studio Shared Lower Level",
+          "Silver Twin Studio Shared Mid Level",
+          "Bronze Studio Shared Lower Level",
+          "Bronze Ensuite Shared Upper Level",
+          "Bronze Studio Private Upper Level",
+          "Bronze Studio Private Lower Level",
+          "Bronze Studio Private Mid Level",
+          "Gold Studio Private Lower Level",
+          "Bronze Ensuite Shared Mid Level",
+          "Bronze Studio Private Penthouse",
+          "Silver Studio Private Lower Level",
+          "Silver Studio Private Mid Level",
+          "Silver Studio Private Upper Level",
+          "Social Studio",
+          "Classic Studio",
+          "Superior Studio",
+          "Accessible Studio",
+          "Single En-suite",
+          "Double En-suite",
+          "Classic Ensuite",
+          "Shared Double Studio",
+          "Twin with En-suite",
+          "Twin Studio",
+          "Standard Single with Shared Bathroom",
+          "Premium Single Ensuite",
+          "Superior Single with Ensuite Bathroom",
+          "Single Studio"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Send accommodation options to Thomas based on his preference for ensuite or studio within budget and 30 mins transit of Bloomsbury campus.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent sent detailed property suggestions on 2025-08-20 at 13:05:12."
+        },
+        {
+          "type": "follow_up",
+          "description": "Follow up with Thomas to check if he reviewed the accommodation options sent.",
+          "due": "within_week",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent asked on 2025-08-21 if Thomas reviewed the options."
+        },
+        {
+          "type": "follow_up",
+          "description": "Wait for confirmation from Thomas regarding his accommodation decision.",
+          "due": "within_month",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent messaged on 2025-09-15 waiting to hear back."
+        }
+      ],
+      "last_agent_response": "Sent detailed accommodation options on 2025-08-20 and followed up on 2025-08-21 and 2025-09-15.",
+      "suggested_next_step": "No further action needed as student confirmed securing accommodation on 2025-09-15."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Thomas Hedworth",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via mobile number 447775618841",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, within 30 minutes transit of UCL Bloomsbury campus",
+            "university": "UCL",
+            "room_type": "Prefers ensuite room; open to studio if within budget",
+            "budget_range": "Initially stated max budget £350/week; lead info later shows budget £540/week",
+            "move_in_date": "Around late August to early September 2025 (suggested move-in dates from properties range from 30 Aug to 13 Sep 2025)",
+            "lease_duration": "Initially unspecified; lead info states 4 weeks lease duration with move-out date 10 Oct 2025",
+            "special_requirements": "Not familiar with London; prefers accommodation suitable for postgraduate/mature students"
+          },
+          "current_status": {
+            "booking_stage": "Accommodation secured as of 15 Sep 2025",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple calls and WhatsApp messages between 19 Aug and 15 Sep 2025",
+            "primary_channel": "WhatsApp",
+            "last_contact": "15 Sep 2025, WhatsApp message confirming accommodation secured",
+            "response_time": "Generally prompt responses within hours on WhatsApp",
+            "key_moments": "Initial inquiry on 20 Aug about accommodation preferences; detailed property suggestions sent on 20 Aug; follow-up on 21 Aug; final confirmation of accommodation secured on 15 Sep"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Mannequin House, GoBritanya Islington Residence, Camden Hawley Crescent, Chapter Kings Cross, Fusion Brent Cross Town, London Nest Lady Margaret, Piccadilly Court, Britannia South Bank",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Prefers ensuite rooms but open to shared bathroom or studio if within budget",
+            "offers_made": "Detailed property options with pricing and links provided; no specific offers or discounts mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "None required as accommodation is secured",
+            "pending_items": "None",
+            "follow_up_required": "Not required unless student initiates further contact",
+            "timeline": "Move-in expected late August to mid-September 2025; lease duration 4 weeks ending 10 Oct 2025"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, clear about preferences and budget, responsive",
+            "urgency_level": "Moderate urgency initially; resolved by mid-September",
+            "complexity": "Straightforward case with clear preferences and budget",
+            "special_considerations": "Student is new to London and postgraduate; prefers accommodation suitable for mature students"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Thomas Hedworth",
+          "mobile": [
+            "+447775618841"
+          ],
+          "email": [
+            "thomashedworth@gmail.com"
+          ],
+          "whatsapp": [
+            "+447775618841"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 4,
+          "room_type": "ensuite",
+          "budget": {
+            "max": 350,
+            "currency": "GBP"
+          },
+          "bathroom_type": "shared_bathroom",
+          "kitchen_type": "shared_kitchen",
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": "2025-08-30",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": "postgrad"
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Mannequin House, London",
+            "Gobritanya Islington Residence, London",
+            "Camden Hawley Crescent, London",
+            "Chapter Kings Cross, London",
+            "Fusion Brent Cross Town, London",
+            "London Nest Lady Margaret, London",
+            "Piccadilly Court, London",
+            "Britannia South Bank, London"
+          ],
+          "rooms_considered": [
+            "Ensuite Gold",
+            "Ensuite Platinum",
+            "Ensuite Platinum Plus",
+            "Studio Silver",
+            "Silver Ensuite Lower Level",
+            "Bronze Ensuite Upper Level",
+            "Silver Ensuite Mid Level",
+            "Silver Ensuite Upper Level",
+            "Platinum Ensuite Mid Level",
+            "Gold Ensuite Lower Level",
+            "Platinum Ensuite Upper Level",
+            "Gold Ensuite Mid Level",
+            "Gold Ensuite Upper Level",
+            "Bronze Studio Lower Level",
+            "Bronze Studio Upper Level",
+            "Silver Studio XL Upper Level",
+            "Silver Twin Studio",
+            "Bronze Studio",
+            "Silver Studio",
+            "Gold Studio",
+            "Bronze Twin Studio Shared Lower Level",
+            "Bronze Twin Studio Shared Mid Level",
+            "Silver Twin Studio Shared Lower Level",
+            "Silver Twin Studio Shared Mid Level",
+            "Bronze Studio Shared Lower Level",
+            "Bronze Ensuite Shared Upper Level",
+            "Bronze Studio Private Upper Level",
+            "Bronze Studio Private Lower Level",
+            "Bronze Studio Private Mid Level",
+            "Gold Studio Private Lower Level",
+            "Bronze Ensuite Shared Mid Level",
+            "Bronze Studio Private Penthouse",
+            "Silver Studio Private Lower Level",
+            "Silver Studio Private Mid Level",
+            "Silver Studio Private Upper Level",
+            "Social Studio",
+            "Classic Studio",
+            "Superior Studio",
+            "Accessible Studio",
+            "Single En-suite",
+            "Double En-suite",
+            "Classic Ensuite",
+            "Shared Double Studio",
+            "Twin with En-suite",
+            "Twin Studio",
+            "Standard Single with Shared Bathroom",
+            "Premium Single Ensuite",
+            "Superior Single with Ensuite Bathroom",
+            "Single Studio"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Send accommodation options to Thomas based on his preference for ensuite or studio within budget and 30 mins transit of Bloomsbury campus.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent sent detailed property suggestions on 2025-08-20 at 13:05:12."
+          },
+          {
+            "type": "follow_up",
+            "description": "Follow up with Thomas to check if he reviewed the accommodation options sent.",
+            "due": "within_week",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent asked on 2025-08-21 if Thomas reviewed the options."
+          },
+          {
+            "type": "follow_up",
+            "description": "Wait for confirmation from Thomas regarding his accommodation decision.",
+            "due": "within_month",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent messaged on 2025-09-15 waiting to hear back."
+          }
+        ],
+        "last_agent_response": "Sent detailed accommodation options on 2025-08-20 and followed up on 2025-08-21 and 2025-09-15.",
+        "suggested_next_step": "No further action needed as student confirmed securing accommodation on 2025-09-15."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Thomas Hedworth",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via mobile number 447775618841",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, within 30 minutes transit of UCL Bloomsbury campus",
+              "university": "UCL",
+              "room_type": "Prefers ensuite room; open to studio if within budget",
+              "budget_range": "Initially stated max budget £350/week; lead info later shows budget £540/week",
+              "move_in_date": "Around late August to early September 2025 (suggested move-in dates from properties range from 30 Aug to 13 Sep 2025)",
+              "lease_duration": "Initially unspecified; lead info states 4 weeks lease duration with move-out date 10 Oct 2025",
+              "special_requirements": "Not familiar with London; prefers accommodation suitable for postgraduate/mature students"
+            },
+            "current_status": {
+              "booking_stage": "Accommodation secured as of 15 Sep 2025",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple calls and WhatsApp messages between 19 Aug and 15 Sep 2025",
+              "primary_channel": "WhatsApp",
+              "last_contact": "15 Sep 2025, WhatsApp message confirming accommodation secured",
+              "response_time": "Generally prompt responses within hours on WhatsApp",
+              "key_moments": "Initial inquiry on 20 Aug about accommodation preferences; detailed property suggestions sent on 20 Aug; follow-up on 21 Aug; final confirmation of accommodation secured on 15 Sep"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Mannequin House, GoBritanya Islington Residence, Camden Hawley Crescent, Chapter Kings Cross, Fusion Brent Cross Town, London Nest Lady Margaret, Piccadilly Court, Britannia South Bank",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Prefers ensuite rooms but open to shared bathroom or studio if within budget",
+              "offers_made": "Detailed property options with pricing and links provided; no specific offers or discounts mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "None required as accommodation is secured",
+              "pending_items": "None",
+              "follow_up_required": "Not required unless student initiates further contact",
+              "timeline": "Move-in expected late August to mid-September 2025; lease duration 4 weeks ending 10 Oct 2025"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, clear about preferences and budget, responsive",
+              "urgency_level": "Moderate urgency initially; resolved by mid-September",
+              "complexity": "Straightforward case with clear preferences and budget",
+              "special_considerations": "Student is new to London and postgraduate; prefers accommodation suitable for mature students"
+            }
+          }
+        }
+      }
+    }
+  }
+}

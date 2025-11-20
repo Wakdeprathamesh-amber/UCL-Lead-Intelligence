@@ -1,0 +1,341 @@
+{
+  "id": "lead_248",
+  "mobile_number": "447349654189",
+  "email": null,
+  "timeline": [
+    {
+      "id": 3549,
+      "lead_id": 248,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3238730, \"user_name\": \"Sultan Ashibekov\", \"email\": \"s.ashibekov@gmail.com\", \"phone\": \"447349654189\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 292, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1663124}",
+      "created_at": "2025-11-18 10:32:23"
+    },
+    {
+      "id": 3550,
+      "lead_id": 248,
+      "event_type": "call",
+      "timestamp": "2025-09-18T08:17:28.823299",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7893331",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T08:17:28.823299\", \"id\": 7893331, \"duration\": \"0\", \"to_number\": \"447349654189\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:32:23"
+    },
+    {
+      "id": 3551,
+      "lead_id": 248,
+      "event_type": "call",
+      "timestamp": "2025-09-18T08:27:03.290762",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7893404",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T08:27:03.290762\", \"id\": 7893404, \"duration\": \"142\", \"to_number\": \"919935690566\", \"from_number\": \"447349654189\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/2b1eaa16-af37-4230-ae18-ef368bd97c88.wav\"}",
+      "created_at": "2025-11-18 10:32:23"
+    },
+    {
+      "id": 3552,
+      "lead_id": 248,
+      "event_type": "call",
+      "timestamp": "2025-09-18T15:17:22.788438",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7896477",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T15:17:22.788438\", \"id\": 7896477, \"duration\": \"0\", \"to_number\": \"447349654189\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:32:23"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 155,
+      "lead_id": 248,
+      "call_id": "7893404",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/2b1eaa16-af37-4230-ae18-ef368bd97c88.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Hello?\nSpeaker A: Yeah, hello, Am I speaking with Sultan here?\nSpeaker B: Yes, Sultan.\nSpeaker A: Bishop, this side. Calling you from Amber Student.\nSpeaker B: Come again?\nSpeaker A: Sultan, brush up this slide. Calling you from Amber Student.\nSpeaker B: Okay, Sultan, I can see that you're.\nSpeaker A: Looking to book chapter Lavisham three bed apartment, correct?\nSpeaker B: Yes.\nSpeaker A: So I just wanted to confirm like, what will be the payment plan for use? And like, how would you like to proceed? But before that, I'll be needing your WhatsApp number so that you know we can have all the confirmation over the WhatsApp as well. So can you please confirm like, when you'll be available to have a word with the WhatsApp?\nSpeaker B: Okay. Yes, you can send all the information to my WhatsApp.\nSpeaker A: Yeah, so like maybe like which number of yours is registered on WhatsApp? Because I have dropped you an email regarding this. So just share me, just reply me back over to your WhatsApp message WhatsApp number and then I'll be able to reach out to you. Okay.\nSpeaker B: Okay. My WhatsApp number is seven. Or you have.\nSpeaker A: 777.\nSpeaker B: Oh, one plus seven seven to 1-7017-0114-6146-5353-44 double four.\nSpeaker A: So it's plus seven seven zero double one four six five three four four. Is it?\nSpeaker B: Yes.\nSpeaker A: Let me check. Just a moment. Have you got a text message from me? Can you please share?\nSpeaker B: Yeah, I received a message from you.\nSpeaker A: Okay. So I'll be sending you all the details over there and then we can proceed ahead with the booking. Okay.\nSpeaker B: Okay.\nSpeaker A: Okay, thank you. Bye. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:32:31"
+    }
+  ],
+  "summary": {
+    "id": 101,
+    "lead_id": 248,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Sultan Ashibekov\", \"mobile\": [\"447349654189\"], \"email\": [\"s.ashibekov@gmail.com\"], \"whatsapp\": [\"+77001465344\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"three bed apartment\", \"budget\": {\"max\": 292, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"chapter Lavisham\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Send all booking details and payment plan information to Sultan Ashibekov via WhatsApp.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-18 where agent confirmed sending details via WhatsApp after receiving Sultan's WhatsApp number.\"}, {\"type\": \"booking_action\", \"description\": \"Sultan to review the booking details and payment plan sent via WhatsApp and confirm how he would like to proceed with the booking.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-18 where agent asked Sultan to confirm payment plan and next steps via WhatsApp.\"}], \"last_agent_response\": \"Agent confirmed receiving Sultan's WhatsApp number and committed to sending all booking and payment plan details via WhatsApp for confirmation.\", \"suggested_next_step\": \"Agent to send booking details and payment plan to Sultan on WhatsApp immediately.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Sultan Ashibekov\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (s.ashibekov@gmail.com), Phone (+44 7349 654189), WhatsApp (+7 701 465 3444)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Three-bedroom apartment (Chapter Lavisham)\", \"budget_range\": \"\\u00a3292 weekly\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"payment plan discussion and confirmation stage\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Pending confirmation\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 (3 calls, 1 lead info)\", \"primary_channel\": \"Phone calls and WhatsApp\", \"last_contact\": \"2025-09-18T15:17:22\", \"response_time\": \"Immediate responses during calls; WhatsApp used for follow-up\", \"key_moments\": \"Initial lead captured on 2025-06-09; detailed call on 2025-09-18 discussing booking and payment plan; WhatsApp number confirmed for further communication\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Lavisham three-bedroom apartment\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Confirmed interest in the three-bedroom apartment\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Send booking details and payment plan information via WhatsApp\", \"pending_items\": \"Student to confirm payment plan and proceed with booking\", \"follow_up_required\": \"Agent to follow up on WhatsApp after sending details\", \"timeline\": \"Move-out date noted as 2026-08-28; no specific move-in date confirmed\"}, \"agent_notes\": {\"student_tone\": \"Cooperative and responsive during calls\", \"urgency_level\": \"Moderate; student actively engaged but no immediate move-in date specified\", \"complexity\": \"Simple; straightforward booking inquiry\", \"special_considerations\": \"Ensure WhatsApp communication is clear and timely to facilitate booking confirmation\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Sultan Ashibekov\", \"mobile\": [\"447349654189\"], \"email\": [\"s.ashibekov@gmail.com\"], \"whatsapp\": [\"+77001465344\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"three bed apartment\", \"budget\": {\"max\": 292, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"chapter Lavisham\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Send all booking details and payment plan information to Sultan Ashibekov via WhatsApp.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-18 where agent confirmed sending details via WhatsApp after receiving Sultan's WhatsApp number.\"}, {\"type\": \"booking_action\", \"description\": \"Sultan to review the booking details and payment plan sent via WhatsApp and confirm how he would like to proceed with the booking.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-18 where agent asked Sultan to confirm payment plan and next steps via WhatsApp.\"}], \"last_agent_response\": \"Agent confirmed receiving Sultan's WhatsApp number and committed to sending all booking and payment plan details via WhatsApp for confirmation.\", \"suggested_next_step\": \"Agent to send booking details and payment plan to Sultan on WhatsApp immediately.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Sultan Ashibekov\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (s.ashibekov@gmail.com), Phone (+44 7349 654189), WhatsApp (+7 701 465 3444)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Three-bedroom apartment (Chapter Lavisham)\", \"budget_range\": \"\\u00a3292 weekly\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"payment plan discussion and confirmation stage\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Pending confirmation\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 (3 calls, 1 lead info)\", \"primary_channel\": \"Phone calls and WhatsApp\", \"last_contact\": \"2025-09-18T15:17:22\", \"response_time\": \"Immediate responses during calls; WhatsApp used for follow-up\", \"key_moments\": \"Initial lead captured on 2025-06-09; detailed call on 2025-09-18 discussing booking and payment plan; WhatsApp number confirmed for further communication\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Lavisham three-bedroom apartment\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Confirmed interest in the three-bedroom apartment\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Send booking details and payment plan information via WhatsApp\", \"pending_items\": \"Student to confirm payment plan and proceed with booking\", \"follow_up_required\": \"Agent to follow up on WhatsApp after sending details\", \"timeline\": \"Move-out date noted as 2026-08-28; no specific move-in date confirmed\"}, \"agent_notes\": {\"student_tone\": \"Cooperative and responsive during calls\", \"urgency_level\": \"Moderate; student actively engaged but no immediate move-in date specified\", \"complexity\": \"Simple; straightforward booking inquiry\", \"special_considerations\": \"Ensure WhatsApp communication is clear and timely to facilitate booking confirmation\"}}}}}",
+    "created_at": "2025-11-18 10:32:39",
+    "updated_at": "2025-11-18T16:02:39.422473",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Sultan Ashibekov",
+        "mobile": [
+          "447349654189"
+        ],
+        "email": [
+          "s.ashibekov@gmail.com"
+        ],
+        "whatsapp": [
+          "+77001465344"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "three bed apartment",
+        "budget": {
+          "max": 292,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "chapter Lavisham"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Send all booking details and payment plan information to Sultan Ashibekov via WhatsApp.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-09-18 where agent confirmed sending details via WhatsApp after receiving Sultan's WhatsApp number."
+        },
+        {
+          "type": "booking_action",
+          "description": "Sultan to review the booking details and payment plan sent via WhatsApp and confirm how he would like to proceed with the booking.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Call on 2025-09-18 where agent asked Sultan to confirm payment plan and next steps via WhatsApp."
+        }
+      ],
+      "last_agent_response": "Agent confirmed receiving Sultan's WhatsApp number and committed to sending all booking and payment plan details via WhatsApp for confirmation.",
+      "suggested_next_step": "Agent to send booking details and payment plan to Sultan on WhatsApp immediately."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Sultan Ashibekov",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (s.ashibekov@gmail.com), Phone (+44 7349 654189), WhatsApp (+7 701 465 3444)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Three-bedroom apartment (Chapter Lavisham)",
+            "budget_range": "£292 weekly",
+            "move_in_date": "Not explicitly mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "payment plan discussion and confirmation stage",
+            "documents_status": "Not mentioned",
+            "payment_status": "Pending confirmation",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "4 (3 calls, 1 lead info)",
+            "primary_channel": "Phone calls and WhatsApp",
+            "last_contact": "2025-09-18T15:17:22",
+            "response_time": "Immediate responses during calls; WhatsApp used for follow-up",
+            "key_moments": "Initial lead captured on 2025-06-09; detailed call on 2025-09-18 discussing booking and payment plan; WhatsApp number confirmed for further communication"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Chapter Lavisham three-bedroom apartment",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Confirmed interest in the three-bedroom apartment",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Send booking details and payment plan information via WhatsApp",
+            "pending_items": "Student to confirm payment plan and proceed with booking",
+            "follow_up_required": "Agent to follow up on WhatsApp after sending details",
+            "timeline": "Move-out date noted as 2026-08-28; no specific move-in date confirmed"
+          },
+          "agent_notes": {
+            "student_tone": "Cooperative and responsive during calls",
+            "urgency_level": "Moderate; student actively engaged but no immediate move-in date specified",
+            "complexity": "Simple; straightforward booking inquiry",
+            "special_considerations": "Ensure WhatsApp communication is clear and timely to facilitate booking confirmation"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Sultan Ashibekov",
+          "mobile": [
+            "447349654189"
+          ],
+          "email": [
+            "s.ashibekov@gmail.com"
+          ],
+          "whatsapp": [
+            "+77001465344"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "three bed apartment",
+          "budget": {
+            "max": 292,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "chapter Lavisham"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Send all booking details and payment plan information to Sultan Ashibekov via WhatsApp.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-09-18 where agent confirmed sending details via WhatsApp after receiving Sultan's WhatsApp number."
+          },
+          {
+            "type": "booking_action",
+            "description": "Sultan to review the booking details and payment plan sent via WhatsApp and confirm how he would like to proceed with the booking.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Call on 2025-09-18 where agent asked Sultan to confirm payment plan and next steps via WhatsApp."
+          }
+        ],
+        "last_agent_response": "Agent confirmed receiving Sultan's WhatsApp number and committed to sending all booking and payment plan details via WhatsApp for confirmation.",
+        "suggested_next_step": "Agent to send booking details and payment plan to Sultan on WhatsApp immediately."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Sultan Ashibekov",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (s.ashibekov@gmail.com), Phone (+44 7349 654189), WhatsApp (+7 701 465 3444)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Three-bedroom apartment (Chapter Lavisham)",
+              "budget_range": "£292 weekly",
+              "move_in_date": "Not explicitly mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "payment plan discussion and confirmation stage",
+              "documents_status": "Not mentioned",
+              "payment_status": "Pending confirmation",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "4 (3 calls, 1 lead info)",
+              "primary_channel": "Phone calls and WhatsApp",
+              "last_contact": "2025-09-18T15:17:22",
+              "response_time": "Immediate responses during calls; WhatsApp used for follow-up",
+              "key_moments": "Initial lead captured on 2025-06-09; detailed call on 2025-09-18 discussing booking and payment plan; WhatsApp number confirmed for further communication"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Chapter Lavisham three-bedroom apartment",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Confirmed interest in the three-bedroom apartment",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Send booking details and payment plan information via WhatsApp",
+              "pending_items": "Student to confirm payment plan and proceed with booking",
+              "follow_up_required": "Agent to follow up on WhatsApp after sending details",
+              "timeline": "Move-out date noted as 2026-08-28; no specific move-in date confirmed"
+            },
+            "agent_notes": {
+              "student_tone": "Cooperative and responsive during calls",
+              "urgency_level": "Moderate; student actively engaged but no immediate move-in date specified",
+              "complexity": "Simple; straightforward booking inquiry",
+              "special_considerations": "Ensure WhatsApp communication is clear and timely to facilitate booking confirmation"
+            }
+          }
+        }
+      }
+    }
+  }
+}

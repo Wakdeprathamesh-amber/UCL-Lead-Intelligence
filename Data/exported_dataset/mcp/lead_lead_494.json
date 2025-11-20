@@ -1,0 +1,323 @@
+{
+  "id": "lead_494",
+  "mobile_number": "237691080968",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8147,
+      "lead_id": 494,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3142732, \"user_name\": \"Charles Alain Prince Assam\", \"email\": \"alainprince74@gmail.com\", \"phone\": \"237691080968\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Rochester\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 3823, \"inventory_id\": 1144671}",
+      "created_at": "2025-11-18 11:20:17"
+    },
+    {
+      "id": 8148,
+      "lead_id": 494,
+      "event_type": "call",
+      "timestamp": "2025-08-15T08:53:44.911581",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7687273",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-15T08:53:44.911581\", \"id\": 7687273, \"duration\": \"84\", \"to_number\": \"237691080968\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/56e6ff4a-2182-46dc-980a-2408e0afef39.wav\"}",
+      "created_at": "2025-11-18 11:20:17"
+    },
+    {
+      "id": 8149,
+      "lead_id": 494,
+      "event_type": "call",
+      "timestamp": "2025-08-20T16:36:17.271786",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7725284",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T16:36:17.271786\", \"id\": 7725284, \"duration\": \"0\", \"to_number\": \"237691080968\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:20:17"
+    },
+    {
+      "id": 8150,
+      "lead_id": 494,
+      "event_type": "call",
+      "timestamp": "2025-08-22T11:26:58.104952",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7737726",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-22T11:26:58.104952\", \"id\": 7737726, \"duration\": \"58\", \"to_number\": \"237691080968\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f363f5bf-60c6-4c7f-a270-6ccf31c827f2.wav\"}",
+      "created_at": "2025-11-18 11:20:17"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 372,
+      "lead_id": 494,
+      "call_id": "7687273",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/56e6ff4a-2182-46dc-980a-2408e0afef39.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Yeah, hello? Hello. Yeah, I'm expecting sal here. Salon prince.\nSpeaker B: Yes.\nSpeaker A: From. Am the student.\nSpeaker B: Sorry, Yes, I'm. Yes, I'm looking for.\nSpeaker A: I'll do one thing. I'm not able to hear you very properly. I will be texting you and WhatsApp message. Do respond me over there and then I can talk ahead about your accommodation part. Okay?\nSpeaker B: Yes. Okay. This. This is my, my WhatsApp number. Also.\nSpeaker A: I have dropped you a text. Okay. Sorry, I have dropped you WhatsApp text.\nSpeaker B: I didn't get. I'm. I'm not getting you very much. Please.\nSpeaker A: I have. I have actually messaged you on WhatsApp. Just turn your net on you it in my message will be able to go. Okay.\nSpeaker B: Okay.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:20:26"
+    },
+    {
+      "id": 375,
+      "lead_id": 494,
+      "call_id": "7737726",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f363f5bf-60c6-4c7f-a270-6ccf31c827f2.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Yeah, hello, am I speaking as Alan here? Charles Allen? Yeah, Charles, Just wanted to confirm if you have decided anything with the student accommodation of yours.\nSpeaker B: Oh, sorry, I didn't tell you. I have. I've canceled my. My book. So I'm very sorry. I found another accommodation.\nSpeaker A: Which property that you have booked?\nSpeaker B: Sorry, which.\nSpeaker A: Property do you have booked?\nSpeaker B: I found another property in Good enough college. Good Enough college in central London. So it's close to ucl, so it is not me. I've decided. So my supervisor that decided to book our homes there.\nSpeaker A: Okay, thank you for the confirmation.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:20:33"
+    }
+  ],
+  "summary": {
+    "id": 206,
+    "lead_id": 494,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Charles Alain Prince Assam\", \"mobile\": [\"+237691080968\"], \"email\": [\"alainprince74@gmail.com\"], \"whatsapp\": [\"+237691080968\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Rochester\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Good Enough college\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent acknowledged the student's cancellation of the booking and confirmed understanding that the student found alternative accommodation near UCL through their supervisor.\", \"suggested_next_step\": \"No further action required from the agent as the student has canceled the booking and secured alternative accommodation.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Charles Alain Prince Assam\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: 237691080968, Email: alainprince74@gmail.com, WhatsApp used for communication\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Rochester, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly basis\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking cancelled; student found alternative accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 (3 calls with 2 recorded and 1 missed call)\", \"primary_channel\": \"Phone calls and WhatsApp messaging\", \"last_contact\": \"2025-08-22\", \"response_time\": \"Student responded promptly via WhatsApp after initial call\", \"key_moments\": \"Initial contact on 2025-08-15 with communication difficulties; student confirmed cancellation of booking and alternative accommodation on 2025-08-22\"}, \"properties_discussed\": {\"properties_mentioned\": \"Original property linked to inventory_id 1144671; alternative accommodation at Good Enough College near UCL in central London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as booking is cancelled\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Booking cancelled as of 2025-08-22\"}, \"agent_notes\": {\"student_tone\": \"Polite but communication was initially difficult due to connectivity issues\", \"urgency_level\": \"Low, as student has secured alternative accommodation\", \"complexity\": \"Simple case; booking cancelled\", \"special_considerations\": \"Student\\u2019s supervisor made final accommodation decision\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Charles Alain Prince Assam\", \"mobile\": [\"+237691080968\"], \"email\": [\"alainprince74@gmail.com\"], \"whatsapp\": [\"+237691080968\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Rochester\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Good Enough college\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent acknowledged the student's cancellation of the booking and confirmed understanding that the student found alternative accommodation near UCL through their supervisor.\", \"suggested_next_step\": \"No further action required from the agent as the student has canceled the booking and secured alternative accommodation.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Charles Alain Prince Assam\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: 237691080968, Email: alainprince74@gmail.com, WhatsApp used for communication\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Rochester, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly basis\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking cancelled; student found alternative accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 (3 calls with 2 recorded and 1 missed call)\", \"primary_channel\": \"Phone calls and WhatsApp messaging\", \"last_contact\": \"2025-08-22\", \"response_time\": \"Student responded promptly via WhatsApp after initial call\", \"key_moments\": \"Initial contact on 2025-08-15 with communication difficulties; student confirmed cancellation of booking and alternative accommodation on 2025-08-22\"}, \"properties_discussed\": {\"properties_mentioned\": \"Original property linked to inventory_id 1144671; alternative accommodation at Good Enough College near UCL in central London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as booking is cancelled\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Booking cancelled as of 2025-08-22\"}, \"agent_notes\": {\"student_tone\": \"Polite but communication was initially difficult due to connectivity issues\", \"urgency_level\": \"Low, as student has secured alternative accommodation\", \"complexity\": \"Simple case; booking cancelled\", \"special_considerations\": \"Student\\u2019s supervisor made final accommodation decision\"}}}}}",
+    "created_at": "2025-11-18 11:20:46",
+    "updated_at": "2025-11-18T16:50:46.378676",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Charles Alain Prince Assam",
+        "mobile": [
+          "+237691080968"
+        ],
+        "email": [
+          "alainprince74@gmail.com"
+        ],
+        "whatsapp": [
+          "+237691080968"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Rochester"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Good Enough college"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent acknowledged the student's cancellation of the booking and confirmed understanding that the student found alternative accommodation near UCL through their supervisor.",
+      "suggested_next_step": "No further action required from the agent as the student has canceled the booking and secured alternative accommodation."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Charles Alain Prince Assam",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone: 237691080968, Email: alainprince74@gmail.com, WhatsApp used for communication",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "Rochester, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "Budget in pounds, weekly basis",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking cancelled; student found alternative accommodation",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "4 (3 calls with 2 recorded and 1 missed call)",
+            "primary_channel": "Phone calls and WhatsApp messaging",
+            "last_contact": "2025-08-22",
+            "response_time": "Student responded promptly via WhatsApp after initial call",
+            "key_moments": "Initial contact on 2025-08-15 with communication difficulties; student confirmed cancellation of booking and alternative accommodation on 2025-08-22"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Original property linked to inventory_id 1144671; alternative accommodation at Good Enough College near UCL in central London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action required as booking is cancelled",
+            "pending_items": "None",
+            "follow_up_required": "No follow-up needed unless student re-engages",
+            "timeline": "Booking cancelled as of 2025-08-22"
+          },
+          "agent_notes": {
+            "student_tone": "Polite but communication was initially difficult due to connectivity issues",
+            "urgency_level": "Low, as student has secured alternative accommodation",
+            "complexity": "Simple case; booking cancelled",
+            "special_considerations": "Student’s supervisor made final accommodation decision"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Charles Alain Prince Assam",
+          "mobile": [
+            "+237691080968"
+          ],
+          "email": [
+            "alainprince74@gmail.com"
+          ],
+          "whatsapp": [
+            "+237691080968"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Rochester"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Good Enough college"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent acknowledged the student's cancellation of the booking and confirmed understanding that the student found alternative accommodation near UCL through their supervisor.",
+        "suggested_next_step": "No further action required from the agent as the student has canceled the booking and secured alternative accommodation."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Charles Alain Prince Assam",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone: 237691080968, Email: alainprince74@gmail.com, WhatsApp used for communication",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "Rochester, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "Budget in pounds, weekly basis",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking cancelled; student found alternative accommodation",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "4 (3 calls with 2 recorded and 1 missed call)",
+              "primary_channel": "Phone calls and WhatsApp messaging",
+              "last_contact": "2025-08-22",
+              "response_time": "Student responded promptly via WhatsApp after initial call",
+              "key_moments": "Initial contact on 2025-08-15 with communication difficulties; student confirmed cancellation of booking and alternative accommodation on 2025-08-22"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Original property linked to inventory_id 1144671; alternative accommodation at Good Enough College near UCL in central London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action required as booking is cancelled",
+              "pending_items": "None",
+              "follow_up_required": "No follow-up needed unless student re-engages",
+              "timeline": "Booking cancelled as of 2025-08-22"
+            },
+            "agent_notes": {
+              "student_tone": "Polite but communication was initially difficult due to connectivity issues",
+              "urgency_level": "Low, as student has secured alternative accommodation",
+              "complexity": "Simple case; booking cancelled",
+              "special_considerations": "Student’s supervisor made final accommodation decision"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "id": "lead_833",
+  "mobile_number": "447769677619",
+  "email": null,
+  "timeline": [
+    {
+      "id": 13487,
+      "lead_id": 833,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-17T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-17T00:00:00\", \"lead_id\": 3238070, \"user_name\": \"Antoinina Mauve\", \"email\": \"am3canterbury@gmail.com\", \"phone\": \"447769677619\", \"lease_duration\": \"36 week\", \"move_out_date\": \"2026-05-26\", \"budget\": 297, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1820775}",
+      "created_at": "2025-11-18 13:08:03"
+    },
+    {
+      "id": 13488,
+      "lead_id": 833,
+      "event_type": "call",
+      "timestamp": "2025-09-17T15:48:38.174758",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7890871",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-17T15:48:38.174758\", \"id\": 7890871, \"duration\": \"0\", \"to_number\": \"447769677619\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:08:03"
+    },
+    {
+      "id": 13489,
+      "lead_id": 833,
+      "event_type": "call",
+      "timestamp": "2025-09-17T16:58:38.207462",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7891221",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-17T16:58:38.207462\", \"id\": 7891221, \"duration\": \"0\", \"to_number\": \"918099537848\", \"from_number\": \"447769677619\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:08:03"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 343,
+    "lead_id": 833,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Antoinina Mauve\", \"mobile\": [\"447769677619\"], \"email\": [\"am3canterbury@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 36, \"room_type\": null, \"budget\": {\"max\": 297, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent attempted to call the student at 15:48 on 2025-09-17 but the call duration was zero, indicating no answer or connection.\", \"suggested_next_step\": \"Agent to follow up with the student via call or message to discuss accommodation options and confirm next steps.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Antoinina Mauve\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (am3canterbury@gmail.com), Phone (+44 7769 677619)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3297 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"36 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-17T16:58:38\", \"response_time\": \"Unknown\", \"key_moments\": \"Lead created with accommodation preferences; two phone call attempts made on the same day with zero duration\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1820775 referenced in lead\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up to establish contact and clarify accommodation preferences\", \"pending_items\": \"Response from student regarding property interest and viewing availability\", \"follow_up_required\": \"Yes, to confirm interest and progress booking\", \"timeline\": \"Move-out date noted as 2026-05-26; lease duration 36 weeks\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded beyond call attempts\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Multiple zero-duration calls suggest difficulty reaching student; alternative contact methods may be needed\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Antoinina Mauve\", \"mobile\": [\"447769677619\"], \"email\": [\"am3canterbury@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 36, \"room_type\": null, \"budget\": {\"max\": 297, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent attempted to call the student at 15:48 on 2025-09-17 but the call duration was zero, indicating no answer or connection.\", \"suggested_next_step\": \"Agent to follow up with the student via call or message to discuss accommodation options and confirm next steps.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Antoinina Mauve\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (am3canterbury@gmail.com), Phone (+44 7769 677619)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3297 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"36 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-17T16:58:38\", \"response_time\": \"Unknown\", \"key_moments\": \"Lead created with accommodation preferences; two phone call attempts made on the same day with zero duration\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1820775 referenced in lead\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up to establish contact and clarify accommodation preferences\", \"pending_items\": \"Response from student regarding property interest and viewing availability\", \"follow_up_required\": \"Yes, to confirm interest and progress booking\", \"timeline\": \"Move-out date noted as 2026-05-26; lease duration 36 weeks\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded beyond call attempts\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Multiple zero-duration calls suggest difficulty reaching student; alternative contact methods may be needed\"}}}}}",
+    "created_at": "2025-11-18 13:08:15",
+    "updated_at": "2025-11-18T18:38:15.200662",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Antoinina Mauve",
+        "mobile": [
+          "447769677619"
+        ],
+        "email": [
+          "am3canterbury@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 36,
+        "room_type": null,
+        "budget": {
+          "max": 297,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent attempted to call the student at 15:48 on 2025-09-17 but the call duration was zero, indicating no answer or connection.",
+      "suggested_next_step": "Agent to follow up with the student via call or message to discuss accommodation options and confirm next steps."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Antoinina Mauve",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (am3canterbury@gmail.com), Phone (+44 7769 677619)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£297 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "36 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-09-17T16:58:38",
+            "response_time": "Unknown",
+            "key_moments": "Lead created with accommodation preferences; two phone call attempts made on the same day with zero duration"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1820775 referenced in lead",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up to establish contact and clarify accommodation preferences",
+            "pending_items": "Response from student regarding property interest and viewing availability",
+            "follow_up_required": "Yes, to confirm interest and progress booking",
+            "timeline": "Move-out date noted as 2026-05-26; lease duration 36 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication recorded beyond call attempts",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Multiple zero-duration calls suggest difficulty reaching student; alternative contact methods may be needed"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Antoinina Mauve",
+          "mobile": [
+            "447769677619"
+          ],
+          "email": [
+            "am3canterbury@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 36,
+          "room_type": null,
+          "budget": {
+            "max": 297,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent attempted to call the student at 15:48 on 2025-09-17 but the call duration was zero, indicating no answer or connection.",
+        "suggested_next_step": "Agent to follow up with the student via call or message to discuss accommodation options and confirm next steps."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Antoinina Mauve",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (am3canterbury@gmail.com), Phone (+44 7769 677619)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£297 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "36 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-09-17T16:58:38",
+              "response_time": "Unknown",
+              "key_moments": "Lead created with accommodation preferences; two phone call attempts made on the same day with zero duration"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1820775 referenced in lead",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up to establish contact and clarify accommodation preferences",
+              "pending_items": "Response from student regarding property interest and viewing availability",
+              "follow_up_required": "Yes, to confirm interest and progress booking",
+              "timeline": "Move-out date noted as 2026-05-26; lease duration 36 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication recorded beyond call attempts",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Multiple zero-duration calls suggest difficulty reaching student; alternative contact methods may be needed"
+            }
+          }
+        }
+      }
+    }
+  }
+}

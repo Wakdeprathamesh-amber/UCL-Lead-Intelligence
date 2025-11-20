@@ -1,0 +1,585 @@
+{
+  "id": "lead_313",
+  "mobile_number": "447521341655",
+  "email": null,
+  "timeline": [
+    {
+      "id": 5225,
+      "lead_id": 313,
+      "event_type": "lead_info",
+      "timestamp": "2025-02-08T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-02-08T00:00:00\", \"lead_id\": 3138303, \"user_name\": \"Oliver Howard\", \"email\": \"14howardo@gmail.com\", \"phone\": \"447521341655\", \"lease_duration\": \"4 week\", \"move_out_date\": \"2025-08-29\", \"budget\": 299, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2003397}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5226,
+      "lead_id": 313,
+      "event_type": "call",
+      "timestamp": "2025-08-13T17:24:32.727452",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7677063",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-13T17:24:32.727452\", \"id\": 7677063, \"duration\": \"7\", \"to_number\": \"447521341655\", \"from_number\": \"447832625341\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/45525e95-2c6a-4ec7-b62d-74cb63037db4.wav\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5227,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T17:26:36",
+      "content": "Hi Oliver,\nGood Day\n\nRachna Ahuja this side on behalf of *University College London* powered by Amber \n\n I will be happy to help you in booking the right accommodation for you. \n\nThanks",
+      "source": "whatsapp",
+      "event_id": "7182594",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T17:26:36\", \"id\": 7182594, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_62AB0FBAB5089636B11B53BD84AB1F64\", \"message_type\": \"text\", \"message_content\": \"Hi Oliver,\\nGood Day\\n\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\n\\n I will be happy to help you in booking the right accommodation for you. \\n\\nThanks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T17:26:36.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Oliver,\\\\nGood Day\\\\n\\\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\\\n\\\\n I will be happy to help you in booking the right accommodation for you. \\\\n\\\\nThanks\\\", \\\"Datetime\\\": 1755105996000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_62AB0FBAB5089636B11B53BD84AB1F64\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T17:26:37.134021\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5228,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T17:34:24",
+      "content": "Hi",
+      "source": "whatsapp",
+      "event_id": "7182935",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T17:34:24\", \"id\": 7182935, \"email\": \"\", \"from_number\": \"447521341655\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447521341655@c.us_4EDC9229C5645352E198FED2D1E5C855\", \"message_type\": \"text\", \"message_content\": \"Hi\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447521341655@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T17:34:24.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi\\\", \\\"Datetime\\\": 1755106464000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447521341655@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447521341655@c.us_4EDC9229C5645352E198FED2D1E5C855\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447521341655\\\", \\\"sentByUserId\\\": \\\"447521341655@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T17:34:29.435892\", \"direction\": \"inbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5229,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T17:34:35",
+      "content": "I am looking at it ahead of results day as it's my insurance choice",
+      "source": "whatsapp",
+      "event_id": "7182945",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T17:34:35\", \"id\": 7182945, \"email\": \"\", \"from_number\": \"447521341655\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447521341655@c.us_4E290383A086612EDE127DFD72689C10\", \"message_type\": \"text\", \"message_content\": \"I am looking at it ahead of results day as it's my insurance choice\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447521341655@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T17:34:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"I am looking at it ahead of results day as it's my insurance choice\\\", \\\"Datetime\\\": 1755106475000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447521341655@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447521341655@c.us_4E290383A086612EDE127DFD72689C10\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447521341655\\\", \\\"sentByUserId\\\": \\\"447521341655@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T17:34:35.508020\", \"direction\": \"inbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5230,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T17:34:39",
+      "content": "Would like some advic",
+      "source": "whatsapp",
+      "event_id": "7182954",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T17:34:39\", \"id\": 7182954, \"email\": \"\", \"from_number\": \"447521341655\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447521341655@c.us_207E0DCE052BD14A2AD3018A47148E8C\", \"message_type\": \"text\", \"message_content\": \"Would like some advic\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447521341655@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T17:34:39.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Would like some advic\\\", \\\"Datetime\\\": 1755106479000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447521341655@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447521341655@c.us_207E0DCE052BD14A2AD3018A47148E8C\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447521341655\\\", \\\"sentByUserId\\\": \\\"447521341655@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T17:34:39.987863\", \"direction\": \"inbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5231,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T17:54:09",
+      "content": "Hi",
+      "source": "whatsapp",
+      "event_id": "7183817",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T17:54:09\", \"id\": 7183817, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB0F342B6BE79030805AB\", \"message_type\": \"text\", \"message_content\": \"Hi\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T17:54:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi\\\", \\\"Datetime\\\": 1755107649000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB0F342B6BE79030805AB\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T17:54:09.332775\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5232,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T17:54:15",
+      "content": "Yes please",
+      "source": "whatsapp",
+      "event_id": "7183820",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T17:54:15\", \"id\": 7183820, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB0826B4BCFF476B8E377\", \"message_type\": \"text\", \"message_content\": \"Yes please\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T17:54:15.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Yes please\\\", \\\"Datetime\\\": 1755107655000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB0826B4BCFF476B8E377\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T17:54:15.742355\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5233,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:15:33",
+      "content": "How can i help ?",
+      "source": "whatsapp",
+      "event_id": "7184898",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:15:33\", \"id\": 7184898, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB0CE40C316074801D14E\", \"message_type\": \"text\", \"message_content\": \"How can i help ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T18:15:33.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"How can i help ?\\\", \\\"Datetime\\\": 1755108933000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB0CE40C316074801D14E\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:15:33.604171\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5234,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:16:12",
+      "content": "For these rooms I'm looking at will I still be paying during the term holidays",
+      "source": "whatsapp",
+      "event_id": "7184925",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:16:12\", \"id\": 7184925, \"email\": \"\", \"from_number\": \"447521341655\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447521341655@c.us_8C07C39B5FE23F1FA3FCA04382547D95\", \"message_type\": \"text\", \"message_content\": \"For these rooms I'm looking at will I still be paying during the term holidays\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447521341655@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T18:16:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"For these rooms I'm looking at will I still be paying during the term holidays\\\", \\\"Datetime\\\": 1755108972000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447521341655@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447521341655@c.us_8C07C39B5FE23F1FA3FCA04382547D95\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447521341655\\\", \\\"sentByUserId\\\": \\\"447521341655@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:16:12.409015\", \"direction\": \"inbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5235,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:16:27",
+      "content": "Yes",
+      "source": "whatsapp",
+      "event_id": "7184933",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:16:27\", \"id\": 7184933, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB07208F8FED16ABC9E89\", \"message_type\": \"text\", \"message_content\": \"Yes\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T18:16:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Yes\\\", \\\"Datetime\\\": 1755108987000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB07208F8FED16ABC9E89\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:16:27.735946\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5236,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:16:40",
+      "content": "Is that true for UCL halls yoo",
+      "source": "whatsapp",
+      "event_id": "7184941",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:16:40\", \"id\": 7184941, \"email\": \"\", \"from_number\": \"447521341655\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447521341655@c.us_6B71B570B77E36FC6F3495CA874F616F\", \"message_type\": \"text\", \"message_content\": \"Is that true for UCL halls yoo\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447521341655@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T18:16:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Is that true for UCL halls yoo\\\", \\\"Datetime\\\": 1755109000000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447521341655@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447521341655@c.us_6B71B570B77E36FC6F3495CA874F616F\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447521341655\\\", \\\"sentByUserId\\\": \\\"447521341655@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:16:41.028172\", \"direction\": \"inbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5237,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:16:41",
+      "content": "The contract length you choose, you will pay for full",
+      "source": "whatsapp",
+      "event_id": "7184943",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:16:41\", \"id\": 7184943, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB0E197CA80236B9598FF\", \"message_type\": \"text\", \"message_content\": \"The contract length you choose, you will pay for full\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T18:16:41.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"The contract length you choose, you will pay for full\\\", \\\"Datetime\\\": 1755109001000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB0E197CA80236B9598FF\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:16:41.492216\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5238,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:16:41",
+      "content": "Too",
+      "source": "whatsapp",
+      "event_id": "7184944",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:16:41\", \"id\": 7184944, \"email\": \"\", \"from_number\": \"447521341655\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447521341655@c.us_85DA3D7CBBAC3D3BC41D0BC1B5D907EA\", \"message_type\": \"text\", \"message_content\": \"Too\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447521341655@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T18:16:41.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Too\\\", \\\"Datetime\\\": 1755109001000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447521341655@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447521341655@c.us_85DA3D7CBBAC3D3BC41D0BC1B5D907EA\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447521341655\\\", \\\"sentByUserId\\\": \\\"447521341655@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:16:42.034921\", \"direction\": \"inbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5239,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:17:09",
+      "content": "Because your room is not given to anybody for your contract length",
+      "source": "whatsapp",
+      "event_id": "7184960",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:17:09\", \"id\": 7184960, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB00EC1E7CFB63EFCEE57\", \"message_type\": \"text\", \"message_content\": \"Because your room is not given to anybody for your contract length\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T18:17:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Because your room is not given to anybody for your contract length\\\", \\\"Datetime\\\": 1755109029000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB00EC1E7CFB63EFCEE57\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:17:10.554290\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5240,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:17:26",
+      "content": "Any accommodation in UK",
+      "source": "whatsapp",
+      "event_id": "7184970",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:17:26\", \"id\": 7184970, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB04EDD727E2697F4B82F\", \"message_type\": \"text\", \"message_content\": \"Any accommodation in UK\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T18:17:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Any accommodation in UK\\\", \\\"Datetime\\\": 1755109046000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB04EDD727E2697F4B82F\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:17:26.791525\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5241,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:17:52",
+      "content": "Even non private halls owned by the university? I still will have to pay during holidays?",
+      "source": "whatsapp",
+      "event_id": "7184990",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:17:52\", \"id\": 7184990, \"email\": \"\", \"from_number\": \"447521341655\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447521341655@c.us_B6B6854945BED88763A080D67EEE59E6\", \"message_type\": \"text\", \"message_content\": \"Even non private halls owned by the university? I still will have to pay during holidays?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447521341655@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T18:17:52.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Even non private halls owned by the university? I still will have to pay during holidays?\\\", \\\"Datetime\\\": 1755109072000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447521341655@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447521341655@c.us_B6B6854945BED88763A080D67EEE59E6\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447521341655\\\", \\\"sentByUserId\\\": \\\"447521341655@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:17:52.764575\", \"direction\": \"inbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5242,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:18:27",
+      "content": "Yes, all are mostly by University",
+      "source": "whatsapp",
+      "event_id": "7185013",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:18:27\", \"id\": 7185013, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB012D2C7EFD12EDE1D1D\", \"message_type\": \"text\", \"message_content\": \"Yes, all are mostly by University\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T18:18:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Yes, all are mostly by University\\\", \\\"Datetime\\\": 1755109107000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB012D2C7EFD12EDE1D1D\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:18:27.707423\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5243,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T18:20:40",
+      "content": "Yes, as contract is held",
+      "source": "whatsapp",
+      "event_id": "7185133",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T18:20:40\", \"id\": 7185133, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB01907255F43FEF4A39C\", \"message_type\": \"text\", \"message_content\": \"Yes, as contract is held\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T18:20:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Yes, as contract is held\\\", \\\"Datetime\\\": 1755109240000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB01907255F43FEF4A39C\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-13T18:20:41.031420\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5244,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T19:17:22",
+      "content": "Hi Oliver",
+      "source": "whatsapp",
+      "event_id": "7444043",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T19:17:22\", \"id\": 7444043, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB07E917C68BA6FD08601\", \"message_type\": \"text\", \"message_content\": \"Hi Oliver\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T19:17:22.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Oliver\\\", \\\"Datetime\\\": 1755544642000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB07E917C68BA6FD08601\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-18T19:17:23.045055\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5245,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T19:17:26",
+      "content": "Any update ?",
+      "source": "whatsapp",
+      "event_id": "7444048",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T19:17:26\", \"id\": 7444048, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB03973D897AC134C2050\", \"message_type\": \"text\", \"message_content\": \"Any update ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T19:17:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Any update ?\\\", \\\"Datetime\\\": 1755544646000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB03973D897AC134C2050\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-18T19:17:26.627713\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5246,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T19:17:57",
+      "content": "I got into imperial sorry bro UCL was my insurance",
+      "source": "whatsapp",
+      "event_id": "7444084",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T19:17:57\", \"id\": 7444084, \"email\": \"\", \"from_number\": \"447521341655\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447521341655@c.us_8DE3FE4A71820ED2065432166F01A096\", \"message_type\": \"text\", \"message_content\": \"I got into imperial sorry bro UCL was my insurance\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447521341655@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-18T19:17:57.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"I got into imperial sorry bro UCL was my insurance\\\", \\\"Datetime\\\": 1755544677000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447521341655@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447521341655@c.us_8DE3FE4A71820ED2065432166F01A096\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447521341655\\\", \\\"sentByUserId\\\": \\\"447521341655@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-18T19:17:57.383809\", \"direction\": \"inbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5247,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T19:18:25",
+      "content": "You need help with Imperial",
+      "source": "whatsapp",
+      "event_id": "7444119",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T19:18:25\", \"id\": 7444119, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB0056F446F072E5CD488\", \"message_type\": \"text\", \"message_content\": \"You need help with Imperial\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T19:18:25.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"You need help with Imperial\\\", \\\"Datetime\\\": 1755544705000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB0056F446F072E5CD488\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-18T19:18:25.376553\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5248,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T19:18:30",
+      "content": "No I'm in halls",
+      "source": "whatsapp",
+      "event_id": "7444126",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T19:18:30\", \"id\": 7444126, \"email\": \"\", \"from_number\": \"447521341655\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447521341655@c.us_BDC1C4112DB0001BBE893A1AEB2947A5\", \"message_type\": \"text\", \"message_content\": \"No I'm in halls\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447521341655@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-18T19:18:30.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"No I'm in halls\\\", \\\"Datetime\\\": 1755544710000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447521341655@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447521341655@c.us_BDC1C4112DB0001BBE893A1AEB2947A5\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447521341655\\\", \\\"sentByUserId\\\": \\\"447521341655@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-18T19:18:31.203093\", \"direction\": \"inbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5249,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T19:18:31",
+      "content": "Accommodation",
+      "source": "whatsapp",
+      "event_id": "7444128",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T19:18:31\", \"id\": 7444128, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB0B9C69C90C59E07F1E4\", \"message_type\": \"text\", \"message_content\": \"Accommodation\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T19:18:31.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Accommodation\\\", \\\"Datetime\\\": 1755544711000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB0B9C69C90C59E07F1E4\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-18T19:18:32.221330\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    },
+    {
+      "id": 5250,
+      "lead_id": 313,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T19:23:36",
+      "content": "Ok",
+      "source": "whatsapp",
+      "event_id": "7444404",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T19:23:36\", \"id\": 7444404, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447521341655\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447521341655@c.us_3EB05B299B33D1146FCA65\", \"message_type\": \"text\", \"message_content\": \"Ok\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T19:23:36.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Ok\\\", \\\"Datetime\\\": 1755545016000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447521341655@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447521341655@c.us_3EB05B299B33D1146FCA65\\\", \\\"ChannelName\\\": \\\"447521341655\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-18T19:23:36.555010\", \"direction\": \"outbound\", \"sbase_user_id\": 2430007, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447521341655\"}",
+      "created_at": "2025-11-18 10:43:48"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 208,
+      "lead_id": 313,
+      "call_id": "7677063",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/45525e95-2c6a-4ec7-b62d-74cb63037db4.wav",
+      "transcript_text": "Speaker A: Howard can't take your call right now. Just leave your message.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:43:53"
+    }
+  ],
+  "summary": {
+    "id": 127,
+    "lead_id": 313,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Oliver Howard\", \"mobile\": [\"447521341655\"], \"email\": [\"14howardo@gmail.com\"], \"whatsapp\": [\"447521341655\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 4, \"room_type\": null, \"budget\": {\"max\": 299, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"Imperial College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Follow up with Oliver Howard to check if he needs help with accommodation for Imperial College after he confirmed he got into Imperial.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent message on 2025-08-18: 'You need help with Imperial' and Oliver's reply 'No I'm in halls'\"}, {\"type\": \"communication\", \"description\": \"Clarify and provide detailed information to Oliver about payment obligations during term holidays for UCL halls and other university-owned accommodations.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Oliver's questions on 2025-08-13 about paying during term holidays and agent's initial answers\"}], \"last_agent_response\": \"Agent acknowledged Oliver's change of university to Imperial and asked if he needs help with Imperial accommodation.\", \"suggested_next_step\": \"Agent to follow up with Oliver promptly to offer assistance with Imperial accommodation options and clarify any outstanding questions about payment terms.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Oliver Howard\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (14howardo@gmail.com), Phone (447521341655), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London (initially), later Imperial College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3299 weekly\", \"move_in_date\": \"Not explicitly mentioned; lease duration 4 weeks with move out date 2025-08-29\", \"lease_duration\": \"4 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and advice stage; no confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages exchanged over 6 days, 1 call attempt\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-18\", \"response_time\": \"Agent responded promptly within minutes to student messages\", \"key_moments\": \"Initial contact by agent on 2025-08-13; student sought advice ahead of results day; clarification on payment during term holidays; student updated on acceptance to Imperial College instead of UCL on 2025-08-18\"}, \"properties_discussed\": {\"properties_mentioned\": \"Rooms related to University College London halls and general UK accommodation\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student inquired about payment obligations during term holidays for UCL halls and university-owned halls\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm if student needs assistance with Imperial College accommodation\", \"pending_items\": \"Student to confirm accommodation needs for Imperial College\", \"follow_up_required\": \"Agent to follow up on student's accommodation requirements for Imperial\", \"timeline\": \"Student's move out date is 2025-08-29; no specific move-in date mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite, seeking advice and clarification\", \"urgency_level\": \"Moderate; student is planning ahead of results day\", \"complexity\": \"Moderate due to university change from UCL to Imperial\", \"special_considerations\": \"Student initially considered UCL as insurance choice but got accepted to Imperial; accommodation advice should be updated accordingly\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Oliver Howard\", \"mobile\": [\"447521341655\"], \"email\": [\"14howardo@gmail.com\"], \"whatsapp\": [\"447521341655\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 4, \"room_type\": null, \"budget\": {\"max\": 299, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"Imperial College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Follow up with Oliver Howard to check if he needs help with accommodation for Imperial College after he confirmed he got into Imperial.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent message on 2025-08-18: 'You need help with Imperial' and Oliver's reply 'No I'm in halls'\"}, {\"type\": \"communication\", \"description\": \"Clarify and provide detailed information to Oliver about payment obligations during term holidays for UCL halls and other university-owned accommodations.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Oliver's questions on 2025-08-13 about paying during term holidays and agent's initial answers\"}], \"last_agent_response\": \"Agent acknowledged Oliver's change of university to Imperial and asked if he needs help with Imperial accommodation.\", \"suggested_next_step\": \"Agent to follow up with Oliver promptly to offer assistance with Imperial accommodation options and clarify any outstanding questions about payment terms.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Oliver Howard\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (14howardo@gmail.com), Phone (447521341655), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London (initially), later Imperial College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3299 weekly\", \"move_in_date\": \"Not explicitly mentioned; lease duration 4 weeks with move out date 2025-08-29\", \"lease_duration\": \"4 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and advice stage; no confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages exchanged over 6 days, 1 call attempt\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-18\", \"response_time\": \"Agent responded promptly within minutes to student messages\", \"key_moments\": \"Initial contact by agent on 2025-08-13; student sought advice ahead of results day; clarification on payment during term holidays; student updated on acceptance to Imperial College instead of UCL on 2025-08-18\"}, \"properties_discussed\": {\"properties_mentioned\": \"Rooms related to University College London halls and general UK accommodation\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student inquired about payment obligations during term holidays for UCL halls and university-owned halls\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm if student needs assistance with Imperial College accommodation\", \"pending_items\": \"Student to confirm accommodation needs for Imperial College\", \"follow_up_required\": \"Agent to follow up on student's accommodation requirements for Imperial\", \"timeline\": \"Student's move out date is 2025-08-29; no specific move-in date mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite, seeking advice and clarification\", \"urgency_level\": \"Moderate; student is planning ahead of results day\", \"complexity\": \"Moderate due to university change from UCL to Imperial\", \"special_considerations\": \"Student initially considered UCL as insurance choice but got accepted to Imperial; accommodation advice should be updated accordingly\"}}}}}",
+    "created_at": "2025-11-18 10:44:03",
+    "updated_at": "2025-11-18T16:14:03.036848",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Oliver Howard",
+        "mobile": [
+          "447521341655"
+        ],
+        "email": [
+          "14howardo@gmail.com"
+        ],
+        "whatsapp": [
+          "447521341655"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 4,
+        "room_type": null,
+        "budget": {
+          "max": 299,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "Imperial College London"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Follow up with Oliver Howard to check if he needs help with accommodation for Imperial College after he confirmed he got into Imperial.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent message on 2025-08-18: 'You need help with Imperial' and Oliver's reply 'No I'm in halls'"
+        },
+        {
+          "type": "communication",
+          "description": "Clarify and provide detailed information to Oliver about payment obligations during term holidays for UCL halls and other university-owned accommodations.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Oliver's questions on 2025-08-13 about paying during term holidays and agent's initial answers"
+        }
+      ],
+      "last_agent_response": "Agent acknowledged Oliver's change of university to Imperial and asked if he needs help with Imperial accommodation.",
+      "suggested_next_step": "Agent to follow up with Oliver promptly to offer assistance with Imperial accommodation options and clarify any outstanding questions about payment terms."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Oliver Howard",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (14howardo@gmail.com), Phone (447521341655), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College London (initially), later Imperial College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£299 weekly",
+            "move_in_date": "Not explicitly mentioned; lease duration 4 weeks with move out date 2025-08-29",
+            "lease_duration": "4 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry and advice stage; no confirmed booking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple WhatsApp messages exchanged over 6 days, 1 call attempt",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-08-18",
+            "response_time": "Agent responded promptly within minutes to student messages",
+            "key_moments": "Initial contact by agent on 2025-08-13; student sought advice ahead of results day; clarification on payment during term holidays; student updated on acceptance to Imperial College instead of UCL on 2025-08-18"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Rooms related to University College London halls and general UK accommodation",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Student inquired about payment obligations during term holidays for UCL halls and university-owned halls",
+            "offers_made": "None mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Confirm if student needs assistance with Imperial College accommodation",
+            "pending_items": "Student to confirm accommodation needs for Imperial College",
+            "follow_up_required": "Agent to follow up on student's accommodation requirements for Imperial",
+            "timeline": "Student's move out date is 2025-08-29; no specific move-in date mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, seeking advice and clarification",
+            "urgency_level": "Moderate; student is planning ahead of results day",
+            "complexity": "Moderate due to university change from UCL to Imperial",
+            "special_considerations": "Student initially considered UCL as insurance choice but got accepted to Imperial; accommodation advice should be updated accordingly"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Oliver Howard",
+          "mobile": [
+            "447521341655"
+          ],
+          "email": [
+            "14howardo@gmail.com"
+          ],
+          "whatsapp": [
+            "447521341655"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 4,
+          "room_type": null,
+          "budget": {
+            "max": 299,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "Imperial College London"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Follow up with Oliver Howard to check if he needs help with accommodation for Imperial College after he confirmed he got into Imperial.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent message on 2025-08-18: 'You need help with Imperial' and Oliver's reply 'No I'm in halls'"
+          },
+          {
+            "type": "communication",
+            "description": "Clarify and provide detailed information to Oliver about payment obligations during term holidays for UCL halls and other university-owned accommodations.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Oliver's questions on 2025-08-13 about paying during term holidays and agent's initial answers"
+          }
+        ],
+        "last_agent_response": "Agent acknowledged Oliver's change of university to Imperial and asked if he needs help with Imperial accommodation.",
+        "suggested_next_step": "Agent to follow up with Oliver promptly to offer assistance with Imperial accommodation options and clarify any outstanding questions about payment terms."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Oliver Howard",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (14howardo@gmail.com), Phone (447521341655), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College London (initially), later Imperial College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£299 weekly",
+              "move_in_date": "Not explicitly mentioned; lease duration 4 weeks with move out date 2025-08-29",
+              "lease_duration": "4 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry and advice stage; no confirmed booking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple WhatsApp messages exchanged over 6 days, 1 call attempt",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-08-18",
+              "response_time": "Agent responded promptly within minutes to student messages",
+              "key_moments": "Initial contact by agent on 2025-08-13; student sought advice ahead of results day; clarification on payment during term holidays; student updated on acceptance to Imperial College instead of UCL on 2025-08-18"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Rooms related to University College London halls and general UK accommodation",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Student inquired about payment obligations during term holidays for UCL halls and university-owned halls",
+              "offers_made": "None mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Confirm if student needs assistance with Imperial College accommodation",
+              "pending_items": "Student to confirm accommodation needs for Imperial College",
+              "follow_up_required": "Agent to follow up on student's accommodation requirements for Imperial",
+              "timeline": "Student's move out date is 2025-08-29; no specific move-in date mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, seeking advice and clarification",
+              "urgency_level": "Moderate; student is planning ahead of results day",
+              "complexity": "Moderate due to university change from UCL to Imperial",
+              "special_considerations": "Student initially considered UCL as insurance choice but got accepted to Imperial; accommodation advice should be updated accordingly"
+            }
+          }
+        }
+      }
+    }
+  }
+}

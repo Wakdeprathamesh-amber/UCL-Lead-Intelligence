@@ -1,0 +1,321 @@
+{
+  "id": "lead_327",
+  "mobile_number": "9647738551222",
+  "email": null,
+  "timeline": [
+    {
+      "id": 5386,
+      "lead_id": 327,
+      "event_type": "call",
+      "timestamp": "2025-07-23T07:58:53.245768",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7552444",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-23T07:58:53.245768\", \"id\": 7552444, \"duration\": \"0\", \"to_number\": \"9647738551222\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5387,
+      "lead_id": 327,
+      "event_type": "call",
+      "timestamp": "2025-07-26T08:54:56.051551",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7571507",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-26T08:54:56.051551\", \"id\": 7571507, \"duration\": \"0\", \"to_number\": \"9647738551222\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5388,
+      "lead_id": 327,
+      "event_type": "call",
+      "timestamp": "2025-07-29T10:14:05.331076",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7585549",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-29T10:14:05.331076\", \"id\": 7585549, \"duration\": \"0\", \"to_number\": \"9647738551222\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5389,
+      "lead_id": 327,
+      "event_type": "call",
+      "timestamp": "2025-07-29T10:20:27.308335",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7585612",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-29T10:20:27.308335\", \"id\": 7585612, \"duration\": \"0\", \"to_number\": \"9647738551222\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5390,
+      "lead_id": 327,
+      "event_type": "call",
+      "timestamp": "2025-08-01T14:10:41.612084",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7607602",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-01T14:10:41.612084\", \"id\": 7607602, \"duration\": \"16\", \"to_number\": \"9647738551222\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/9262692c-7ea9-4358-9ef8-047cef34b9d2.wav\"}",
+      "created_at": "2025-11-18 10:46:54"
+    },
+    {
+      "id": 5391,
+      "lead_id": 327,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3085556, \"user_name\": \"Tamara Alani\", \"email\": \"tamara.pharmacy@gmail.com\", \"phone\": \"9647738551222\", \"lease_duration\": \"45+ Weeks\", \"budget\": 290, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 136660}",
+      "created_at": "2025-11-18 10:46:54"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 217,
+      "lead_id": 327,
+      "call_id": "7607602",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/9262692c-7ea9-4358-9ef8-047cef34b9d2.wav",
+      "transcript_text": "Speaker A: Hello, hello i m a speaking its narmanerhelloello, yeah i may speaking its narbmaneanarma nali।",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:46:59"
+    }
+  ],
+  "summary": {
+    "id": 131,
+    "lead_id": 327,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Tamara Alani\", \"mobile\": [\"+9647738551222\"], \"email\": [\"tamara.pharmacy@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 45, \"room_type\": null, \"budget\": {\"max\": 290, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student at phone number 9647738551222 with no duration, indicating no successful contact. One call on 2025-08-01 lasted 16 seconds but contained unclear speech.\", \"suggested_next_step\": \"Agent to attempt a clear follow-up call or send a message to the student to establish contact and clarify their accommodation needs.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Tamara Alani\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to +9647738551222; email tamara.pharmacy@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3290 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"45+ weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with multiple call attempts; one 16-second call with partial transcript\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 calls (5 with zero duration, 1 call lasting 16 seconds)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-01\", \"response_time\": \"Multiple calls over 9 days with no answered calls until 16-second call\", \"key_moments\": \"Several unanswered calls followed by a short answered call with unclear transcript\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 136660 linked to lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Attempt to establish clear contact with student to discuss preferences and booking details\", \"pending_items\": \"Confirmation of accommodation preferences, move-in date, and lease agreement\", \"follow_up_required\": \"Follow-up call or email to engage student and clarify needs\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Unavailable due to lack of answered calls and unclear transcript\", \"urgency_level\": \"Unknown; multiple call attempts suggest some urgency\", \"complexity\": \"Simple inquiry stage with limited information\", \"special_considerations\": \"Student has a budget and lease duration specified; further engagement needed to progress\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Tamara Alani\", \"mobile\": [\"+9647738551222\"], \"email\": [\"tamara.pharmacy@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 45, \"room_type\": null, \"budget\": {\"max\": 290, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student at phone number 9647738551222 with no duration, indicating no successful contact. One call on 2025-08-01 lasted 16 seconds but contained unclear speech.\", \"suggested_next_step\": \"Agent to attempt a clear follow-up call or send a message to the student to establish contact and clarify their accommodation needs.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Tamara Alani\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to +9647738551222; email tamara.pharmacy@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3290 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"45+ weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with multiple call attempts; one 16-second call with partial transcript\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 calls (5 with zero duration, 1 call lasting 16 seconds)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-01\", \"response_time\": \"Multiple calls over 9 days with no answered calls until 16-second call\", \"key_moments\": \"Several unanswered calls followed by a short answered call with unclear transcript\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 136660 linked to lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Attempt to establish clear contact with student to discuss preferences and booking details\", \"pending_items\": \"Confirmation of accommodation preferences, move-in date, and lease agreement\", \"follow_up_required\": \"Follow-up call or email to engage student and clarify needs\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Unavailable due to lack of answered calls and unclear transcript\", \"urgency_level\": \"Unknown; multiple call attempts suggest some urgency\", \"complexity\": \"Simple inquiry stage with limited information\", \"special_considerations\": \"Student has a budget and lease duration specified; further engagement needed to progress\"}}}}}",
+    "created_at": "2025-11-18 10:47:08",
+    "updated_at": "2025-11-18T16:17:08.221842",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Tamara Alani",
+        "mobile": [
+          "+9647738551222"
+        ],
+        "email": [
+          "tamara.pharmacy@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 45,
+        "room_type": null,
+        "budget": {
+          "max": 290,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Multiple calls were made to the student at phone number 9647738551222 with no duration, indicating no successful contact. One call on 2025-08-01 lasted 16 seconds but contained unclear speech.",
+      "suggested_next_step": "Agent to attempt a clear follow-up call or send a message to the student to establish contact and clarify their accommodation needs."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Tamara Alani",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls to +9647738551222; email tamara.pharmacy@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£290 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "45+ weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry with multiple call attempts; one 16-second call with partial transcript",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "6 calls (5 with zero duration, 1 call lasting 16 seconds)",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-01",
+            "response_time": "Multiple calls over 9 days with no answered calls until 16-second call",
+            "key_moments": "Several unanswered calls followed by a short answered call with unclear transcript"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 136660 linked to lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Attempt to establish clear contact with student to discuss preferences and booking details",
+            "pending_items": "Confirmation of accommodation preferences, move-in date, and lease agreement",
+            "follow_up_required": "Follow-up call or email to engage student and clarify needs",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Unavailable due to lack of answered calls and unclear transcript",
+            "urgency_level": "Unknown; multiple call attempts suggest some urgency",
+            "complexity": "Simple inquiry stage with limited information",
+            "special_considerations": "Student has a budget and lease duration specified; further engagement needed to progress"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Tamara Alani",
+          "mobile": [
+            "+9647738551222"
+          ],
+          "email": [
+            "tamara.pharmacy@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 45,
+          "room_type": null,
+          "budget": {
+            "max": 290,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Multiple calls were made to the student at phone number 9647738551222 with no duration, indicating no successful contact. One call on 2025-08-01 lasted 16 seconds but contained unclear speech.",
+        "suggested_next_step": "Agent to attempt a clear follow-up call or send a message to the student to establish contact and clarify their accommodation needs."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Tamara Alani",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls to +9647738551222; email tamara.pharmacy@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£290 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "45+ weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry with multiple call attempts; one 16-second call with partial transcript",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "6 calls (5 with zero duration, 1 call lasting 16 seconds)",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-01",
+              "response_time": "Multiple calls over 9 days with no answered calls until 16-second call",
+              "key_moments": "Several unanswered calls followed by a short answered call with unclear transcript"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 136660 linked to lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Attempt to establish clear contact with student to discuss preferences and booking details",
+              "pending_items": "Confirmation of accommodation preferences, move-in date, and lease agreement",
+              "follow_up_required": "Follow-up call or email to engage student and clarify needs",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Unavailable due to lack of answered calls and unclear transcript",
+              "urgency_level": "Unknown; multiple call attempts suggest some urgency",
+              "complexity": "Simple inquiry stage with limited information",
+              "special_considerations": "Student has a budget and lease duration specified; further engagement needed to progress"
+            }
+          }
+        }
+      }
+    }
+  }
+}

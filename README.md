@@ -55,7 +55,7 @@ This POC demonstrates a **Whitelabel AI Insight Layer** that allows university p
 ```
 WhiteLabel Lead Intelligence/
 ├── Data/
-│   └── UCL Leads Data - Sheet1.csv       # 14 lead samples
+│   └── exported_dataset/                  # 402 leads with full conversation data
 ├── data/                                   # Generated at runtime
 │   ├── leads.db                           # SQLite database
 │   └── chroma_db/                         # Vector embeddings
@@ -212,7 +212,7 @@ Each lead contains:
 ## 📈 POC Statistics
 
 **Current Data**:
-- 14 leads loaded
+- 402 leads loaded with full conversation data
 - 5 Won, 3 Lost, 2 Opportunity, 2 Contacted, 2 Disputed
 - 60 tasks extracted
 - 24 RAG documents created
@@ -229,7 +229,7 @@ Each lead contains:
 
 ## 🚧 Known Limitations (POC)
 
-1. **Small Dataset**: Only 14 leads (full version would have thousands)
+1. **Dataset**: 402 leads with full conversation data (scalable to thousands)
 2. **No Real-time Updates**: Data is static from CSV
 3. **No Multi-tenant**: Single university (UCL) in this POC
 4. **No Authentication**: No login/user management

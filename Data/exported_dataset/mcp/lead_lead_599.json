@@ -1,0 +1,330 @@
+{
+  "id": "lead_599",
+  "mobile_number": "447484691507",
+  "email": null,
+  "timeline": [
+    {
+      "id": 9229,
+      "lead_id": 599,
+      "event_type": "call",
+      "timestamp": "2025-08-19T19:15:52.614145",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7719064",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T19:15:52.614145\", \"id\": 7719064, \"duration\": \"0\", \"to_number\": \"447484691507\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:42:25"
+    },
+    {
+      "id": 9230,
+      "lead_id": 599,
+      "event_type": "call",
+      "timestamp": "2025-08-19T19:16:18.354839",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7719068",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T19:16:18.354839\", \"id\": 7719068, \"duration\": \"142\", \"to_number\": \"447484691507\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e14229e7-692c-487c-96be-ebabf8cc29f3.wav\"}",
+      "created_at": "2025-11-18 11:42:25"
+    },
+    {
+      "id": 9231,
+      "lead_id": 599,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3159145, \"user_name\": \"Elizabeth King\", \"email\": \"elizabeth@king42.co.uk\", \"phone\": \"447484691507\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2026-07-17\", \"budget\": 570, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 2046083}",
+      "created_at": "2025-11-18 11:42:25"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 485,
+      "lead_id": 599,
+      "call_id": "7719068",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e14229e7-692c-487c-96be-ebabf8cc29f3.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Yeah, hello, I'm actually with Elizabeth here.\nSpeaker C: Yes, speaking.\nSpeaker B: Hello Eliza? Rishabh, it's this way. Calling you from ambitious students.\nSpeaker D: Calling from where?\nSpeaker E: Sorry, from a.m. the student Elizabeth.\nSpeaker F: This call is regarding your UCL accommodation.\nSpeaker C: Yes.\nSpeaker B: So we have just received a payment.\nSpeaker F: For London East Paddington City View.\nSpeaker D: A payment from.\nSpeaker F: Paddington city view of 259 pounds.\nSpeaker D: Yes, that's a deposit on the location.\nSpeaker E: Yeah, yeah, just wanted to confirm here.\nSpeaker F: Which payment method that you wish to proceed with. There are two payment methods currently. One is you can pay the rent in four or five installment and the other one is that you can pay the rent of current.\nSpeaker E: So okay, which payment method did you.\nSpeaker F: Want to go for?\nSpeaker D: Hang on, do I want to pay in instalments or what?\nSpeaker A: Upfront.\nSpeaker D: Does it cost more to pay in instalments?\nSpeaker A: Is there any interest on that?\nSpeaker B: The payment method will be same.\nSpeaker F: The amount will be same.\nSpeaker C: Okay.\nSpeaker A: The payment amount will be the same.\nSpeaker D: Is there an option for how many.\nSpeaker A: Instalments you do it in or is it just eight?\nSpeaker E: I can do max to max, four.\nSpeaker B: To five installments if that's okay with you.\nSpeaker A: I'm not sure, I don't.\nSpeaker E: You can do something here.\nSpeaker C: Could I pass you over, Could I.\nSpeaker D: Possibly pass you over to my mum who's going to be paying for the accommodation because.\nSpeaker C: Okay, I'll pass you over.\nSpeaker D: Thank you.\nSpeaker E: Okay, I'll do one thing, I'll do one thing here.\nSpeaker F: Hello.\nSpeaker C: Hi.\nSpeaker F: Yeah, hi.\nSpeaker B: Am I audible to you now?\nSpeaker G: Yes you are. It's just a. It's a little bit of a bad line but it's okay.\nSpeaker B: Okay.\nSpeaker E: Is it fine if I connect you on WhatsApp?\nSpeaker F: I guess there was. The line would be smooth over there.\nSpeaker G: Yes, you can connect from WhatsApp.\nSpeaker C: That's fine.\nSpeaker G: What do have a chat.\nSpeaker E: I will give you WhatsApp.\nSpeaker G: Call me on WhatsApp.\nSpeaker B: I will give you WhatsApp.\nSpeaker G: Okay, cool.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:42:33"
+    }
+  ],
+  "summary": {
+    "id": 249,
+    "lead_id": 599,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Elizabeth King\", \"mobile\": [\"447484691507\"], \"email\": [\"elizabeth@king42.co.uk\"], \"whatsapp\": [\"447484691507\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London East Paddington City View\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 570, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"London East Paddington City View\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"payment\", \"description\": \"Confirm with Elizabeth or her parent the preferred payment method for the rent (upfront or installments) and finalize the payment schedule.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-19 discussing payment methods and passing call to parent for payment confirmation\"}, {\"type\": \"communication\", \"description\": \"Connect with Elizabeth's parent via WhatsApp to discuss and confirm payment details and method.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-19 where agent offered to connect on WhatsApp with parent\"}], \"last_agent_response\": \"Agent offered to connect with Elizabeth's parent on WhatsApp to clarify payment method and schedule.\", \"suggested_next_step\": \"Agent to contact Elizabeth's parent on WhatsApp to confirm payment method and finalize payment plan.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Elizabeth King\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp communication via phone number 447484691507\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically London East Paddington City View\", \"university\": \"UCL\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3570 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Payment pending confirmation and payment method selection\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Deposit of \\u00a3259 received for London East Paddington City View\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least two calls and lead information update\", \"primary_channel\": \"Phone calls with transition to WhatsApp\", \"last_contact\": \"2025-09-13 (lead info timestamp)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Confirmation of deposit payment, discussion of payment installment options, transfer of call to student's mother who will pay, agreement to continue communication via WhatsApp\"}, \"properties_discussed\": {\"properties_mentioned\": \"London East Paddington City View\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Discussion about payment method preferences (upfront vs installments)\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm payment method with student's mother via WhatsApp\", \"pending_items\": \"Final decision on payment installments\", \"follow_up_required\": \"Agent to follow up on payment confirmation and any further queries via WhatsApp\", \"timeline\": \"Lease duration until 2026-07-17\"}, \"agent_notes\": {\"student_tone\": \"Polite, seeking clarification on payment options\", \"urgency_level\": \"Moderate, payment deposit already made\", \"complexity\": \"Low complexity; straightforward payment and booking process\", \"special_considerations\": \"Payment will be made by student's mother; communication to continue on WhatsApp for better line quality\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Elizabeth King\", \"mobile\": [\"447484691507\"], \"email\": [\"elizabeth@king42.co.uk\"], \"whatsapp\": [\"447484691507\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London East Paddington City View\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 570, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"London East Paddington City View\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"payment\", \"description\": \"Confirm with Elizabeth or her parent the preferred payment method for the rent (upfront or installments) and finalize the payment schedule.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-19 discussing payment methods and passing call to parent for payment confirmation\"}, {\"type\": \"communication\", \"description\": \"Connect with Elizabeth's parent via WhatsApp to discuss and confirm payment details and method.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-19 where agent offered to connect on WhatsApp with parent\"}], \"last_agent_response\": \"Agent offered to connect with Elizabeth's parent on WhatsApp to clarify payment method and schedule.\", \"suggested_next_step\": \"Agent to contact Elizabeth's parent on WhatsApp to confirm payment method and finalize payment plan.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Elizabeth King\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp communication via phone number 447484691507\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically London East Paddington City View\", \"university\": \"UCL\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3570 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Payment pending confirmation and payment method selection\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Deposit of \\u00a3259 received for London East Paddington City View\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least two calls and lead information update\", \"primary_channel\": \"Phone calls with transition to WhatsApp\", \"last_contact\": \"2025-09-13 (lead info timestamp)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Confirmation of deposit payment, discussion of payment installment options, transfer of call to student's mother who will pay, agreement to continue communication via WhatsApp\"}, \"properties_discussed\": {\"properties_mentioned\": \"London East Paddington City View\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Discussion about payment method preferences (upfront vs installments)\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm payment method with student's mother via WhatsApp\", \"pending_items\": \"Final decision on payment installments\", \"follow_up_required\": \"Agent to follow up on payment confirmation and any further queries via WhatsApp\", \"timeline\": \"Lease duration until 2026-07-17\"}, \"agent_notes\": {\"student_tone\": \"Polite, seeking clarification on payment options\", \"urgency_level\": \"Moderate, payment deposit already made\", \"complexity\": \"Low complexity; straightforward payment and booking process\", \"special_considerations\": \"Payment will be made by student's mother; communication to continue on WhatsApp for better line quality\"}}}}}",
+    "created_at": "2025-11-18 11:42:41",
+    "updated_at": "2025-11-18T17:12:41.229431",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Elizabeth King",
+        "mobile": [
+          "447484691507"
+        ],
+        "email": [
+          "elizabeth@king42.co.uk"
+        ],
+        "whatsapp": [
+          "447484691507"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London East Paddington City View"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": null,
+        "budget": {
+          "max": 570,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "UCL",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "London East Paddington City View"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "payment",
+          "description": "Confirm with Elizabeth or her parent the preferred payment method for the rent (upfront or installments) and finalize the payment schedule.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-08-19 discussing payment methods and passing call to parent for payment confirmation"
+        },
+        {
+          "type": "communication",
+          "description": "Connect with Elizabeth's parent via WhatsApp to discuss and confirm payment details and method.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-08-19 where agent offered to connect on WhatsApp with parent"
+        }
+      ],
+      "last_agent_response": "Agent offered to connect with Elizabeth's parent on WhatsApp to clarify payment method and schedule.",
+      "suggested_next_step": "Agent to contact Elizabeth's parent on WhatsApp to confirm payment method and finalize payment plan."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Elizabeth King",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp communication via phone number 447484691507",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, specifically London East Paddington City View",
+            "university": "UCL",
+            "room_type": "Not mentioned",
+            "budget_range": "£570 per week",
+            "move_in_date": "Not explicitly mentioned",
+            "lease_duration": "44 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Payment pending confirmation and payment method selection",
+            "documents_status": "Not mentioned",
+            "payment_status": "Deposit of £259 received for London East Paddington City View",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "At least two calls and lead information update",
+            "primary_channel": "Phone calls with transition to WhatsApp",
+            "last_contact": "2025-09-13 (lead info timestamp)",
+            "response_time": "Not explicitly mentioned",
+            "key_moments": "Confirmation of deposit payment, discussion of payment installment options, transfer of call to student's mother who will pay, agreement to continue communication via WhatsApp"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "London East Paddington City View",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Discussion about payment method preferences (upfront vs installments)",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Confirm payment method with student's mother via WhatsApp",
+            "pending_items": "Final decision on payment installments",
+            "follow_up_required": "Agent to follow up on payment confirmation and any further queries via WhatsApp",
+            "timeline": "Lease duration until 2026-07-17"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, seeking clarification on payment options",
+            "urgency_level": "Moderate, payment deposit already made",
+            "complexity": "Low complexity; straightforward payment and booking process",
+            "special_considerations": "Payment will be made by student's mother; communication to continue on WhatsApp for better line quality"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Elizabeth King",
+          "mobile": [
+            "447484691507"
+          ],
+          "email": [
+            "elizabeth@king42.co.uk"
+          ],
+          "whatsapp": [
+            "447484691507"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London East Paddington City View"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": null,
+          "budget": {
+            "max": 570,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "UCL",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "London East Paddington City View"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "payment",
+            "description": "Confirm with Elizabeth or her parent the preferred payment method for the rent (upfront or installments) and finalize the payment schedule.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-08-19 discussing payment methods and passing call to parent for payment confirmation"
+          },
+          {
+            "type": "communication",
+            "description": "Connect with Elizabeth's parent via WhatsApp to discuss and confirm payment details and method.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-08-19 where agent offered to connect on WhatsApp with parent"
+          }
+        ],
+        "last_agent_response": "Agent offered to connect with Elizabeth's parent on WhatsApp to clarify payment method and schedule.",
+        "suggested_next_step": "Agent to contact Elizabeth's parent on WhatsApp to confirm payment method and finalize payment plan."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Elizabeth King",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp communication via phone number 447484691507",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, specifically London East Paddington City View",
+              "university": "UCL",
+              "room_type": "Not mentioned",
+              "budget_range": "£570 per week",
+              "move_in_date": "Not explicitly mentioned",
+              "lease_duration": "44 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Payment pending confirmation and payment method selection",
+              "documents_status": "Not mentioned",
+              "payment_status": "Deposit of £259 received for London East Paddington City View",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "At least two calls and lead information update",
+              "primary_channel": "Phone calls with transition to WhatsApp",
+              "last_contact": "2025-09-13 (lead info timestamp)",
+              "response_time": "Not explicitly mentioned",
+              "key_moments": "Confirmation of deposit payment, discussion of payment installment options, transfer of call to student's mother who will pay, agreement to continue communication via WhatsApp"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "London East Paddington City View",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Discussion about payment method preferences (upfront vs installments)",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Confirm payment method with student's mother via WhatsApp",
+              "pending_items": "Final decision on payment installments",
+              "follow_up_required": "Agent to follow up on payment confirmation and any further queries via WhatsApp",
+              "timeline": "Lease duration until 2026-07-17"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, seeking clarification on payment options",
+              "urgency_level": "Moderate, payment deposit already made",
+              "complexity": "Low complexity; straightforward payment and booking process",
+              "special_considerations": "Payment will be made by student's mother; communication to continue on WhatsApp for better line quality"
+            }
+          }
+        }
+      }
+    }
+  }
+}

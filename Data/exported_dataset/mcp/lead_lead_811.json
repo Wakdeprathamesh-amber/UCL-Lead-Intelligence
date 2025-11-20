@@ -1,0 +1,456 @@
+{
+  "id": "lead_811",
+  "mobile_number": "218924644105",
+  "email": null,
+  "timeline": [
+    {
+      "id": 12873,
+      "lead_id": 811,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3091836, \"user_name\": \"sara.alrefadi@gmail.com\", \"email\": \"sara.alrefadi@gmail.com\", \"phone\": \"218924644105\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-29\", \"budget\": 327, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1418882}",
+      "created_at": "2025-11-18 13:04:26"
+    },
+    {
+      "id": 12874,
+      "lead_id": 811,
+      "event_type": "call",
+      "timestamp": "2025-07-26T16:33:15.993451",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7574238",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-26T16:33:15.993451\", \"id\": 7574238, \"duration\": \"0\", \"to_number\": \"218924644105\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:04:26"
+    },
+    {
+      "id": 12875,
+      "lead_id": 811,
+      "event_type": "call",
+      "timestamp": "2025-07-26T16:33:55.915749",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7574239",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-26T16:33:55.915749\", \"id\": 7574239, \"duration\": \"0\", \"to_number\": \"218924644105\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:04:26"
+    },
+    {
+      "id": 12876,
+      "lead_id": 811,
+      "event_type": "call",
+      "timestamp": "2025-07-28T16:34:39.365629",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7582194",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-28T16:34:39.365629\", \"id\": 7582194, \"duration\": \"594\", \"to_number\": \"218924644105\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b6d3a577-f86d-4b89-bed2-0cf7ec761b79.wav\"}",
+      "created_at": "2025-11-18 13:04:26"
+    },
+    {
+      "id": 12877,
+      "lead_id": 811,
+      "event_type": "call",
+      "timestamp": "2025-07-28T17:41:55.948359",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7582582",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-28T17:41:55.948359\", \"id\": 7582582, \"duration\": \"0\", \"to_number\": \"218924644105\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:04:26"
+    },
+    {
+      "id": 12878,
+      "lead_id": 811,
+      "event_type": "call",
+      "timestamp": "2025-07-30T16:28:07.739164",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7595399",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-30T16:28:07.739164\", \"id\": 7595399, \"duration\": \"0\", \"to_number\": \"218924644105\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:04:26"
+    },
+    {
+      "id": 12879,
+      "lead_id": 811,
+      "event_type": "call",
+      "timestamp": "2025-08-05T17:32:14.494628",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7629644",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-05T17:32:14.494628\", \"id\": 7629644, \"duration\": \"0\", \"to_number\": \"218924644105\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:04:26"
+    },
+    {
+      "id": 12880,
+      "lead_id": 811,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-05T17:33:19",
+      "content": "Hello",
+      "source": "whatsapp",
+      "event_id": "6845697",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-05T17:33:19\", \"id\": 6845697, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"218924644105\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_218924644105@c.us_B597A18B11C1080D89FDC50B4639EC0A\", \"message_type\": \"text\", \"message_content\": \"Hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-05T17:33:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello\\\", \\\"Datetime\\\": 1754415199000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"218924644105@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_218924644105@c.us_B597A18B11C1080D89FDC50B4639EC0A\\\", \\\"ChannelName\\\": \\\"218924644105\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-05T17:33:20.339030\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"218924644105\"}",
+      "created_at": "2025-11-18 13:04:26"
+    },
+    {
+      "id": 12881,
+      "lead_id": 811,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-05T17:33:35",
+      "content": "Hey sara.alrefadi@gmail.com, \r\n\r\nThanks for contacting amber for your accommodation search in London!\r\nI am Mahmudul and I'll be helping you book your ideal student home.\r\n\r\nHappy to assist you with the process ahead. Thankyou : )",
+      "source": "whatsapp",
+      "event_id": "6845717",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-05T17:33:35\", \"id\": 6845717, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"218924644105\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_218924644105@c.us_5CD86318AD00E09E7710ECA488042ECE\", \"message_type\": \"text\", \"message_content\": \"Hey sara.alrefadi@gmail.com, \\r\\n\\r\\nThanks for contacting amber for your accommodation search in London!\\r\\nI am Mahmudul and I'll be helping you book your ideal student home.\\r\\n\\r\\nHappy to assist you with the process ahead. Thankyou : )\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-05T17:33:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hey sara.alrefadi@gmail.com, \\\\r\\\\n\\\\r\\\\nThanks for contacting amber for your accommodation search in London!\\\\r\\\\nI am Mahmudul and I'll be helping you book your ideal student home.\\\\r\\\\n\\\\r\\\\nHappy to assist you with the process ahead. Thankyou : )\\\", \\\"Datetime\\\": 1754415215000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"218924644105@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_218924644105@c.us_5CD86318AD00E09E7710ECA488042ECE\\\", \\\"ChannelName\\\": \\\"218924644105\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-05T17:33:36.001192\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"218924644105\"}",
+      "created_at": "2025-11-18 13:04:26"
+    },
+    {
+      "id": 12882,
+      "lead_id": 811,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-06T14:36:18",
+      "content": "Hello",
+      "source": "whatsapp",
+      "event_id": "6884359",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-06T14:36:18\", \"id\": 6884359, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"218924644105\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_218924644105@c.us_38620A3672AABE7062AA88774B168816\", \"message_type\": \"text\", \"message_content\": \"Hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-06T14:36:18.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello\\\", \\\"Datetime\\\": 1754490978000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"218924644105@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_218924644105@c.us_38620A3672AABE7062AA88774B168816\\\", \\\"ChannelName\\\": \\\"218924644105\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-06T14:36:19.224578\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"218924644105\"}",
+      "created_at": "2025-11-18 13:04:26"
+    },
+    {
+      "id": 12883,
+      "lead_id": 811,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-07T19:03:12",
+      "content": "Hello Sara, please confirm are you still looking for accommodation?.",
+      "source": "whatsapp",
+      "event_id": "6947364",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-07T19:03:12\", \"id\": 6947364, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"218924644105\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_218924644105@c.us_41B98539118B60E9B42D07FE2A897E1D\", \"message_type\": \"text\", \"message_content\": \"Hello Sara, please confirm are you still looking for accommodation?.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-07T19:03:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello Sara, please confirm are you still looking for accommodation?.\\\", \\\"Datetime\\\": 1754593392000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"218924644105@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_218924644105@c.us_41B98539118B60E9B42D07FE2A897E1D\\\", \\\"ChannelName\\\": \\\"218924644105\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-07T19:03:13.704735\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"218924644105\"}",
+      "created_at": "2025-11-18 13:04:26"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 645,
+      "lead_id": 811,
+      "call_id": "7582194",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b6d3a577-f86d-4b89-bed2-0cf7ec761b79.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Yeah, hi, I'm Sara Afredi.\nSpeaker A: Yes.\nSpeaker B: Hi, Sarah, this is Hussein. I'm calling. I was calling regarding your.\nSpeaker A: Sorry, I can't hear you well.\nSpeaker B: Pardon?\nSpeaker A: I can't hear you well.\nSpeaker B: I did not understood. Could you please repeat? What? Can you please repeat? I. I did not understood what you said.\nSpeaker A: Sorry, I can't hear you. What?\nSpeaker B: Can you hear me now?\nSpeaker A: Hello? Hello?\nSpeaker B: Yeah, Sarah, I was calling you regarding your accommodation abroad.\nSpeaker A: Yes.\nSpeaker B: Yeah. Are you still looking for accommodation in London?\nSpeaker A: Which company are you?\nSpeaker B: I am calling from Amber Student.\nSpeaker A: What?\nSpeaker B: I am calling from Amber Student.\nSpeaker A: Okay. Ah, yes, yeah, I see, I see. Yes, I do. I'm still looking for other options right now and I haven't find any. Could you please reach me out on WhatsApp to send me what's available?\nSpeaker B: Perfect. So can you please let me know what kind of accommodation you're looking for?\nSpeaker A: Single. Single and something in central London, near Brisbane. Because I'm doing my master's in ucl. So I need something that is close to the college, you know, I understand. And. Yeah, and it's fine if it's the shared bathroom, that's fine. I'm not too sure if there's like any option where I can only share the space with the females, like especially the bathroom. Is that possible?\nSpeaker B: Tell me one thing. What is the budget that you have?\nSpeaker A: I can do maximum 3, 100 pounds per week. That's the maximum that I can do.\nSpeaker B: In hundred pounds per week. You want something ucl?\nSpeaker A: Yes.\nSpeaker B: You understand that is not possible, right?\nSpeaker A: Okay. I'm just, you know, telling you what I need and I'm not really sure about what's available. So this is why I'm still looking, you know.\nSpeaker B: So I'll tell you one thing. In ucl, in close to ucl, even if you go with the sharing room, this is not possible to get something in hundred pounds. Okay.\nSpeaker A: Okay, we can get you something for.\nSpeaker B: Let me check. Let me help you out with this. Okay, Just give me one second.\nSpeaker A: Yeah. The thing is that I must be deadline for UCL accommodation. You know, I couldn't apply on their portal regarding that. So I found like some quite affordable and convenient options.\nSpeaker B: Okay. Are you okay with staying a little bit far away from the university?\nSpeaker A: With what?\nSpeaker B: Are you okay with little? I'll give it far away from the university.\nSpeaker A: Okay. How far? Like how many minutes with the tube or bus?\nSpeaker B: Just give me one second. I cannot find you anything for £100 per week. But I can find you something for somewhere around 180 or 200 pounds. Per week?\nSpeaker A: How, how much?\nSpeaker B: 180 pounds or 200 pounds per week. Is that okay with you?\nSpeaker A: 100. I didn't hear you. Hi.\nSpeaker B: Your budget should be somewhere around minimum of 200 pounds.\nSpeaker A: Three. 300 pounds? Yes.\nSpeaker B: 200. 200.\nSpeaker A: This is 200.\nSpeaker B: Yes. 200 pounds per week. Is that okay?\nSpeaker A: Yeah, yeah. The 300 is the most that I can do. I told you 300.\nSpeaker B: I'm really sorry. I actually there's a lots of background noise from your behind. I heard you won something for £100.\nSpeaker A: So that's why I said no, that's impossible. Oh, I know that. Yeah.\nSpeaker B: Come with less noise. Can you come somewhere with less noise? There are lots of noise behind you.\nSpeaker A: Okay, okay. Okay. Wait a second.\nSpeaker B: That's why I was scared, you know, I was asking.\nSpeaker A: No, that would be impossible. No, definitely what I said. Is that £300 per week? Yeah, per week?\nSpeaker B: Yeah, that's great. £300.\nSpeaker A: Yeah, that's reasonable.\nSpeaker B: Yeah, that's very reasonable.\nSpeaker A: Yeah, that's very reasonable.\nSpeaker B: Yeah, but 100 pound was scary. I was like, no, that's scary.\nSpeaker A: No, definitely, that's very scary. Nowhere in the world you can find this.\nSpeaker B: All right, so I'm gonna share you in property.\nSpeaker A: Okay. Can you do this on WhatsApp perhaps?\nSpeaker B: Yes, definitely. Definitely. I will, I'll be sharing the property on WhatsApp. It's just I want to tell you this will be at 24 hours bus commute from your university from this accommodation. Is that okay with you? 24, 24 minutes of a bus commute.\nSpeaker A: Okay. This is the closest that, that you found?\nSpeaker B: Pardon?\nSpeaker A: That is the closest that you found?\nSpeaker B: There are some others, but this property is one of the finest. That's why I wanted to show you the ensuite gold. The gold en suite is available for 309 pounds. And the name of the ensuite is Mannequin House London.\nSpeaker A: Yeah. Okay, just send me the link and I will check them and I will see my options and I will get your back.\nSpeaker B: Sarah, I'll be honest with you. Let's. Let's discuss about this. Let me share you few other properties and let me explain you about that because you know, I'll be totally honest. At this time there are not much many properties left. Accommodations are getting sold out really fast. And from now on, from the 1st of August or even before that, the price of these properties are gonna go very high.\nSpeaker A: Yeah, just because I'm, I'm busy now, I can't decide and I need to check, you know. Yeah, just Details on.\nSpeaker B: Yeah, sure, yeah.\nSpeaker A: And what. This would be practical so I can, you know, focus and take my decision, you know, because it's a really big decision.\nSpeaker B: No, I understand, but what I am saying is I. Let me explain you about the property on the call so it will help you understand about the property. That's what I'm saying. I'm not asking you to decide about the accommodation now.\nSpeaker A: Okay, okay.\nSpeaker B: Okay. So tell me one thing. Do you have WhatsApp on the same number?\nSpeaker A: Yes. Yes, I do.\nSpeaker B: Just one thing. I'm unable to find your WhatsApp. Is it okay if I share this property over email?\nSpeaker A: Oh, yeah, sure. Go ahead.\nSpeaker B: All right, just give me one tiny second. All right. Why? I have selected Mannequin House because your water bill, electricity bill, heating bill and WI fi bills are already included in the £309. You don't have to pay extra for any of it. Okay, Just one second. Please check your email.\nSpeaker A: S A R A.\nSpeaker B: No, no. Please check your email.\nSpeaker A: Okay.\nSpeaker B: I have already shared you the email of. I shared in the. Sara Dot.\nSpeaker A: Yeah, I'm not connected to the Internet now. You sent the email, right?\nSpeaker B: Yeah, I have sent you the email. Why don't we do one thing? You have a proper look on the property after a few times. Okay. After few. When you have access to the Internet and meanwhile I will share another property with you.\nSpeaker A: Okay.\nSpeaker B: There. Here's one. My phone number is there in the email. Just text me on WhatsApp if you have any doubt at all and I will completely help you out with that Sounds good enough.\nSpeaker A: Okay, good. I'm good.\nSpeaker B: Take care, Sara.\nSpeaker A: Okay, thank you. Thank you a lot.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:04:40"
+    }
+  ],
+  "summary": {
+    "id": 334,
+    "lead_id": 811,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Sara Afredi\", \"mobile\": [\"218924644105\"], \"email\": [\"sara.alrefadi@gmail.com\"], \"whatsapp\": [\"218924644105\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\", \"Central London\", \"near Brisbane\"], \"lease_duration_weeks\": 51, \"room_type\": \"single\", \"budget\": {\"max\": 300, \"currency\": \"GBP\"}, \"bathroom_type\": \"shared_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [\"water included\", \"electricity included\", \"heating included\", \"wifi included\"], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": \"postgrad\"}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Mannequin House London\"], \"rooms_considered\": [\"ensuite gold\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Send Sara details and links of available accommodation properties near UCL within her budget, including Mannequin House and other options.\", \"due\": \"within_24h\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-07-28 where agent agreed to send property details via email and WhatsApp.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Sara to confirm if she is still looking for accommodation and if she has reviewed the sent property options.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-08-07 asking Sara to confirm if she is still looking for accommodation.\"}, {\"type\": \"booking_action\", \"description\": \"Sara to review the accommodation options sent via email and WhatsApp and decide on her preferred property.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Sara stated she will check the options and get back after receiving the links and details.\"}], \"last_agent_response\": \"Agent sent Sara property details via email and WhatsApp, including Mannequin House at \\u00a3309/week with bills included, and invited her to contact via WhatsApp for any questions.\", \"suggested_next_step\": \"Agent to follow up with Sara within a week to confirm her interest and next steps after she reviews the accommodation options.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Sara Alrefadi\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (sara.alrefadi@gmail.com), phone (+218924644105), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, preferably central London near UCL (University College London), specifically near Brisbane area\", \"university\": \"UCL (University College London)\", \"room_type\": \"Single room, shared bathroom acceptable, preference for female-only bathroom sharing if possible\", \"budget_range\": \"Up to \\u00a3300 per week; initially mentioned \\u00a3100 but clarified \\u00a3300 is maximum budget\", \"move_in_date\": \"Not explicitly mentioned, but lease duration is 51 weeks with move-out date 29 August 2026\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Close to university, affordable, utilities included preferred; female-only bathroom sharing if possible\"}, \"current_status\": {\"booking_stage\": \"property_selection - student reviewing options sent by agent\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (7 attempts, 1 successful detailed call), WhatsApp messages over 3 days\", \"primary_channel\": \"Phone calls and WhatsApp\", \"last_contact\": \"2025-08-07 via WhatsApp\", \"response_time\": \"Agent initiated most contacts; student responded mainly during call on 2025-07-28 and via WhatsApp messages between 2025-08-05 and 2025-08-07\", \"key_moments\": \"Detailed call on 2025-07-28 clarified budget and preferences; agent sent property details via email and WhatsApp; student requested time to review due to busy schedule\"}, \"properties_discussed\": {\"properties_mentioned\": \"Mannequin House London (ensuite gold room at \\u00a3309/week, utilities included, approx. 24 minutes bus commute to UCL)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Prefers central location near UCL; willing to accept shared bathroom; budget up to \\u00a3300/week; prefers female-only bathroom sharing if possible\", \"offers_made\": \"Agent offered to share multiple properties via email and WhatsApp; highlighted Mannequin House as a fine option with all bills included\"}, \"next_steps\": {\"immediate_actions\": \"Student to review emailed property details when internet access is available\", \"pending_items\": \"Student to confirm interest or ask questions via WhatsApp\", \"follow_up_required\": \"Agent to follow up on student\\u2019s decision and provide additional options if needed\", \"timeline\": \"Urgency implied due to rising prices from 1 August; no explicit deadline from student\"}, \"agent_notes\": {\"student_tone\": \"Polite, cautious, and practical; wants to make an informed decision\", \"urgency_level\": \"Moderate urgency due to accommodation market and university deadlines\", \"complexity\": \"Moderate complexity due to budget constraints and location preferences\", \"special_considerations\": \"Student is busy and needs time to review options; prefers communication via WhatsApp; budget realistic but tight for central London\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Sara Afredi\", \"mobile\": [\"218924644105\"], \"email\": [\"sara.alrefadi@gmail.com\"], \"whatsapp\": [\"218924644105\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\", \"Central London\", \"near Brisbane\"], \"lease_duration_weeks\": 51, \"room_type\": \"single\", \"budget\": {\"max\": 300, \"currency\": \"GBP\"}, \"bathroom_type\": \"shared_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [\"water included\", \"electricity included\", \"heating included\", \"wifi included\"], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": \"postgrad\"}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Mannequin House London\"], \"rooms_considered\": [\"ensuite gold\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Send Sara details and links of available accommodation properties near UCL within her budget, including Mannequin House and other options.\", \"due\": \"within_24h\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-07-28 where agent agreed to send property details via email and WhatsApp.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Sara to confirm if she is still looking for accommodation and if she has reviewed the sent property options.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-08-07 asking Sara to confirm if she is still looking for accommodation.\"}, {\"type\": \"booking_action\", \"description\": \"Sara to review the accommodation options sent via email and WhatsApp and decide on her preferred property.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Sara stated she will check the options and get back after receiving the links and details.\"}], \"last_agent_response\": \"Agent sent Sara property details via email and WhatsApp, including Mannequin House at \\u00a3309/week with bills included, and invited her to contact via WhatsApp for any questions.\", \"suggested_next_step\": \"Agent to follow up with Sara within a week to confirm her interest and next steps after she reviews the accommodation options.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Sara Alrefadi\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (sara.alrefadi@gmail.com), phone (+218924644105), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, preferably central London near UCL (University College London), specifically near Brisbane area\", \"university\": \"UCL (University College London)\", \"room_type\": \"Single room, shared bathroom acceptable, preference for female-only bathroom sharing if possible\", \"budget_range\": \"Up to \\u00a3300 per week; initially mentioned \\u00a3100 but clarified \\u00a3300 is maximum budget\", \"move_in_date\": \"Not explicitly mentioned, but lease duration is 51 weeks with move-out date 29 August 2026\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Close to university, affordable, utilities included preferred; female-only bathroom sharing if possible\"}, \"current_status\": {\"booking_stage\": \"property_selection - student reviewing options sent by agent\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (7 attempts, 1 successful detailed call), WhatsApp messages over 3 days\", \"primary_channel\": \"Phone calls and WhatsApp\", \"last_contact\": \"2025-08-07 via WhatsApp\", \"response_time\": \"Agent initiated most contacts; student responded mainly during call on 2025-07-28 and via WhatsApp messages between 2025-08-05 and 2025-08-07\", \"key_moments\": \"Detailed call on 2025-07-28 clarified budget and preferences; agent sent property details via email and WhatsApp; student requested time to review due to busy schedule\"}, \"properties_discussed\": {\"properties_mentioned\": \"Mannequin House London (ensuite gold room at \\u00a3309/week, utilities included, approx. 24 minutes bus commute to UCL)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Prefers central location near UCL; willing to accept shared bathroom; budget up to \\u00a3300/week; prefers female-only bathroom sharing if possible\", \"offers_made\": \"Agent offered to share multiple properties via email and WhatsApp; highlighted Mannequin House as a fine option with all bills included\"}, \"next_steps\": {\"immediate_actions\": \"Student to review emailed property details when internet access is available\", \"pending_items\": \"Student to confirm interest or ask questions via WhatsApp\", \"follow_up_required\": \"Agent to follow up on student\\u2019s decision and provide additional options if needed\", \"timeline\": \"Urgency implied due to rising prices from 1 August; no explicit deadline from student\"}, \"agent_notes\": {\"student_tone\": \"Polite, cautious, and practical; wants to make an informed decision\", \"urgency_level\": \"Moderate urgency due to accommodation market and university deadlines\", \"complexity\": \"Moderate complexity due to budget constraints and location preferences\", \"special_considerations\": \"Student is busy and needs time to review options; prefers communication via WhatsApp; budget realistic but tight for central London\"}}}}}",
+    "created_at": "2025-11-18 13:04:51",
+    "updated_at": "2025-11-18T18:34:51.487091",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Sara Afredi",
+        "mobile": [
+          "218924644105"
+        ],
+        "email": [
+          "sara.alrefadi@gmail.com"
+        ],
+        "whatsapp": [
+          "218924644105"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London",
+          "Central London",
+          "near Brisbane"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "single",
+        "budget": {
+          "max": 300,
+          "currency": "GBP"
+        },
+        "bathroom_type": "shared_bathroom",
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [
+          "water included",
+          "electricity included",
+          "heating included",
+          "wifi included"
+        ],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": "postgrad"
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Mannequin House London"
+        ],
+        "rooms_considered": [
+          "ensuite gold"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Send Sara details and links of available accommodation properties near UCL within her budget, including Mannequin House and other options.",
+          "due": "within_24h",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-07-28 where agent agreed to send property details via email and WhatsApp."
+        },
+        {
+          "type": "follow_up",
+          "description": "Follow up with Sara to confirm if she is still looking for accommodation and if she has reviewed the sent property options.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-08-07 asking Sara to confirm if she is still looking for accommodation."
+        },
+        {
+          "type": "booking_action",
+          "description": "Sara to review the accommodation options sent via email and WhatsApp and decide on her preferred property.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Sara stated she will check the options and get back after receiving the links and details."
+        }
+      ],
+      "last_agent_response": "Agent sent Sara property details via email and WhatsApp, including Mannequin House at £309/week with bills included, and invited her to contact via WhatsApp for any questions.",
+      "suggested_next_step": "Agent to follow up with Sara within a week to confirm her interest and next steps after she reviews the accommodation options."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Sara Alrefadi",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (sara.alrefadi@gmail.com), phone (+218924644105), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, preferably central London near UCL (University College London), specifically near Brisbane area",
+            "university": "UCL (University College London)",
+            "room_type": "Single room, shared bathroom acceptable, preference for female-only bathroom sharing if possible",
+            "budget_range": "Up to £300 per week; initially mentioned £100 but clarified £300 is maximum budget",
+            "move_in_date": "Not explicitly mentioned, but lease duration is 51 weeks with move-out date 29 August 2026",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Close to university, affordable, utilities included preferred; female-only bathroom sharing if possible"
+          },
+          "current_status": {
+            "booking_stage": "property_selection - student reviewing options sent by agent",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple calls (7 attempts, 1 successful detailed call), WhatsApp messages over 3 days",
+            "primary_channel": "Phone calls and WhatsApp",
+            "last_contact": "2025-08-07 via WhatsApp",
+            "response_time": "Agent initiated most contacts; student responded mainly during call on 2025-07-28 and via WhatsApp messages between 2025-08-05 and 2025-08-07",
+            "key_moments": "Detailed call on 2025-07-28 clarified budget and preferences; agent sent property details via email and WhatsApp; student requested time to review due to busy schedule"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Mannequin House London (ensuite gold room at £309/week, utilities included, approx. 24 minutes bus commute to UCL)",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Prefers central location near UCL; willing to accept shared bathroom; budget up to £300/week; prefers female-only bathroom sharing if possible",
+            "offers_made": "Agent offered to share multiple properties via email and WhatsApp; highlighted Mannequin House as a fine option with all bills included"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to review emailed property details when internet access is available",
+            "pending_items": "Student to confirm interest or ask questions via WhatsApp",
+            "follow_up_required": "Agent to follow up on student’s decision and provide additional options if needed",
+            "timeline": "Urgency implied due to rising prices from 1 August; no explicit deadline from student"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, cautious, and practical; wants to make an informed decision",
+            "urgency_level": "Moderate urgency due to accommodation market and university deadlines",
+            "complexity": "Moderate complexity due to budget constraints and location preferences",
+            "special_considerations": "Student is busy and needs time to review options; prefers communication via WhatsApp; budget realistic but tight for central London"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Sara Afredi",
+          "mobile": [
+            "218924644105"
+          ],
+          "email": [
+            "sara.alrefadi@gmail.com"
+          ],
+          "whatsapp": [
+            "218924644105"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London",
+            "Central London",
+            "near Brisbane"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "single",
+          "budget": {
+            "max": 300,
+            "currency": "GBP"
+          },
+          "bathroom_type": "shared_bathroom",
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [
+            "water included",
+            "electricity included",
+            "heating included",
+            "wifi included"
+          ],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": "postgrad"
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Mannequin House London"
+          ],
+          "rooms_considered": [
+            "ensuite gold"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Send Sara details and links of available accommodation properties near UCL within her budget, including Mannequin House and other options.",
+            "due": "within_24h",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-07-28 where agent agreed to send property details via email and WhatsApp."
+          },
+          {
+            "type": "follow_up",
+            "description": "Follow up with Sara to confirm if she is still looking for accommodation and if she has reviewed the sent property options.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-08-07 asking Sara to confirm if she is still looking for accommodation."
+          },
+          {
+            "type": "booking_action",
+            "description": "Sara to review the accommodation options sent via email and WhatsApp and decide on her preferred property.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Sara stated she will check the options and get back after receiving the links and details."
+          }
+        ],
+        "last_agent_response": "Agent sent Sara property details via email and WhatsApp, including Mannequin House at £309/week with bills included, and invited her to contact via WhatsApp for any questions.",
+        "suggested_next_step": "Agent to follow up with Sara within a week to confirm her interest and next steps after she reviews the accommodation options."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Sara Alrefadi",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (sara.alrefadi@gmail.com), phone (+218924644105), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, preferably central London near UCL (University College London), specifically near Brisbane area",
+              "university": "UCL (University College London)",
+              "room_type": "Single room, shared bathroom acceptable, preference for female-only bathroom sharing if possible",
+              "budget_range": "Up to £300 per week; initially mentioned £100 but clarified £300 is maximum budget",
+              "move_in_date": "Not explicitly mentioned, but lease duration is 51 weeks with move-out date 29 August 2026",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Close to university, affordable, utilities included preferred; female-only bathroom sharing if possible"
+            },
+            "current_status": {
+              "booking_stage": "property_selection - student reviewing options sent by agent",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple calls (7 attempts, 1 successful detailed call), WhatsApp messages over 3 days",
+              "primary_channel": "Phone calls and WhatsApp",
+              "last_contact": "2025-08-07 via WhatsApp",
+              "response_time": "Agent initiated most contacts; student responded mainly during call on 2025-07-28 and via WhatsApp messages between 2025-08-05 and 2025-08-07",
+              "key_moments": "Detailed call on 2025-07-28 clarified budget and preferences; agent sent property details via email and WhatsApp; student requested time to review due to busy schedule"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Mannequin House London (ensuite gold room at £309/week, utilities included, approx. 24 minutes bus commute to UCL)",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Prefers central location near UCL; willing to accept shared bathroom; budget up to £300/week; prefers female-only bathroom sharing if possible",
+              "offers_made": "Agent offered to share multiple properties via email and WhatsApp; highlighted Mannequin House as a fine option with all bills included"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to review emailed property details when internet access is available",
+              "pending_items": "Student to confirm interest or ask questions via WhatsApp",
+              "follow_up_required": "Agent to follow up on student’s decision and provide additional options if needed",
+              "timeline": "Urgency implied due to rising prices from 1 August; no explicit deadline from student"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, cautious, and practical; wants to make an informed decision",
+              "urgency_level": "Moderate urgency due to accommodation market and university deadlines",
+              "complexity": "Moderate complexity due to budget constraints and location preferences",
+              "special_considerations": "Student is busy and needs time to review options; prefers communication via WhatsApp; budget realistic but tight for central London"
+            }
+          }
+        }
+      }
+    }
+  }
+}

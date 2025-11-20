@@ -1,0 +1,377 @@
+{
+  "id": "lead_758",
+  "mobile_number": "6281281290140",
+  "email": null,
+  "timeline": [
+    {
+      "id": 12078,
+      "lead_id": 758,
+      "event_type": "lead_info",
+      "timestamp": "2025-08-23T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-08-23T00:00:00\", \"lead_id\": 3181698, \"user_name\": \"Cut Nurul Hafifah\", \"email\": \"cutnurulhafifah@gmail.com\", \"phone\": \"6281281290140\", \"lease_duration\": \"52 week\", \"move_out_date\": \"2026-08-21\", \"budget\": 330, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 1864505}",
+      "created_at": "2025-11-18 12:53:37"
+    },
+    {
+      "id": 12079,
+      "lead_id": 758,
+      "event_type": "email",
+      "timestamp": "2025-08-26T17:39:56",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-26T17:39:56\", \"sender_email\": \"rishabh.m@amberstudent.com\", \"recipient_email\": \"cutnurulhafifah@gmail.com\", \"subject\": \"Action Required: Review & Sign Your UCL Accommodation Offer \\u2013 Rathbone Place, London\", \"message\": \"Hi Cut,\\\\n\\\\nI hope you're doing well!\\\\n\\\\nI'm Rishabh, your Booking Manager at Amber. Thank you for choosing Amber for your student accommodation in London \\u2014 we\\u2019re excited to assist you as the official accommodation partner for University College London (UCL).\\\\n\\\\nYour booking at Rathbone Place, London (Half Twin Bedroom) is now progressing, and the offer will be sent to your email shortly.\\\\n---------------------------------------------------------------\\\\n\\\\n\\u2705 Next Steps to Secure Your Booking:\\\\n\\\\n-\\\\nReview & Sign the Offer:\\\\nOnce the offer email arrives, kindly review the details and sign the agreement to confirm your room.\\\\n\\\\n-\\\\nGuarantor (if applicable):\\\\nIf a guarantor is required, they will receive a separate email. Please ask them to upload their documents and sign promptly.\\\\n\\\\n-\\\\nPayment:\\\\nAfter signing, please share the initial payment receipt with us so we can confirm everything with the property.\\\\n\\\\n---------------------------------------------------------------\\\\n\\\\nIf you have any questions or need help at any stage, feel free to reply to this email or message me on WhatsApp. I\\u2019m here to make this process smooth and stress-free for you!\\\\n\\\\nLooking forward to getting your booking secured soon.\\\\n\\\\nWarm regards,\\\\nRishabh\\\\nBooking Manager \\u2013 Amber\\\\n\\\\n--\\\\n\\\\n[amberstudent.com]\\\\n\\\\nRishabh M\\\\n\\\\nSenior Operation Associate\\\\n\\\\nPhone: [+447460047271]()\\\\n\\\\nWhatsapp: [+447460047271]()\\\\n\\\\nEmail: [rishabh.m@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\", \"snippet\": \"Hi Cut, I hope you&#39;re doing well! I&#39;m Rishabh, your Booking Manager at Amber. Thank you for choosing Amber for your student accommodation in London \\u2014 we&#39;re excited to assist you as the\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"rishabh.m@amberstudent.com\", \"student_email\": \"cutnurulhafifah@gmail.com\"}",
+      "created_at": "2025-11-18 12:53:37"
+    },
+    {
+      "id": 12080,
+      "lead_id": 758,
+      "event_type": "call",
+      "timestamp": "2025-08-27T08:14:56.695196",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7766750",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-27T08:14:56.695196\", \"id\": 7766750, \"duration\": \"0\", \"to_number\": \"6281281290140\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:53:37"
+    },
+    {
+      "id": 12081,
+      "lead_id": 758,
+      "event_type": "call",
+      "timestamp": "2025-08-28T08:08:03.271475",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7772924",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-28T08:08:03.271475\", \"id\": 7772924, \"duration\": \"0\", \"to_number\": \"6281281290140\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:53:37"
+    },
+    {
+      "id": 12082,
+      "lead_id": 758,
+      "event_type": "call",
+      "timestamp": "2025-08-31T10:33:14.081370",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7792085",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-31T10:33:14.081370\", \"id\": 7792085, \"duration\": \"0\", \"to_number\": \"6281281290140\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:53:37"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 312,
+    "lead_id": 758,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Cut Nurul Hafifah\", \"mobile\": [\"+6281281290140\"], \"email\": [\"cutnurulhafifah@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 52, \"room_type\": \"half twin bedroom\", \"budget\": {\"max\": 330, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": true, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Rathbone Place\"], \"rooms_considered\": [\"Half Twin Bedroom\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Review and sign the accommodation offer email to confirm the room booking at Rathbone Place, London.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from agent Rishabh on 2025-08-26 about reviewing and signing the offer.\"}, {\"type\": \"document_required\", \"description\": \"If a guarantor is required, the guarantor must upload their documents and sign the agreement promptly.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from agent Rishabh on 2025-08-26 mentioning guarantor document upload and signing.\"}, {\"type\": \"payment\", \"description\": \"After signing the agreement, share the initial payment receipt with the agent to confirm the booking with the property.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from agent Rishabh on 2025-08-26 about payment after signing.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to continue follow-up calls to student to ensure the booking process is progressing and offer assistance if needed.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Multiple outbound calls from agent to student on 2025-08-27, 2025-08-28, and 2025-08-31 with no answer.\"}], \"last_agent_response\": \"Sent an email on 2025-08-26 outlining next steps to review and sign the offer, guarantor requirements, and payment instructions.\", \"suggested_next_step\": \"Student to review and sign the accommodation offer email as soon as possible.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Cut Nurul Hafifah\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (cutnurulhafifah@gmail.com), Phone (+6281281290140)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London (UCL)\", \"room_type\": \"Half Twin Bedroom\", \"budget_range\": \"\\u00a3330 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 52 weeks ending 2026-08-21\", \"lease_duration\": \"52 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Offer sent and pending student review and signature\", \"documents_status\": \"Guarantor documents may be required; no confirmation of submission\", \"payment_status\": \"Pending initial payment after signing agreement\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 (1 outbound email, 4 call attempts)\", \"primary_channel\": \"Phone calls and email\", \"last_contact\": \"2025-08-31 (call attempt)\", \"response_time\": \"No answered calls recorded; no student replies documented\", \"key_moments\": \"Agent sent accommodation offer email on 2025-08-26; multiple call attempts to student from 2025-08-27 to 2025-08-31 with no answer\"}, \"properties_discussed\": {\"properties_mentioned\": \"Rathbone Place, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Half Twin Bedroom at Rathbone Place\", \"offers_made\": \"Accommodation offer sent for Rathbone Place\"}, \"next_steps\": {\"immediate_actions\": \"Student to review and sign the accommodation offer\", \"pending_items\": \"Guarantor documents if applicable; initial payment receipt after signing\", \"follow_up_required\": \"Agent to follow up on offer acceptance and payment confirmation\", \"timeline\": \"Lease ends 2026-08-21; no explicit move-in date provided\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded\", \"urgency_level\": \"Moderate; multiple call attempts indicate agent is proactively following up\", \"complexity\": \"Standard booking process with guarantor and payment steps\", \"special_considerations\": \"Student has not answered calls; may require alternative contact approach\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Cut Nurul Hafifah\", \"mobile\": [\"+6281281290140\"], \"email\": [\"cutnurulhafifah@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 52, \"room_type\": \"half twin bedroom\", \"budget\": {\"max\": 330, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": true, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Rathbone Place\"], \"rooms_considered\": [\"Half Twin Bedroom\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Review and sign the accommodation offer email to confirm the room booking at Rathbone Place, London.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from agent Rishabh on 2025-08-26 about reviewing and signing the offer.\"}, {\"type\": \"document_required\", \"description\": \"If a guarantor is required, the guarantor must upload their documents and sign the agreement promptly.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from agent Rishabh on 2025-08-26 mentioning guarantor document upload and signing.\"}, {\"type\": \"payment\", \"description\": \"After signing the agreement, share the initial payment receipt with the agent to confirm the booking with the property.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from agent Rishabh on 2025-08-26 about payment after signing.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to continue follow-up calls to student to ensure the booking process is progressing and offer assistance if needed.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Multiple outbound calls from agent to student on 2025-08-27, 2025-08-28, and 2025-08-31 with no answer.\"}], \"last_agent_response\": \"Sent an email on 2025-08-26 outlining next steps to review and sign the offer, guarantor requirements, and payment instructions.\", \"suggested_next_step\": \"Student to review and sign the accommodation offer email as soon as possible.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Cut Nurul Hafifah\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (cutnurulhafifah@gmail.com), Phone (+6281281290140)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London (UCL)\", \"room_type\": \"Half Twin Bedroom\", \"budget_range\": \"\\u00a3330 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 52 weeks ending 2026-08-21\", \"lease_duration\": \"52 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Offer sent and pending student review and signature\", \"documents_status\": \"Guarantor documents may be required; no confirmation of submission\", \"payment_status\": \"Pending initial payment after signing agreement\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 (1 outbound email, 4 call attempts)\", \"primary_channel\": \"Phone calls and email\", \"last_contact\": \"2025-08-31 (call attempt)\", \"response_time\": \"No answered calls recorded; no student replies documented\", \"key_moments\": \"Agent sent accommodation offer email on 2025-08-26; multiple call attempts to student from 2025-08-27 to 2025-08-31 with no answer\"}, \"properties_discussed\": {\"properties_mentioned\": \"Rathbone Place, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Half Twin Bedroom at Rathbone Place\", \"offers_made\": \"Accommodation offer sent for Rathbone Place\"}, \"next_steps\": {\"immediate_actions\": \"Student to review and sign the accommodation offer\", \"pending_items\": \"Guarantor documents if applicable; initial payment receipt after signing\", \"follow_up_required\": \"Agent to follow up on offer acceptance and payment confirmation\", \"timeline\": \"Lease ends 2026-08-21; no explicit move-in date provided\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded\", \"urgency_level\": \"Moderate; multiple call attempts indicate agent is proactively following up\", \"complexity\": \"Standard booking process with guarantor and payment steps\", \"special_considerations\": \"Student has not answered calls; may require alternative contact approach\"}}}}}",
+    "created_at": "2025-11-18 12:53:48",
+    "updated_at": "2025-11-18T18:23:48.446553",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Cut Nurul Hafifah",
+        "mobile": [
+          "+6281281290140"
+        ],
+        "email": [
+          "cutnurulhafifah@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 52,
+        "room_type": "half twin bedroom",
+        "budget": {
+          "max": 330,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": true,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "University College London"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Rathbone Place"
+        ],
+        "rooms_considered": [
+          "Half Twin Bedroom"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Review and sign the accommodation offer email to confirm the room booking at Rathbone Place, London.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Email from agent Rishabh on 2025-08-26 about reviewing and signing the offer."
+        },
+        {
+          "type": "document_required",
+          "description": "If a guarantor is required, the guarantor must upload their documents and sign the agreement promptly.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Email from agent Rishabh on 2025-08-26 mentioning guarantor document upload and signing."
+        },
+        {
+          "type": "payment",
+          "description": "After signing the agreement, share the initial payment receipt with the agent to confirm the booking with the property.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Email from agent Rishabh on 2025-08-26 about payment after signing."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to continue follow-up calls to student to ensure the booking process is progressing and offer assistance if needed.",
+          "due": "within_week",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "Multiple outbound calls from agent to student on 2025-08-27, 2025-08-28, and 2025-08-31 with no answer."
+        }
+      ],
+      "last_agent_response": "Sent an email on 2025-08-26 outlining next steps to review and sign the offer, guarantor requirements, and payment instructions.",
+      "suggested_next_step": "Student to review and sign the accommodation offer email as soon as possible."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Cut Nurul Hafifah",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (cutnurulhafifah@gmail.com), Phone (+6281281290140)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College London (UCL)",
+            "room_type": "Half Twin Bedroom",
+            "budget_range": "£330 per week",
+            "move_in_date": "Not explicitly mentioned; lease duration 52 weeks ending 2026-08-21",
+            "lease_duration": "52 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Offer sent and pending student review and signature",
+            "documents_status": "Guarantor documents may be required; no confirmation of submission",
+            "payment_status": "Pending initial payment after signing agreement",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "5 (1 outbound email, 4 call attempts)",
+            "primary_channel": "Phone calls and email",
+            "last_contact": "2025-08-31 (call attempt)",
+            "response_time": "No answered calls recorded; no student replies documented",
+            "key_moments": "Agent sent accommodation offer email on 2025-08-26; multiple call attempts to student from 2025-08-27 to 2025-08-31 with no answer"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Rathbone Place, London",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Half Twin Bedroom at Rathbone Place",
+            "offers_made": "Accommodation offer sent for Rathbone Place"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to review and sign the accommodation offer",
+            "pending_items": "Guarantor documents if applicable; initial payment receipt after signing",
+            "follow_up_required": "Agent to follow up on offer acceptance and payment confirmation",
+            "timeline": "Lease ends 2026-08-21; no explicit move-in date provided"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication from student recorded",
+            "urgency_level": "Moderate; multiple call attempts indicate agent is proactively following up",
+            "complexity": "Standard booking process with guarantor and payment steps",
+            "special_considerations": "Student has not answered calls; may require alternative contact approach"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Cut Nurul Hafifah",
+          "mobile": [
+            "+6281281290140"
+          ],
+          "email": [
+            "cutnurulhafifah@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 52,
+          "room_type": "half twin bedroom",
+          "budget": {
+            "max": 330,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": true,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "University College London"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Rathbone Place"
+          ],
+          "rooms_considered": [
+            "Half Twin Bedroom"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Review and sign the accommodation offer email to confirm the room booking at Rathbone Place, London.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Email from agent Rishabh on 2025-08-26 about reviewing and signing the offer."
+          },
+          {
+            "type": "document_required",
+            "description": "If a guarantor is required, the guarantor must upload their documents and sign the agreement promptly.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Email from agent Rishabh on 2025-08-26 mentioning guarantor document upload and signing."
+          },
+          {
+            "type": "payment",
+            "description": "After signing the agreement, share the initial payment receipt with the agent to confirm the booking with the property.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Email from agent Rishabh on 2025-08-26 about payment after signing."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to continue follow-up calls to student to ensure the booking process is progressing and offer assistance if needed.",
+            "due": "within_week",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "Multiple outbound calls from agent to student on 2025-08-27, 2025-08-28, and 2025-08-31 with no answer."
+          }
+        ],
+        "last_agent_response": "Sent an email on 2025-08-26 outlining next steps to review and sign the offer, guarantor requirements, and payment instructions.",
+        "suggested_next_step": "Student to review and sign the accommodation offer email as soon as possible."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Cut Nurul Hafifah",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (cutnurulhafifah@gmail.com), Phone (+6281281290140)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College London (UCL)",
+              "room_type": "Half Twin Bedroom",
+              "budget_range": "£330 per week",
+              "move_in_date": "Not explicitly mentioned; lease duration 52 weeks ending 2026-08-21",
+              "lease_duration": "52 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Offer sent and pending student review and signature",
+              "documents_status": "Guarantor documents may be required; no confirmation of submission",
+              "payment_status": "Pending initial payment after signing agreement",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "5 (1 outbound email, 4 call attempts)",
+              "primary_channel": "Phone calls and email",
+              "last_contact": "2025-08-31 (call attempt)",
+              "response_time": "No answered calls recorded; no student replies documented",
+              "key_moments": "Agent sent accommodation offer email on 2025-08-26; multiple call attempts to student from 2025-08-27 to 2025-08-31 with no answer"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Rathbone Place, London",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Half Twin Bedroom at Rathbone Place",
+              "offers_made": "Accommodation offer sent for Rathbone Place"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to review and sign the accommodation offer",
+              "pending_items": "Guarantor documents if applicable; initial payment receipt after signing",
+              "follow_up_required": "Agent to follow up on offer acceptance and payment confirmation",
+              "timeline": "Lease ends 2026-08-21; no explicit move-in date provided"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication from student recorded",
+              "urgency_level": "Moderate; multiple call attempts indicate agent is proactively following up",
+              "complexity": "Standard booking process with guarantor and payment steps",
+              "special_considerations": "Student has not answered calls; may require alternative contact approach"
+            }
+          }
+        }
+      }
+    }
+  }
+}

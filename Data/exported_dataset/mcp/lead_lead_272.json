@@ -1,0 +1,253 @@
+{
+  "id": "lead_272",
+  "mobile_number": "8618513269491",
+  "email": null,
+  "timeline": [
+    {
+      "id": 4632,
+      "lead_id": 272,
+      "event_type": "lead_info",
+      "timestamp": "2025-07-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-07-09T00:00:00\", \"lead_id\": 3179550, \"user_name\": \"Ziqi Zhang\", \"email\": \"zz3199@barnard.edu\", \"phone\": \"8618513269491\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-29\", \"budget\": 288, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 215007}",
+      "created_at": "2025-11-18 10:37:44"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 111,
+    "lead_id": 272,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Ziqi Zhang\", \"mobile\": [\"+8618513269491\"], \"email\": [\"zz3199@barnard.edu\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 288, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Ziqi Zhang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (zz3199@barnard.edu), Phone (8618513269491)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3288 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 (lead information provided)\", \"primary_channel\": \"Not mentioned\", \"last_contact\": \"2025-07-09\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Lead created with student details and accommodation preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 215007\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm move-in date and room preferences\", \"pending_items\": \"Move-in date confirmation, room type preference, payment details\", \"follow_up_required\": \"Yes, to clarify accommodation details and progress booking\", \"timeline\": \"Lease ends on 2026-08-29\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget is \\u00a3288 weekly; lease duration is 51 weeks\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Ziqi Zhang\", \"mobile\": [\"+8618513269491\"], \"email\": [\"zz3199@barnard.edu\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 288, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Ziqi Zhang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (zz3199@barnard.edu), Phone (8618513269491)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3288 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 (lead information provided)\", \"primary_channel\": \"Not mentioned\", \"last_contact\": \"2025-07-09\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Lead created with student details and accommodation preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 215007\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm move-in date and room preferences\", \"pending_items\": \"Move-in date confirmation, room type preference, payment details\", \"follow_up_required\": \"Yes, to clarify accommodation details and progress booking\", \"timeline\": \"Lease ends on 2026-08-29\"}, \"agent_notes\": {\"student_tone\": \"Not mentioned\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget is \\u00a3288 weekly; lease duration is 51 weeks\"}}}}}",
+    "created_at": "2025-11-18 10:37:52",
+    "updated_at": "2025-11-18T16:07:52.673586",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Ziqi Zhang",
+        "mobile": [
+          "+8618513269491"
+        ],
+        "email": [
+          "zz3199@barnard.edu"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 288,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "",
+      "suggested_next_step": ""
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Ziqi Zhang",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (zz3199@barnard.edu), Phone (8618513269491)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£288 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1 (lead information provided)",
+            "primary_channel": "Not mentioned",
+            "last_contact": "2025-07-09",
+            "response_time": "Not mentioned",
+            "key_moments": "Lead created with student details and accommodation preferences"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 215007",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Contact student to confirm move-in date and room preferences",
+            "pending_items": "Move-in date confirmation, room type preference, payment details",
+            "follow_up_required": "Yes, to clarify accommodation details and progress booking",
+            "timeline": "Lease ends on 2026-08-29"
+          },
+          "agent_notes": {
+            "student_tone": "Not mentioned",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Budget is £288 weekly; lease duration is 51 weeks"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Ziqi Zhang",
+          "mobile": [
+            "+8618513269491"
+          ],
+          "email": [
+            "zz3199@barnard.edu"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 288,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "",
+        "suggested_next_step": ""
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Ziqi Zhang",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (zz3199@barnard.edu), Phone (8618513269491)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£288 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1 (lead information provided)",
+              "primary_channel": "Not mentioned",
+              "last_contact": "2025-07-09",
+              "response_time": "Not mentioned",
+              "key_moments": "Lead created with student details and accommodation preferences"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 215007",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Contact student to confirm move-in date and room preferences",
+              "pending_items": "Move-in date confirmation, room type preference, payment details",
+              "follow_up_required": "Yes, to clarify accommodation details and progress booking",
+              "timeline": "Lease ends on 2026-08-29"
+            },
+            "agent_notes": {
+              "student_tone": "Not mentioned",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Budget is £288 weekly; lease duration is 51 weeks"
+            }
+          }
+        }
+      }
+    }
+  }
+}

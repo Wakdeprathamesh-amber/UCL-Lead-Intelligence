@@ -1,0 +1,538 @@
+{
+  "id": "lead_292",
+  "mobile_number": "447484850258",
+  "email": null,
+  "timeline": [
+    {
+      "id": 17883,
+      "lead_id": 292,
+      "event_type": "lead_info",
+      "timestamp": "2025-07-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-07-09T00:00:00\", \"lead_id\": 3160208, \"user_name\": \"Udai Shah\", \"email\": \"udai.shah@outlook.com\", \"phone\": \"447484850258\", \"lease_duration\": \"39 week\", \"move_out_date\": \"2026-06-06\", \"budget\": 460, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2085651}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17884,
+      "lead_id": 292,
+      "event_type": "call",
+      "timestamp": "2025-08-17T11:33:24.832949",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7701624",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-17T11:33:24.832949\", \"id\": 7701624, \"duration\": \"33\", \"to_number\": \"447484850258\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/9ceb7887-8c90-4362-a510-22b679d376a7.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17885,
+      "lead_id": 292,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-17T11:36:03",
+      "content": "Hey Udai, \n\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \n\nHappy to assist you with the process ahead. Thankyou : )",
+      "source": "whatsapp",
+      "event_id": "7368718",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-17T11:36:03\", \"id\": 7368718, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447484850258\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447484850258@c.us_3F12232AC09DB928A9BF\", \"message_type\": \"text\", \"message_content\": \"Hey Udai, \\n\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\n\\nHappy to assist you with the process ahead. Thankyou : )\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-17T11:36:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hey Udai, \\\\n\\\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\\\n\\\\nHappy to assist you with the process ahead. Thankyou : )\\\", \\\"Datetime\\\": 1755430563000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447484850258@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447484850258@c.us_3F12232AC09DB928A9BF\\\", \\\"ChannelName\\\": \\\"447484850258\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-17T11:36:04.451190\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447484850258\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17886,
+      "lead_id": 292,
+      "event_type": "call",
+      "timestamp": "2025-08-18T11:34:49.884680",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7706850",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T11:34:49.884680\", \"id\": 7706850, \"duration\": \"4\", \"to_number\": \"447484850258\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f4b9b86f-73f6-49f6-91cd-a5b771af65a5.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17887,
+      "lead_id": 292,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T11:35:26",
+      "content": "Hi Udai,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "7410757",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T11:35:26\", \"id\": 7410757, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447484850258\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447484850258@c.us_3F85EC927348A758E0D7\", \"message_type\": \"text\", \"message_content\": \"Hi Udai,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T11:35:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Udai,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.\\\", \\\"Datetime\\\": 1755516926000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447484850258@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447484850258@c.us_3F85EC927348A758E0D7\\\", \\\"ChannelName\\\": \\\"447484850258\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-18T11:35:26.821200\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447484850258\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17888,
+      "lead_id": 292,
+      "event_type": "email",
+      "timestamp": "2025-08-19T14:14:18",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-19T14:14:18\", \"sender_email\": \"udai.shah@outlook.com\", \"recipient_email\": \"prachi.ko@amberstudent.com\", \"subject\": \"Re: Hi Udai, Let\\u2019s Complete Your UCL Student Accommodation Booking in London.\", \"message\": \"Hi Prachi,\\\\n\\\\nTried calling you on your number but couldn\\u2019t get through. Please call me back: +44 7484850258\\\\n\\\\nMany thanks\\\\n\\\\nUdai\\\\n\\\\nFrom: prachi.ko@amberstudent.com <prachi.ko@amberstudent.com>\\\\nDate: Tuesday, 19 August 2025 at 12:30\\\\nTo: udai.shah@outlook.com <udai.shah@outlook.com>\\\\nSubject: Hi Udai, Let\\u2019s Complete Your UCL Student Accommodation Booking in London.\\\\n\\\\nHi Udai,\\\\n\\\\nWe hope this email finds you well. We recently contacted you regarding your Student Accommodation Booking. However, we have not yet received a response from you. This is a friendly reminder to take action and Secure your Preferred Accommodation before it's too late.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[Image removed by sender. amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nBookings Executive\\\\n\\\\nPhone: [+447830319649]() | Whatsapp Me\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\\\\n\\\\n[Image removed by sender.]()[Image removed by sender.]()[Image removed by sender.]()[Image removed by sender.]()\\\\n\\\\n[Image removed by sender.]()\", \"snippet\": \"Hi Prachi, Tried calling you on your number but couldn&#39;t get through. Please call me back: +44 7484850258 Many thanks Udai From: prachi.ko@amberstudent.com &lt;prachi.ko@amberstudent.com&gt; Date:\", \"direction\": \"inbound\", \"sender_type\": \"student\", \"agent_email\": \"prachi.ko@amberstudent.com\", \"student_email\": \"udai.shah@outlook.com\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17889,
+      "lead_id": 292,
+      "event_type": "email",
+      "timestamp": "2025-08-20T06:47:54",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-20T06:47:54\", \"sender_email\": \"prachi.ko@amberstudent.com\", \"recipient_email\": \"udai.shah@outlook.com\", \"subject\": \"Re: Hi Udai, Let\\u2019s Complete Your UCL Student Accommodation Booking in London.\", \"message\": \"Hi Udai,\\\\n\\\\nGreetings of the day!\\\\n\\\\nThank you for reaching out. I apologize for the inconvenience you experienced while trying to call.\\\\n\\\\nIn addition to email and direct calls, please remember that you can also connect with me on WhatsApp at the number . This can often be a quick and convenient way to communicate.\\\\n\\\\nLooking forward to assisting you further.\\\\n\\\\nKind regards,\\\\nPrachi\\\\n\\\\n[amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nOperations Associate\\\\n\\\\nPhone: [+447723487965]()\\\\n\\\\nWhatsapp: [+447782694334]()\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\\\\n\\\\nOn Tue, Aug 19, 2025 at 7:44\\u202fPM Udai Shah <[udai.shah@outlook.com]()> wrote:\\\\n\\\\nHi Prachi,\\\\n\\\\nTried calling you on your number but couldn\\u2019t get through. Please call me back: +44 7484850258\\\\n\\\\nMany thanks\\\\n\\\\nUdai\\\\n\\\\nFrom: [prachi.ko@amberstudent.com]() <[prachi.ko@amberstudent.com]()>\\\\nDate: Tuesday, 19 August 2025 at 12:30\\\\nTo: [udai.shah@outlook.com]() <[udai.shah@outlook.com]()>\\\\nSubject: Hi Udai, Let\\u2019s Complete Your UCL Student Accommodation Booking in London.\\\\n\\\\nHi Udai,\\\\n\\\\nWe hope this email finds you well. We recently contacted you regarding your Student Accommodation Booking. However, we have not yet received a response from you. This is a friendly reminder to take action and Secure your Preferred Accommodation before it's too late.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[Image removed by sender. amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nBookings Executive\\\\n\\\\nPhone: [+447830319649]() | Whatsapp Me\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\\\\n\\\\n[Image removed by sender.]()[Image removed by sender.]()[Image removed by sender.]()[Image removed by sender.]()\\\\n\\\\n[Image removed by sender.]()\", \"snippet\": \"Hi Udai, Greetings of the day! Thank you for reaching out. I apologize for the inconvenience you experienced while trying to call. In addition to email and direct calls, please remember that you can\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"prachi.ko@amberstudent.com\", \"student_email\": \"udai.shah@outlook.com\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17890,
+      "lead_id": 292,
+      "event_type": "call",
+      "timestamp": "2025-08-20T11:52:57.631705",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7722758",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T11:52:57.631705\", \"id\": 7722758, \"duration\": \"10\", \"to_number\": \"447484850258\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/418e64f5-99d1-4ee2-bf28-3d5074b072a8.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17891,
+      "lead_id": 292,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T11:53:07",
+      "content": "Hi Udai,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "7535967",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T11:53:07\", \"id\": 7535967, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447484850258\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447484850258@c.us_3F09ADB99F4B4AD882BB\", \"message_type\": \"text\", \"message_content\": \"Hi Udai,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T11:53:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Udai,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\\\", \\\"Datetime\\\": 1755690787000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447484850258@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447484850258@c.us_3F09ADB99F4B4AD882BB\\\", \\\"ChannelName\\\": \\\"447484850258\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-20T11:53:07.510966\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447484850258\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17892,
+      "lead_id": 292,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T11:56:19",
+      "content": "Hello Udai,\nGood afternoon! I hope you're doing well.\n\nMy name is Prachi, and I’m reaching out from AmberStudent. We’re partnered with UCL to assist students with accommodation.\n\nWe received your booking form for a Classic Ensuite at Yugo Depot Point, London (39 weeks), and just wanted to confirm whether you'd like to go ahead with this option or if you're considering other accommodations.\n\nI've tried reaching out to you via email, WhatsApp, and phone, but haven’t been able to connect.\n\nKindly let us know a convenient time for a quick call so we can assist you further.",
+      "source": "whatsapp",
+      "event_id": "7536207",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T11:56:19\", \"id\": 7536207, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447484850258\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447484850258@c.us_3FC3DB9EC28BF68164CB\", \"message_type\": \"text\", \"message_content\": \"Hello Udai,\\nGood afternoon! I hope you're doing well.\\n\\nMy name is Prachi, and I\\u2019m reaching out from AmberStudent. We\\u2019re partnered with UCL to assist students with accommodation.\\n\\nWe received your booking form for a Classic Ensuite at Yugo Depot Point, London (39 weeks), and just wanted to confirm whether you'd like to go ahead with this option or if you're considering other accommodations.\\n\\nI've tried reaching out to you via email, WhatsApp, and phone, but haven\\u2019t been able to connect.\\n\\nKindly let us know a convenient time for a quick call so we can assist you further.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T11:56:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello Udai,\\\\nGood afternoon! I hope you're doing well.\\\\n\\\\nMy name is Prachi, and I\\u2019m reaching out from AmberStudent. We\\u2019re partnered with UCL to assist students with accommodation.\\\\n\\\\nWe received your booking form for a Classic Ensuite at Yugo Depot Point, London (39 weeks), and just wanted to confirm whether you'd like to go ahead with this option or if you're considering other accommodations.\\\\n\\\\nI've tried reaching out to you via email, WhatsApp, and phone, but haven\\u2019t been able to connect.\\\\n\\\\nKindly let us know a convenient time for a quick call so we can assist you further.\\\", \\\"Datetime\\\": 1755690979000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447484850258@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447484850258@c.us_3FC3DB9EC28BF68164CB\\\", \\\"ChannelName\\\": \\\"447484850258\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-20T11:56:20.324111\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447484850258\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17893,
+      "lead_id": 292,
+      "event_type": "call",
+      "timestamp": "2025-08-20T12:05:35.271719",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7722869",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T12:05:35.271719\", \"id\": 7722869, \"duration\": \"6\", \"to_number\": \"447484850258\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d7bda60c-27cb-4b4e-9496-63ba044bd52a.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17894,
+      "lead_id": 292,
+      "event_type": "call",
+      "timestamp": "2025-08-21T10:17:21.482591",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7729161",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T10:17:21.482591\", \"id\": 7729161, \"duration\": \"50\", \"to_number\": \"447484850258\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d53971d4-9db9-45aa-af81-3e80fc00b429.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17895,
+      "lead_id": 292,
+      "event_type": "email",
+      "timestamp": "2025-08-21T10:18:42",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-08-21T10:18:42\", \"sender_email\": \"prachi.ko@amberstudent.com\", \"recipient_email\": \"udai.shah@outlook.com\", \"subject\": \"Re: Hi Udai, Let\\u2019s Complete Your UCL Student Accommodation Booking in London.\", \"message\": \"Hello Udai,\\\\nGood afternoon! I hope you're doing well.\\\\n\\\\nMy name is Prachi, and I\\u2019m reaching out from AmberStudent. We\\u2019re partnered with UCL to assist students with accommodation.\\\\n\\\\nWe received your booking form for a Classic Ensuite at Yugo Depot Point, London (39 weeks), and just wanted to confirm whether you'd like to go ahead with this option or if you're considering other accommodations.\\\\n\\\\nI've tried reaching out to you via email, WhatsApp, and phone, but haven\\u2019t been able to connect.\\\\n\\\\nKindly let us know a convenient time for a quick call so we can assist you further.\\\\n\\\\n[amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nOperations Associate\\\\n\\\\nPhone: [+447723487965]()\\\\n\\\\nWhatsapp: [+447782694334]()\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\\\\n\\\\nOn Wed, Aug 20, 2025 at 12:17\\u202fPM Prachi Kohli <[prachi.ko@amberstudent.com]()> wrote:\\\\n\\\\nHi Udai,\\\\n\\\\nGreetings of the day!\\\\n\\\\nThank you for reaching out. I apologize for the inconvenience you experienced while trying to call.\\\\n\\\\nIn addition to email and direct calls, please remember that you can also connect with me on WhatsApp at the number . This can often be a quick and convenient way to communicate.\\\\n\\\\nLooking forward to assisting you further.\\\\n\\\\nKind regards,\\\\nPrachi\\\\n\\\\n[amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nOperations Associate\\\\n\\\\nPhone: [+447723487965]()\\\\n\\\\nWhatsapp: [+447782694334]()\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\\\\n\\\\nOn Tue, Aug 19, 2025 at 7:44\\u202fPM Udai Shah <[udai.shah@outlook.com]()> wrote:\\\\n\\\\nHi Prachi,\\\\n\\\\nTried calling you on your number but couldn\\u2019t get through. Please call me back: +44 7484850258\\\\n\\\\nMany thanks\\\\n\\\\nUdai\\\\n\\\\nFrom: [prachi.ko@amberstudent.com]() <[prachi.ko@amberstudent.com]()>\\\\nDate: Tuesday, 19 August 2025 at 12:30\\\\nTo: [udai.shah@outlook.com]() <[udai.shah@outlook.com]()>\\\\nSubject: Hi Udai, Let\\u2019s Complete Your UCL Student Accommodation Booking in London.\\\\n\\\\nHi Udai,\\\\n\\\\nWe hope this email finds you well. We recently contacted you regarding your Student Accommodation Booking. However, we have not yet received a response from you. This is a friendly reminder to take action and Secure your Preferred Accommodation before it's too late.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[Image removed by sender. amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nBookings Executive\\\\n\\\\nPhone: [+447830319649]() | Whatsapp Me\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\\\\n\\\\n[Image removed by sender.]()[Image removed by sender.]()[Image removed by sender.]()[Image removed by sender.]()\\\\n\\\\n[Image removed by sender.]()\", \"snippet\": \"Hello Udai, Good afternoon! I hope you&#39;re doing well. My name is Prachi, and I&#39;m reaching out from AmberStudent. We&#39;re partnered with UCL to assist students with accommodation. We received\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"prachi.ko@amberstudent.com\", \"student_email\": \"udai.shah@outlook.com\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17896,
+      "lead_id": 292,
+      "event_type": "call",
+      "timestamp": "2025-08-23T11:53:15.374979",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7745604",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-23T11:53:15.374979\", \"id\": 7745604, \"duration\": \"10\", \"to_number\": \"447484850258\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/08467778-16e4-4ea4-b1ce-c7701e63a469.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17897,
+      "lead_id": 292,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-23T11:53:58",
+      "content": "Hi Udai,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "7706550",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-23T11:53:58\", \"id\": 7706550, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447484850258\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447484850258@c.us_3F8F04E74222ADCF6B5B\", \"message_type\": \"text\", \"message_content\": \"Hi Udai,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-23T11:53:58.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Udai,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\\\", \\\"Datetime\\\": 1755950038000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447484850258@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447484850258@c.us_3F8F04E74222ADCF6B5B\\\", \\\"ChannelName\\\": \\\"447484850258\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-23T11:53:58.591897\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447484850258\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17898,
+      "lead_id": 292,
+      "event_type": "call",
+      "timestamp": "2025-08-26T11:35:51.536532",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7761444",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T11:35:51.536532\", \"id\": 7761444, \"duration\": \"18\", \"to_number\": \"447484850258\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/c2c70613-b581-4bbe-ba44-1f94b820b62c.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17899,
+      "lead_id": 292,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-26T11:56:14",
+      "content": "Hi Udai,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "7818021",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-26T11:56:14\", \"id\": 7818021, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447484850258\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447484850258@c.us_3F6CECC2DF866F7A4EA0\", \"message_type\": \"text\", \"message_content\": \"Hi Udai,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-26T11:56:14.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Udai,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\\\", \\\"Datetime\\\": 1756209374000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447484850258@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447484850258@c.us_3F6CECC2DF866F7A4EA0\\\", \\\"ChannelName\\\": \\\"447484850258\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-26T11:56:14.448590\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447484850258\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17900,
+      "lead_id": 292,
+      "event_type": "call",
+      "timestamp": "2025-08-26T12:08:09.901859",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7761863",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T12:08:09.901859\", \"id\": 7761863, \"duration\": \"4\", \"to_number\": \"447484850258\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4565cd63-1a09-4b8a-bdf7-388c321fed39.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17901,
+      "lead_id": 292,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-26T12:08:49",
+      "content": "Hi Udai,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "7818857",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-26T12:08:49\", \"id\": 7818857, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447484850258\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447484850258@c.us_3FB7ABCA38FD1108C883\", \"message_type\": \"text\", \"message_content\": \"Hi Udai,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-26T12:08:49.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Udai,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\\\", \\\"Datetime\\\": 1756210129000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447484850258@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447484850258@c.us_3FB7ABCA38FD1108C883\\\", \\\"ChannelName\\\": \\\"447484850258\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-26T12:08:49.871676\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447484850258\"}",
+      "created_at": "2025-11-19 07:09:56"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 718,
+      "lead_id": 292,
+      "call_id": "7729161",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d53971d4-9db9-45aa-af81-3e80fc00b429.wav",
+      "transcript_text": "Speaker A: 074-848-50258 is busy. Just leave your message after the tone. When you're done, press hash or just hang up.\nSpeaker B: Hello there. I am Prachi from Amber and I connected with you with the ucl, the University of London. We have partnered with them. They provided us the information that you're looking for accommodation and even we connected. I try to connect with you on the call and that's why I shared a mail and a WhatsApp video. So it would be great if you can just connect with me so that we can complete your processing and you can book your accommodation. Thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-19 07:10:07"
+    }
+  ],
+  "summary": {
+    "id": 414,
+    "lead_id": 292,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Udai Shah\", \"mobile\": [\"+447484850258\"], \"email\": [\"udai.shah@outlook.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": \"ensuite\", \"budget\": {\"max\": 460, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Yugo Depot Point\"], \"rooms_considered\": [\"Classic Ensuite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Yes, cashback discussed\"}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent Prachi to call Udai back as requested in his email and attempt to connect for booking discussion.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email from Udai on 2025-08-19 requesting a callback.\"}, {\"type\": \"communication\", \"description\": \"Agent to confirm with Udai whether he wants to proceed with the Classic Ensuite at Yugo Depot Point or is considering other accommodation options.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple WhatsApp messages and emails from Prachi on 2025-08-20 and 2025-08-21 asking for confirmation.\"}, {\"type\": \"follow_up\", \"description\": \"Student Udai to provide an update on his accommodation status, including if he has already found accommodation or not.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Repeated WhatsApp messages on 2025-08-18, 2025-08-20, 2025-08-23, and 2025-08-26 requesting update.\"}, {\"type\": \"communication\", \"description\": \"Agent to continue outreach via call, email, and WhatsApp to engage Udai and assist with booking completion.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Multiple calls and messages from 2025-08-17 to 2025-08-26.\"}], \"last_agent_response\": \"Agent Prachi sent multiple WhatsApp messages and emails between 2025-08-20 and 2025-08-26 requesting Udai's confirmation on proceeding with the Classic Ensuite booking and asking for an update on his accommodation status. Agent also provided alternative contact options and attempted multiple calls.\", \"suggested_next_step\": \"Agent Prachi should prioritize calling Udai back immediately as per his request and confirm his accommodation decision to proceed with booking or explore other options.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Udai Shah\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (udai.shah@outlook.com), phone (+44 7484850258), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"UCL (University College London)\", \"room_type\": \"Classic Ensuite\", \"budget_range\": \"\\u00a3460 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 39 weeks ending 2026-06-06\", \"lease_duration\": \"39 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"property_selection - booking form received for Classic Ensuite at Yugo Depot Point; awaiting confirmation to proceed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple interactions including at least 7 calls, 7 WhatsApp message packs, and several emails between 2025-07-09 and 2025-08-26\", \"primary_channel\": \"Phone calls and WhatsApp messages\", \"last_contact\": \"2025-08-26 via WhatsApp and call\", \"response_time\": \"Student responded to emails and attempted calls; agent followed up frequently with calls, WhatsApp messages, and emails within 1-2 days\", \"key_moments\": \"Initial lead on 2025-07-09; first agent outreach on 2025-08-17; student requested call back on 2025-08-19; booking form received for Classic Ensuite; multiple follow-ups for status update and confirmation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Classic Ensuite at Yugo Depot Point, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student has submitted booking form for Classic Ensuite; no other preferences or dislikes mentioned\", \"offers_made\": \"Mention of possible cashback offers subject to availability; referral program with 50 GBP Amazon gift card for referred friends\"}, \"next_steps\": {\"immediate_actions\": \"Agent to confirm with Udai if he wants to proceed with the Classic Ensuite booking or consider other options\", \"pending_items\": \"Student\\u2019s confirmation on accommodation choice and any updates on accommodation status\", \"follow_up_required\": \"Continue follow-up calls, WhatsApp messages, and emails until student confirms booking or provides update\", \"timeline\": \"Lease ends 2026-06-06; urgency implied due to limited availability\"}, \"agent_notes\": {\"student_tone\": \"Polite and responsive; reached out proactively via email requesting call back\", \"urgency_level\": \"Moderate urgency due to limited availability and lease timeline\", \"complexity\": \"Standard booking process; no special requirements or complications noted\", \"special_considerations\": \"Student has tried to contact agent but had difficulty connecting; multiple channels used to ensure contact\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Udai Shah\", \"mobile\": [\"+447484850258\"], \"email\": [\"udai.shah@outlook.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": \"ensuite\", \"budget\": {\"max\": 460, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Yugo Depot Point\"], \"rooms_considered\": [\"Classic Ensuite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Yes, cashback discussed\"}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent Prachi to call Udai back as requested in his email and attempt to connect for booking discussion.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email from Udai on 2025-08-19 requesting a callback.\"}, {\"type\": \"communication\", \"description\": \"Agent to confirm with Udai whether he wants to proceed with the Classic Ensuite at Yugo Depot Point or is considering other accommodation options.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple WhatsApp messages and emails from Prachi on 2025-08-20 and 2025-08-21 asking for confirmation.\"}, {\"type\": \"follow_up\", \"description\": \"Student Udai to provide an update on his accommodation status, including if he has already found accommodation or not.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Repeated WhatsApp messages on 2025-08-18, 2025-08-20, 2025-08-23, and 2025-08-26 requesting update.\"}, {\"type\": \"communication\", \"description\": \"Agent to continue outreach via call, email, and WhatsApp to engage Udai and assist with booking completion.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Multiple calls and messages from 2025-08-17 to 2025-08-26.\"}], \"last_agent_response\": \"Agent Prachi sent multiple WhatsApp messages and emails between 2025-08-20 and 2025-08-26 requesting Udai's confirmation on proceeding with the Classic Ensuite booking and asking for an update on his accommodation status. Agent also provided alternative contact options and attempted multiple calls.\", \"suggested_next_step\": \"Agent Prachi should prioritize calling Udai back immediately as per his request and confirm his accommodation decision to proceed with booking or explore other options.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Udai Shah\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (udai.shah@outlook.com), phone (+44 7484850258), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"UCL (University College London)\", \"room_type\": \"Classic Ensuite\", \"budget_range\": \"\\u00a3460 per week\", \"move_in_date\": \"Not explicitly mentioned; lease duration 39 weeks ending 2026-06-06\", \"lease_duration\": \"39 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"property_selection - booking form received for Classic Ensuite at Yugo Depot Point; awaiting confirmation to proceed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple interactions including at least 7 calls, 7 WhatsApp message packs, and several emails between 2025-07-09 and 2025-08-26\", \"primary_channel\": \"Phone calls and WhatsApp messages\", \"last_contact\": \"2025-08-26 via WhatsApp and call\", \"response_time\": \"Student responded to emails and attempted calls; agent followed up frequently with calls, WhatsApp messages, and emails within 1-2 days\", \"key_moments\": \"Initial lead on 2025-07-09; first agent outreach on 2025-08-17; student requested call back on 2025-08-19; booking form received for Classic Ensuite; multiple follow-ups for status update and confirmation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Classic Ensuite at Yugo Depot Point, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student has submitted booking form for Classic Ensuite; no other preferences or dislikes mentioned\", \"offers_made\": \"Mention of possible cashback offers subject to availability; referral program with 50 GBP Amazon gift card for referred friends\"}, \"next_steps\": {\"immediate_actions\": \"Agent to confirm with Udai if he wants to proceed with the Classic Ensuite booking or consider other options\", \"pending_items\": \"Student\\u2019s confirmation on accommodation choice and any updates on accommodation status\", \"follow_up_required\": \"Continue follow-up calls, WhatsApp messages, and emails until student confirms booking or provides update\", \"timeline\": \"Lease ends 2026-06-06; urgency implied due to limited availability\"}, \"agent_notes\": {\"student_tone\": \"Polite and responsive; reached out proactively via email requesting call back\", \"urgency_level\": \"Moderate urgency due to limited availability and lease timeline\", \"complexity\": \"Standard booking process; no special requirements or complications noted\", \"special_considerations\": \"Student has tried to contact agent but had difficulty connecting; multiple channels used to ensure contact\"}}}}}",
+    "created_at": "2025-11-19 07:10:19",
+    "updated_at": "2025-11-19T12:40:19.512233",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Udai Shah",
+        "mobile": [
+          "+447484850258"
+        ],
+        "email": [
+          "udai.shah@outlook.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 39,
+        "room_type": "ensuite",
+        "budget": {
+          "max": 460,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Yugo Depot Point"
+        ],
+        "rooms_considered": [
+          "Classic Ensuite"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": "Yes, cashback discussed"
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent Prachi to call Udai back as requested in his email and attempt to connect for booking discussion.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Email from Udai on 2025-08-19 requesting a callback."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to confirm with Udai whether he wants to proceed with the Classic Ensuite at Yugo Depot Point or is considering other accommodation options.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple WhatsApp messages and emails from Prachi on 2025-08-20 and 2025-08-21 asking for confirmation."
+        },
+        {
+          "type": "follow_up",
+          "description": "Student Udai to provide an update on his accommodation status, including if he has already found accommodation or not.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Repeated WhatsApp messages on 2025-08-18, 2025-08-20, 2025-08-23, and 2025-08-26 requesting update."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to continue outreach via call, email, and WhatsApp to engage Udai and assist with booking completion.",
+          "due": "within_week",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "Multiple calls and messages from 2025-08-17 to 2025-08-26."
+        }
+      ],
+      "last_agent_response": "Agent Prachi sent multiple WhatsApp messages and emails between 2025-08-20 and 2025-08-26 requesting Udai's confirmation on proceeding with the Classic Ensuite booking and asking for an update on his accommodation status. Agent also provided alternative contact options and attempted multiple calls.",
+      "suggested_next_step": "Agent Prachi should prioritize calling Udai back immediately as per his request and confirm his accommodation decision to proceed with booking or explore other options."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Udai Shah",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (udai.shah@outlook.com), phone (+44 7484850258), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "UCL (University College London)",
+            "room_type": "Classic Ensuite",
+            "budget_range": "£460 per week",
+            "move_in_date": "Not explicitly mentioned; lease duration 39 weeks ending 2026-06-06",
+            "lease_duration": "39 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "property_selection - booking form received for Classic Ensuite at Yugo Depot Point; awaiting confirmation to proceed",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple interactions including at least 7 calls, 7 WhatsApp message packs, and several emails between 2025-07-09 and 2025-08-26",
+            "primary_channel": "Phone calls and WhatsApp messages",
+            "last_contact": "2025-08-26 via WhatsApp and call",
+            "response_time": "Student responded to emails and attempted calls; agent followed up frequently with calls, WhatsApp messages, and emails within 1-2 days",
+            "key_moments": "Initial lead on 2025-07-09; first agent outreach on 2025-08-17; student requested call back on 2025-08-19; booking form received for Classic Ensuite; multiple follow-ups for status update and confirmation"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Classic Ensuite at Yugo Depot Point, London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Student has submitted booking form for Classic Ensuite; no other preferences or dislikes mentioned",
+            "offers_made": "Mention of possible cashback offers subject to availability; referral program with 50 GBP Amazon gift card for referred friends"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to confirm with Udai if he wants to proceed with the Classic Ensuite booking or consider other options",
+            "pending_items": "Student’s confirmation on accommodation choice and any updates on accommodation status",
+            "follow_up_required": "Continue follow-up calls, WhatsApp messages, and emails until student confirms booking or provides update",
+            "timeline": "Lease ends 2026-06-06; urgency implied due to limited availability"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and responsive; reached out proactively via email requesting call back",
+            "urgency_level": "Moderate urgency due to limited availability and lease timeline",
+            "complexity": "Standard booking process; no special requirements or complications noted",
+            "special_considerations": "Student has tried to contact agent but had difficulty connecting; multiple channels used to ensure contact"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Udai Shah",
+          "mobile": [
+            "+447484850258"
+          ],
+          "email": [
+            "udai.shah@outlook.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 39,
+          "room_type": "ensuite",
+          "budget": {
+            "max": 460,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Yugo Depot Point"
+          ],
+          "rooms_considered": [
+            "Classic Ensuite"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": "Yes, cashback discussed"
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent Prachi to call Udai back as requested in his email and attempt to connect for booking discussion.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Email from Udai on 2025-08-19 requesting a callback."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to confirm with Udai whether he wants to proceed with the Classic Ensuite at Yugo Depot Point or is considering other accommodation options.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple WhatsApp messages and emails from Prachi on 2025-08-20 and 2025-08-21 asking for confirmation."
+          },
+          {
+            "type": "follow_up",
+            "description": "Student Udai to provide an update on his accommodation status, including if he has already found accommodation or not.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Repeated WhatsApp messages on 2025-08-18, 2025-08-20, 2025-08-23, and 2025-08-26 requesting update."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to continue outreach via call, email, and WhatsApp to engage Udai and assist with booking completion.",
+            "due": "within_week",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "Multiple calls and messages from 2025-08-17 to 2025-08-26."
+          }
+        ],
+        "last_agent_response": "Agent Prachi sent multiple WhatsApp messages and emails between 2025-08-20 and 2025-08-26 requesting Udai's confirmation on proceeding with the Classic Ensuite booking and asking for an update on his accommodation status. Agent also provided alternative contact options and attempted multiple calls.",
+        "suggested_next_step": "Agent Prachi should prioritize calling Udai back immediately as per his request and confirm his accommodation decision to proceed with booking or explore other options."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Udai Shah",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (udai.shah@outlook.com), phone (+44 7484850258), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "UCL (University College London)",
+              "room_type": "Classic Ensuite",
+              "budget_range": "£460 per week",
+              "move_in_date": "Not explicitly mentioned; lease duration 39 weeks ending 2026-06-06",
+              "lease_duration": "39 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "property_selection - booking form received for Classic Ensuite at Yugo Depot Point; awaiting confirmation to proceed",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple interactions including at least 7 calls, 7 WhatsApp message packs, and several emails between 2025-07-09 and 2025-08-26",
+              "primary_channel": "Phone calls and WhatsApp messages",
+              "last_contact": "2025-08-26 via WhatsApp and call",
+              "response_time": "Student responded to emails and attempted calls; agent followed up frequently with calls, WhatsApp messages, and emails within 1-2 days",
+              "key_moments": "Initial lead on 2025-07-09; first agent outreach on 2025-08-17; student requested call back on 2025-08-19; booking form received for Classic Ensuite; multiple follow-ups for status update and confirmation"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Classic Ensuite at Yugo Depot Point, London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Student has submitted booking form for Classic Ensuite; no other preferences or dislikes mentioned",
+              "offers_made": "Mention of possible cashback offers subject to availability; referral program with 50 GBP Amazon gift card for referred friends"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to confirm with Udai if he wants to proceed with the Classic Ensuite booking or consider other options",
+              "pending_items": "Student’s confirmation on accommodation choice and any updates on accommodation status",
+              "follow_up_required": "Continue follow-up calls, WhatsApp messages, and emails until student confirms booking or provides update",
+              "timeline": "Lease ends 2026-06-06; urgency implied due to limited availability"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and responsive; reached out proactively via email requesting call back",
+              "urgency_level": "Moderate urgency due to limited availability and lease timeline",
+              "complexity": "Standard booking process; no special requirements or complications noted",
+              "special_considerations": "Student has tried to contact agent but had difficulty connecting; multiple channels used to ensure contact"
+            }
+          }
+        }
+      }
+    }
+  }
+}

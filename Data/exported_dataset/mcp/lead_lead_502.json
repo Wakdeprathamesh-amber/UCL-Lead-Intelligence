@@ -1,0 +1,474 @@
+{
+  "id": "lead_502",
+  "mobile_number": "447751616573",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8288,
+      "lead_id": 502,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3237963, \"user_name\": \"Haoran Wang\", \"email\": \"haoranw1621@gmail.com\", \"phone\": \"447751616573\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2026-07-17\", \"budget\": 249, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Wembley\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3055, \"inventory_id\": 2181339}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8289,
+      "lead_id": 502,
+      "event_type": "call",
+      "timestamp": "2025-09-17T15:49:44.805336",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7890882",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-17T15:49:44.805336\", \"id\": 7890882, \"duration\": \"0\", \"to_number\": \"447751616573\", \"from_number\": \"447312161523\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8290,
+      "lead_id": 502,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T19:16:20",
+      "content": "Account Email: haoranw1621@gmail.com\nAccount Password: Amber.1234\nhttps://thisisfresh.securerc.co.uk/onlineleasing/pavilion-court/guestlogin.aspx?propleadsource_182979=portal",
+      "source": "whatsapp",
+      "event_id": "8746607",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T19:16:20\", \"id\": 8746607, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447751616573\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447751616573@c.us_A5126D4BDCD482349C70D66EF8824BEA\", \"message_type\": \"text\", \"message_content\": \"Account Email: haoranw1621@gmail.com\\nAccount Password: Amber.1234\\nhttps://thisisfresh.securerc.co.uk/onlineleasing/pavilion-court/guestlogin.aspx?propleadsource_182979=portal\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T19:16:20.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Account Email: haoranw1621@gmail.com\\\\nAccount Password: Amber.1234\\\\nhttps://thisisfresh.securerc.co.uk/onlineleasing/pavilion-court/guestlogin.aspx?propleadsource_182979=portal\\\", \\\"Datetime\\\": 1758136580000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447751616573@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447751616573@c.us_A5126D4BDCD482349C70D66EF8824BEA\\\", \\\"ChannelName\\\": \\\"447751616573\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-09-17T19:16:21.117235\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447751616573\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8291,
+      "lead_id": 502,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T19:16:58",
+      "content": "Hello this is Mahmudul hussain from UCL accommodation portal powered by amber",
+      "source": "whatsapp",
+      "event_id": "8746631",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T19:16:58\", \"id\": 8746631, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447751616573\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447751616573@c.us_A5F0A59F668DBCAE94384244D678198C\", \"message_type\": \"text\", \"message_content\": \"Hello this is Mahmudul hussain from UCL accommodation portal powered by amber\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T19:16:58.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello this is Mahmudul hussain from UCL accommodation portal powered by amber\\\", \\\"Datetime\\\": 1758136618000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447751616573@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447751616573@c.us_A5F0A59F668DBCAE94384244D678198C\\\", \\\"ChannelName\\\": \\\"447751616573\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-09-17T19:16:58.956409\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447751616573\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8292,
+      "lead_id": 502,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T19:17:22",
+      "content": "Please log in Using the email and password shared above and complete the booking",
+      "source": "whatsapp",
+      "event_id": "8746646",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T19:17:22\", \"id\": 8746646, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447751616573\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447751616573@c.us_A584459E887EA79C3B0FF393979D6868\", \"message_type\": \"text\", \"message_content\": \"Please log in Using the email and password shared above and complete the booking\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T19:17:22.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Please log in Using the email and password shared above and complete the booking\\\", \\\"Datetime\\\": 1758136642000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447751616573@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447751616573@c.us_A584459E887EA79C3B0FF393979D6868\\\", \\\"ChannelName\\\": \\\"447751616573\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-09-17T19:17:23.570023\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447751616573\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8293,
+      "lead_id": 502,
+      "event_type": "call",
+      "timestamp": "2025-09-18T14:31:55.406725",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7896092",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T14:31:55.406725\", \"id\": 7896092, \"duration\": \"0\", \"to_number\": \"447751616573\", \"from_number\": \"447312161523\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8294,
+      "lead_id": 502,
+      "event_type": "call",
+      "timestamp": "2025-09-18T14:32:07.906008",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7896094",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T14:32:07.906008\", \"id\": 7896094, \"duration\": \"0\", \"to_number\": \"447751616573\", \"from_number\": \"447312161523\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8295,
+      "lead_id": 502,
+      "event_type": "call",
+      "timestamp": "2025-09-20T11:14:27.847982",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7904955",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-20T11:14:27.847982\", \"id\": 7904955, \"duration\": \"0\", \"to_number\": \"447751616573\", \"from_number\": \"447312161523\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8296,
+      "lead_id": 502,
+      "event_type": "email",
+      "timestamp": "2025-09-22T14:24:44",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-22T14:24:44\", \"sender_email\": \"wanghaoran030401@163.com\", \"recipient_email\": \"priyanka.a@amberstudent.com\", \"subject\": \"Re:Your Enquiry In London!\", \"message\": \"Dear Priyanka,\\\\n\\\\nI have received your email, but I have a concern with the assigned room. It seems to be on the top floor, and the windows are set into the slanted ceiling rather than standard walls. I would prefer to change to a different room type. Could you please advise me on how to proceed with this request?\\\\n\\\\nSincerely,\\\\nHaoran\\\\n\\\\nAt 2025-09-21 19:30:56, priyanka.a@amberstudent.com wrote:\\\\n\\\\nHi Haoran,\\\\n\\\\nWe hope this email finds you well. We previously sent you an email regarding your Student Accommodation Booking. However, we haven't received any response from you. We have provided you with the Account Portal Details for the Shortlisted property, as this is where you will manage your booking and make payments.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nPriyanka A\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][priyanka.a@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp][+447446199252]()\", \"snippet\": \"Dear Priyanka, I have received your email, but I have a concern with the assigned room. It seems to be on the top floor, and the windows are set into the slanted ceiling rather than standard walls. I\", \"direction\": \"inbound\", \"sender_type\": \"student\", \"agent_email\": \"priyanka.a@amberstudent.com\", \"student_email\": \"wanghaoran030401@163.com\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8297,
+      "lead_id": 502,
+      "event_type": "email",
+      "timestamp": "2025-09-22T14:34:07",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-22T14:34:07\", \"sender_email\": \"priyanka.a@amberstudent.com\", \"recipient_email\": \"wanghaoran030401@163.com\", \"subject\": \"Re: Your Enquiry In London!\", \"message\": \"Hi Haoran,\\\\n\\\\nYou can email the property at thearcade@iqstudentaccommodation.com to submit your request. However, before doing so, please log in to the portal using the credentials I shared and sign your contract. Let me know when it's done.\\\\n\\\\nBest regards,\\\\n\\\\nOn Mon, Sep 22, 2025 at 7:54\\u202fPM Wang Haoran <[wanghaoran030401@163.com]()> wrote:\\\\n\\\\nDear Priyanka,\\\\n\\\\nI have received your email, but I have a concern with the assigned room. It seems to be on the top floor, and the windows are set into the slanted ceiling rather than standard walls. I would prefer to change to a different room type. Could you please advise me on how to proceed with this request?\\\\n\\\\nSincerely,\\\\nHaoran\\\\n\\\\nAt 2025-09-21 19:30:56, [priyanka.a@amberstudent.com]() wrote:\\\\n\\\\nHi Haoran,\\\\n\\\\nWe hope this email finds you well. We previously sent you an email regarding your Student Accommodation Booking. However, we haven't received any response from you. We have provided you with the Account Portal Details for the Shortlisted property, as this is where you will manage your booking and make payments.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nPriyanka A\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][priyanka.a@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp][+447446199252]()\\\\n\\\\n--\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nPriyanka A\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][priyanka.a@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp][+447446199252]()\", \"snippet\": \"Hi Haoran, You can email the property at thearcade@iqstudentaccommodation.com to submit your request. However, before doing so, please log in to the portal using the credentials I shared and sign your\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"priyanka.a@amberstudent.com\", \"student_email\": \"wanghaoran030401@163.com\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8298,
+      "lead_id": 502,
+      "event_type": "call",
+      "timestamp": "2025-09-23T12:24:33.953212",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7917598",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-23T12:24:33.953212\", \"id\": 7917598, \"duration\": \"0\", \"to_number\": \"447751616573\", \"from_number\": \"447360546291\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8299,
+      "lead_id": 502,
+      "event_type": "email",
+      "timestamp": "2025-09-24T13:25:04",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-24T13:25:04\", \"sender_email\": \"wanghaoran030401@163.com\", \"recipient_email\": \"priyanka.a@amberstudent.com\", \"subject\": \"Re:Follow-Up on Your Room Booking Agreement\", \"message\": \"Dear Priyanka,\\\\n\\\\nI'm still very interested in the room and am ready to move forward with the contract.\\\\n\\\\nBefore I do, I need to clarify a point: the total payment on the contract is \\u00a311,718.00 different from the amount shown on the IQ website \\u00a323336.00\\\\n\\\\nCan you please let me why there is a hugh difference ?\\\\n\\\\nSincerely,\\\\n\\\\nHaoran\\\\n\\\\nAt 2025-09-24 16:20:16, priyanka.a@amberstudent.com wrote:\\\\n\\\\nHi Haoran,\\\\n\\\\nI just wanted to check if you\\u2019ve signed the agreement yet. If not, please let me know whether you\\u2019re still interested in booking the room.\\\\n\\\\nBest regards,\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nPriyanka A\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][priyanka.a@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp][+447446199252]()\", \"snippet\": \"Dear Priyanka, I&#39;m still very interested in the room and am ready to move forward with the contract. Before I do, I need to clarify a point: the total payment on the contract is \\u00a311718.00 different\", \"direction\": \"inbound\", \"sender_type\": \"student\", \"agent_email\": \"priyanka.a@amberstudent.com\", \"student_email\": \"wanghaoran030401@163.com\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8300,
+      "lead_id": 502,
+      "event_type": "email",
+      "timestamp": "2025-09-24T13:28:45",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-24T13:28:45\", \"sender_email\": \"priyanka.a@amberstudent.com\", \"recipient_email\": \"wanghaoran030401@163.com\", \"subject\": \"Re: Follow-Up on Your Room Booking Agreement\", \"message\": \"Hi Haoran,\\\\n\\\\nThis seems to be a glitch. Could you please share a screenshot showing where you see the amount of \\u00a323,336?\\\\n\\\\nOn Wed, Sep 24, 2025 at 6:55\\u202fPM Wang Haoran <[wanghaoran030401@163.com]()> wrote:\\\\n\\\\nDear Priyanka,\\\\n\\\\nI'm still very interested in the room and am ready to move forward with the contract.\\\\n\\\\nBefore I do, I need to clarify a point: the total payment on the contract is \\u00a311,718.00 different from the amount shown on the IQ website \\u00a323336.00\\\\n\\\\nCan you please let me why there is a hugh difference ?\\\\n\\\\nSincerely,\\\\n\\\\nHaoran\\\\n\\\\nAt 2025-09-24 16:20:16, [priyanka.a@amberstudent.com]() wrote:\\\\n\\\\nHi Haoran,\\\\n\\\\nI just wanted to check if you\\u2019ve signed the agreement yet. If not, please let me know whether you\\u2019re still interested in booking the room.\\\\n\\\\nBest regards,\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nPriyanka A\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][priyanka.a@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp][+447446199252]()\\\\n\\\\n--\\\\n\\\\n[Amber Logo]\\\\n[Trustpilot rating]()\\\\n[Facebook]()\\\\t[LinkedIn]()\\\\t[Instagram]()\\\\t[Twitter]()\\\\n\\\\nPriyanka A\\\\n\\\\nOperations Associate\\\\n\\\\n[Website][amberstudent.com]()\\\\n[Email][priyanka.a@amberstudent.com]()\\\\n[Phone]\\\\n[+918035735724](), [+447360546291](), [+61370496799](), [+19176959425]()\\\\n[WhatsApp][+447446199252]()\", \"snippet\": \"Hi Haoran, This seems to be a glitch. Could you please share a screenshot showing where you see the amount of \\u00a323336? On Wed, Sep 24, 2025 at 6:55 PM Wang Haoran &lt;wanghaoran030401@163.com&gt; wrote:\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"priyanka.a@amberstudent.com\", \"student_email\": \"wanghaoran030401@163.com\"}",
+      "created_at": "2025-11-18 11:21:42"
+    },
+    {
+      "id": 8301,
+      "lead_id": 502,
+      "event_type": "call",
+      "timestamp": "2025-09-26T13:54:39.674164",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7934479",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-26T13:54:39.674164\", \"id\": 7934479, \"duration\": \"0\", \"to_number\": \"447751616573\", \"from_number\": \"447360546291\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:21:42"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 208,
+    "lead_id": 502,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Haoran Wang\", \"mobile\": [\"447751616573\"], \"email\": [\"haoranw1621@gmail.com\", \"wanghaoran030401@163.com\"], \"whatsapp\": [\"447751616573\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 249, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Pavilion Court\", \"The Arcade\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to log in to the portal using the provided email and password and complete the booking by signing the contract.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp messages on 2025-09-17 instructing student to log in and complete booking\"}, {\"type\": \"communication\", \"description\": \"Student to email the property at thearcade@iqstudentaccommodation.com to request a different room type due to concerns about the assigned room.\", \"due\": \"after booking completion\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent email on 2025-09-22 advising student to email property after signing contract\"}, {\"type\": \"communication\", \"description\": \"Student to provide a screenshot showing the \\u00a323,336 amount displayed on the IQ website to clarify the payment discrepancy.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent email on 2025-09-24 requesting screenshot to investigate payment amount discrepancy\"}, {\"type\": \"communication\", \"description\": \"Agent to review the screenshot provided by the student and clarify the reason for the payment amount discrepancy.\", \"due\": \"within_24h after receiving screenshot\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent email on 2025-09-24 asking student for screenshot to investigate glitch\"}], \"last_agent_response\": \"Agent advised student to log in to the portal and sign the contract before emailing the property to request a room change; later requested a screenshot from student to clarify payment discrepancy.\", \"suggested_next_step\": \"Student should log in to the portal using provided credentials and complete the booking by signing the contract.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Haoran Wang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (haoranw1621@gmail.com, wanghaoran030401@163.com), Phone (+447751616573), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"UCL (implied from agent introduction)\", \"room_type\": \"Initial assigned room on top floor with slanted ceiling windows; student prefers a different room type\", \"budget_range\": \"\\u00a3249 weekly\", \"move_in_date\": \"Not explicitly mentioned; lease duration 44 weeks with move-out date 2026-07-17\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Prefers not to have a room on the top floor with slanted ceiling windows\"}, \"current_status\": {\"booking_stage\": \"Contract pending signature; student has received portal login details and booking instructions\", \"documents_status\": \"Contract not yet signed; student seeking clarification on payment amount before signing\", \"payment_status\": \"Not completed; student querying discrepancy in total payment amount\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 6 calls (all missed or zero duration), 3 WhatsApp messages outbound from agent, multiple emails exchanged\", \"primary_channel\": \"Email and WhatsApp\", \"last_contact\": \"2025-09-26 call attempt to student\", \"response_time\": \"Student responded to emails within hours to a day; agent responded promptly to student queries\", \"key_moments\": \"Agent shared portal login credentials via WhatsApp on 2025-09-17; Student raised room preference concern via email on 2025-09-22; Agent advised to email property and sign contract first; Student raised payment discrepancy on 2025-09-24; Agent requested screenshot to clarify discrepancy\"}, \"properties_discussed\": {\"properties_mentioned\": \"Pavilion Court (portal link shared), The Arcade (email provided for room change requests)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student dislikes assigned top floor room with slanted ceiling windows and wants a different room type\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to log in to portal using provided credentials and sign contract\", \"pending_items\": \"Student to provide screenshot showing payment discrepancy; student to confirm contract signing\", \"follow_up_required\": \"Agent to assist with payment discrepancy clarification and room change request after contract signing\", \"timeline\": \"Lease duration 44 weeks ending 2026-07-17; no other deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite, clear, and engaged; raises concerns and seeks clarification before proceeding\", \"urgency_level\": \"Moderate; student ready to proceed but needs clarification on payment and room preference\", \"complexity\": \"Moderate; involves room preference change and payment discrepancy issues\", \"special_considerations\": \"Student prefers a room other than the top floor with slanted ceiling windows; payment amount discrepancy needs resolution before contract signing\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Haoran Wang\", \"mobile\": [\"447751616573\"], \"email\": [\"haoranw1621@gmail.com\", \"wanghaoran030401@163.com\"], \"whatsapp\": [\"447751616573\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 249, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Pavilion Court\", \"The Arcade\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to log in to the portal using the provided email and password and complete the booking by signing the contract.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp messages on 2025-09-17 instructing student to log in and complete booking\"}, {\"type\": \"communication\", \"description\": \"Student to email the property at thearcade@iqstudentaccommodation.com to request a different room type due to concerns about the assigned room.\", \"due\": \"after booking completion\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent email on 2025-09-22 advising student to email property after signing contract\"}, {\"type\": \"communication\", \"description\": \"Student to provide a screenshot showing the \\u00a323,336 amount displayed on the IQ website to clarify the payment discrepancy.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent email on 2025-09-24 requesting screenshot to investigate payment amount discrepancy\"}, {\"type\": \"communication\", \"description\": \"Agent to review the screenshot provided by the student and clarify the reason for the payment amount discrepancy.\", \"due\": \"within_24h after receiving screenshot\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent email on 2025-09-24 asking student for screenshot to investigate glitch\"}], \"last_agent_response\": \"Agent advised student to log in to the portal and sign the contract before emailing the property to request a room change; later requested a screenshot from student to clarify payment discrepancy.\", \"suggested_next_step\": \"Student should log in to the portal using provided credentials and complete the booking by signing the contract.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Haoran Wang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (haoranw1621@gmail.com, wanghaoran030401@163.com), Phone (+447751616573), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"UCL (implied from agent introduction)\", \"room_type\": \"Initial assigned room on top floor with slanted ceiling windows; student prefers a different room type\", \"budget_range\": \"\\u00a3249 weekly\", \"move_in_date\": \"Not explicitly mentioned; lease duration 44 weeks with move-out date 2026-07-17\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Prefers not to have a room on the top floor with slanted ceiling windows\"}, \"current_status\": {\"booking_stage\": \"Contract pending signature; student has received portal login details and booking instructions\", \"documents_status\": \"Contract not yet signed; student seeking clarification on payment amount before signing\", \"payment_status\": \"Not completed; student querying discrepancy in total payment amount\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 6 calls (all missed or zero duration), 3 WhatsApp messages outbound from agent, multiple emails exchanged\", \"primary_channel\": \"Email and WhatsApp\", \"last_contact\": \"2025-09-26 call attempt to student\", \"response_time\": \"Student responded to emails within hours to a day; agent responded promptly to student queries\", \"key_moments\": \"Agent shared portal login credentials via WhatsApp on 2025-09-17; Student raised room preference concern via email on 2025-09-22; Agent advised to email property and sign contract first; Student raised payment discrepancy on 2025-09-24; Agent requested screenshot to clarify discrepancy\"}, \"properties_discussed\": {\"properties_mentioned\": \"Pavilion Court (portal link shared), The Arcade (email provided for room change requests)\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student dislikes assigned top floor room with slanted ceiling windows and wants a different room type\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to log in to portal using provided credentials and sign contract\", \"pending_items\": \"Student to provide screenshot showing payment discrepancy; student to confirm contract signing\", \"follow_up_required\": \"Agent to assist with payment discrepancy clarification and room change request after contract signing\", \"timeline\": \"Lease duration 44 weeks ending 2026-07-17; no other deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite, clear, and engaged; raises concerns and seeks clarification before proceeding\", \"urgency_level\": \"Moderate; student ready to proceed but needs clarification on payment and room preference\", \"complexity\": \"Moderate; involves room preference change and payment discrepancy issues\", \"special_considerations\": \"Student prefers a room other than the top floor with slanted ceiling windows; payment amount discrepancy needs resolution before contract signing\"}}}}}",
+    "created_at": "2025-11-18 11:21:55",
+    "updated_at": "2025-11-18T16:51:55.589652",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Haoran Wang",
+        "mobile": [
+          "447751616573"
+        ],
+        "email": [
+          "haoranw1621@gmail.com",
+          "wanghaoran030401@163.com"
+        ],
+        "whatsapp": [
+          "447751616573"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Wembley"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": null,
+        "budget": {
+          "max": 249,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "UCL",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Pavilion Court",
+          "The Arcade"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Student to log in to the portal using the provided email and password and complete the booking by signing the contract.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp messages on 2025-09-17 instructing student to log in and complete booking"
+        },
+        {
+          "type": "communication",
+          "description": "Student to email the property at thearcade@iqstudentaccommodation.com to request a different room type due to concerns about the assigned room.",
+          "due": "after booking completion",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent email on 2025-09-22 advising student to email property after signing contract"
+        },
+        {
+          "type": "communication",
+          "description": "Student to provide a screenshot showing the £23,336 amount displayed on the IQ website to clarify the payment discrepancy.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent email on 2025-09-24 requesting screenshot to investigate payment amount discrepancy"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to review the screenshot provided by the student and clarify the reason for the payment amount discrepancy.",
+          "due": "within_24h after receiving screenshot",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent email on 2025-09-24 asking student for screenshot to investigate glitch"
+        }
+      ],
+      "last_agent_response": "Agent advised student to log in to the portal and sign the contract before emailing the property to request a room change; later requested a screenshot from student to clarify payment discrepancy.",
+      "suggested_next_step": "Student should log in to the portal using provided credentials and complete the booking by signing the contract."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Haoran Wang",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (haoranw1621@gmail.com, wanghaoran030401@163.com), Phone (+447751616573), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "Wembley, England, United Kingdom",
+            "university": "UCL (implied from agent introduction)",
+            "room_type": "Initial assigned room on top floor with slanted ceiling windows; student prefers a different room type",
+            "budget_range": "£249 weekly",
+            "move_in_date": "Not explicitly mentioned; lease duration 44 weeks with move-out date 2026-07-17",
+            "lease_duration": "44 weeks",
+            "special_requirements": "Prefers not to have a room on the top floor with slanted ceiling windows"
+          },
+          "current_status": {
+            "booking_stage": "Contract pending signature; student has received portal login details and booking instructions",
+            "documents_status": "Contract not yet signed; student seeking clarification on payment amount before signing",
+            "payment_status": "Not completed; student querying discrepancy in total payment amount",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "At least 6 calls (all missed or zero duration), 3 WhatsApp messages outbound from agent, multiple emails exchanged",
+            "primary_channel": "Email and WhatsApp",
+            "last_contact": "2025-09-26 call attempt to student",
+            "response_time": "Student responded to emails within hours to a day; agent responded promptly to student queries",
+            "key_moments": "Agent shared portal login credentials via WhatsApp on 2025-09-17; Student raised room preference concern via email on 2025-09-22; Agent advised to email property and sign contract first; Student raised payment discrepancy on 2025-09-24; Agent requested screenshot to clarify discrepancy"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Pavilion Court (portal link shared), The Arcade (email provided for room change requests)",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Student dislikes assigned top floor room with slanted ceiling windows and wants a different room type",
+            "offers_made": "None mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to log in to portal using provided credentials and sign contract",
+            "pending_items": "Student to provide screenshot showing payment discrepancy; student to confirm contract signing",
+            "follow_up_required": "Agent to assist with payment discrepancy clarification and room change request after contract signing",
+            "timeline": "Lease duration 44 weeks ending 2026-07-17; no other deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, clear, and engaged; raises concerns and seeks clarification before proceeding",
+            "urgency_level": "Moderate; student ready to proceed but needs clarification on payment and room preference",
+            "complexity": "Moderate; involves room preference change and payment discrepancy issues",
+            "special_considerations": "Student prefers a room other than the top floor with slanted ceiling windows; payment amount discrepancy needs resolution before contract signing"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Haoran Wang",
+          "mobile": [
+            "447751616573"
+          ],
+          "email": [
+            "haoranw1621@gmail.com",
+            "wanghaoran030401@163.com"
+          ],
+          "whatsapp": [
+            "447751616573"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Wembley"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": null,
+          "budget": {
+            "max": 249,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "UCL",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Pavilion Court",
+            "The Arcade"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Student to log in to the portal using the provided email and password and complete the booking by signing the contract.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp messages on 2025-09-17 instructing student to log in and complete booking"
+          },
+          {
+            "type": "communication",
+            "description": "Student to email the property at thearcade@iqstudentaccommodation.com to request a different room type due to concerns about the assigned room.",
+            "due": "after booking completion",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent email on 2025-09-22 advising student to email property after signing contract"
+          },
+          {
+            "type": "communication",
+            "description": "Student to provide a screenshot showing the £23,336 amount displayed on the IQ website to clarify the payment discrepancy.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent email on 2025-09-24 requesting screenshot to investigate payment amount discrepancy"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to review the screenshot provided by the student and clarify the reason for the payment amount discrepancy.",
+            "due": "within_24h after receiving screenshot",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent email on 2025-09-24 asking student for screenshot to investigate glitch"
+          }
+        ],
+        "last_agent_response": "Agent advised student to log in to the portal and sign the contract before emailing the property to request a room change; later requested a screenshot from student to clarify payment discrepancy.",
+        "suggested_next_step": "Student should log in to the portal using provided credentials and complete the booking by signing the contract."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Haoran Wang",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (haoranw1621@gmail.com, wanghaoran030401@163.com), Phone (+447751616573), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "Wembley, England, United Kingdom",
+              "university": "UCL (implied from agent introduction)",
+              "room_type": "Initial assigned room on top floor with slanted ceiling windows; student prefers a different room type",
+              "budget_range": "£249 weekly",
+              "move_in_date": "Not explicitly mentioned; lease duration 44 weeks with move-out date 2026-07-17",
+              "lease_duration": "44 weeks",
+              "special_requirements": "Prefers not to have a room on the top floor with slanted ceiling windows"
+            },
+            "current_status": {
+              "booking_stage": "Contract pending signature; student has received portal login details and booking instructions",
+              "documents_status": "Contract not yet signed; student seeking clarification on payment amount before signing",
+              "payment_status": "Not completed; student querying discrepancy in total payment amount",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "At least 6 calls (all missed or zero duration), 3 WhatsApp messages outbound from agent, multiple emails exchanged",
+              "primary_channel": "Email and WhatsApp",
+              "last_contact": "2025-09-26 call attempt to student",
+              "response_time": "Student responded to emails within hours to a day; agent responded promptly to student queries",
+              "key_moments": "Agent shared portal login credentials via WhatsApp on 2025-09-17; Student raised room preference concern via email on 2025-09-22; Agent advised to email property and sign contract first; Student raised payment discrepancy on 2025-09-24; Agent requested screenshot to clarify discrepancy"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Pavilion Court (portal link shared), The Arcade (email provided for room change requests)",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Student dislikes assigned top floor room with slanted ceiling windows and wants a different room type",
+              "offers_made": "None mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to log in to portal using provided credentials and sign contract",
+              "pending_items": "Student to provide screenshot showing payment discrepancy; student to confirm contract signing",
+              "follow_up_required": "Agent to assist with payment discrepancy clarification and room change request after contract signing",
+              "timeline": "Lease duration 44 weeks ending 2026-07-17; no other deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, clear, and engaged; raises concerns and seeks clarification before proceeding",
+              "urgency_level": "Moderate; student ready to proceed but needs clarification on payment and room preference",
+              "complexity": "Moderate; involves room preference change and payment discrepancy issues",
+              "special_considerations": "Student prefers a room other than the top floor with slanted ceiling windows; payment amount discrepancy needs resolution before contract signing"
+            }
+          }
+        }
+      }
+    }
+  }
+}

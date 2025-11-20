@@ -1,0 +1,309 @@
+{
+  "id": "lead_575",
+  "mobile_number": "85255412777",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8915,
+      "lead_id": 575,
+      "event_type": "lead_info",
+      "timestamp": "2025-07-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-07-09T00:00:00\", \"lead_id\": 3158715, \"user_name\": \"Isaiah Kim\", \"email\": \"isaiah.lh.kim@gmail.com\", \"phone\": \"85255412777\", \"lease_duration\": \"39 week\", \"move_out_date\": \"2026-06-06\", \"budget\": 460, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2085651}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8916,
+      "lead_id": 575,
+      "event_type": "call",
+      "timestamp": "2025-07-21T09:17:36.515493",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7539749",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-21T09:17:36.515493\", \"id\": 7539749, \"duration\": \"0\", \"to_number\": \"85255412777\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:38:05"
+    },
+    {
+      "id": 8917,
+      "lead_id": 575,
+      "event_type": "email",
+      "timestamp": "2025-07-22T03:01:45",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-07-22T03:01:45\", \"sender_email\": \"echo.tian@amberstudent.com\", \"recipient_email\": \"isaiah.lh.kim@gmail.com\", \"subject\": \"Contact request from amberstudent\", \"message\": \"Hi Isaiah Kim\\\\n\\\\n\\u6211\\u662f\\u4f86\\u81eaamber student\\u7684\\u54a8\\u8be2\\u987e\\u95eeEcho\\uff0c\\u6536\\u5230\\u4f60\\u7684\\u4f26\\u6566\\u79df\\u623f\\u54a8\\u8be2\\uff0c\\u521aWhatsApp\\u4e0e\\u4f60\\u8054\\u7cfb\\u672a\\u56de\\u590d\\uff0c\\u5982\\u679c\\u65b9\\u4fbf\\u53ef\\u4ee5\\u6dfb\\u52a0\\u6211\\u7684\\u4f01\\u4e1a\\u5fae\\u4fe1\\uff0c\\u6216\\u8005\\u4e0e\\u6211WhatsApp\\u8054\\u7cfb\\u4ee5\\u4fbf\\u4e3a\\u4f60\\u66f4\\u597d\\u7684\\u63d0\\u4f9b\\u627e\\u623f\\u9810\\u5b9a\\u670d\\u52a1\\u3002\\\\n\\\\nWeChat\\uff1a13032320906\\\\nWhatsApp\\uff1a8615111461586\\\\n\\\\n\\u671f\\u5f85\\u4f60\\u7684\\u56de\\u8986\\u3002\\\\nEcho\\\\n\\\\necho tian\\\\n\\\\nOperations Consultant\\\\n\\\\nPhone: +8613032320906\\\\n\\\\nEmail: [echo.tian@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\", \"snippet\": \"Hi Isaiah Kim \\u6211\\u662f\\u4f86\\u81eaamber student\\u7684\\u54a8\\u8be2\\u987e\\u95eeEcho\\uff0c\\u6536\\u5230\\u4f60\\u7684\\u4f26\\u6566\\u79df\\u623f\\u54a8\\u8be2\\uff0c\\u521aWhatsApp\\u4e0e\\u4f60\\u8054\\u7cfb\\u672a\\u56de\\u590d\\uff0c\\u5982\\u679c\\u65b9\\u4fbf\\u53ef\\u4ee5\\u6dfb\\u52a0\\u6211\\u7684\\u4f01\\u4e1a\\u5fae\\u4fe1\\uff0c\\u6216\\u8005\\u4e0e\\u6211WhatsApp\\u8054\\u7cfb\\u4ee5\\u4fbf\\u4e3a\\u4f60\\u66f4\\u597d\\u7684\\u63d0\\u4f9b\\u627e\\u623f\\u9810\\u5b9a\\u670d\\u52a1\\u3002 WeChat\\uff1a13032320906 WhatsApp\\uff1a8615111461586 \\u671f\\u5f85\\u4f60\\u7684\\u56de\\u8986\\u3002 Echo echo tian Operations Consultant\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"echo.tian@amberstudent.com\", \"student_email\": \"isaiah.lh.kim@gmail.com\"}",
+      "created_at": "2025-11-18 11:38:05"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 237,
+    "lead_id": 575,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Isaiah Kim\", \"mobile\": [\"+85255412777\"], \"email\": [\"isaiah.lh.kim@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": null, \"budget\": {\"max\": 460, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent Echo to follow up with Isaiah Kim via WhatsApp or WeChat to establish contact and assist with accommodation booking.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email from Echo Tian on 2025-07-22 offering WeChat and WhatsApp contact details after no reply on WhatsApp\"}, {\"type\": \"communication\", \"description\": \"Student Isaiah Kim to respond to agent Echo via WhatsApp or WeChat to proceed with accommodation service.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from Echo Tian on 2025-07-22 requesting response on WhatsApp or WeChat\"}], \"last_agent_response\": \"Agent Echo Tian sent an email on 2025-07-22 providing WeChat and WhatsApp contact details and requested Isaiah Kim to respond for better service.\", \"suggested_next_step\": \"Agent Echo should attempt another follow-up via WhatsApp or WeChat to engage Isaiah Kim and facilitate next steps in accommodation booking.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Isaiah Kim\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (isaiah.lh.kim@gmail.com), Phone (+85255412777), WhatsApp (mentioned by agent)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3460 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"39 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 (1 call, 1 outbound email, 1 lead info entry)\", \"primary_channel\": \"Email and phone\", \"last_contact\": \"2025-07-22 (email from agent)\", \"response_time\": \"No student response recorded yet\", \"key_moments\": \"Lead created on 2025-07-09; outbound call attempt on 2025-07-21 with zero duration; agent sent follow-up email on 2025-07-22 offering WeChat and WhatsApp contact options\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2085651 linked to lead\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Await student response to agent's email and contact attempts\", \"pending_items\": \"Student reply to agent's outreach\", \"follow_up_required\": \"Agent to follow up if no response within a reasonable timeframe\", \"timeline\": \"Move-out date noted as 2026-06-06; lease duration 39 weeks\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded\", \"urgency_level\": \"Unknown due to lack of student response\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student has not responded to WhatsApp contact; agent provided alternative contact methods (WeChat, WhatsApp)\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Isaiah Kim\", \"mobile\": [\"+85255412777\"], \"email\": [\"isaiah.lh.kim@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": null, \"budget\": {\"max\": 460, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent Echo to follow up with Isaiah Kim via WhatsApp or WeChat to establish contact and assist with accommodation booking.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email from Echo Tian on 2025-07-22 offering WeChat and WhatsApp contact details after no reply on WhatsApp\"}, {\"type\": \"communication\", \"description\": \"Student Isaiah Kim to respond to agent Echo via WhatsApp or WeChat to proceed with accommodation service.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from Echo Tian on 2025-07-22 requesting response on WhatsApp or WeChat\"}], \"last_agent_response\": \"Agent Echo Tian sent an email on 2025-07-22 providing WeChat and WhatsApp contact details and requested Isaiah Kim to respond for better service.\", \"suggested_next_step\": \"Agent Echo should attempt another follow-up via WhatsApp or WeChat to engage Isaiah Kim and facilitate next steps in accommodation booking.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Isaiah Kim\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (isaiah.lh.kim@gmail.com), Phone (+85255412777), WhatsApp (mentioned by agent)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3460 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"39 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 (1 call, 1 outbound email, 1 lead info entry)\", \"primary_channel\": \"Email and phone\", \"last_contact\": \"2025-07-22 (email from agent)\", \"response_time\": \"No student response recorded yet\", \"key_moments\": \"Lead created on 2025-07-09; outbound call attempt on 2025-07-21 with zero duration; agent sent follow-up email on 2025-07-22 offering WeChat and WhatsApp contact options\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2085651 linked to lead\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Await student response to agent's email and contact attempts\", \"pending_items\": \"Student reply to agent's outreach\", \"follow_up_required\": \"Agent to follow up if no response within a reasonable timeframe\", \"timeline\": \"Move-out date noted as 2026-06-06; lease duration 39 weeks\"}, \"agent_notes\": {\"student_tone\": \"No direct communication from student recorded\", \"urgency_level\": \"Unknown due to lack of student response\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student has not responded to WhatsApp contact; agent provided alternative contact methods (WeChat, WhatsApp)\"}}}}}",
+    "created_at": "2025-11-18 11:38:13",
+    "updated_at": "2025-11-18T17:08:13.107601",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Isaiah Kim",
+        "mobile": [
+          "+85255412777"
+        ],
+        "email": [
+          "isaiah.lh.kim@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 39,
+        "room_type": null,
+        "budget": {
+          "max": 460,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent Echo to follow up with Isaiah Kim via WhatsApp or WeChat to establish contact and assist with accommodation booking.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Email from Echo Tian on 2025-07-22 offering WeChat and WhatsApp contact details after no reply on WhatsApp"
+        },
+        {
+          "type": "communication",
+          "description": "Student Isaiah Kim to respond to agent Echo via WhatsApp or WeChat to proceed with accommodation service.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Email from Echo Tian on 2025-07-22 requesting response on WhatsApp or WeChat"
+        }
+      ],
+      "last_agent_response": "Agent Echo Tian sent an email on 2025-07-22 providing WeChat and WhatsApp contact details and requested Isaiah Kim to respond for better service.",
+      "suggested_next_step": "Agent Echo should attempt another follow-up via WhatsApp or WeChat to engage Isaiah Kim and facilitate next steps in accommodation booking."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Isaiah Kim",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (isaiah.lh.kim@gmail.com), Phone (+85255412777), WhatsApp (mentioned by agent)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£460 per week",
+            "move_in_date": "Not explicitly mentioned",
+            "lease_duration": "39 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 (1 call, 1 outbound email, 1 lead info entry)",
+            "primary_channel": "Email and phone",
+            "last_contact": "2025-07-22 (email from agent)",
+            "response_time": "No student response recorded yet",
+            "key_moments": "Lead created on 2025-07-09; outbound call attempt on 2025-07-21 with zero duration; agent sent follow-up email on 2025-07-22 offering WeChat and WhatsApp contact options"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2085651 linked to lead",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "None mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Await student response to agent's email and contact attempts",
+            "pending_items": "Student reply to agent's outreach",
+            "follow_up_required": "Agent to follow up if no response within a reasonable timeframe",
+            "timeline": "Move-out date noted as 2026-06-06; lease duration 39 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication from student recorded",
+            "urgency_level": "Unknown due to lack of student response",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Student has not responded to WhatsApp contact; agent provided alternative contact methods (WeChat, WhatsApp)"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Isaiah Kim",
+          "mobile": [
+            "+85255412777"
+          ],
+          "email": [
+            "isaiah.lh.kim@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 39,
+          "room_type": null,
+          "budget": {
+            "max": 460,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent Echo to follow up with Isaiah Kim via WhatsApp or WeChat to establish contact and assist with accommodation booking.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Email from Echo Tian on 2025-07-22 offering WeChat and WhatsApp contact details after no reply on WhatsApp"
+          },
+          {
+            "type": "communication",
+            "description": "Student Isaiah Kim to respond to agent Echo via WhatsApp or WeChat to proceed with accommodation service.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Email from Echo Tian on 2025-07-22 requesting response on WhatsApp or WeChat"
+          }
+        ],
+        "last_agent_response": "Agent Echo Tian sent an email on 2025-07-22 providing WeChat and WhatsApp contact details and requested Isaiah Kim to respond for better service.",
+        "suggested_next_step": "Agent Echo should attempt another follow-up via WhatsApp or WeChat to engage Isaiah Kim and facilitate next steps in accommodation booking."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Isaiah Kim",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (isaiah.lh.kim@gmail.com), Phone (+85255412777), WhatsApp (mentioned by agent)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£460 per week",
+              "move_in_date": "Not explicitly mentioned",
+              "lease_duration": "39 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 (1 call, 1 outbound email, 1 lead info entry)",
+              "primary_channel": "Email and phone",
+              "last_contact": "2025-07-22 (email from agent)",
+              "response_time": "No student response recorded yet",
+              "key_moments": "Lead created on 2025-07-09; outbound call attempt on 2025-07-21 with zero duration; agent sent follow-up email on 2025-07-22 offering WeChat and WhatsApp contact options"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2085651 linked to lead",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "None mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Await student response to agent's email and contact attempts",
+              "pending_items": "Student reply to agent's outreach",
+              "follow_up_required": "Agent to follow up if no response within a reasonable timeframe",
+              "timeline": "Move-out date noted as 2026-06-06; lease duration 39 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication from student recorded",
+              "urgency_level": "Unknown due to lack of student response",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Student has not responded to WhatsApp contact; agent provided alternative contact methods (WeChat, WhatsApp)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

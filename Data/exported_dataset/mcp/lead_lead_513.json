@@ -1,0 +1,323 @@
+{
+  "id": "lead_513",
+  "mobile_number": "6582812046",
+  "email": null,
+  "timeline": [
+    {
+      "id": 15521,
+      "lead_id": 513,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3112221, \"user_name\": \"Zhao Shichu\", \"email\": \"shichu0206@gmail.com\", \"phone\": \"6582812046\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8860, \"inventory_id\": 933720}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15522,
+      "lead_id": 513,
+      "event_type": "call",
+      "timestamp": "2025-08-04T09:46:07.001540",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7618786",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-04T09:46:07.001540\", \"id\": 7618786, \"duration\": \"16\", \"to_number\": \"6582812046\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/fbcc31b1-cdca-43a6-b911-e21fffa5eeda.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15523,
+      "lead_id": 513,
+      "event_type": "call",
+      "timestamp": "2025-08-04T09:46:42.543684",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7618790",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-04T09:46:42.543684\", \"id\": 7618790, \"duration\": \"17\", \"to_number\": \"6582812046\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ef0e0180-719e-4db3-9935-dafed4edae5f.wav\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15524,
+      "lead_id": 513,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-04T09:50:48",
+      "content": "*Hi Sushila Murmu, 😊\n\nI hope you're doing well! 🌟\n\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Chapter Kings Cross, London. 🏡\n\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! ✨\n\nThanks a lot! 😊\n\nBest regards,\nAshutush*",
+      "source": "whatsapp",
+      "event_id": "6769892",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-04T09:50:48\", \"id\": 6769892, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"6582812046\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_6582812046@c.us_3FB6FED4C41432976264\", \"message_type\": \"text\", \"message_content\": \"*Hi Sushila Murmu, \\ud83d\\ude0a\\n\\nI hope you're doing well! \\ud83c\\udf1f\\n\\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Chapter Kings Cross, London. \\ud83c\\udfe1\\n\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\n\\nThanks a lot! \\ud83d\\ude0a\\n\\nBest regards,\\nAshutush*\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-04T09:50:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"*Hi Sushila Murmu, \\ud83d\\ude0a\\\\n\\\\nI hope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, Chapter Kings Cross, London. \\ud83c\\udfe1\\\\n\\\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\\\n\\\\nThanks a lot! \\ud83d\\ude0a\\\\n\\\\nBest regards,\\\\nAshutush*\\\", \\\"Datetime\\\": 1754301048000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"6582812046@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_6582812046@c.us_3FB6FED4C41432976264\\\", \\\"ChannelName\\\": \\\"6582812046\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-04T09:50:49.091234\", \"direction\": \"outbound\", \"sbase_user_id\": 2410687, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"6582812046\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15525,
+      "lead_id": 513,
+      "event_type": "call",
+      "timestamp": "2025-08-06T09:15:32.832221",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7632062",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-06T09:15:32.832221\", \"id\": 7632062, \"duration\": \"0\", \"to_number\": \"6582812046\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15526,
+      "lead_id": 513,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-06T09:16:35",
+      "content": "Hi Zhao Shichu, 😊\nHope you're doing well! 🌟\n\nI’ve been trying to get in touch to discuss the move-in date and the booking process. 🏡✨\n\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! 📞😊",
+      "source": "whatsapp",
+      "event_id": "6865267",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-06T09:16:35\", \"id\": 6865267, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"6582812046\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_6582812046@c.us_3FFD2368F8AD79EB5EA3\", \"message_type\": \"text\", \"message_content\": \"Hi Zhao Shichu, \\ud83d\\ude0a\\nHope you're doing well! \\ud83c\\udf1f\\n\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\n\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-06T09:16:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Zhao Shichu, \\ud83d\\ude0a\\\\nHope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI\\u2019ve been trying to get in touch to discuss the move-in date and the booking process. \\ud83c\\udfe1\\u2728\\\\n\\\\nPlease let me know a good time to connect. Looking forward to helping you with the next steps! \\ud83d\\udcde\\ud83d\\ude0a\\\", \\\"Datetime\\\": 1754471795000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"6582812046@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_6582812046@c.us_3FFD2368F8AD79EB5EA3\\\", \\\"ChannelName\\\": \\\"6582812046\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-06T09:16:35.730117\", \"direction\": \"outbound\", \"sbase_user_id\": 2410687, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"6582812046\"}",
+      "created_at": "2025-11-18 13:32:12"
+    },
+    {
+      "id": 15527,
+      "lead_id": 513,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-06T09:18:39",
+      "content": "I booked alr with othrt platform, thanks for reaching out",
+      "source": "whatsapp",
+      "event_id": "6865377",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-06T09:18:39\", \"id\": 6865377, \"email\": \"\", \"from_number\": \"6582812046\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_6582812046@c.us_FF1CD5AC4C381428C70569679F71C042\", \"message_type\": \"text\", \"message_content\": \"I booked alr with othrt platform, thanks for reaching out\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"6582812046@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-06T09:18:39.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"I booked alr with othrt platform, thanks for reaching out\\\", \\\"Datetime\\\": 1754471919000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"6582812046@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_6582812046@c.us_FF1CD5AC4C381428C70569679F71C042\\\", \\\"ChannelName\\\": \\\"6582812046\\\", \\\"SentByNumber\\\": \\\"6582812046\\\", \\\"sentByUserId\\\": \\\"6582812046@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-06T09:18:39.728427\", \"direction\": \"inbound\", \"sbase_user_id\": 2410687, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"6582812046\"}",
+      "created_at": "2025-11-18 13:32:12"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 384,
+    "lead_id": 513,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Zhao Shichu\", \"mobile\": [\"6582812046\"], \"email\": [\"shichu0206@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chapter Kings Cross\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent Aashutush sent WhatsApp messages on 2025-08-04 and 2025-08-06 attempting to connect with Zhao Shichu to discuss the property interest, move-in date, and booking process.\", \"suggested_next_step\": \"No further action required as the student confirmed booking through another platform.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Zhao Shichu\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages using phone number 6582812046 and email shichu0206@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London (implied by agent's affiliation)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly basis\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking completed via another platform\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 (3 calls, 3 WhatsApp message packs)\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-08-06T09:18:39\", \"response_time\": \"Student responded promptly to WhatsApp message on 2025-08-06 within minutes\", \"key_moments\": \"Initial lead created on 2025-06-09; multiple calls on 2025-08-04; agent outreach via WhatsApp on 2025-08-04 and 2025-08-06; student informed booking was already made via another platform on 2025-08-06\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Kings Cross, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has booked elsewhere\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Lead created 2025-06-09; last contact 2025-08-06\"}, \"agent_notes\": {\"student_tone\": \"Polite but brief; student declined further assistance after booking elsewhere\", \"urgency_level\": \"Low, booking already completed\", \"complexity\": \"Simple case\", \"special_considerations\": \"Student booked accommodation through a different platform; no further engagement expected\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Zhao Shichu\", \"mobile\": [\"6582812046\"], \"email\": [\"shichu0206@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chapter Kings Cross\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent Aashutush sent WhatsApp messages on 2025-08-04 and 2025-08-06 attempting to connect with Zhao Shichu to discuss the property interest, move-in date, and booking process.\", \"suggested_next_step\": \"No further action required as the student confirmed booking through another platform.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Zhao Shichu\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages using phone number 6582812046 and email shichu0206@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London (implied by agent's affiliation)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly basis\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking completed via another platform\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 (3 calls, 3 WhatsApp message packs)\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-08-06T09:18:39\", \"response_time\": \"Student responded promptly to WhatsApp message on 2025-08-06 within minutes\", \"key_moments\": \"Initial lead created on 2025-06-09; multiple calls on 2025-08-04; agent outreach via WhatsApp on 2025-08-04 and 2025-08-06; student informed booking was already made via another platform on 2025-08-06\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Kings Cross, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has booked elsewhere\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Lead created 2025-06-09; last contact 2025-08-06\"}, \"agent_notes\": {\"student_tone\": \"Polite but brief; student declined further assistance after booking elsewhere\", \"urgency_level\": \"Low, booking already completed\", \"complexity\": \"Simple case\", \"special_considerations\": \"Student booked accommodation through a different platform; no further engagement expected\"}}}}}",
+    "created_at": "2025-11-18 13:32:22",
+    "updated_at": "2025-11-18T19:02:22.295557",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Zhao Shichu",
+        "mobile": [
+          "6582812046"
+        ],
+        "email": [
+          "shichu0206@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Chapter Kings Cross"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent Aashutush sent WhatsApp messages on 2025-08-04 and 2025-08-06 attempting to connect with Zhao Shichu to discuss the property interest, move-in date, and booking process.",
+      "suggested_next_step": "No further action required as the student confirmed booking through another platform."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Zhao Shichu",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Contacted via phone calls and WhatsApp messages using phone number 6582812046 and email shichu0206@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College London (implied by agent's affiliation)",
+            "room_type": "Not mentioned",
+            "budget_range": "Budget in pounds, weekly basis",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking completed via another platform",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "6 (3 calls, 3 WhatsApp message packs)",
+            "primary_channel": "WhatsApp messaging",
+            "last_contact": "2025-08-06T09:18:39",
+            "response_time": "Student responded promptly to WhatsApp message on 2025-08-06 within minutes",
+            "key_moments": "Initial lead created on 2025-06-09; multiple calls on 2025-08-04; agent outreach via WhatsApp on 2025-08-04 and 2025-08-06; student informed booking was already made via another platform on 2025-08-06"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Chapter Kings Cross, London",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action required as student has booked elsewhere",
+            "pending_items": "None",
+            "follow_up_required": "No follow-up needed unless student re-engages",
+            "timeline": "Lead created 2025-06-09; last contact 2025-08-06"
+          },
+          "agent_notes": {
+            "student_tone": "Polite but brief; student declined further assistance after booking elsewhere",
+            "urgency_level": "Low, booking already completed",
+            "complexity": "Simple case",
+            "special_considerations": "Student booked accommodation through a different platform; no further engagement expected"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Zhao Shichu",
+          "mobile": [
+            "6582812046"
+          ],
+          "email": [
+            "shichu0206@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Chapter Kings Cross"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent Aashutush sent WhatsApp messages on 2025-08-04 and 2025-08-06 attempting to connect with Zhao Shichu to discuss the property interest, move-in date, and booking process.",
+        "suggested_next_step": "No further action required as the student confirmed booking through another platform."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Zhao Shichu",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Contacted via phone calls and WhatsApp messages using phone number 6582812046 and email shichu0206@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College London (implied by agent's affiliation)",
+              "room_type": "Not mentioned",
+              "budget_range": "Budget in pounds, weekly basis",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking completed via another platform",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "6 (3 calls, 3 WhatsApp message packs)",
+              "primary_channel": "WhatsApp messaging",
+              "last_contact": "2025-08-06T09:18:39",
+              "response_time": "Student responded promptly to WhatsApp message on 2025-08-06 within minutes",
+              "key_moments": "Initial lead created on 2025-06-09; multiple calls on 2025-08-04; agent outreach via WhatsApp on 2025-08-04 and 2025-08-06; student informed booking was already made via another platform on 2025-08-06"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Chapter Kings Cross, London",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action required as student has booked elsewhere",
+              "pending_items": "None",
+              "follow_up_required": "No follow-up needed unless student re-engages",
+              "timeline": "Lead created 2025-06-09; last contact 2025-08-06"
+            },
+            "agent_notes": {
+              "student_tone": "Polite but brief; student declined further assistance after booking elsewhere",
+              "urgency_level": "Low, booking already completed",
+              "complexity": "Simple case",
+              "special_considerations": "Student booked accommodation through a different platform; no further engagement expected"
+            }
+          }
+        }
+      }
+    }
+  }
+}

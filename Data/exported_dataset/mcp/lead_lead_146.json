@@ -1,0 +1,525 @@
+{
+  "id": "lead_146",
+  "mobile_number": "4917670198530",
+  "email": null,
+  "timeline": [
+    {
+      "id": 13892,
+      "lead_id": 146,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-09T00:00:00\", \"lead_id\": 3218238, \"user_name\": \"Tamanah Fakhri\", \"email\": \"tamanah.fakhri@gmx.de\", \"phone\": \"4917670198530\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 976, \"inventory_id\": 1657554}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13893,
+      "lead_id": 146,
+      "event_type": "call",
+      "timestamp": "2025-09-09T13:38:24.105498",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7844900",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-09T13:38:24.105498\", \"id\": 7844900, \"duration\": \"11\", \"to_number\": \"4917670198530\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8060b57f-69a7-46c0-9eb4-54e9297f546f.wav\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13894,
+      "lead_id": 146,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T13:39:05",
+      "content": "Hey Tamanah, \n\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \n\nHappy to assist you with the process ahead. Thankyou : )",
+      "source": "whatsapp",
+      "event_id": "8429622",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T13:39:05\", \"id\": 8429622, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"4917670198530\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_4917670198530@c.us_3FFB587485314C6B7593\", \"message_type\": \"text\", \"message_content\": \"Hey Tamanah, \\n\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\n\\nHappy to assist you with the process ahead. Thankyou : )\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T13:39:05.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hey Tamanah, \\\\n\\\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\\\n\\\\nHappy to assist you with the process ahead. Thankyou : )\\\", \\\"Datetime\\\": 1757425145000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"4917670198530@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_4917670198530@c.us_3FFB587485314C6B7593\\\", \\\"ChannelName\\\": \\\"4917670198530\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T13:39:06.248301\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"4917670198530\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13895,
+      "lead_id": 146,
+      "event_type": "call",
+      "timestamp": "2025-09-10T09:19:08.961995",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7849219",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-10T09:19:08.961995\", \"id\": 7849219, \"duration\": \"9\", \"to_number\": \"4917670198530\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4610cbe4-86ef-415d-aa77-af470da3b98e.wav\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13896,
+      "lead_id": 146,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-10T09:23:08",
+      "content": "Hi Tamanah,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "8461477",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-10T09:23:08\", \"id\": 8461477, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"4917670198530\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_4917670198530@c.us_3F67EDC9EE18106039CF\", \"message_type\": \"text\", \"message_content\": \"Hi Tamanah,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-10T09:23:08.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Tamanah,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.\\\", \\\"Datetime\\\": 1757496188000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"4917670198530@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_4917670198530@c.us_3F67EDC9EE18106039CF\\\", \\\"ChannelName\\\": \\\"4917670198530\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-10T09:23:08.907871\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"4917670198530\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13897,
+      "lead_id": 146,
+      "event_type": "call",
+      "timestamp": "2025-09-12T09:45:59.827672",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7862562",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-12T09:45:59.827672\", \"id\": 7862562, \"duration\": \"9\", \"to_number\": \"4917670198530\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/31a8ce7e-e224-4e9a-8141-4b1cb6217a49.wav\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13898,
+      "lead_id": 146,
+      "event_type": "email",
+      "timestamp": "2025-09-12T09:48:18",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-12T09:48:18\", \"sender_email\": \"prachi.ko@amberstudent.com\", \"recipient_email\": \"tamanah.fakhri@gmx.de\", \"subject\": \"Re: Inquiry About Accommodation for Exchange Semester (Jan\\u2013June 2026)\", \"message\": \"Dear Tamanah,\\\\n\\\\nThank you for your email, and no worries at all about the missed call. It\\u2019s great to hear that you\\u2019re preparing for your Erasmus exchange semester at UCL. congratulations on receiving your initial confirmation!\\\\n\\\\nWe completely understand that you're currently exploring accommodation options for your stay from January to June 2026. While most of our current listings start from September, we\\u2019d like to inform you that January intake availability will begin to open up around mid-October. At that time, we\\u2019ll have more clarity on which properties will be offering short-term stays starting from January 2026.\\\\n\\\\nIn the meantime, could you kindly confirm whether you have received your CAS (Confirmation of Acceptance for Studies) letter from UCL? This will help us better understand your timeline and prepare for the next steps.\\\\n\\\\nAdditionally, if you're open to considering options starting from mid-October 2025 onwards, we may be able to offer you some early availability depending on the property and duration.\\\\n\\\\nPlease feel free to reach out with any questions or if you need assistance with anything else \\u2014 we\\u2019d be happy to help!\\\\n\\\\nLooking forward to your response.\\\\n\\\\n[amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nOperations Associate\\\\n\\\\nPhone: [+447723487965]()\\\\n\\\\nWhatsapp: [+447782694334]()\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\\\\n\\\\nOn Thu, Sep 11, 2025 at 3:24\\u202fPM <[tamanah.fakhri@gmx.de]()> wrote:\\\\n\\\\nDear Sir or Madam,\\\\n\\\\nThank you very much for reaching out, and I apologize for missing your call earlier.\\\\n\\\\nI'm currently still in Germany and preparing for an Erasmus exchange semester at UCL London, which will most likely take place from January to June 2026. I\\u2019ve already received confirmation from my home university and am currently waiting for the official acceptance and green light from UCL.\\\\n\\\\nIn the meantime, I\\u2019ve been looking into accommodation options on your website, but I\\u2019ve noticed that most listings seem to start from September onwards. Since I would only be coming in January, I wanted to ask whether you offer any rooms or apartments for short-term stays (around 6 months) starting in January 2026.\\\\n\\\\nAs mentioned, I'm an Erasmus student and I\\u2019m very interested in booking with you \\u2014 pending final confirmation from the university. If you could let me know whether such an option is available, I would greatly appreciate it.\\\\n\\\\nThank you in advance for your help, and I look forward to hearing from you!\\\\n\\\\nBest regards,\\\\nTamanah Fakhri\\\\n\\\\nGesendet mit der GMX Mail App\\\\n\\\\nAm 11.09.25 um 11:00 schrieb [prachi.ko@amberstudent.com]()\\\\n\\\\nVon: [prachi.ko@amberstudent.com]()\\\\nDatum: 11. September 2025\\\\nAn: [tamanah.fakhri@gmx.de]()\\\\nCc:\\\\nBetreff: Hi Tamanah, Let\\u2019s Complete YourUCL Student Accommodation Booking in London.\\\\n\\\\nHi Tamanah,\\\\n\\\\nWe hope this email finds you well. We have previously reached out to you regarding your Student Accommodation Booking based on the Property Shortlisted by you, but unfortunately, we have not received a response from you. This is a reminder to take action and Secure your Preferred Accommodation.\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nNote: Please ignore if already in touch.\\\\n\\\\nKind regards,\\\\n\\\\n[amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nBookings Executive\\\\n\\\\nPhone: [+447830319649]() | Whatsapp Me\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\", \"snippet\": \"Dear Tamanah, Thank you for your email, and no worries at all about the missed call. It&#39;s great to hear that you&#39;re preparing for your Erasmus exchange semester at UCL. congratulations on\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"prachi.ko@amberstudent.com\", \"student_email\": \"tamanah.fakhri@gmx.de\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13899,
+      "lead_id": 146,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T09:48:35",
+      "content": "Dear Tamanah,\n\nThank you for your email, and no worries at all about the missed call. It’s great to hear that you’re preparing for your Erasmus exchange semester at UCL — congratulations on receiving your initial confirmation!\n\nWe completely understand that you're currently exploring accommodation options for your stay from January to June 2026. While most of our current listings start from September, we’d like to inform you that January intake availability will begin to open up around mid-October. At that time, we’ll have more clarity on which properties will be offering short-term stays starting from January 2026.\n\nIn the meantime, could you kindly confirm whether you have received your CAS (Confirmation of Acceptance for Studies) letter from UCL? This will help us better understand your timeline and prepare for the next steps.\n\nAdditionally, if you're open to considering options starting from mid-October 2025 onwards, we may be able to offer you some early availability depending on the property and duration.\n\nPlease feel free to reach out with any questions or if you need assistance with anything else — we’d be happy to help!\n\nLooking forward to your response.",
+      "source": "whatsapp",
+      "event_id": "8550757",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T09:48:35\", \"id\": 8550757, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"4917670198530\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_4917670198530@c.us_3FF99F269A207ADC66D6\", \"message_type\": \"text\", \"message_content\": \"Dear Tamanah,\\n\\nThank you for your email, and no worries at all about the missed call. It\\u2019s great to hear that you\\u2019re preparing for your Erasmus exchange semester at UCL \\u2014 congratulations on receiving your initial confirmation!\\n\\nWe completely understand that you're currently exploring accommodation options for your stay from January to June 2026. While most of our current listings start from September, we\\u2019d like to inform you that January intake availability will begin to open up around mid-October. At that time, we\\u2019ll have more clarity on which properties will be offering short-term stays starting from January 2026.\\n\\nIn the meantime, could you kindly confirm whether you have received your CAS (Confirmation of Acceptance for Studies) letter from UCL? This will help us better understand your timeline and prepare for the next steps.\\n\\nAdditionally, if you're open to considering options starting from mid-October 2025 onwards, we may be able to offer you some early availability depending on the property and duration.\\n\\nPlease feel free to reach out with any questions or if you need assistance with anything else \\u2014 we\\u2019d be happy to help!\\n\\nLooking forward to your response.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-12T09:48:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Dear Tamanah,\\\\n\\\\nThank you for your email, and no worries at all about the missed call. It\\u2019s great to hear that you\\u2019re preparing for your Erasmus exchange semester at UCL \\u2014 congratulations on receiving your initial confirmation!\\\\n\\\\nWe completely understand that you're currently exploring accommodation options for your stay from January to June 2026. While most of our current listings start from September, we\\u2019d like to inform you that January intake availability will begin to open up around mid-October. At that time, we\\u2019ll have more clarity on which properties will be offering short-term stays starting from January 2026.\\\\n\\\\nIn the meantime, could you kindly confirm whether you have received your CAS (Confirmation of Acceptance for Studies) letter from UCL? This will help us better understand your timeline and prepare for the next steps.\\\\n\\\\nAdditionally, if you're open to considering options starting from mid-October 2025 onwards, we may be able to offer you some early availability depending on the property and duration.\\\\n\\\\nPlease feel free to reach out with any questions or if you need assistance with anything else \\u2014 we\\u2019d be happy to help!\\\\n\\\\nLooking forward to your response.\\\", \\\"Datetime\\\": 1757670515000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"4917670198530@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_4917670198530@c.us_3FF99F269A207ADC66D6\\\", \\\"ChannelName\\\": \\\"4917670198530\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-12T09:48:35.717284\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"4917670198530\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13900,
+      "lead_id": 146,
+      "event_type": "email",
+      "timestamp": "2025-10-08T06:20:58",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-10-08T06:20:58\", \"sender_email\": \"prachi.ko@amberstudent.com\", \"recipient_email\": \"tamanah.fakhri@gmx.de\", \"subject\": \"Re: Accommodation Inquiry for January \\u2013 June 2026\", \"message\": \"Dear Tamanah,\\\\n\\\\nThank you for getting back to us, and congratulations on your acceptance for the UCL exchange from January to June 2026!\\\\n\\\\nAt the moment, most of the accommodation listings available are for immediate move-in. However, some properties do offer January 2026 availability as well. You can start browsing and shortlisting now, and I'm here to assist you with any queries.\\\\n\\\\nTo help you explore current and upcoming offers, I\\u2019m sharing a direct link to the Amber website where you can view all available properties. If you find any options that interest you, feel free to share the names with me, and I\\u2019ll be happy to walk you through the details, including facilities, location, pricing, and more.\\\\n\\\\n[https://amberstudent.com/places/search/university-college-london-1811059954160/agent-view?only=id%2Cname%2Cparent_id%2Cpricing%2Cmeta%2Cimages%2Cvideos%2Cvirtual_views%2Clocation%2Ccanonical_name%2Cinventory_no%2Coffers%2Ctags%2Cfeatures%2Csource_link%2Cid%2Cname%2Cparent_id%2Cpricing%2Cmeta%2Cimages%2Cvideos%2Cvirtual_views%2Clocation%2Ccanonical_name%2Cinventory_no%2Coffers%2Ctags%2Cfeatures%2Csource_link&whitelabel_partner_id=63645]()\\\\n\\\\nBooking Process & Required Documents:\\\\nTo make the process smoother, here\\u2019s a quick overview of what you\\u2019ll typically need:\\\\n\\\\n-\\\\nA copy of your passport\\\\n\\\\n-\\\\nYour university offer letter\\\\n\\\\n-\\\\nGuarantor information (this is important if you want to pay in instalments)\\\\n\\\\nThere are two types of guarantor policies:\\\\n\\\\n-\\\\nUK Guarantor \\u2013 Some properties require a guarantor who is currently living and working in the UK.\\\\n\\\\n-\\\\nInternational Guarantor \\u2013 Other properties accept guarantors from your home country, which gives you more flexibility.\\\\n\\\\nLet me know if you need help with anything specific, or if you'd like me to suggest properties that fit your preferences.\\\\n\\\\nLooking forward to assisting you further!\\\\n\\\\nBest wishes,\\\\n\\\\n[amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nOperations Associate\\\\n\\\\nPhone: [+447723487965]()\\\\n\\\\nWhatsapp: [+447782694334]()\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\\\\n\\\\nOn Tue, Oct 7, 2025 at 10:12\\u202fPM <[tamanah.fakhri@gmx.de]()> wrote:\\\\n\\\\nDear Sir or Madam,\\\\n\\\\nThank you so much for your response. I have recently received confirmation from UCL regarding my exchange for the period of January to June 2026.\\\\n\\\\nI would love to explore the available accommodation options in more detail. However, I am currently unable to view the listings on your website. Would it be possible for you to send me a direct link or guidance on where to find the current or upcoming offers?\\\\n\\\\nAdditionally, I would really appreciate it if you could briefly explain how the booking process works and what important steps or documents are required. This would help me better understand what to prepare in advance.\\\\n\\\\nThank you again for your support!\\\\nI look forward to hearing from you!\\\\n\\\\nbest wishes,\\\\nTamanah Fakhri\\\\n\\\\nGesendet mit der GMX Mail App\", \"snippet\": \"Dear Tamanah, Thank you for getting back to us, and congratulations on your acceptance for the UCL exchange from January to June 2026! At the moment, most of the accommodation listings available are\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"prachi.ko@amberstudent.com\", \"student_email\": \"tamanah.fakhri@gmx.de\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13901,
+      "lead_id": 146,
+      "event_type": "call",
+      "timestamp": "2025-10-14T13:22:47.664904",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7988855",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-10-14T13:22:47.664904\", \"id\": 7988855, \"duration\": \"4\", \"to_number\": \"4917670198530\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/914a0d54-e8cc-4eb7-b69b-f3b1c6217867.wav\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13902,
+      "lead_id": 146,
+      "event_type": "email",
+      "timestamp": "2025-10-14T14:00:52",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-10-14T14:00:52\", \"sender_email\": \"prachi.ko@amberstudent.com\", \"recipient_email\": \"tamanah.fakhri@gmx.de\", \"subject\": \"Re: Re: Accommodation Inquiry for January \\u2013 June 2026\", \"message\": \"Thank you for your message!\\\\n\\\\nRegarding your first question, the location and reviews for this accommodation are quite good. Chapters are one of the most popular and best-selling student accommodations, frequently chosen by students due to its quality and convenient locations.\\\\n\\\\nAs for the contract duration, the dates are set by the property itself and are generally fixed.\\\\n\\\\nLastly, the pricing listed on the website is the final price. Unfortunately, the rates are non-negotiable, as all prices are set directly by the property and remain fixed.\\\\n\\\\nLet me know if you have any other questions or need help with anything else!\\\\n\\\\n[amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nOperations Associate\\\\n\\\\nPhone: [+447723487965]()\\\\n\\\\nWhatsapp: [+447782694334]()\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\\\\n\\\\nOn Mon, Oct 13, 2025 at 10:26\\u202fPM <[tamanah.fakhri@gmx.de]()> wrote:\\\\n\\\\nInquiry Regarding Accommodation Details and Booking Flexibility\\\\n\\\\nDear Sir or Madam,\\\\n\\\\nThank you so much for the information and for sharing the link, it was very helpful. I've actually found a property that I\\u2019m seriously considering, and I wanted to ask a few follow-up questions before proceeding.\\\\nHere is the link to the accommodation: [https://amberstudent.com/places/chapter-portobello-london-1707310732338?meta_types=private_room%2Cprivate_bathroom%2Cprivate_kitchen]().\\\\n\\\\nCould you kindly let me know how this particular accommodation is rated in terms of location and overall student experience? I\\u2019d really appreciate your opinion.\\\\n\\\\nAdditionally, since my exchange only runs until the end of June, I was wondering whether it would be possible to shorten the contract by one or two weeks, or alternatively, if I would still need to pay for the full period but would be allowed to leave earlier.\\\\n\\\\nLastly, is the price listed on the website the final total price, or are there any additional fees I should be aware of?\\\\n\\\\nThank you again for your help!\\\\nI\\u2019m really looking forward to this opportunity.\\\\n\\\\nBest wishes,\\\\nTamanah Fakhri\\\\n\\\\nGesendet mit der GMX Mail App\\\\n\\\\nAm 08.10.25 um 08:21 schrieb Prachi Kohli\\\\n\\\\nVon: \\\\\\\"Prachi Kohli\\\\\\\" <[prachi.ko@amberstudent.com]()>\\\\nDatum: 8. Oktober 2025\\\\nAn: [tamanah.fakhri@gmx.de]()\\\\nCc:\\\\nBetreff: Re: Accommodation Inquiry for January \\u2013 June 2026\\\\n\\\\nDear Tamanah,\\\\n\\\\nThank you for getting back to us, and congratulations on your acceptance for the UCL exchange from January to June 2026!\\\\n\\\\nAt the moment, most of the accommodation listings available are for immediate move-in. However, some properties do offer January 2026 availability as well. You can start browsing and shortlisting now, and I'm here to assist you with any queries.\\\\n\\\\nTo help you explore current and upcoming offers, I\\u2019m sharing a direct link to the Amber website where you can view all available properties. If you find any options that interest you, feel free to share the names with me, and I\\u2019ll be happy to walk you through the details, including facilities, location, pricing, and more.\\\\n\\\\n[https://amberstudent.com/places/search/university-college-london-1811059954160/agent-view?only=id%2Cname%2Cparent_id%2Cpricing%2Cmeta%2Cimages%2Cvideos%2Cvirtual_views%2Clocation%2Ccanonical_name%2Cinventory_no%2Coffers%2Ctags%2Cfeatures%2Csource_link%2Cid%2Cname%2Cparent_id%2Cpricing%2Cmeta%2Cimages%2Cvideos%2Cvirtual_views%2Clocation%2Ccanonical_name%2Cinventory_no%2Coffers%2Ctags%2Cfeatures%2Csource_link&whitelabel_partner_id=63645]()\\\\n\\\\nBooking Process & Required Documents:\\\\nTo make the process smoother, here\\u2019s a quick overview of what you\\u2019ll typically need:\\\\n\\\\n-\\\\nA copy of your passport\\\\n\\\\n-\\\\nYour university offer letter\\\\n\\\\n-\\\\nGuarantor information (this is important if you want to pay in instalments)\\\\n\\\\nThere are two types of guarantor policies:\\\\n\\\\n-\\\\nUK Guarantor \\u2013 Some properties require a guarantor who is currently living and working in the UK.\\\\n\\\\n-\\\\nInternational Guarantor \\u2013 Other properties accept guarantors from your home country, which gives you more flexibility.\\\\n\\\\nLet me know if you need help with anything specific, or if you'd like me to suggest properties that fit your preferences.\\\\n\\\\nLooking forward to assisting you further!\\\\n\\\\nBest wishes,\\\\n\\\\n[amberstudent.com]\\\\n\\\\nPrachi K\\\\n\\\\nOperations Associate\\\\n\\\\nPhone: [+447723487965]()\\\\n\\\\nWhatsapp: [+447782694334]()\\\\n\\\\nEmail: [prachi.ko@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\\\\n\\\\nOn Tue, Oct 7, 2025 at 10:12\\u202fPM <[tamanah.fakhri@gmx.de]()> wrote:\\\\n\\\\nDear Sir or Madam,\\\\n\\\\nThank you so much for your response. I have recently received confirmation from UCL regarding my exchange for the period of January to June 2026.\\\\n\\\\nI would love to explore the available accommodation options in more detail. However, I am currently unable to view the listings on your website. Would it be possible for you to send me a direct link or guidance on where to find the current or upcoming offers?\\\\n\\\\nAdditionally, I would really appreciate it if you could briefly explain how the booking process works and what important steps or documents are required. This would help me better understand what to prepare in advance.\\\\n\\\\nThank you again for your support!\\\\nI look forward to hearing from you!\\\\n\\\\nbest wishes,\\\\nTamanah Fakhri\\\\n\\\\nGesendet mit der GMX Mail App\", \"snippet\": \"Thank you for your message! Regarding your first question, the location and reviews for this accommodation are quite good. Chapters are one of the most popular and best-selling student accommodations,\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"prachi.ko@amberstudent.com\", \"student_email\": \"tamanah.fakhri@gmx.de\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13903,
+      "lead_id": 146,
+      "event_type": "call",
+      "timestamp": "2025-10-16T10:05:15.892596",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7995016",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-10-16T10:05:15.892596\", \"id\": 7995016, \"duration\": \"19\", \"to_number\": \"4917670198530\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/131d4d65-66c5-406c-a0be-c662d106c273.wav\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13904,
+      "lead_id": 146,
+      "event_type": "call",
+      "timestamp": "2025-10-22T09:05:39.411930",
+      "content": "",
+      "source": "plivo",
+      "event_id": "8006928",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-10-22T09:05:39.411930\", \"id\": 8006928, \"duration\": \"4\", \"to_number\": \"4917670198530\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/5fb601d8-b4dd-4074-b259-a14d0c4c4aa7.wav\"}",
+      "created_at": "2025-11-18 13:23:42"
+    },
+    {
+      "id": 13905,
+      "lead_id": 146,
+      "event_type": "call",
+      "timestamp": "2025-11-13T12:55:45.805314",
+      "content": "",
+      "source": "plivo",
+      "event_id": "8069796",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-11-13T12:55:45.805314\", \"id\": 8069796, \"duration\": \"3\", \"to_number\": \"4917670198530\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/c0468e86-e977-49a1-a1e9-974fbbb06836.wav\"}",
+      "created_at": "2025-11-18 13:23:42"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 73,
+      "lead_id": 146,
+      "call_id": "7844900",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8060b57f-69a7-46c0-9eb4-54e9297f546f.wav",
+      "transcript_text": "Speaker A: Dein Anruf wurde an Voicemail weitergeleitet. Die gewünschte Gesprächsperson ist nicht zu erreichen. Hinterlasse eine Nachricht nach dem Signalton und lege auf, wenn du sie fertig gesprochen hast.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:20:06"
+    },
+    {
+      "id": 76,
+      "lead_id": 146,
+      "call_id": "7849219",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4610cbe4-86ef-415d-aa77-af470da3b98e.wav",
+      "transcript_text": "Speaker A: Willkommen bei O. Bitte hinterlassen Sie eine Nachricht nach dem Signalton.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:20:10"
+    },
+    {
+      "id": 78,
+      "lead_id": 146,
+      "call_id": "7862562",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/31a8ce7e-e224-4e9a-8141-4b1cb6217a49.wav",
+      "transcript_text": "Speaker A: Dein Anruf wurde an Voicemail weitergeleitet. Die gewünschte Gesprächsperson ist nicht zu erreichen. Hinterlasse eine Nachricht nach dem Signalton.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:20:14"
+    },
+    {
+      "id": 80,
+      "lead_id": 146,
+      "call_id": "7988855",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/914a0d54-e8cc-4eb7-b69b-f3b1c6217867.wav",
+      "transcript_text": "Speaker A: Dein Anruf wurde an Voicemail weitergeleitet. Die gewünschte.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:20:18"
+    }
+  ],
+  "summary": {
+    "id": 361,
+    "lead_id": 146,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Tamanah Fakhri\", \"mobile\": [\"+4917670198530\"], \"email\": [\"tamanah.fakhri@gmx.de\"], \"whatsapp\": [\"+447883304744\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 26, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2026-01-01\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"UCL\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chapters\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Yes, cashback discussed\"}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"document_required\", \"description\": \"Student to confirm if they have received the CAS (Confirmation of Acceptance for Studies) letter from UCL.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Emails and WhatsApp messages on 2025-09-12 requesting CAS confirmation.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student around mid-October 2025 when January intake availability opens to provide updated accommodation options.\", \"due\": \"2025-10-15\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email and WhatsApp messages on 2025-09-12 indicating January availability opens mid-October.\"}, {\"type\": \"booking_action\", \"description\": \"Student to browse and shortlist accommodation options for January to June 2026 stay using the provided Amber website link.\", \"due\": \"within_month\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email on 2025-10-08 sharing direct link to accommodation listings.\"}, {\"type\": \"communication\", \"description\": \"Agent to assist student with queries on shortlisted properties including facilities, location, pricing, and booking process.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email on 2025-10-08 offering assistance with shortlisted properties.\"}], \"last_agent_response\": \"Prachi provided detailed information about January 2026 availability opening mid-October, requested CAS confirmation from student, shared direct link to accommodation listings, explained booking process and required documents, and answered student\\u2019s questions about a specific property including location, contract duration, and pricing.\", \"suggested_next_step\": \"Student to confirm receipt of CAS letter from UCL to help agent prepare for next steps and accommodation options.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Tamanah Fakhri\", \"nationality\": \"German (implied by phone country code and email domain)\", \"student_status\": \"student\", \"contact_info\": \"Email (tamanah.fakhri@gmx.de), Phone (+49 176 70198530), Whatsapp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds (exact amount not specified)\", \"move_in_date\": \"January 2026 (for Erasmus exchange semester from January to June 2026)\", \"lease_duration\": \"Approximately 6 months (January to June 2026)\", \"special_requirements\": \"Short-term stay options starting January 2026; flexibility on contract duration questioned\"}, \"current_status\": {\"booking_stage\": \"Exploring accommodation options; property selection in progress\", \"documents_status\": \"Waiting for Confirmation of Acceptance for Studies (CAS) letter from UCL\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"15 (including 7 calls, multiple WhatsApp messages, and emails)\", \"primary_channel\": \"Phone calls and WhatsApp messages\", \"last_contact\": \"2025-11-13 (phone call)\", \"response_time\": \"Agent responses typically within 1-2 days after student inquiries\", \"key_moments\": \"Initial contact and welcome message on 2025-09-09; student inquiry about January move-in on 2025-09-11; agent informing about January availability opening mid-October; student confirmation of UCL acceptance and request for listings link on 2025-10-07; detailed info on booking process and guarantor policies on 2025-10-08; student inquiry about specific property (Chapter Portobello) and contract flexibility on 2025-10-13; agent responses clarifying property ratings, contract terms, and pricing on 2025-10-14\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Portobello London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interest in Chapter Portobello due to location and quality; inquiry about contract shortening and pricing\", \"offers_made\": \"Mention of potential cashback offers subject to availability; referral program offering 50 GBP Amazon gift card\"}, \"next_steps\": {\"immediate_actions\": \"Student to confirm receipt of CAS letter from UCL; agent to provide updates on January intake availability mid-October; student to shortlist properties and communicate preferences\", \"pending_items\": \"Student confirmation on CAS letter status; student feedback on shortlisted properties\", \"follow_up_required\": \"Agent to follow up after mid-October regarding January availability; respond to student queries on contract flexibility and booking process\", \"timeline\": \"January 2026 move-in; January intake availability expected to open mid-October 2025\"}, \"agent_notes\": {\"student_tone\": \"Polite, engaged, and proactive with clear questions and follow-ups\", \"urgency_level\": \"Moderate urgency aligned with academic semester start in January 2026\", \"complexity\": \"Moderate complexity due to short-term stay requirement and contract flexibility questions\", \"special_considerations\": \"Student is an Erasmus exchange student requiring short-term accommodation; needs clarity on contract terms and booking process; waiting on CAS letter which impacts booking timeline\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Tamanah Fakhri\", \"mobile\": [\"+4917670198530\"], \"email\": [\"tamanah.fakhri@gmx.de\"], \"whatsapp\": [\"+447883304744\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 26, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2026-01-01\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"UCL\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Chapters\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Yes, cashback discussed\"}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"document_required\", \"description\": \"Student to confirm if they have received the CAS (Confirmation of Acceptance for Studies) letter from UCL.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Emails and WhatsApp messages on 2025-09-12 requesting CAS confirmation.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student around mid-October 2025 when January intake availability opens to provide updated accommodation options.\", \"due\": \"2025-10-15\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email and WhatsApp messages on 2025-09-12 indicating January availability opens mid-October.\"}, {\"type\": \"booking_action\", \"description\": \"Student to browse and shortlist accommodation options for January to June 2026 stay using the provided Amber website link.\", \"due\": \"within_month\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email on 2025-10-08 sharing direct link to accommodation listings.\"}, {\"type\": \"communication\", \"description\": \"Agent to assist student with queries on shortlisted properties including facilities, location, pricing, and booking process.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email on 2025-10-08 offering assistance with shortlisted properties.\"}], \"last_agent_response\": \"Prachi provided detailed information about January 2026 availability opening mid-October, requested CAS confirmation from student, shared direct link to accommodation listings, explained booking process and required documents, and answered student\\u2019s questions about a specific property including location, contract duration, and pricing.\", \"suggested_next_step\": \"Student to confirm receipt of CAS letter from UCL to help agent prepare for next steps and accommodation options.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Tamanah Fakhri\", \"nationality\": \"German (implied by phone country code and email domain)\", \"student_status\": \"student\", \"contact_info\": \"Email (tamanah.fakhri@gmx.de), Phone (+49 176 70198530), Whatsapp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds (exact amount not specified)\", \"move_in_date\": \"January 2026 (for Erasmus exchange semester from January to June 2026)\", \"lease_duration\": \"Approximately 6 months (January to June 2026)\", \"special_requirements\": \"Short-term stay options starting January 2026; flexibility on contract duration questioned\"}, \"current_status\": {\"booking_stage\": \"Exploring accommodation options; property selection in progress\", \"documents_status\": \"Waiting for Confirmation of Acceptance for Studies (CAS) letter from UCL\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"15 (including 7 calls, multiple WhatsApp messages, and emails)\", \"primary_channel\": \"Phone calls and WhatsApp messages\", \"last_contact\": \"2025-11-13 (phone call)\", \"response_time\": \"Agent responses typically within 1-2 days after student inquiries\", \"key_moments\": \"Initial contact and welcome message on 2025-09-09; student inquiry about January move-in on 2025-09-11; agent informing about January availability opening mid-October; student confirmation of UCL acceptance and request for listings link on 2025-10-07; detailed info on booking process and guarantor policies on 2025-10-08; student inquiry about specific property (Chapter Portobello) and contract flexibility on 2025-10-13; agent responses clarifying property ratings, contract terms, and pricing on 2025-10-14\"}, \"properties_discussed\": {\"properties_mentioned\": \"Chapter Portobello London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Interest in Chapter Portobello due to location and quality; inquiry about contract shortening and pricing\", \"offers_made\": \"Mention of potential cashback offers subject to availability; referral program offering 50 GBP Amazon gift card\"}, \"next_steps\": {\"immediate_actions\": \"Student to confirm receipt of CAS letter from UCL; agent to provide updates on January intake availability mid-October; student to shortlist properties and communicate preferences\", \"pending_items\": \"Student confirmation on CAS letter status; student feedback on shortlisted properties\", \"follow_up_required\": \"Agent to follow up after mid-October regarding January availability; respond to student queries on contract flexibility and booking process\", \"timeline\": \"January 2026 move-in; January intake availability expected to open mid-October 2025\"}, \"agent_notes\": {\"student_tone\": \"Polite, engaged, and proactive with clear questions and follow-ups\", \"urgency_level\": \"Moderate urgency aligned with academic semester start in January 2026\", \"complexity\": \"Moderate complexity due to short-term stay requirement and contract flexibility questions\", \"special_considerations\": \"Student is an Erasmus exchange student requiring short-term accommodation; needs clarity on contract terms and booking process; waiting on CAS letter which impacts booking timeline\"}}}}}",
+    "created_at": "2025-11-18 13:23:59",
+    "updated_at": "2025-11-18T18:53:59.242055",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Tamanah Fakhri",
+        "mobile": [
+          "+4917670198530"
+        ],
+        "email": [
+          "tamanah.fakhri@gmx.de"
+        ],
+        "whatsapp": [
+          "+447883304744"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 26,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": "2026-01-01",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "UCL"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Chapters"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": "Yes, cashback discussed"
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "document_required",
+          "description": "Student to confirm if they have received the CAS (Confirmation of Acceptance for Studies) letter from UCL.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Emails and WhatsApp messages on 2025-09-12 requesting CAS confirmation."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student around mid-October 2025 when January intake availability opens to provide updated accommodation options.",
+          "due": "2025-10-15",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Email and WhatsApp messages on 2025-09-12 indicating January availability opens mid-October."
+        },
+        {
+          "type": "booking_action",
+          "description": "Student to browse and shortlist accommodation options for January to June 2026 stay using the provided Amber website link.",
+          "due": "within_month",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Email on 2025-10-08 sharing direct link to accommodation listings."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to assist student with queries on shortlisted properties including facilities, location, pricing, and booking process.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Email on 2025-10-08 offering assistance with shortlisted properties."
+        }
+      ],
+      "last_agent_response": "Prachi provided detailed information about January 2026 availability opening mid-October, requested CAS confirmation from student, shared direct link to accommodation listings, explained booking process and required documents, and answered student’s questions about a specific property including location, contract duration, and pricing.",
+      "suggested_next_step": "Student to confirm receipt of CAS letter from UCL to help agent prepare for next steps and accommodation options."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Tamanah Fakhri",
+            "nationality": "German (implied by phone country code and email domain)",
+            "student_status": "student",
+            "contact_info": "Email (tamanah.fakhri@gmx.de), Phone (+49 176 70198530), Whatsapp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College London (UCL)",
+            "room_type": "Not mentioned",
+            "budget_range": "Weekly budget in pounds (exact amount not specified)",
+            "move_in_date": "January 2026 (for Erasmus exchange semester from January to June 2026)",
+            "lease_duration": "Approximately 6 months (January to June 2026)",
+            "special_requirements": "Short-term stay options starting January 2026; flexibility on contract duration questioned"
+          },
+          "current_status": {
+            "booking_stage": "Exploring accommodation options; property selection in progress",
+            "documents_status": "Waiting for Confirmation of Acceptance for Studies (CAS) letter from UCL",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "15 (including 7 calls, multiple WhatsApp messages, and emails)",
+            "primary_channel": "Phone calls and WhatsApp messages",
+            "last_contact": "2025-11-13 (phone call)",
+            "response_time": "Agent responses typically within 1-2 days after student inquiries",
+            "key_moments": "Initial contact and welcome message on 2025-09-09; student inquiry about January move-in on 2025-09-11; agent informing about January availability opening mid-October; student confirmation of UCL acceptance and request for listings link on 2025-10-07; detailed info on booking process and guarantor policies on 2025-10-08; student inquiry about specific property (Chapter Portobello) and contract flexibility on 2025-10-13; agent responses clarifying property ratings, contract terms, and pricing on 2025-10-14"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Chapter Portobello London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Interest in Chapter Portobello due to location and quality; inquiry about contract shortening and pricing",
+            "offers_made": "Mention of potential cashback offers subject to availability; referral program offering 50 GBP Amazon gift card"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to confirm receipt of CAS letter from UCL; agent to provide updates on January intake availability mid-October; student to shortlist properties and communicate preferences",
+            "pending_items": "Student confirmation on CAS letter status; student feedback on shortlisted properties",
+            "follow_up_required": "Agent to follow up after mid-October regarding January availability; respond to student queries on contract flexibility and booking process",
+            "timeline": "January 2026 move-in; January intake availability expected to open mid-October 2025"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, engaged, and proactive with clear questions and follow-ups",
+            "urgency_level": "Moderate urgency aligned with academic semester start in January 2026",
+            "complexity": "Moderate complexity due to short-term stay requirement and contract flexibility questions",
+            "special_considerations": "Student is an Erasmus exchange student requiring short-term accommodation; needs clarity on contract terms and booking process; waiting on CAS letter which impacts booking timeline"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Tamanah Fakhri",
+          "mobile": [
+            "+4917670198530"
+          ],
+          "email": [
+            "tamanah.fakhri@gmx.de"
+          ],
+          "whatsapp": [
+            "+447883304744"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 26,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": "2026-01-01",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "UCL"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Chapters"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": "Yes, cashback discussed"
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "document_required",
+            "description": "Student to confirm if they have received the CAS (Confirmation of Acceptance for Studies) letter from UCL.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Emails and WhatsApp messages on 2025-09-12 requesting CAS confirmation."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student around mid-October 2025 when January intake availability opens to provide updated accommodation options.",
+            "due": "2025-10-15",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Email and WhatsApp messages on 2025-09-12 indicating January availability opens mid-October."
+          },
+          {
+            "type": "booking_action",
+            "description": "Student to browse and shortlist accommodation options for January to June 2026 stay using the provided Amber website link.",
+            "due": "within_month",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Email on 2025-10-08 sharing direct link to accommodation listings."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to assist student with queries on shortlisted properties including facilities, location, pricing, and booking process.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Email on 2025-10-08 offering assistance with shortlisted properties."
+          }
+        ],
+        "last_agent_response": "Prachi provided detailed information about January 2026 availability opening mid-October, requested CAS confirmation from student, shared direct link to accommodation listings, explained booking process and required documents, and answered student’s questions about a specific property including location, contract duration, and pricing.",
+        "suggested_next_step": "Student to confirm receipt of CAS letter from UCL to help agent prepare for next steps and accommodation options."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Tamanah Fakhri",
+              "nationality": "German (implied by phone country code and email domain)",
+              "student_status": "student",
+              "contact_info": "Email (tamanah.fakhri@gmx.de), Phone (+49 176 70198530), Whatsapp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College London (UCL)",
+              "room_type": "Not mentioned",
+              "budget_range": "Weekly budget in pounds (exact amount not specified)",
+              "move_in_date": "January 2026 (for Erasmus exchange semester from January to June 2026)",
+              "lease_duration": "Approximately 6 months (January to June 2026)",
+              "special_requirements": "Short-term stay options starting January 2026; flexibility on contract duration questioned"
+            },
+            "current_status": {
+              "booking_stage": "Exploring accommodation options; property selection in progress",
+              "documents_status": "Waiting for Confirmation of Acceptance for Studies (CAS) letter from UCL",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "15 (including 7 calls, multiple WhatsApp messages, and emails)",
+              "primary_channel": "Phone calls and WhatsApp messages",
+              "last_contact": "2025-11-13 (phone call)",
+              "response_time": "Agent responses typically within 1-2 days after student inquiries",
+              "key_moments": "Initial contact and welcome message on 2025-09-09; student inquiry about January move-in on 2025-09-11; agent informing about January availability opening mid-October; student confirmation of UCL acceptance and request for listings link on 2025-10-07; detailed info on booking process and guarantor policies on 2025-10-08; student inquiry about specific property (Chapter Portobello) and contract flexibility on 2025-10-13; agent responses clarifying property ratings, contract terms, and pricing on 2025-10-14"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Chapter Portobello London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Interest in Chapter Portobello due to location and quality; inquiry about contract shortening and pricing",
+              "offers_made": "Mention of potential cashback offers subject to availability; referral program offering 50 GBP Amazon gift card"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to confirm receipt of CAS letter from UCL; agent to provide updates on January intake availability mid-October; student to shortlist properties and communicate preferences",
+              "pending_items": "Student confirmation on CAS letter status; student feedback on shortlisted properties",
+              "follow_up_required": "Agent to follow up after mid-October regarding January availability; respond to student queries on contract flexibility and booking process",
+              "timeline": "January 2026 move-in; January intake availability expected to open mid-October 2025"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, engaged, and proactive with clear questions and follow-ups",
+              "urgency_level": "Moderate urgency aligned with academic semester start in January 2026",
+              "complexity": "Moderate complexity due to short-term stay requirement and contract flexibility questions",
+              "special_considerations": "Student is an Erasmus exchange student requiring short-term accommodation; needs clarity on contract terms and booking process; waiting on CAS letter which impacts booking timeline"
+            }
+          }
+        }
+      }
+    }
+  }
+}

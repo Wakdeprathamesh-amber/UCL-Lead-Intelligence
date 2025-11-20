@@ -55,7 +55,7 @@
 **Query**: "What are our total lead statistics and breakdown by status?"
 
 **Expected Response**:
-- Total: 14 leads
+- Total: 402 leads
 - Won: 5 (36%)
 - Lost: 3 (21%)
 - Opportunity: 2 (14%)
@@ -341,7 +341,7 @@ LOST (3 leads):
 
 ### If Response is Wrong:
 - Check if API key is valid
-- Verify database has data (14 leads)
+- Verify database has data (402 leads)
 - Rephrase question more clearly
 
 ### If Response is Slow (>5s):

@@ -1,0 +1,612 @@
+{
+  "id": "lead_641",
+  "mobile_number": "923054010705",
+  "email": null,
+  "timeline": [
+    {
+      "id": 10407,
+      "lead_id": 641,
+      "event_type": "call",
+      "timestamp": "2025-07-26T07:54:33.986278",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7571160",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-26T07:54:33.986278\", \"id\": 7571160, \"duration\": \"0\", \"to_number\": \"923054010705\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10408,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T08:08:42",
+      "content": "Hey Hania, Hope you are doing well! This is Booking Manager Anuranan from Amber Student.",
+      "source": "whatsapp",
+      "event_id": "6455892",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T08:08:42\", \"id\": 6455892, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB065BF3D54F068094744\", \"message_type\": \"text\", \"message_content\": \"Hey Hania, Hope you are doing well! This is Booking Manager Anuranan from Amber Student.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T08:08:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Hania, Hope you are doing well! This is Booking Manager Anuranan from Amber Student.\\\", \\\"Datetime\\\": 1753517322000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB065BF3D54F068094744\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T08:08:42.848713\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10409,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T08:09:08",
+      "content": "Are you currently looking for Student accommodations near UCL?",
+      "source": "whatsapp",
+      "event_id": "6455911",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T08:09:08\", \"id\": 6455911, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB0E6027171B793A53945\", \"message_type\": \"text\", \"message_content\": \"Are you currently looking for Student accommodations near UCL?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T08:09:08.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Are you currently looking for Student accommodations near UCL?\\\", \\\"Datetime\\\": 1753517348000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB0E6027171B793A53945\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T08:09:08.665452\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10410,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T08:10:18",
+      "content": "Hi Anuranan",
+      "source": "whatsapp",
+      "event_id": "6455959",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T08:10:18\", \"id\": 6455959, \"email\": \"\", \"from_number\": \"923054010705\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_923054010705@c.us_EB5F734C83B6ECE7226A65D8CDE9F315\", \"message_type\": \"text\", \"message_content\": \"Hi Anuranan\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"923054010705@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T08:10:18.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hi Anuranan\\\", \\\"Datetime\\\": 1753517418000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"923054010705@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_923054010705@c.us_EB5F734C83B6ECE7226A65D8CDE9F315\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"923054010705\\\", \\\"sentByUserId\\\": \\\"923054010705@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T08:10:18.206063\", \"direction\": \"inbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10411,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T08:10:27",
+      "content": "Yes",
+      "source": "whatsapp",
+      "event_id": "6455971",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T08:10:27\", \"id\": 6455971, \"email\": \"\", \"from_number\": \"923054010705\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_923054010705@c.us_72330D942610A61088D0338AE316DD72\", \"message_type\": \"text\", \"message_content\": \"Yes\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"923054010705@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T08:10:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Yes\\\", \\\"Datetime\\\": 1753517427000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"923054010705@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_923054010705@c.us_72330D942610A61088D0338AE316DD72\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"923054010705\\\", \\\"sentByUserId\\\": \\\"923054010705@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T08:10:27.520860\", \"direction\": \"inbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10412,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T08:22:29",
+      "content": "Okay, Thanks for Confirming.",
+      "source": "whatsapp",
+      "event_id": "6456339",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T08:22:29\", \"id\": 6456339, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB058F22452E60FF4AE4A\", \"message_type\": \"text\", \"message_content\": \"Okay, Thanks for Confirming.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T08:22:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Okay, Thanks for Confirming.\\\", \\\"Datetime\\\": 1753518149000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB058F22452E60FF4AE4A\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T08:22:30.268785\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10413,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T08:22:40",
+      "content": "For relevant suggestions for your accommodation search, Can you please provide the following information-\n1) Your move-in date- This will help us check the availability.\n2) Your duration of stay- Some apartments allow booking only for the long term.\n3) Your room preference- Ensuite, Studio, Private room and Shared bathroom, Shared room and bathroom.\n4) Your budget- We want to suggest apartments only in your budget.",
+      "source": "whatsapp",
+      "event_id": "6456343",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T08:22:40\", \"id\": 6456343, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB0E8F639870001972DBB\", \"message_type\": \"text\", \"message_content\": \"For relevant suggestions for your accommodation search, Can you please provide the following information-\\n1) Your move-in date- This will help us check the availability.\\n2) Your duration of stay- Some apartments allow booking only for the long term.\\n3) Your room preference- Ensuite, Studio, Private room and Shared bathroom, Shared room and bathroom.\\n4) Your budget- We want to suggest apartments only in your budget.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T08:22:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"For relevant suggestions for your accommodation search, Can you please provide the following information-\\\\n1) Your move-in date- This will help us check the availability.\\\\n2) Your duration of stay- Some apartments allow booking only for the long term.\\\\n3) Your room preference- Ensuite, Studio, Private room and Shared bathroom, Shared room and bathroom.\\\\n4) Your budget- We want to suggest apartments only in your budget.\\\", \\\"Datetime\\\": 1753518160000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB0E8F639870001972DBB\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T08:22:40.618436\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10414,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T08:47:03",
+      "content": "Yes sure",
+      "source": "whatsapp",
+      "event_id": "6457186",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T08:47:03\", \"id\": 6457186, \"email\": \"\", \"from_number\": \"923054010705\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_923054010705@c.us_F73C631836AF03774B34711415C9D6C6\", \"message_type\": \"text\", \"message_content\": \"Yes sure\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"923054010705@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T08:47:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Yes sure\\\", \\\"Datetime\\\": 1753519623000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"923054010705@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_923054010705@c.us_F73C631836AF03774B34711415C9D6C6\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"923054010705\\\", \\\"sentByUserId\\\": \\\"923054010705@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T08:47:04.270174\", \"direction\": \"inbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10415,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T08:51:00",
+      "content": "Move in date: 1 Oct\nDuration of stay: Almost 1 year\nI prefer Ensuite and budget is max 220 per week.",
+      "source": "whatsapp",
+      "event_id": "6457291",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T08:51:00\", \"id\": 6457291, \"email\": \"\", \"from_number\": \"923054010705\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_923054010705@c.us_A86119E3A0BCEA14CA859CBF357AF671\", \"message_type\": \"text\", \"message_content\": \"Move in date: 1 Oct\\nDuration of stay: Almost 1 year\\nI prefer Ensuite and budget is max 220 per week.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"923054010705@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T08:51:00.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Move in date: 1 Oct\\\\nDuration of stay: Almost 1 year\\\\nI prefer Ensuite and budget is max 220 per week.\\\", \\\"Datetime\\\": 1753519860000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"923054010705@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_923054010705@c.us_A86119E3A0BCEA14CA859CBF357AF671\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"923054010705\\\", \\\"sentByUserId\\\": \\\"923054010705@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T08:51:00.846251\", \"direction\": \"inbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10416,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:11:52",
+      "content": "Hey Hania, Thanks for confirming your preferences. Unfortunately, Ensuites currrently start from 249 per week.",
+      "source": "whatsapp",
+      "event_id": "6457945",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:11:52\", \"id\": 6457945, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB0317F657CC5D2622196\", \"message_type\": \"text\", \"message_content\": \"Hey Hania, Thanks for confirming your preferences. Unfortunately, Ensuites currrently start from 249 per week.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T09:11:52.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Hania, Thanks for confirming your preferences. Unfortunately, Ensuites currrently start from 249 per week.\\\", \\\"Datetime\\\": 1753521112000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB0317F657CC5D2622196\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:11:53.058649\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10417,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:12:24",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *SURREY QUAYS LANDALE HOUSE, LONDON *\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from UCL School of Management:*\n*Drive:* 3.4 mi (16 mins)\n*Walk:* 2.3 mi (38 mins)\n*Bus/Train:* 1.8 mi (9 mins)\n\n🏘 *ROOM TYPES:*\n*Silver Premium Room:*\n  £249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n*Silver Room:*\n  £249/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n  £249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n*Silver Plus Room:*\n  £255/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n*Gold Room:*\n  £259/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n*Platinum Ensuite:*\n  £355/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=138605\n\n------------\n\n🏡 *IQ STERLING COURT, LONDON*\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from UCL School of Management:*\n*Drive:* 27.4 mi (1 hour 0 mins)\n*Bus/Train:* 15.0 mi (1 hour 20 mins)\n\n🏘 *ROOM TYPES:*\n*Saver En Suite:*\n  £249/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Bronze En Suite Premium:*\n  £279/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £304/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Bronze En Suite Deluxe:*\n  £286/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £312/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Bronze En Suite:*\n  £288/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Silver Studio:*\n  £354/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Bronze Studio Deluxe:*\n  £335/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £344/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Silver Studio Deluxe:*\n  £347/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £357/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Bronze Studio:*\n  £341/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=143147\n\n------------\n\nHere are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *SURREY QUAYS LANDALE HOUSE, LONDON *\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from UCL School of Management:*\n*Drive:* 3.4 mi (16 mins)\n*Walk:* 2.3 mi (38 mins)\n*Bus/Train:* 1.8 mi (9 mins)\n\n🏘 *ROOM TYPES:*\n*Silver Premium Room:*\n  £249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n*Silver Room:*\n  £249/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\n  £249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n*Silver Plus Room:*\n  £255/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n*Gold Room:*\n  £259/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n*Platinum Ensuite:*\n  £355/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=138605\n\n------------\n\n🏡 *IQ STERLING COURT, LONDON*\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from UCL School of Management:*\n*Drive:* 27.4 mi (1 hour 0 mins)\n*Walk:* 13.6 mi (5 hours 4 mins)\n*Bus/Train:* 15.0 mi (1 hour 35 mins)\n\n🏘 *ROOM TYPES:*\n*Saver En Suite:*\n  £249/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Bronze En Suite Premium:*\n  £279/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £304/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Bronze En Suite Deluxe:*\n  £286/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £312/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Bronze En Suite:*\n  £288/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Silver Studio:*\n  £354/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Bronze Studio Deluxe:*\n  £335/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £344/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Silver Studio Deluxe:*\n  £347/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £357/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n*Bronze Studio:*\n  £341/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=143147\n\n------------",
+      "source": "whatsapp",
+      "event_id": "6457962",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:12:24\", \"id\": 6457962, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB0B5FABFBCF67AF87172\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *SURREY QUAYS LANDALE HOUSE, LONDON *\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from UCL School of Management:*\\n*Drive:* 3.4 mi (16 mins)\\n*Walk:* 2.3 mi (38 mins)\\n*Bus/Train:* 1.8 mi (9 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Silver Premium Room:*\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n*Silver Room:*\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n*Silver Plus Room:*\\n\\u00a0\\u00a0\\u00a3255/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n*Gold Room:*\\n\\u00a0\\u00a0\\u00a3259/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n*Platinum Ensuite:*\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=138605\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from UCL School of Management:*\\n*Drive:* 27.4 mi (1 hour 0 mins)\\n*Bus/Train:* 15.0 mi (1 hour 20 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Saver En Suite:*\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Bronze En Suite Premium:*\\n\\u00a0\\u00a0\\u00a3279/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3304/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Bronze En Suite Deluxe:*\\n\\u00a0\\u00a0\\u00a3286/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3312/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Bronze En Suite:*\\n\\u00a0\\u00a0\\u00a3288/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Silver Studio:*\\n\\u00a0\\u00a0\\u00a3354/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Bronze Studio Deluxe:*\\n\\u00a0\\u00a0\\u00a3335/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3344/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Silver Studio Deluxe:*\\n\\u00a0\\u00a0\\u00a3347/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3357/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Bronze Studio:*\\n\\u00a0\\u00a0\\u00a3341/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=143147\\n\\n------------\\n\\nHere are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *SURREY QUAYS LANDALE HOUSE, LONDON *\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from UCL School of Management:*\\n*Drive:* 3.4 mi (16 mins)\\n*Walk:* 2.3 mi (38 mins)\\n*Bus/Train:* 1.8 mi (9 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Silver Premium Room:*\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n*Silver Room:*\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n*Silver Plus Room:*\\n\\u00a0\\u00a0\\u00a3255/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n*Gold Room:*\\n\\u00a0\\u00a0\\u00a3259/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n*Platinum Ensuite:*\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=138605\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from UCL School of Management:*\\n*Drive:* 27.4 mi (1 hour 0 mins)\\n*Walk:* 13.6 mi (5 hours 4 mins)\\n*Bus/Train:* 15.0 mi (1 hour 35 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Saver En Suite:*\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Bronze En Suite Premium:*\\n\\u00a0\\u00a0\\u00a3279/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3304/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Bronze En Suite Deluxe:*\\n\\u00a0\\u00a0\\u00a3286/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3312/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Bronze En Suite:*\\n\\u00a0\\u00a0\\u00a3288/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Silver Studio:*\\n\\u00a0\\u00a0\\u00a3354/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Bronze Studio Deluxe:*\\n\\u00a0\\u00a0\\u00a3335/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3344/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Silver Studio Deluxe:*\\n\\u00a0\\u00a0\\u00a3347/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3357/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n*Bronze Studio:*\\n\\u00a0\\u00a0\\u00a3341/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=143147\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T09:12:24.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *SURREY QUAYS LANDALE HOUSE, LONDON *\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from UCL School of Management:*\\\\n*Drive:* 3.4 mi (16 mins)\\\\n*Walk:* 2.3 mi (38 mins)\\\\n*Bus/Train:* 1.8 mi (9 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Silver Premium Room:*\\\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n*Silver Room:*\\\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n*Silver Plus Room:*\\\\n\\u00a0\\u00a0\\u00a3255/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n*Gold Room:*\\\\n\\u00a0\\u00a0\\u00a3259/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n*Platinum Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=138605\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*\\\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from UCL School of Management:*\\\\n*Drive:* 27.4 mi (1 hour 0 mins)\\\\n*Bus/Train:* 15.0 mi (1 hour 20 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Saver En Suite:*\\\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Bronze En Suite Premium:*\\\\n\\u00a0\\u00a0\\u00a3279/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3304/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Bronze En Suite Deluxe:*\\\\n\\u00a0\\u00a0\\u00a3286/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3312/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Bronze En Suite:*\\\\n\\u00a0\\u00a0\\u00a3288/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Silver Studio:*\\\\n\\u00a0\\u00a0\\u00a3354/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Bronze Studio Deluxe:*\\\\n\\u00a0\\u00a0\\u00a3335/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3344/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Silver Studio Deluxe:*\\\\n\\u00a0\\u00a0\\u00a3347/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3357/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Bronze Studio:*\\\\n\\u00a0\\u00a0\\u00a3341/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=143147\\\\n\\\\n------------\\\\n\\\\nHere are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *SURREY QUAYS LANDALE HOUSE, LONDON *\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from UCL School of Management:*\\\\n*Drive:* 3.4 mi (16 mins)\\\\n*Walk:* 2.3 mi (38 mins)\\\\n*Bus/Train:* 1.8 mi (9 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Silver Premium Room:*\\\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n*Silver Room:*\\\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 44 week) (Move in: 13 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n*Silver Plus Room:*\\\\n\\u00a0\\u00a0\\u00a3255/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n*Gold Room:*\\\\n\\u00a0\\u00a0\\u00a3259/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n*Platinum Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 6 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=138605\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*\\\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from UCL School of Management:*\\\\n*Drive:* 27.4 mi (1 hour 0 mins)\\\\n*Walk:* 13.6 mi (5 hours 4 mins)\\\\n*Bus/Train:* 15.0 mi (1 hour 35 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Saver En Suite:*\\\\n\\u00a0\\u00a0\\u00a3249/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Bronze En Suite Premium:*\\\\n\\u00a0\\u00a0\\u00a3279/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3304/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Bronze En Suite Deluxe:*\\\\n\\u00a0\\u00a0\\u00a3286/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3312/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Bronze En Suite:*\\\\n\\u00a0\\u00a0\\u00a3288/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Silver Studio:*\\\\n\\u00a0\\u00a0\\u00a3354/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Bronze Studio Deluxe:*\\\\n\\u00a0\\u00a0\\u00a3335/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3344/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Silver Studio Deluxe:*\\\\n\\u00a0\\u00a0\\u00a3347/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3357/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n*Bronze Studio:*\\\\n\\u00a0\\u00a0\\u00a3341/week (Duration: 43 week) (Move in: 6 Sep, 2025) (Move out: 4 Jul, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/iq-sterling-court-wembley-1811167912400/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=143147\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1753521144000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB0B5FABFBCF67AF87172\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:12:24.885509\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10418,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:12:54",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *CHELSEA LIGHTFOOT HALL, LONDON*\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from London City Center:*\n*Drive:* 3.6 mi (18 mins)\n*Bus/Train:* 3.7 mi (30 mins)\n\n🏘 *ROOM TYPES:*\n*Twin Ensuite:*\n  £219/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Platinum Studio:*\n  £469/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Sapphire View Studio:*\n  £489/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=137043\n\n------------",
+      "source": "whatsapp",
+      "event_id": "6457999",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:12:54\", \"id\": 6457999, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB0D60453FE002DAB2368\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *CHELSEA LIGHTFOOT HALL, LONDON*\\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\n*Drive:* 3.6 mi (18 mins)\\n*Bus/Train:* 3.7 mi (30 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Twin Ensuite:*\\n\\u00a0\\u00a0\\u00a3219/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Platinum Studio:*\\n\\u00a0\\u00a0\\u00a3469/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Sapphire View Studio:*\\n\\u00a0\\u00a0\\u00a3489/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=137043\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T09:12:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *CHELSEA LIGHTFOOT HALL, LONDON*\\\\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\\\n*Drive:* 3.6 mi (18 mins)\\\\n*Bus/Train:* 3.7 mi (30 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Twin Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3219/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Platinum Studio:*\\\\n\\u00a0\\u00a0\\u00a3469/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Sapphire View Studio:*\\\\n\\u00a0\\u00a0\\u00a3489/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/chelsea-lightfoot-hall-1708171895198/form?url=anuranan.c%40amberstudent.com&amp;inventory_id=137043\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1753521174000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB0D60453FE002DAB2368\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:12:54.255611\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10419,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:13:31",
+      "content": "These are the most affordable options currently available. Let us know what you decide",
+      "source": "whatsapp",
+      "event_id": "6458020",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:13:31\", \"id\": 6458020, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB0A3E62FF6EE581E776B\", \"message_type\": \"text\", \"message_content\": \"These are the most affordable options currently available. Let us know what you decide\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T09:13:31.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"These are the most affordable options currently available. Let us know what you decide\\\", \\\"Datetime\\\": 1753521211000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB0A3E62FF6EE581E776B\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:13:31.389824\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10420,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:15:51",
+      "content": "Ok Thank you",
+      "source": "whatsapp",
+      "event_id": "6458096",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:15:51\", \"id\": 6458096, \"email\": \"\", \"from_number\": \"923054010705\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_923054010705@c.us_D82B5DA0C58694227299C4E69F172771\", \"message_type\": \"text\", \"message_content\": \"Ok Thank you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"923054010705@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T09:15:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Ok Thank you\\\", \\\"Datetime\\\": 1753521351000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"923054010705@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_923054010705@c.us_D82B5DA0C58694227299C4E69F172771\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"923054010705\\\", \\\"sentByUserId\\\": \\\"923054010705@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:15:52.271283\", \"direction\": \"inbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10421,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:18:05",
+      "content": "Can you please tell me if I want to change my accommodation after a month or two, will it be possible? How much deposit is required for booking? And do I need a visa before booking accommodation?",
+      "source": "whatsapp",
+      "event_id": "6458183",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:18:05\", \"id\": 6458183, \"email\": \"\", \"from_number\": \"923054010705\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_923054010705@c.us_0E889CFEB04CFCBACA937AC010899FA4\", \"message_type\": \"text\", \"message_content\": \"Can you please tell me if I want to change my accommodation after a month or two, will it be possible? How much deposit is required for booking? And do I need a visa before booking accommodation?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"923054010705@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T09:18:05.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Can you please tell me if I want to change my accommodation after a month or two, will it be possible? How much deposit is required for booking? And do I need a visa before booking accommodation?\\\", \\\"Datetime\\\": 1753521485000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"923054010705@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_923054010705@c.us_0E889CFEB04CFCBACA937AC010899FA4\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"923054010705\\\", \\\"sentByUserId\\\": \\\"923054010705@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:18:05.689088\", \"direction\": \"inbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10422,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:21:36",
+      "content": "Can you please tell me if The twin ensuite (Chelsea lightfoot hall) is available for single occupancy as it is mentioned on the website?",
+      "source": "whatsapp",
+      "event_id": "6458319",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:21:36\", \"id\": 6458319, \"email\": \"\", \"from_number\": \"923054010705\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_923054010705@c.us_A4CE1D8F7E42FC7B25094FE963DE246D\", \"message_type\": \"text\", \"message_content\": \"Can you please tell me if The twin ensuite (Chelsea lightfoot hall) is available for single occupancy as it is mentioned on the website?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"923054010705@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T09:21:36.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Can you please tell me if The twin ensuite (Chelsea lightfoot hall) is available for single occupancy as it is mentioned on the website?\\\", \\\"Datetime\\\": 1753521696000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"923054010705@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_923054010705@c.us_A4CE1D8F7E42FC7B25094FE963DE246D\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"923054010705\\\", \\\"sentByUserId\\\": \\\"923054010705@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:21:36.236724\", \"direction\": \"inbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10423,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:24:12",
+      "content": "Hi Hania,\n\nIf you wish to cancel or change your accommodation after moving in, you'll need to find a replacement tenant to take over your contract, as this is the standard policy for most properties.\n\nThe deposit is usually around one week's rent, though this can vary slightly depending on the specific property.\n\nYou can book your accommodation without a visa — most properties only ask you to upload it closer to your move-in date.\n\nAlso, please note that the first rent installment will be due by the first week of August.",
+      "source": "whatsapp",
+      "event_id": "6458433",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:24:12\", \"id\": 6458433, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB03A7067DECB516207A0\", \"message_type\": \"text\", \"message_content\": \"Hi Hania,\\n\\nIf you wish to cancel or change your accommodation after moving in, you'll need to find a replacement tenant to take over your contract, as this is the standard policy for most properties.\\n\\nThe deposit is usually around one week's rent, though this can vary slightly depending on the specific property.\\n\\nYou can book your accommodation without a visa \\u2014 most properties only ask you to upload it closer to your move-in date.\\n\\nAlso, please note that the first rent installment will be due by the first week of August.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T09:24:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hi Hania,\\\\n\\\\nIf you wish to cancel or change your accommodation after moving in, you'll need to find a replacement tenant to take over your contract, as this is the standard policy for most properties.\\\\n\\\\nThe deposit is usually around one week's rent, though this can vary slightly depending on the specific property.\\\\n\\\\nYou can book your accommodation without a visa \\u2014 most properties only ask you to upload it closer to your move-in date.\\\\n\\\\nAlso, please note that the first rent installment will be due by the first week of August.\\\", \\\"Datetime\\\": 1753521852000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB03A7067DECB516207A0\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:24:12.598849\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10424,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:25:58",
+      "content": "It is sold out and for that the rent is 418 per week",
+      "source": "whatsapp",
+      "event_id": "6458497",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:25:58\", \"id\": 6458497, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB03CBC8C7DF202D21B37\", \"message_type\": \"text\", \"message_content\": \"It is sold out and for that the rent is 418 per week\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T09:25:58.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"It is sold out and for that the rent is 418 per week\\\", \\\"Datetime\\\": 1753521958000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB03CBC8C7DF202D21B37\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:25:58.705126\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10425,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:26:52",
+      "content": "image.jpeg",
+      "source": "whatsapp",
+      "event_id": "6458523",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:26:52\", \"id\": 6458523, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB089719F04A0EF2D81CB\", \"message_type\": \"text\", \"message_content\": \"image.jpeg\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T09:26:52.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447446198371/3EB089719F04A0EF2D81CB.jpeg\\\", \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"image.jpeg\\\", \\\"Datetime\\\": 1753522012000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB089719F04A0EF2D81CB\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:26:53.065281\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10426,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:26:54",
+      "content": "Okay. So If I want to move in Oct, I'll have to pay the first installment in the first week of August?",
+      "source": "whatsapp",
+      "event_id": "6458525",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:26:54\", \"id\": 6458525, \"email\": \"\", \"from_number\": \"923054010705\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_923054010705@c.us_7FA409C1B6A844FC8DA688B376983A57\", \"message_type\": \"text\", \"message_content\": \"Okay. So If I want to move in Oct, I'll have to pay the first installment in the first week of August?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"923054010705@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T09:26:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Okay. So If I want to move in Oct, I'll have to pay the first installment in the first week of August?\\\", \\\"Datetime\\\": 1753522014000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"923054010705@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_923054010705@c.us_7FA409C1B6A844FC8DA688B376983A57\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"923054010705\\\", \\\"sentByUserId\\\": \\\"923054010705@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:26:54.367907\", \"direction\": \"inbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10427,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:27:17",
+      "content": "Ok thank you",
+      "source": "whatsapp",
+      "event_id": "6458540",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:27:17\", \"id\": 6458540, \"email\": \"\", \"from_number\": \"923054010705\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_923054010705@c.us_A048C9E65A50DA26AE6A5486E8120F55\", \"message_type\": \"text\", \"message_content\": \"Ok thank you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"923054010705@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T09:27:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Ok thank you\\\", \\\"Datetime\\\": 1753522037000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"923054010705@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_923054010705@c.us_A048C9E65A50DA26AE6A5486E8120F55\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"923054010705\\\", \\\"sentByUserId\\\": \\\"923054010705@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:27:17.437577\", \"direction\": \"inbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10428,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:28:24",
+      "content": "The tenency will start from September so first installments are usually due one month before the move in date so it will be due around August start.",
+      "source": "whatsapp",
+      "event_id": "6458578",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:28:24\", \"id\": 6458578, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"923054010705\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_923054010705@c.us_3EB005FEABCAE67C447EEB\", \"message_type\": \"text\", \"message_content\": \"The tenency will start from September so first installments are usually due one month before the move in date so it will be due around August start.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T09:28:24.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"The tenency will start from September so first installments are usually due one month before the move in date so it will be due around August start.\\\", \\\"Datetime\\\": 1753522104000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"923054010705@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_923054010705@c.us_3EB005FEABCAE67C447EEB\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:28:24.559993\", \"direction\": \"outbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10429,
+      "lead_id": 641,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T09:29:05",
+      "content": "Ok",
+      "source": "whatsapp",
+      "event_id": "6458606",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T09:29:05\", \"id\": 6458606, \"email\": \"\", \"from_number\": \"923054010705\", \"to_number\": \"447446198371\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_923054010705@c.us_2FAAF7EC8B1B59FFD867390ABA210ADA\", \"message_type\": \"text\", \"message_content\": \"Ok\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"923054010705@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T09:29:05.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Ok\\\", \\\"Datetime\\\": 1753522145000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446198371@c.us\\\", \\\"Sentbyid\\\": \\\"923054010705@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_923054010705@c.us_2FAAF7EC8B1B59FFD867390ABA210ADA\\\", \\\"ChannelName\\\": \\\"923054010705\\\", \\\"SentByNumber\\\": \\\"923054010705\\\", \\\"sentByUserId\\\": \\\"923054010705@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-07-26T09:29:05.314381\", \"direction\": \"inbound\", \"sbase_user_id\": 2394673, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217, \"agent_number\": \"447446198371\", \"customer_number\": \"923054010705\"}",
+      "created_at": "2025-11-18 11:59:30"
+    },
+    {
+      "id": 10430,
+      "lead_id": 641,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-25T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-25T00:00:00\", \"lead_id\": 3092782, \"user_name\": \"Hania Ahmed\", \"email\": \"haniaahmed1499@gmail.com\", \"phone\": \"923054010705\", \"lease_duration\": \"5 - 25 Weeks\", \"move_out_date\": \"2026-03-19\", \"budget\": 140, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 148295}",
+      "created_at": "2025-11-18 11:59:30"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 263,
+    "lead_id": 641,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Hania Ahmed\", \"mobile\": [\"+923054010705\"], \"email\": [\"haniaahmed1499@gmail.com\"], \"whatsapp\": [\"+447446198371\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": \"ensuite\", \"budget\": {\"max\": 220, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": false, \"university\": \"UCL\", \"move_in_date\": \"2025-10-01\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [\"not_required_for_booking\", \"Most properties ask to upload visa closer to move-in date\"], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Surrey Quays Landale House, London\", \"IQ Sterling Court, London\", \"Chelsea Lightfoot Hall, London\"], \"rooms_considered\": [\"Silver Premium Room\", \"Silver Room\", \"Silver Plus Room\", \"Gold Room\", \"Platinum Ensuite\", \"Saver En Suite\", \"Bronze En Suite Premium\", \"Bronze En Suite Deluxe\", \"Bronze En Suite\", \"Silver Studio\", \"Bronze Studio Deluxe\", \"Silver Studio Deluxe\", \"Bronze Studio\", \"Twin Ensuite\", \"Platinum Studio\", \"Sapphire View Studio\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to review the provided property suggestions and decide which accommodation to book.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent sent property suggestions with links and asked student to let them know what they decide (messages at 2025-07-26T09:12:24 and 2025-07-26T09:13:31)\"}, {\"type\": \"payment\", \"description\": \"Student to pay the first rent installment by the first week of August.\", \"due\": \"2025-08-07\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent informed student that first rent installment is due by first week of August (message at 2025-07-26T09:24:12)\"}, {\"type\": \"communication\", \"description\": \"Agent to respond to student queries about changing accommodation after a month or two, deposit amount, and visa requirements for booking.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent replied explaining replacement tenant policy, deposit info, visa not required before booking, and rent installment due date (message at 2025-07-26T09:24:12)\"}], \"last_agent_response\": \"Explained that to change accommodation after moving in, student must find a replacement tenant; deposit is usually one week's rent; booking can be done without visa; first rent installment due by first week of August.\", \"suggested_next_step\": \"Student to review the accommodation options sent and confirm which property they want to book.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Hania Ahmed\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone call and WhatsApp messages via numbers 923054010705 and 447446198371\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, near UCL\", \"university\": \"UCL (University College London)\", \"room_type\": \"Ensuite preferred\", \"budget_range\": \"Max \\u00a3220 per week\", \"move_in_date\": \"1 October 2025\", \"lease_duration\": \"Almost 1 year (approx. 44 to 51 weeks)\", \"special_requirements\": \"None mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage with suggestions provided\", \"documents_status\": \"Visa not required before booking; to be uploaded closer to move-in date\", \"payment_status\": \"First rent installment due first week of August 2025\", \"visa_status\": \"Not required before booking\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call, 24 WhatsApp messages exchanged\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-07-26T09:29:05\", \"response_time\": \"Mostly immediate to within minutes\", \"key_moments\": \"Initial contact and inquiry about accommodation near UCL; confirmation of preferences; budget mismatch explained; property suggestions shared; questions about deposit, contract changes, visa, and payment clarified\"}, \"properties_discussed\": {\"properties_mentioned\": \"Surrey Quays Landale House, IQ Sterling Court, Chelsea Lightfoot Hall\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Prefers Ensuite rooms; budget max \\u00a3220/week but Ensuites start at \\u00a3249/week\", \"offers_made\": \"Provided detailed property options with links and pricing; informed about deposit and contract policies\"}, \"next_steps\": {\"immediate_actions\": \"Student to review property suggestions and decide\", \"pending_items\": \"Student decision on property choice\", \"follow_up_required\": \"Agent to await student's response to property options and questions\", \"timeline\": \"Move-in date 1 Oct 2025; first rent installment due early August 2025\"}, \"agent_notes\": {\"student_tone\": \"Polite, cooperative, and inquisitive\", \"urgency_level\": \"Moderate; planning ahead for October move-in\", \"complexity\": \"Standard inquiry with budget constraints and policy questions\", \"special_considerations\": \"Budget lower than available Ensuite prices; student informed about contract change policy and deposit details; visa not required before booking\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Hania Ahmed\", \"mobile\": [\"+923054010705\"], \"email\": [\"haniaahmed1499@gmail.com\"], \"whatsapp\": [\"+447446198371\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": \"ensuite\", \"budget\": {\"max\": 220, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": false, \"university\": \"UCL\", \"move_in_date\": \"2025-10-01\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [\"not_required_for_booking\", \"Most properties ask to upload visa closer to move-in date\"], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Surrey Quays Landale House, London\", \"IQ Sterling Court, London\", \"Chelsea Lightfoot Hall, London\"], \"rooms_considered\": [\"Silver Premium Room\", \"Silver Room\", \"Silver Plus Room\", \"Gold Room\", \"Platinum Ensuite\", \"Saver En Suite\", \"Bronze En Suite Premium\", \"Bronze En Suite Deluxe\", \"Bronze En Suite\", \"Silver Studio\", \"Bronze Studio Deluxe\", \"Silver Studio Deluxe\", \"Bronze Studio\", \"Twin Ensuite\", \"Platinum Studio\", \"Sapphire View Studio\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to review the provided property suggestions and decide which accommodation to book.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent sent property suggestions with links and asked student to let them know what they decide (messages at 2025-07-26T09:12:24 and 2025-07-26T09:13:31)\"}, {\"type\": \"payment\", \"description\": \"Student to pay the first rent installment by the first week of August.\", \"due\": \"2025-08-07\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent informed student that first rent installment is due by first week of August (message at 2025-07-26T09:24:12)\"}, {\"type\": \"communication\", \"description\": \"Agent to respond to student queries about changing accommodation after a month or two, deposit amount, and visa requirements for booking.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent replied explaining replacement tenant policy, deposit info, visa not required before booking, and rent installment due date (message at 2025-07-26T09:24:12)\"}], \"last_agent_response\": \"Explained that to change accommodation after moving in, student must find a replacement tenant; deposit is usually one week's rent; booking can be done without visa; first rent installment due by first week of August.\", \"suggested_next_step\": \"Student to review the accommodation options sent and confirm which property they want to book.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Hania Ahmed\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone call and WhatsApp messages via numbers 923054010705 and 447446198371\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, near UCL\", \"university\": \"UCL (University College London)\", \"room_type\": \"Ensuite preferred\", \"budget_range\": \"Max \\u00a3220 per week\", \"move_in_date\": \"1 October 2025\", \"lease_duration\": \"Almost 1 year (approx. 44 to 51 weeks)\", \"special_requirements\": \"None mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage with suggestions provided\", \"documents_status\": \"Visa not required before booking; to be uploaded closer to move-in date\", \"payment_status\": \"First rent installment due first week of August 2025\", \"visa_status\": \"Not required before booking\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call, 24 WhatsApp messages exchanged\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-07-26T09:29:05\", \"response_time\": \"Mostly immediate to within minutes\", \"key_moments\": \"Initial contact and inquiry about accommodation near UCL; confirmation of preferences; budget mismatch explained; property suggestions shared; questions about deposit, contract changes, visa, and payment clarified\"}, \"properties_discussed\": {\"properties_mentioned\": \"Surrey Quays Landale House, IQ Sterling Court, Chelsea Lightfoot Hall\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Prefers Ensuite rooms; budget max \\u00a3220/week but Ensuites start at \\u00a3249/week\", \"offers_made\": \"Provided detailed property options with links and pricing; informed about deposit and contract policies\"}, \"next_steps\": {\"immediate_actions\": \"Student to review property suggestions and decide\", \"pending_items\": \"Student decision on property choice\", \"follow_up_required\": \"Agent to await student's response to property options and questions\", \"timeline\": \"Move-in date 1 Oct 2025; first rent installment due early August 2025\"}, \"agent_notes\": {\"student_tone\": \"Polite, cooperative, and inquisitive\", \"urgency_level\": \"Moderate; planning ahead for October move-in\", \"complexity\": \"Standard inquiry with budget constraints and policy questions\", \"special_considerations\": \"Budget lower than available Ensuite prices; student informed about contract change policy and deposit details; visa not required before booking\"}}}}}",
+    "created_at": "2025-11-18 11:59:45",
+    "updated_at": "2025-11-18T17:29:45.876472",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Hania Ahmed",
+        "mobile": [
+          "+923054010705"
+        ],
+        "email": [
+          "haniaahmed1499@gmail.com"
+        ],
+        "whatsapp": [
+          "+447446198371"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": "ensuite",
+        "budget": {
+          "max": 220,
+          "currency": "GBP"
+        },
+        "bathroom_type": "private_bathroom",
+        "kitchen_type": null,
+        "dual_occupancy": false,
+        "university": "UCL",
+        "move_in_date": "2025-10-01",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": "installment",
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [
+          "not_required_for_booking",
+          "Most properties ask to upload visa closer to move-in date"
+        ],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Surrey Quays Landale House, London",
+          "IQ Sterling Court, London",
+          "Chelsea Lightfoot Hall, London"
+        ],
+        "rooms_considered": [
+          "Silver Premium Room",
+          "Silver Room",
+          "Silver Plus Room",
+          "Gold Room",
+          "Platinum Ensuite",
+          "Saver En Suite",
+          "Bronze En Suite Premium",
+          "Bronze En Suite Deluxe",
+          "Bronze En Suite",
+          "Silver Studio",
+          "Bronze Studio Deluxe",
+          "Silver Studio Deluxe",
+          "Bronze Studio",
+          "Twin Ensuite",
+          "Platinum Studio",
+          "Sapphire View Studio"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Student to review the provided property suggestions and decide which accommodation to book.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent sent property suggestions with links and asked student to let them know what they decide (messages at 2025-07-26T09:12:24 and 2025-07-26T09:13:31)"
+        },
+        {
+          "type": "payment",
+          "description": "Student to pay the first rent installment by the first week of August.",
+          "due": "2025-08-07",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent informed student that first rent installment is due by first week of August (message at 2025-07-26T09:24:12)"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to respond to student queries about changing accommodation after a month or two, deposit amount, and visa requirements for booking.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent replied explaining replacement tenant policy, deposit info, visa not required before booking, and rent installment due date (message at 2025-07-26T09:24:12)"
+        }
+      ],
+      "last_agent_response": "Explained that to change accommodation after moving in, student must find a replacement tenant; deposit is usually one week's rent; booking can be done without visa; first rent installment due by first week of August.",
+      "suggested_next_step": "Student to review the accommodation options sent and confirm which property they want to book."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Hania Ahmed",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone call and WhatsApp messages via numbers 923054010705 and 447446198371",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, near UCL",
+            "university": "UCL (University College London)",
+            "room_type": "Ensuite preferred",
+            "budget_range": "Max £220 per week",
+            "move_in_date": "1 October 2025",
+            "lease_duration": "Almost 1 year (approx. 44 to 51 weeks)",
+            "special_requirements": "None mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage with suggestions provided",
+            "documents_status": "Visa not required before booking; to be uploaded closer to move-in date",
+            "payment_status": "First rent installment due first week of August 2025",
+            "visa_status": "Not required before booking",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1 call, 24 WhatsApp messages exchanged",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-07-26T09:29:05",
+            "response_time": "Mostly immediate to within minutes",
+            "key_moments": "Initial contact and inquiry about accommodation near UCL; confirmation of preferences; budget mismatch explained; property suggestions shared; questions about deposit, contract changes, visa, and payment clarified"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Surrey Quays Landale House, IQ Sterling Court, Chelsea Lightfoot Hall",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Prefers Ensuite rooms; budget max £220/week but Ensuites start at £249/week",
+            "offers_made": "Provided detailed property options with links and pricing; informed about deposit and contract policies"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to review property suggestions and decide",
+            "pending_items": "Student decision on property choice",
+            "follow_up_required": "Agent to await student's response to property options and questions",
+            "timeline": "Move-in date 1 Oct 2025; first rent installment due early August 2025"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, cooperative, and inquisitive",
+            "urgency_level": "Moderate; planning ahead for October move-in",
+            "complexity": "Standard inquiry with budget constraints and policy questions",
+            "special_considerations": "Budget lower than available Ensuite prices; student informed about contract change policy and deposit details; visa not required before booking"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Hania Ahmed",
+          "mobile": [
+            "+923054010705"
+          ],
+          "email": [
+            "haniaahmed1499@gmail.com"
+          ],
+          "whatsapp": [
+            "+447446198371"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": "ensuite",
+          "budget": {
+            "max": 220,
+            "currency": "GBP"
+          },
+          "bathroom_type": "private_bathroom",
+          "kitchen_type": null,
+          "dual_occupancy": false,
+          "university": "UCL",
+          "move_in_date": "2025-10-01",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": "installment",
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [
+            "not_required_for_booking",
+            "Most properties ask to upload visa closer to move-in date"
+          ],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Surrey Quays Landale House, London",
+            "IQ Sterling Court, London",
+            "Chelsea Lightfoot Hall, London"
+          ],
+          "rooms_considered": [
+            "Silver Premium Room",
+            "Silver Room",
+            "Silver Plus Room",
+            "Gold Room",
+            "Platinum Ensuite",
+            "Saver En Suite",
+            "Bronze En Suite Premium",
+            "Bronze En Suite Deluxe",
+            "Bronze En Suite",
+            "Silver Studio",
+            "Bronze Studio Deluxe",
+            "Silver Studio Deluxe",
+            "Bronze Studio",
+            "Twin Ensuite",
+            "Platinum Studio",
+            "Sapphire View Studio"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Student to review the provided property suggestions and decide which accommodation to book.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent sent property suggestions with links and asked student to let them know what they decide (messages at 2025-07-26T09:12:24 and 2025-07-26T09:13:31)"
+          },
+          {
+            "type": "payment",
+            "description": "Student to pay the first rent installment by the first week of August.",
+            "due": "2025-08-07",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent informed student that first rent installment is due by first week of August (message at 2025-07-26T09:24:12)"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to respond to student queries about changing accommodation after a month or two, deposit amount, and visa requirements for booking.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent replied explaining replacement tenant policy, deposit info, visa not required before booking, and rent installment due date (message at 2025-07-26T09:24:12)"
+          }
+        ],
+        "last_agent_response": "Explained that to change accommodation after moving in, student must find a replacement tenant; deposit is usually one week's rent; booking can be done without visa; first rent installment due by first week of August.",
+        "suggested_next_step": "Student to review the accommodation options sent and confirm which property they want to book."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Hania Ahmed",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone call and WhatsApp messages via numbers 923054010705 and 447446198371",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, near UCL",
+              "university": "UCL (University College London)",
+              "room_type": "Ensuite preferred",
+              "budget_range": "Max £220 per week",
+              "move_in_date": "1 October 2025",
+              "lease_duration": "Almost 1 year (approx. 44 to 51 weeks)",
+              "special_requirements": "None mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage with suggestions provided",
+              "documents_status": "Visa not required before booking; to be uploaded closer to move-in date",
+              "payment_status": "First rent installment due first week of August 2025",
+              "visa_status": "Not required before booking",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1 call, 24 WhatsApp messages exchanged",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-07-26T09:29:05",
+              "response_time": "Mostly immediate to within minutes",
+              "key_moments": "Initial contact and inquiry about accommodation near UCL; confirmation of preferences; budget mismatch explained; property suggestions shared; questions about deposit, contract changes, visa, and payment clarified"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Surrey Quays Landale House, IQ Sterling Court, Chelsea Lightfoot Hall",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Prefers Ensuite rooms; budget max £220/week but Ensuites start at £249/week",
+              "offers_made": "Provided detailed property options with links and pricing; informed about deposit and contract policies"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to review property suggestions and decide",
+              "pending_items": "Student decision on property choice",
+              "follow_up_required": "Agent to await student's response to property options and questions",
+              "timeline": "Move-in date 1 Oct 2025; first rent installment due early August 2025"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, cooperative, and inquisitive",
+              "urgency_level": "Moderate; planning ahead for October move-in",
+              "complexity": "Standard inquiry with budget constraints and policy questions",
+              "special_considerations": "Budget lower than available Ensuite prices; student informed about contract change policy and deposit details; visa not required before booking"
+            }
+          }
+        }
+      }
+    }
+  }
+}

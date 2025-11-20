@@ -1,0 +1,849 @@
+{
+  "id": "lead_147",
+  "mobile_number": "447470632706",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2372,
+      "lead_id": 147,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3249154, \"user_name\": \"Jane Karina Gunawan\", \"email\": \"jkarinag97@gmail.com\", \"phone\": \"447470632706\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 365, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 2093456}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2373,
+      "lead_id": 147,
+      "event_type": "call",
+      "timestamp": "2025-09-23T07:55:29.902445",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7915768",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-23T07:55:29.902445\", \"id\": 7915768, \"duration\": \"0\", \"to_number\": \"447470632706\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2374,
+      "lead_id": 147,
+      "event_type": "call",
+      "timestamp": "2025-09-24T09:20:39.669216",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7921526",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-24T09:20:39.669216\", \"id\": 7921526, \"duration\": \"137\", \"to_number\": \"447470632706\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a90984d7-cc90-4dfe-b464-9f55e60836fa.wav\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2375,
+      "lead_id": 147,
+      "event_type": "call",
+      "timestamp": "2025-09-24T09:23:24.779081",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7921554",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-24T09:23:24.779081\", \"id\": 7921554, \"duration\": \"0\", \"to_number\": \"447470632706\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2376,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T15:24:56",
+      "content": "Hello Jane",
+      "source": "whatsapp",
+      "event_id": "8990390",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T15:24:56\", \"id\": 8990390, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A538B3C9C791FAD175B1344BBC092E18\", \"message_type\": \"text\", \"message_content\": \"Hello Jane\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T15:24:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Hello Jane\\\", \\\"Datetime\\\": 1758813896000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A538B3C9C791FAD175B1344BBC092E18\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T15:24:56.926704\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2377,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T15:31:17",
+      "content": "Hello ,",
+      "source": "whatsapp",
+      "event_id": "8990599",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T15:31:17\", \"id\": 8990599, \"email\": \"\", \"from_number\": \"447470632706\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447470632706@c.us_3A2E55A6A9BBF380A54F\", \"message_type\": \"text\", \"message_content\": \"Hello ,\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447470632706@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-25T15:31:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Hello ,\\\", \\\"Datetime\\\": 1758814277000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447470632706@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447470632706@c.us_3A2E55A6A9BBF380A54F\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447470632706\\\", \\\"sentByUserId\\\": \\\"447470632706@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T15:31:17.744603\", \"direction\": \"inbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2378,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T15:31:54",
+      "content": "In the last email , i’m asking if the rooms are fully booked?",
+      "source": "whatsapp",
+      "event_id": "8990613",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T15:31:54\", \"id\": 8990613, \"email\": \"\", \"from_number\": \"447470632706\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447470632706@c.us_3AECB5D25FD1004C1A5F\", \"message_type\": \"text\", \"message_content\": \"In the last email , i\\u2019m asking if the rooms are fully booked?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447470632706@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-25T15:31:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"In the last email , i\\u2019m asking if the rooms are fully booked?\\\", \\\"Datetime\\\": 1758814314000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447470632706@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447470632706@c.us_3AECB5D25FD1004C1A5F\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447470632706\\\", \\\"sentByUserId\\\": \\\"447470632706@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T15:31:55.126336\", \"direction\": \"inbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2379,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T15:31:54",
+      "content": "Have they given you the offer ?",
+      "source": "whatsapp",
+      "event_id": "8990611",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T15:31:54\", \"id\": 8990611, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A58C22C995D979E724DAA82CCD53E718\", \"message_type\": \"text\", \"message_content\": \"Have they given you the offer ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T15:31:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Have they given you the offer ?\\\", \\\"Datetime\\\": 1758814314000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A58C22C995D979E724DAA82CCD53E718\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T15:31:54.398043\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2380,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T15:32:09",
+      "content": "I do not have the idea they must have room",
+      "source": "whatsapp",
+      "event_id": "8990625",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T15:32:09\", \"id\": 8990625, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A54A69CC4F30096206C4AFD6711C0251\", \"message_type\": \"text\", \"message_content\": \"I do not have the idea they must have room\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T15:32:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"I do not have the idea they must have room\\\", \\\"Datetime\\\": 1758814329000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A54A69CC4F30096206C4AFD6711C0251\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T15:32:10.683071\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2381,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T15:32:14",
+      "content": "Have you told them ?",
+      "source": "whatsapp",
+      "event_id": "8990630",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T15:32:14\", \"id\": 8990630, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A5105C6371A0EE50E37D90F4F8D10A4A\", \"message_type\": \"text\", \"message_content\": \"Have you told them ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T15:32:14.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Have you told them ?\\\", \\\"Datetime\\\": 1758814334000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A5105C6371A0EE50E37D90F4F8D10A4A\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T15:32:17.164362\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2382,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T15:32:23",
+      "content": "Saifur will guide them",
+      "source": "whatsapp",
+      "event_id": "8990633",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T15:32:23\", \"id\": 8990633, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A58682B04D19CFA6094964728D34AB0B\", \"message_type\": \"text\", \"message_content\": \"Saifur will guide them\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T15:32:23.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Saifur will guide them\\\", \\\"Datetime\\\": 1758814343000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A58682B04D19CFA6094964728D34AB0B\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T15:32:24.362176\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2383,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T15:37:45",
+      "content": "Yes , i already told them and currently i am asking about the contract length , but then saifur was saying the rooms are fully booked and i should join waitlist if i want",
+      "source": "whatsapp",
+      "event_id": "8990845",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T15:37:45\", \"id\": 8990845, \"email\": \"\", \"from_number\": \"447470632706\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447470632706@c.us_3AB7E1EB005F8A003E58\", \"message_type\": \"text\", \"message_content\": \"Yes , i already told them and currently i am asking about the contract length , but then saifur was saying the rooms are fully booked and i should join waitlist if i want\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447470632706@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-25T15:37:45.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Yes , i already told them and currently i am asking about the contract length , but then saifur was saying the rooms are fully booked and i should join waitlist if i want\\\", \\\"Datetime\\\": 1758814665000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447470632706@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447470632706@c.us_3AB7E1EB005F8A003E58\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447470632706\\\", \\\"sentByUserId\\\": \\\"447470632706@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T15:37:45.237993\", \"direction\": \"inbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2384,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T16:23:05",
+      "content": "They are offering you 41 weeks instead",
+      "source": "whatsapp",
+      "event_id": "8992291",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T16:23:05\", \"id\": 8992291, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A5BC7EBFE3060B7720D8FCC95F78994D\", \"message_type\": \"text\", \"message_content\": \"They are offering you 41 weeks instead\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T16:23:05.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"They are offering you 41 weeks instead\\\", \\\"Datetime\\\": 1758817385000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A5BC7EBFE3060B7720D8FCC95F78994D\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T16:23:05.609030\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2385,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T16:23:08",
+      "content": "You should take it",
+      "source": "whatsapp",
+      "event_id": "8992293",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T16:23:08\", \"id\": 8992293, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A53554AC216251709C7040147419F26D\", \"message_type\": \"text\", \"message_content\": \"You should take it\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T16:23:08.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"You should take it\\\", \\\"Datetime\\\": 1758817388000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A53554AC216251709C7040147419F26D\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T16:23:08.581407\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2386,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T16:59:43",
+      "content": "If i want to take it , how do i apply it?",
+      "source": "whatsapp",
+      "event_id": "8993274",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T16:59:43\", \"id\": 8993274, \"email\": \"\", \"from_number\": \"447470632706\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447470632706@c.us_3A088DF9DDFA53C8DEF1\", \"message_type\": \"text\", \"message_content\": \"If i want to take it , how do i apply it?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447470632706@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-25T16:59:43.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"If i want to take it , how do i apply it?\\\", \\\"Datetime\\\": 1758819583000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447470632706@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447470632706@c.us_3A088DF9DDFA53C8DEF1\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447470632706\\\", \\\"sentByUserId\\\": \\\"447470632706@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T16:59:43.613575\", \"direction\": \"inbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2387,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T16:59:49",
+      "content": "Through the website?",
+      "source": "whatsapp",
+      "event_id": "8993277",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T16:59:49\", \"id\": 8993277, \"email\": \"\", \"from_number\": \"447470632706\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447470632706@c.us_3A1761909AD60B0D007E\", \"message_type\": \"text\", \"message_content\": \"Through the website?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447470632706@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-25T16:59:49.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Through the website?\\\", \\\"Datetime\\\": 1758819589000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447470632706@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447470632706@c.us_3A1761909AD60B0D007E\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447470632706\\\", \\\"sentByUserId\\\": \\\"447470632706@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T16:59:49.995824\", \"direction\": \"inbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2388,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T16:59:53",
+      "content": "I've mailed them",
+      "source": "whatsapp",
+      "event_id": "8993283",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T16:59:53\", \"id\": 8993283, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A56783A7D14E16D58E831085EEBF31AA\", \"message_type\": \"text\", \"message_content\": \"I've mailed them\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T16:59:53.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"I've mailed them\\\", \\\"Datetime\\\": 1758819593000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A56783A7D14E16D58E831085EEBF31AA\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T16:59:53.997798\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2389,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T17:00:00",
+      "content": "You do not need to do anything",
+      "source": "whatsapp",
+      "event_id": "8993290",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T17:00:00\", \"id\": 8993290, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A59E31803A16B7742211003C0FA2CC3E\", \"message_type\": \"text\", \"message_content\": \"You do not need to do anything\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T17:00:00.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"You do not need to do anything\\\", \\\"Datetime\\\": 1758819600000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A59E31803A16B7742211003C0FA2CC3E\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T17:00:01.210856\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2390,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T17:00:07",
+      "content": "They'll get this done either today or tomorrow",
+      "source": "whatsapp",
+      "event_id": "8993298",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T17:00:07\", \"id\": 8993298, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A53C97A6374803D3F3DFDC644830D0D8\", \"message_type\": \"text\", \"message_content\": \"They'll get this done either today or tomorrow\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T17:00:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"They'll get this done either today or tomorrow\\\", \\\"Datetime\\\": 1758819607000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A53C97A6374803D3F3DFDC644830D0D8\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T17:00:08.111653\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2391,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T17:00:55",
+      "content": "And also , so do the amber and the london nest is the same ?",
+      "source": "whatsapp",
+      "event_id": "8993322",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T17:00:55\", \"id\": 8993322, \"email\": \"\", \"from_number\": \"447470632706\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447470632706@c.us_3A7459797EDD7D7BC651\", \"message_type\": \"text\", \"message_content\": \"And also , so do the amber and the london nest is the same ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447470632706@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-25T17:00:55.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"And also , so do the amber and the london nest is the same ?\\\", \\\"Datetime\\\": 1758819655000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447470632706@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447470632706@c.us_3A7459797EDD7D7BC651\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447470632706\\\", \\\"sentByUserId\\\": \\\"447470632706@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T17:01:05.801127\", \"direction\": \"inbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2392,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T17:01:06",
+      "content": "image.jpeg",
+      "source": "whatsapp",
+      "event_id": "8993324",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T17:01:06\", \"id\": 8993324, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A5B8927463A68F32FCDF292DADE5653F\", \"message_type\": \"text\", \"message_content\": \"image.jpeg\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T17:01:06.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447460047271/A5B8927463A68F32FCDF292DADE5653F.jpeg\\\", \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"image.jpeg\\\", \\\"Datetime\\\": 1758819666000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A5B8927463A68F32FCDF292DADE5653F\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T17:01:06.312519\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2393,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T17:01:10",
+      "content": "Please confirm as soon as possible",
+      "source": "whatsapp",
+      "event_id": "8993327",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T17:01:10\", \"id\": 8993327, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A5800C25BF7B5AF91C05C83004D7DBC6\", \"message_type\": \"text\", \"message_content\": \"Please confirm as soon as possible\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T17:01:10.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Please confirm as soon as possible\\\", \\\"Datetime\\\": 1758819670000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A5800C25BF7B5AF91C05C83004D7DBC6\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T17:01:11.109584\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2394,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T17:01:18",
+      "content": "We're in partnership with them",
+      "source": "whatsapp",
+      "event_id": "8993331",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T17:01:18\", \"id\": 8993331, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A5096593135865304CFD405815F0A777\", \"message_type\": \"text\", \"message_content\": \"We're in partnership with them\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T17:01:18.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"We're in partnership with them\\\", \\\"Datetime\\\": 1758819678000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A5096593135865304CFD405815F0A777\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T17:01:18.457531\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2395,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T17:01:21",
+      "content": "So there is no worry",
+      "source": "whatsapp",
+      "event_id": "8993334",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T17:01:21\", \"id\": 8993334, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A5EC463A0C5FD176554D93E0CE92F5C1\", \"message_type\": \"text\", \"message_content\": \"So there is no worry\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T17:01:21.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"So there is no worry\\\", \\\"Datetime\\\": 1758819681000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A5EC463A0C5FD176554D93E0CE92F5C1\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T17:01:22.102419\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2396,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T17:01:35",
+      "content": "Which one you wish to choose please confirm",
+      "source": "whatsapp",
+      "event_id": "8993340",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T17:01:35\", \"id\": 8993340, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A5A7545B727AEBF8B6006380ED0B0859\", \"message_type\": \"text\", \"message_content\": \"Which one you wish to choose please confirm\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T17:01:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Which one you wish to choose please confirm\\\", \\\"Datetime\\\": 1758819695000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A5A7545B727AEBF8B6006380ED0B0859\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T17:01:36.226728\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2397,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-25T17:01:43",
+      "content": "Before this gets sold out",
+      "source": "whatsapp",
+      "event_id": "8993346",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-25T17:01:43\", \"id\": 8993346, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_A5A41D6B33F9292395384FC69D3953AD\", \"message_type\": \"text\", \"message_content\": \"Before this gets sold out\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-25T17:01:43.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Before this gets sold out\\\", \\\"Datetime\\\": 1758819703000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_A5A41D6B33F9292395384FC69D3953AD\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-25T17:01:44.156576\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2398,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T08:50:32",
+      "content": "Hello",
+      "source": "whatsapp",
+      "event_id": "9006641",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T08:50:32\", \"id\": 9006641, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_3F94D70043F163A81138\", \"message_type\": \"text\", \"message_content\": \"Hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T08:50:32.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Hello\\\", \\\"Datetime\\\": 1758876632000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_3F94D70043F163A81138\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T08:50:33.035136\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2399,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T14:51:42",
+      "content": "Hello Jane",
+      "source": "whatsapp",
+      "event_id": "9021049",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T14:51:42\", \"id\": 9021049, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_3FFA42C635E394FE5D85\", \"message_type\": \"text\", \"message_content\": \"Hello Jane\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T14:51:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Hello Jane\\\", \\\"Datetime\\\": 1758898302000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_3FFA42C635E394FE5D85\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T14:51:42.558910\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2400,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T15:01:40",
+      "content": "Hi, is that type of room is the cheapest?",
+      "source": "whatsapp",
+      "event_id": "9021328",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T15:01:40\", \"id\": 9021328, \"email\": \"\", \"from_number\": \"447470632706\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447470632706@c.us_3AB77BDE8A3281FACE86\", \"message_type\": \"text\", \"message_content\": \"Hi, is that type of room is the cheapest?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447470632706@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-26T15:01:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Hi, is that type of room is the cheapest?\\\", \\\"Datetime\\\": 1758898900000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447470632706@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447470632706@c.us_3AB77BDE8A3281FACE86\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447470632706\\\", \\\"sentByUserId\\\": \\\"447470632706@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T15:01:41.319983\", \"direction\": \"inbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2401,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T15:02:49",
+      "content": "What is the price that they are offering",
+      "source": "whatsapp",
+      "event_id": "9021367",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T15:02:49\", \"id\": 9021367, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_3FEE57E150303908D6F7\", \"message_type\": \"text\", \"message_content\": \"What is the price that they are offering\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T15:02:49.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"What is the price that they are offering\\\", \\\"Datetime\\\": 1758898969000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_3FEE57E150303908D6F7\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T15:02:50.631560\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2402,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T15:02:50",
+      "content": "?",
+      "source": "whatsapp",
+      "event_id": "9021368",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T15:02:50\", \"id\": 9021368, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_3FC61D8DF33975AD93A3\", \"message_type\": \"text\", \"message_content\": \"?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T15:02:50.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"?\\\", \\\"Datetime\\\": 1758898970000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_3FC61D8DF33975AD93A3\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T15:02:50.905692\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2403,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T15:03:06",
+      "content": "260 pw",
+      "source": "whatsapp",
+      "event_id": "9021380",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T15:03:06\", \"id\": 9021380, \"email\": \"\", \"from_number\": \"447470632706\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447470632706@c.us_3AC2845B3FB6BE2B3527\", \"message_type\": \"text\", \"message_content\": \"260 pw\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447470632706@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-26T15:03:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"260 pw\\\", \\\"Datetime\\\": 1758898986000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447470632706@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447470632706@c.us_3AC2845B3FB6BE2B3527\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447470632706\\\", \\\"sentByUserId\\\": \\\"447470632706@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T15:03:07.441258\", \"direction\": \"inbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2404,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T15:04:33",
+      "content": "I think you should take it since i can offer you  room with a lesser price but it will be far from the uni plus this property is good property to have the other one which are lower in price are not very good in ratings",
+      "source": "whatsapp",
+      "event_id": "9021431",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T15:04:33\", \"id\": 9021431, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_3FEFC9D1E165A4033FD1\", \"message_type\": \"text\", \"message_content\": \"I think you should take it since i can offer you  room with a lesser price but it will be far from the uni plus this property is good property to have the other one which are lower in price are not very good in ratings\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T15:04:33.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"I think you should take it since i can offer you  room with a lesser price but it will be far from the uni plus this property is good property to have the other one which are lower in price are not very good in ratings\\\", \\\"Datetime\\\": 1758899073000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_3FEFC9D1E165A4033FD1\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T15:04:34.034286\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2405,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T15:05:41",
+      "content": "I reckon if the bronze room but lower level in canvas , it would be cheaper",
+      "source": "whatsapp",
+      "event_id": "9021480",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T15:05:41\", \"id\": 9021480, \"email\": \"\", \"from_number\": \"447470632706\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447470632706@c.us_3A09CD0D134CA5C6C2E5\", \"message_type\": \"text\", \"message_content\": \"I reckon if the bronze room but lower level in canvas , it would be cheaper\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447470632706@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-26T15:05:41.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"I reckon if the bronze room but lower level in canvas , it would be cheaper\\\", \\\"Datetime\\\": 1758899141000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447470632706@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447470632706@c.us_3A09CD0D134CA5C6C2E5\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447470632706\\\", \\\"sentByUserId\\\": \\\"447470632706@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T15:05:41.528437\", \"direction\": \"inbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2406,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T15:06:01",
+      "content": "Please confirm your university name once",
+      "source": "whatsapp",
+      "event_id": "9021489",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T15:06:01\", \"id\": 9021489, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_3F6DE24AD4CC71DB243C\", \"message_type\": \"text\", \"message_content\": \"Please confirm your university name once\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T15:06:01.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Please confirm your university name once\\\", \\\"Datetime\\\": 1758899161000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_3F6DE24AD4CC71DB243C\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T15:06:01.942662\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2407,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T15:06:13",
+      "content": "Ucl bloomsbury",
+      "source": "whatsapp",
+      "event_id": "9021501",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T15:06:13\", \"id\": 9021501, \"email\": \"\", \"from_number\": \"447470632706\", \"to_number\": \"447460047271\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447470632706@c.us_3ABFEAAA6C578093F869\", \"message_type\": \"text\", \"message_content\": \"Ucl bloomsbury\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447470632706@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-26T15:06:13.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Ucl bloomsbury\\\", \\\"Datetime\\\": 1758899173000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447460047271@c.us\\\", \\\"Sentbyid\\\": \\\"447470632706@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447470632706@c.us_3ABFEAAA6C578093F869\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447470632706\\\", \\\"sentByUserId\\\": \\\"447470632706@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T15:06:14.203577\", \"direction\": \"inbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2408,
+      "lead_id": 147,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-26T15:11:11",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *GRAND FELDA HOUSE, LONDON*\nhttps://amberstudent.com/places/grand-felda-house-wembley-1608305805187\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/grand-felda-house-wembley-1608305805187?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\n*Drive:* 10.7 mi (36 mins)\n*Walk:* 8.4 mi (3 hours 8 mins)\n*Bus/Train:* 8.1 mi (30 mins)\n\n🏘 *ROOM TYPES:*\n*3 Bed Apartment:*\n  £235/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\n  £252/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\n\n*2 Bed Apartment:*\n  £235/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\n  £252/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\n\n*5 Bed Ensuite:*\n  £275/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\n  £280/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\n\n*4 Bed Ensuite:*\n  £279/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\n\n*5 Bed En-Suite Upper Floor :*\n  £295/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\n  £308/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\n\n*Studio:*\n  £310/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\n\n*Single Accessible:*\n  £321/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\n\n*Upper floor Studio:*\n  £322/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\n  £339/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\n\n*Platinum Studio:*\n  £393/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/grand-felda-house-wembley-1608305805187/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=133427\n\n------------\n\n🏡 *SURREY QUAYS LANDALE HOUSE, LONDON *\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\n*Drive:* 6.5 mi (40 mins)\n*Walk:* 4.8 mi (1 hour 49 mins)\n*Bus/Train:* 6.2 mi (52 mins)\n\n🏘 *ROOM TYPES:*\n*Silver Non-Ensuite Room:*\n  £239/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Platinum Ensuite:*\n  £289/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=138605\n\n------------\n\n🏡 *THE VALENTINE, LONDON*\nhttps://amberstudent.com/places/the-valentine-london-2003160232475\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/the-valentine-london-2003160232475?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/the-valentine-london-2003160232475?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\n*Drive:* 10.9 mi (47 mins)\n*Walk:* 10.6 mi (3 hours 57 mins)\n*Bus/Train:* 12.1 mi (48 mins)\n\n🏘 *ROOM TYPES:*\n*Twin Room:*\n  £240/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\n  £240/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Premium Studio:*\n  £305/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\n  £305/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Premium Studio City View:*\n  £310/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\n  £310/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Deluxe Studio:*\n  £313/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\n  £313/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Luxury Studio:*\n  £332/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\n  £332/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/the-valentine-london-2003160232475/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=149472\n\n------------\n\n🏡 *BRIGHT HOUSE, KINGSTON UPON THAMES*\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\n*Drive:* 13.9 mi (1 hour 4 mins)\n*Walk:* 12.3 mi (4 hours 38 mins)\n*Bus/Train:* 15.1 mi (1 hour 3 mins)\n\n🏘 *ROOM TYPES:*\n*Classic Room:*\n  £230/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\n  £235/week (Duration: 41 week) (Move in: 29 Sep, 2025) (Move out: 18 Jul, 2026)\n\n*Premium Room:*\n  £240/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\n  £245/week (Duration: 41 week) (Move in: 29 Sep, 2025) (Move out: 18 Jul, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=384093\n\n------------",
+      "source": "whatsapp",
+      "event_id": "9021655",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-26T15:11:11\", \"id\": 9021655, \"email\": \"\", \"from_number\": \"447460047271\", \"to_number\": \"447470632706\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447470632706@c.us_3F0AC9340C11228BF7DF\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *GRAND FELDA HOUSE, LONDON*\\nhttps://amberstudent.com/places/grand-felda-house-wembley-1608305805187\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/grand-felda-house-wembley-1608305805187?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\n*Drive:* 10.7 mi (36 mins)\\n*Walk:* 8.4 mi (3 hours 8 mins)\\n*Bus/Train:* 8.1 mi (30 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*3 Bed Apartment:*\\n\\u00a0\\u00a0\\u00a3235/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3252/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\\n\\n*2 Bed Apartment:*\\n\\u00a0\\u00a0\\u00a3235/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3252/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\\n\\n*5 Bed Ensuite:*\\n\\u00a0\\u00a0\\u00a3275/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3280/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\\n\\n*4 Bed Ensuite:*\\n\\u00a0\\u00a0\\u00a3279/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\n*5 Bed En-Suite Upper Floor :*\\n\\u00a0\\u00a0\\u00a3295/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3308/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\\n\\n*Studio:*\\n\\u00a0\\u00a0\\u00a3310/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\n*Single Accessible:*\\n\\u00a0\\u00a0\\u00a3321/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\n*Upper floor Studio:*\\n\\u00a0\\u00a0\\u00a3322/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\\n\\n*Platinum Studio:*\\n\\u00a0\\u00a0\\u00a3393/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/grand-felda-house-wembley-1608305805187/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=133427\\n\\n------------\\n\\n\\ud83c\\udfe1 *SURREY QUAYS LANDALE HOUSE, LONDON *\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\n*Drive:* 6.5 mi (40 mins)\\n*Walk:* 4.8 mi (1 hour 49 mins)\\n*Bus/Train:* 6.2 mi (52 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Silver Non-Ensuite Room:*\\n\\u00a0\\u00a0\\u00a3239/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Platinum Ensuite:*\\n\\u00a0\\u00a0\\u00a3289/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=138605\\n\\n------------\\n\\n\\ud83c\\udfe1 *THE VALENTINE, LONDON*\\nhttps://amberstudent.com/places/the-valentine-london-2003160232475\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/the-valentine-london-2003160232475?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/the-valentine-london-2003160232475?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\n*Drive:* 10.9 mi (47 mins)\\n*Walk:* 10.6 mi (3 hours 57 mins)\\n*Bus/Train:* 12.1 mi (48 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Twin Room:*\\n\\u00a0\\u00a0\\u00a3240/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3240/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Premium Studio:*\\n\\u00a0\\u00a0\\u00a3305/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3305/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Premium Studio City View:*\\n\\u00a0\\u00a0\\u00a3310/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3310/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Deluxe Studio:*\\n\\u00a0\\u00a0\\u00a3313/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3313/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Luxury Studio:*\\n\\u00a0\\u00a0\\u00a3332/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3332/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/the-valentine-london-2003160232475/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=149472\\n\\n------------\\n\\n\\ud83c\\udfe1 *BRIGHT HOUSE, KINGSTON UPON THAMES*\\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\n*Drive:* 13.9 mi (1 hour 4 mins)\\n*Walk:* 12.3 mi (4 hours 38 mins)\\n*Bus/Train:* 15.1 mi (1 hour 3 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Classic Room:*\\n\\u00a0\\u00a0\\u00a3230/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3235/week (Duration: 41 week) (Move in: 29 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n*Premium Room:*\\n\\u00a0\\u00a0\\u00a3240/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\u00a0\\u00a0\\u00a3245/week (Duration: 41 week) (Move in: 29 Sep, 2025) (Move out: 18 Jul, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=384093\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447460047271@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-26T15:11:11.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447460047271@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *GRAND FELDA HOUSE, LONDON*\\\\nhttps://amberstudent.com/places/grand-felda-house-wembley-1608305805187\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/grand-felda-house-wembley-1608305805187?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 10.7 mi (36 mins)\\\\n*Walk:* 8.4 mi (3 hours 8 mins)\\\\n*Bus/Train:* 8.1 mi (30 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*3 Bed Apartment:*\\\\n\\u00a0\\u00a0\\u00a3235/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3252/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\\\\n\\\\n*2 Bed Apartment:*\\\\n\\u00a0\\u00a0\\u00a3235/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3252/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\\\\n\\\\n*5 Bed Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3275/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3280/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\\\\n\\\\n*4 Bed Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3279/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\\\n*5 Bed En-Suite Upper Floor :*\\\\n\\u00a0\\u00a0\\u00a3295/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3308/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\\\\n\\\\n*Studio:*\\\\n\\u00a0\\u00a0\\u00a3310/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\\\n*Single Accessible:*\\\\n\\u00a0\\u00a0\\u00a3321/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\\\n*Upper floor Studio:*\\\\n\\u00a0\\u00a0\\u00a3322/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 42 week) (Move in: 26 Sep, 2025) (Move out: 17 Jul, 2026)\\\\n\\\\n*Platinum Studio:*\\\\n\\u00a0\\u00a0\\u00a3393/week (Duration: 49 week) (Move in: 26 Sep, 2025) (Move out: 4 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/grand-felda-house-wembley-1608305805187/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=133427\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *SURREY QUAYS LANDALE HOUSE, LONDON *\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 6.5 mi (40 mins)\\\\n*Walk:* 4.8 mi (1 hour 49 mins)\\\\n*Bus/Train:* 6.2 mi (52 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Silver Non-Ensuite Room:*\\\\n\\u00a0\\u00a0\\u00a3239/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Platinum Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3289/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/surrey-quays-landale-house-london-1712261331939/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=138605\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *THE VALENTINE, LONDON*\\\\nhttps://amberstudent.com/places/the-valentine-london-2003160232475\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/the-valentine-london-2003160232475?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/the-valentine-london-2003160232475?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 10.9 mi (47 mins)\\\\n*Walk:* 10.6 mi (3 hours 57 mins)\\\\n*Bus/Train:* 12.1 mi (48 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Twin Room:*\\\\n\\u00a0\\u00a0\\u00a3240/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3240/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Premium Studio:*\\\\n\\u00a0\\u00a0\\u00a3305/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3305/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Premium Studio City View:*\\\\n\\u00a0\\u00a0\\u00a3310/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3310/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Deluxe Studio:*\\\\n\\u00a0\\u00a0\\u00a3313/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3313/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Luxury Studio:*\\\\n\\u00a0\\u00a0\\u00a3332/week (Duration: 48 week) (Move in: 26 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3332/week (Duration: 48 week) (Move in: 27 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/the-valentine-london-2003160232475/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=149472\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *BRIGHT HOUSE, KINGSTON UPON THAMES*\\\\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from The UCL Bloomsbury, Gordon Street, London, UK:*\\\\n*Drive:* 13.9 mi (1 hour 4 mins)\\\\n*Walk:* 12.3 mi (4 hours 38 mins)\\\\n*Bus/Train:* 15.1 mi (1 hour 3 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Classic Room:*\\\\n\\u00a0\\u00a0\\u00a3230/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3235/week (Duration: 41 week) (Move in: 29 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n*Premium Room:*\\\\n\\u00a0\\u00a0\\u00a3240/week (Duration: 48 week) (Move in: 29 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\u00a0\\u00a0\\u00a3245/week (Duration: 41 week) (Move in: 29 Sep, 2025) (Move out: 18 Jul, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/bright-house-kingston-upon-thames-2309052935938/form?url=rishabh.m%40amberstudent.com&amp;inventory_id=384093\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1758899471000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447470632706@c.us\\\", \\\"Sentbyid\\\": \\\"447460047271@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447470632706@c.us_3F0AC9340C11228BF7DF\\\", \\\"ChannelName\\\": \\\"447470632706\\\", \\\"SentByNumber\\\": \\\"447460047271\\\", \\\"sentByUserId\\\": \\\"447460047271@c.us\\\", \\\"CreatedByUser\\\": \\\"447460047271\\\"}]}\", \"updated_at\": \"2025-09-26T15:11:12.194324\", \"direction\": \"outbound\", \"sbase_user_id\": 2511700, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 2666, \"agent_number\": \"447460047271\", \"customer_number\": \"447470632706\"}",
+      "created_at": "2025-11-18 10:20:02"
+    },
+    {
+      "id": 2409,
+      "lead_id": 147,
+      "event_type": "call",
+      "timestamp": "2025-09-29T08:49:27.060249",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7940941",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-29T08:49:27.060249\", \"id\": 7940941, \"duration\": \"57\", \"to_number\": \"447470632706\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a3f2adf6-83ef-4ed7-9535-89973b639c0b.wav\"}",
+      "created_at": "2025-11-18 10:20:02"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 77,
+      "lead_id": 147,
+      "call_id": "7921526",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a90984d7-cc90-4dfe-b464-9f55e60836fa.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Yes, hello, Am I speaking with Jane? You're Jane? Karina.\nSpeaker A: Sorry, hello, am I speaking with.\nSpeaker B: Am I speaking with Dan here?\nSpeaker A: Okay.\nSpeaker B: Yeah. Hello Jay and Rishabh, this site calling you from Amber Student Jane. Just wanted to confirm if you have decided with the options now because we have received your form for London as Canvas World miss too. That is for bronze ensuite upper level.\nSpeaker A: Huh? Yeah.\nSpeaker B: Actually let me tell you, I think that you might be confusing. You're not able to recon who I'm calling you from. So actually this is a call regarding your student accommodation and we are the official student accommodation partner for ucl. So you are a student in UCL and are looking to book an accommodation. Correct?\nSpeaker A: Yes, it's correct. Yeah.\nSpeaker B: Yes. And you have also selected one property that run by the name of Londonest Canvas Waltz 2. You have filled your booking form where you have put all your details. So that's the reason I gave you the call. I just wanted to confirm if we can proceed property or like you would like to explore some other options as well.\nSpeaker A: Sorry, can I. Can. Can we meet in person instead of phone?\nSpeaker B: Because actually I. Actually I can only connect you on WhatsApp if that's okay with you. Although I can provide you the viewing at the properties. Like you can go and view the property. That is something what I can arrange. But I can only connect you on the WhatsApp if that's okay with you.\nSpeaker A: Yes, please. I want to view the property in person actually.\nSpeaker B: And when would you like to have the viewing?\nSpeaker A: Sorry, this property is called London Granvast?\nSpeaker B: Yes, Correct. Correct. Correct.\nSpeaker A: And the rent for per week is how much?\nSpeaker B: 260 pounds.\nSpeaker A: 260 for 50 weeks or for how many weeks?\nSpeaker B: For 50 weeks? Correct. 51 weeks. Exact. 50 and 51 weeks. You can choose any number of ways. Hello.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:20:10"
+    },
+    {
+      "id": 79,
+      "lead_id": 147,
+      "call_id": "7940941",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a3f2adf6-83ef-4ed7-9535-89973b639c0b.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Yeah, hello. The site from Amber.\nSpeaker B: Okay.\nSpeaker A: We were discussing regarding the student accommodation on WhatsApp. Regarding the Londonist world minister as well. So I just wanted to confirm if you have decided anything with the options now.\nSpeaker B: No, I'm. I. I already got another place, so I don't need the canvas anymore. The canvas welcomes to anyone.\nSpeaker A: And which property that you have booked, by the way?\nSpeaker B: Sorry, pardon?\nSpeaker A: Which property have you booked instead of canvas?\nSpeaker B: Can you text me because I cannot hear you. Well, sure.\nSpeaker A: I can text you on WhatsApp.\nSpeaker B: Okay, yeah, okay.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:20:18"
+    }
+  ],
+  "summary": {
+    "id": 64,
+    "lead_id": 147,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Jane Karina Gunawan\", \"mobile\": [\"447470632706\"], \"email\": [\"jkarinag97@gmail.com\"], \"whatsapp\": [\"447470632706\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"bronze ensuite upper level\", \"budget\": {\"max\": 365, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL Bloomsbury\", \"move_in_date\": \"2025-09-26\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"UCL Bloomsbury\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Londonest Canvas Waltz 2\", \"Grand Felda House\", \"Surrey Quays Landale House\", \"The Valentine\", \"Bright House\"], \"rooms_considered\": [\"bronze ensuite upper level\", \"3 Bed Apartment\", \"2 Bed Apartment\", \"5 Bed Ensuite\", \"4 Bed Ensuite\", \"5 Bed En-Suite Upper Floor\", \"Studio\", \"Single Accessible\", \"Upper floor Studio\", \"Platinum Studio\", \"Silver Non-Ensuite Room\", \"Platinum Ensuite\", \"Twin Room\", \"Premium Studio\", \"Premium Studio City View\", \"Deluxe Studio\", \"Luxury Studio\", \"Classic Room\", \"Premium Room\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Confirm with Jane which accommodation option she wishes to choose and secure the room before it gets sold out.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent message on 2025-09-25T17:01:35 and 17:01:43 requesting confirmation on choice before sold out.\"}, {\"type\": \"communication\", \"description\": \"Send Jane detailed property suggestions with links and room types for her consideration.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent detailed property suggestions on 2025-09-26T15:11:11.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Jane to check if she has decided on the accommodation after sending property suggestions.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent requested confirmation on 2025-09-25 and 2025-09-26 after sending options.\"}, {\"type\": \"booking_action\", \"description\": \"If Jane decides to take the offered 41-week contract, proceed with booking and contract arrangements.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent informed Jane about 41-week offer on 2025-09-25T16:23:05 and advised to take it.\"}, {\"type\": \"communication\", \"description\": \"Clarify with Jane that she does not need to take any action to apply as the agent has already mailed the property team.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent message on 2025-09-25T16:59:53 and 17:00:00 explaining application process.\"}, {\"type\": \"follow_up\", \"description\": \"Check with Jane if she has any further questions about room types, prices, or contract lengths.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Jane asked questions about room prices and contract length on 2025-09-26.\"}], \"last_agent_response\": \"Sent detailed property suggestions with links and room types on 2025-09-26T15:11:11, requested Jane to confirm her choice as soon as possible.\", \"suggested_next_step\": \"Follow up with Jane within 24 hours to confirm her accommodation choice and proceed with booking if she agrees.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jane Karina Gunawan\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages using UK mobile number +447470632706 and email jkarinag97@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"UCL Bloomsbury\", \"room_type\": \"Bronze ensuite upper level initially; also interested in bronze room lower level in Canvas; open to various room types including studios and apartments\", \"budget_range\": \"Around \\u00a3260 per week; initial budget \\u00a3365 per week stated\", \"move_in_date\": \"Around 26 September 2025\", \"lease_duration\": \"Initially 51 weeks requested; offered 41 weeks as alternative\", \"special_requirements\": \"Prefers in-person property viewing; interested in good quality properties close to university\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; student has decided to not proceed with Londonest Canvas World property and has booked another place\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 4 phone calls and multiple WhatsApp message exchanges over 13 days\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-09-29 via phone call\", \"response_time\": \"Generally prompt responses within minutes to hours on WhatsApp\", \"key_moments\": \"Initial inquiry and call on 2025-09-24 to clarify property and rent; WhatsApp conversation on 2025-09-25-26 discussing room availability, contract length, waitlist, and alternative properties; student informed agent on 2025-09-29 that she booked another property and no longer needs Canvas\"}, \"properties_discussed\": {\"properties_mentioned\": \"Londonest Canvas World (bronze ensuite upper level), Grand Felda House Wembley, Surrey Quays Landale House, The Valentine London, Bright House Kingston Upon Thames\", \"viewings_scheduled\": \"Student requested in-person viewing for Londonest Canvas World; no confirmed viewing scheduled\", \"preferences_expressed\": \"Prefers in-person viewing; interested in bronze ensuite rooms; concerned about contract length and room availability; prefers good quality properties close to UCL\", \"offers_made\": \"Offered 41-week lease instead of 51 weeks for Canvas; agent recommended taking offered room; multiple alternative properties with detailed pricing and links provided\"}, \"next_steps\": {\"immediate_actions\": \"None required as student has booked another property and declined Canvas\", \"pending_items\": \"None\", \"follow_up_required\": \"Confirm if student needs assistance with new booking or other options\", \"timeline\": \"Move-in around 26 September 2025; lease end around early September 2026\"}, \"agent_notes\": {\"student_tone\": \"Polite, prefers clear communication and in-person interactions; proactive in seeking information\", \"urgency_level\": \"Moderate urgency initially, but booking completed elsewhere\", \"complexity\": \"Moderate complexity due to room availability issues and contract length negotiation\", \"special_considerations\": \"Student prefers in-person viewing and clarity on contract length; waitlist was suggested but student opted out\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Jane Karina Gunawan\", \"mobile\": [\"447470632706\"], \"email\": [\"jkarinag97@gmail.com\"], \"whatsapp\": [\"447470632706\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"bronze ensuite upper level\", \"budget\": {\"max\": 365, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL Bloomsbury\", \"move_in_date\": \"2025-09-26\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"UCL Bloomsbury\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Londonest Canvas Waltz 2\", \"Grand Felda House\", \"Surrey Quays Landale House\", \"The Valentine\", \"Bright House\"], \"rooms_considered\": [\"bronze ensuite upper level\", \"3 Bed Apartment\", \"2 Bed Apartment\", \"5 Bed Ensuite\", \"4 Bed Ensuite\", \"5 Bed En-Suite Upper Floor\", \"Studio\", \"Single Accessible\", \"Upper floor Studio\", \"Platinum Studio\", \"Silver Non-Ensuite Room\", \"Platinum Ensuite\", \"Twin Room\", \"Premium Studio\", \"Premium Studio City View\", \"Deluxe Studio\", \"Luxury Studio\", \"Classic Room\", \"Premium Room\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Confirm with Jane which accommodation option she wishes to choose and secure the room before it gets sold out.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent message on 2025-09-25T17:01:35 and 17:01:43 requesting confirmation on choice before sold out.\"}, {\"type\": \"communication\", \"description\": \"Send Jane detailed property suggestions with links and room types for her consideration.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent detailed property suggestions on 2025-09-26T15:11:11.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Jane to check if she has decided on the accommodation after sending property suggestions.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent requested confirmation on 2025-09-25 and 2025-09-26 after sending options.\"}, {\"type\": \"booking_action\", \"description\": \"If Jane decides to take the offered 41-week contract, proceed with booking and contract arrangements.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent informed Jane about 41-week offer on 2025-09-25T16:23:05 and advised to take it.\"}, {\"type\": \"communication\", \"description\": \"Clarify with Jane that she does not need to take any action to apply as the agent has already mailed the property team.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent message on 2025-09-25T16:59:53 and 17:00:00 explaining application process.\"}, {\"type\": \"follow_up\", \"description\": \"Check with Jane if she has any further questions about room types, prices, or contract lengths.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Jane asked questions about room prices and contract length on 2025-09-26.\"}], \"last_agent_response\": \"Sent detailed property suggestions with links and room types on 2025-09-26T15:11:11, requested Jane to confirm her choice as soon as possible.\", \"suggested_next_step\": \"Follow up with Jane within 24 hours to confirm her accommodation choice and proceed with booking if she agrees.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Jane Karina Gunawan\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Contacted via phone calls and WhatsApp messages using UK mobile number +447470632706 and email jkarinag97@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"UCL Bloomsbury\", \"room_type\": \"Bronze ensuite upper level initially; also interested in bronze room lower level in Canvas; open to various room types including studios and apartments\", \"budget_range\": \"Around \\u00a3260 per week; initial budget \\u00a3365 per week stated\", \"move_in_date\": \"Around 26 September 2025\", \"lease_duration\": \"Initially 51 weeks requested; offered 41 weeks as alternative\", \"special_requirements\": \"Prefers in-person property viewing; interested in good quality properties close to university\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; student has decided to not proceed with Londonest Canvas World property and has booked another place\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"At least 4 phone calls and multiple WhatsApp message exchanges over 13 days\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-09-29 via phone call\", \"response_time\": \"Generally prompt responses within minutes to hours on WhatsApp\", \"key_moments\": \"Initial inquiry and call on 2025-09-24 to clarify property and rent; WhatsApp conversation on 2025-09-25-26 discussing room availability, contract length, waitlist, and alternative properties; student informed agent on 2025-09-29 that she booked another property and no longer needs Canvas\"}, \"properties_discussed\": {\"properties_mentioned\": \"Londonest Canvas World (bronze ensuite upper level), Grand Felda House Wembley, Surrey Quays Landale House, The Valentine London, Bright House Kingston Upon Thames\", \"viewings_scheduled\": \"Student requested in-person viewing for Londonest Canvas World; no confirmed viewing scheduled\", \"preferences_expressed\": \"Prefers in-person viewing; interested in bronze ensuite rooms; concerned about contract length and room availability; prefers good quality properties close to UCL\", \"offers_made\": \"Offered 41-week lease instead of 51 weeks for Canvas; agent recommended taking offered room; multiple alternative properties with detailed pricing and links provided\"}, \"next_steps\": {\"immediate_actions\": \"None required as student has booked another property and declined Canvas\", \"pending_items\": \"None\", \"follow_up_required\": \"Confirm if student needs assistance with new booking or other options\", \"timeline\": \"Move-in around 26 September 2025; lease end around early September 2026\"}, \"agent_notes\": {\"student_tone\": \"Polite, prefers clear communication and in-person interactions; proactive in seeking information\", \"urgency_level\": \"Moderate urgency initially, but booking completed elsewhere\", \"complexity\": \"Moderate complexity due to room availability issues and contract length negotiation\", \"special_considerations\": \"Student prefers in-person viewing and clarity on contract length; waitlist was suggested but student opted out\"}}}}}",
+    "created_at": "2025-11-18 10:20:32",
+    "updated_at": "2025-11-18T15:50:32.190326",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Jane Karina Gunawan",
+        "mobile": [
+          "447470632706"
+        ],
+        "email": [
+          "jkarinag97@gmail.com"
+        ],
+        "whatsapp": [
+          "447470632706"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "bronze ensuite upper level",
+        "budget": {
+          "max": 365,
+          "currency": "GBP"
+        },
+        "bathroom_type": "private_bathroom",
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "UCL Bloomsbury",
+        "move_in_date": "2025-09-26",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": "pbsa",
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "UCL Bloomsbury"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Londonest Canvas Waltz 2",
+          "Grand Felda House",
+          "Surrey Quays Landale House",
+          "The Valentine",
+          "Bright House"
+        ],
+        "rooms_considered": [
+          "bronze ensuite upper level",
+          "3 Bed Apartment",
+          "2 Bed Apartment",
+          "5 Bed Ensuite",
+          "4 Bed Ensuite",
+          "5 Bed En-Suite Upper Floor",
+          "Studio",
+          "Single Accessible",
+          "Upper floor Studio",
+          "Platinum Studio",
+          "Silver Non-Ensuite Room",
+          "Platinum Ensuite",
+          "Twin Room",
+          "Premium Studio",
+          "Premium Studio City View",
+          "Deluxe Studio",
+          "Luxury Studio",
+          "Classic Room",
+          "Premium Room"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Confirm with Jane which accommodation option she wishes to choose and secure the room before it gets sold out.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent message on 2025-09-25T17:01:35 and 17:01:43 requesting confirmation on choice before sold out."
+        },
+        {
+          "type": "communication",
+          "description": "Send Jane detailed property suggestions with links and room types for her consideration.",
+          "due": "completed",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent sent detailed property suggestions on 2025-09-26T15:11:11."
+        },
+        {
+          "type": "follow_up",
+          "description": "Follow up with Jane to check if she has decided on the accommodation after sending property suggestions.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent requested confirmation on 2025-09-25 and 2025-09-26 after sending options."
+        },
+        {
+          "type": "booking_action",
+          "description": "If Jane decides to take the offered 41-week contract, proceed with booking and contract arrangements.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent informed Jane about 41-week offer on 2025-09-25T16:23:05 and advised to take it."
+        },
+        {
+          "type": "communication",
+          "description": "Clarify with Jane that she does not need to take any action to apply as the agent has already mailed the property team.",
+          "due": "completed",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent message on 2025-09-25T16:59:53 and 17:00:00 explaining application process."
+        },
+        {
+          "type": "follow_up",
+          "description": "Check with Jane if she has any further questions about room types, prices, or contract lengths.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Jane asked questions about room prices and contract length on 2025-09-26."
+        }
+      ],
+      "last_agent_response": "Sent detailed property suggestions with links and room types on 2025-09-26T15:11:11, requested Jane to confirm her choice as soon as possible.",
+      "suggested_next_step": "Follow up with Jane within 24 hours to confirm her accommodation choice and proceed with booking if she agrees."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Jane Karina Gunawan",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Contacted via phone calls and WhatsApp messages using UK mobile number +447470632706 and email jkarinag97@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "UCL Bloomsbury",
+            "room_type": "Bronze ensuite upper level initially; also interested in bronze room lower level in Canvas; open to various room types including studios and apartments",
+            "budget_range": "Around £260 per week; initial budget £365 per week stated",
+            "move_in_date": "Around 26 September 2025",
+            "lease_duration": "Initially 51 weeks requested; offered 41 weeks as alternative",
+            "special_requirements": "Prefers in-person property viewing; interested in good quality properties close to university"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage; student has decided to not proceed with Londonest Canvas World property and has booked another place",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "At least 4 phone calls and multiple WhatsApp message exchanges over 13 days",
+            "primary_channel": "WhatsApp messaging",
+            "last_contact": "2025-09-29 via phone call",
+            "response_time": "Generally prompt responses within minutes to hours on WhatsApp",
+            "key_moments": "Initial inquiry and call on 2025-09-24 to clarify property and rent; WhatsApp conversation on 2025-09-25-26 discussing room availability, contract length, waitlist, and alternative properties; student informed agent on 2025-09-29 that she booked another property and no longer needs Canvas"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Londonest Canvas World (bronze ensuite upper level), Grand Felda House Wembley, Surrey Quays Landale House, The Valentine London, Bright House Kingston Upon Thames",
+            "viewings_scheduled": "Student requested in-person viewing for Londonest Canvas World; no confirmed viewing scheduled",
+            "preferences_expressed": "Prefers in-person viewing; interested in bronze ensuite rooms; concerned about contract length and room availability; prefers good quality properties close to UCL",
+            "offers_made": "Offered 41-week lease instead of 51 weeks for Canvas; agent recommended taking offered room; multiple alternative properties with detailed pricing and links provided"
+          },
+          "next_steps": {
+            "immediate_actions": "None required as student has booked another property and declined Canvas",
+            "pending_items": "None",
+            "follow_up_required": "Confirm if student needs assistance with new booking or other options",
+            "timeline": "Move-in around 26 September 2025; lease end around early September 2026"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, prefers clear communication and in-person interactions; proactive in seeking information",
+            "urgency_level": "Moderate urgency initially, but booking completed elsewhere",
+            "complexity": "Moderate complexity due to room availability issues and contract length negotiation",
+            "special_considerations": "Student prefers in-person viewing and clarity on contract length; waitlist was suggested but student opted out"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Jane Karina Gunawan",
+          "mobile": [
+            "447470632706"
+          ],
+          "email": [
+            "jkarinag97@gmail.com"
+          ],
+          "whatsapp": [
+            "447470632706"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "bronze ensuite upper level",
+          "budget": {
+            "max": 365,
+            "currency": "GBP"
+          },
+          "bathroom_type": "private_bathroom",
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "UCL Bloomsbury",
+          "move_in_date": "2025-09-26",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": "pbsa",
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "UCL Bloomsbury"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Londonest Canvas Waltz 2",
+            "Grand Felda House",
+            "Surrey Quays Landale House",
+            "The Valentine",
+            "Bright House"
+          ],
+          "rooms_considered": [
+            "bronze ensuite upper level",
+            "3 Bed Apartment",
+            "2 Bed Apartment",
+            "5 Bed Ensuite",
+            "4 Bed Ensuite",
+            "5 Bed En-Suite Upper Floor",
+            "Studio",
+            "Single Accessible",
+            "Upper floor Studio",
+            "Platinum Studio",
+            "Silver Non-Ensuite Room",
+            "Platinum Ensuite",
+            "Twin Room",
+            "Premium Studio",
+            "Premium Studio City View",
+            "Deluxe Studio",
+            "Luxury Studio",
+            "Classic Room",
+            "Premium Room"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Confirm with Jane which accommodation option she wishes to choose and secure the room before it gets sold out.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent message on 2025-09-25T17:01:35 and 17:01:43 requesting confirmation on choice before sold out."
+          },
+          {
+            "type": "communication",
+            "description": "Send Jane detailed property suggestions with links and room types for her consideration.",
+            "due": "completed",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent sent detailed property suggestions on 2025-09-26T15:11:11."
+          },
+          {
+            "type": "follow_up",
+            "description": "Follow up with Jane to check if she has decided on the accommodation after sending property suggestions.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent requested confirmation on 2025-09-25 and 2025-09-26 after sending options."
+          },
+          {
+            "type": "booking_action",
+            "description": "If Jane decides to take the offered 41-week contract, proceed with booking and contract arrangements.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent informed Jane about 41-week offer on 2025-09-25T16:23:05 and advised to take it."
+          },
+          {
+            "type": "communication",
+            "description": "Clarify with Jane that she does not need to take any action to apply as the agent has already mailed the property team.",
+            "due": "completed",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent message on 2025-09-25T16:59:53 and 17:00:00 explaining application process."
+          },
+          {
+            "type": "follow_up",
+            "description": "Check with Jane if she has any further questions about room types, prices, or contract lengths.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Jane asked questions about room prices and contract length on 2025-09-26."
+          }
+        ],
+        "last_agent_response": "Sent detailed property suggestions with links and room types on 2025-09-26T15:11:11, requested Jane to confirm her choice as soon as possible.",
+        "suggested_next_step": "Follow up with Jane within 24 hours to confirm her accommodation choice and proceed with booking if she agrees."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Jane Karina Gunawan",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Contacted via phone calls and WhatsApp messages using UK mobile number +447470632706 and email jkarinag97@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "UCL Bloomsbury",
+              "room_type": "Bronze ensuite upper level initially; also interested in bronze room lower level in Canvas; open to various room types including studios and apartments",
+              "budget_range": "Around £260 per week; initial budget £365 per week stated",
+              "move_in_date": "Around 26 September 2025",
+              "lease_duration": "Initially 51 weeks requested; offered 41 weeks as alternative",
+              "special_requirements": "Prefers in-person property viewing; interested in good quality properties close to university"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage; student has decided to not proceed with Londonest Canvas World property and has booked another place",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "At least 4 phone calls and multiple WhatsApp message exchanges over 13 days",
+              "primary_channel": "WhatsApp messaging",
+              "last_contact": "2025-09-29 via phone call",
+              "response_time": "Generally prompt responses within minutes to hours on WhatsApp",
+              "key_moments": "Initial inquiry and call on 2025-09-24 to clarify property and rent; WhatsApp conversation on 2025-09-25-26 discussing room availability, contract length, waitlist, and alternative properties; student informed agent on 2025-09-29 that she booked another property and no longer needs Canvas"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Londonest Canvas World (bronze ensuite upper level), Grand Felda House Wembley, Surrey Quays Landale House, The Valentine London, Bright House Kingston Upon Thames",
+              "viewings_scheduled": "Student requested in-person viewing for Londonest Canvas World; no confirmed viewing scheduled",
+              "preferences_expressed": "Prefers in-person viewing; interested in bronze ensuite rooms; concerned about contract length and room availability; prefers good quality properties close to UCL",
+              "offers_made": "Offered 41-week lease instead of 51 weeks for Canvas; agent recommended taking offered room; multiple alternative properties with detailed pricing and links provided"
+            },
+            "next_steps": {
+              "immediate_actions": "None required as student has booked another property and declined Canvas",
+              "pending_items": "None",
+              "follow_up_required": "Confirm if student needs assistance with new booking or other options",
+              "timeline": "Move-in around 26 September 2025; lease end around early September 2026"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, prefers clear communication and in-person interactions; proactive in seeking information",
+              "urgency_level": "Moderate urgency initially, but booking completed elsewhere",
+              "complexity": "Moderate complexity due to room availability issues and contract length negotiation",
+              "special_considerations": "Student prefers in-person viewing and clarity on contract length; waitlist was suggested but student opted out"
+            }
+          }
+        }
+      }
+    }
+  }
+}

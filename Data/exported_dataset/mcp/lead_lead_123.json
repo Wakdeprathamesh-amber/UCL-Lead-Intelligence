@@ -1,0 +1,407 @@
+{
+  "id": "lead_123",
+  "mobile_number": "447860223357",
+  "email": null,
+  "timeline": [
+    {
+      "id": 16872,
+      "lead_id": 123,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3147986, \"user_name\": \"Sofia Fantin\", \"email\": \"sofia.fantin@icloud.com\", \"phone\": \"447860223357\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 343, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2081269}",
+      "created_at": "2025-11-19 07:08:49"
+    },
+    {
+      "id": 16873,
+      "lead_id": 123,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-16T12:48:54",
+      "content": "Hello Sofia, thank you for contacting Amber Student for your accommodation search in London! As the official partner of University College London, we’re here to ensure you find the perfect place to stay.\n\nI’m Shikha, and I’ll be guiding you through the process. Please let me know a convenient time to connect so we can move forward with discussing and exploring your preferred accommodation options.\n\nLooking forward to hearing from you!\n\nThankyou",
+      "source": "whatsapp",
+      "event_id": "7331781",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-16T12:48:54\", \"id\": 7331781, \"email\": \"\", \"from_number\": \"447897036566\", \"to_number\": \"447860223357\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447860223357@c.us_3EB0BF783120763CF07307\", \"message_type\": \"text\", \"message_content\": \"Hello Sofia, thank you for contacting Amber Student for your accommodation search in London! As the official partner of University College London, we\\u2019re here to ensure you find the perfect place to stay.\\n\\nI\\u2019m Shikha, and I\\u2019ll be guiding you through the process. Please let me know a convenient time to connect so we can move forward with discussing and exploring your preferred accommodation options.\\n\\nLooking forward to hearing from you!\\n\\nThankyou\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447897036566@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-16T12:48:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447897036566@c.us\\\", \\\"Message\\\": \\\"Hello Sofia, thank you for contacting Amber Student for your accommodation search in London! As the official partner of University College London, we\\u2019re here to ensure you find the perfect place to stay.\\\\n\\\\nI\\u2019m Shikha, and I\\u2019ll be guiding you through the process. Please let me know a convenient time to connect so we can move forward with discussing and exploring your preferred accommodation options.\\\\n\\\\nLooking forward to hearing from you!\\\\n\\\\nThankyou\\\", \\\"Datetime\\\": 1755348534000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447860223357@c.us\\\", \\\"Sentbyid\\\": \\\"447897036566@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447860223357@c.us_3EB0BF783120763CF07307\\\", \\\"ChannelName\\\": \\\"447860223357\\\", \\\"SentByNumber\\\": \\\"447897036566\\\", \\\"sentByUserId\\\": \\\"447897036566@c.us\\\", \\\"CreatedByUser\\\": \\\"447897036566\\\"}]}\", \"updated_at\": \"2025-08-16T12:48:54.725517\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 883, \"agent_number\": \"447897036566\", \"customer_number\": \"447860223357\"}",
+      "created_at": "2025-11-19 07:08:49"
+    },
+    {
+      "id": 16874,
+      "lead_id": 123,
+      "event_type": "call",
+      "timestamp": "2025-08-16T13:14:03.500324",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7696919",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-16T13:14:03.500324\", \"id\": 7696919, \"duration\": \"45\", \"to_number\": \"447860223357\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f573a736-6216-46a8-b4f5-19a87a562f70.wav\"}",
+      "created_at": "2025-11-19 07:08:49"
+    },
+    {
+      "id": 16875,
+      "lead_id": 123,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-16T13:21:08",
+      "content": "We have processed the booking for *Fusion Brent cross, London*\nKindly check your mail login link has been sent there.\n\nLet me know if you have any doubt",
+      "source": "whatsapp",
+      "event_id": "7333657",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-16T13:21:08\", \"id\": 7333657, \"email\": \"\", \"from_number\": \"447897036566\", \"to_number\": \"447860223357\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447860223357@c.us_3EB09D4E2BD220CC5F1CC5\", \"message_type\": \"text\", \"message_content\": \"We have processed the booking for *Fusion Brent cross, London*\\nKindly check your mail login link has been sent there.\\n\\nLet me know if you have any doubt\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447897036566@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-16T13:21:08.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447897036566@c.us\\\", \\\"Message\\\": \\\"We have processed the booking for *Fusion Brent cross, London*\\\\nKindly check your mail login link has been sent there.\\\\n\\\\nLet me know if you have any doubt\\\", \\\"Datetime\\\": 1755350468000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447860223357@c.us\\\", \\\"Sentbyid\\\": \\\"447897036566@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447860223357@c.us_3EB09D4E2BD220CC5F1CC5\\\", \\\"ChannelName\\\": \\\"447860223357\\\", \\\"SentByNumber\\\": \\\"447897036566\\\", \\\"sentByUserId\\\": \\\"447897036566@c.us\\\", \\\"CreatedByUser\\\": \\\"447897036566\\\"}]}\", \"updated_at\": \"2025-08-16T13:21:08.871213\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 883, \"agent_number\": \"447897036566\", \"customer_number\": \"447860223357\"}",
+      "created_at": "2025-11-19 07:08:49"
+    },
+    {
+      "id": 16876,
+      "lead_id": 123,
+      "event_type": "call",
+      "timestamp": "2025-08-17T11:47:19.480851",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7701682",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-17T11:47:19.480851\", \"id\": 7701682, \"duration\": \"15\", \"to_number\": \"447860223357\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/fb542b95-4665-48f3-878d-fee1cf3768d2.wav\"}",
+      "created_at": "2025-11-19 07:08:49"
+    },
+    {
+      "id": 16877,
+      "lead_id": 123,
+      "event_type": "call",
+      "timestamp": "2025-08-18T14:52:48.564874",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7708974",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T14:52:48.564874\", \"id\": 7708974, \"duration\": \"15\", \"to_number\": \"447860223357\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/6bc428fa-3823-412f-b7f5-6d800f7beaa8.wav\"}",
+      "created_at": "2025-11-19 07:08:49"
+    },
+    {
+      "id": 16878,
+      "lead_id": 123,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T14:53:43",
+      "content": "Hello Sofia\nGreeting",
+      "source": "whatsapp",
+      "event_id": "7427233",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T14:53:43\", \"id\": 7427233, \"email\": \"\", \"from_number\": \"447897036566\", \"to_number\": \"447860223357\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447860223357@c.us_3EB05896069611569E0410\", \"message_type\": \"text\", \"message_content\": \"Hello Sofia\\nGreeting\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447897036566@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T14:53:43.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447897036566@c.us\\\", \\\"Message\\\": \\\"Hello Sofia\\\\nGreeting\\\", \\\"Datetime\\\": 1755528823000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447860223357@c.us\\\", \\\"Sentbyid\\\": \\\"447897036566@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447860223357@c.us_3EB05896069611569E0410\\\", \\\"ChannelName\\\": \\\"447860223357\\\", \\\"SentByNumber\\\": \\\"447897036566\\\", \\\"sentByUserId\\\": \\\"447897036566@c.us\\\", \\\"CreatedByUser\\\": \\\"447897036566\\\"}]}\", \"updated_at\": \"2025-08-18T14:53:43.639913\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 883, \"agent_number\": \"447897036566\", \"customer_number\": \"447860223357\"}",
+      "created_at": "2025-11-19 07:08:49"
+    },
+    {
+      "id": 16879,
+      "lead_id": 123,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T14:53:47",
+      "content": "I've been trying to reach you to discuss your accommodation in London. \nPlease let me know a convenient time for us to talk, or we can continue the conversation here if that works better for you.",
+      "source": "whatsapp",
+      "event_id": "7427239",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T14:53:47\", \"id\": 7427239, \"email\": \"\", \"from_number\": \"447897036566\", \"to_number\": \"447860223357\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447860223357@c.us_3EB0EEBFD6040A528D69D1\", \"message_type\": \"text\", \"message_content\": \"I've been trying to reach you to discuss your accommodation in London. \\nPlease let me know a convenient time for us to talk, or we can continue the conversation here if that works better for you.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447897036566@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T14:53:47.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447897036566@c.us\\\", \\\"Message\\\": \\\"I've been trying to reach you to discuss your accommodation in London. \\\\nPlease let me know a convenient time for us to talk, or we can continue the conversation here if that works better for you.\\\", \\\"Datetime\\\": 1755528827000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447860223357@c.us\\\", \\\"Sentbyid\\\": \\\"447897036566@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447860223357@c.us_3EB0EEBFD6040A528D69D1\\\", \\\"ChannelName\\\": \\\"447860223357\\\", \\\"SentByNumber\\\": \\\"447897036566\\\", \\\"sentByUserId\\\": \\\"447897036566@c.us\\\", \\\"CreatedByUser\\\": \\\"447897036566\\\"}]}\", \"updated_at\": \"2025-08-18T14:53:47.894234\", \"direction\": \"outbound\", \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 883, \"agent_number\": \"447897036566\", \"customer_number\": \"447860223357\"}",
+      "created_at": "2025-11-19 07:08:49"
+    },
+    {
+      "id": 16880,
+      "lead_id": 123,
+      "event_type": "call",
+      "timestamp": "2025-08-20T17:18:23.929484",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7725575",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T17:18:23.929484\", \"id\": 7725575, \"duration\": \"38\", \"to_number\": \"447860223357\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ca71f2b2-6e28-4329-a5b4-466bc58e0619.wav\"}",
+      "created_at": "2025-11-19 07:08:49"
+    },
+    {
+      "id": 16881,
+      "lead_id": 123,
+      "event_type": "call",
+      "timestamp": "2025-08-22T16:03:58.435733",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7740884",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-22T16:03:58.435733\", \"id\": 7740884, \"duration\": \"14\", \"to_number\": \"447860223357\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/62b8e7e9-a4ca-41fe-9c35-39c76c124d50.wav\"}",
+      "created_at": "2025-11-19 07:08:49"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 54,
+      "lead_id": 123,
+      "call_id": "7696919",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f573a736-6216-46a8-b4f5-19a87a562f70.wav",
+      "transcript_text": "Speaker B: Hello? Ha. I'm joking. I'm not here. Call me back. And if I don't answer, then I probably don't want to speak to you. Bye.\nSpeaker A: Please leave your message after the tone to re record your message key hash at any time. Please leave your message after the tone to re record your message key hash at any time.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:15:56"
+    }
+  ],
+  "summary": {
+    "id": 410,
+    "lead_id": 123,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Sofia Fantin\", \"mobile\": [\"447860223357\"], \"email\": [\"sofia.fantin@icloud.com\"], \"whatsapp\": [\"447860223357\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 343, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Fusion Brent cross\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Sofia to confirm a convenient time to discuss accommodation options or continue conversation via WhatsApp.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-18 requesting Sofia to confirm a convenient time to talk or continue conversation here.\"}, {\"type\": \"booking_action\", \"description\": \"Student to check email for login link related to booking for Fusion Brent Cross, London.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-08-16 confirming booking and instructing to check email for login link.\"}], \"last_agent_response\": \"Agent confirmed booking for Fusion Brent Cross, London and informed Sofia that login link has been sent to her email. Agent also reached out multiple times to arrange a call or continue conversation via WhatsApp.\", \"suggested_next_step\": \"Agent to follow up with Sofia to confirm a convenient time for a call or continue discussion via WhatsApp.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Sofia Fantin\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (sofia.fantin@icloud.com), Phone (UK number +447860223357), WhatsApp\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3343 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking processed for Fusion Brent Cross, London\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"9 (3 WhatsApp messages, 6 calls)\", \"primary_channel\": \"Calls and WhatsApp\", \"last_contact\": \"2025-08-22 via call\", \"response_time\": \"Agent initiated contact multiple times; student response not explicitly mentioned\", \"key_moments\": \"Initial contact and guidance by agent Shikha on 2025-08-16; booking processed for Fusion Brent Cross on 2025-08-16; multiple follow-up calls and messages to discuss accommodation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Fusion Brent Cross, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to check email for login link and confirm booking details\", \"pending_items\": \"Student response to agent\\u2019s follow-up messages and calls\", \"follow_up_required\": \"Agent to await student confirmation or queries regarding booking\", \"timeline\": \"Move-out date noted as 2026-08-28; no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Not explicitly mentioned; no direct student messages recorded\", \"urgency_level\": \"Moderate, multiple follow-ups indicate agent attention\", \"complexity\": \"Standard booking process\", \"special_considerations\": \"Student is booking for self; official partner of University College London involved\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Sofia Fantin\", \"mobile\": [\"447860223357\"], \"email\": [\"sofia.fantin@icloud.com\"], \"whatsapp\": [\"447860223357\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 343, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Fusion Brent cross\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Sofia to confirm a convenient time to discuss accommodation options or continue conversation via WhatsApp.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-18 requesting Sofia to confirm a convenient time to talk or continue conversation here.\"}, {\"type\": \"booking_action\", \"description\": \"Student to check email for login link related to booking for Fusion Brent Cross, London.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-08-16 confirming booking and instructing to check email for login link.\"}], \"last_agent_response\": \"Agent confirmed booking for Fusion Brent Cross, London and informed Sofia that login link has been sent to her email. Agent also reached out multiple times to arrange a call or continue conversation via WhatsApp.\", \"suggested_next_step\": \"Agent to follow up with Sofia to confirm a convenient time for a call or continue discussion via WhatsApp.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Sofia Fantin\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (sofia.fantin@icloud.com), Phone (UK number +447860223357), WhatsApp\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3343 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking processed for Fusion Brent Cross, London\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"9 (3 WhatsApp messages, 6 calls)\", \"primary_channel\": \"Calls and WhatsApp\", \"last_contact\": \"2025-08-22 via call\", \"response_time\": \"Agent initiated contact multiple times; student response not explicitly mentioned\", \"key_moments\": \"Initial contact and guidance by agent Shikha on 2025-08-16; booking processed for Fusion Brent Cross on 2025-08-16; multiple follow-up calls and messages to discuss accommodation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Fusion Brent Cross, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Student to check email for login link and confirm booking details\", \"pending_items\": \"Student response to agent\\u2019s follow-up messages and calls\", \"follow_up_required\": \"Agent to await student confirmation or queries regarding booking\", \"timeline\": \"Move-out date noted as 2026-08-28; no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Not explicitly mentioned; no direct student messages recorded\", \"urgency_level\": \"Moderate, multiple follow-ups indicate agent attention\", \"complexity\": \"Standard booking process\", \"special_considerations\": \"Student is booking for self; official partner of University College London involved\"}}}}}",
+    "created_at": "2025-11-19 07:09:03",
+    "updated_at": "2025-11-19T12:39:03.543624",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Sofia Fantin",
+        "mobile": [
+          "447860223357"
+        ],
+        "email": [
+          "sofia.fantin@icloud.com"
+        ],
+        "whatsapp": [
+          "447860223357"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 343,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Fusion Brent cross"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Sofia to confirm a convenient time to discuss accommodation options or continue conversation via WhatsApp.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages on 2025-08-18 requesting Sofia to confirm a convenient time to talk or continue conversation here."
+        },
+        {
+          "type": "booking_action",
+          "description": "Student to check email for login link related to booking for Fusion Brent Cross, London.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp message on 2025-08-16 confirming booking and instructing to check email for login link."
+        }
+      ],
+      "last_agent_response": "Agent confirmed booking for Fusion Brent Cross, London and informed Sofia that login link has been sent to her email. Agent also reached out multiple times to arrange a call or continue conversation via WhatsApp.",
+      "suggested_next_step": "Agent to follow up with Sofia to confirm a convenient time for a call or continue discussion via WhatsApp."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Sofia Fantin",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (sofia.fantin@icloud.com), Phone (UK number +447860223357), WhatsApp",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£343 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking processed for Fusion Brent Cross, London",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "9 (3 WhatsApp messages, 6 calls)",
+            "primary_channel": "Calls and WhatsApp",
+            "last_contact": "2025-08-22 via call",
+            "response_time": "Agent initiated contact multiple times; student response not explicitly mentioned",
+            "key_moments": "Initial contact and guidance by agent Shikha on 2025-08-16; booking processed for Fusion Brent Cross on 2025-08-16; multiple follow-up calls and messages to discuss accommodation"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Fusion Brent Cross, London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to check email for login link and confirm booking details",
+            "pending_items": "Student response to agent’s follow-up messages and calls",
+            "follow_up_required": "Agent to await student confirmation or queries regarding booking",
+            "timeline": "Move-out date noted as 2026-08-28; no move-in date specified"
+          },
+          "agent_notes": {
+            "student_tone": "Not explicitly mentioned; no direct student messages recorded",
+            "urgency_level": "Moderate, multiple follow-ups indicate agent attention",
+            "complexity": "Standard booking process",
+            "special_considerations": "Student is booking for self; official partner of University College London involved"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Sofia Fantin",
+          "mobile": [
+            "447860223357"
+          ],
+          "email": [
+            "sofia.fantin@icloud.com"
+          ],
+          "whatsapp": [
+            "447860223357"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 343,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Fusion Brent cross"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Sofia to confirm a convenient time to discuss accommodation options or continue conversation via WhatsApp.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages on 2025-08-18 requesting Sofia to confirm a convenient time to talk or continue conversation here."
+          },
+          {
+            "type": "booking_action",
+            "description": "Student to check email for login link related to booking for Fusion Brent Cross, London.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp message on 2025-08-16 confirming booking and instructing to check email for login link."
+          }
+        ],
+        "last_agent_response": "Agent confirmed booking for Fusion Brent Cross, London and informed Sofia that login link has been sent to her email. Agent also reached out multiple times to arrange a call or continue conversation via WhatsApp.",
+        "suggested_next_step": "Agent to follow up with Sofia to confirm a convenient time for a call or continue discussion via WhatsApp."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Sofia Fantin",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (sofia.fantin@icloud.com), Phone (UK number +447860223357), WhatsApp",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£343 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking processed for Fusion Brent Cross, London",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "9 (3 WhatsApp messages, 6 calls)",
+              "primary_channel": "Calls and WhatsApp",
+              "last_contact": "2025-08-22 via call",
+              "response_time": "Agent initiated contact multiple times; student response not explicitly mentioned",
+              "key_moments": "Initial contact and guidance by agent Shikha on 2025-08-16; booking processed for Fusion Brent Cross on 2025-08-16; multiple follow-up calls and messages to discuss accommodation"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Fusion Brent Cross, London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to check email for login link and confirm booking details",
+              "pending_items": "Student response to agent’s follow-up messages and calls",
+              "follow_up_required": "Agent to await student confirmation or queries regarding booking",
+              "timeline": "Move-out date noted as 2026-08-28; no move-in date specified"
+            },
+            "agent_notes": {
+              "student_tone": "Not explicitly mentioned; no direct student messages recorded",
+              "urgency_level": "Moderate, multiple follow-ups indicate agent attention",
+              "complexity": "Standard booking process",
+              "special_considerations": "Student is booking for self; official partner of University College London involved"
+            }
+          }
+        }
+      }
+    }
+  }
+}

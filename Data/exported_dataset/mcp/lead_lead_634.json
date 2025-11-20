@@ -1,0 +1,327 @@
+{
+  "id": "lead_634",
+  "mobile_number": "447724027637",
+  "email": null,
+  "timeline": [
+    {
+      "id": 10330,
+      "lead_id": 634,
+      "event_type": "call",
+      "timestamp": "2025-09-10T13:26:05.565965",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7851300",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-10T13:26:05.565965\", \"id\": 7851300, \"duration\": \"0\", \"to_number\": \"447724027637\", \"from_number\": \"447897036566\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:36"
+    },
+    {
+      "id": 10331,
+      "lead_id": 634,
+      "event_type": "call",
+      "timestamp": "2025-09-17T14:20:55.527421",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7890153",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-17T14:20:55.527421\", \"id\": 7890153, \"duration\": \"0\", \"to_number\": \"447724027637\", \"from_number\": \"447897036566\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:57:36"
+    },
+    {
+      "id": 10332,
+      "lead_id": 634,
+      "event_type": "call",
+      "timestamp": "2025-09-18T13:53:46.604963",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7895825",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-18T13:53:46.604963\", \"id\": 7895825, \"duration\": \"170\", \"to_number\": \"447724027637\", \"from_number\": \"447897036566\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/56766f92-ccc9-4745-90fc-b4f293502afd.wav\"}",
+      "created_at": "2025-11-18 11:57:36"
+    },
+    {
+      "id": 10333,
+      "lead_id": 634,
+      "event_type": "lead_info",
+      "timestamp": "2025-11-18T17:27:36.037081",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-11-18T17:27:36.037081\", \"lead_id\": 3220000, \"user_name\": \"Timmy Ting\", \"email\": \"timmyting1021@gmail.com\", \"phone\": \"447724027637\", \"lease_duration\": \"51 week\", \"budget\": 419, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 883, \"inventory_id\": 176780}",
+      "created_at": "2025-11-18 11:57:36"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 512,
+      "lead_id": 634,
+      "call_id": "7895825",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/56766f92-ccc9-4745-90fc-b4f293502afd.wav",
+      "transcript_text": "Speaker A: Hello? Hello. You were speaking with Timmy?\nSpeaker B: Yes, hello.\nSpeaker A: Yeah, hi, this is Shikha from Amber. How are you?\nSpeaker B: Yeah, good, thank you.\nSpeaker A: Okay, great to know. So actually we had a discussion regarding your accommodation. You are searching in London?\nSpeaker B: Yeah, I've actually found.\nSpeaker A: I'm so sorry, your voice is not coming clearly. Could you please repeat yourself?\nSpeaker B: Yes, can you hear me now?\nSpeaker A: Yeah, yeah, much better.\nSpeaker B: Okay, so basically I've got. Basically I know I've got some place already, so I don't necessarily need. I've booked. I've now have. Actually, I've booked his lab directly, so.\nSpeaker A: Okay, so have you like booked a student or a private accommodation?\nSpeaker B: I have applied, yes, I've applied the student accommodation.\nSpeaker A: Okay, and which accommodation have you got it?\nSpeaker B: IQ toughness.\nSpeaker A: IQ toughness.\nSpeaker B: Yes, yes.\nSpeaker A: Have you completed your.\nSpeaker B: Yeah, I've moved in now.\nSpeaker A: You have moved in as well?\nSpeaker B: Yeah.\nSpeaker A: All right, all right. Could you please confirm the resident ID?\nSpeaker B: Yeah, that's fine. It's 517754.\nSpeaker A: One second. 51517. Mm.\nSpeaker B: 754.\nSpeaker A: 754, that's correct. And you have used this email ID, Timmy Ting1021.\nSpeaker B: I think I booked with them separately.\nSpeaker A: So have you used this email ID or a different email id?\nSpeaker B: Maybe a different one because I've booked with them separately.\nSpeaker A: Okay, which email ID have you used?\nSpeaker B: I use 10282102 and@icloud.com.\nSpeaker A: Okay, you can just text me on a WhatsApp if you have like issue dropping here. You can just confirm me over which email ID have you used?\nSpeaker B: Yeah, that's fine.\nSpeaker A: Okay, I have just texted you on a WhatsApp. Just check it there and you can just confirm me which email ID have you used? If it is this one or something else. Okay, thank you. No worries. Thanks.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:57:48"
+    }
+  ],
+  "summary": {
+    "id": 259,
+    "lead_id": 634,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Timmy Ting\", \"mobile\": [\"+447724027637\"], \"email\": [\"timmyting1021@gmail.com\", \"10282102and@icloud.com\"], \"whatsapp\": [\"+447724027637\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 419, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Toughness\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Confirm with Timmy Ting the exact email ID used for booking the IQ Toughness student accommodation via WhatsApp.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-18 where agent requested confirmation of email ID used for booking\"}], \"last_agent_response\": \"Agent Shikha contacted Timmy to confirm his accommodation details and requested confirmation of the email ID used for booking via WhatsApp message.\", \"suggested_next_step\": \"Wait for Timmy to respond on WhatsApp with the correct email ID used for his accommodation booking.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Timmy Ting\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number 447724027637; email IDs mentioned include timmyting1021@gmail.com and 10282102and@icloud.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3419 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking confirmed and moved in\", \"documents_status\": \"Resident ID provided (517754)\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 calls and 1 lead info record\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-11-18 (lead info recorded)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Initial calls with no answer; successful call on 2025-09-18 confirming booking and move-in at IQ Toughness student accommodation; confirmation of resident ID and email communication for verification\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ Toughness student accommodation\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student has already booked and moved in; no further preferences expressed\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm correct email ID via WhatsApp as requested by agent\", \"pending_items\": \"Email ID confirmation from student\", \"follow_up_required\": \"Agent to await student's confirmation of email ID\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Cooperative and responsive once contact established\", \"urgency_level\": \"Low, as booking is already completed and student has moved in\", \"complexity\": \"Simple case; student has secured accommodation independently\", \"special_considerations\": \"Ensure email ID is correctly recorded for communication; student booked accommodation separately from agent's system\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Timmy Ting\", \"mobile\": [\"+447724027637\"], \"email\": [\"timmyting1021@gmail.com\", \"10282102and@icloud.com\"], \"whatsapp\": [\"+447724027637\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 419, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Toughness\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Confirm with Timmy Ting the exact email ID used for booking the IQ Toughness student accommodation via WhatsApp.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-18 where agent requested confirmation of email ID used for booking\"}], \"last_agent_response\": \"Agent Shikha contacted Timmy to confirm his accommodation details and requested confirmation of the email ID used for booking via WhatsApp message.\", \"suggested_next_step\": \"Wait for Timmy to respond on WhatsApp with the correct email ID used for his accommodation booking.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Timmy Ting\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number 447724027637; email IDs mentioned include timmyting1021@gmail.com and 10282102and@icloud.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3419 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking confirmed and moved in\", \"documents_status\": \"Resident ID provided (517754)\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 calls and 1 lead info record\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-11-18 (lead info recorded)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Initial calls with no answer; successful call on 2025-09-18 confirming booking and move-in at IQ Toughness student accommodation; confirmation of resident ID and email communication for verification\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ Toughness student accommodation\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student has already booked and moved in; no further preferences expressed\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Confirm correct email ID via WhatsApp as requested by agent\", \"pending_items\": \"Email ID confirmation from student\", \"follow_up_required\": \"Agent to await student's confirmation of email ID\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Cooperative and responsive once contact established\", \"urgency_level\": \"Low, as booking is already completed and student has moved in\", \"complexity\": \"Simple case; student has secured accommodation independently\", \"special_considerations\": \"Ensure email ID is correctly recorded for communication; student booked accommodation separately from agent's system\"}}}}}",
+    "created_at": "2025-11-18 11:57:55",
+    "updated_at": "2025-11-18T17:27:55.749932",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Timmy Ting",
+        "mobile": [
+          "+447724027637"
+        ],
+        "email": [
+          "timmyting1021@gmail.com",
+          "10282102and@icloud.com"
+        ],
+        "whatsapp": [
+          "+447724027637"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 419,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": "pbsa",
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "IQ Toughness"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Confirm with Timmy Ting the exact email ID used for booking the IQ Toughness student accommodation via WhatsApp.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Call on 2025-09-18 where agent requested confirmation of email ID used for booking"
+        }
+      ],
+      "last_agent_response": "Agent Shikha contacted Timmy to confirm his accommodation details and requested confirmation of the email ID used for booking via WhatsApp message.",
+      "suggested_next_step": "Wait for Timmy to respond on WhatsApp with the correct email ID used for his accommodation booking."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Timmy Ting",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via number 447724027637; email IDs mentioned include timmyting1021@gmail.com and 10282102and@icloud.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£419 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking confirmed and moved in",
+            "documents_status": "Resident ID provided (517754)",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 calls and 1 lead info record",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-11-18 (lead info recorded)",
+            "response_time": "Not explicitly mentioned",
+            "key_moments": "Initial calls with no answer; successful call on 2025-09-18 confirming booking and move-in at IQ Toughness student accommodation; confirmation of resident ID and email communication for verification"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "IQ Toughness student accommodation",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Student has already booked and moved in; no further preferences expressed",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Confirm correct email ID via WhatsApp as requested by agent",
+            "pending_items": "Email ID confirmation from student",
+            "follow_up_required": "Agent to await student's confirmation of email ID",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Cooperative and responsive once contact established",
+            "urgency_level": "Low, as booking is already completed and student has moved in",
+            "complexity": "Simple case; student has secured accommodation independently",
+            "special_considerations": "Ensure email ID is correctly recorded for communication; student booked accommodation separately from agent's system"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Timmy Ting",
+          "mobile": [
+            "+447724027637"
+          ],
+          "email": [
+            "timmyting1021@gmail.com",
+            "10282102and@icloud.com"
+          ],
+          "whatsapp": [
+            "+447724027637"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 419,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": "pbsa",
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "IQ Toughness"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Confirm with Timmy Ting the exact email ID used for booking the IQ Toughness student accommodation via WhatsApp.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Call on 2025-09-18 where agent requested confirmation of email ID used for booking"
+          }
+        ],
+        "last_agent_response": "Agent Shikha contacted Timmy to confirm his accommodation details and requested confirmation of the email ID used for booking via WhatsApp message.",
+        "suggested_next_step": "Wait for Timmy to respond on WhatsApp with the correct email ID used for his accommodation booking."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Timmy Ting",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via number 447724027637; email IDs mentioned include timmyting1021@gmail.com and 10282102and@icloud.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£419 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking confirmed and moved in",
+              "documents_status": "Resident ID provided (517754)",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 calls and 1 lead info record",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-11-18 (lead info recorded)",
+              "response_time": "Not explicitly mentioned",
+              "key_moments": "Initial calls with no answer; successful call on 2025-09-18 confirming booking and move-in at IQ Toughness student accommodation; confirmation of resident ID and email communication for verification"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "IQ Toughness student accommodation",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Student has already booked and moved in; no further preferences expressed",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Confirm correct email ID via WhatsApp as requested by agent",
+              "pending_items": "Email ID confirmation from student",
+              "follow_up_required": "Agent to await student's confirmation of email ID",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Cooperative and responsive once contact established",
+              "urgency_level": "Low, as booking is already completed and student has moved in",
+              "complexity": "Simple case; student has secured accommodation independently",
+              "special_considerations": "Ensure email ID is correctly recorded for communication; student booked accommodation separately from agent's system"
+            }
+          }
+        }
+      }
+    }
+  }
+}

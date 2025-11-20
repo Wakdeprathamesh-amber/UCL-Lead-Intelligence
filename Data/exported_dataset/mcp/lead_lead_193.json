@@ -1,0 +1,300 @@
+{
+  "id": "lead_193",
+  "mobile_number": "447426909686",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2804,
+      "lead_id": 193,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3205102, \"user_name\": \"Iuliia Kriukova\", \"email\": \"julia.krukova0@gmail.com\", \"phone\": \"447426909686\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 260, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Wembley\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 1674205}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2805,
+      "lead_id": 193,
+      "event_type": "call",
+      "timestamp": "2025-09-04T11:57:19.138449",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7815557",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-04T11:57:19.138449\", \"id\": 7815557, \"duration\": \"4\", \"to_number\": \"447426909686\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8b0d9714-271d-4d63-82a4-a1d6cc6e68be.wav\"}",
+      "created_at": "2025-11-18 10:25:38"
+    },
+    {
+      "id": 2806,
+      "lead_id": 193,
+      "event_type": "call",
+      "timestamp": "2025-09-04T11:58:08.424586",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7815565",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-04T11:58:08.424586\", \"id\": 7815565, \"duration\": \"30\", \"to_number\": \"447426909686\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/367df2d1-6c9d-45e4-854b-31e285921f4f.wav\"}",
+      "created_at": "2025-11-18 10:25:38"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 105,
+      "lead_id": 193,
+      "call_id": "7815557",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8b0d9714-271d-4d63-82a4-a1d6cc6e68be.wav",
+      "transcript_text": "Speaker A: Hello.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:25:42"
+    },
+    {
+      "id": 107,
+      "lead_id": 193,
+      "call_id": "7815565",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/367df2d1-6c9d-45e4-854b-31e285921f4f.wav",
+      "transcript_text": "Speaker A: Hello? Hello? Yeah, hello. Am I speaking as Lulia here? Yeah, yeah. Hello. Calling you from ambitious student from where? From ambuscade, Lulia, the scholars regarding your student accommodation for University College London.\nSpeaker B: Oh, sorry. No, it's okay. I've already found a room.\nSpeaker A: I do have the details. Like you have found the Halic family campus, Correct? London is the Halic family, Is it?\nSpeaker B: Sorry, I've already gotten a room. Thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:25:47"
+    }
+  ],
+  "summary": {
+    "id": 81,
+    "lead_id": 193,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Iuliia Kriukova\", \"mobile\": [\"447426909686\"], \"email\": [\"julia.krukova0@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 260, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent called the student to discuss accommodation options, but the student informed that they have already found a room.\", \"suggested_next_step\": \"No further action required as the student has secured accommodation.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Iuliia Kriukova\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (julia.krukova0@gmail.com), Phone (+447426909686)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3260 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking declined - student has already found accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 (1 lead info, 2 calls)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-04\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Student confirmed on call that they have already secured accommodation and declined further assistance.\"}, \"properties_discussed\": {\"properties_mentioned\": \"Halic family campus (implied student found a room there)\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has secured accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Move-out date noted as 2026-08-28\"}, \"agent_notes\": {\"student_tone\": \"Polite but firm in declining further assistance\", \"urgency_level\": \"Low, booking already completed independently\", \"complexity\": \"Simple case\", \"special_considerations\": \"Student has already secured accommodation; no further offers needed\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Iuliia Kriukova\", \"mobile\": [\"447426909686\"], \"email\": [\"julia.krukova0@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 260, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent called the student to discuss accommodation options, but the student informed that they have already found a room.\", \"suggested_next_step\": \"No further action required as the student has secured accommodation.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Iuliia Kriukova\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (julia.krukova0@gmail.com), Phone (+447426909686)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3260 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking declined - student has already found accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 (1 lead info, 2 calls)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-04\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Student confirmed on call that they have already secured accommodation and declined further assistance.\"}, \"properties_discussed\": {\"properties_mentioned\": \"Halic family campus (implied student found a room there)\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has secured accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Move-out date noted as 2026-08-28\"}, \"agent_notes\": {\"student_tone\": \"Polite but firm in declining further assistance\", \"urgency_level\": \"Low, booking already completed independently\", \"complexity\": \"Simple case\", \"special_considerations\": \"Student has already secured accommodation; no further offers needed\"}}}}}",
+    "created_at": "2025-11-18 10:25:53",
+    "updated_at": "2025-11-18T15:55:53.833193",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Iuliia Kriukova",
+        "mobile": [
+          "447426909686"
+        ],
+        "email": [
+          "julia.krukova0@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Wembley"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 260,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent called the student to discuss accommodation options, but the student informed that they have already found a room.",
+      "suggested_next_step": "No further action required as the student has secured accommodation."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Iuliia Kriukova",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (julia.krukova0@gmail.com), Phone (+447426909686)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "Wembley, England, United Kingdom",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "£260 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking declined - student has already found accommodation",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 (1 lead info, 2 calls)",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-09-04",
+            "response_time": "Not mentioned",
+            "key_moments": "Student confirmed on call that they have already secured accommodation and declined further assistance."
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Halic family campus (implied student found a room there)",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "None"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action required as student has secured accommodation",
+            "pending_items": "None",
+            "follow_up_required": "No follow-up needed unless student re-engages",
+            "timeline": "Move-out date noted as 2026-08-28"
+          },
+          "agent_notes": {
+            "student_tone": "Polite but firm in declining further assistance",
+            "urgency_level": "Low, booking already completed independently",
+            "complexity": "Simple case",
+            "special_considerations": "Student has already secured accommodation; no further offers needed"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Iuliia Kriukova",
+          "mobile": [
+            "447426909686"
+          ],
+          "email": [
+            "julia.krukova0@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Wembley"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 260,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent called the student to discuss accommodation options, but the student informed that they have already found a room.",
+        "suggested_next_step": "No further action required as the student has secured accommodation."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Iuliia Kriukova",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (julia.krukova0@gmail.com), Phone (+447426909686)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "Wembley, England, United Kingdom",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "£260 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking declined - student has already found accommodation",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 (1 lead info, 2 calls)",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-09-04",
+              "response_time": "Not mentioned",
+              "key_moments": "Student confirmed on call that they have already secured accommodation and declined further assistance."
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Halic family campus (implied student found a room there)",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "None"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action required as student has secured accommodation",
+              "pending_items": "None",
+              "follow_up_required": "No follow-up needed unless student re-engages",
+              "timeline": "Move-out date noted as 2026-08-28"
+            },
+            "agent_notes": {
+              "student_tone": "Polite but firm in declining further assistance",
+              "urgency_level": "Low, booking already completed independently",
+              "complexity": "Simple case",
+              "special_considerations": "Student has already secured accommodation; no further offers needed"
+            }
+          }
+        }
+      }
+    }
+  }
+}

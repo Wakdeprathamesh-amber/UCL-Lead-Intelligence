@@ -1,0 +1,482 @@
+{
+  "id": "lead_422",
+  "mobile_number": "447874009656",
+  "email": null,
+  "timeline": [
+    {
+      "id": 15104,
+      "lead_id": 422,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3224885, \"user_name\": \"Aurelia Csernak\", \"email\": \"aurelia.csernak@gmail.com\", \"phone\": \"447874009656\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 289, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2167522}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15105,
+      "lead_id": 422,
+      "event_type": "call",
+      "timestamp": "2025-09-12T08:41:47.753546",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7862085",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-12T08:41:47.753546\", \"id\": 7862085, \"duration\": \"59\", \"to_number\": \"447874009656\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/644584e4-ffc8-42db-a263-ff962d7ed940.wav\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15106,
+      "lead_id": 422,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T08:43:06",
+      "content": "Hey Aurelia, \n\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \n\nHappy to assist you with the process ahead. Thankyou : )",
+      "source": "whatsapp",
+      "event_id": "8547622",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T08:43:06\", \"id\": 8547622, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447874009656\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447874009656@c.us_3FDF9242997BFFD75064\", \"message_type\": \"text\", \"message_content\": \"Hey Aurelia, \\n\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\n\\nHappy to assist you with the process ahead. Thankyou : )\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-12T08:43:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hey Aurelia, \\\\n\\\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\\\n\\\\nHappy to assist you with the process ahead. Thankyou : )\\\", \\\"Datetime\\\": 1757666586000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447874009656@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447874009656@c.us_3FDF9242997BFFD75064\\\", \\\"ChannelName\\\": \\\"447874009656\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-12T08:43:06.344544\", \"direction\": \"outbound\", \"sbase_user_id\": 2493984, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447874009656\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15107,
+      "lead_id": 422,
+      "event_type": "call",
+      "timestamp": "2025-09-13T11:32:09.523580",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7869674",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-13T11:32:09.523580\", \"id\": 7869674, \"duration\": \"4\", \"to_number\": \"447874009656\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/42b58183-7248-4945-ba74-6f3ee72ff4d9.wav\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15108,
+      "lead_id": 422,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-13T11:37:16",
+      "content": "Hello Aurelia Csernak, Good Afternoon!\nHope you're doing well. I'm Prachi from AmberStudent. we’re officially partnered with University College London for accommodation.\n\nWe received your booking form for Flora Building, London (Standard Twin, 44 weeks at £289/week). However, your guarantor details were incomplete, so I wasn’t able to start the booking process.\n\nCould you please help by sharing the following guarantor details:\n\nFull Name\n\nContact Number\n\nEmail Address\n\nDate of Birth\n\nRelation to You\n\nGender\n\nFull Address\n\nWe need to provide these details to the property to move forward with your booking. Let me know if you have any questions!",
+      "source": "whatsapp",
+      "event_id": "8595596",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-13T11:37:16\", \"id\": 8595596, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447874009656\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447874009656@c.us_3F9A44C3AF691EDDF734\", \"message_type\": \"text\", \"message_content\": \"Hello Aurelia Csernak, Good Afternoon!\\nHope you're doing well. I'm Prachi from AmberStudent. we\\u2019re officially partnered with University College London for accommodation.\\n\\nWe received your booking form for Flora Building, London (Standard Twin, 44 weeks at \\u00a3289/week). However, your guarantor details were incomplete, so I wasn\\u2019t able to start the booking process.\\n\\nCould you please help by sharing the following guarantor details:\\n\\nFull Name\\n\\nContact Number\\n\\nEmail Address\\n\\nDate of Birth\\n\\nRelation to You\\n\\nGender\\n\\nFull Address\\n\\nWe need to provide these details to the property to move forward with your booking. Let me know if you have any questions!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-13T11:37:16.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello Aurelia Csernak, Good Afternoon!\\\\nHope you're doing well. I'm Prachi from AmberStudent. we\\u2019re officially partnered with University College London for accommodation.\\\\n\\\\nWe received your booking form for Flora Building, London (Standard Twin, 44 weeks at \\u00a3289/week). However, your guarantor details were incomplete, so I wasn\\u2019t able to start the booking process.\\\\n\\\\nCould you please help by sharing the following guarantor details:\\\\n\\\\nFull Name\\\\n\\\\nContact Number\\\\n\\\\nEmail Address\\\\n\\\\nDate of Birth\\\\n\\\\nRelation to You\\\\n\\\\nGender\\\\n\\\\nFull Address\\\\n\\\\nWe need to provide these details to the property to move forward with your booking. Let me know if you have any questions!\\\", \\\"Datetime\\\": 1757763436000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447874009656@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447874009656@c.us_3F9A44C3AF691EDDF734\\\", \\\"ChannelName\\\": \\\"447874009656\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-13T11:37:17.130193\", \"direction\": \"outbound\", \"sbase_user_id\": 2493984, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447874009656\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15109,
+      "lead_id": 422,
+      "event_type": "call",
+      "timestamp": "2025-09-15T10:07:56.412625",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7875765",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-15T10:07:56.412625\", \"id\": 7875765, \"duration\": \"3\", \"to_number\": \"447874009656\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15110,
+      "lead_id": 422,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-15T10:12:57",
+      "content": "Hi Aurelia,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "8640678",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-15T10:12:57\", \"id\": 8640678, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447874009656\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447874009656@c.us_3FA5AFA27995DD35D182\", \"message_type\": \"text\", \"message_content\": \"Hi Aurelia,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-15T10:12:57.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Aurelia,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.\\\", \\\"Datetime\\\": 1757931177000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447874009656@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447874009656@c.us_3FA5AFA27995DD35D182\\\", \\\"ChannelName\\\": \\\"447874009656\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-15T10:12:57.392127\", \"direction\": \"outbound\", \"sbase_user_id\": 2493984, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447874009656\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15111,
+      "lead_id": 422,
+      "event_type": "call",
+      "timestamp": "2025-09-17T11:55:00.809322",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7888999",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-17T11:55:00.809322\", \"id\": 7888999, \"duration\": \"3\", \"to_number\": \"447874009656\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4a5d30bb-c9cc-45c1-955c-05621110c70d.wav\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15112,
+      "lead_id": 422,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-17T11:55:23",
+      "content": "Hi Aurelia,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "8728125",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-17T11:55:23\", \"id\": 8728125, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447874009656\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447874009656@c.us_3F4DB404B886FCD34375\", \"message_type\": \"text\", \"message_content\": \"Hi Aurelia,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-17T11:55:23.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Aurelia,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\\\", \\\"Datetime\\\": 1758110123000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447874009656@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447874009656@c.us_3F4DB404B886FCD34375\\\", \\\"ChannelName\\\": \\\"447874009656\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-17T11:55:23.914833\", \"direction\": \"outbound\", \"sbase_user_id\": 2493984, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447874009656\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15113,
+      "lead_id": 422,
+      "event_type": "call",
+      "timestamp": "2025-09-19T09:32:03.922852",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7899116",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-19T09:32:03.922852\", \"id\": 7899116, \"duration\": \"5\", \"to_number\": \"447874009656\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ef61903f-3711-4b9c-9074-70d087d11577.wav\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15114,
+      "lead_id": 422,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-19T09:36:34",
+      "content": "Hi Aurelia,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "8796781",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-19T09:36:34\", \"id\": 8796781, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447874009656\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447874009656@c.us_3F4151D60C4E0447B416\", \"message_type\": \"text\", \"message_content\": \"Hi Aurelia,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-19T09:36:34.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Aurelia,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\\\", \\\"Datetime\\\": 1758274594000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447874009656@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447874009656@c.us_3F4151D60C4E0447B416\\\", \\\"ChannelName\\\": \\\"447874009656\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-19T09:36:34.986141\", \"direction\": \"outbound\", \"sbase_user_id\": 2493984, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447874009656\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15115,
+      "lead_id": 422,
+      "event_type": "call",
+      "timestamp": "2025-09-22T09:31:18.269791",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7910497",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-22T09:31:18.269791\", \"id\": 7910497, \"duration\": \"3\", \"to_number\": \"447874009656\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8673ad7e-b1d3-40c8-8944-50f8c0182ce1.wav\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15116,
+      "lead_id": 422,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-22T09:32:06",
+      "content": "Hi Aurelia,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "8870822",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-22T09:32:06\", \"id\": 8870822, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447874009656\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447874009656@c.us_3FC4DA3DD0C7CD22A75F\", \"message_type\": \"text\", \"message_content\": \"Hi Aurelia,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-22T09:32:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Aurelia,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\\\", \\\"Datetime\\\": 1758533526000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447874009656@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447874009656@c.us_3FC4DA3DD0C7CD22A75F\\\", \\\"ChannelName\\\": \\\"447874009656\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-22T09:32:07.297263\", \"direction\": \"outbound\", \"sbase_user_id\": 2493984, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447874009656\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15117,
+      "lead_id": 422,
+      "event_type": "call",
+      "timestamp": "2025-09-24T08:52:04.470934",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7921281",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-24T08:52:04.470934\", \"id\": 7921281, \"duration\": \"4\", \"to_number\": \"447874009656\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/37adeb99-e438-49ef-938e-96931d6baa3c.wav\"}",
+      "created_at": "2025-11-18 13:29:15"
+    },
+    {
+      "id": 15118,
+      "lead_id": 422,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-24T08:52:25",
+      "content": "Hi Aurelia,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "8942680",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-24T08:52:25\", \"id\": 8942680, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"447874009656\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447874009656@c.us_3F0E905988F64DC330CE\", \"message_type\": \"text\", \"message_content\": \"Hi Aurelia,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-24T08:52:25.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Aurelia,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\\\", \\\"Datetime\\\": 1758703945000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447874009656@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447874009656@c.us_3F0E905988F64DC330CE\\\", \\\"ChannelName\\\": \\\"447874009656\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-24T08:52:25.655897\", \"direction\": \"outbound\", \"sbase_user_id\": 2493984, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"447874009656\"}",
+      "created_at": "2025-11-18 13:29:15"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 314,
+      "lead_id": 422,
+      "call_id": "7862085",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/644584e4-ffc8-42db-a263-ff962d7ed940.wav",
+      "transcript_text": "Speaker A: Call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone please record your message. When you have finished recording you may hang up.\nSpeaker B: Hello? Yeah hi, good morning, I am Prachi from Amber Student Accommodation Assistant. We are the partner with the University College London about the accommodation part and we received a booking form for the property that was the Flora Building, London. So that's why I connected with you to get the update regarding the accommodation part. I have also shared my WhatsApp with you so please do let me know like if you want to start the processing for this accommodation because we required the emergency and contact details properly as I can see the guarantee details and the emergency details are bit incomplete so please do connect with me or if you require any other options so you can let me know on the WhatsApp I can share that with you. Thank you so much. Have a nice day. Bye bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:09:23"
+    }
+  ],
+  "summary": {
+    "id": 377,
+    "lead_id": 422,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Aurelia Csernak\", \"mobile\": [\"447874009656\"], \"email\": [\"aurelia.csernak@gmail.com\"], \"whatsapp\": [\"447874009656\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": \"standard twin\", \"budget\": {\"max\": 289, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": true, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": \"no\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Flora Building\"], \"rooms_considered\": [\"Standard Twin\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Yes, cashback and 50 GBP Amazon gift card referral offer discussed\"}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"document_required\", \"description\": \"Student Aurelia Csernak needs to provide complete guarantor details including Full Name, Contact Number, Email Address, Date of Birth, Relation to Student, Gender, and Full Address to proceed with the booking.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-13 requesting guarantor details to start booking process\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with Aurelia for an update on her accommodation status due to limited availability and to assist with finding suitable accommodation.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Repeated WhatsApp messages on 2025-09-15, 2025-09-17, 2025-09-19, 2025-09-22, and 2025-09-24 requesting accommodation status update\"}, {\"type\": \"communication\", \"description\": \"Agent to inform Aurelia about cashback offers if she has already found accommodation and about referral program benefits.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages from 2025-09-15 onwards mentioning cashback and referral program\"}], \"last_agent_response\": \"Agent Prachi sent multiple WhatsApp messages requesting guarantor details to start the booking process and repeatedly requested updates on accommodation status while informing about cashback and referral offers.\", \"suggested_next_step\": \"Student Aurelia should provide the complete guarantor details as soon as possible to enable the booking process to proceed.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Aurelia Csernak\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (aurelia.csernak@gmail.com), Phone (+447874009656), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Standard Twin\", \"budget_range\": \"\\u00a3289 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking process not started due to incomplete guarantor details\", \"documents_status\": \"Guarantor details incomplete; full guarantor information requested\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"17 (8 calls, 9 WhatsApp messages)\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-24\", \"response_time\": \"Agent initiated multiple follow-ups; no explicit student responses recorded\", \"key_moments\": \"Initial contact on 2025-09-12; agent requested guarantor details on 2025-09-13; multiple follow-ups for accommodation status between 2025-09-15 and 2025-09-24\"}, \"properties_discussed\": {\"properties_mentioned\": \"Flora Building, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Standard Twin room for 44 weeks at \\u00a3289/week\", \"offers_made\": \"Mention of possible cashback offers subject to availability; referral program with \\u00a350 Amazon gift card\"}, \"next_steps\": {\"immediate_actions\": \"Student to provide complete guarantor details to proceed with booking\", \"pending_items\": \"Guarantor full name, contact number, email, date of birth, relation, gender, full address\", \"follow_up_required\": \"Agent to follow up on guarantor details and accommodation status\", \"timeline\": \"Lease duration is 44 weeks ending 2026-07-10; no other deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct student responses recorded; communication appears one-sided from agent\", \"urgency_level\": \"Moderate urgency due to limited availability and lease timeline\", \"complexity\": \"Standard booking with incomplete guarantor information causing delay\", \"special_considerations\": \"Ensure guarantor details are collected promptly to avoid further delays\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Aurelia Csernak\", \"mobile\": [\"447874009656\"], \"email\": [\"aurelia.csernak@gmail.com\"], \"whatsapp\": [\"447874009656\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": \"standard twin\", \"budget\": {\"max\": 289, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": true, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": \"no\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Flora Building\"], \"rooms_considered\": [\"Standard Twin\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Yes, cashback and 50 GBP Amazon gift card referral offer discussed\"}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"document_required\", \"description\": \"Student Aurelia Csernak needs to provide complete guarantor details including Full Name, Contact Number, Email Address, Date of Birth, Relation to Student, Gender, and Full Address to proceed with the booking.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-13 requesting guarantor details to start booking process\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with Aurelia for an update on her accommodation status due to limited availability and to assist with finding suitable accommodation.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Repeated WhatsApp messages on 2025-09-15, 2025-09-17, 2025-09-19, 2025-09-22, and 2025-09-24 requesting accommodation status update\"}, {\"type\": \"communication\", \"description\": \"Agent to inform Aurelia about cashback offers if she has already found accommodation and about referral program benefits.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages from 2025-09-15 onwards mentioning cashback and referral program\"}], \"last_agent_response\": \"Agent Prachi sent multiple WhatsApp messages requesting guarantor details to start the booking process and repeatedly requested updates on accommodation status while informing about cashback and referral offers.\", \"suggested_next_step\": \"Student Aurelia should provide the complete guarantor details as soon as possible to enable the booking process to proceed.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Aurelia Csernak\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (aurelia.csernak@gmail.com), Phone (+447874009656), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Standard Twin\", \"budget_range\": \"\\u00a3289 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking process not started due to incomplete guarantor details\", \"documents_status\": \"Guarantor details incomplete; full guarantor information requested\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"17 (8 calls, 9 WhatsApp messages)\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-24\", \"response_time\": \"Agent initiated multiple follow-ups; no explicit student responses recorded\", \"key_moments\": \"Initial contact on 2025-09-12; agent requested guarantor details on 2025-09-13; multiple follow-ups for accommodation status between 2025-09-15 and 2025-09-24\"}, \"properties_discussed\": {\"properties_mentioned\": \"Flora Building, London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Standard Twin room for 44 weeks at \\u00a3289/week\", \"offers_made\": \"Mention of possible cashback offers subject to availability; referral program with \\u00a350 Amazon gift card\"}, \"next_steps\": {\"immediate_actions\": \"Student to provide complete guarantor details to proceed with booking\", \"pending_items\": \"Guarantor full name, contact number, email, date of birth, relation, gender, full address\", \"follow_up_required\": \"Agent to follow up on guarantor details and accommodation status\", \"timeline\": \"Lease duration is 44 weeks ending 2026-07-10; no other deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct student responses recorded; communication appears one-sided from agent\", \"urgency_level\": \"Moderate urgency due to limited availability and lease timeline\", \"complexity\": \"Standard booking with incomplete guarantor information causing delay\", \"special_considerations\": \"Ensure guarantor details are collected promptly to avoid further delays\"}}}}}",
+    "created_at": "2025-11-18 13:29:24",
+    "updated_at": "2025-11-18T18:59:24.635754",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Aurelia Csernak",
+        "mobile": [
+          "447874009656"
+        ],
+        "email": [
+          "aurelia.csernak@gmail.com"
+        ],
+        "whatsapp": [
+          "447874009656"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": "standard twin",
+        "budget": {
+          "max": 289,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": true,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": "no"
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Flora Building"
+        ],
+        "rooms_considered": [
+          "Standard Twin"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": "Yes, cashback and 50 GBP Amazon gift card referral offer discussed"
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "document_required",
+          "description": "Student Aurelia Csernak needs to provide complete guarantor details including Full Name, Contact Number, Email Address, Date of Birth, Relation to Student, Gender, and Full Address to proceed with the booking.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp message on 2025-09-13 requesting guarantor details to start booking process"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Aurelia for an update on her accommodation status due to limited availability and to assist with finding suitable accommodation.",
+          "due": "within_week",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "Repeated WhatsApp messages on 2025-09-15, 2025-09-17, 2025-09-19, 2025-09-22, and 2025-09-24 requesting accommodation status update"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to inform Aurelia about cashback offers if she has already found accommodation and about referral program benefits.",
+          "due": "within_week",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages from 2025-09-15 onwards mentioning cashback and referral program"
+        }
+      ],
+      "last_agent_response": "Agent Prachi sent multiple WhatsApp messages requesting guarantor details to start the booking process and repeatedly requested updates on accommodation status while informing about cashback and referral offers.",
+      "suggested_next_step": "Student Aurelia should provide the complete guarantor details as soon as possible to enable the booking process to proceed."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Aurelia Csernak",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (aurelia.csernak@gmail.com), Phone (+447874009656), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College London",
+            "room_type": "Standard Twin",
+            "budget_range": "£289 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "44 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking process not started due to incomplete guarantor details",
+            "documents_status": "Guarantor details incomplete; full guarantor information requested",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "17 (8 calls, 9 WhatsApp messages)",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-24",
+            "response_time": "Agent initiated multiple follow-ups; no explicit student responses recorded",
+            "key_moments": "Initial contact on 2025-09-12; agent requested guarantor details on 2025-09-13; multiple follow-ups for accommodation status between 2025-09-15 and 2025-09-24"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Flora Building, London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Standard Twin room for 44 weeks at £289/week",
+            "offers_made": "Mention of possible cashback offers subject to availability; referral program with £50 Amazon gift card"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to provide complete guarantor details to proceed with booking",
+            "pending_items": "Guarantor full name, contact number, email, date of birth, relation, gender, full address",
+            "follow_up_required": "Agent to follow up on guarantor details and accommodation status",
+            "timeline": "Lease duration is 44 weeks ending 2026-07-10; no other deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "No direct student responses recorded; communication appears one-sided from agent",
+            "urgency_level": "Moderate urgency due to limited availability and lease timeline",
+            "complexity": "Standard booking with incomplete guarantor information causing delay",
+            "special_considerations": "Ensure guarantor details are collected promptly to avoid further delays"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Aurelia Csernak",
+          "mobile": [
+            "447874009656"
+          ],
+          "email": [
+            "aurelia.csernak@gmail.com"
+          ],
+          "whatsapp": [
+            "447874009656"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": "standard twin",
+          "budget": {
+            "max": 289,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": true,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": "no"
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Flora Building"
+          ],
+          "rooms_considered": [
+            "Standard Twin"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": "Yes, cashback and 50 GBP Amazon gift card referral offer discussed"
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "document_required",
+            "description": "Student Aurelia Csernak needs to provide complete guarantor details including Full Name, Contact Number, Email Address, Date of Birth, Relation to Student, Gender, and Full Address to proceed with the booking.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp message on 2025-09-13 requesting guarantor details to start booking process"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Aurelia for an update on her accommodation status due to limited availability and to assist with finding suitable accommodation.",
+            "due": "within_week",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "Repeated WhatsApp messages on 2025-09-15, 2025-09-17, 2025-09-19, 2025-09-22, and 2025-09-24 requesting accommodation status update"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to inform Aurelia about cashback offers if she has already found accommodation and about referral program benefits.",
+            "due": "within_week",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages from 2025-09-15 onwards mentioning cashback and referral program"
+          }
+        ],
+        "last_agent_response": "Agent Prachi sent multiple WhatsApp messages requesting guarantor details to start the booking process and repeatedly requested updates on accommodation status while informing about cashback and referral offers.",
+        "suggested_next_step": "Student Aurelia should provide the complete guarantor details as soon as possible to enable the booking process to proceed."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Aurelia Csernak",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (aurelia.csernak@gmail.com), Phone (+447874009656), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College London",
+              "room_type": "Standard Twin",
+              "budget_range": "£289 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "44 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking process not started due to incomplete guarantor details",
+              "documents_status": "Guarantor details incomplete; full guarantor information requested",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "17 (8 calls, 9 WhatsApp messages)",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-24",
+              "response_time": "Agent initiated multiple follow-ups; no explicit student responses recorded",
+              "key_moments": "Initial contact on 2025-09-12; agent requested guarantor details on 2025-09-13; multiple follow-ups for accommodation status between 2025-09-15 and 2025-09-24"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Flora Building, London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Standard Twin room for 44 weeks at £289/week",
+              "offers_made": "Mention of possible cashback offers subject to availability; referral program with £50 Amazon gift card"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to provide complete guarantor details to proceed with booking",
+              "pending_items": "Guarantor full name, contact number, email, date of birth, relation, gender, full address",
+              "follow_up_required": "Agent to follow up on guarantor details and accommodation status",
+              "timeline": "Lease duration is 44 weeks ending 2026-07-10; no other deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "No direct student responses recorded; communication appears one-sided from agent",
+              "urgency_level": "Moderate urgency due to limited availability and lease timeline",
+              "complexity": "Standard booking with incomplete guarantor information causing delay",
+              "special_considerations": "Ensure guarantor details are collected promptly to avoid further delays"
+            }
+          }
+        }
+      }
+    }
+  }
+}

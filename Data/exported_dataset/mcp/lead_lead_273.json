@@ -1,0 +1,683 @@
+{
+  "id": "lead_273",
+  "mobile_number": "12032169277",
+  "email": null,
+  "timeline": [
+    {
+      "id": 4633,
+      "lead_id": 273,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3125951, \"user_name\": \"Abigail Genser\", \"email\": \"abigaillgenser@gmail.com\", \"phone\": \"12032169277\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 490, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1943087}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4634,
+      "lead_id": 273,
+      "event_type": "call",
+      "timestamp": "2025-08-08T20:03:33.956071",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7650821",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-08T20:03:33.956071\", \"id\": 7650821, \"duration\": \"1460\", \"to_number\": \"12032169277\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3735566d-99f7-4d4c-b9b2-f4e2eb23f6ba.wav\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4635,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-08T20:09:12",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *IQ HOXTON, LONDON*\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.3 mi (20 mins)\n*Walk:* 3.1 mi (1 hour 4 mins)\n*Bus/Train:* 3.7 mi (32 mins)\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=143203\n\n------------",
+      "source": "whatsapp",
+      "event_id": "6995793",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-08T20:09:12\", \"id\": 6995793, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_3FF473ED135447FE357B\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *IQ HOXTON, LONDON*\\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.3 mi (20 mins)\\n*Walk:* 3.1 mi (1 hour 4 mins)\\n*Bus/Train:* 3.7 mi (32 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=143203\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-08T20:09:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *IQ HOXTON, LONDON*\\\\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.3 mi (20 mins)\\\\n*Walk:* 3.1 mi (1 hour 4 mins)\\\\n*Bus/Train:* 3.7 mi (32 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/iq-hoxton-london-1811170520327/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=143203\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1754683752000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_3FF473ED135447FE357B\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-08T20:09:17.298950\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4636,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-08T20:14:21",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *ARBOUR HOUSE, LONDON*\nhttps://amberstudent.com/places/arbour-house-2002143129812\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.1 mi (13 mins)\n*Walk:* 1.9 mi (38 mins)\n*Bus/Train:* 2.7 mi (21 mins)\n\n🏘 *ROOM TYPES:*\n*Classic Studio :*\n  £415/week (Duration: 51 week) (Move in: 20 Sep, 2025) (Move out: 12 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/arbour-house-2002143129812/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=148926\n\n------------",
+      "source": "whatsapp",
+      "event_id": "6995901",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-08T20:14:21\", \"id\": 6995901, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_3F93C52FD7D803338A93\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *ARBOUR HOUSE, LONDON*\\nhttps://amberstudent.com/places/arbour-house-2002143129812\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.1 mi (13 mins)\\n*Walk:* 1.9 mi (38 mins)\\n*Bus/Train:* 2.7 mi (21 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Classic Studio :*\\n\\u00a0\\u00a0\\u00a3415/week (Duration: 51 week) (Move in: 20 Sep, 2025) (Move out: 12 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/arbour-house-2002143129812/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=148926\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-08T20:14:21.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *ARBOUR HOUSE, LONDON*\\\\nhttps://amberstudent.com/places/arbour-house-2002143129812\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://amberstudent.com/places/arbour-house-2002143129812?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.1 mi (13 mins)\\\\n*Walk:* 1.9 mi (38 mins)\\\\n*Bus/Train:* 2.7 mi (21 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Classic Studio :*\\\\n\\u00a0\\u00a0\\u00a3415/week (Duration: 51 week) (Move in: 20 Sep, 2025) (Move out: 12 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/arbour-house-2002143129812/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=148926\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1754684061000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_3F93C52FD7D803338A93\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-08T20:14:21.615807\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4637,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-08T21:27:17",
+      "content": "Hey",
+      "source": "whatsapp",
+      "event_id": "6996899",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-08T21:27:17\", \"id\": 6996899, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_44E6934731462AD94FF1039D1A35E660\", \"message_type\": \"text\", \"message_content\": \"Hey\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-08T21:27:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hey\\\", \\\"Datetime\\\": 1754688437000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_44E6934731462AD94FF1039D1A35E660\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-08T21:27:17.824810\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4638,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-08T21:27:32",
+      "content": "Received your deposit I am starting the process now.",
+      "source": "whatsapp",
+      "event_id": "6996904",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-08T21:27:32\", \"id\": 6996904, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_7C7D0F81BBB3C9E976373CB875819435\", \"message_type\": \"text\", \"message_content\": \"Received your deposit I am starting the process now.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-08T21:27:32.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Received your deposit I am starting the process now.\\\", \\\"Datetime\\\": 1754688452000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_7C7D0F81BBB3C9E976373CB875819435\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-08T21:27:33.142591\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4639,
+      "lead_id": 273,
+      "event_type": "call",
+      "timestamp": "2025-08-08T21:30:27.967625",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7650933",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-08T21:30:27.967625\", \"id\": 7650933, \"duration\": \"47\", \"to_number\": \"12032169277\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d94de670-33d4-4489-bf3d-79028dabe92b.wav\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4640,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-09T03:18:54",
+      "content": "Hi Abigail,\n\nHope you're doing well!\n\nI'm Mahmudul, your Booking Manager at Amber. Thanks for choosing Amber for your student accommodation in London - excited to assist you!\nHere’s how you can access your booking portal:\nClick this link to log in: \n\nhttps://www.iqstudentaccommodation.com/user/login\n\nUse the following credentials. You'll see your offer in the portal - just follow the steps to complete your booking.\n\nUsername:   abigaillgenser@gmail.com\nPassword:    Amber.123 \nPlease use this email and password only \n\nNeed help? Feel free to call, email, or message us anytime—or let us know when’s a good time to connect.",
+      "source": "whatsapp",
+      "event_id": "6998778",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-09T03:18:54\", \"id\": 6998778, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_CE54C0A11BD9803980F350AB987813A0\", \"message_type\": \"text\", \"message_content\": \"Hi Abigail,\\n\\nHope you're doing well!\\n\\nI'm Mahmudul, your Booking Manager at Amber. Thanks for choosing Amber for your student accommodation in London - excited to assist you!\\nHere\\u2019s how you can access your booking portal:\\nClick this link to log in: \\n\\nhttps://www.iqstudentaccommodation.com/user/login\\n\\nUse the following credentials. You'll see your offer in the portal - just follow the steps to complete your booking.\\n\\nUsername:   abigaillgenser@gmail.com\\nPassword:    Amber.123 \\nPlease use this email and password only \\n\\nNeed help? Feel free to call, email, or message us anytime\\u2014or let us know when\\u2019s a good time to connect.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-09T03:18:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hi Abigail,\\\\n\\\\nHope you're doing well!\\\\n\\\\nI'm Mahmudul, your Booking Manager at Amber. Thanks for choosing Amber for your student accommodation in London - excited to assist you!\\\\nHere\\u2019s how you can access your booking portal:\\\\nClick this link to log in: \\\\n\\\\nhttps://www.iqstudentaccommodation.com/user/login\\\\n\\\\nUse the following credentials. You'll see your offer in the portal - just follow the steps to complete your booking.\\\\n\\\\nUsername:   abigaillgenser@gmail.com\\\\nPassword:    Amber.123 \\\\nPlease use this email and password only \\\\n\\\\nNeed help? Feel free to call, email, or message us anytime\\u2014or let us know when\\u2019s a good time to connect.\\\", \\\"Datetime\\\": 1754709534000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_CE54C0A11BD9803980F350AB987813A0\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-09T03:18:54.805311\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4641,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T20:25:37",
+      "content": "https://www.trustpilot.com/evaluate-link/66da956c6957561e481763a20881b08c",
+      "source": "whatsapp",
+      "event_id": "7090550",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T20:25:37\", \"id\": 7090550, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_EB4F613596132418951EF2204DE3D791\", \"message_type\": \"text\", \"message_content\": \"https://www.trustpilot.com/evaluate-link/66da956c6957561e481763a20881b08c\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-11T20:25:37.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"https://www.trustpilot.com/evaluate-link/66da956c6957561e481763a20881b08c\\\", \\\"Datetime\\\": 1754943937000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_EB4F613596132418951EF2204DE3D791\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-11T20:25:37.591171\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4642,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-11T20:26:19",
+      "content": "Share your feelings about my service and a good reviews and a  good review will help me grow a lot 🙏 thank you",
+      "source": "whatsapp",
+      "event_id": "7090574",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-11T20:26:19\", \"id\": 7090574, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_3A7327896CD841E17E19DF3D419AC64A\", \"message_type\": \"text\", \"message_content\": \"Share your feelings about my service and a good reviews and a  good review will help me grow a lot \\ud83d\\ude4f thank you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-11T20:26:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Share your feelings about my service and a good reviews and a  good review will help me grow a lot \\ud83d\\ude4f thank you\\\", \\\"Datetime\\\": 1754943979000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_3A7327896CD841E17E19DF3D419AC64A\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-11T20:26:19.666857\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4643,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T16:46:09",
+      "content": "Hi Mahmudul! Does the silver studio in iQ Shoreditch have a dishwasher?",
+      "source": "whatsapp",
+      "event_id": "7180604",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T16:46:09\", \"id\": 7180604, \"email\": \"\", \"from_number\": \"12032169277\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_12032169277@c.us_3A310FA08CB3AB84A78E\", \"message_type\": \"text\", \"message_content\": \"Hi Mahmudul! Does the silver studio in iQ Shoreditch have a dishwasher?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"12032169277@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T16:46:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hi Mahmudul! Does the silver studio in iQ Shoreditch have a dishwasher?\\\", \\\"Datetime\\\": 1755103569000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"12032169277@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_12032169277@c.us_3A310FA08CB3AB84A78E\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"12032169277\\\", \\\"sentByUserId\\\": \\\"12032169277@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T16:46:09.887114\", \"direction\": \"inbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4644,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T17:01:31",
+      "content": "Not sure about the dishwasher it should have",
+      "source": "whatsapp",
+      "event_id": "7181503",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T17:01:31\", \"id\": 7181503, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_C81704AE6B9CA676AEDF7F36D69DCF16\", \"message_type\": \"text\", \"message_content\": \"Not sure about the dishwasher it should have\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T17:01:31.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Not sure about the dishwasher it should have\\\", \\\"Datetime\\\": 1755104491000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_C81704AE6B9CA676AEDF7F36D69DCF16\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T17:01:31.582478\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4645,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T17:01:38",
+      "content": "But I am not sure about it",
+      "source": "whatsapp",
+      "event_id": "7181508",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T17:01:38\", \"id\": 7181508, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_7C01EC75004D5881912782F14D3FFDD6\", \"message_type\": \"text\", \"message_content\": \"But I am not sure about it\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-13T17:01:38.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"But I am not sure about it\\\", \\\"Datetime\\\": 1755104498000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_7C01EC75004D5881912782F14D3FFDD6\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T17:01:38.372025\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4646,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T17:05:05",
+      "content": "ok no worries",
+      "source": "whatsapp",
+      "event_id": "7181721",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T17:05:05\", \"id\": 7181721, \"email\": \"\", \"from_number\": \"12032169277\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_12032169277@c.us_3A2A9430B0EFB185C6BD\", \"message_type\": \"text\", \"message_content\": \"ok no worries\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"12032169277@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T17:05:05.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"ok no worries\\\", \\\"Datetime\\\": 1755104705000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"12032169277@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_12032169277@c.us_3A2A9430B0EFB185C6BD\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"12032169277\\\", \\\"sentByUserId\\\": \\\"12032169277@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T17:05:06.050538\", \"direction\": \"inbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4647,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-13T17:05:26",
+      "content": "And if I wanted to switch to iQ city would that be difficult?",
+      "source": "whatsapp",
+      "event_id": "7181733",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-13T17:05:26\", \"id\": 7181733, \"email\": \"\", \"from_number\": \"12032169277\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_12032169277@c.us_3A6FD3AA860D9E5FB32D\", \"message_type\": \"text\", \"message_content\": \"And if I wanted to switch to iQ city would that be difficult?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"12032169277@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-13T17:05:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"And if I wanted to switch to iQ city would that be difficult?\\\", \\\"Datetime\\\": 1755104726000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"12032169277@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_12032169277@c.us_3A6FD3AA860D9E5FB32D\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"12032169277\\\", \\\"sentByUserId\\\": \\\"12032169277@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-13T17:05:26.995049\", \"direction\": \"inbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4648,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-19T13:27:59",
+      "content": "Hello",
+      "source": "whatsapp",
+      "event_id": "7482155",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-19T13:27:59\", \"id\": 7482155, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_F863767B623CC9118F35ABD654A94801\", \"message_type\": \"text\", \"message_content\": \"Hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-19T13:27:59.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello\\\", \\\"Datetime\\\": 1755610079000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_F863767B623CC9118F35ABD654A94801\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-19T13:28:00.235917\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4649,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-19T13:28:10",
+      "content": "Sorry I am in a meeting",
+      "source": "whatsapp",
+      "event_id": "7482169",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-19T13:28:10\", \"id\": 7482169, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_E19ECD09C30F512E10E97603C9D4B441\", \"message_type\": \"text\", \"message_content\": \"Sorry I am in a meeting\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-19T13:28:10.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Sorry I am in a meeting\\\", \\\"Datetime\\\": 1755610090000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_E19ECD09C30F512E10E97603C9D4B441\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-19T13:28:10.399085\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4650,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-19T13:28:16",
+      "content": "Can we text for now ?",
+      "source": "whatsapp",
+      "event_id": "7482179",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-19T13:28:16\", \"id\": 7482179, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_7F8583997A7F2628C31482778E0E3A9E\", \"message_type\": \"text\", \"message_content\": \"Can we text for now ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-19T13:28:16.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Can we text for now ?\\\", \\\"Datetime\\\": 1755610096000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_7F8583997A7F2628C31482778E0E3A9E\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-19T13:28:16.897223\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4651,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T10:11:47",
+      "content": "Hi yes. I was wondering if I could upgrade to a Silver Plus at iQ Shoreditch, and also confirm that I’ll be in the post graduate section of the building",
+      "source": "whatsapp",
+      "event_id": "7528231",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T10:11:47\", \"id\": 7528231, \"email\": \"\", \"from_number\": \"12032169277\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_12032169277@c.us_3ACEF3255E8E38FC0E9D\", \"message_type\": \"text\", \"message_content\": \"Hi yes. I was wondering if I could upgrade to a Silver Plus at iQ Shoreditch, and also confirm that I\\u2019ll be in the post graduate section of the building\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"12032169277@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-20T10:11:47.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hi yes. I was wondering if I could upgrade to a Silver Plus at iQ Shoreditch, and also confirm that I\\u2019ll be in the post graduate section of the building\\\", \\\"Datetime\\\": 1755684707000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"12032169277@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_12032169277@c.us_3ACEF3255E8E38FC0E9D\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"12032169277\\\", \\\"sentByUserId\\\": \\\"12032169277@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-20T10:11:47.820552\", \"direction\": \"inbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4652,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T10:12:39",
+      "content": "you will have to email them for the upgrade",
+      "source": "whatsapp",
+      "event_id": "7528324",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T10:12:39\", \"id\": 7528324, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12032169277\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12032169277@c.us_3FE215374E95B808145A\", \"message_type\": \"text\", \"message_content\": \"you will have to email them for the upgrade\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-20T10:12:39.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"you will have to email them for the upgrade\\\", \\\"Datetime\\\": 1755684759000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12032169277@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12032169277@c.us_3FE215374E95B808145A\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-20T10:12:40.181775\", \"direction\": \"outbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4653,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T10:14:32",
+      "content": "Yes I did!",
+      "source": "whatsapp",
+      "event_id": "7528438",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T10:14:32\", \"id\": 7528438, \"email\": \"\", \"from_number\": \"12032169277\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_12032169277@c.us_3AA267E65FCCEDD4960A\", \"message_type\": \"text\", \"message_content\": \"Yes I did!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"12032169277@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-20T10:14:32.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Yes I did!\\\", \\\"Datetime\\\": 1755684872000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"12032169277@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_12032169277@c.us_3AA267E65FCCEDD4960A\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"12032169277\\\", \\\"sentByUserId\\\": \\\"12032169277@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-20T10:14:32.839827\", \"direction\": \"inbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    },
+    {
+      "id": 4654,
+      "lead_id": 273,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-20T10:14:40",
+      "content": "Just haven’t gotten back to me",
+      "source": "whatsapp",
+      "event_id": "7528444",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-20T10:14:40\", \"id\": 7528444, \"email\": \"\", \"from_number\": \"12032169277\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_12032169277@c.us_3A60F20408BB8C72C538\", \"message_type\": \"text\", \"message_content\": \"Just haven\\u2019t gotten back to me\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"12032169277@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-20T10:14:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Just haven\\u2019t gotten back to me\\\", \\\"Datetime\\\": 1755684880000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"12032169277@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_12032169277@c.us_3A60F20408BB8C72C538\\\", \\\"ChannelName\\\": \\\"12032169277\\\", \\\"SentByNumber\\\": \\\"12032169277\\\", \\\"sentByUserId\\\": \\\"12032169277@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-20T10:14:40.878290\", \"direction\": \"inbound\", \"sbase_user_id\": 2421091, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12032169277\"}",
+      "created_at": "2025-11-18 10:37:49"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 182,
+      "lead_id": 273,
+      "call_id": "7650821",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3735566d-99f7-4d4c-b9b2-f4e2eb23f6ba.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Hello?\nSpeaker A: Hello. Hi, I'm speaking with Abigail.\nSpeaker B: Yes, this is she.\nSpeaker A: Hi, Abigail. How are you doing?\nSpeaker B: I'm doing well, how are you?\nSpeaker A: I'm great. Thank you so much for asking. Abigail, this is Mamutul Hussain. I'm calling regarding your accommodation in ucl. You have selected Camden Hallway in our website, correct?\nSpeaker B: Yes.\nSpeaker A: Perfect. Want to discuss about the booking before we process it? Do you have any question regarding the accommodation?\nSpeaker B: Yeah. Is it. Is it the axo? Is it on Bartholomew Road or is that a different one?\nSpeaker A: It confirmed you that. Just one second. It is in Hollycrest, London. Tell me one thing. Which? Pardon?\nSpeaker B: I'm just finding it. I have a lot of tabs open.\nSpeaker A: Okay, no worries. Oh, yes, I can share you this. Okay.\nSpeaker B: Yes, I see on Holly Crescent. Holly Crest.\nSpeaker A: Yes, perfect. That one.\nSpeaker B: Yeah.\nSpeaker A: All right, So we have studio. Yeah, go ahead.\nSpeaker B: No, you go ahead.\nSpeaker A: Okay. You selected Bronze studio, right. For 419 pounds. All right, so tell me one thing. Are you looking something close to the university?\nSpeaker B: Yes. Close to UCL?\nSpeaker A: Yeah. And your budget is close to 400, right?\nSpeaker B: Yes.\nSpeaker A: Just wanted to confirm, did you like this property or do you. Are you okay with, you know. Do you want me to suggest you something a little bit better?\nSpeaker B: Anything that's, you know, not above 420 a week?\nSpeaker A: All right, just give me one second. I'll just show you one property. I think I have one. Then we can get back to this one.\nSpeaker B: Okay.\nSpeaker A: This is also not a bad property. It's a good property. But I think you can do a little bit better in that budget.\nSpeaker B: Okay.\nSpeaker A: Okay. And where are you from?\nSpeaker B: I'm from the United States. I'm from New York.\nSpeaker A: Perfect. So how's your student journey going on? You got your visa?\nSpeaker B: No, not yet. I have my visa appointment on Monday.\nSpeaker A: Best of luck for that.\nSpeaker B: Thank you.\nSpeaker A: So one more thing I would like to tell you. Like, for. If you have not received your visa, we need to find you something which will allow, you know, refund of the deposit amounts if. If your visa is rejected. Correct.\nSpeaker B: Okay.\nSpeaker A: That will be much better option, don't you think?\nSpeaker B: Yeah.\nSpeaker A: Okay, just give me one tiny second. And you are only looking for studios, right?\nSpeaker B: Yes.\nSpeaker A: All right, so I'm sharing you this one. This is the IQ property. So I am sure you have heard about iq, right?\nSpeaker B: Yeah.\nSpeaker A: Perfect. So IQ is one of the most student oriented properties in London and most loved by lots of students. Let me share this one with you on your WhatsApp. You have WhatsApp on the same number. Abigail?\nSpeaker B: Yes.\nSpeaker A: Can you hear me?\nSpeaker B: Yeah.\nSpeaker A: Please check. I have shared a option on your WhatsApp.\nSpeaker B: Oh, on my WhatsApp. I think this one is a little too far for me.\nSpeaker A: Okay, let me get back, let me check. The distance is I think 30 minutes of a bus commute.\nSpeaker B: Yeah.\nSpeaker A: Okay. You want something more closer, right?\nSpeaker B: Yes.\nSpeaker A: Are we willing to increase the budget a little bit?\nSpeaker B: Not really, no.\nSpeaker A: No. Right, got it. All right then. Just allow me another second. Let me check the closest one for you. And you, you mentioned something about xo. Are you. Were you looking for Exo also?\nSpeaker B: Sorry, was I looking for what?\nSpeaker A: You mentioned something about xo. Right. We have a property called Exo. Like what are you.\nSpeaker B: Oh yes, it was on the. Just on the UCL accommodation is just one of the options. Axo.\nSpeaker A: Yes, AXO is one of the options. Correct. And you will be coming here for your Masters?\nSpeaker B: Yes.\nSpeaker A: Okay. Yeah, I'm sorry. The price of the accommodations are a little bit increased. So at this moment Camden Hallway is the best one for you.\nSpeaker B: Okay, awesome. And do I have to pay that deposit now or can I wait a couple days and hear back from some other people?\nSpeaker A: No, the deposit have to be paid in the time of your booking. But tell me one thing. Do you have a UK based guarantor? Do you have someone who is staying in UK and who can be your guarantor?\nSpeaker B: Not in the UK but in the us? Yeah.\nSpeaker A: Okay. See, to book this accommodation you will need a UK based guarantor.\nSpeaker B: So what does that mean?\nSpeaker A: That means someone who is staying in UK can take the responsibility in case you miss your payments.\nSpeaker B: Okay, I won't be able to do that then.\nSpeaker A: So I have selected one more option for you. In this option, you do not need a UK based guarantor. And yeah, one more thing. You will never need a UK based guaranteed. If you go for upfront payment. But I guess you are looking for installments, right?\nSpeaker B: Upfront would be like the entire year.\nSpeaker A: Yeah, up front. Up front will be for the whole year or you are planning to pay installments?\nSpeaker B: No, definitely installments.\nSpeaker A: Yeah. So I think that one is not a good option for you. Let me show you this one. Just one second. Yeah, I've shared another property with you. Can you check the distance wise it is pretty fine. And it is under your budget. You can even walk to the university from here. It is only 1.9 miles from the university and the classic studio is 415 pounds per week.\nSpeaker B: Yes, I think I've seen this one. Let me search it. Yeah, when I go to Arbor House online it says like the Page isn't working, so I can't see it online.\nSpeaker A: You cannot see the page is working now. You can click the link. The link that. The one that I've shared with you.\nSpeaker B: No, it's just. It doesn't.\nSpeaker A: Yeah. For that you need to save my number because you haven't saved my number. You are not able to see.\nSpeaker B: Okay.\nSpeaker A: Yeah.\nSpeaker B: Oh, I got it. Okay. I got it.\nSpeaker A: All right. Let me tell you about this one. This one is absolutely fabulous, right? They have ultra fast breadboard and WI fi, water, electric, heating and gas. All are included in your rent. You don't have to pay extra for that. You will get laundry, facility, bike storage, recycling, common room, communal space, and in safety security, they have sensitive cameras, secure access, fire, fire alarm, on site service team 247 assistance and content insurance. You know what is a content insurance? All right. Content insurance basically means if any of your items that you're going to bring on the property get damaged because of water leakage or properties fault or get stolen from the property, the property will pay for it.\nSpeaker B: Oh, wow. That's amazing.\nSpeaker A: Now one more thing. If you complete the booking today, you will get. Just once and how many days? Yeah. If you complete the booking today, you will get seven days to cancel the accommodation and get your refund back. If your visa gets rejected, you have seven days to inform the property and can get your refund back.\nSpeaker B: Okay.\nSpeaker A: You have unconditional. This looks great. Okay.\nSpeaker B: Is it already furnished in there?\nSpeaker A: Yes.\nSpeaker B: Okay, perfect. Let me just put you on hold. Do you mind if I either put you on hold or call you back in a bit? Just need to talk to my family.\nSpeaker A: Oh, yeah, sure, sure, sure. Just you can put me on hold and talk to your family.\nSpeaker B: Okay, thanks so much.\nSpeaker A: One more thing. I would like to tell you before that they don't need a guarantor. Your parents can be your guarantor from us.\nSpeaker B: Oh, okay. That's great. Awesome. Okay. Just give me a couple minutes.\nSpeaker A: Sure.\nSpeaker B: Thank you so much. What was your name again?\nSpeaker A: It was Hussein.\nSpeaker B: Jose.\nSpeaker A: Yeah.\nSpeaker B: Okay. Thanks so much. One second. Hi. Are you still there?\nSpeaker A: Yes, Abigail, I'm here. Tell me.\nSpeaker B: Okay. Can I call you back tomorrow? Just gonna keep doing some research.\nSpeaker A: Obviously, I want you to do all of your research. And that is my WhatsApp number. Just drop a hi over there anytime you are ready with any questions you have. All right? Okay.\nSpeaker B: Thanks so much.\nSpeaker A: No worries, Abigail. Take care. Awesome.\nSpeaker B: Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:38:09"
+    },
+    {
+      "id": 183,
+      "lead_id": 273,
+      "call_id": "7650933",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d94de670-33d4-4489-bf3d-79028dabe92b.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Hey, abigail. Hello?\nSpeaker B: Hello?\nSpeaker A: Hello?\nSpeaker B: Hi. Sorry, I can't really hear you.\nSpeaker A: Abigail, can you hear me now? Yeah, perfect. Perfect. So, I just wanted to tell you we have received your deposit for IQ and I am processing your booking right now. It might take some time, so please hang on tight and I'll share you the login credentials by tomorrow.\nSpeaker B: Okay.\nSpeaker A: All right, thank you so much. Take care. Okay, awesome.\nSpeaker B: Thank you. Bye.\nSpeaker A: Bye. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:38:14"
+    }
+  ],
+  "summary": {
+    "id": 113,
+    "lead_id": 273,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Abigail Genser\", \"mobile\": [\"12032169277\"], \"email\": [\"abigaillgenser@gmail.com\"], \"whatsapp\": [\"12032169277\"], \"student_status\": \"student\", \"nationality\": \"United States\"}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"studio\", \"budget\": {\"max\": 420, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-20\", \"dependents\": \"no\", \"amenities\": [\"wifi\", \"laundry\", \"bike storage\", \"recycling\", \"common room\", \"communal space\", \"security cameras\", \"secure access\", \"fire alarm\", \"on site service team 24/7 assistance\", \"content insurance\"], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": \"postgrad\"}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [\"pending\", \"visa appointment on Monday\"], \"guarantor\": \"no\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Camden Hallway\", \"IQ Hoxton\", \"Arbour House\", \"IQ Shoreditch\", \"AXO\"], \"rooms_considered\": [\"Bronze studio\", \"Classic Studio\", \"Silver studio\", \"Silver Plus\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to review the booking portal using provided login credentials and complete the booking steps.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-08-09 with booking portal link and credentials\"}, {\"type\": \"payment\", \"description\": \"Student to pay deposit at time of booking to secure accommodation.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-08-08 and WhatsApp message confirming deposit received\"}, {\"type\": \"booking_action\", \"description\": \"Agent to process the booking after deposit receipt and share login credentials with student.\", \"due\": \"within_24h\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-08 confirming deposit received and processing started\"}, {\"type\": \"communication\", \"description\": \"Agent to follow up with student regarding upgrade request to Silver Plus at iQ Shoreditch and postgraduate section confirmation.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-20 where student asked about upgrade and agent advised to email property\"}, {\"type\": \"follow_up\", \"description\": \"Student to email property team to request upgrade to Silver Plus at iQ Shoreditch.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent advised student on 2025-08-20 to email property for upgrade\"}, {\"type\": \"follow_up\", \"description\": \"Agent to check with property team about dishwasher availability in Silver studio at iQ Shoreditch and confirm to student.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student inquiry on 2025-08-13 about dishwasher in Silver studio; agent unsure\"}, {\"type\": \"communication\", \"description\": \"Agent to send reminder or follow up with student for feedback/review of service.\", \"due\": \"within_month\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-11 requesting review\"}], \"last_agent_response\": \"Agent confirmed receipt of deposit and processing booking, shared booking portal login credentials, advised student to email property for upgrade request, and responded to dishwasher inquiry with uncertainty.\", \"suggested_next_step\": \"Student to email property team to request upgrade to Silver Plus at iQ Shoreditch and complete booking steps in portal.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Abigail Genser\", \"nationality\": \"United States\", \"student_status\": \"student\", \"contact_info\": \"Email (abigaillgenser@gmail.com), Phone (+1 203 216 9277), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically close to University College London (UCL)\", \"university\": \"University College London (UCL)\", \"room_type\": \"Studio, specifically Bronze studio initially; later interested in Silver and Silver Plus studios\", \"budget_range\": \"Up to \\u00a3420 per week\", \"move_in_date\": \"Around 20 September 2025\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Accommodation allowing deposit refund if visa is rejected; no UK-based guarantor available; prefers installments payment; furnished room; close proximity to university; postgraduate section requested\"}, \"current_status\": {\"booking_stage\": \"Deposit paid and booking process started for IQ Hoxton; awaiting booking portal login and further steps\", \"documents_status\": \"Visa appointment scheduled but visa not yet received as of last call\", \"payment_status\": \"Deposit received and acknowledged by agent\", \"visa_status\": \"Visa appointment scheduled for Monday; visa not yet obtained\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple interactions including 2 phone calls and extensive WhatsApp messaging over 11 days\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-20\", \"response_time\": \"Generally prompt responses from agent; student responded within hours to days\", \"key_moments\": \"Initial call clarifying property options and budget; deposit payment confirmed; booking portal credentials shared; student inquired about amenities and upgrade options; agent advised on upgrade process; student awaiting response from property for upgrade\"}, \"properties_discussed\": {\"properties_mentioned\": \"Camden Hallway, IQ Hoxton, Arbour House, IQ Shoreditch, AXO\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Prefers studio rooms under \\u00a3420/week; wants accommodation close to UCL; prefers no UK guarantor requirement; interested in furnished rooms with included utilities; expressed interest in upgrading to Silver Plus at IQ Shoreditch and being in postgraduate section\", \"offers_made\": \"Agent offered properties with refundable deposit option if visa rejected; 7-day cancellation policy after booking\"}, \"next_steps\": {\"immediate_actions\": \"Student to complete booking steps via portal; student to contact property via email for upgrade request to Silver Plus at IQ Shoreditch\", \"pending_items\": \"Student awaiting response from property regarding upgrade; visa outcome pending\", \"follow_up_required\": \"Agent to monitor booking progress and assist with any further queries; follow up on upgrade request status\", \"timeline\": \"Visa appointment on upcoming Monday; move-in date around 20 September 2025; 7-day cancellation window after booking\"}, \"agent_notes\": {\"student_tone\": \"Polite, cautious, and thorough; seeks clarity and confirmation; consults family before final decisions\", \"urgency_level\": \"Moderate urgency due to upcoming visa appointment and move-in date\", \"complexity\": \"Moderate complexity due to visa uncertainty, guarantor requirements, and upgrade requests\", \"special_considerations\": \"Student does not have UK-based guarantor and prefers installment payments; requires accommodation with refundable deposit policy in case of visa rejection; interested in postgraduate section accommodation\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Abigail Genser\", \"mobile\": [\"12032169277\"], \"email\": [\"abigaillgenser@gmail.com\"], \"whatsapp\": [\"12032169277\"], \"student_status\": \"student\", \"nationality\": \"United States\"}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"studio\", \"budget\": {\"max\": 420, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-20\", \"dependents\": \"no\", \"amenities\": [\"wifi\", \"laundry\", \"bike storage\", \"recycling\", \"common room\", \"communal space\", \"security cameras\", \"secure access\", \"fire alarm\", \"on site service team 24/7 assistance\", \"content insurance\"], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": \"postgrad\"}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [\"pending\", \"visa appointment on Monday\"], \"guarantor\": \"no\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Camden Hallway\", \"IQ Hoxton\", \"Arbour House\", \"IQ Shoreditch\", \"AXO\"], \"rooms_considered\": [\"Bronze studio\", \"Classic Studio\", \"Silver studio\", \"Silver Plus\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Student to review the booking portal using provided login credentials and complete the booking steps.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-08-09 with booking portal link and credentials\"}, {\"type\": \"payment\", \"description\": \"Student to pay deposit at time of booking to secure accommodation.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-08-08 and WhatsApp message confirming deposit received\"}, {\"type\": \"booking_action\", \"description\": \"Agent to process the booking after deposit receipt and share login credentials with student.\", \"due\": \"within_24h\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-08 confirming deposit received and processing started\"}, {\"type\": \"communication\", \"description\": \"Agent to follow up with student regarding upgrade request to Silver Plus at iQ Shoreditch and postgraduate section confirmation.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-20 where student asked about upgrade and agent advised to email property\"}, {\"type\": \"follow_up\", \"description\": \"Student to email property team to request upgrade to Silver Plus at iQ Shoreditch.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent advised student on 2025-08-20 to email property for upgrade\"}, {\"type\": \"follow_up\", \"description\": \"Agent to check with property team about dishwasher availability in Silver studio at iQ Shoreditch and confirm to student.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student inquiry on 2025-08-13 about dishwasher in Silver studio; agent unsure\"}, {\"type\": \"communication\", \"description\": \"Agent to send reminder or follow up with student for feedback/review of service.\", \"due\": \"within_month\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-08-11 requesting review\"}], \"last_agent_response\": \"Agent confirmed receipt of deposit and processing booking, shared booking portal login credentials, advised student to email property for upgrade request, and responded to dishwasher inquiry with uncertainty.\", \"suggested_next_step\": \"Student to email property team to request upgrade to Silver Plus at iQ Shoreditch and complete booking steps in portal.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Abigail Genser\", \"nationality\": \"United States\", \"student_status\": \"student\", \"contact_info\": \"Email (abigaillgenser@gmail.com), Phone (+1 203 216 9277), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically close to University College London (UCL)\", \"university\": \"University College London (UCL)\", \"room_type\": \"Studio, specifically Bronze studio initially; later interested in Silver and Silver Plus studios\", \"budget_range\": \"Up to \\u00a3420 per week\", \"move_in_date\": \"Around 20 September 2025\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Accommodation allowing deposit refund if visa is rejected; no UK-based guarantor available; prefers installments payment; furnished room; close proximity to university; postgraduate section requested\"}, \"current_status\": {\"booking_stage\": \"Deposit paid and booking process started for IQ Hoxton; awaiting booking portal login and further steps\", \"documents_status\": \"Visa appointment scheduled but visa not yet received as of last call\", \"payment_status\": \"Deposit received and acknowledged by agent\", \"visa_status\": \"Visa appointment scheduled for Monday; visa not yet obtained\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple interactions including 2 phone calls and extensive WhatsApp messaging over 11 days\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-08-20\", \"response_time\": \"Generally prompt responses from agent; student responded within hours to days\", \"key_moments\": \"Initial call clarifying property options and budget; deposit payment confirmed; booking portal credentials shared; student inquired about amenities and upgrade options; agent advised on upgrade process; student awaiting response from property for upgrade\"}, \"properties_discussed\": {\"properties_mentioned\": \"Camden Hallway, IQ Hoxton, Arbour House, IQ Shoreditch, AXO\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Prefers studio rooms under \\u00a3420/week; wants accommodation close to UCL; prefers no UK guarantor requirement; interested in furnished rooms with included utilities; expressed interest in upgrading to Silver Plus at IQ Shoreditch and being in postgraduate section\", \"offers_made\": \"Agent offered properties with refundable deposit option if visa rejected; 7-day cancellation policy after booking\"}, \"next_steps\": {\"immediate_actions\": \"Student to complete booking steps via portal; student to contact property via email for upgrade request to Silver Plus at IQ Shoreditch\", \"pending_items\": \"Student awaiting response from property regarding upgrade; visa outcome pending\", \"follow_up_required\": \"Agent to monitor booking progress and assist with any further queries; follow up on upgrade request status\", \"timeline\": \"Visa appointment on upcoming Monday; move-in date around 20 September 2025; 7-day cancellation window after booking\"}, \"agent_notes\": {\"student_tone\": \"Polite, cautious, and thorough; seeks clarity and confirmation; consults family before final decisions\", \"urgency_level\": \"Moderate urgency due to upcoming visa appointment and move-in date\", \"complexity\": \"Moderate complexity due to visa uncertainty, guarantor requirements, and upgrade requests\", \"special_considerations\": \"Student does not have UK-based guarantor and prefers installment payments; requires accommodation with refundable deposit policy in case of visa rejection; interested in postgraduate section accommodation\"}}}}}",
+    "created_at": "2025-11-18 10:38:31",
+    "updated_at": "2025-11-18T16:08:31.481168",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Abigail Genser",
+        "mobile": [
+          "12032169277"
+        ],
+        "email": [
+          "abigaillgenser@gmail.com"
+        ],
+        "whatsapp": [
+          "12032169277"
+        ],
+        "student_status": "student",
+        "nationality": "United States"
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "studio",
+        "budget": {
+          "max": 420,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": "2025-09-20",
+        "dependents": "no",
+        "amenities": [
+          "wifi",
+          "laundry",
+          "bike storage",
+          "recycling",
+          "common room",
+          "communal space",
+          "security cameras",
+          "secure access",
+          "fire alarm",
+          "on site service team 24/7 assistance",
+          "content insurance"
+        ],
+        "housing_type": "pbsa",
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": "installment",
+        "course_year": "postgrad"
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [
+          "pending",
+          "visa appointment on Monday"
+        ],
+        "guarantor": "no"
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Camden Hallway",
+          "IQ Hoxton",
+          "Arbour House",
+          "IQ Shoreditch",
+          "AXO"
+        ],
+        "rooms_considered": [
+          "Bronze studio",
+          "Classic Studio",
+          "Silver studio",
+          "Silver Plus"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Student to review the booking portal using provided login credentials and complete the booking steps.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp message on 2025-08-09 with booking portal link and credentials"
+        },
+        {
+          "type": "payment",
+          "description": "Student to pay deposit at time of booking to secure accommodation.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "student",
+          "source_reference": "Call on 2025-08-08 and WhatsApp message confirming deposit received"
+        },
+        {
+          "type": "booking_action",
+          "description": "Agent to process the booking after deposit receipt and share login credentials with student.",
+          "due": "within_24h",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-08-08 confirming deposit received and processing started"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to follow up with student regarding upgrade request to Silver Plus at iQ Shoreditch and postgraduate section confirmation.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages on 2025-08-20 where student asked about upgrade and agent advised to email property"
+        },
+        {
+          "type": "follow_up",
+          "description": "Student to email property team to request upgrade to Silver Plus at iQ Shoreditch.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent advised student on 2025-08-20 to email property for upgrade"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to check with property team about dishwasher availability in Silver studio at iQ Shoreditch and confirm to student.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student inquiry on 2025-08-13 about dishwasher in Silver studio; agent unsure"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to send reminder or follow up with student for feedback/review of service.",
+          "due": "within_month",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages on 2025-08-11 requesting review"
+        }
+      ],
+      "last_agent_response": "Agent confirmed receipt of deposit and processing booking, shared booking portal login credentials, advised student to email property for upgrade request, and responded to dishwasher inquiry with uncertainty.",
+      "suggested_next_step": "Student to email property team to request upgrade to Silver Plus at iQ Shoreditch and complete booking steps in portal."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Abigail Genser",
+            "nationality": "United States",
+            "student_status": "student",
+            "contact_info": "Email (abigaillgenser@gmail.com), Phone (+1 203 216 9277), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, specifically close to University College London (UCL)",
+            "university": "University College London (UCL)",
+            "room_type": "Studio, specifically Bronze studio initially; later interested in Silver and Silver Plus studios",
+            "budget_range": "Up to £420 per week",
+            "move_in_date": "Around 20 September 2025",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Accommodation allowing deposit refund if visa is rejected; no UK-based guarantor available; prefers installments payment; furnished room; close proximity to university; postgraduate section requested"
+          },
+          "current_status": {
+            "booking_stage": "Deposit paid and booking process started for IQ Hoxton; awaiting booking portal login and further steps",
+            "documents_status": "Visa appointment scheduled but visa not yet received as of last call",
+            "payment_status": "Deposit received and acknowledged by agent",
+            "visa_status": "Visa appointment scheduled for Monday; visa not yet obtained",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple interactions including 2 phone calls and extensive WhatsApp messaging over 11 days",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-08-20",
+            "response_time": "Generally prompt responses from agent; student responded within hours to days",
+            "key_moments": "Initial call clarifying property options and budget; deposit payment confirmed; booking portal credentials shared; student inquired about amenities and upgrade options; agent advised on upgrade process; student awaiting response from property for upgrade"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Camden Hallway, IQ Hoxton, Arbour House, IQ Shoreditch, AXO",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Prefers studio rooms under £420/week; wants accommodation close to UCL; prefers no UK guarantor requirement; interested in furnished rooms with included utilities; expressed interest in upgrading to Silver Plus at IQ Shoreditch and being in postgraduate section",
+            "offers_made": "Agent offered properties with refundable deposit option if visa rejected; 7-day cancellation policy after booking"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to complete booking steps via portal; student to contact property via email for upgrade request to Silver Plus at IQ Shoreditch",
+            "pending_items": "Student awaiting response from property regarding upgrade; visa outcome pending",
+            "follow_up_required": "Agent to monitor booking progress and assist with any further queries; follow up on upgrade request status",
+            "timeline": "Visa appointment on upcoming Monday; move-in date around 20 September 2025; 7-day cancellation window after booking"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, cautious, and thorough; seeks clarity and confirmation; consults family before final decisions",
+            "urgency_level": "Moderate urgency due to upcoming visa appointment and move-in date",
+            "complexity": "Moderate complexity due to visa uncertainty, guarantor requirements, and upgrade requests",
+            "special_considerations": "Student does not have UK-based guarantor and prefers installment payments; requires accommodation with refundable deposit policy in case of visa rejection; interested in postgraduate section accommodation"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Abigail Genser",
+          "mobile": [
+            "12032169277"
+          ],
+          "email": [
+            "abigaillgenser@gmail.com"
+          ],
+          "whatsapp": [
+            "12032169277"
+          ],
+          "student_status": "student",
+          "nationality": "United States"
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "studio",
+          "budget": {
+            "max": 420,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": "2025-09-20",
+          "dependents": "no",
+          "amenities": [
+            "wifi",
+            "laundry",
+            "bike storage",
+            "recycling",
+            "common room",
+            "communal space",
+            "security cameras",
+            "secure access",
+            "fire alarm",
+            "on site service team 24/7 assistance",
+            "content insurance"
+          ],
+          "housing_type": "pbsa",
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": "installment",
+          "course_year": "postgrad"
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [
+            "pending",
+            "visa appointment on Monday"
+          ],
+          "guarantor": "no"
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Camden Hallway",
+            "IQ Hoxton",
+            "Arbour House",
+            "IQ Shoreditch",
+            "AXO"
+          ],
+          "rooms_considered": [
+            "Bronze studio",
+            "Classic Studio",
+            "Silver studio",
+            "Silver Plus"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Student to review the booking portal using provided login credentials and complete the booking steps.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp message on 2025-08-09 with booking portal link and credentials"
+          },
+          {
+            "type": "payment",
+            "description": "Student to pay deposit at time of booking to secure accommodation.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "student",
+            "source_reference": "Call on 2025-08-08 and WhatsApp message confirming deposit received"
+          },
+          {
+            "type": "booking_action",
+            "description": "Agent to process the booking after deposit receipt and share login credentials with student.",
+            "due": "within_24h",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-08-08 confirming deposit received and processing started"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to follow up with student regarding upgrade request to Silver Plus at iQ Shoreditch and postgraduate section confirmation.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages on 2025-08-20 where student asked about upgrade and agent advised to email property"
+          },
+          {
+            "type": "follow_up",
+            "description": "Student to email property team to request upgrade to Silver Plus at iQ Shoreditch.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent advised student on 2025-08-20 to email property for upgrade"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to check with property team about dishwasher availability in Silver studio at iQ Shoreditch and confirm to student.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student inquiry on 2025-08-13 about dishwasher in Silver studio; agent unsure"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to send reminder or follow up with student for feedback/review of service.",
+            "due": "within_month",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages on 2025-08-11 requesting review"
+          }
+        ],
+        "last_agent_response": "Agent confirmed receipt of deposit and processing booking, shared booking portal login credentials, advised student to email property for upgrade request, and responded to dishwasher inquiry with uncertainty.",
+        "suggested_next_step": "Student to email property team to request upgrade to Silver Plus at iQ Shoreditch and complete booking steps in portal."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Abigail Genser",
+              "nationality": "United States",
+              "student_status": "student",
+              "contact_info": "Email (abigaillgenser@gmail.com), Phone (+1 203 216 9277), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, specifically close to University College London (UCL)",
+              "university": "University College London (UCL)",
+              "room_type": "Studio, specifically Bronze studio initially; later interested in Silver and Silver Plus studios",
+              "budget_range": "Up to £420 per week",
+              "move_in_date": "Around 20 September 2025",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Accommodation allowing deposit refund if visa is rejected; no UK-based guarantor available; prefers installments payment; furnished room; close proximity to university; postgraduate section requested"
+            },
+            "current_status": {
+              "booking_stage": "Deposit paid and booking process started for IQ Hoxton; awaiting booking portal login and further steps",
+              "documents_status": "Visa appointment scheduled but visa not yet received as of last call",
+              "payment_status": "Deposit received and acknowledged by agent",
+              "visa_status": "Visa appointment scheduled for Monday; visa not yet obtained",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple interactions including 2 phone calls and extensive WhatsApp messaging over 11 days",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-08-20",
+              "response_time": "Generally prompt responses from agent; student responded within hours to days",
+              "key_moments": "Initial call clarifying property options and budget; deposit payment confirmed; booking portal credentials shared; student inquired about amenities and upgrade options; agent advised on upgrade process; student awaiting response from property for upgrade"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Camden Hallway, IQ Hoxton, Arbour House, IQ Shoreditch, AXO",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Prefers studio rooms under £420/week; wants accommodation close to UCL; prefers no UK guarantor requirement; interested in furnished rooms with included utilities; expressed interest in upgrading to Silver Plus at IQ Shoreditch and being in postgraduate section",
+              "offers_made": "Agent offered properties with refundable deposit option if visa rejected; 7-day cancellation policy after booking"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to complete booking steps via portal; student to contact property via email for upgrade request to Silver Plus at IQ Shoreditch",
+              "pending_items": "Student awaiting response from property regarding upgrade; visa outcome pending",
+              "follow_up_required": "Agent to monitor booking progress and assist with any further queries; follow up on upgrade request status",
+              "timeline": "Visa appointment on upcoming Monday; move-in date around 20 September 2025; 7-day cancellation window after booking"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, cautious, and thorough; seeks clarity and confirmation; consults family before final decisions",
+              "urgency_level": "Moderate urgency due to upcoming visa appointment and move-in date",
+              "complexity": "Moderate complexity due to visa uncertainty, guarantor requirements, and upgrade requests",
+              "special_considerations": "Student does not have UK-based guarantor and prefers installment payments; requires accommodation with refundable deposit policy in case of visa rejection; interested in postgraduate section accommodation"
+            }
+          }
+        }
+      }
+    }
+  }
+}

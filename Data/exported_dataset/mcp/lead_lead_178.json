@@ -1,0 +1,326 @@
+{
+  "id": "lead_178",
+  "mobile_number": "447901022883",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2713,
+      "lead_id": 178,
+      "event_type": "call",
+      "timestamp": "2025-11-14T12:08:47.142995",
+      "content": "",
+      "source": "plivo",
+      "event_id": "8073038",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-11-14T12:08:47.142995\", \"id\": 8073038, \"duration\": \"40\", \"to_number\": \"447901022883\", \"from_number\": \"447312161523\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/441bf402-0654-429e-8777-04c64ced64d0.wav\"}",
+      "created_at": "2025-11-18 10:23:13"
+    },
+    {
+      "id": 2714,
+      "lead_id": 178,
+      "event_type": "email",
+      "timestamp": "2025-11-15T16:36:08",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-11-15T16:36:08\", \"sender_email\": \"haziqahmedrumzy@gmail.com\", \"recipient_email\": \"mahmudul.h@amberstudent.com\", \"subject\": \"Re: Your Enquiry In London!\", \"message\": \"hi,\\\\n\\\\ndo you know when this accomodation will be available for booking?\\\\n\\\\nthank you,\\\\n\\\\nhaziq\\\\n\\\\nOn Fri, 14 Nov 2025 at 10:20\\u202fAM, <[mahmudul.h@amberstudent.com]()> wrote:\\\\n\\\\nHi Haziq\\\\n\\\\nWe hope this email finds you well!\\\\n\\\\nThank you for contacting [amberstudent.com]() and providing us with the opportunity to assist you in booking your ideal student home.\\\\n\\\\nYour reference number is #11154924409.\\\\n\\\\nI am Mahmudul, your booking manager for London. It is my pleasure to help you book the accommodation as requested.We take care of the entire paperwork and rental agreement on your behalf. Nothing would delight us more than providing you with a hassle-free booking experience :)\\\\n\\\\nIf you have any questions or need further assistance, please don't hesitate to reach out to us via Call / Email / Whatsapp or let us know a suitable time to contact you. We look forward to your response and the opportunity to assist you further.\\\\n\\\\nAdditionally, we are delighted to introduce our referral program. You can earn $50 for each friend you refer to us. You can visit [http://amberstudent.com/refer]() to refer them.\\\\n\\\\n[amberstudent.com]\\\\n\\\\nMahmudul H\\\\n\\\\nSenior Operations Associate\\\\n\\\\nPhone: [+447897026561]()\\\\n\\\\nWhatsapp: [+447782694334]()\\\\n\\\\nEmail: [mahmudul.h@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\", \"snippet\": \"hi, do you know when this accomodation will be available for booking? thank you, haziq On Fri, 14 Nov 2025 at 10:20 AM, &lt;mahmudul.h@amberstudent.com&gt; wrote: Hi Haziq We hope this email finds you\", \"direction\": \"inbound\", \"sender_type\": \"student\", \"agent_email\": \"mahmudul.h@amberstudent.com\", \"student_email\": \"haziqahmedrumzy@gmail.com\"}",
+      "created_at": "2025-11-18 10:23:13"
+    },
+    {
+      "id": 2715,
+      "lead_id": 178,
+      "event_type": "lead_info",
+      "timestamp": "2026-05-01T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2026-05-01T00:00:00\", \"lead_id\": 3309552, \"user_name\": \"Haziq Ahmed Rumzy\", \"email\": \"haziqahmedrumzy@gmail.com\", \"phone\": \"447901022883\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3055, \"inventory_id\": 1122614}",
+      "created_at": "2025-11-18 10:23:13"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 95,
+      "lead_id": 178,
+      "call_id": "8073038",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/441bf402-0654-429e-8777-04c64ced64d0.wav",
+      "transcript_text": "Speaker A: This is the vodafone voicemail service 407-90-10283. Please leave a message after the tone. When you finish recording, please hang up or press the hash key for more options.\nSpeaker B: Hi, I'm speaking with Hazik Ahmed Rumsey. Hazik, this is Hussain. I'm calling regarding your accommodation. I'm calling from UCL accommodation portal powered by Ambus Student. Could you please call me back on this number? Or you can revert me on your WhatsApp. I will be dropping your WhatsApp to you so we can help you out with your accommodation search. Thank you so much. Have a great day ahead.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:23:22"
+    }
+  ],
+  "summary": {
+    "id": 74,
+    "lead_id": 178,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Haziq Ahmed Rumzy\", \"mobile\": [\"+447901022883\"], \"email\": [\"haziqahmedrumzy@gmail.com\"], \"whatsapp\": [\"+447782694334\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Yes, referral program discussed with $50 per friend referral\"}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Agent to respond to Haziq's inquiry about when the accommodation will be available for booking.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email from Haziq on 2025-11-15 asking about accommodation availability\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with Haziq via call or WhatsApp as requested in voicemail to assist with accommodation search.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Voicemail left by agent on 2025-11-14 requesting Haziq to call back or respond on WhatsApp\"}], \"last_agent_response\": \"Agent left a voicemail on 2025-11-14 requesting Haziq to call back or respond on WhatsApp to assist with accommodation search.\", \"suggested_next_step\": \"Agent should promptly reply to Haziq's email regarding accommodation availability and follow up via call or WhatsApp as per voicemail.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Haziq Ahmed Rumzy\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone (447901022883), Email (haziqahmedrumzy@gmail.com), WhatsApp mentioned\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds (exact amount not specified)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry regarding accommodation availability\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 (1 call with voicemail, 1 inbound email, 1 lead info record)\", \"primary_channel\": \"Email and phone calls with voicemail\", \"last_contact\": \"2026-05-01 (lead info recorded)\", \"response_time\": \"Student responded to agent email within approximately 1 day\", \"key_moments\": \"Agent left voicemail on 2025-11-14; student emailed on 2025-11-15 asking about booking availability; lead info updated on 2026-05-01\"}, \"properties_discussed\": {\"properties_mentioned\": \"Not mentioned\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student inquired about accommodation availability\", \"offers_made\": \"Referral program mentioned by agent in initial email\"}, \"next_steps\": {\"immediate_actions\": \"Agent to inform student about accommodation availability and booking process\", \"pending_items\": \"Response to student's query about booking availability\", \"follow_up_required\": \"Follow up on student's inquiry and assist with booking\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and inquisitive\", \"urgency_level\": \"Moderate, seeking information about booking availability\", \"complexity\": \"Simple inquiry stage\", \"special_considerations\": \"Student prefers communication via WhatsApp or phone call as per voicemail message\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Haziq Ahmed Rumzy\", \"mobile\": [\"+447901022883\"], \"email\": [\"haziqahmedrumzy@gmail.com\"], \"whatsapp\": [\"+447782694334\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Yes, referral program discussed with $50 per friend referral\"}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Agent to respond to Haziq's inquiry about when the accommodation will be available for booking.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email from Haziq on 2025-11-15 asking about accommodation availability\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with Haziq via call or WhatsApp as requested in voicemail to assist with accommodation search.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Voicemail left by agent on 2025-11-14 requesting Haziq to call back or respond on WhatsApp\"}], \"last_agent_response\": \"Agent left a voicemail on 2025-11-14 requesting Haziq to call back or respond on WhatsApp to assist with accommodation search.\", \"suggested_next_step\": \"Agent should promptly reply to Haziq's email regarding accommodation availability and follow up via call or WhatsApp as per voicemail.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Haziq Ahmed Rumzy\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone (447901022883), Email (haziqahmedrumzy@gmail.com), WhatsApp mentioned\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds (exact amount not specified)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry regarding accommodation availability\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 (1 call with voicemail, 1 inbound email, 1 lead info record)\", \"primary_channel\": \"Email and phone calls with voicemail\", \"last_contact\": \"2026-05-01 (lead info recorded)\", \"response_time\": \"Student responded to agent email within approximately 1 day\", \"key_moments\": \"Agent left voicemail on 2025-11-14; student emailed on 2025-11-15 asking about booking availability; lead info updated on 2026-05-01\"}, \"properties_discussed\": {\"properties_mentioned\": \"Not mentioned\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student inquired about accommodation availability\", \"offers_made\": \"Referral program mentioned by agent in initial email\"}, \"next_steps\": {\"immediate_actions\": \"Agent to inform student about accommodation availability and booking process\", \"pending_items\": \"Response to student's query about booking availability\", \"follow_up_required\": \"Follow up on student's inquiry and assist with booking\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and inquisitive\", \"urgency_level\": \"Moderate, seeking information about booking availability\", \"complexity\": \"Simple inquiry stage\", \"special_considerations\": \"Student prefers communication via WhatsApp or phone call as per voicemail message\"}}}}}",
+    "created_at": "2025-11-18 10:23:30",
+    "updated_at": "2025-11-18T15:53:30.925353",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Haziq Ahmed Rumzy",
+        "mobile": [
+          "+447901022883"
+        ],
+        "email": [
+          "haziqahmedrumzy@gmail.com"
+        ],
+        "whatsapp": [
+          "+447782694334"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "UCL",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": "Yes, referral program discussed with $50 per friend referral"
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Agent to respond to Haziq's inquiry about when the accommodation will be available for booking.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Email from Haziq on 2025-11-15 asking about accommodation availability"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Haziq via call or WhatsApp as requested in voicemail to assist with accommodation search.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Voicemail left by agent on 2025-11-14 requesting Haziq to call back or respond on WhatsApp"
+        }
+      ],
+      "last_agent_response": "Agent left a voicemail on 2025-11-14 requesting Haziq to call back or respond on WhatsApp to assist with accommodation search.",
+      "suggested_next_step": "Agent should promptly reply to Haziq's email regarding accommodation availability and follow up via call or WhatsApp as per voicemail."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Haziq Ahmed Rumzy",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone (447901022883), Email (haziqahmedrumzy@gmail.com), WhatsApp mentioned",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "Weekly budget in pounds (exact amount not specified)",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry regarding accommodation availability",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 (1 call with voicemail, 1 inbound email, 1 lead info record)",
+            "primary_channel": "Email and phone calls with voicemail",
+            "last_contact": "2026-05-01 (lead info recorded)",
+            "response_time": "Student responded to agent email within approximately 1 day",
+            "key_moments": "Agent left voicemail on 2025-11-14; student emailed on 2025-11-15 asking about booking availability; lead info updated on 2026-05-01"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Not mentioned",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Student inquired about accommodation availability",
+            "offers_made": "Referral program mentioned by agent in initial email"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to inform student about accommodation availability and booking process",
+            "pending_items": "Response to student's query about booking availability",
+            "follow_up_required": "Follow up on student's inquiry and assist with booking",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and inquisitive",
+            "urgency_level": "Moderate, seeking information about booking availability",
+            "complexity": "Simple inquiry stage",
+            "special_considerations": "Student prefers communication via WhatsApp or phone call as per voicemail message"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Haziq Ahmed Rumzy",
+          "mobile": [
+            "+447901022883"
+          ],
+          "email": [
+            "haziqahmedrumzy@gmail.com"
+          ],
+          "whatsapp": [
+            "+447782694334"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "UCL",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": "Yes, referral program discussed with $50 per friend referral"
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Agent to respond to Haziq's inquiry about when the accommodation will be available for booking.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Email from Haziq on 2025-11-15 asking about accommodation availability"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Haziq via call or WhatsApp as requested in voicemail to assist with accommodation search.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Voicemail left by agent on 2025-11-14 requesting Haziq to call back or respond on WhatsApp"
+          }
+        ],
+        "last_agent_response": "Agent left a voicemail on 2025-11-14 requesting Haziq to call back or respond on WhatsApp to assist with accommodation search.",
+        "suggested_next_step": "Agent should promptly reply to Haziq's email regarding accommodation availability and follow up via call or WhatsApp as per voicemail."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Haziq Ahmed Rumzy",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone (447901022883), Email (haziqahmedrumzy@gmail.com), WhatsApp mentioned",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "Weekly budget in pounds (exact amount not specified)",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry regarding accommodation availability",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 (1 call with voicemail, 1 inbound email, 1 lead info record)",
+              "primary_channel": "Email and phone calls with voicemail",
+              "last_contact": "2026-05-01 (lead info recorded)",
+              "response_time": "Student responded to agent email within approximately 1 day",
+              "key_moments": "Agent left voicemail on 2025-11-14; student emailed on 2025-11-15 asking about booking availability; lead info updated on 2026-05-01"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Not mentioned",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Student inquired about accommodation availability",
+              "offers_made": "Referral program mentioned by agent in initial email"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to inform student about accommodation availability and booking process",
+              "pending_items": "Response to student's query about booking availability",
+              "follow_up_required": "Follow up on student's inquiry and assist with booking",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and inquisitive",
+              "urgency_level": "Moderate, seeking information about booking availability",
+              "complexity": "Simple inquiry stage",
+              "special_considerations": "Student prefers communication via WhatsApp or phone call as per voicemail message"
+            }
+          }
+        }
+      }
+    }
+  }
+}

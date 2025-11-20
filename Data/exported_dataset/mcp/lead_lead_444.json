@@ -1,0 +1,264 @@
+{
+  "id": "lead_444",
+  "mobile_number": "77018215869",
+  "email": null,
+  "timeline": [
+    {
+      "id": 15468,
+      "lead_id": 444,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3235174, \"user_name\": \"Timirlan Akatayev\", \"email\": \"tima62550@gmail.com\", \"phone\": \"77018215869\", \"lease_duration\": \"43 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 457, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1428731}",
+      "created_at": "2025-11-18 13:30:37"
+    },
+    {
+      "id": 15469,
+      "lead_id": 444,
+      "event_type": "call",
+      "timestamp": "2025-09-16T13:54:34.492828",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7883960",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-16T13:54:34.492828\", \"id\": 7883960, \"duration\": \"11\", \"to_number\": \"77018215869\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3372396e-126c-44be-af89-4d33b55aebac.wav\"}",
+      "created_at": "2025-11-18 13:30:37"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 383,
+    "lead_id": 444,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Timirlan Akatayev\", \"mobile\": [\"+77018215869\"], \"email\": [\"tima62550@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 457, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent made a call to the student Timirlan Akatayev on 2025-09-16.\", \"suggested_next_step\": \"Follow up with the student to confirm interest and discuss next steps for booking or document submission.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Timirlan Akatayev\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (tima62550@gmail.com), Phone (77018215869)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3457 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (lead info submission and one call)\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-09-16T13:54:34\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead submitted on 2025-09-13; follow-up call made on 2025-09-16 lasting 11 seconds\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1428731 referenced\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on call to clarify accommodation preferences and move-in date\", \"pending_items\": \"Student response on room type, move-in date, and any special requirements\", \"follow_up_required\": \"Yes, to confirm details and progress booking\", \"timeline\": \"Lease duration ends 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Not enough data to determine\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget and lease duration clearly stated; no other preferences or details provided yet\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Timirlan Akatayev\", \"mobile\": [\"+77018215869\"], \"email\": [\"tima62550@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 457, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent made a call to the student Timirlan Akatayev on 2025-09-16.\", \"suggested_next_step\": \"Follow up with the student to confirm interest and discuss next steps for booking or document submission.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Timirlan Akatayev\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (tima62550@gmail.com), Phone (77018215869)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3457 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 (lead info submission and one call)\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-09-16T13:54:34\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead submitted on 2025-09-13; follow-up call made on 2025-09-16 lasting 11 seconds\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1428731 referenced\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up on call to clarify accommodation preferences and move-in date\", \"pending_items\": \"Student response on room type, move-in date, and any special requirements\", \"follow_up_required\": \"Yes, to confirm details and progress booking\", \"timeline\": \"Lease duration ends 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Not enough data to determine\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget and lease duration clearly stated; no other preferences or details provided yet\"}}}}}",
+    "created_at": "2025-11-18 13:30:45",
+    "updated_at": "2025-11-18T19:00:45.662865",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Timirlan Akatayev",
+        "mobile": [
+          "+77018215869"
+        ],
+        "email": [
+          "tima62550@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 43,
+        "room_type": null,
+        "budget": {
+          "max": 457,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent made a call to the student Timirlan Akatayev on 2025-09-16.",
+      "suggested_next_step": "Follow up with the student to confirm interest and discuss next steps for booking or document submission."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Timirlan Akatayev",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (tima62550@gmail.com), Phone (77018215869)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£457 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "43 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 (lead info submission and one call)",
+            "primary_channel": "Phone call",
+            "last_contact": "2025-09-16T13:54:34",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial lead submitted on 2025-09-13; follow-up call made on 2025-09-16 lasting 11 seconds"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1428731 referenced",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up on call to clarify accommodation preferences and move-in date",
+            "pending_items": "Student response on room type, move-in date, and any special requirements",
+            "follow_up_required": "Yes, to confirm details and progress booking",
+            "timeline": "Lease duration ends 2026-07-10"
+          },
+          "agent_notes": {
+            "student_tone": "Not enough data to determine",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Budget and lease duration clearly stated; no other preferences or details provided yet"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Timirlan Akatayev",
+          "mobile": [
+            "+77018215869"
+          ],
+          "email": [
+            "tima62550@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 43,
+          "room_type": null,
+          "budget": {
+            "max": 457,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent made a call to the student Timirlan Akatayev on 2025-09-16.",
+        "suggested_next_step": "Follow up with the student to confirm interest and discuss next steps for booking or document submission."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Timirlan Akatayev",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (tima62550@gmail.com), Phone (77018215869)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£457 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "43 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 (lead info submission and one call)",
+              "primary_channel": "Phone call",
+              "last_contact": "2025-09-16T13:54:34",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial lead submitted on 2025-09-13; follow-up call made on 2025-09-16 lasting 11 seconds"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1428731 referenced",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up on call to clarify accommodation preferences and move-in date",
+              "pending_items": "Student response on room type, move-in date, and any special requirements",
+              "follow_up_required": "Yes, to confirm details and progress booking",
+              "timeline": "Lease duration ends 2026-07-10"
+            },
+            "agent_notes": {
+              "student_tone": "Not enough data to determine",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Budget and lease duration clearly stated; no other preferences or details provided yet"
+            }
+          }
+        }
+      }
+    }
+  }
+}

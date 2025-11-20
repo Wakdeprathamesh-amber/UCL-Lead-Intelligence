@@ -1,0 +1,309 @@
+{
+  "id": "lead_443",
+  "mobile_number": "919810475458",
+  "email": null,
+  "timeline": [
+    {
+      "id": 17902,
+      "lead_id": 443,
+      "event_type": "call",
+      "timestamp": "2025-08-31T06:19:17.830843",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7791834",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-31T06:19:17.830843\", \"id\": 7791834, \"duration\": \"131\", \"to_number\": \"919810475458\", \"from_number\": \"918035315533\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAZGMYYTK2YZK1ODM5YT/Recording/ed4d5c9d-ccd3-4e38-95a0-81c97e11fcc1.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17903,
+      "lead_id": 443,
+      "event_type": "call",
+      "timestamp": "2025-09-01T15:05:49.593500",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7797461",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T15:05:49.593500\", \"id\": 7797461, \"duration\": \"3\", \"to_number\": \"919810475458\", \"from_number\": \"918035315533\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAZGMYYTK2YZK1ODM5YT/Recording/686874e6-08ed-49da-9a15-008a2120a35b.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17904,
+      "lead_id": 443,
+      "event_type": "call",
+      "timestamp": "2025-09-01T15:09:50.243278",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7797513",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T15:09:50.243278\", \"id\": 7797513, \"duration\": \"55\", \"to_number\": \"919810475458\", \"from_number\": \"918035315533\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAZGMYYTK2YZK1ODM5YT/Recording/4dd711d8-055b-4750-835f-070a28867027.wav\"}",
+      "created_at": "2025-11-19 07:09:56"
+    },
+    {
+      "id": 17905,
+      "lead_id": 443,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3193870, \"user_name\": \"Aditya Gupta\", \"email\": \"aditya1104g@gmail.com\", \"phone\": \"919810475458\", \"lease_duration\": \"43 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 279, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 883, \"inventory_id\": 2026262}",
+      "created_at": "2025-11-19 07:09:56"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 719,
+      "lead_id": 443,
+      "call_id": "7797513",
+      "record_url": "https://media.plivo.com/v1/Account/MAZGMYYTK2YZK1ODM5YT/Recording/4dd711d8-055b-4750-835f-070a28867027.wav",
+      "transcript_text": "Speaker B: Hello.\nSpeaker A: Hello.\nSpeaker B: Yes. Sorry.\nSpeaker A: Hello. Yeah, I'm calling from Amber Student. This is regarding your recommendation. Aditya.\nSpeaker B: Okay. Hi.\nSpeaker A: Yeah, hi. We actually got an information that you are looking to book this accommodation called IQ the Arcade.\nSpeaker B: IQ Arcade? Yes. Actually that like. I'll go ahead with my uni accommodation only.\nSpeaker A: Okay. So you got an update. You. We had a word yesterday that you are waiting for university. So have you got the confirmation?\nSpeaker B: Yes.\nSpeaker A: All right. No worries. Thank you so much for the confirmation. In case in future need any help. Feel free to message me.\nSpeaker B: Okay? Okay.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-19 07:10:12"
+    }
+  ],
+  "summary": {
+    "id": 415,
+    "lead_id": 443,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Aditya Gupta\", \"mobile\": [\"+919810475458\"], \"email\": [\"aditya1104g@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 279, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ the Arcade\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent confirmed with Aditya that he will proceed with his university accommodation and acknowledged the confirmation.\", \"suggested_next_step\": \"No immediate action required as the student confirmed proceeding with university accommodation; agent to remain available for future assistance if needed.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Aditya Gupta\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 919810475458; email aditya1104g@gmail.com\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned explicitly; referred to as 'my uni accommodation'\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3279 per week\", \"move_in_date\": \"Not explicitly mentioned; lease ends 2026-07-10\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"University accommodation confirmed; no external booking needed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 phone calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-01T15:09:50\", \"response_time\": \"Multiple calls within short intervals on 2025-09-01\", \"key_moments\": \"Student confirmed they will proceed with university accommodation and no longer require external booking assistance.\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ The Arcade\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student decided to go with university accommodation instead of IQ The Arcade\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required; student confirmed booking with university\", \"pending_items\": \"None\", \"follow_up_required\": \"Follow-up only if student requests assistance in future\", \"timeline\": \"Lease ends 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear; confirmed decision promptly\", \"urgency_level\": \"Low; booking decision finalized\", \"complexity\": \"Simple case; no further assistance needed currently\", \"special_considerations\": \"Student may contact again if future help is needed\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Aditya Gupta\", \"mobile\": [\"+919810475458\"], \"email\": [\"aditya1104g@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 43, \"room_type\": null, \"budget\": {\"max\": 279, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ the Arcade\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent confirmed with Aditya that he will proceed with his university accommodation and acknowledged the confirmation.\", \"suggested_next_step\": \"No immediate action required as the student confirmed proceeding with university accommodation; agent to remain available for future assistance if needed.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Aditya Gupta\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 919810475458; email aditya1104g@gmail.com\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned explicitly; referred to as 'my uni accommodation'\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3279 per week\", \"move_in_date\": \"Not explicitly mentioned; lease ends 2026-07-10\", \"lease_duration\": \"43 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"University accommodation confirmed; no external booking needed\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 phone calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-01T15:09:50\", \"response_time\": \"Multiple calls within short intervals on 2025-09-01\", \"key_moments\": \"Student confirmed they will proceed with university accommodation and no longer require external booking assistance.\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ The Arcade\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student decided to go with university accommodation instead of IQ The Arcade\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required; student confirmed booking with university\", \"pending_items\": \"None\", \"follow_up_required\": \"Follow-up only if student requests assistance in future\", \"timeline\": \"Lease ends 2026-07-10\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear; confirmed decision promptly\", \"urgency_level\": \"Low; booking decision finalized\", \"complexity\": \"Simple case; no further assistance needed currently\", \"special_considerations\": \"Student may contact again if future help is needed\"}}}}}",
+    "created_at": "2025-11-19 07:10:21",
+    "updated_at": "2025-11-19T12:40:21.412959",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Aditya Gupta",
+        "mobile": [
+          "+919810475458"
+        ],
+        "email": [
+          "aditya1104g@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 43,
+        "room_type": null,
+        "budget": {
+          "max": 279,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          ""
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "IQ the Arcade"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent confirmed with Aditya that he will proceed with his university accommodation and acknowledged the confirmation.",
+      "suggested_next_step": "No immediate action required as the student confirmed proceeding with university accommodation; agent to remain available for future assistance if needed."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Aditya Gupta",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls to number 919810475458; email aditya1104g@gmail.com",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned explicitly; referred to as 'my uni accommodation'",
+            "room_type": "Not mentioned",
+            "budget_range": "£279 per week",
+            "move_in_date": "Not explicitly mentioned; lease ends 2026-07-10",
+            "lease_duration": "43 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "University accommodation confirmed; no external booking needed",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 phone calls",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-09-01T15:09:50",
+            "response_time": "Multiple calls within short intervals on 2025-09-01",
+            "key_moments": "Student confirmed they will proceed with university accommodation and no longer require external booking assistance."
+          },
+          "properties_discussed": {
+            "properties_mentioned": "IQ The Arcade",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Student decided to go with university accommodation instead of IQ The Arcade",
+            "offers_made": "None mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action required; student confirmed booking with university",
+            "pending_items": "None",
+            "follow_up_required": "Follow-up only if student requests assistance in future",
+            "timeline": "Lease ends 2026-07-10"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and clear; confirmed decision promptly",
+            "urgency_level": "Low; booking decision finalized",
+            "complexity": "Simple case; no further assistance needed currently",
+            "special_considerations": "Student may contact again if future help is needed"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Aditya Gupta",
+          "mobile": [
+            "+919810475458"
+          ],
+          "email": [
+            "aditya1104g@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 43,
+          "room_type": null,
+          "budget": {
+            "max": 279,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            ""
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "IQ the Arcade"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent confirmed with Aditya that he will proceed with his university accommodation and acknowledged the confirmation.",
+        "suggested_next_step": "No immediate action required as the student confirmed proceeding with university accommodation; agent to remain available for future assistance if needed."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Aditya Gupta",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls to number 919810475458; email aditya1104g@gmail.com",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned explicitly; referred to as 'my uni accommodation'",
+              "room_type": "Not mentioned",
+              "budget_range": "£279 per week",
+              "move_in_date": "Not explicitly mentioned; lease ends 2026-07-10",
+              "lease_duration": "43 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "University accommodation confirmed; no external booking needed",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 phone calls",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-09-01T15:09:50",
+              "response_time": "Multiple calls within short intervals on 2025-09-01",
+              "key_moments": "Student confirmed they will proceed with university accommodation and no longer require external booking assistance."
+            },
+            "properties_discussed": {
+              "properties_mentioned": "IQ The Arcade",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Student decided to go with university accommodation instead of IQ The Arcade",
+              "offers_made": "None mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action required; student confirmed booking with university",
+              "pending_items": "None",
+              "follow_up_required": "Follow-up only if student requests assistance in future",
+              "timeline": "Lease ends 2026-07-10"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and clear; confirmed decision promptly",
+              "urgency_level": "Low; booking decision finalized",
+              "complexity": "Simple case; no further assistance needed currently",
+              "special_considerations": "Student may contact again if future help is needed"
+            }
+          }
+        }
+      }
+    }
+  }
+}

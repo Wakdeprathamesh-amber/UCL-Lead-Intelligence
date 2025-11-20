@@ -1,0 +1,726 @@
+{
+  "id": "lead_215",
+  "mobile_number": "14019199709",
+  "email": null,
+  "timeline": [
+    {
+      "id": 3174,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-07-15T17:10:39.109503",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7512413",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-15T17:10:39.109503\", \"id\": 7512413, \"duration\": \"4\", \"to_number\": \"14019199709\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0d3d32d8-5b7f-4f7c-a54f-2d8443eb569d.wav\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3175,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-07-17T16:39:22.755616",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7525414",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-17T16:39:22.755616\", \"id\": 7525414, \"duration\": \"3\", \"to_number\": \"14019199709\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/887edf1e-6c1a-4ab5-9b83-6943aa39d595.wav\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3176,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-21T18:01:48",
+      "content": "Hey Ruth",
+      "source": "whatsapp",
+      "event_id": "6262582",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-21T18:01:48\", \"id\": 6262582, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_AB790ED535DC1E8AFDAA76D8EC30830D\", \"message_type\": \"text\", \"message_content\": \"Hey Ruth\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-21T18:01:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hey Ruth\\\", \\\"Datetime\\\": 1753120908000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_AB790ED535DC1E8AFDAA76D8EC30830D\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-07-21T18:01:49.029853\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3177,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-21T18:02:08",
+      "content": "Are still planing to lock an accommodation for you ?",
+      "source": "whatsapp",
+      "event_id": "6262592",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-21T18:02:08\", \"id\": 6262592, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3C309B042D82D6F60E61CF7C19421ADD\", \"message_type\": \"text\", \"message_content\": \"Are still planing to lock an accommodation for you ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-21T18:02:08.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Are still planing to lock an accommodation for you ?\\\", \\\"Datetime\\\": 1753120928000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3C309B042D82D6F60E61CF7C19421ADD\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-07-21T18:02:09.472174\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3178,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-07-21T18:02:28.966079",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7544504",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-21T18:02:28.966079\", \"id\": 7544504, \"duration\": \"15\", \"to_number\": \"14019199709\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e16aa42b-c963-4540-99d9-170d6b493808.wav\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3179,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-21T18:15:17",
+      "content": "For?",
+      "source": "whatsapp",
+      "event_id": "6263197",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-21T18:15:17\", \"id\": 6263197, \"email\": \"\", \"from_number\": \"14019199709\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_14019199709@c.us_3A5846138BB07D6EEBA2\", \"message_type\": \"text\", \"message_content\": \"For?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"14019199709@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-21T18:15:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"For?\\\", \\\"Datetime\\\": 1753121717000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"14019199709@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_14019199709@c.us_3A5846138BB07D6EEBA2\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"14019199709\\\", \\\"sentByUserId\\\": \\\"14019199709@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-07-21T18:15:17.888343\", \"direction\": \"inbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3180,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-21T18:17:49",
+      "content": "You were checking IQ arcade in our website",
+      "source": "whatsapp",
+      "event_id": "6263345",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-21T18:17:49\", \"id\": 6263345, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_BED69EC8084D2917A84069D1B12007FC\", \"message_type\": \"text\", \"message_content\": \"You were checking IQ arcade in our website\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-21T18:17:49.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"You were checking IQ arcade in our website\\\", \\\"Datetime\\\": 1753121869000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_BED69EC8084D2917A84069D1B12007FC\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-07-21T18:17:49.942104\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3181,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-07-26T08:46:14.538689",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7571438",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-26T08:46:14.538689\", \"id\": 7571438, \"duration\": \"0\", \"to_number\": \"14019199709\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3182,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-07-26T08:46:27.358275",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7571441",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-26T08:46:27.358275\", \"id\": 7571441, \"duration\": \"0\", \"to_number\": \"14019199709\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3183,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T08:47:47",
+      "content": "Hi Ruth Temitope Yinka-Banjo, 😊\n\nI hope you're doing well! 🌟\n\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, iQ The Arcade, London. 🏡\n\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! ✨\n\nThanks a lot! 😊\n\nBest regards,\nAshutush",
+      "source": "whatsapp",
+      "event_id": "6457199",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T08:47:47\", \"id\": 6457199, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3FEEF87FB891D33393E7\", \"message_type\": \"text\", \"message_content\": \"Hi Ruth Temitope Yinka-Banjo, \\ud83d\\ude0a\\n\\nI hope you're doing well! \\ud83c\\udf1f\\n\\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, iQ The Arcade, London. \\ud83c\\udfe1\\n\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\n\\nThanks a lot! \\ud83d\\ude0a\\n\\nBest regards,\\nAshutush\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-26T08:47:47.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Ruth Temitope Yinka-Banjo, \\ud83d\\ude0a\\\\n\\\\nI hope you're doing well! \\ud83c\\udf1f\\\\n\\\\nI'm Aashutush from the University College London Accommodation Portal. I've been trying to get in touch with you regarding the interest you showed in one of the properties, iQ The Arcade, London. \\ud83c\\udfe1\\\\n\\\\nCould you please let me know a good time for us to connect? Looking forward to hearing from you! \\u2728\\\\n\\\\nThanks a lot! \\ud83d\\ude0a\\\\n\\\\nBest regards,\\\\nAshutush\\\", \\\"Datetime\\\": 1753519667000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3FEEF87FB891D33393E7\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-26T08:47:47.943121\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3184,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T11:59:24",
+      "content": "We can connect today at 3pm uk time",
+      "source": "whatsapp",
+      "event_id": "6464708",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T11:59:24\", \"id\": 6464708, \"email\": \"\", \"from_number\": \"14019199709\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_14019199709@c.us_3A3DA2DCF013E36B9C2D\", \"message_type\": \"text\", \"message_content\": \"We can connect today at 3pm uk time\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"14019199709@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T11:59:24.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"We can connect today at 3pm uk time\\\", \\\"Datetime\\\": 1753531164000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"14019199709@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_14019199709@c.us_3A3DA2DCF013E36B9C2D\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"14019199709\\\", \\\"sentByUserId\\\": \\\"14019199709@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-26T11:59:24.945200\", \"direction\": \"inbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3185,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T12:01:09",
+      "content": "But sorry I don’t remember requesting iQ the Arcade",
+      "source": "whatsapp",
+      "event_id": "6464784",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T12:01:09\", \"id\": 6464784, \"email\": \"\", \"from_number\": \"14019199709\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_14019199709@c.us_3A92E4664E401B4474E2\", \"message_type\": \"text\", \"message_content\": \"But sorry I don\\u2019t remember requesting iQ the Arcade\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"14019199709@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T12:01:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"But sorry I don\\u2019t remember requesting iQ the Arcade\\\", \\\"Datetime\\\": 1753531269000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"14019199709@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_14019199709@c.us_3A92E4664E401B4474E2\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"14019199709\\\", \\\"sentByUserId\\\": \\\"14019199709@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-26T12:01:10.302011\", \"direction\": \"inbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3186,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-26T12:01:35",
+      "content": "I just remembered putting in my preferences",
+      "source": "whatsapp",
+      "event_id": "6464807",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-26T12:01:35\", \"id\": 6464807, \"email\": \"\", \"from_number\": \"14019199709\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_14019199709@c.us_3A56A6B0D546EAAC1A51\", \"message_type\": \"text\", \"message_content\": \"I just remembered putting in my preferences\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"14019199709@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-26T12:01:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"I just remembered putting in my preferences\\\", \\\"Datetime\\\": 1753531295000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"14019199709@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_14019199709@c.us_3A56A6B0D546EAAC1A51\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"14019199709\\\", \\\"sentByUserId\\\": \\\"14019199709@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-26T12:01:36.104148\", \"direction\": \"inbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3187,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-27T04:40:48",
+      "content": "Okay !!!!",
+      "source": "whatsapp",
+      "event_id": "6478742",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-27T04:40:48\", \"id\": 6478742, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3AAB9A31F181B5D66293\", \"message_type\": \"text\", \"message_content\": \"Okay !!!!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-27T04:40:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Okay !!!!\\\", \\\"Datetime\\\": 1753591248000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3AAB9A31F181B5D66293\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-27T04:40:49.077974\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3188,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-27T11:03:03",
+      "content": "Can you explain what iQ the Arcade is though",
+      "source": "whatsapp",
+      "event_id": "6482180",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-27T11:03:03\", \"id\": 6482180, \"email\": \"\", \"from_number\": \"14019199709\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_14019199709@c.us_3A7600765FDF613DB7AB\", \"message_type\": \"text\", \"message_content\": \"Can you explain what iQ the Arcade is though\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"14019199709@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-27T11:03:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Can you explain what iQ the Arcade is though\\\", \\\"Datetime\\\": 1753614183000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"14019199709@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_14019199709@c.us_3A7600765FDF613DB7AB\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"14019199709\\\", \\\"sentByUserId\\\": \\\"14019199709@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-27T11:03:04.132124\", \"direction\": \"inbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3189,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-27T11:03:18",
+      "content": "Like are the properties on UCLs campus",
+      "source": "whatsapp",
+      "event_id": "6482182",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-27T11:03:18\", \"id\": 6482182, \"email\": \"\", \"from_number\": \"14019199709\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_14019199709@c.us_3AAA7BAE9AE61BA48654\", \"message_type\": \"text\", \"message_content\": \"Like are the properties on UCLs campus\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"14019199709@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-27T11:03:18.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Like are the properties on UCLs campus\\\", \\\"Datetime\\\": 1753614198000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"14019199709@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_14019199709@c.us_3AAA7BAE9AE61BA48654\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"14019199709\\\", \\\"sentByUserId\\\": \\\"14019199709@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-27T11:03:18.763858\", \"direction\": \"inbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3190,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-28T06:40:56",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *IQ THE ARCADE, LONDON*\nhttps://amberstudent.com/places/iq-the-arcade-london-1811161245652\n\n📹 *VIEW VIDEOS*\nhttps://amberstudent.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from London City Center:*\n*Drive:* 4.4 mi (28 mins)\n*Walk:* 4.0 mi (1 hour 21 mins)\n*Bus/Train:* 4.0 mi (28 mins)\n\n🏘 *ROOM TYPES:*\n*Copper Room:*\n  £277/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Bronze Room:*\n  £288/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n  £288/week (Duration: 39 week) (Move in: 13 Sep, 2025) (Move out: 13 Jun, 2026)\n\n*Silver Room:*\n  £291/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n\n*Copper Room Plus:*\n  £287/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n  £287/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Bronze Room Plus:*\n  £297/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n  £297/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Silver Room Plus:*\n  £300/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n  £300/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Gold Room Plus:*\n  £308/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n  £308/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Platinum Room Plus:*\n  £321/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\n  £321/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://amberstudent.com/places/iq-the-arcade-london-1811161245652/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=143139\n\n------------",
+      "source": "whatsapp",
+      "event_id": "6494103",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-28T06:40:56\", \"id\": 6494103, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3F39A7F4D2A2C0B1BD44\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *IQ THE ARCADE, LONDON*\\nhttps://amberstudent.com/places/iq-the-arcade-london-1811161245652\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://amberstudent.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\n*Drive:* 4.4 mi (28 mins)\\n*Walk:* 4.0 mi (1 hour 21 mins)\\n*Bus/Train:* 4.0 mi (28 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Copper Room:*\\n\\u00a0\\u00a0\\u00a3277/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Bronze Room:*\\n\\u00a0\\u00a0\\u00a3288/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3288/week (Duration: 39 week) (Move in: 13 Sep, 2025) (Move out: 13 Jun, 2026)\\n\\n*Silver Room:*\\n\\u00a0\\u00a0\\u00a3291/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\n*Copper Room Plus:*\\n\\u00a0\\u00a0\\u00a3287/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3287/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Bronze Room Plus:*\\n\\u00a0\\u00a0\\u00a3297/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3297/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Silver Room Plus:*\\n\\u00a0\\u00a0\\u00a3300/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3300/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Gold Room Plus:*\\n\\u00a0\\u00a0\\u00a3308/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3308/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Platinum Room Plus:*\\n\\u00a0\\u00a0\\u00a3321/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\n\\u00a0\\u00a0\\u00a3321/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://amberstudent.com/places/iq-the-arcade-london-1811161245652/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=143139\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-28T06:40:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *IQ THE ARCADE, LONDON*\\\\nhttps://amberstudent.com/places/iq-the-arcade-london-1811161245652\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://amberstudent.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\\\n*Drive:* 4.4 mi (28 mins)\\\\n*Walk:* 4.0 mi (1 hour 21 mins)\\\\n*Bus/Train:* 4.0 mi (28 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Copper Room:*\\\\n\\u00a0\\u00a0\\u00a3277/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Bronze Room:*\\\\n\\u00a0\\u00a0\\u00a3288/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3288/week (Duration: 39 week) (Move in: 13 Sep, 2025) (Move out: 13 Jun, 2026)\\\\n\\\\n*Silver Room:*\\\\n\\u00a0\\u00a0\\u00a3291/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\\\n*Copper Room Plus:*\\\\n\\u00a0\\u00a0\\u00a3287/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3287/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Bronze Room Plus:*\\\\n\\u00a0\\u00a0\\u00a3297/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3297/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Silver Room Plus:*\\\\n\\u00a0\\u00a0\\u00a3300/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3300/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Gold Room Plus:*\\\\n\\u00a0\\u00a0\\u00a3308/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3308/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Platinum Room Plus:*\\\\n\\u00a0\\u00a0\\u00a3321/week (Duration: 43 week) (Move in: 13 Sep, 2025) (Move out: 11 Jul, 2026)\\\\n\\u00a0\\u00a0\\u00a3321/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://amberstudent.com/places/iq-the-arcade-london-1811161245652/form?url=ashutush.k%40amberstudent.com&amp;inventory_id=143139\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1753684856000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3F39A7F4D2A2C0B1BD44\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-28T06:40:56.892253\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3191,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-28T06:41:03",
+      "content": "This is Iq The Arcade",
+      "source": "whatsapp",
+      "event_id": "6494106",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-28T06:41:03\", \"id\": 6494106, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3F6C39356387B18960F6\", \"message_type\": \"text\", \"message_content\": \"This is Iq The Arcade\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-28T06:41:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"This is Iq The Arcade\\\", \\\"Datetime\\\": 1753684863000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3F6C39356387B18960F6\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-28T06:41:03.798891\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3192,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-28T06:41:09",
+      "content": "A really good poroperty",
+      "source": "whatsapp",
+      "event_id": "6494108",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-28T06:41:09\", \"id\": 6494108, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3FD440B19A3A72F7E336\", \"message_type\": \"text\", \"message_content\": \"A really good poroperty\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-28T06:41:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"A really good poroperty\\\", \\\"Datetime\\\": 1753684869000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3FD440B19A3A72F7E336\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-28T06:41:10.102888\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3193,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-28T06:42:02",
+      "content": "image.jpeg",
+      "source": "whatsapp",
+      "event_id": "6494130",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-28T06:42:02\", \"id\": 6494130, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3F025FAB9B1294461932\", \"message_type\": \"text\", \"message_content\": \"image.jpeg\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-28T06:42:02.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447446196852/3F025FAB9B1294461932.jpeg\\\", \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"image.jpeg\\\", \\\"Datetime\\\": 1753684922000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3F025FAB9B1294461932\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-28T06:42:03.941886\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3194,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-28T08:45:12",
+      "content": "Are these all the same distance from London city center",
+      "source": "whatsapp",
+      "event_id": "6499513",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-28T08:45:12\", \"id\": 6499513, \"email\": \"\", \"from_number\": \"14019199709\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_14019199709@c.us_3A6DCF3B1C12B5ABC27B\", \"message_type\": \"text\", \"message_content\": \"Are these all the same distance from London city center\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"14019199709@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-07-28T08:45:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Are these all the same distance from London city center\\\", \\\"Datetime\\\": 1753692312000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"14019199709@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_14019199709@c.us_3A6DCF3B1C12B5ABC27B\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"14019199709\\\", \\\"sentByUserId\\\": \\\"14019199709@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-28T08:45:12.333044\", \"direction\": \"inbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3195,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-29T05:18:13",
+      "content": "Yes!",
+      "source": "whatsapp",
+      "event_id": "6541837",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-29T05:18:13\", \"id\": 6541837, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3A4BCF2313D05C443C22\", \"message_type\": \"text\", \"message_content\": \"Yes!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-29T05:18:13.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Yes!\\\", \\\"Datetime\\\": 1753766293000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3A4BCF2313D05C443C22\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-29T05:18:14.276290\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3196,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-07-29T14:21:48.495485",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7587733",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-29T14:21:48.495485\", \"id\": 7587733, \"duration\": \"0\", \"to_number\": \"14019199709\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3197,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-07-29T14:22:44",
+      "content": "Hello Ruth Temitope Yinka-Banjo, 😊\n\nAny updates on when we can get your booking done? 🗓\n\nSince property availability is low and rents are also rising 📈, I am starting to feel a bit tense about this as well. 😬\n\nPlease let me know when we can proceed. Thank you! 🙏",
+      "source": "whatsapp",
+      "event_id": "6568181",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-07-29T14:22:44\", \"id\": 6568181, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3FF063F69A1E6383AE06\", \"message_type\": \"text\", \"message_content\": \"Hello Ruth Temitope Yinka-Banjo, \\ud83d\\ude0a\\n\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\n\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\n\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-07-29T14:22:44.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hello Ruth Temitope Yinka-Banjo, \\ud83d\\ude0a\\\\n\\\\nAny updates on when we can get your booking done? \\ud83d\\uddd3\\\\n\\\\nSince property availability is low and rents are also rising \\ud83d\\udcc8, I am starting to feel a bit tense about this as well. \\ud83d\\ude2c\\\\n\\\\nPlease let me know when we can proceed. Thank you! \\ud83d\\ude4f\\\", \\\"Datetime\\\": 1753798964000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3FF063F69A1E6383AE06\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-07-29T14:22:45.058009\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3198,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-07-30T14:48:51.209744",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7594625",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-30T14:48:51.209744\", \"id\": 7594625, \"to_number\": \"14019199709\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3199,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-07-31T15:57:27.954149",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7602216",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-31T15:57:27.954149\", \"id\": 7602216, \"to_number\": \"14019199709\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3200,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-07-31T15:57:29.090213",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7602218",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-31T15:57:29.090213\", \"id\": 7602218, \"duration\": \"0\", \"to_number\": \"14019199709\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3201,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-07-31T15:57:33.499813",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7602220",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-31T15:57:33.499813\", \"id\": 7602220, \"duration\": \"0\", \"to_number\": \"14019199709\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3202,
+      "lead_id": 215,
+      "event_type": "call",
+      "timestamp": "2025-08-17T21:06:34.023957",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7703979",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-17T21:06:34.023957\", \"id\": 7703979, \"duration\": \"0\", \"to_number\": \"919365733044\", \"from_number\": \"14019199709\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3203,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T07:29:46",
+      "content": "Hi Ruth Temitope Yinka-Banjo,\nI see you are looking for an option near UCL from September till December!",
+      "source": "whatsapp",
+      "event_id": "7395584",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T07:29:46\", \"id\": 7395584, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3F4B6C60402AD2451BB3\", \"message_type\": \"text\", \"message_content\": \"Hi Ruth Temitope Yinka-Banjo,\\nI see you are looking for an option near UCL from September till December!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T07:29:46.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Hi Ruth Temitope Yinka-Banjo,\\\\nI see you are looking for an option near UCL from September till December!\\\", \\\"Datetime\\\": 1755502186000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3F4B6C60402AD2451BB3\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-18T07:29:51.214471\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3204,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-18T07:31:16",
+      "content": "We donot have any property with a contract for that length",
+      "source": "whatsapp",
+      "event_id": "7395673",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-18T07:31:16\", \"id\": 7395673, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3F0BA47E97994CFC34BD\", \"message_type\": \"text\", \"message_content\": \"We donot have any property with a contract for that length\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-18T07:31:16.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"We donot have any property with a contract for that length\\\", \\\"Datetime\\\": 1755502276000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3F0BA47E97994CFC34BD\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-18T07:32:01.462680\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3205,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-21T17:38:32",
+      "content": "Where can I find property for this length",
+      "source": "whatsapp",
+      "event_id": "7618893",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-21T17:38:32\", \"id\": 7618893, \"email\": \"\", \"from_number\": \"14019199709\", \"to_number\": \"447446196852\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_14019199709@c.us_3A95E4D446BD6D5094D5\", \"message_type\": \"text\", \"message_content\": \"Where can I find property for this length\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"14019199709@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-21T17:38:32.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Where can I find property for this length\\\", \\\"Datetime\\\": 1755797912000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446196852@c.us\\\", \\\"Sentbyid\\\": \\\"14019199709@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_14019199709@c.us_3A95E4D446BD6D5094D5\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"14019199709\\\", \\\"sentByUserId\\\": \\\"14019199709@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-21T17:38:33.397778\", \"direction\": \"inbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3206,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-26T16:07:41",
+      "content": "Short stays",
+      "source": "whatsapp",
+      "event_id": "7836519",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-26T16:07:41\", \"id\": 7836519, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3F76F51E6611473D1E11\", \"message_type\": \"text\", \"message_content\": \"Short stays\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-26T16:07:41.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Short stays\\\", \\\"Datetime\\\": 1756224461000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3F76F51E6611473D1E11\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-26T16:07:41.574490\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3207,
+      "lead_id": 215,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-26T16:07:46",
+      "content": "Let me check once",
+      "source": "whatsapp",
+      "event_id": "7836533",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-26T16:07:46\", \"id\": 7836533, \"email\": \"\", \"from_number\": \"447446196852\", \"to_number\": \"14019199709\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_14019199709@c.us_3F8A4264887EAFA19BAA\", \"message_type\": \"text\", \"message_content\": \"Let me check once\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446196852@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-26T16:07:46.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446196852@c.us\\\", \\\"Message\\\": \\\"Let me check once\\\", \\\"Datetime\\\": 1756224466000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"14019199709@c.us\\\", \\\"Sentbyid\\\": \\\"447446196852@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_14019199709@c.us_3F8A4264887EAFA19BAA\\\", \\\"ChannelName\\\": \\\"14019199709\\\", \\\"SentByNumber\\\": \\\"447446196852\\\", \\\"sentByUserId\\\": \\\"447446196852@c.us\\\", \\\"CreatedByUser\\\": \\\"447446196852\\\"}]}\", \"updated_at\": \"2025-08-26T16:07:46.837900\", \"direction\": \"outbound\", \"sbase_user_id\": 2375520, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8860, \"agent_number\": \"447446196852\", \"customer_number\": \"14019199709\"}",
+      "created_at": "2025-11-18 10:28:06"
+    },
+    {
+      "id": 3208,
+      "lead_id": 215,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3181476, \"user_name\": \"Ruth Temitope Yinka-Banjo\", \"email\": \"ruth_yinka-banjo@brown.edu\", \"phone\": \"14019199709\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 219, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 8860, \"inventory_id\": 1185402}",
+      "created_at": "2025-11-18 10:28:06"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 122,
+      "lead_id": 215,
+      "call_id": "7512413",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0d3d32d8-5b7f-4f7c-a54f-2d8443eb569d.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:28:10"
+    },
+    {
+      "id": 123,
+      "lead_id": 215,
+      "call_id": "7525414",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/887edf1e-6c1a-4ab5-9b83-6943aa39d595.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:28:14"
+    },
+    {
+      "id": 126,
+      "lead_id": 215,
+      "call_id": "7544504",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e16aa42b-c963-4540-99d9-170d6b493808.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:28:19"
+    }
+  ],
+  "summary": {
+    "id": 89,
+    "lead_id": 215,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Ruth Temitope Yinka-Banjo\", \"mobile\": [\"+14019199709\"], \"email\": [\"ruth_yinka-banjo@brown.edu\"], \"whatsapp\": [\"+14019199709\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 219, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-13\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"iQ The Arcade\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Agent to clarify and explain details about the iQ The Arcade property to Ruth, including location, room types, contract lengths, and relation to UCL campus.\", \"due\": \"within_24h\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-07-26 to 2025-07-28 where Ruth asked for explanation about iQ The Arcade and agent provided details.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with Ruth regarding her booking decision due to low property availability and rising rents.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-07-29 asking for updates on booking.\"}, {\"type\": \"communication\", \"description\": \"Agent to check and provide information on properties available for short stays (September to December) near UCL as requested by Ruth.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages from 2025-08-18 to 2025-08-26 discussing short stay options and agent stating 'Let me check once'.\"}], \"last_agent_response\": \"Agent provided detailed information about iQ The Arcade property including room types, prices, contract durations, and links to secure booking; acknowledged short stay inquiry and is checking availability.\", \"suggested_next_step\": \"Agent to follow up with Ruth promptly to clarify her booking intentions and provide options for short stay accommodations near UCL.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Ruth Temitope Yinka-Banjo\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via numbers +14019199709 and +447446196852/+447446219714\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, near University College London (UCL)\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not specifically mentioned; multiple room types discussed (Copper, Bronze, Silver, Gold, Platinum Plus variants)\", \"budget_range\": \"Budget stated as \\u00a3219 per week\", \"move_in_date\": \"13 September 2025\", \"lease_duration\": \"51 weeks (noted in lead info); student also asked about shorter stays and contract lengths\", \"special_requirements\": \"Looking for accommodation near UCL; interested in lease duration options including short stays\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; no booking confirmed yet\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (mostly unanswered or voicemail) and extensive WhatsApp exchanges between July 15 and August 26, 2025\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"August 26, 2025 (agent message checking availability for short stays)\", \"response_time\": \"Student responds within hours to days; agent follows up promptly\", \"key_moments\": \"Repeated calls went to voicemail; student initially unaware of iQ The Arcade property; agent provided detailed property info and links; student requested clarification on property location and contract length; agent highlighted limited availability and rising rents; student requested options for shorter stays\"}, \"properties_discussed\": {\"properties_mentioned\": \"iQ The Arcade, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student unsure about iQ The Arcade initially; interested in properties near UCL; asked if properties are on UCL campus; inquired about distance from London city center; interested in lease duration options\", \"offers_made\": \"Agent provided detailed room types, prices, move-in/out dates, and booking link for iQ The Arcade\"}, \"next_steps\": {\"immediate_actions\": \"Agent to check availability for short stay options as requested by student\", \"pending_items\": \"Student to confirm booking timing; agent awaiting student's decision to proceed with booking\", \"follow_up_required\": \"Agent to follow up on booking confirmation due to low availability and rising rents\", \"timeline\": \"Move-in date targeted for 13 September 2025; lease duration options discussed up to 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"Polite, inquisitive, somewhat uncertain about property details and lease options\", \"urgency_level\": \"Moderate urgency; agent expressed concern about low availability and rising rents\", \"complexity\": \"Moderate complexity due to lease duration preferences and student\\u2019s initial confusion about property\", \"special_considerations\": \"Student needs clear explanations about property location and lease terms; prefers communication via WhatsApp; multiple unanswered calls suggest WhatsApp is preferred contact method\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Ruth Temitope Yinka-Banjo\", \"mobile\": [\"+14019199709\"], \"email\": [\"ruth_yinka-banjo@brown.edu\"], \"whatsapp\": [\"+14019199709\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 219, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-13\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"iQ The Arcade\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Agent to clarify and explain details about the iQ The Arcade property to Ruth, including location, room types, contract lengths, and relation to UCL campus.\", \"due\": \"within_24h\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-07-26 to 2025-07-28 where Ruth asked for explanation about iQ The Arcade and agent provided details.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with Ruth regarding her booking decision due to low property availability and rising rents.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-07-29 asking for updates on booking.\"}, {\"type\": \"communication\", \"description\": \"Agent to check and provide information on properties available for short stays (September to December) near UCL as requested by Ruth.\", \"due\": \"within_week\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages from 2025-08-18 to 2025-08-26 discussing short stay options and agent stating 'Let me check once'.\"}], \"last_agent_response\": \"Agent provided detailed information about iQ The Arcade property including room types, prices, contract durations, and links to secure booking; acknowledged short stay inquiry and is checking availability.\", \"suggested_next_step\": \"Agent to follow up with Ruth promptly to clarify her booking intentions and provide options for short stay accommodations near UCL.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Ruth Temitope Yinka-Banjo\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via numbers +14019199709 and +447446196852/+447446219714\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, near University College London (UCL)\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not specifically mentioned; multiple room types discussed (Copper, Bronze, Silver, Gold, Platinum Plus variants)\", \"budget_range\": \"Budget stated as \\u00a3219 per week\", \"move_in_date\": \"13 September 2025\", \"lease_duration\": \"51 weeks (noted in lead info); student also asked about shorter stays and contract lengths\", \"special_requirements\": \"Looking for accommodation near UCL; interested in lease duration options including short stays\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; no booking confirmed yet\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (mostly unanswered or voicemail) and extensive WhatsApp exchanges between July 15 and August 26, 2025\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"August 26, 2025 (agent message checking availability for short stays)\", \"response_time\": \"Student responds within hours to days; agent follows up promptly\", \"key_moments\": \"Repeated calls went to voicemail; student initially unaware of iQ The Arcade property; agent provided detailed property info and links; student requested clarification on property location and contract length; agent highlighted limited availability and rising rents; student requested options for shorter stays\"}, \"properties_discussed\": {\"properties_mentioned\": \"iQ The Arcade, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student unsure about iQ The Arcade initially; interested in properties near UCL; asked if properties are on UCL campus; inquired about distance from London city center; interested in lease duration options\", \"offers_made\": \"Agent provided detailed room types, prices, move-in/out dates, and booking link for iQ The Arcade\"}, \"next_steps\": {\"immediate_actions\": \"Agent to check availability for short stay options as requested by student\", \"pending_items\": \"Student to confirm booking timing; agent awaiting student's decision to proceed with booking\", \"follow_up_required\": \"Agent to follow up on booking confirmation due to low availability and rising rents\", \"timeline\": \"Move-in date targeted for 13 September 2025; lease duration options discussed up to 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"Polite, inquisitive, somewhat uncertain about property details and lease options\", \"urgency_level\": \"Moderate urgency; agent expressed concern about low availability and rising rents\", \"complexity\": \"Moderate complexity due to lease duration preferences and student\\u2019s initial confusion about property\", \"special_considerations\": \"Student needs clear explanations about property location and lease terms; prefers communication via WhatsApp; multiple unanswered calls suggest WhatsApp is preferred contact method\"}}}}}",
+    "created_at": "2025-11-18 10:28:32",
+    "updated_at": "2025-11-18T15:58:32.676865",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Ruth Temitope Yinka-Banjo",
+        "mobile": [
+          "+14019199709"
+        ],
+        "email": [
+          "ruth_yinka-banjo@brown.edu"
+        ],
+        "whatsapp": [
+          "+14019199709"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 219,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": "2025-09-13",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "iQ The Arcade"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Agent to clarify and explain details about the iQ The Arcade property to Ruth, including location, room types, contract lengths, and relation to UCL campus.",
+          "due": "within_24h",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages on 2025-07-26 to 2025-07-28 where Ruth asked for explanation about iQ The Arcade and agent provided details."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Ruth regarding her booking decision due to low property availability and rising rents.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-07-29 asking for updates on booking."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to check and provide information on properties available for short stays (September to December) near UCL as requested by Ruth.",
+          "due": "within_week",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages from 2025-08-18 to 2025-08-26 discussing short stay options and agent stating 'Let me check once'."
+        }
+      ],
+      "last_agent_response": "Agent provided detailed information about iQ The Arcade property including room types, prices, contract durations, and links to secure booking; acknowledged short stay inquiry and is checking availability.",
+      "suggested_next_step": "Agent to follow up with Ruth promptly to clarify her booking intentions and provide options for short stay accommodations near UCL."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Ruth Temitope Yinka-Banjo",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via numbers +14019199709 and +447446196852/+447446219714",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, near University College London (UCL)",
+            "university": "University College London (UCL)",
+            "room_type": "Not specifically mentioned; multiple room types discussed (Copper, Bronze, Silver, Gold, Platinum Plus variants)",
+            "budget_range": "Budget stated as £219 per week",
+            "move_in_date": "13 September 2025",
+            "lease_duration": "51 weeks (noted in lead info); student also asked about shorter stays and contract lengths",
+            "special_requirements": "Looking for accommodation near UCL; interested in lease duration options including short stays"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage; no booking confirmed yet",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple calls (mostly unanswered or voicemail) and extensive WhatsApp exchanges between July 15 and August 26, 2025",
+            "primary_channel": "WhatsApp",
+            "last_contact": "August 26, 2025 (agent message checking availability for short stays)",
+            "response_time": "Student responds within hours to days; agent follows up promptly",
+            "key_moments": "Repeated calls went to voicemail; student initially unaware of iQ The Arcade property; agent provided detailed property info and links; student requested clarification on property location and contract length; agent highlighted limited availability and rising rents; student requested options for shorter stays"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "iQ The Arcade, London",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Student unsure about iQ The Arcade initially; interested in properties near UCL; asked if properties are on UCL campus; inquired about distance from London city center; interested in lease duration options",
+            "offers_made": "Agent provided detailed room types, prices, move-in/out dates, and booking link for iQ The Arcade"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to check availability for short stay options as requested by student",
+            "pending_items": "Student to confirm booking timing; agent awaiting student's decision to proceed with booking",
+            "follow_up_required": "Agent to follow up on booking confirmation due to low availability and rising rents",
+            "timeline": "Move-in date targeted for 13 September 2025; lease duration options discussed up to 51 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, inquisitive, somewhat uncertain about property details and lease options",
+            "urgency_level": "Moderate urgency; agent expressed concern about low availability and rising rents",
+            "complexity": "Moderate complexity due to lease duration preferences and student’s initial confusion about property",
+            "special_considerations": "Student needs clear explanations about property location and lease terms; prefers communication via WhatsApp; multiple unanswered calls suggest WhatsApp is preferred contact method"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Ruth Temitope Yinka-Banjo",
+          "mobile": [
+            "+14019199709"
+          ],
+          "email": [
+            "ruth_yinka-banjo@brown.edu"
+          ],
+          "whatsapp": [
+            "+14019199709"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 219,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": "2025-09-13",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "iQ The Arcade"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Agent to clarify and explain details about the iQ The Arcade property to Ruth, including location, room types, contract lengths, and relation to UCL campus.",
+            "due": "within_24h",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages on 2025-07-26 to 2025-07-28 where Ruth asked for explanation about iQ The Arcade and agent provided details."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Ruth regarding her booking decision due to low property availability and rising rents.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-07-29 asking for updates on booking."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to check and provide information on properties available for short stays (September to December) near UCL as requested by Ruth.",
+            "due": "within_week",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages from 2025-08-18 to 2025-08-26 discussing short stay options and agent stating 'Let me check once'."
+          }
+        ],
+        "last_agent_response": "Agent provided detailed information about iQ The Arcade property including room types, prices, contract durations, and links to secure booking; acknowledged short stay inquiry and is checking availability.",
+        "suggested_next_step": "Agent to follow up with Ruth promptly to clarify her booking intentions and provide options for short stay accommodations near UCL."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Ruth Temitope Yinka-Banjo",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via numbers +14019199709 and +447446196852/+447446219714",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, near University College London (UCL)",
+              "university": "University College London (UCL)",
+              "room_type": "Not specifically mentioned; multiple room types discussed (Copper, Bronze, Silver, Gold, Platinum Plus variants)",
+              "budget_range": "Budget stated as £219 per week",
+              "move_in_date": "13 September 2025",
+              "lease_duration": "51 weeks (noted in lead info); student also asked about shorter stays and contract lengths",
+              "special_requirements": "Looking for accommodation near UCL; interested in lease duration options including short stays"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage; no booking confirmed yet",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple calls (mostly unanswered or voicemail) and extensive WhatsApp exchanges between July 15 and August 26, 2025",
+              "primary_channel": "WhatsApp",
+              "last_contact": "August 26, 2025 (agent message checking availability for short stays)",
+              "response_time": "Student responds within hours to days; agent follows up promptly",
+              "key_moments": "Repeated calls went to voicemail; student initially unaware of iQ The Arcade property; agent provided detailed property info and links; student requested clarification on property location and contract length; agent highlighted limited availability and rising rents; student requested options for shorter stays"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "iQ The Arcade, London",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Student unsure about iQ The Arcade initially; interested in properties near UCL; asked if properties are on UCL campus; inquired about distance from London city center; interested in lease duration options",
+              "offers_made": "Agent provided detailed room types, prices, move-in/out dates, and booking link for iQ The Arcade"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to check availability for short stay options as requested by student",
+              "pending_items": "Student to confirm booking timing; agent awaiting student's decision to proceed with booking",
+              "follow_up_required": "Agent to follow up on booking confirmation due to low availability and rising rents",
+              "timeline": "Move-in date targeted for 13 September 2025; lease duration options discussed up to 51 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, inquisitive, somewhat uncertain about property details and lease options",
+              "urgency_level": "Moderate urgency; agent expressed concern about low availability and rising rents",
+              "complexity": "Moderate complexity due to lease duration preferences and student’s initial confusion about property",
+              "special_considerations": "Student needs clear explanations about property location and lease terms; prefers communication via WhatsApp; multiple unanswered calls suggest WhatsApp is preferred contact method"
+            }
+          }
+        }
+      }
+    }
+  }
+}

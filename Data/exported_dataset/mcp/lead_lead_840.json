@@ -1,0 +1,253 @@
+{
+  "id": "lead_840",
+  "mobile_number": "8618601149273",
+  "email": null,
+  "timeline": [
+    {
+      "id": 13543,
+      "lead_id": 840,
+      "event_type": "lead_info",
+      "timestamp": "2025-02-08T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-02-08T00:00:00\", \"lead_id\": 3139715, \"user_name\": \"Qiancheng Tang\", \"email\": \"qiancheng.tang.24@ucl.ac.uk\", \"phone\": \"8618601149273\", \"lease_duration\": \"4 week\", \"move_out_date\": \"2025-08-29\", \"budget\": 320, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2016287}",
+      "created_at": "2025-11-18 13:09:35"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 350,
+    "lead_id": 840,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Qiancheng Tang\", \"mobile\": [\"8618601149273\"], \"email\": [\"qiancheng.tang.24@ucl.ac.uk\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 4, \"room_type\": null, \"budget\": {\"max\": 320, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Qiancheng Tang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (qiancheng.tang.24@ucl.ac.uk), Phone (+86 18601149273)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3320 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"4 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Lead submission via email/phone\", \"last_contact\": \"2025-02-08\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received with budget and lease duration\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2016287\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm move-in date and room preferences\", \"pending_items\": \"Move-in date confirmation, room type preference, payment details\", \"follow_up_required\": \"Yes, to clarify accommodation details and progress booking\", \"timeline\": \"Move-out date noted as 2025-08-29\"}, \"agent_notes\": {\"student_tone\": \"Not applicable (only lead info)\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget is weekly and relatively low (\\u00a3320/week) for London; lease duration is short (4 weeks)\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Qiancheng Tang\", \"mobile\": [\"8618601149273\"], \"email\": [\"qiancheng.tang.24@ucl.ac.uk\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 4, \"room_type\": null, \"budget\": {\"max\": 320, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Qiancheng Tang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (qiancheng.tang.24@ucl.ac.uk), Phone (+86 18601149273)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3320 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"4 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Lead submission via email/phone\", \"last_contact\": \"2025-02-08\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received with budget and lease duration\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2016287\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Contact student to confirm move-in date and room preferences\", \"pending_items\": \"Move-in date confirmation, room type preference, payment details\", \"follow_up_required\": \"Yes, to clarify accommodation details and progress booking\", \"timeline\": \"Move-out date noted as 2025-08-29\"}, \"agent_notes\": {\"student_tone\": \"Not applicable (only lead info)\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget is weekly and relatively low (\\u00a3320/week) for London; lease duration is short (4 weeks)\"}}}}}",
+    "created_at": "2025-11-18 13:09:46",
+    "updated_at": "2025-11-18T18:39:46.541129",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Qiancheng Tang",
+        "mobile": [
+          "8618601149273"
+        ],
+        "email": [
+          "qiancheng.tang.24@ucl.ac.uk"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 4,
+        "room_type": null,
+        "budget": {
+          "max": 320,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "",
+      "suggested_next_step": ""
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Qiancheng Tang",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (qiancheng.tang.24@ucl.ac.uk), Phone (+86 18601149273)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£320 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "4 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1",
+            "primary_channel": "Lead submission via email/phone",
+            "last_contact": "2025-02-08",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial lead information received with budget and lease duration"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2016287",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Contact student to confirm move-in date and room preferences",
+            "pending_items": "Move-in date confirmation, room type preference, payment details",
+            "follow_up_required": "Yes, to clarify accommodation details and progress booking",
+            "timeline": "Move-out date noted as 2025-08-29"
+          },
+          "agent_notes": {
+            "student_tone": "Not applicable (only lead info)",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Budget is weekly and relatively low (£320/week) for London; lease duration is short (4 weeks)"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Qiancheng Tang",
+          "mobile": [
+            "8618601149273"
+          ],
+          "email": [
+            "qiancheng.tang.24@ucl.ac.uk"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 4,
+          "room_type": null,
+          "budget": {
+            "max": 320,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "",
+        "suggested_next_step": ""
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Qiancheng Tang",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (qiancheng.tang.24@ucl.ac.uk), Phone (+86 18601149273)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£320 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "4 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1",
+              "primary_channel": "Lead submission via email/phone",
+              "last_contact": "2025-02-08",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial lead information received with budget and lease duration"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2016287",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Contact student to confirm move-in date and room preferences",
+              "pending_items": "Move-in date confirmation, room type preference, payment details",
+              "follow_up_required": "Yes, to clarify accommodation details and progress booking",
+              "timeline": "Move-out date noted as 2025-08-29"
+            },
+            "agent_notes": {
+              "student_tone": "Not applicable (only lead info)",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Budget is weekly and relatively low (£320/week) for London; lease duration is short (4 weeks)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "id": "lead_453",
+  "mobile_number": "34615885106",
+  "email": null,
+  "timeline": [
+    {
+      "id": 7756,
+      "lead_id": 453,
+      "event_type": "call",
+      "timestamp": "2025-08-20T19:18:51.856661",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7726360",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T19:18:51.856661\", \"id\": 7726360, \"duration\": \"0\", \"to_number\": \"34615885106\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:13:10"
+    },
+    {
+      "id": 7757,
+      "lead_id": 453,
+      "event_type": "call",
+      "timestamp": "2025-08-20T21:04:04.263295",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7726905",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T21:04:04.263295\", \"id\": 7726905, \"duration\": \"0\", \"to_number\": \"34615885106\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:13:10"
+    },
+    {
+      "id": 7758,
+      "lead_id": 453,
+      "event_type": "call",
+      "timestamp": "2025-08-28T22:44:56.321056",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7778768",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-28T22:44:56.321056\", \"id\": 7778768, \"duration\": \"0\", \"to_number\": \"34615885106\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:13:10"
+    },
+    {
+      "id": 7759,
+      "lead_id": 453,
+      "event_type": "call",
+      "timestamp": "2025-08-31T12:17:44.671364",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7792205",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-31T12:17:44.671364\", \"id\": 7792205, \"duration\": \"79\", \"to_number\": \"34615885106\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/64e0c914-f881-4d96-a93b-85c04ae4156e.wav\"}",
+      "created_at": "2025-11-18 11:13:10"
+    },
+    {
+      "id": 7760,
+      "lead_id": 453,
+      "event_type": "lead_info",
+      "timestamp": "2025-11-18T16:43:10.446130",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-11-18T16:43:10.446130\", \"lead_id\": 3140918, \"user_name\": \"Min Xue Yang Wang\", \"email\": \"nievesyang01@gmail.com\", \"phone\": \"34615885106\", \"budget_currency\": \"dollar\", \"budget_duration\": \"monthly\", \"agent_id\": 3055, \"inventory_id\": 2033610}",
+      "created_at": "2025-11-18 11:13:10"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 346,
+      "lead_id": 453,
+      "call_id": "7792205",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/64e0c914-f881-4d96-a93b-85c04ae4156e.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Hello, Hi, am I speaking with Min Joo Yang Wang?\nSpeaker B: Yes.\nSpeaker A: Hi, Min, how are you?\nSpeaker B: How are you? Who is calling?\nSpeaker A: Min, this is. I'm calling from Amber. I was calling regarding your accommodation.\nSpeaker B: Regarding my what? Sorry, I can't hear very well.\nSpeaker A: Yeah, can you hear me now?\nSpeaker B: Yeah, a little better.\nSpeaker A: Perfect. Min, this is Hussain. I'm calling from UCL portal for accommodation. Yeah, powered by Amber and I was calling regarding your accommodation.\nSpeaker B: Okay, yeah.\nSpeaker A: So could you please confirm, are you still looking for accommodation?\nSpeaker B: No, I'm no longer looking. I already secured a place. Yeah, sorry I wasn't able to get back to you earlier.\nSpeaker A: No worries on that. Can you please let me know where did you secure place? Like they booked a private accommodation or did you book a student accommodation?\nSpeaker B: Just through ucl.\nSpeaker A: Pardon?\nSpeaker B: Through ucl, one of the ones that they offer. Yeah, all.\nSpeaker A: Right, thank you so much.\nSpeaker B: Yeah, all right, thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:13:18"
+    }
+  ],
+  "summary": {
+    "id": 187,
+    "lead_id": 453,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Min Xue Yang Wang\", \"mobile\": [\"34615885106\"], \"email\": [\"nievesyang01@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"USD\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent called Min Joo Yang Wang on 2025-08-31 to confirm accommodation status; student confirmed they have secured accommodation through UCL and are no longer looking.\", \"suggested_next_step\": \"No further action required as student has secured accommodation.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Min Xue Yang Wang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone number +34 615 885 106, email nievesyang01@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Not mentioned\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Monthly budget in dollars (exact amount not specified)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Accommodation secured through UCL student accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 call attempts with zero duration, 1 call with 79 seconds duration and transcript, 1 lead info record\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-11-18 (lead info recorded)\", \"response_time\": \"No response to initial calls until 2025-08-31 call where student confirmed accommodation secured\", \"key_moments\": \"On 2025-08-31, student confirmed no longer looking for accommodation as place secured through UCL\"}, \"properties_discussed\": {\"properties_mentioned\": \"No specific properties discussed; student mentioned securing accommodation through UCL offerings\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has secured accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"None indicated\", \"timeline\": \"No deadlines or dates mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite but brief; did not respond to initial calls but answered final call to confirm status\", \"urgency_level\": \"Low, as accommodation already secured\", \"complexity\": \"Simple case; student no longer seeking accommodation\", \"special_considerations\": \"Student secured accommodation through university, so no further assistance needed\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Min Xue Yang Wang\", \"mobile\": [\"34615885106\"], \"email\": [\"nievesyang01@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"USD\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"UCL\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent called Min Joo Yang Wang on 2025-08-31 to confirm accommodation status; student confirmed they have secured accommodation through UCL and are no longer looking.\", \"suggested_next_step\": \"No further action required as student has secured accommodation.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Min Xue Yang Wang\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone number +34 615 885 106, email nievesyang01@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Not mentioned\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Monthly budget in dollars (exact amount not specified)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Accommodation secured through UCL student accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 call attempts with zero duration, 1 call with 79 seconds duration and transcript, 1 lead info record\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-11-18 (lead info recorded)\", \"response_time\": \"No response to initial calls until 2025-08-31 call where student confirmed accommodation secured\", \"key_moments\": \"On 2025-08-31, student confirmed no longer looking for accommodation as place secured through UCL\"}, \"properties_discussed\": {\"properties_mentioned\": \"No specific properties discussed; student mentioned securing accommodation through UCL offerings\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has secured accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"None indicated\", \"timeline\": \"No deadlines or dates mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite but brief; did not respond to initial calls but answered final call to confirm status\", \"urgency_level\": \"Low, as accommodation already secured\", \"complexity\": \"Simple case; student no longer seeking accommodation\", \"special_considerations\": \"Student secured accommodation through university, so no further assistance needed\"}}}}}",
+    "created_at": "2025-11-18 11:13:31",
+    "updated_at": "2025-11-18T16:43:31.759149",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Min Xue Yang Wang",
+        "mobile": [
+          "34615885106"
+        ],
+        "email": [
+          "nievesyang01@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "USD"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "UCL",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent called Min Joo Yang Wang on 2025-08-31 to confirm accommodation status; student confirmed they have secured accommodation through UCL and are no longer looking.",
+      "suggested_next_step": "No further action required as student has secured accommodation."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Min Xue Yang Wang",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone number +34 615 885 106, email nievesyang01@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "Not mentioned",
+            "university": "University College London (UCL)",
+            "room_type": "Not mentioned",
+            "budget_range": "Monthly budget in dollars (exact amount not specified)",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Accommodation secured through UCL student accommodation",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "4 call attempts with zero duration, 1 call with 79 seconds duration and transcript, 1 lead info record",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-11-18 (lead info recorded)",
+            "response_time": "No response to initial calls until 2025-08-31 call where student confirmed accommodation secured",
+            "key_moments": "On 2025-08-31, student confirmed no longer looking for accommodation as place secured through UCL"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "No specific properties discussed; student mentioned securing accommodation through UCL offerings",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "None mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action required as student has secured accommodation",
+            "pending_items": "None",
+            "follow_up_required": "None indicated",
+            "timeline": "No deadlines or dates mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite but brief; did not respond to initial calls but answered final call to confirm status",
+            "urgency_level": "Low, as accommodation already secured",
+            "complexity": "Simple case; student no longer seeking accommodation",
+            "special_considerations": "Student secured accommodation through university, so no further assistance needed"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Min Xue Yang Wang",
+          "mobile": [
+            "34615885106"
+          ],
+          "email": [
+            "nievesyang01@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "USD"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "UCL",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent called Min Joo Yang Wang on 2025-08-31 to confirm accommodation status; student confirmed they have secured accommodation through UCL and are no longer looking.",
+        "suggested_next_step": "No further action required as student has secured accommodation."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Min Xue Yang Wang",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone number +34 615 885 106, email nievesyang01@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "Not mentioned",
+              "university": "University College London (UCL)",
+              "room_type": "Not mentioned",
+              "budget_range": "Monthly budget in dollars (exact amount not specified)",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Accommodation secured through UCL student accommodation",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "4 call attempts with zero duration, 1 call with 79 seconds duration and transcript, 1 lead info record",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-11-18 (lead info recorded)",
+              "response_time": "No response to initial calls until 2025-08-31 call where student confirmed accommodation secured",
+              "key_moments": "On 2025-08-31, student confirmed no longer looking for accommodation as place secured through UCL"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "No specific properties discussed; student mentioned securing accommodation through UCL offerings",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "None mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action required as student has secured accommodation",
+              "pending_items": "None",
+              "follow_up_required": "None indicated",
+              "timeline": "No deadlines or dates mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite but brief; did not respond to initial calls but answered final call to confirm status",
+              "urgency_level": "Low, as accommodation already secured",
+              "complexity": "Simple case; student no longer seeking accommodation",
+              "special_considerations": "Student secured accommodation through university, so no further assistance needed"
+            }
+          }
+        }
+      }
+    }
+  }
+}

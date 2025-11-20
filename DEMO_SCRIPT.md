@@ -15,7 +15,7 @@
 **[Point to sidebar]**
 
 > "First, let's look at the live dashboard. We can see at a glance:"
-> - "We have **14 leads** total in this demo"
+> - "We have **402 leads** total in this demo"
 > - "**5 are Won** bookings - our successful conversions"
 > - "**3 Lost**, 2 Opportunities still in play"
 > - "Most leads are for **London** accommodation"
@@ -109,7 +109,7 @@
 ✅ **Instant Insights** - No waiting for reports or analyst queries  
 ✅ **Natural Language** - No need to learn complex filters or query languages  
 ✅ **Evidence-Based** - Every answer shows sources and tools used  
-✅ **Scalable** - Works with 14 leads or 14,000 leads  
+✅ **Scalable** - Works with 402 leads or 14,000 leads  
 ✅ **Multi-dimensional** - Status, budget, location, time, conversations - all queryable  
 
 ---

@@ -1,0 +1,311 @@
+{
+  "id": "lead_372",
+  "mobile_number": "821072872487",
+  "email": null,
+  "timeline": [
+    {
+      "id": 6526,
+      "lead_id": 372,
+      "event_type": "lead_info",
+      "timestamp": "2025-08-23T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-08-23T00:00:00\", \"lead_id\": 3185478, \"user_name\": \"Kyu Hyon Rhee\", \"email\": \"artkyu@gmail.com\", \"phone\": \"821072872487\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 286882}",
+      "created_at": "2025-11-18 10:58:38"
+    },
+    {
+      "id": 6527,
+      "lead_id": 372,
+      "event_type": "call",
+      "timestamp": "2025-08-31T08:12:05.843395",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7791942",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-31T08:12:05.843395\", \"id\": 7791942, \"duration\": \"3\", \"to_number\": \"821072872487\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4c0cceb6-5a78-4d52-b160-f437ef7703a4.wav\"}",
+      "created_at": "2025-11-18 10:58:38"
+    },
+    {
+      "id": 6528,
+      "lead_id": 372,
+      "event_type": "call",
+      "timestamp": "2025-09-02T08:20:23.214553",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7800445",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-02T08:20:23.214553\", \"id\": 7800445, \"duration\": \"0\", \"to_number\": \"821072872487\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:58:38"
+    },
+    {
+      "id": 6529,
+      "lead_id": 372,
+      "event_type": "call",
+      "timestamp": "2025-09-03T07:20:26.498727",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7806713",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-03T07:20:26.498727\", \"id\": 7806713, \"duration\": \"107\", \"to_number\": \"821072872487\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e9b8bec5-d711-408d-9fa0-44e75056dfae.wav\"}",
+      "created_at": "2025-11-18 10:58:38"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 263,
+      "lead_id": 372,
+      "call_id": "7791942",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4c0cceb6-5a78-4d52-b160-f437ef7703a4.wav",
+      "transcript_text": "Speaker A: Hello.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:58:42"
+    },
+    {
+      "id": 267,
+      "lead_id": 372,
+      "call_id": "7806713",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e9b8bec5-d711-408d-9fa0-44e75056dfae.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Hello? Hello, You. Am I speaking with K? Hello?\nSpeaker B: Hello?\nSpeaker A: Yes, hello, is this Kim speaking?\nSpeaker B: Jung In Choi?\nSpeaker A: Yeah, hi, this is this Ayeshika from Amber Student. This is regarding your accommodation in London.\nSpeaker B: Who's this please?\nSpeaker A: Yeah, I'm calling for member student. This is regarding your accommodation. You are searching in London.\nSpeaker B: Oh, you mean the student housing.\nSpeaker A: Yes. Yes, that's correct.\nSpeaker B: The student housing. Yeah. Yes, we stopped the searching because we are not sure if we get the student housing.\nSpeaker A: Okay. So are you. Are you moving to London? This intake September 25th?\nSpeaker B: Around that time. But maybe we will not. We will not get apartment and in the student housing. So I stopped searching. Sorry about that.\nSpeaker A: So have you already found an accommodation?\nSpeaker B: Kind of, yes.\nSpeaker A: Oh, okay. Is it a private or on campus accommodation?\nSpeaker B: Private, but that not student housing. So.\nSpeaker A: Okay. All right. Thank you for the update.\nSpeaker B: Thank you. Thank you for coming.\nSpeaker A: Most welcome. Bye bye. TK.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:58:50"
+    }
+  ],
+  "summary": {
+    "id": 153,
+    "lead_id": 372,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Jung In Choi\", \"mobile\": [\"+821072872487\"], \"email\": [\"artkyu@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": \"2025-09-25\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"private\", \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Agent contacted the student to discuss accommodation search status; student informed that they have stopped searching for student housing and have found private accommodation instead.\", \"suggested_next_step\": \"No immediate action required as student has found alternative accommodation and stopped searching.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Kyu Hyon Rhee\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (artkyu@gmail.com), Phone (+82 1072872487)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly\", \"move_in_date\": \"Around September 25th, 2025\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Stopped searching; student has found private accommodation outside student housing\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 calls (2 answered, 1 missed)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-03\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Initial contact on 2025-08-31; final call on 2025-09-03 where student confirmed stopping search due to securing private accommodation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Student housing in London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Stopped searching student housing; found private accommodation\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has stopped searching\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student reinitiates search\", \"timeline\": \"Move-in expected around September 25th, 2025\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear; student communicated decision to stop searching\", \"urgency_level\": \"Low, as accommodation secured\", \"complexity\": \"Simple case; no further assistance requested\", \"special_considerations\": \"Student found private accommodation outside student housing; respect decision and close inquiry\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Jung In Choi\", \"mobile\": [\"+821072872487\"], \"email\": [\"artkyu@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": \"2025-09-25\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"private\", \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Agent contacted the student to discuss accommodation search status; student informed that they have stopped searching for student housing and have found private accommodation instead.\", \"suggested_next_step\": \"No immediate action required as student has found alternative accommodation and stopped searching.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Kyu Hyon Rhee\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (artkyu@gmail.com), Phone (+82 1072872487)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Budget in pounds, weekly\", \"move_in_date\": \"Around September 25th, 2025\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Stopped searching; student has found private accommodation outside student housing\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 calls (2 answered, 1 missed)\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-09-03\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Initial contact on 2025-08-31; final call on 2025-09-03 where student confirmed stopping search due to securing private accommodation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Student housing in London\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Stopped searching student housing; found private accommodation\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"No immediate action required as student has stopped searching\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student reinitiates search\", \"timeline\": \"Move-in expected around September 25th, 2025\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear; student communicated decision to stop searching\", \"urgency_level\": \"Low, as accommodation secured\", \"complexity\": \"Simple case; no further assistance requested\", \"special_considerations\": \"Student found private accommodation outside student housing; respect decision and close inquiry\"}}}}}",
+    "created_at": "2025-11-18 10:58:58",
+    "updated_at": "2025-11-18T16:28:58.718932",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Jung In Choi",
+        "mobile": [
+          "+821072872487"
+        ],
+        "email": [
+          "artkyu@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": "2025-09-25",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": "private",
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Agent contacted the student to discuss accommodation search status; student informed that they have stopped searching for student housing and have found private accommodation instead.",
+      "suggested_next_step": "No immediate action required as student has found alternative accommodation and stopped searching."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Kyu Hyon Rhee",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (artkyu@gmail.com), Phone (+82 1072872487)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "Budget in pounds, weekly",
+            "move_in_date": "Around September 25th, 2025",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Stopped searching; student has found private accommodation outside student housing",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 calls (2 answered, 1 missed)",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-09-03",
+            "response_time": "Not explicitly mentioned",
+            "key_moments": "Initial contact on 2025-08-31; final call on 2025-09-03 where student confirmed stopping search due to securing private accommodation"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Student housing in London",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Stopped searching student housing; found private accommodation",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "No immediate action required as student has stopped searching",
+            "pending_items": "None",
+            "follow_up_required": "No follow-up needed unless student reinitiates search",
+            "timeline": "Move-in expected around September 25th, 2025"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and clear; student communicated decision to stop searching",
+            "urgency_level": "Low, as accommodation secured",
+            "complexity": "Simple case; no further assistance requested",
+            "special_considerations": "Student found private accommodation outside student housing; respect decision and close inquiry"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Jung In Choi",
+          "mobile": [
+            "+821072872487"
+          ],
+          "email": [
+            "artkyu@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": "2025-09-25",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": "private",
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Agent contacted the student to discuss accommodation search status; student informed that they have stopped searching for student housing and have found private accommodation instead.",
+        "suggested_next_step": "No immediate action required as student has found alternative accommodation and stopped searching."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Kyu Hyon Rhee",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (artkyu@gmail.com), Phone (+82 1072872487)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "Budget in pounds, weekly",
+              "move_in_date": "Around September 25th, 2025",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Stopped searching; student has found private accommodation outside student housing",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 calls (2 answered, 1 missed)",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-09-03",
+              "response_time": "Not explicitly mentioned",
+              "key_moments": "Initial contact on 2025-08-31; final call on 2025-09-03 where student confirmed stopping search due to securing private accommodation"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Student housing in London",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Stopped searching student housing; found private accommodation",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "No immediate action required as student has stopped searching",
+              "pending_items": "None",
+              "follow_up_required": "No follow-up needed unless student reinitiates search",
+              "timeline": "Move-in expected around September 25th, 2025"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and clear; student communicated decision to stop searching",
+              "urgency_level": "Low, as accommodation secured",
+              "complexity": "Simple case; no further assistance requested",
+              "special_considerations": "Student found private accommodation outside student housing; respect decision and close inquiry"
+            }
+          }
+        }
+      }
+    }
+  }
+}

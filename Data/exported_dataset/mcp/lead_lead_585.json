@@ -1,0 +1,581 @@
+{
+  "id": "lead_585",
+  "mobile_number": "12038320036",
+  "email": null,
+  "timeline": [
+    {
+      "id": 9127,
+      "lead_id": 585,
+      "event_type": "call",
+      "timestamp": "2025-08-16T07:39:26.535370",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7693995",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-16T07:39:26.535370\", \"id\": 7693995, \"duration\": \"0\", \"to_number\": \"12038320036\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9128,
+      "lead_id": 585,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-16T19:21:07",
+      "content": "Hello Nick",
+      "source": "whatsapp",
+      "event_id": "7352476",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-16T19:21:07\", \"id\": 7352476, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12038320036\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12038320036@c.us_6598E5C260A2492462CD747110E4F183\", \"message_type\": \"text\", \"message_content\": \"Hello Nick\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-16T19:21:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello Nick\\\", \\\"Datetime\\\": 1755372067000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12038320036@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12038320036@c.us_6598E5C260A2492462CD747110E4F183\\\", \\\"ChannelName\\\": \\\"12038320036\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-16T19:21:08.165479\", \"direction\": \"outbound\", \"sbase_user_id\": 2435972, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12038320036\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9129,
+      "lead_id": 585,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-16T19:21:35",
+      "content": "We have received your booking request for Bloomsbury Janet Poole House,",
+      "source": "whatsapp",
+      "event_id": "7352493",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-16T19:21:35\", \"id\": 7352493, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12038320036\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12038320036@c.us_0744960E0FF8773934A777E0E58C7EA9\", \"message_type\": \"text\", \"message_content\": \"We have received your booking request for Bloomsbury Janet Poole House,\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-16T19:21:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"We have received your booking request for Bloomsbury Janet Poole House,\\\", \\\"Datetime\\\": 1755372095000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12038320036@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12038320036@c.us_0744960E0FF8773934A777E0E58C7EA9\\\", \\\"ChannelName\\\": \\\"12038320036\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-16T19:21:35.833817\", \"direction\": \"outbound\", \"sbase_user_id\": 2435972, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12038320036\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9130,
+      "lead_id": 585,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-16T19:21:47",
+      "content": "For Bronze Twin Ensuite Room",
+      "source": "whatsapp",
+      "event_id": "7352502",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-16T19:21:47\", \"id\": 7352502, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12038320036\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12038320036@c.us_0E018AF2B4CEEA48E09BB0D915E514AA\", \"message_type\": \"text\", \"message_content\": \"For Bronze Twin Ensuite Room\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-16T19:21:47.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"For Bronze Twin Ensuite Room\\\", \\\"Datetime\\\": 1755372107000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12038320036@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12038320036@c.us_0E018AF2B4CEEA48E09BB0D915E514AA\\\", \\\"ChannelName\\\": \\\"12038320036\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-16T19:21:47.466650\", \"direction\": \"outbound\", \"sbase_user_id\": 2435972, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12038320036\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9131,
+      "lead_id": 585,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-16T19:22:00",
+      "content": "And processing your booking",
+      "source": "whatsapp",
+      "event_id": "7352509",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-16T19:22:00\", \"id\": 7352509, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12038320036\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12038320036@c.us_5417EDD2004557F9AFF66FEAEF455782\", \"message_type\": \"text\", \"message_content\": \"And processing your booking\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-16T19:22:00.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"And processing your booking\\\", \\\"Datetime\\\": 1755372120000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12038320036@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12038320036@c.us_5417EDD2004557F9AFF66FEAEF455782\\\", \\\"ChannelName\\\": \\\"12038320036\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-16T19:22:01.332412\", \"direction\": \"outbound\", \"sbase_user_id\": 2435972, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12038320036\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9132,
+      "lead_id": 585,
+      "event_type": "call",
+      "timestamp": "2025-08-16T19:23:08.527531",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7699230",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-16T19:23:08.527531\", \"id\": 7699230, \"duration\": \"0\", \"to_number\": \"12038320036\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9133,
+      "lead_id": 585,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-16T19:23:29",
+      "content": "Please confirm if we connect for a quick call 😊",
+      "source": "whatsapp",
+      "event_id": "7352557",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-16T19:23:29\", \"id\": 7352557, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"12038320036\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12038320036@c.us_69E01DE1C603BD1168CDAF7033E665B1\", \"message_type\": \"text\", \"message_content\": \"Please confirm if we connect for a quick call \\ud83d\\ude0a\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-16T19:23:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Please confirm if we connect for a quick call \\ud83d\\ude0a\\\", \\\"Datetime\\\": 1755372209000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12038320036@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12038320036@c.us_69E01DE1C603BD1168CDAF7033E665B1\\\", \\\"ChannelName\\\": \\\"12038320036\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-16T19:23:29.461371\", \"direction\": \"outbound\", \"sbase_user_id\": 2435972, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12038320036\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9134,
+      "lead_id": 585,
+      "event_type": "call",
+      "timestamp": "2025-08-18T17:56:37.857567",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7710595",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T17:56:37.857567\", \"id\": 7710595, \"duration\": \"39\", \"to_number\": \"12038320036\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e32dd1d4-c110-42e7-882c-37fa15f9c897.wav\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9135,
+      "lead_id": 585,
+      "event_type": "call",
+      "timestamp": "2025-08-20T21:25:24.858730",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7726933",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T21:25:24.858730\", \"id\": 7726933, \"duration\": \"4\", \"to_number\": \"12038320036\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f138701a-80a2-43dc-a0e7-9800c34871b7.wav\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9136,
+      "lead_id": 585,
+      "event_type": "call",
+      "timestamp": "2025-08-23T22:02:30.866775",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7749211",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-23T22:02:30.866775\", \"id\": 7749211, \"duration\": \"8\", \"to_number\": \"12038320036\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/662ee49a-4f35-4ca9-a47b-f211b709347d.wav\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9137,
+      "lead_id": 585,
+      "event_type": "call",
+      "timestamp": "2025-08-31T16:38:06.623754",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7792630",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-31T16:38:06.623754\", \"id\": 7792630, \"duration\": \"3\", \"to_number\": \"12038320036\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8dea06b8-8266-4921-a1d4-6d91183d939c.wav\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9138,
+      "lead_id": 585,
+      "event_type": "call",
+      "timestamp": "2025-09-03T08:17:00.489536",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7806949",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-03T08:17:00.489536\", \"id\": 7806949, \"duration\": \"0\", \"to_number\": \"12038320036\", \"from_number\": \"19176959425\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9139,
+      "lead_id": 585,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T13:02:51",
+      "content": "Hi Nick, \nGood Day\n\nRachna Ahuja this side on behalf of *University College London* powered by Amber \n\n I will be happy to help you in booking the right accommodation for you. \n\nThanks",
+      "source": "whatsapp",
+      "event_id": "8195543",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T13:02:51\", \"id\": 8195543, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"12038320036\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12038320036@c.us_3EB0BDA7960276DB66F21D\", \"message_type\": \"text\", \"message_content\": \"Hi Nick, \\nGood Day\\n\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\n\\n I will be happy to help you in booking the right accommodation for you. \\n\\nThanks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T13:02:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Nick, \\\\nGood Day\\\\n\\\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\\\n\\\\n I will be happy to help you in booking the right accommodation for you. \\\\n\\\\nThanks\\\", \\\"Datetime\\\": 1756904571000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12038320036@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12038320036@c.us_3EB0BDA7960276DB66F21D\\\", \\\"ChannelName\\\": \\\"12038320036\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T13:02:51.856769\", \"direction\": \"outbound\", \"sbase_user_id\": 2435972, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"12038320036\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9140,
+      "lead_id": 585,
+      "event_type": "call",
+      "timestamp": "2025-09-08T14:10:09.331216",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7838198",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-08T14:10:09.331216\", \"id\": 7838198, \"duration\": \"5\", \"to_number\": \"12038320036\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/35f16f7a-17c6-4725-9dee-124cb3de0e18.wav\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9141,
+      "lead_id": 585,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T14:22:18",
+      "content": "Hi Nick \n\nWaiting to hear back",
+      "source": "whatsapp",
+      "event_id": "8383205",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T14:22:18\", \"id\": 8383205, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"12038320036\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12038320036@c.us_3EB0A503EF075C762FF8DD\", \"message_type\": \"text\", \"message_content\": \"Hi Nick \\n\\nWaiting to hear back\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-08T14:22:18.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Nick \\\\n\\\\nWaiting to hear back\\\", \\\"Datetime\\\": 1757341338000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12038320036@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12038320036@c.us_3EB0A503EF075C762FF8DD\\\", \\\"ChannelName\\\": \\\"12038320036\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-08T14:22:20.280977\", \"direction\": \"outbound\", \"sbase_user_id\": 2435972, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"12038320036\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9142,
+      "lead_id": 585,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T14:30:27",
+      "content": "hello! I have already found accommodation thank you",
+      "source": "whatsapp",
+      "event_id": "8383585",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T14:30:27\", \"id\": 8383585, \"email\": \"\", \"from_number\": \"12038320036\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_12038320036@c.us_3A896979DC197769226E\", \"message_type\": \"text\", \"message_content\": \"hello! I have already found accommodation thank you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"12038320036@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-08T14:30:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"hello! I have already found accommodation thank you\\\", \\\"Datetime\\\": 1757341827000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"12038320036@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_12038320036@c.us_3A896979DC197769226E\\\", \\\"ChannelName\\\": \\\"12038320036\\\", \\\"SentByNumber\\\": \\\"12038320036\\\", \\\"sentByUserId\\\": \\\"12038320036@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-09-08T14:30:28.179770\", \"direction\": \"inbound\", \"sbase_user_id\": 2435972, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"12038320036\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9143,
+      "lead_id": 585,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T08:33:57",
+      "content": "Hi Nick\n\nMay I know when shall we connect?",
+      "source": "whatsapp",
+      "event_id": "8547185",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T08:33:57\", \"id\": 8547185, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"12038320036\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_12038320036@c.us_3EB0B1BBF9A107444095FE\", \"message_type\": \"text\", \"message_content\": \"Hi Nick\\n\\nMay I know when shall we connect?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-12T08:33:57.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Nick\\\\n\\\\nMay I know when shall we connect?\\\", \\\"Datetime\\\": 1757666037000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"12038320036@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_12038320036@c.us_3EB0B1BBF9A107444095FE\\\", \\\"ChannelName\\\": \\\"12038320036\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-12T08:33:57.754574\", \"direction\": \"outbound\", \"sbase_user_id\": 2435972, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"12038320036\"}",
+      "created_at": "2025-11-18 11:39:46"
+    },
+    {
+      "id": 9144,
+      "lead_id": 585,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3146375, \"user_name\": \"Nick Saah\", \"email\": \"nicksaah17@gmail.com\", \"phone\": \"12038320036\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 365, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3306, \"inventory_id\": 2061634}",
+      "created_at": "2025-11-18 11:39:46"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 461,
+      "lead_id": 585,
+      "call_id": "7710595",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e32dd1d4-c110-42e7-882c-37fa15f9c897.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to an automatic voice message system. 2038-320-0036 is not available. At the tone, please record your message. When you have finished recording, you may hang up or press 1 for more options.\nSpeaker B: Hi Nick, this is Hussain. I'm calling regarding your accommodation. Would you please call me back on this number or, you know, revert me over to WhatsApp that I have shared with you. I need to get some information before I process your booking. Thank you so much and have a great day.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:39:54"
+    },
+    {
+      "id": 462,
+      "lead_id": 585,
+      "call_id": "7726933",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f138701a-80a2-43dc-a0e7-9800c34871b7.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to an automatic voice message.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:39:58"
+    },
+    {
+      "id": 464,
+      "lead_id": 585,
+      "call_id": "7749211",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/662ee49a-4f35-4ca9-a47b-f211b709347d.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to an automatic voice message system. 2038-3200.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:40:03"
+    },
+    {
+      "id": 465,
+      "lead_id": 585,
+      "call_id": "7792630",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8dea06b8-8266-4921-a1d4-6d91183d939c.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to an automatic.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:40:07"
+    },
+    {
+      "id": 468,
+      "lead_id": 585,
+      "call_id": "7838198",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/35f16f7a-17c6-4725-9dee-124cb3de0e18.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to an Automatic Voice Message System 2 0.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:40:11"
+    }
+  ],
+  "summary": {
+    "id": 242,
+    "lead_id": 585,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Nick Saah\", \"mobile\": [\"12038320036\"], \"email\": [\"nicksaah17@gmail.com\"], \"whatsapp\": [\"447446219714\", \"447832625341\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"ensuite\", \"budget\": {\"max\": 365, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": true, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Bloomsbury Janet Poole House\"], \"rooms_considered\": [\"Bronze Twin Ensuite Room\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Nick to obtain required information before processing the booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call voicemail on 2025-08-18 where agent requested Nick to call back or respond on WhatsApp with information needed to process booking.\"}, {\"type\": \"communication\", \"description\": \"Agent to confirm with Nick if a quick call can be scheduled to discuss booking details.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-08-16 asking Nick to confirm if they can connect for a quick call.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with Nick regarding accommodation booking status after he indicated he has found accommodation.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message from Nick on 2025-09-08 stating he has already found accommodation.\"}, {\"type\": \"communication\", \"description\": \"Agent Rachna to reach out and offer help with booking accommodation for Nick.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-03 from Rachna Ahuja offering assistance.\"}], \"last_agent_response\": \"Agent Rachna Ahuja reached out on 2025-09-03 offering help to Nick with booking accommodation.\", \"suggested_next_step\": \"Agent to follow up with Nick to confirm his current accommodation status and clarify if assistance is still needed.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Nick Saah\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via numbers 12038320036 and UK agent numbers\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Bronze Twin Ensuite Room\", \"budget_range\": \"\\u00a3365 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking request received and processing; student later confirmed already found accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (mostly unanswered or voicemail) and WhatsApp message packs between 2025-08-16 and 2025-09-12\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-12 via WhatsApp message from agent\", \"response_time\": \"Student responded once on WhatsApp on 2025-09-08 after multiple unanswered calls and messages\", \"key_moments\": \"Initial booking request acknowledged on 2025-08-16; multiple call attempts with voicemail left; student informed on 2025-09-08 that accommodation was already found\"}, \"properties_discussed\": {\"properties_mentioned\": \"Bloomsbury Janet Poole House\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Preference for Bronze Twin Ensuite Room\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"None required as student confirmed accommodation found\", \"pending_items\": \"No pending items from student side\", \"follow_up_required\": \"Confirm closure of lead or offer further assistance if needed\", \"timeline\": \"Lead info recorded on 2025-09-13; last agent message on 2025-09-12\"}, \"agent_notes\": {\"student_tone\": \"Polite but minimal engagement; brief WhatsApp reply indicating no further need\", \"urgency_level\": \"Low after student confirmed accommodation found\", \"complexity\": \"Simple case; booking not completed due to student securing own accommodation\", \"special_considerations\": \"Multiple call attempts unsuccessful; communication primarily via WhatsApp\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Nick Saah\", \"mobile\": [\"12038320036\"], \"email\": [\"nicksaah17@gmail.com\"], \"whatsapp\": [\"447446219714\", \"447832625341\"], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"ensuite\", \"budget\": {\"max\": 365, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": true, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Bloomsbury Janet Poole House\"], \"rooms_considered\": [\"Bronze Twin Ensuite Room\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Nick to obtain required information before processing the booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call voicemail on 2025-08-18 where agent requested Nick to call back or respond on WhatsApp with information needed to process booking.\"}, {\"type\": \"communication\", \"description\": \"Agent to confirm with Nick if a quick call can be scheduled to discuss booking details.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-08-16 asking Nick to confirm if they can connect for a quick call.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with Nick regarding accommodation booking status after he indicated he has found accommodation.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message from Nick on 2025-09-08 stating he has already found accommodation.\"}, {\"type\": \"communication\", \"description\": \"Agent Rachna to reach out and offer help with booking accommodation for Nick.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-03 from Rachna Ahuja offering assistance.\"}], \"last_agent_response\": \"Agent Rachna Ahuja reached out on 2025-09-03 offering help to Nick with booking accommodation.\", \"suggested_next_step\": \"Agent to follow up with Nick to confirm his current accommodation status and clarify if assistance is still needed.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Nick Saah\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via numbers 12038320036 and UK agent numbers\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Bronze Twin Ensuite Room\", \"budget_range\": \"\\u00a3365 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Booking request received and processing; student later confirmed already found accommodation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (mostly unanswered or voicemail) and WhatsApp message packs between 2025-08-16 and 2025-09-12\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-12 via WhatsApp message from agent\", \"response_time\": \"Student responded once on WhatsApp on 2025-09-08 after multiple unanswered calls and messages\", \"key_moments\": \"Initial booking request acknowledged on 2025-08-16; multiple call attempts with voicemail left; student informed on 2025-09-08 that accommodation was already found\"}, \"properties_discussed\": {\"properties_mentioned\": \"Bloomsbury Janet Poole House\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Preference for Bronze Twin Ensuite Room\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"None required as student confirmed accommodation found\", \"pending_items\": \"No pending items from student side\", \"follow_up_required\": \"Confirm closure of lead or offer further assistance if needed\", \"timeline\": \"Lead info recorded on 2025-09-13; last agent message on 2025-09-12\"}, \"agent_notes\": {\"student_tone\": \"Polite but minimal engagement; brief WhatsApp reply indicating no further need\", \"urgency_level\": \"Low after student confirmed accommodation found\", \"complexity\": \"Simple case; booking not completed due to student securing own accommodation\", \"special_considerations\": \"Multiple call attempts unsuccessful; communication primarily via WhatsApp\"}}}}}",
+    "created_at": "2025-11-18 11:40:21",
+    "updated_at": "2025-11-18T17:10:21.756043",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Nick Saah",
+        "mobile": [
+          "12038320036"
+        ],
+        "email": [
+          "nicksaah17@gmail.com"
+        ],
+        "whatsapp": [
+          "447446219714",
+          "447832625341"
+        ],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "ensuite",
+        "budget": {
+          "max": 365,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": true,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Bloomsbury Janet Poole House"
+        ],
+        "rooms_considered": [
+          "Bronze Twin Ensuite Room"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Nick to obtain required information before processing the booking.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call voicemail on 2025-08-18 where agent requested Nick to call back or respond on WhatsApp with information needed to process booking."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to confirm with Nick if a quick call can be scheduled to discuss booking details.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp message on 2025-08-16 asking Nick to confirm if they can connect for a quick call."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Nick regarding accommodation booking status after he indicated he has found accommodation.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message from Nick on 2025-09-08 stating he has already found accommodation."
+        },
+        {
+          "type": "communication",
+          "description": "Agent Rachna to reach out and offer help with booking accommodation for Nick.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-09-03 from Rachna Ahuja offering assistance."
+        }
+      ],
+      "last_agent_response": "Agent Rachna Ahuja reached out on 2025-09-03 offering help to Nick with booking accommodation.",
+      "suggested_next_step": "Agent to follow up with Nick to confirm his current accommodation status and clarify if assistance is still needed."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Nick Saah",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via numbers 12038320036 and UK agent numbers",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Bronze Twin Ensuite Room",
+            "budget_range": "£365 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Booking request received and processing; student later confirmed already found accommodation",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple calls (mostly unanswered or voicemail) and WhatsApp message packs between 2025-08-16 and 2025-09-12",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-12 via WhatsApp message from agent",
+            "response_time": "Student responded once on WhatsApp on 2025-09-08 after multiple unanswered calls and messages",
+            "key_moments": "Initial booking request acknowledged on 2025-08-16; multiple call attempts with voicemail left; student informed on 2025-09-08 that accommodation was already found"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Bloomsbury Janet Poole House",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Preference for Bronze Twin Ensuite Room",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "None required as student confirmed accommodation found",
+            "pending_items": "No pending items from student side",
+            "follow_up_required": "Confirm closure of lead or offer further assistance if needed",
+            "timeline": "Lead info recorded on 2025-09-13; last agent message on 2025-09-12"
+          },
+          "agent_notes": {
+            "student_tone": "Polite but minimal engagement; brief WhatsApp reply indicating no further need",
+            "urgency_level": "Low after student confirmed accommodation found",
+            "complexity": "Simple case; booking not completed due to student securing own accommodation",
+            "special_considerations": "Multiple call attempts unsuccessful; communication primarily via WhatsApp"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Nick Saah",
+          "mobile": [
+            "12038320036"
+          ],
+          "email": [
+            "nicksaah17@gmail.com"
+          ],
+          "whatsapp": [
+            "447446219714",
+            "447832625341"
+          ],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "ensuite",
+          "budget": {
+            "max": 365,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": true,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Bloomsbury Janet Poole House"
+          ],
+          "rooms_considered": [
+            "Bronze Twin Ensuite Room"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Nick to obtain required information before processing the booking.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call voicemail on 2025-08-18 where agent requested Nick to call back or respond on WhatsApp with information needed to process booking."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to confirm with Nick if a quick call can be scheduled to discuss booking details.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp message on 2025-08-16 asking Nick to confirm if they can connect for a quick call."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Nick regarding accommodation booking status after he indicated he has found accommodation.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message from Nick on 2025-09-08 stating he has already found accommodation."
+          },
+          {
+            "type": "communication",
+            "description": "Agent Rachna to reach out and offer help with booking accommodation for Nick.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-09-03 from Rachna Ahuja offering assistance."
+          }
+        ],
+        "last_agent_response": "Agent Rachna Ahuja reached out on 2025-09-03 offering help to Nick with booking accommodation.",
+        "suggested_next_step": "Agent to follow up with Nick to confirm his current accommodation status and clarify if assistance is still needed."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Nick Saah",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via numbers 12038320036 and UK agent numbers",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Bronze Twin Ensuite Room",
+              "budget_range": "£365 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Booking request received and processing; student later confirmed already found accommodation",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple calls (mostly unanswered or voicemail) and WhatsApp message packs between 2025-08-16 and 2025-09-12",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-12 via WhatsApp message from agent",
+              "response_time": "Student responded once on WhatsApp on 2025-09-08 after multiple unanswered calls and messages",
+              "key_moments": "Initial booking request acknowledged on 2025-08-16; multiple call attempts with voicemail left; student informed on 2025-09-08 that accommodation was already found"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Bloomsbury Janet Poole House",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Preference for Bronze Twin Ensuite Room",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "None required as student confirmed accommodation found",
+              "pending_items": "No pending items from student side",
+              "follow_up_required": "Confirm closure of lead or offer further assistance if needed",
+              "timeline": "Lead info recorded on 2025-09-13; last agent message on 2025-09-12"
+            },
+            "agent_notes": {
+              "student_tone": "Polite but minimal engagement; brief WhatsApp reply indicating no further need",
+              "urgency_level": "Low after student confirmed accommodation found",
+              "complexity": "Simple case; booking not completed due to student securing own accommodation",
+              "special_considerations": "Multiple call attempts unsuccessful; communication primarily via WhatsApp"
+            }
+          }
+        }
+      }
+    }
+  }
+}

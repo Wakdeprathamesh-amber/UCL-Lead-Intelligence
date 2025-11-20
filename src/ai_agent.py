@@ -5,18 +5,22 @@ LangChain agent that orchestrates MCP tools and RAG for intelligent query handli
 
 import os
 import json
+import time
 from typing import List, Dict, Any, Optional
 from dotenv import load_dotenv
 
 from langchain_openai import ChatOpenAI
 from langchain.agents import AgentExecutor, create_openai_functions_agent
-from langchain.tools import Tool
+from langchain.tools import Tool, StructuredTool
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.schema import HumanMessage, AIMessage, SystemMessage
 
 from query_tools import LeadQueryTools
 from aggregate_query_tools import AggregateQueryTools
 from rag_system import LeadRAGSystem
+from property_analytics import PropertyAnalytics
+from rate_limiter import get_rate_limiter
+from audit_logger import get_audit_logger
 
 load_dotenv()
 
@@ -29,7 +33,7 @@ class LeadIntelligenceAgent:
         Initialize agent with specified mode
         
         Args:
-            mode: "detailed" for 19-lead conversation data or "aggregate" for 1,525-lead analytics
+            mode: "detailed" for 402-lead conversation data or "aggregate" for 1,525-lead analytics
         """
         self.mode = mode
         
@@ -39,6 +43,8 @@ class LeadIntelligenceAgent:
             self.rag_system = None
         else:
             self.query_tools = LeadQueryTools()
+            # Initialize property analytics
+            self.property_analytics = PropertyAnalytics()
             # Initialize RAG system (will gracefully handle missing API key)
             try:
                 self.rag_system = LeadRAGSystem()
@@ -73,7 +79,9 @@ class LeadIntelligenceAgent:
             tools=self.tools,
             verbose=False,
             return_intermediate_steps=True,
-            handle_parsing_errors=True
+            handle_parsing_errors=True,
+            max_iterations=15,  # Prevent infinite loops
+            max_execution_time=60  # 60 second timeout
         )
         
         mode_name = "Aggregate Analytics" if mode == "aggregate" else "Detailed Conversation Intelligence"
@@ -103,11 +111,11 @@ class LeadIntelligenceAgent:
                     Returns: List of matching leads."""
                 ),
                 
-                Tool(
+                StructuredTool.from_function(
+                    func=self._get_aggregations_wrapper,
                     name="get_aggregations",
-                    func=lambda _: json.dumps(self.query_tools.get_aggregations(), indent=2),
                     description="""Get comprehensive KPIs and statistics about all aggregate leads (1,525 leads).
-                    Input: empty string or any text (ignored)
+                    This tool takes no arguments.
                     Returns: Total leads, status breakdown, conversion rate, lost reasons, country breakdown, 
                     city breakdown, repeat rate, monthly trends."""
                 ),
@@ -128,11 +136,11 @@ class LeadIntelligenceAgent:
                     Returns: List of lost reasons ranked by frequency."""
                 ),
                 
-                Tool(
+                StructuredTool.from_function(
+                    func=self._get_country_statistics_wrapper,
                     name="get_country_statistics",
-                    func=lambda _: json.dumps(self.query_tools.get_country_statistics(), indent=2),
                     description="""Get detailed statistics by source country.
-                    Input: empty string or any text (ignored)
+                    This tool takes no arguments.
                     Returns: Country breakdown with total, won, lost, and conversion rates."""
                 ),
                 
@@ -167,11 +175,11 @@ class LeadIntelligenceAgent:
                     Returns: List of matching leads with their details."""
                 ),
                 
-                Tool(
+                StructuredTool.from_function(
+                    func=self._get_aggregations_wrapper,
                     name="get_aggregations",
-                    func=lambda _: json.dumps(self.query_tools.get_aggregations(), indent=2),
                     description="""Get comprehensive KPIs and statistics about all leads.
-                    Input: empty string or any text (ignored)
+                    This tool takes no arguments.
                     Returns: Total leads, status breakdown, won/lost counts, location distribution,
                     university breakdown, average budgets, room type preferences, move-in month trends,
                     lease duration statistics (average, min, max)."""
@@ -217,11 +225,11 @@ class LeadIntelligenceAgent:
                     Returns: Property names and room types the lead is interested in."""
                 ),
                 
-                Tool(
+                StructuredTool.from_function(
+                    func=self._get_popular_properties_wrapper,
                     name="get_popular_properties",
-                    func=lambda x="": json.dumps(self.query_tools.get_popular_properties(), indent=2),
                     description="""Get list of most popular properties across all leads.
-                    Input: any text (optional, ignored)
+                    This tool takes no arguments.
                     Returns: Properties ranked by number of leads considering them."""
                 ),
                 
@@ -233,12 +241,103 @@ class LeadIntelligenceAgent:
                     Returns: List of amenities the lead wants."""
                 ),
                 
-                Tool(
+                StructuredTool.from_function(
+                    func=self._get_popular_amenities_wrapper,
                     name="get_popular_amenities",
-                    func=lambda x="": json.dumps(self.query_tools.get_popular_amenities(), indent=2),
                     description="""Get most requested amenities across all leads.
-                    Input: any text (optional, ignored)
+                    This tool takes no arguments.
                     Returns: Amenities ranked by how many leads requested them."""
+                ),
+                
+                Tool(
+                    name="get_lead_timeline",
+                    func=lambda args: self._get_lead_timeline_wrapper(args),
+                    description="""Get timeline of all events (WhatsApp messages, calls, etc.) for a specific lead.
+                    Input: lead_id (string), optionally event_type ('whatsapp', 'call', 'email', 'lead_info')
+                    Returns: Chronological list of all events with timestamps, content, and direction."""
+                ),
+                
+                Tool(
+                    name="get_call_transcripts",
+                    func=lambda args: self._get_call_transcripts_wrapper(args),
+                    description="""Get call transcripts for leads.
+                    Input: lead_id (optional string) - if provided, returns transcripts for that lead only
+                    Returns: List of call transcripts with transcript text, call IDs, and record URLs."""
+                ),
+                
+                Tool(
+                    name="search_timeline_events",
+                    func=lambda args: self._search_timeline_events_wrapper(args),
+                    description="""Search timeline events (WhatsApp messages, calls) by content.
+                    Input: query_text (string to search for), optionally event_type ('whatsapp', 'call', etc.)
+                    Returns: Matching timeline events with lead context, timestamps, and content."""
+                ),
+                
+                Tool(
+                    name="get_crm_data",
+                    func=lambda args: self._get_crm_data_wrapper(args),
+                    description="""Get CRM data for leads including lost reasons, country, property info.
+                    Input: JSON string with optional filters like {"lead_id": "123"} or {"lost_reason": "Not responded", "location_country": "United Kingdom"}
+                    Returns: List of CRM records with all available fields including lost_reason, location_country, phone_country, property_name, etc."""
+                ),
+                
+                StructuredTool.from_function(
+                    func=self._get_lost_reasons_analysis_wrapper,
+                    name="get_lost_reasons_analysis",
+                    description="""Get comprehensive lost reasons analysis grouped by country.
+                    This tool takes no arguments.
+                    Returns: Dict with top_reasons, by_location_country, by_phone_country breakdowns."""
+                ),
+                
+                StructuredTool.from_function(
+                    func=self._get_room_types_by_country_wrapper,
+                    name="get_room_types_by_country",
+                    description="""Get room type preferences grouped by source country.
+                    This tool takes no arguments.
+                    Returns: Dict with room types by country showing preferences per country."""
+                ),
+                
+                StructuredTool.from_function(
+                    func=self._get_all_pending_tasks_wrapper,
+                    name="get_all_pending_tasks",
+                    description="""Get summary of all pending and in-progress tasks across all leads.
+                    Returns aggregated statistics (total count, by status, by urgency, by task type) 
+                    plus sample urgent tasks (10 most urgent).
+                    For specific tasks, use filter_leads + get_lead_tasks.
+                    This tool takes no arguments.
+                    Returns: Dict with task statistics and sample urgent tasks."""
+                ),
+                
+                StructuredTool.from_function(
+                    func=self._get_all_objections_wrapper,
+                    name="get_all_objections",
+                    description="""Get all objections from the database.
+                    This tool takes no arguments.
+                    Returns: List of all objections with lead information and objection types."""
+                ),
+                
+                Tool(
+                    name="get_property_analytics",
+                    func=lambda query="": self._property_analytics_wrapper(query),
+                    description="""Get comprehensive property analytics including popularity, conversion rates, and performance metrics.
+                    Input: Optional property name (string) to filter by specific property, or empty string for all properties.
+                    Returns: Property analytics including popular properties, conversion rates, performance metrics, room type distribution, and status distribution."""
+                ),
+                
+                Tool(
+                    name="get_property_details",
+                    func=lambda property_name: json.dumps(self.property_analytics.get_property_details(property_name), indent=2),
+                    description="""Get detailed information about a specific property.
+                    Input: property_name (string) - the name of the property
+                    Returns: Detailed property information including total leads, won/lost counts, conversion rate, room types, average budget, and list of leads."""
+                ),
+                
+                Tool(
+                    name="compare_properties",
+                    func=lambda property_names: self._compare_properties_wrapper(property_names),
+                    description="""Compare multiple properties side by side.
+                    Input: JSON string with array of property names, e.g., '["Property A", "Property B"]' or comma-separated string
+                    Returns: Comparison of properties with metrics like conversion rates, lead counts, and average budgets."""
                 )
             ]
             
@@ -335,6 +434,62 @@ class LeadIntelligenceAgent:
         
         return json.dumps(formatted, indent=2)
     
+    def _get_lead_timeline_wrapper(self, args: str) -> str:
+        """Wrapper for get_lead_timeline"""
+        try:
+            # Try to parse as JSON first
+            if isinstance(args, str) and args.strip().startswith('{'):
+                params = json.loads(args)
+                lead_id = params.get('lead_id', '')
+                event_type = params.get('event_type')
+            else:
+                # Simple string format: "lead_id" or "lead_id,event_type"
+                parts = str(args).split(',')
+                lead_id = parts[0].strip()
+                event_type = parts[1].strip() if len(parts) > 1 and parts[1].strip() else None
+            
+            if not lead_id:
+                return json.dumps({"error": "lead_id is required"})
+            
+            results = self.query_tools.get_lead_timeline(lead_id, event_type)
+            return json.dumps(results, indent=2)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting timeline: {str(e)}"})
+    
+    def _get_call_transcripts_wrapper(self, args: str) -> str:
+        """Wrapper for get_call_transcripts"""
+        try:
+            lead_id = str(args).strip() if args else None
+            if not lead_id or lead_id == "":
+                lead_id = None
+            
+            results = self.query_tools.get_call_transcripts(lead_id)
+            return json.dumps(results, indent=2)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting transcripts: {str(e)}"})
+    
+    def _search_timeline_events_wrapper(self, args: str) -> str:
+        """Wrapper for search_timeline_events"""
+        try:
+            # Try to parse as JSON first
+            if isinstance(args, str) and args.strip().startswith('{'):
+                params = json.loads(args)
+                query_text = params.get('query_text', '')
+                event_type = params.get('event_type')
+            else:
+                # Simple string format: "query_text" or "query_text,event_type"
+                parts = str(args).split(',')
+                query_text = parts[0].strip()
+                event_type = parts[1].strip() if len(parts) > 1 and parts[1].strip() else None
+            
+            if not query_text:
+                return json.dumps({"error": "query_text is required"})
+            
+            results = self.query_tools.search_timeline_events(query_text, event_type, limit=20)
+            return json.dumps(results, indent=2)
+        except Exception as e:
+            return json.dumps({"error": f"Error searching timeline: {str(e)}"})
+    
     def _search_objections_wrapper(self, query: str) -> str:
         """Wrapper for objections search"""
         if not self.rag_enabled:
@@ -353,6 +508,72 @@ class LeadIntelligenceAgent:
             })
         
         return json.dumps(formatted, indent=2)
+    
+    def _get_all_pending_tasks_wrapper(self, *args, **kwargs) -> str:
+        """Wrapper for get_all_pending_tasks that handles any input type and returns smart aggregation"""
+        try:
+            # Ignore all inputs, return smart aggregation (summary format)
+            result = self.query_tools.get_all_pending_tasks(format="summary")
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting pending tasks: {str(e)}"})
+    
+    def _get_all_objections_wrapper(self, *args, **kwargs) -> str:
+        """Wrapper for get_all_objections that handles any input type"""
+        try:
+            # Ignore all inputs, just call the tool
+            result = self.query_tools.get_all_objections()
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting objections: {str(e)}"})
+    
+    def _get_aggregations_wrapper(self, *args, **kwargs) -> str:
+        """Wrapper for get_aggregations that handles any input type"""
+        try:
+            result = self.query_tools.get_aggregations()
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting aggregations: {str(e)}"})
+    
+    def _get_country_statistics_wrapper(self, *args, **kwargs) -> str:
+        """Wrapper for get_country_statistics that handles any input type"""
+        try:
+            result = self.query_tools.get_country_statistics()
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting country statistics: {str(e)}"})
+    
+    def _get_popular_properties_wrapper(self, *args, **kwargs) -> str:
+        """Wrapper for get_popular_properties that handles any input type"""
+        try:
+            result = self.query_tools.get_popular_properties()
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting popular properties: {str(e)}"})
+    
+    def _get_popular_amenities_wrapper(self, *args, **kwargs) -> str:
+        """Wrapper for get_popular_amenities that handles any input type"""
+        try:
+            result = self.query_tools.get_popular_amenities()
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting popular amenities: {str(e)}"})
+    
+    def _get_lost_reasons_analysis_wrapper(self, *args, **kwargs) -> str:
+        """Wrapper for get_lost_reasons_analysis that handles any input type"""
+        try:
+            result = self.query_tools.get_lost_reasons_analysis()
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting lost reasons analysis: {str(e)}"})
+    
+    def _get_room_types_by_country_wrapper(self, *args, **kwargs) -> str:
+        """Wrapper for get_room_types_by_country that handles any input type"""
+        try:
+            result = self.query_tools.get_room_types_by_country()
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting room types by country: {str(e)}"})
     
     def _create_prompt(self) -> ChatPromptTemplate:
         """Create the agent prompt"""
@@ -389,46 +610,151 @@ You help university admins analyze large-scale lead data (1,525 leads) with volu
             system_message = """You are an intelligent AI assistant for UCL (University College London) Lead Intelligence - DETAILED CONVERSATION MODE.
 You help university admins understand their student leads, analyze trends, and extract insights from conversations.
 
-## Your Capabilities (Detailed Mode):
-1. **Structured Queries**: Filter leads by status, budget, location, move-in dates, university, etc.
-2. **KPI & Analytics**: Provide statistics, trends, breakdowns by various dimensions
-3. **Lead Details**: Get comprehensive information about specific leads
-4. **Conversation Intelligence**: Search and analyze lead conversations, objections, and concerns (when RAG is enabled)
+## YOUR ROLE:
+You are a specialized AI assistant that provides data-driven insights about student leads for university accommodation services. You have access to comprehensive lead data, conversations, CRM records, and analytics tools.
 
-## CRITICAL Guidelines:
-- **Be HONEST about data availability**: If data doesn't exist, say "I don't have this information" - NEVER make up or guess data
-- **NO HALLUCINATION**: Only provide information that exists in the tools' responses
-- **Be Precise**: Always cite sources (lead IDs, names) and provide evidence
-- **Be Analytical**: When asked about trends, compare numbers and explain patterns
+## DATA AVAILABLE:
+- **402 leads** with full conversation data
+- **2,271 pending/in-progress tasks** across all leads
+- **406 CRM records** with lost reasons, country data, property info
+- **10,000+ conversation documents** (embedded in RAG system)
+- **Lead statuses**: Won, Lost, Opportunity, Contacted, Disputed
+- **Full conversation timelines**: WhatsApp messages, calls, emails
+- **Property preferences**: Room types, amenities, locations
+- **Budget and requirements**: Move-in dates, lease durations, university info
+
+## YOUR TOOLS (24 total, organized by category):
+
+### 📊 **Analytics & Aggregations** (Use for statistics and trends):
+1. `get_aggregations` - Comprehensive KPIs (total leads, status breakdown, averages, trends)
+2. `get_lost_reasons_analysis` - Pre-computed lost reasons by country (FASTEST for this query)
+3. `get_room_types_by_country` - Pre-computed room preferences by country (FASTEST for this query)
+4. `get_all_pending_tasks` - Task summary with statistics (total, by status, by urgency, by type)
+5. `get_all_objections` - All objections from database
+6. `get_property_analytics` - Property popularity, conversion rates, performance metrics
+7. `get_popular_properties` - Most popular properties ranked
+8. `get_popular_amenities` - Most requested amenities ranked
+
+### 🔍 **Lead Lookup & Filtering** (Use for finding specific leads):
+9. `get_lead_by_id` - Get complete info for a specific lead by ID
+10. `filter_leads` - Filter by status, budget, location, university, move-in date, etc.
+11. `get_leads_by_status` - Get all leads with specific status (Won, Lost, etc.)
+12. `search_leads_by_name` - Search leads by name (partial match)
+
+### 📋 **Lead Details** (Use for comprehensive lead information):
+13. `get_lead_tasks` - All tasks for a specific lead
+14. `get_conversation_summary` - Detailed conversation summary and insights
+15. `get_lead_properties` - Properties and room types a lead is considering
+16. `get_lead_amenities` - Amenities requested by a specific lead
+17. `get_lead_timeline` - Complete timeline of events (WhatsApp, calls, emails)
+
+### 📞 **Communication Data** (Use for conversation analysis):
+18. `get_call_transcripts` - Call transcripts for leads
+19. `search_timeline_events` - Search timeline events by content
+20. `semantic_search` - Semantic search across conversations (RAG - use for themes, concerns)
+21. `search_objections` - Search specifically for objections and concerns (RAG)
+
+### 🏢 **CRM & Property Data** (Use for CRM insights and property analysis):
+22. `get_crm_data` - CRM records with lost reasons, country, property info (406 records)
+23. `get_property_details` - Detailed info about a specific property
+24. `compare_properties` - Compare multiple properties side by side
+
+## TOOL SELECTION STRATEGY:
+
+### **For Fast Pre-computed Results** (Use these first):
+- Lost reasons by country → `get_lost_reasons_analysis`
+- Room types by country → `get_room_types_by_country`
+- Task summary → `get_all_pending_tasks`
+- Overall KPIs → `get_aggregations`
+
+### **For Specific Lead Queries**:
+- Lead by ID → `get_lead_by_id`
+- Lead by name → `search_leads_by_name`
+- Filtered leads → `filter_leads`
+
+### **For Conversation Analysis**:
+- Themes/concerns → `semantic_search`
+- Specific objections → `search_objections` or `get_all_objections`
+- Timeline events → `get_lead_timeline` or `search_timeline_events`
+
+### **For Complex Analytical Queries** (Combine tools):
+- "Lost reasons by country" → `get_lost_reasons_analysis` (fastest) OR combine `filter_leads(status='Lost')` + `get_crm_data`
+- "Room types by country" → `get_room_types_by_country` (fastest) OR combine `get_crm_data` + `filter_leads`
+- "Why did leads choose property X?" → `get_property_details` + `semantic_search` + `get_lead_timeline`
+- "What concerns do high-budget leads have?" → `filter_leads(budget_min=500)` + `semantic_search` + `get_all_objections`
+
+## CRITICAL GUIDELINES:
+
+### **Data Honesty** (MOST IMPORTANT):
+- ✅ **ALWAYS be honest**: If data doesn't exist, explicitly say "I don't have this information"
+- ❌ **NEVER hallucinate**: Only use information from tool responses
+- ❌ **NEVER guess**: Don't infer data that isn't in tool responses
+- ✅ **Cite sources**: Always mention lead IDs, names, or data sources
+
+### **Response Quality**:
+- **Be Precise**: Use specific numbers, not vague statements
+- **Be Analytical**: Compare numbers, explain patterns, identify trends
 - **Be Helpful**: Translate data into actionable insights
-- **Show Confidence**: Clearly distinguish between data you have vs. data you don't have
-- **Format Well**: Use bullet points, numbers, and clear structure
+- **Format Well**: Use bullet points, numbered lists, tables when appropriate
+- **Show Confidence**: Clearly distinguish between data you have vs. don't have
 
-## When Data is NOT Available:
-❌ DON'T SAY: "The data shows..." (if it doesn't)
-❌ DON'T GUESS: Don't infer data that isn't in tool responses
-✅ DO SAY: "I don't have information about [X] in the current data"
-✅ DO SAY: "This data is not available in the system"
-✅ DO SAY: "I can see [what you DO have] but not [what you don't]"
+### **Tool Usage**:
+- **Combine tools intelligently**: Don't say "data doesn't exist" - try multiple tools
+- **Use pre-computed analyses first**: They're faster and more accurate
+- **For "why" questions**: Use both structured data AND semantic search
+- **For complex queries**: Break into steps, use multiple tools, combine results
 
-## Examples of Good Responses:
-- "Based on the data, there are 5 Won leads. Here are the details: [list with names and key info]"
-- "Laia's budget is £395 (GBP), moving in January 2026 to London for UCL"
-- "I don't have specific property names in the current data, but I can see location is London" ← HONEST
+### **Error Handling**:
+- If a tool fails, try alternative tools or approaches
+- If data is missing, explicitly state what's available vs. what's not
+- If query is ambiguous, ask for clarification or make reasonable assumptions based on context
 
-## Examples of BAD Responses (NEVER DO THIS):
-- "The property is likely XYZ..." ← NO GUESSING
-- "Based on similar leads, it might be..." ← NO INFERENCE WITHOUT DATA
-- Making up details not in tool responses ← NEVER
+## RESPONSE FORMAT:
 
-## When Analyzing:
-- Always get the full context using available tools
-- For "why" questions, look at both structured data AND conversation summaries
-- Provide specific numbers, not vague statements
-- Cite which leads you're referring to
-- If you don't have certain data, explicitly say so
+### **For Statistical Queries**:
+```
+Based on the data:
+- Total: [number]
+- Breakdown: [details]
+- Trends: [patterns]
+```
 
-Now, answer the user's question using the available tools. Be honest if data is not available."""
+### **For Lead Lists**:
+```
+Found [X] leads matching your criteria:
+1. [Lead Name] (ID: [lead_id]) - [key info]
+2. [Lead Name] (ID: [lead_id]) - [key info]
+...
+```
+
+### **For Analysis Queries**:
+```
+Analysis:
+- Key Finding 1: [with numbers and evidence]
+- Key Finding 2: [with numbers and evidence]
+- Insights: [actionable recommendations]
+```
+
+## EXAMPLES:
+
+### ✅ **Good Response**:
+"Based on the data, there are 5 Won leads out of 402 total leads (1.2% conversion rate). Here are the details:
+1. Sophie Siu (ID: 780) - Budget: £400, Location: London, Property: IQ Arcade
+2. [more leads...]"
+
+### ✅ **Good Response (No Data)**:
+"I don't have information about cancellation rates in the current data. However, I can see we have 306 Lost leads out of 402 total. Would you like me to analyze the lost reasons instead?"
+
+### ❌ **Bad Response (Hallucination)**:
+"The property is likely XYZ based on similar leads..." ← NEVER DO THIS
+
+## LIMITATIONS:
+- **No real-time data**: Data is from last ingestion
+- **No predictions**: Only historical analysis
+- **No external data**: Only data in the system
+- **RAG may be unavailable**: If RAG is disabled, semantic search won't work
+
+Now, answer the user's question using the available tools. Be honest, precise, and helpful."""
 
         prompt = ChatPromptTemplate.from_messages([
             ("system", system_message),
@@ -439,26 +765,191 @@ Now, answer the user's question using the available tools. Be honest if data is 
         
         return prompt
     
-    def query(self, question: str, chat_history: Optional[List] = None) -> Dict[str, Any]:
-        """Query the agent"""
-        try:
-            result = self.agent_executor.invoke({
-                "input": question,
-                "chat_history": chat_history or []
-            })
-            
+    def query(
+        self, 
+        question: str, 
+        chat_history: Optional[List] = None,
+        timeout: int = 60,
+        user_id: str = "anonymous",
+        session_id: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """Query the agent with comprehensive error handling, rate limiting, and audit logging"""
+        start_time = time.time()
+        audit_logger = get_audit_logger()
+        rate_limiter = get_rate_limiter(max_calls=60, period=60)
+        
+        if not question or not isinstance(question, str) or len(question.strip()) == 0:
+            audit_logger.log_query(
+                query_text=question or "",
+                query_type="invalid_query",
+                success=False,
+                error_message="Empty or invalid question",
+                user_id=user_id,
+                session_id=session_id
+            )
             return {
-                "answer": result['output'],
-                "intermediate_steps": result.get('intermediate_steps', []),
-                "success": True
+                "answer": "Please provide a valid question.",
+                "error": "Empty or invalid question",
+                "success": False
             }
         
-        except Exception as e:
+        try:
+            # Validate API key
+            if not os.getenv("OPENAI_API_KEY"):
+                audit_logger.log_query(
+                    query_text=question,
+                    query_type="api_error",
+                    success=False,
+                    error_message="Missing API key",
+                    user_id=user_id,
+                    session_id=session_id
+                )
+                return {
+                    "answer": "OpenAI API key not configured. Please set OPENAI_API_KEY in your .env file.",
+                    "error": "Missing API key",
+                    "success": False
+                }
+            
+            # Apply rate limiting
+            try:
+                rate_limiter.wait_if_needed(key="openai_api")
+            except RuntimeError as e:
+                audit_logger.log_query(
+                    query_text=question,
+                    query_type="rate_limit",
+                    success=False,
+                    error_message=str(e),
+                    user_id=user_id,
+                    session_id=session_id
+                )
+                return {
+                    "answer": f"Rate limit exceeded. {str(e)}",
+                    "error": str(e),
+                    "success": False
+                }
+            
+            # Execute query with timeout
+            try:
+                result = self.agent_executor.invoke({
+                    "input": question,
+                    "chat_history": chat_history or []
+                }, config={"timeout": timeout})
+                
+                execution_time = (time.time() - start_time) * 1000
+                
+                # Extract tools used from intermediate steps
+                tools_used = []
+                if result.get('intermediate_steps'):
+                    for step in result['intermediate_steps']:
+                        if len(step) > 0 and hasattr(step[0], 'tool'):
+                            tools_used.append(step[0].tool)
+                
+                # Log successful query
+                audit_logger.log_query(
+                    query_text=question,
+                    query_type="user_query",
+                    tools_used=tools_used,
+                    success=True,
+                    response_length=len(result.get('output', '')),
+                    execution_time_ms=execution_time,
+                    user_id=user_id,
+                    session_id=session_id
+                )
+                
+                return {
+                    "answer": result['output'],
+                    "intermediate_steps": result.get('intermediate_steps', []),
+                    "success": True
+                }
+                
+            except TimeoutError:
+                execution_time = (time.time() - start_time) * 1000
+                error_msg = f"Query timed out after {timeout} seconds"
+                audit_logger.log_query(
+                    query_text=question,
+                    query_type="timeout",
+                    success=False,
+                    error_message=error_msg,
+                    execution_time_ms=execution_time,
+                    user_id=user_id,
+                    session_id=session_id
+                )
+                return {
+                    "answer": f"Query timed out after {timeout} seconds. Please try a simpler query or contact support.",
+                    "error": error_msg,
+                    "success": False
+                }
+        
+        except ValueError as e:
+            # Input validation errors
             return {
-                "answer": f"I encountered an error: {str(e)}",
+                "answer": f"Invalid input: {str(e)}. Please check your query and try again.",
                 "error": str(e),
                 "success": False
             }
+        except RuntimeError as e:
+            # Runtime errors (database, API)
+            error_msg = str(e).lower()
+            if "database" in error_msg:
+                return {
+                    "answer": "Database error occurred. Please ensure the database is properly initialized.",
+                    "error": str(e),
+                    "success": False
+                }
+            elif "api" in error_msg or "rate limit" in error_msg:
+                return {
+                    "answer": "API error occurred. This may be due to rate limiting. Please try again in a moment.",
+                    "error": str(e),
+                    "success": False
+                }
+            else:
+                return {
+                    "answer": f"An error occurred: {str(e)}",
+                    "error": str(e),
+                    "success": False
+                }
+        except Exception as e:
+            # Unexpected errors
+            error_type = type(e).__name__
+            return {
+                "answer": f"I encountered an unexpected error ({error_type}). Please try rephrasing your question or contact support if the issue persists.",
+                "error": f"{error_type}: {str(e)}",
+                "success": False
+            }
+    
+    def _property_analytics_wrapper(self, query: str) -> str:
+        """Wrapper for property analytics"""
+        try:
+            if not query or query.strip() == "":
+                # Get all property analytics
+                results = self.property_analytics.get_property_analytics()
+            else:
+                # Filter by property name
+                results = self.property_analytics.get_property_analytics(property_name=query.strip())
+            return json.dumps(results, indent=2)
+        except Exception as e:
+            return json.dumps({"error": str(e)}, indent=2)
+    
+    def _compare_properties_wrapper(self, property_names: str) -> str:
+        """Wrapper for property comparison"""
+        try:
+            # Try JSON parsing first
+            if isinstance(property_names, str):
+                try:
+                    props = json.loads(property_names)
+                except:
+                    # Try comma-separated
+                    props = [p.strip() for p in property_names.split(',') if p.strip()]
+            else:
+                props = property_names
+            
+            if not isinstance(props, list) or len(props) < 2:
+                return json.dumps({"error": "Must provide at least 2 property names to compare"}, indent=2)
+            
+            results = self.property_analytics.compare_properties(props)
+            return json.dumps(results, indent=2)
+        except Exception as e:
+            return json.dumps({"error": str(e)}, indent=2)
     
     def format_response_with_sources(self, result: Dict) -> str:
         """Format response with source citations"""

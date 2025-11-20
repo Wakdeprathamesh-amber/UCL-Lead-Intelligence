@@ -1,0 +1,326 @@
+{
+  "id": "lead_621",
+  "mobile_number": "821043894564",
+  "email": null,
+  "timeline": [
+    {
+      "id": 15709,
+      "lead_id": 621,
+      "event_type": "call",
+      "timestamp": "2025-07-23T12:19:17.598214",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7554676",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-23T12:19:17.598214\", \"id\": 7554676, \"duration\": \"0\", \"to_number\": \"821043894564\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:34:53"
+    },
+    {
+      "id": 15710,
+      "lead_id": 621,
+      "event_type": "email",
+      "timestamp": "2025-07-23T13:57:49",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-07-23T13:57:49\", \"sender_email\": \"psy051118@gmail.com\", \"recipient_email\": \"rishabh.m@amberstudent.com\", \"subject\": \"Re: Your Enquiry In London!\", \"message\": \"Hello Rishabh,\\\\n\\\\nThank you for the notice. I am currently waiting to get full offer from ucl and it will take around 1 week to ensure. Then, i will be able to confirm if i will be staying at this accommodation or not. May I ask you to wait for a bit till i get the result?\\\\n\\\\nYours, Seoyeon Park\\\\n\\\\nGet [Outlook for iOS]()\\\\n---------------------------------------------------------------\\\\n\\\\nFrom: rishabh.m@amberstudent.com <rishabh.m@amberstudent.com>\\\\nSent: Wednesday, July 23, 2025 9:19:06 PM\\\\nTo: psy051118@gmail.com <psy051118@gmail.com>\\\\nSubject: Your Enquiry In London!\\\\n\\\\nHi Seoyeon,\\\\n\\\\nHope you're doing well!\\\\n\\\\nI'm Rishabh, your Booking Manager at Amber. Thanks for choosing Amber for your student accommodation in London - excited to assist you!\\\\n\\\\nCan you please confirm you whatsapp details so that I can reach to you ?\\\\n\\\\nThanks again for choosing Amber!\\\\n\\\\n[amberstudent.com]\\\\n\\\\nRishabh M\\\\n\\\\nSenior Operation Associate\\\\n\\\\nPhone: [+447460047271]()\\\\n\\\\nWhatsapp: [+447460047271]()\\\\n\\\\nEmail: [rishabh.m@amberstudent.com]()\\\\n\\\\nWebsite: [amberstudent.com]()\", \"snippet\": \"Hello Rishabh, Thank you for the notice. I am currently waiting to get full offer from ucl and it will take around 1 week to ensure. Then, i will be able to confirm if i will be staying at this\", \"direction\": \"inbound\", \"sender_type\": \"student\", \"agent_email\": \"rishabh.m@amberstudent.com\", \"student_email\": \"psy051118@gmail.com\"}",
+      "created_at": "2025-11-18 13:34:53"
+    },
+    {
+      "id": 15711,
+      "lead_id": 621,
+      "event_type": "call",
+      "timestamp": "2025-07-24T11:50:27.830411",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7560479",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-24T11:50:27.830411\", \"id\": 7560479, \"duration\": \"11\", \"to_number\": \"821043894564\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/768be89f-1bcf-4624-9c58-526087e2a252.wav\"}",
+      "created_at": "2025-11-18 13:34:53"
+    },
+    {
+      "id": 15712,
+      "lead_id": 621,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3087164, \"user_name\": \"Seoyeon Park\", \"email\": \"psy051118@gmail.com\", \"phone\": \"821043894564\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2026-07-18\", \"budget\": 249, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 1904093}",
+      "created_at": "2025-11-18 13:34:53"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 391,
+    "lead_id": 621,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Seoyeon Park\", \"mobile\": [\"+821043894564\"], \"email\": [\"psy051118@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 249, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"pending\", \"waiting to get full offer from UCL, expected in around 1 week\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Wait for Seoyeon Park to receive full offer from UCL and confirm accommodation stay decision.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-07-23 stating waiting for UCL offer in around 1 week\"}, {\"type\": \"communication\", \"description\": \"Confirm student's WhatsApp contact details to facilitate further communication.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent email on 2025-07-23 requesting WhatsApp details\"}], \"last_agent_response\": \"Agent requested student's WhatsApp details to reach out and assist further with accommodation booking.\", \"suggested_next_step\": \"Agent to follow up with student after one week to check if UCL offer has been received and if student can confirm accommodation booking.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Seoyeon Park\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (psy051118@gmail.com), Phone (821043894564), WhatsApp requested but not confirmed\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3249 per week\", \"move_in_date\": \"Not explicitly mentioned; inferred before 2025-09-13 lead info\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Awaiting university full offer confirmation before confirming accommodation booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 (2 calls, 1 email exchange, 1 lead info update)\", \"primary_channel\": \"Phone calls and email\", \"last_contact\": \"2025-09-13 (lead info recorded)\", \"response_time\": \"Student responded within hours on 2025-07-23 email\", \"key_moments\": \"Student requested to wait for UCL full offer (~1 week) before confirming accommodation; 11-minute call on 2025-07-24; lead info updated on 2025-09-13 confirming lease details\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1904093 (specific property not named)\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Wait for student to receive full offer from UCL\", \"pending_items\": \"Student confirmation on accommodation booking after university offer\", \"follow_up_required\": \"Agent to follow up after approximately one week from 2025-07-23 or upon student update\", \"timeline\": \"Student expected to confirm accommodation decision about one week after 2025-07-23; lease duration until 2026-07-18\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear, requesting patience while awaiting university offer\", \"urgency_level\": \"Moderate; dependent on university offer timing\", \"complexity\": \"Simple; waiting on external confirmation before proceeding\", \"special_considerations\": \"Student is waiting for official university offer before confirming accommodation; budget and lease duration are known\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Seoyeon Park\", \"mobile\": [\"+821043894564\"], \"email\": [\"psy051118@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": null, \"budget\": {\"max\": 249, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"pending\", \"waiting to get full offer from UCL, expected in around 1 week\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Wait for Seoyeon Park to receive full offer from UCL and confirm accommodation stay decision.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student email on 2025-07-23 stating waiting for UCL offer in around 1 week\"}, {\"type\": \"communication\", \"description\": \"Confirm student's WhatsApp contact details to facilitate further communication.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent email on 2025-07-23 requesting WhatsApp details\"}], \"last_agent_response\": \"Agent requested student's WhatsApp details to reach out and assist further with accommodation booking.\", \"suggested_next_step\": \"Agent to follow up with student after one week to check if UCL offer has been received and if student can confirm accommodation booking.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Seoyeon Park\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (psy051118@gmail.com), Phone (821043894564), WhatsApp requested but not confirmed\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London (UCL)\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3249 per week\", \"move_in_date\": \"Not explicitly mentioned; inferred before 2025-09-13 lead info\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Awaiting university full offer confirmation before confirming accommodation booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 (2 calls, 1 email exchange, 1 lead info update)\", \"primary_channel\": \"Phone calls and email\", \"last_contact\": \"2025-09-13 (lead info recorded)\", \"response_time\": \"Student responded within hours on 2025-07-23 email\", \"key_moments\": \"Student requested to wait for UCL full offer (~1 week) before confirming accommodation; 11-minute call on 2025-07-24; lead info updated on 2025-09-13 confirming lease details\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1904093 (specific property not named)\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Wait for student to receive full offer from UCL\", \"pending_items\": \"Student confirmation on accommodation booking after university offer\", \"follow_up_required\": \"Agent to follow up after approximately one week from 2025-07-23 or upon student update\", \"timeline\": \"Student expected to confirm accommodation decision about one week after 2025-07-23; lease duration until 2026-07-18\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear, requesting patience while awaiting university offer\", \"urgency_level\": \"Moderate; dependent on university offer timing\", \"complexity\": \"Simple; waiting on external confirmation before proceeding\", \"special_considerations\": \"Student is waiting for official university offer before confirming accommodation; budget and lease duration are known\"}}}}}",
+    "created_at": "2025-11-18 13:35:03",
+    "updated_at": "2025-11-18T19:05:03.553585",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Seoyeon Park",
+        "mobile": [
+          "+821043894564"
+        ],
+        "email": [
+          "psy051118@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": null,
+        "budget": {
+          "max": 249,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "pending",
+          "waiting to get full offer from UCL, expected in around 1 week"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Wait for Seoyeon Park to receive full offer from UCL and confirm accommodation stay decision.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student email on 2025-07-23 stating waiting for UCL offer in around 1 week"
+        },
+        {
+          "type": "communication",
+          "description": "Confirm student's WhatsApp contact details to facilitate further communication.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent email on 2025-07-23 requesting WhatsApp details"
+        }
+      ],
+      "last_agent_response": "Agent requested student's WhatsApp details to reach out and assist further with accommodation booking.",
+      "suggested_next_step": "Agent to follow up with student after one week to check if UCL offer has been received and if student can confirm accommodation booking."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Seoyeon Park",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (psy051118@gmail.com), Phone (821043894564), WhatsApp requested but not confirmed",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London (UCL)",
+            "room_type": "Not mentioned",
+            "budget_range": "£249 per week",
+            "move_in_date": "Not explicitly mentioned; inferred before 2025-09-13 lead info",
+            "lease_duration": "44 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Awaiting university full offer confirmation before confirming accommodation booking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "4 (2 calls, 1 email exchange, 1 lead info update)",
+            "primary_channel": "Phone calls and email",
+            "last_contact": "2025-09-13 (lead info recorded)",
+            "response_time": "Student responded within hours on 2025-07-23 email",
+            "key_moments": "Student requested to wait for UCL full offer (~1 week) before confirming accommodation; 11-minute call on 2025-07-24; lead info updated on 2025-09-13 confirming lease details"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1904093 (specific property not named)",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Wait for student to receive full offer from UCL",
+            "pending_items": "Student confirmation on accommodation booking after university offer",
+            "follow_up_required": "Agent to follow up after approximately one week from 2025-07-23 or upon student update",
+            "timeline": "Student expected to confirm accommodation decision about one week after 2025-07-23; lease duration until 2026-07-18"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and clear, requesting patience while awaiting university offer",
+            "urgency_level": "Moderate; dependent on university offer timing",
+            "complexity": "Simple; waiting on external confirmation before proceeding",
+            "special_considerations": "Student is waiting for official university offer before confirming accommodation; budget and lease duration are known"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Seoyeon Park",
+          "mobile": [
+            "+821043894564"
+          ],
+          "email": [
+            "psy051118@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": null,
+          "budget": {
+            "max": 249,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "pending",
+            "waiting to get full offer from UCL, expected in around 1 week"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Wait for Seoyeon Park to receive full offer from UCL and confirm accommodation stay decision.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student email on 2025-07-23 stating waiting for UCL offer in around 1 week"
+          },
+          {
+            "type": "communication",
+            "description": "Confirm student's WhatsApp contact details to facilitate further communication.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent email on 2025-07-23 requesting WhatsApp details"
+          }
+        ],
+        "last_agent_response": "Agent requested student's WhatsApp details to reach out and assist further with accommodation booking.",
+        "suggested_next_step": "Agent to follow up with student after one week to check if UCL offer has been received and if student can confirm accommodation booking."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Seoyeon Park",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (psy051118@gmail.com), Phone (821043894564), WhatsApp requested but not confirmed",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London (UCL)",
+              "room_type": "Not mentioned",
+              "budget_range": "£249 per week",
+              "move_in_date": "Not explicitly mentioned; inferred before 2025-09-13 lead info",
+              "lease_duration": "44 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Awaiting university full offer confirmation before confirming accommodation booking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "4 (2 calls, 1 email exchange, 1 lead info update)",
+              "primary_channel": "Phone calls and email",
+              "last_contact": "2025-09-13 (lead info recorded)",
+              "response_time": "Student responded within hours on 2025-07-23 email",
+              "key_moments": "Student requested to wait for UCL full offer (~1 week) before confirming accommodation; 11-minute call on 2025-07-24; lead info updated on 2025-09-13 confirming lease details"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1904093 (specific property not named)",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Wait for student to receive full offer from UCL",
+              "pending_items": "Student confirmation on accommodation booking after university offer",
+              "follow_up_required": "Agent to follow up after approximately one week from 2025-07-23 or upon student update",
+              "timeline": "Student expected to confirm accommodation decision about one week after 2025-07-23; lease duration until 2026-07-18"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and clear, requesting patience while awaiting university offer",
+              "urgency_level": "Moderate; dependent on university offer timing",
+              "complexity": "Simple; waiting on external confirmation before proceeding",
+              "special_considerations": "Student is waiting for official university offer before confirming accommodation; budget and lease duration are known"
+            }
+          }
+        }
+      }
+    }
+  }
+}

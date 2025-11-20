@@ -1,0 +1,297 @@
+{
+  "id": "lead_171",
+  "mobile_number": "56977593918",
+  "email": null,
+  "timeline": [
+    {
+      "id": 2511,
+      "lead_id": 171,
+      "event_type": "call",
+      "timestamp": "2025-07-25T10:20:15.434218",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7566305",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-25T10:20:15.434218\", \"id\": 7566305, \"duration\": \"0\", \"to_number\": \"56977593918\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:22:36"
+    },
+    {
+      "id": 2512,
+      "lead_id": 171,
+      "event_type": "call",
+      "timestamp": "2025-07-28T12:04:06.978659",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7579492",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-28T12:04:06.978659\", \"id\": 7579492, \"duration\": \"0\", \"to_number\": \"56977593918\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:22:36"
+    },
+    {
+      "id": 2513,
+      "lead_id": 171,
+      "event_type": "call",
+      "timestamp": "2025-07-31T09:44:51.242577",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7598903",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-31T09:44:51.242577\", \"id\": 7598903, \"duration\": \"0\", \"to_number\": \"56977593918\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:22:36"
+    },
+    {
+      "id": 2514,
+      "lead_id": 171,
+      "event_type": "call",
+      "timestamp": "2025-08-06T09:24:45.547429",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7632130",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-06T09:24:45.547429\", \"id\": 7632130, \"duration\": \"0\", \"to_number\": \"56977593918\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:22:36"
+    },
+    {
+      "id": 2515,
+      "lead_id": 171,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3086151, \"user_name\": \"Renata Garibaldi\", \"email\": \"renatagaribaldib@gmail.com\", \"phone\": \"56977593918\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-05\", \"budget\": 477, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1525308}",
+      "created_at": "2025-11-18 10:22:36"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 69,
+    "lead_id": 171,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Renata Garibaldi\", \"mobile\": [\"+56977593918\"], \"email\": [\"renatagaribaldib@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 477, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student phone number without successful contact.\", \"suggested_next_step\": \"Agent should continue follow-up communication attempts with the student to establish contact and discuss accommodation details.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Renata Garibaldi\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to +56977593918; email renatagaribaldib@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3477 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with lead information captured\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 phone call attempts with zero duration, 1 lead info record\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-06\", \"response_time\": \"No answered calls recorded; no response time available\", \"key_moments\": \"Lead information captured on 2025-09-13 with detailed preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1525308 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish contact with student due to unanswered calls\", \"pending_items\": \"Response from student to calls and email\", \"follow_up_required\": \"Follow up on lead information and confirm booking details\", \"timeline\": \"Move-out date noted as 2026-09-05; lease duration 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded; no tone available\", \"urgency_level\": \"Unknown due to lack of response\", \"complexity\": \"Simple lead with basic information; no complications noted\", \"special_considerations\": \"Multiple unanswered calls suggest difficulty reaching student\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Renata Garibaldi\", \"mobile\": [\"+56977593918\"], \"email\": [\"renatagaribaldib@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 477, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student phone number without successful contact.\", \"suggested_next_step\": \"Agent should continue follow-up communication attempts with the student to establish contact and discuss accommodation details.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Renata Garibaldi\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to +56977593918; email renatagaribaldib@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3477 weekly\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with lead information captured\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 phone call attempts with zero duration, 1 lead info record\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-06\", \"response_time\": \"No answered calls recorded; no response time available\", \"key_moments\": \"Lead information captured on 2025-09-13 with detailed preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1525308 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish contact with student due to unanswered calls\", \"pending_items\": \"Response from student to calls and email\", \"follow_up_required\": \"Follow up on lead information and confirm booking details\", \"timeline\": \"Move-out date noted as 2026-09-05; lease duration 51 weeks\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded; no tone available\", \"urgency_level\": \"Unknown due to lack of response\", \"complexity\": \"Simple lead with basic information; no complications noted\", \"special_considerations\": \"Multiple unanswered calls suggest difficulty reaching student\"}}}}}",
+    "created_at": "2025-11-18 10:22:44",
+    "updated_at": "2025-11-18T15:52:44.831441",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Renata Garibaldi",
+        "mobile": [
+          "+56977593918"
+        ],
+        "email": [
+          "renatagaribaldib@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 477,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Multiple calls were made to the student phone number without successful contact.",
+      "suggested_next_step": "Agent should continue follow-up communication attempts with the student to establish contact and discuss accommodation details."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Renata Garibaldi",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls to +56977593918; email renatagaribaldib@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£477 weekly",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry with lead information captured",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "4 phone call attempts with zero duration, 1 lead info record",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-06",
+            "response_time": "No answered calls recorded; no response time available",
+            "key_moments": "Lead information captured on 2025-09-13 with detailed preferences"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1525308 associated with lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Establish contact with student due to unanswered calls",
+            "pending_items": "Response from student to calls and email",
+            "follow_up_required": "Follow up on lead information and confirm booking details",
+            "timeline": "Move-out date noted as 2026-09-05; lease duration 51 weeks"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication recorded; no tone available",
+            "urgency_level": "Unknown due to lack of response",
+            "complexity": "Simple lead with basic information; no complications noted",
+            "special_considerations": "Multiple unanswered calls suggest difficulty reaching student"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Renata Garibaldi",
+          "mobile": [
+            "+56977593918"
+          ],
+          "email": [
+            "renatagaribaldib@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 477,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Multiple calls were made to the student phone number without successful contact.",
+        "suggested_next_step": "Agent should continue follow-up communication attempts with the student to establish contact and discuss accommodation details."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Renata Garibaldi",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls to +56977593918; email renatagaribaldib@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£477 weekly",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry with lead information captured",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "4 phone call attempts with zero duration, 1 lead info record",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-06",
+              "response_time": "No answered calls recorded; no response time available",
+              "key_moments": "Lead information captured on 2025-09-13 with detailed preferences"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1525308 associated with lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Establish contact with student due to unanswered calls",
+              "pending_items": "Response from student to calls and email",
+              "follow_up_required": "Follow up on lead information and confirm booking details",
+              "timeline": "Move-out date noted as 2026-09-05; lease duration 51 weeks"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication recorded; no tone available",
+              "urgency_level": "Unknown due to lack of response",
+              "complexity": "Simple lead with basic information; no complications noted",
+              "special_considerations": "Multiple unanswered calls suggest difficulty reaching student"
+            }
+          }
+        }
+      }
+    }
+  }
+}

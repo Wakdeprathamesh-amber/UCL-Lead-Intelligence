@@ -1,0 +1,421 @@
+{
+  "id": "lead_61",
+  "mobile_number": "8618500909382",
+  "email": null,
+  "timeline": [
+    {
+      "id": 1200,
+      "lead_id": 61,
+      "event_type": "lead_info",
+      "timestamp": "2025-07-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-07-09T00:00:00\", \"lead_id\": 3195822, \"user_name\": \"Shiyao Liu\", \"email\": \"moonight_wolffy@outlook.com\", \"phone\": \"8618500909382\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-29\", \"budget\": 278, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3943, \"inventory_id\": 1077053}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1201,
+      "lead_id": 61,
+      "event_type": "call",
+      "timestamp": "2025-09-01T06:06:51.387102",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7793453",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T06:06:51.387102\", \"id\": 7793453, \"duration\": \"27\", \"to_number\": \"8618500909382\", \"from_number\": \"447360546291\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/5f75615d-c70f-4a65-899f-b420dff87be7.wav\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1202,
+      "lead_id": 61,
+      "event_type": "email",
+      "timestamp": "2025-09-01T06:08:50",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-01T06:08:50\", \"sender_email\": \"qingyao.w@amberstudent.com\", \"recipient_email\": \"moonight_wolffy@outlook.com\", \"subject\": \"Amberstudent\", \"message\": \"\\u54c8\\u55bd\\u540c\\u5b66\\u4f60\\u597d\\uff1a \\u6211\\u662famberstudent\\u7684\\u79df\\u623f\\u987e\\u95eevivi,\\u770b\\u540c\\u5b66\\u5728\\u6211\\u4eec\\u7f51\\u7ad9\\u7533\\u8bf7\\u4e86london\\u7684London Nest Lady Margaret, London\\u5b66\\u751f\\u516c\\u5bd3\\uff0c\\u9700\\u8981\\u6dfb\\u52a0\\u4e0b\\u6211\\u8fd9\\u8fb9\\u4eba\\u5de5\\u786e\\u8ba4\\u4fe1\\u606f\\u9012\\u4ea4\\u7533\\u8bf7\\u54e6\\uff0c\\u53ef\\u4ee5\\u626b\\u7801\\u52a0\\u6211\\u4f01\\u4e1a\\u5fae\\u4fe1\\\\n[inline_image]\", \"snippet\": \"\\u54c8\\u55bd\\u540c\\u5b66\\u4f60\\u597d\\uff1a \\u6211\\u662famberstudent\\u7684\\u79df\\u623f\\u987e\\u95eevivi,\\u770b\\u540c\\u5b66\\u5728\\u6211\\u4eec\\u7f51\\u7ad9\\u7533\\u8bf7\\u4e86london\\u7684London Nest Lady Margaret, London\\u5b66\\u751f\\u516c\\u5bd3\\uff0c\\u9700\\u8981\\u6dfb\\u52a0\\u4e0b\\u6211\\u8fd9\\u8fb9\\u4eba\\u5de5\\u786e\\u8ba4\\u4fe1\\u606f\\u9012\\u4ea4\\u7533\\u8bf7\\u54e6\\uff0c\\u53ef\\u4ee5\\u626b\\u7801\\u52a0\\u6211\\u4f01\\u4e1a\\u5fae\\u4fe1\", \"direction\": \"outbound\", \"sender_type\": \"agent\", \"agent_email\": \"qingyao.w@amberstudent.com\", \"student_email\": \"moonight_wolffy@outlook.com\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1203,
+      "lead_id": 61,
+      "event_type": "call",
+      "timestamp": "2025-09-01T08:59:15.158407",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7794337",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T08:59:15.158407\", \"id\": 7794337, \"duration\": \"8\", \"to_number\": \"8618500909382\", \"from_number\": \"447360546291\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ca309c59-6402-4c0c-9064-2b86e5c00ebc.wav\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1204,
+      "lead_id": 61,
+      "event_type": "call",
+      "timestamp": "2025-09-02T03:01:07.598113",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7799892",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-02T03:01:07.598113\", \"id\": 7799892, \"duration\": \"12\", \"to_number\": \"8618500909382\", \"from_number\": \"447360546291\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/c4cd13d5-e00b-4eb1-937f-cb2f55d9495f.wav\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1205,
+      "lead_id": 61,
+      "event_type": "email",
+      "timestamp": "2025-09-02T08:39:14",
+      "content": "",
+      "source": "email",
+      "event_id": null,
+      "raw_data": "{\"type\": \"email\", \"timestamp\": \"2025-09-02T08:39:14\", \"sender_email\": \"tiffany@londonnest.com\", \"recipient_email\": \"moonight_wolffy@outlook.com\", \"subject\": \"London Nest \\u5b66\\u751f\\u516c\\u5bd3\\u9884\\u5b9a\\u91d1\\u989d\\u53ca\\u652f\\u4ed8\\u65f6\\u95f4\\u786e\\u8ba4\", \"message\": \"\\u540c\\u5b66\\u60a8\\u597d\\uff01\\\\n\\\\n\\u6211\\u4eec\\u5df2\\u7ecf\\u6536\\u5230\\u4e86\\u60a8\\u7684\\u9884\\u5b9a\\u7533\\u8bf7\\uff0c\\u5728\\u8fd9\\u91cc\\u8ddf\\u60a8\\u786e\\u8ba4\\u4e00\\u4e0b\\u60a8\\u7684\\u9884\\u5b9a\\u548c\\u652f\\u4ed8\\u7ec6\\u8282\\u3002\\\\n\\\\n\\u516c\\u5bd3\\uff1aLady Margaret\\\\n\\\\n\\u623f\\u578b\\uff1aDouble Ensuite\\\\n\\\\n\\u79df\\u671f\\uff1a51\\u5468\\\\n\\\\n\\u5165\\u4f4f\\u65f6\\u95f4\\uff1a2025\\u5e749\\u67087\\u65e5\\u52302026\\u5e748\\u670830\\u65e5\\\\n\\\\n\\u4ed8\\u6b3e\\uff1a\\u5206\\u671f\\\\n\\\\n\\u5355\\u5468\\u4ef7\\u683c\\uff1a313 \\u82f1\\u9551\\\\n\\\\n\\u652f\\u4ed8\\u603b\\u989d = 313 \\u82f1\\u9551 x 51 \\u5468 = 15963 \\u82f1\\u9551\\\\n\\\\n\\u6bcf\\u4e00\\u671f\\u5206\\u671f = 15963 \\u82f1\\u9551 / 4 \\u671f\\u5206\\u671f = 3990.75 \\u82f1\\u9551\\\\n\\\\n\\u6536\\u5230\\u5408\\u540coffer\\u540e\\uff0c2\\u65e5\\u5185\\u652f\\u4ed8\\u7b2c\\u4e00\\u671f\\u79df\\u91d1 3990.75 \\u82f1\\u9551\\\\n\\\\n\\u7b2c\\u4e8c\\u671f\\u5206\\u671f\\uff1a2025\\u5e7411\\u67081\\u65e5 3990.75 \\u82f1\\u9551\\\\n\\\\n\\u7b2c\\u4e09\\u671f\\u5206\\u671f\\uff1a2026\\u5e741\\u67081\\u65e5 3990.75 \\u82f1\\u9551\\\\n\\\\n\\u7b2c\\u56db\\u671f\\u5206\\u671f\\uff1a2026\\u5e743\\u67081\\u65e5 3990.75 \\u82f1\\u9551\\\\n\\\\n\\u5982\\u679c\\u4ee5\\u4e0a\\u4fe1\\u606f\\u90fd\\u6ca1\\u6709\\u95ee\\u9898\\uff0c\\u800c\\u4e14\\u60a8\\u4e5f\\u540c\\u610f\\u6309\\u7167\\u4ee5\\u4e0a\\u4ed8\\u6b3e\\u65f6\\u95f4\\u652f\\u4ed8\\u76f8\\u5e94\\u6b3e\\u9879\\uff0c\\u6211\\u4f1a\\u8ba9\\u9500\\u552e\\u7ecf\\u7406\\u5c3d\\u5feb\\u7ed9\\u60a8\\u51fa\\u5408\\u540c\\u548c\\u4ed8\\u6b3e\\u94fe\\u63a5\\u3002\\\\n\\\\n\\u6ce8\\u610f\\uff1a\\u8fd9\\u4e2a\\u90ae\\u4ef6\\u7684\\u76ee\\u7684\\u4ec5\\u4ec5\\u662f\\u8ddf\\u60a8\\u786e\\u8ba4\\u4ee5\\u4e0a\\u7ec6\\u8282\\uff0c\\u7279\\u522b\\u662f\\u652f\\u4ed8\\u989d\\u5ea6\\u4ee5\\u53ca\\u5206\\u671f\\u65f6\\u95f4\\u5b89\\u6392\\u3002\\u60a8\\u7684\\u56de\\u590d\\u4e0d\\u4f1a\\u76f4\\u63a5\\u5f71\\u54cd\\u5230\\u60a8\\u6700\\u7ec8\\u662f\\u5426\\u5728\\u5408\\u540c\\u4e0a\\u7b7e\\u5b57\\u7684\\u51b3\\u5b9a\\u3002\\u53ea\\u8981\\u60a8\\u4e0d\\u5728\\u5408\\u540c\\u4e0a\\u7b7e\\u5b57\\uff0c\\u4e0d\\u4ed8\\u6b3e\\uff0c\\u5408\\u540c\\u5c31\\u4e0d\\u4f1a\\u751f\\u6548\\u3002\\\\n\\\\n\\u975e\\u5e38\\u611f\\u8c22\\uff01\\\\n\\\\nTiffany Zhang\\\\n\\\\nLondon Nest \\u4e2d\\u56fd\\u533a\\u8d1f\\u8d23\\u4eba\", \"snippet\": \"\\u540c\\u5b66\\u60a8\\u597d\\uff01 \\u6211\\u4eec\\u5df2\\u7ecf\\u6536\\u5230\\u4e86\\u60a8\\u7684\\u9884\\u5b9a\\u7533\\u8bf7\\uff0c\\u5728\\u8fd9\\u91cc\\u8ddf\\u60a8\\u786e\\u8ba4\\u4e00\\u4e0b\\u60a8\\u7684\\u9884\\u5b9a\\u548c\\u652f\\u4ed8\\u7ec6\\u8282\\u3002 \\u516c\\u5bd3\\uff1aLady Margaret \\u623f\\u578b\\uff1aDouble Ensuite \\u79df\\u671f\\uff1a51\\u5468 \\u5165\\u4f4f\\u65f6\\u95f4\\uff1a2025\\u5e749\\u67087\\u65e5\\u52302026\\u5e748\\u670830\\u65e5 \\u4ed8\\u6b3e\\uff1a\\u5206\\u671f \\u5355\\u5468\\u4ef7\\u683c\\uff1a313 \\u82f1\\u9551 \\u652f\\u4ed8\\u603b\\u989d = 313 \\u82f1\\u9551 x 51 \\u5468 = 15963 \\u82f1\\u9551 \\u6bcf\\u4e00\\u671f\\u5206\\u671f = 15963 \\u82f1\\u9551 / 4 \\u671f\\u5206\\u671f = 3990.75 \\u82f1\\u9551 \\u6536\\u5230\\u5408\\u540c\", \"sender_type\": \"agent\", \"agent_email\": \"tiffany@londonnest.com\", \"student_email\": \"moonight_wolffy@outlook.com\"}",
+      "created_at": "2025-11-18 10:01:45"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 21,
+      "lead_id": 61,
+      "call_id": "7793453",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/5f75615d-c70f-4a65-899f-b420dff87be7.wav",
+      "transcript_text": "Speaker A: 通话 已 转至 语音 留言, 你 尝试 联系 的 用户 无法 接听, 请 在 提示音 后 录制 留言, 录音 完成 后 挂断 即可。\nSpeaker B: 同学 你好, 我 是 AmberStudent 的 租房 顾问 薇 薇, 然后 这边 看 同学 有 在 我们 网站 申请 伦敦 的 学生公寓, 可以 添加 我 的 企业 微信 咨询, 我 有 给 你 发邮件 可以 看 一下。",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:02:49"
+    },
+    {
+      "id": 23,
+      "lead_id": 61,
+      "call_id": "7794337",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/ca309c59-6402-4c0c-9064-2b86e5c00ebc.wav",
+      "transcript_text": "Speaker A: 至 语音 留言 你 尝试 联系 的 用户 无法 接听 请 在 提示音 后 录制 留言 录音 完成.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:03:44"
+    },
+    {
+      "id": 30,
+      "lead_id": 61,
+      "call_id": "7799892",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/c4cd13d5-e00b-4eb1-937f-cb2f55d9495f.wav",
+      "transcript_text": "Speaker A: 转 至 语音 留言 你 尝试 联系 的 用户 无法 接听 请 在 提示音 后 录制 留言 录音 完成 后 挂断 即可.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:07:01"
+    }
+  ],
+  "summary": {
+    "id": 29,
+    "lead_id": 61,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Shiyao Liu\", \"mobile\": [\"+8618500909382\"], \"email\": [\"moonight_wolffy@outlook.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"Double Ensuite\", \"budget\": {\"max\": 278, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": \"2025-09-07\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"London Nest Lady Margaret\", \"Lady Margaret\"], \"rooms_considered\": [\"Double Ensuite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Student to add agent Vivi on corporate WeChat to confirm information and proceed with application submission.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from agent Vivi on 2025-09-01 about adding WeChat for application confirmation\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student via call or message to confirm receipt of WeChat contact request and application details.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple missed call attempts on 2025-09-01 and 2025-09-02\"}, {\"type\": \"payment\", \"description\": \"Student to confirm agreement with payment schedule and amounts for London Nest Lady Margaret booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from Tiffany Zhang on 2025-09-02 confirming payment details and requesting student confirmation\"}, {\"type\": \"booking_action\", \"description\": \"Agent to arrange for sales manager to issue contract and payment link once student confirms payment schedule and amounts.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email from Tiffany Zhang on 2025-09-02 about issuing contract after student confirmation\"}], \"last_agent_response\": \"Agent Tiffany Zhang sent an email on 2025-09-02 confirming booking details, payment schedule, and requesting student confirmation to proceed with contract issuance.\", \"suggested_next_step\": \"Student should add agent Vivi on corporate WeChat to confirm application details and respond to payment schedule confirmation email.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Shiyao Liu\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (moonight_wolffy@outlook.com), Phone (+86 18500909382)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Double Ensuite\", \"budget_range\": \"278 pounds weekly (initial), confirmed 313 pounds weekly\", \"move_in_date\": \"2025-09-07\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Payment pending - contract offer to be issued upon confirmation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not paid yet; payment to be made in 4 installments after contract offer\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 (3 calls with voicemail, 2 agent outbound emails, 1 voicemail message)\", \"primary_channel\": \"Phone calls and emails\", \"last_contact\": \"2025-09-02 via email from agent Tiffany Zhang\", \"response_time\": \"No direct student responses recorded; multiple voicemails left\", \"key_moments\": \"Initial lead on 2025-07-09; multiple call attempts with voicemail on 2025-09-01 and 2025-09-02; confirmation email with payment schedule sent on 2025-09-02\"}, \"properties_discussed\": {\"properties_mentioned\": \"London Nest Lady Margaret\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Preference for Double Ensuite room type\", \"offers_made\": \"Payment plan offer: total \\u00a315,963 over 51 weeks, divided into 4 installments of \\u00a33,990.75 each\"}, \"next_steps\": {\"immediate_actions\": \"Student to confirm agreement with payment schedule to trigger contract offer and payment link\", \"pending_items\": \"Student confirmation and payment of first installment within 2 days of contract offer\", \"follow_up_required\": \"Agent to follow up if no student response to payment confirmation email\", \"timeline\": \"First payment due within 2 days after contract offer; subsequent payments on 2025-11-01, 2026-01-01, and 2026-03-01\"}, \"agent_notes\": {\"student_tone\": \"No direct responses recorded; student has not answered calls\", \"urgency_level\": \"Moderate - lease starts soon (early September 2025)\", \"complexity\": \"Standard booking with installment payment plan\", \"special_considerations\": \"Multiple unsuccessful call attempts; communication primarily via email; student needs to add agent on corporate WeChat for further info\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Shiyao Liu\", \"mobile\": [\"+8618500909382\"], \"email\": [\"moonight_wolffy@outlook.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"Double Ensuite\", \"budget\": {\"max\": 278, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": \"2025-09-07\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"London Nest Lady Margaret\", \"Lady Margaret\"], \"rooms_considered\": [\"Double Ensuite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Student to add agent Vivi on corporate WeChat to confirm information and proceed with application submission.\", \"due\": \"asap\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from agent Vivi on 2025-09-01 about adding WeChat for application confirmation\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with student via call or message to confirm receipt of WeChat contact request and application details.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple missed call attempts on 2025-09-01 and 2025-09-02\"}, {\"type\": \"payment\", \"description\": \"Student to confirm agreement with payment schedule and amounts for London Nest Lady Margaret booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Email from Tiffany Zhang on 2025-09-02 confirming payment details and requesting student confirmation\"}, {\"type\": \"booking_action\", \"description\": \"Agent to arrange for sales manager to issue contract and payment link once student confirms payment schedule and amounts.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Email from Tiffany Zhang on 2025-09-02 about issuing contract after student confirmation\"}], \"last_agent_response\": \"Agent Tiffany Zhang sent an email on 2025-09-02 confirming booking details, payment schedule, and requesting student confirmation to proceed with contract issuance.\", \"suggested_next_step\": \"Student should add agent Vivi on corporate WeChat to confirm application details and respond to payment schedule confirmation email.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Shiyao Liu\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (moonight_wolffy@outlook.com), Phone (+86 18500909382)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Double Ensuite\", \"budget_range\": \"278 pounds weekly (initial), confirmed 313 pounds weekly\", \"move_in_date\": \"2025-09-07\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Payment pending - contract offer to be issued upon confirmation\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not paid yet; payment to be made in 4 installments after contract offer\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 (3 calls with voicemail, 2 agent outbound emails, 1 voicemail message)\", \"primary_channel\": \"Phone calls and emails\", \"last_contact\": \"2025-09-02 via email from agent Tiffany Zhang\", \"response_time\": \"No direct student responses recorded; multiple voicemails left\", \"key_moments\": \"Initial lead on 2025-07-09; multiple call attempts with voicemail on 2025-09-01 and 2025-09-02; confirmation email with payment schedule sent on 2025-09-02\"}, \"properties_discussed\": {\"properties_mentioned\": \"London Nest Lady Margaret\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Preference for Double Ensuite room type\", \"offers_made\": \"Payment plan offer: total \\u00a315,963 over 51 weeks, divided into 4 installments of \\u00a33,990.75 each\"}, \"next_steps\": {\"immediate_actions\": \"Student to confirm agreement with payment schedule to trigger contract offer and payment link\", \"pending_items\": \"Student confirmation and payment of first installment within 2 days of contract offer\", \"follow_up_required\": \"Agent to follow up if no student response to payment confirmation email\", \"timeline\": \"First payment due within 2 days after contract offer; subsequent payments on 2025-11-01, 2026-01-01, and 2026-03-01\"}, \"agent_notes\": {\"student_tone\": \"No direct responses recorded; student has not answered calls\", \"urgency_level\": \"Moderate - lease starts soon (early September 2025)\", \"complexity\": \"Standard booking with installment payment plan\", \"special_considerations\": \"Multiple unsuccessful call attempts; communication primarily via email; student needs to add agent on corporate WeChat for further info\"}}}}}",
+    "created_at": "2025-11-18 10:07:09",
+    "updated_at": "2025-11-18T15:37:09.711224",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Shiyao Liu",
+        "mobile": [
+          "+8618500909382"
+        ],
+        "email": [
+          "moonight_wolffy@outlook.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "Double Ensuite",
+        "budget": {
+          "max": 278,
+          "currency": "GBP"
+        },
+        "bathroom_type": "private_bathroom",
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": "2025-09-07",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": "pbsa",
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": "installment",
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "London Nest Lady Margaret",
+          "Lady Margaret"
+        ],
+        "rooms_considered": [
+          "Double Ensuite"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Student to add agent Vivi on corporate WeChat to confirm information and proceed with application submission.",
+          "due": "asap",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Email from agent Vivi on 2025-09-01 about adding WeChat for application confirmation"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with student via call or message to confirm receipt of WeChat contact request and application details.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple missed call attempts on 2025-09-01 and 2025-09-02"
+        },
+        {
+          "type": "payment",
+          "description": "Student to confirm agreement with payment schedule and amounts for London Nest Lady Margaret booking.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Email from Tiffany Zhang on 2025-09-02 confirming payment details and requesting student confirmation"
+        },
+        {
+          "type": "booking_action",
+          "description": "Agent to arrange for sales manager to issue contract and payment link once student confirms payment schedule and amounts.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Email from Tiffany Zhang on 2025-09-02 about issuing contract after student confirmation"
+        }
+      ],
+      "last_agent_response": "Agent Tiffany Zhang sent an email on 2025-09-02 confirming booking details, payment schedule, and requesting student confirmation to proceed with contract issuance.",
+      "suggested_next_step": "Student should add agent Vivi on corporate WeChat to confirm application details and respond to payment schedule confirmation email."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Shiyao Liu",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (moonight_wolffy@outlook.com), Phone (+86 18500909382)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Double Ensuite",
+            "budget_range": "278 pounds weekly (initial), confirmed 313 pounds weekly",
+            "move_in_date": "2025-09-07",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Payment pending - contract offer to be issued upon confirmation",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not paid yet; payment to be made in 4 installments after contract offer",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "6 (3 calls with voicemail, 2 agent outbound emails, 1 voicemail message)",
+            "primary_channel": "Phone calls and emails",
+            "last_contact": "2025-09-02 via email from agent Tiffany Zhang",
+            "response_time": "No direct student responses recorded; multiple voicemails left",
+            "key_moments": "Initial lead on 2025-07-09; multiple call attempts with voicemail on 2025-09-01 and 2025-09-02; confirmation email with payment schedule sent on 2025-09-02"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "London Nest Lady Margaret",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Preference for Double Ensuite room type",
+            "offers_made": "Payment plan offer: total £15,963 over 51 weeks, divided into 4 installments of £3,990.75 each"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to confirm agreement with payment schedule to trigger contract offer and payment link",
+            "pending_items": "Student confirmation and payment of first installment within 2 days of contract offer",
+            "follow_up_required": "Agent to follow up if no student response to payment confirmation email",
+            "timeline": "First payment due within 2 days after contract offer; subsequent payments on 2025-11-01, 2026-01-01, and 2026-03-01"
+          },
+          "agent_notes": {
+            "student_tone": "No direct responses recorded; student has not answered calls",
+            "urgency_level": "Moderate - lease starts soon (early September 2025)",
+            "complexity": "Standard booking with installment payment plan",
+            "special_considerations": "Multiple unsuccessful call attempts; communication primarily via email; student needs to add agent on corporate WeChat for further info"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Shiyao Liu",
+          "mobile": [
+            "+8618500909382"
+          ],
+          "email": [
+            "moonight_wolffy@outlook.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "Double Ensuite",
+          "budget": {
+            "max": 278,
+            "currency": "GBP"
+          },
+          "bathroom_type": "private_bathroom",
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": "2025-09-07",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": "pbsa",
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": "installment",
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "London Nest Lady Margaret",
+            "Lady Margaret"
+          ],
+          "rooms_considered": [
+            "Double Ensuite"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Student to add agent Vivi on corporate WeChat to confirm information and proceed with application submission.",
+            "due": "asap",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Email from agent Vivi on 2025-09-01 about adding WeChat for application confirmation"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with student via call or message to confirm receipt of WeChat contact request and application details.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple missed call attempts on 2025-09-01 and 2025-09-02"
+          },
+          {
+            "type": "payment",
+            "description": "Student to confirm agreement with payment schedule and amounts for London Nest Lady Margaret booking.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Email from Tiffany Zhang on 2025-09-02 confirming payment details and requesting student confirmation"
+          },
+          {
+            "type": "booking_action",
+            "description": "Agent to arrange for sales manager to issue contract and payment link once student confirms payment schedule and amounts.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Email from Tiffany Zhang on 2025-09-02 about issuing contract after student confirmation"
+          }
+        ],
+        "last_agent_response": "Agent Tiffany Zhang sent an email on 2025-09-02 confirming booking details, payment schedule, and requesting student confirmation to proceed with contract issuance.",
+        "suggested_next_step": "Student should add agent Vivi on corporate WeChat to confirm application details and respond to payment schedule confirmation email."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Shiyao Liu",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (moonight_wolffy@outlook.com), Phone (+86 18500909382)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Double Ensuite",
+              "budget_range": "278 pounds weekly (initial), confirmed 313 pounds weekly",
+              "move_in_date": "2025-09-07",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Payment pending - contract offer to be issued upon confirmation",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not paid yet; payment to be made in 4 installments after contract offer",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "6 (3 calls with voicemail, 2 agent outbound emails, 1 voicemail message)",
+              "primary_channel": "Phone calls and emails",
+              "last_contact": "2025-09-02 via email from agent Tiffany Zhang",
+              "response_time": "No direct student responses recorded; multiple voicemails left",
+              "key_moments": "Initial lead on 2025-07-09; multiple call attempts with voicemail on 2025-09-01 and 2025-09-02; confirmation email with payment schedule sent on 2025-09-02"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "London Nest Lady Margaret",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Preference for Double Ensuite room type",
+              "offers_made": "Payment plan offer: total £15,963 over 51 weeks, divided into 4 installments of £3,990.75 each"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to confirm agreement with payment schedule to trigger contract offer and payment link",
+              "pending_items": "Student confirmation and payment of first installment within 2 days of contract offer",
+              "follow_up_required": "Agent to follow up if no student response to payment confirmation email",
+              "timeline": "First payment due within 2 days after contract offer; subsequent payments on 2025-11-01, 2026-01-01, and 2026-03-01"
+            },
+            "agent_notes": {
+              "student_tone": "No direct responses recorded; student has not answered calls",
+              "urgency_level": "Moderate - lease starts soon (early September 2025)",
+              "complexity": "Standard booking with installment payment plan",
+              "special_considerations": "Multiple unsuccessful call attempts; communication primarily via email; student needs to add agent on corporate WeChat for further info"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -22,6 +22,8 @@ except Exception as e:
 from query_tools import LeadQueryTools
 from aggregate_query_tools import AggregateQueryTools
 from ai_agent import LeadIntelligenceAgent
+from auth import get_auth, show_login_page
+from audit_logger import get_audit_logger
 
 
 # Page config
@@ -37,18 +39,12 @@ st.markdown("""
 <style>
     /* Main Header */
     .main-header {
-        font-size: 2.5rem;
-        font-weight: 700;
+        font-size: 1.5rem;
+        font-weight: 600;
         color: #1e293b;
-        text-align: center;
-        margin-bottom: 0.5rem;
-    }
-    
-    .sub-header {
-        font-size: 1.1rem;
-        color: #64748b;
-        text-align: center;
-        margin-bottom: 2rem;
+        text-align: left;
+        margin-bottom: 1rem;
+        padding: 0.5rem 0;
     }
     
     /* Sidebar Styling - Dark Theme */
@@ -139,18 +135,15 @@ st.markdown("""
         box-shadow: 0 2px 8px rgba(30, 41, 59, 0.15);
     }
     
-    /* Section Headers */
-    .section-header {
-        font-size: 0.875rem;
-        font-weight: 600;
-        color: #475569;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        margin-top: 1.5rem;
-        margin-bottom: 0.75rem;
-        padding-bottom: 0.5rem;
-        border-bottom: 2px solid #e2e8f0;
+    /* Clean chat interface */
+    .stChatMessage {
+        padding: 1rem 0;
     }
+    
+    /* Hide Streamlit branding */
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
     
     /* Metric Enhancement */
     div[data-testid="metric-container"] {
@@ -202,22 +195,22 @@ st.markdown("""
         padding: 0.4rem 0.8rem !important;
     }
     
-    /* Chat Input - Larger and More Visible */
+    /* Chat Input - Clean and Simple */
     .stChatInputContainer {
-        padding: 1.5rem 0;
+        padding: 1rem 0;
     }
     
     .stChatInputContainer textarea {
-        font-size: 1.1rem !important;
-        min-height: 80px !important;
-        padding: 1rem !important;
-        border: 2px solid #cbd5e1 !important;
+        font-size: 1rem !important;
+        min-height: 60px !important;
+        padding: 0.75rem !important;
+        border: 1px solid #e2e8f0 !important;
         border-radius: 0.5rem !important;
     }
     
     .stChatInputContainer textarea:focus {
         border-color: #1e293b !important;
-        box-shadow: 0 0 0 3px rgba(30, 41, 59, 0.1) !important;
+        box-shadow: 0 0 0 2px rgba(30, 41, 59, 0.1) !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -253,16 +246,37 @@ if 'query_tools' not in st.session_state or 'query_tools_mode' not in st.session
 def main():
     """Main app function"""
     
-    # Header with improved styling
-    st.markdown('<div class="main-header">🎓 UCL Lead Intelligence AI</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-header">Your intelligent assistant for student lead insights and analytics</div>', unsafe_allow_html=True)
+    # Check authentication
+    auth = get_auth()
+    if not auth.is_authenticated():
+        show_login_page()
+        return
+    
+    # Log access
+    audit_logger = get_audit_logger()
+    audit_logger.log_access(
+        action="app_access",
+        resource="main_app",
+        success=True,
+        user_id=auth.get_username() or "anonymous",
+        session_id=auth.get_session_id()
+    )
+    
+    # Minimal header with logout
+    col1, col2 = st.columns([10, 1])
+    with col1:
+        st.markdown('<div class="main-header">UCL Lead Intelligence</div>', unsafe_allow_html=True)
+    with col2:
+        if st.button("🚪 Logout"):
+            auth.logout()
+            st.rerun()
     
     # Sidebar - Professional Dashboard
     with st.sidebar:
         # Mode Toggle
         st.markdown("### 🔄 Data Mode")
         mode_options = {
-            "detailed": "💬 Detailed (19 leads)",
+            "detailed": "💬 Detailed (402 leads)",
             "aggregate": "📊 Aggregate (1,525 leads)"
         }
         
@@ -288,13 +302,10 @@ def main():
                 del st.session_state.query_tools_mode
             st.rerun()
         
-        st.markdown(f"**Current Mode**: {mode_options[st.session_state.mode]}")
-        st.caption("💡 Switch modes to analyze different datasets")
         st.markdown("---")
         
         # Dashboard Header
         st.markdown("## 📊 Dashboard")
-        st.markdown("---")
         
         # Get aggregations (with error handling for first run)
         try:
@@ -314,7 +325,6 @@ def main():
             }
         
         # Section 1: Key Metrics (2x2 grid)
-        st.markdown("### Overview")
         
         # Row 1
         metric_col1, metric_col2 = st.columns(2)
@@ -360,21 +370,15 @@ def main():
         
         st.markdown("---")
         
-        # Section 2: Status Distribution with Progress Bars
-        st.markdown("### Status Distribution")
+        # Section 2: Status Distribution (simplified)
         status_breakdown = aggs['status_breakdown']
-        
-        # Sort by count descending
-        for status, count in sorted(status_breakdown.items(), key=lambda x: x[1], reverse=True):
+        for status, count in sorted(status_breakdown.items(), key=lambda x: x[1], reverse=True)[:3]:
             percentage = (count / aggs['total_leads'] * 100) if aggs['total_leads'] > 0 else 0
-            
-            # Status row with progress bar
-            st.markdown(f"**{status}**")
-            st.progress(percentage / 100, text=f"{count} leads ({percentage:.0f}%)")
+            st.markdown(f"**{status}**: {count} ({percentage:.0f}%)")
         
         st.markdown("---")
         
-        # Section 3: Mode-specific content
+        # Section 3: Mode-specific content (simplified)
         if st.session_state.mode == "aggregate":
             # Aggregate mode specific sections
             if 'lost_reasons' in aggs and aggs['lost_reasons']:
@@ -408,39 +412,10 @@ def main():
                 for month, count in list(sorted(aggs['monthly_trends'].items(), reverse=True))[:6]:
                     st.markdown(f"📅 **{month}**: {count} lead(s)")
         else:
-            # Detailed mode specific sections
+            # Detailed mode - minimal info
             if 'average_budget' in aggs and aggs['average_budget']:
-                st.markdown("### Budget")
                 for currency, avg in aggs['average_budget'].items():
-                    st.metric(
-                        label=f"Average ({currency})",
-                        value=f"£{avg:.2f}",
-                        help="Average weekly budget"
-                    )
-            
-            st.markdown("---")
-            
-            if 'location_breakdown' in aggs and aggs['location_breakdown']:
-                st.markdown("### Locations")
-                for location, count in sorted(aggs['location_breakdown'].items(), key=lambda x: x[1], reverse=True):
-                    percentage = (count / aggs['total_leads'] * 100) if aggs['total_leads'] > 0 else 0
-                    st.markdown(f"📍 **{location}**: {count} ({percentage:.0f}%)")
-            
-            st.markdown("---")
-            
-            if 'move_in_month_breakdown' in aggs and aggs['move_in_month_breakdown']:
-                st.markdown("### Move-in Timeline")
-                for month, count in sorted(aggs['move_in_month_breakdown'].items()):
-                    st.markdown(f"📅 **{month}**: {count} lead(s)")
-            
-            st.markdown("---")
-            
-            if 'room_type_breakdown' in aggs and aggs['room_type_breakdown']:
-                st.markdown("### Room Types")
-                total_room_pref = sum(aggs['room_type_breakdown'].values())
-                for room_type, count in sorted(aggs['room_type_breakdown'].items(), key=lambda x: x[1], reverse=True):
-                    percentage = (count / total_room_pref * 100) if total_room_pref > 0 else 0
-                    st.markdown(f"🏠 **{room_type}**: {count} ({percentage:.0f}%)")
+                    st.metric(label="Avg Budget", value=f"£{avg:.0f}")
     
     # Check if agent is ready
     if not st.session_state.agent_ready:
@@ -448,100 +423,13 @@ def main():
         st.info("💡 **Tip**: Make sure you've created a `.env` file with your OpenAI API key:\n```\nOPENAI_API_KEY=your_key_here\n```")
         return
     
-    # Organized demo questions by category
-    st.markdown("#### 💡 Demo Questions")
-    st.caption("Click any question below to try it")
-    
-    # Category 1: Lead Lookup & Filtering
-    st.markdown('<div class="section-header">🔍 Lead Lookup & Filtering</div>', unsafe_allow_html=True)
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        if st.button("📊 All Won Leads", key="won_leads", use_container_width=True):
-            st.session_state.suggested_query = "Show me all Won leads with their details"
-    
-    with col2:
-        if st.button("💰 Budget < £400", key="budget_filter", use_container_width=True):
-            st.session_state.suggested_query = "Show me leads with budget less than 400 pounds"
-    
-    with col3:
-        if st.button("📅 January 2026 Move-ins", key="jan_moveins", use_container_width=True):
-            st.session_state.suggested_query = "Show me leads moving in January 2026"
-    
-    # Category 2: Analytics & Trends
-    st.markdown('<div class="section-header">📈 Analytics & Insights</div>', unsafe_allow_html=True)
-    col4, col5, col6 = st.columns(3)
-    
-    with col4:
-        if st.button("📊 Lead Statistics", key="stats", use_container_width=True):
-            st.session_state.suggested_query = "What are our total lead statistics and breakdown by status?"
-    
-    with col5:
-        if st.button("💷 Average Budget", key="avg_budget", use_container_width=True):
-            st.session_state.suggested_query = "What's the average budget across all leads?"
-    
-    with col6:
-        if st.button("🏆 Top Trends", key="trends", use_container_width=True):
-            st.session_state.suggested_query = "What are the top trends and patterns in our lead data?"
-    
-    # Category 3: Specific Lead Queries
-    st.markdown('<div class="section-header">👤 Specific Lead Information</div>', unsafe_allow_html=True)
-    col7, col8, col9 = st.columns(3)
-    
-    with col7:
-        if st.button("👩 Laia's Details", key="laia", use_container_width=True):
-            st.session_state.suggested_query = "What are Laia's accommodation requirements and current status?"
-    
-    with col8:
-        if st.button("🔎 Search by Name", key="search_name", use_container_width=True):
-            st.session_state.suggested_query = "Show me all information about Haoran Wang"
-    
-    with col9:
-        if st.button("📋 Lead Tasks", key="tasks", use_container_width=True):
-            st.session_state.suggested_query = "What tasks are associated with Won leads?"
-    
-    # Category 4: Comparative Analysis
-    st.markdown('<div class="section-header">⚖️ Comparative Analysis</div>', unsafe_allow_html=True)
-    col10, col11, col12 = st.columns(3)
-    
-    with col10:
-        if st.button("✅ Won vs ❌ Lost", key="won_vs_lost", use_container_width=True):
-            st.session_state.suggested_query = "Compare Won leads versus Lost leads - what are the key differences?"
-    
-    with col11:
-        if st.button("🎯 Conversion Insights", key="conversion", use_container_width=True):
-            st.session_state.suggested_query = "What factors contribute to successful lead conversion?"
-    
-    with col12:
-        if st.button("📊 Monthly Comparison", key="monthly", use_container_width=True):
-            st.session_state.suggested_query = "Compare leads by move-in month - which months are most popular?"
-    
-    st.divider()
-    
-    # Display chat history with copy buttons
-    for idx, message in enumerate(st.session_state.messages):
+    # Display chat history (clean, no copy buttons)
+    for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
-            
-            # Add copy button for assistant messages
-            if message["role"] == "assistant":
-                col_copy, col_spacer = st.columns([1, 10])
-                with col_copy:
-                    if st.button("📋 Copy", key=f"copy_{idx}", help="Copy to clipboard"):
-                        # Store in session state for copying
-                        st.session_state.copied_text = message["content"]
-                        st.success("✅ Copied!", icon="✅")
     
-    st.divider()
-    
-    # Chat input section - larger and more prominent
-    st.markdown("### 💬 Ask Me Anything")
-    query = None
-    if 'suggested_query' in st.session_state:
-        query = st.session_state.suggested_query
-        del st.session_state.suggested_query
-    else:
-        query = st.chat_input("Type your question here... (e.g., 'Show me all Won leads')", key="main_chat_input")
+    # Chat input (clean, ChatGPT-like)
+    query = st.chat_input("Message UCL Lead Intelligence...")
     
     if query:
         # Add user message
@@ -552,50 +440,22 @@ def main():
         # Get response from agent with progress indicator
         with st.chat_message("assistant"):
             with st.spinner("🤔 Analyzing your query..."):
-                result = st.session_state.agent.query(query)
+                # Get auth info for audit logging
+                auth = get_auth()
+                result = st.session_state.agent.query(
+                    query,
+                    user_id=auth.get_username() or "anonymous",
+                    session_id=auth.get_session_id()
+                )
                 
                 if result['success']:
                     response = result['answer']
-                    
-                    # Add sources if available
-                    if result.get('intermediate_steps'):
-                        response += "\n\n---\n### 🔍 **Data Sources**\n"
-                        tools_used = set()
-                        for action, observation in result['intermediate_steps']:
-                            tools_used.add(action.tool)
-                        for tool in sorted(tools_used):
-                            response += f"- ✓ `{tool}`\n"
-                    
                     st.markdown(response)
                     st.session_state.messages.append({"role": "assistant", "content": response})
-                    
-                    # Copy button for new response
-                    col_copy, col_spacer = st.columns([1, 10])
-                    with col_copy:
-                        if st.button("📋 Copy", key="copy_latest", help="Copy to clipboard"):
-                            st.session_state.copied_text = response
-                            st.success("✅ Copied!", icon="✅")
                 else:
                     error_msg = f"⚠️ **Error**: {result.get('error', 'Unknown error')}"
                     st.error(error_msg)
                     st.session_state.messages.append({"role": "assistant", "content": error_msg})
-    
-    # Action buttons at the bottom
-    st.divider()
-    
-    action_col1, action_col2, action_col3 = st.columns([6, 1, 1])
-    
-    with action_col1:
-        st.empty()  # Spacer
-    
-    with action_col2:
-        if st.button("🗑️ Clear Chat", help="Clear all chat history", use_container_width=True):
-            st.session_state.messages = []
-            st.rerun()
-    
-    with action_col3:
-        if st.button("🔄 Refresh Data", help="Reload dashboard metrics", use_container_width=True):
-            st.rerun()
 
 
 if __name__ == "__main__":

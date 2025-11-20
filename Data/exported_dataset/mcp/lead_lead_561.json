@@ -1,0 +1,286 @@
+{
+  "id": "lead_561",
+  "mobile_number": "971566207996",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8843,
+      "lead_id": 561,
+      "event_type": "call",
+      "timestamp": "2025-07-16T07:38:36.748761",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7514088",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-16T07:38:36.748761\", \"id\": 7514088, \"duration\": \"0\", \"to_number\": \"971566207996\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:33:05"
+    },
+    {
+      "id": 8844,
+      "lead_id": 561,
+      "event_type": "call",
+      "timestamp": "2025-07-16T13:36:48.290361",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7517606",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-16T13:36:48.290361\", \"id\": 7517606, \"duration\": \"0\", \"to_number\": \"971566207996\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:33:05"
+    },
+    {
+      "id": 8845,
+      "lead_id": 561,
+      "event_type": "call",
+      "timestamp": "2025-07-17T12:04:06.351399",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7523310",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-17T12:04:06.351399\", \"id\": 7523310, \"duration\": \"0\", \"to_number\": \"971566207996\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:33:05"
+    },
+    {
+      "id": 8846,
+      "lead_id": 561,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3070734, \"user_name\": \"Ria Deshmukh\", \"email\": \"deshmukhria13@gmail.com\", \"phone\": \"971566207996\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-05\", \"budget\": 364, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"Wembley\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 1523013}",
+      "created_at": "2025-11-18 11:33:05"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 230,
+    "lead_id": 561,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Ria Deshmukh\", \"mobile\": [\"+971566207996\"], \"email\": [\"deshmukhria13@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 364, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student phone number but no duration indicates no successful contact was made.\", \"suggested_next_step\": \"Agent should follow up with the student via call or alternative communication to confirm interest and next steps.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Ria Deshmukh\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls made from +44 7456 741634 to +971 5662 07996; email deshmukhria13@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3364 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry stage; no confirmed booking or payment mentioned\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 phone call attempts with zero duration, 1 lead information record\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-07-17\", \"response_time\": \"No response indicated; calls had zero duration\", \"key_moments\": \"Lead information captured on 2025-09-13 with detailed preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1523013 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned beyond budget and location\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up with student due to no answered calls\", \"pending_items\": \"Student response to calls and further communication\", \"follow_up_required\": \"Yes, to establish contact and confirm booking details\", \"timeline\": \"Lease ends 2026-09-05; move-in date not specified\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded; no tone available\", \"urgency_level\": \"Unknown due to lack of response\", \"complexity\": \"Simple case based on available data\", \"special_considerations\": \"Multiple unsuccessful call attempts; consider alternative contact methods\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Ria Deshmukh\", \"mobile\": [\"+971566207996\"], \"email\": [\"deshmukhria13@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"Wembley\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 364, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"Multiple calls were made to the student phone number but no duration indicates no successful contact was made.\", \"suggested_next_step\": \"Agent should follow up with the student via call or alternative communication to confirm interest and next steps.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Ria Deshmukh\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls made from +44 7456 741634 to +971 5662 07996; email deshmukhria13@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"Wembley, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3364 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry stage; no confirmed booking or payment mentioned\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 phone call attempts with zero duration, 1 lead information record\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-07-17\", \"response_time\": \"No response indicated; calls had zero duration\", \"key_moments\": \"Lead information captured on 2025-09-13 with detailed preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1523013 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned beyond budget and location\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up with student due to no answered calls\", \"pending_items\": \"Student response to calls and further communication\", \"follow_up_required\": \"Yes, to establish contact and confirm booking details\", \"timeline\": \"Lease ends 2026-09-05; move-in date not specified\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded; no tone available\", \"urgency_level\": \"Unknown due to lack of response\", \"complexity\": \"Simple case based on available data\", \"special_considerations\": \"Multiple unsuccessful call attempts; consider alternative contact methods\"}}}}}",
+    "created_at": "2025-11-18 11:33:17",
+    "updated_at": "2025-11-18T17:03:17.161777",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Ria Deshmukh",
+        "mobile": [
+          "+971566207996"
+        ],
+        "email": [
+          "deshmukhria13@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "Wembley"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 364,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "Multiple calls were made to the student phone number but no duration indicates no successful contact was made.",
+      "suggested_next_step": "Agent should follow up with the student via call or alternative communication to confirm interest and next steps."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Ria Deshmukh",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls made from +44 7456 741634 to +971 5662 07996; email deshmukhria13@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "Wembley, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£364 per week",
+            "move_in_date": "Not explicitly mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry stage; no confirmed booking or payment mentioned",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 phone call attempts with zero duration, 1 lead information record",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-07-17",
+            "response_time": "No response indicated; calls had zero duration",
+            "key_moments": "Lead information captured on 2025-09-13 with detailed preferences"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1523013 associated with lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned beyond budget and location",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to follow up with student due to no answered calls",
+            "pending_items": "Student response to calls and further communication",
+            "follow_up_required": "Yes, to establish contact and confirm booking details",
+            "timeline": "Lease ends 2026-09-05; move-in date not specified"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication recorded; no tone available",
+            "urgency_level": "Unknown due to lack of response",
+            "complexity": "Simple case based on available data",
+            "special_considerations": "Multiple unsuccessful call attempts; consider alternative contact methods"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Ria Deshmukh",
+          "mobile": [
+            "+971566207996"
+          ],
+          "email": [
+            "deshmukhria13@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "Wembley"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 364,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "Multiple calls were made to the student phone number but no duration indicates no successful contact was made.",
+        "suggested_next_step": "Agent should follow up with the student via call or alternative communication to confirm interest and next steps."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Ria Deshmukh",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls made from +44 7456 741634 to +971 5662 07996; email deshmukhria13@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "Wembley, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£364 per week",
+              "move_in_date": "Not explicitly mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry stage; no confirmed booking or payment mentioned",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 phone call attempts with zero duration, 1 lead information record",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-07-17",
+              "response_time": "No response indicated; calls had zero duration",
+              "key_moments": "Lead information captured on 2025-09-13 with detailed preferences"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1523013 associated with lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned beyond budget and location",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to follow up with student due to no answered calls",
+              "pending_items": "Student response to calls and further communication",
+              "follow_up_required": "Yes, to establish contact and confirm booking details",
+              "timeline": "Lease ends 2026-09-05; move-in date not specified"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication recorded; no tone available",
+              "urgency_level": "Unknown due to lack of response",
+              "complexity": "Simple case based on available data",
+              "special_considerations": "Multiple unsuccessful call attempts; consider alternative contact methods"
+            }
+          }
+        }
+      }
+    }
+  }
+}

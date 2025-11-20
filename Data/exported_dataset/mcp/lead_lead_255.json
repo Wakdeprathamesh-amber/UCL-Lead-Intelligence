@@ -1,0 +1,253 @@
+{
+  "id": "lead_255",
+  "mobile_number": "8613533419748",
+  "email": null,
+  "timeline": [
+    {
+      "id": 3558,
+      "lead_id": 255,
+      "event_type": "lead_info",
+      "timestamp": "2025-11-18T16:04:14.117959",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-11-18T16:04:14.117959\", \"lead_id\": 3083030, \"user_name\": \"Guo Yi\", \"email\": \"yiguo0206@gmail.com\", \"phone\": \"8613533419748\", \"budget\": 300, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 4577, \"inventory_id\": 137461}",
+      "created_at": "2025-11-18 10:34:14"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 103,
+    "lead_id": 255,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Guo Yi\", \"mobile\": [\"8613533419748\"], \"email\": [\"yiguo0206@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": 300, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"Contact Guo Yi to discuss accommodation options within the \\u00a3300 weekly budget in London.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Guo Yi\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (yiguo0206@gmail.com), Phone (+86 13533419748)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3300 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Lead submission via email/phone\", \"last_contact\": \"2025-11-18T16:04:14\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received with budget and location preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137461\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Budget of \\u00a3300 weekly in London\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to contact student to discuss accommodation options\", \"pending_items\": \"Student response and further preference details\", \"follow_up_required\": \"Yes, to clarify preferences and progress booking\", \"timeline\": \"Not mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not applicable - only initial lead data\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget is specified; location fixed to London\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Guo Yi\", \"mobile\": [\"8613533419748\"], \"email\": [\"yiguo0206@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": 300, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"\", \"suggested_next_step\": \"Contact Guo Yi to discuss accommodation options within the \\u00a3300 weekly budget in London.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Guo Yi\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (yiguo0206@gmail.com), Phone (+86 13533419748)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3300 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1\", \"primary_channel\": \"Lead submission via email/phone\", \"last_contact\": \"2025-11-18T16:04:14\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Initial lead information received with budget and location preferences\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137461\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Budget of \\u00a3300 weekly in London\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to contact student to discuss accommodation options\", \"pending_items\": \"Student response and further preference details\", \"follow_up_required\": \"Yes, to clarify preferences and progress booking\", \"timeline\": \"Not mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not applicable - only initial lead data\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Budget is specified; location fixed to London\"}}}}}",
+    "created_at": "2025-11-18 10:34:21",
+    "updated_at": "2025-11-18T16:04:21.728278",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Guo Yi",
+        "mobile": [
+          "8613533419748"
+        ],
+        "email": [
+          "yiguo0206@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": 300,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "",
+      "suggested_next_step": "Contact Guo Yi to discuss accommodation options within the £300 weekly budget in London."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Guo Yi",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (yiguo0206@gmail.com), Phone (+86 13533419748)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£300 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1",
+            "primary_channel": "Lead submission via email/phone",
+            "last_contact": "2025-11-18T16:04:14",
+            "response_time": "Not mentioned",
+            "key_moments": "Initial lead information received with budget and location preferences"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 137461",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Budget of £300 weekly in London",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to contact student to discuss accommodation options",
+            "pending_items": "Student response and further preference details",
+            "follow_up_required": "Yes, to clarify preferences and progress booking",
+            "timeline": "Not mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Not applicable - only initial lead data",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Budget is specified; location fixed to London"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Guo Yi",
+          "mobile": [
+            "8613533419748"
+          ],
+          "email": [
+            "yiguo0206@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": 300,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "",
+        "suggested_next_step": "Contact Guo Yi to discuss accommodation options within the £300 weekly budget in London."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Guo Yi",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (yiguo0206@gmail.com), Phone (+86 13533419748)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£300 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1",
+              "primary_channel": "Lead submission via email/phone",
+              "last_contact": "2025-11-18T16:04:14",
+              "response_time": "Not mentioned",
+              "key_moments": "Initial lead information received with budget and location preferences"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 137461",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Budget of £300 weekly in London",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to contact student to discuss accommodation options",
+              "pending_items": "Student response and further preference details",
+              "follow_up_required": "Yes, to clarify preferences and progress booking",
+              "timeline": "Not mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Not applicable - only initial lead data",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Budget is specified; location fixed to London"
+            }
+          }
+        }
+      }
+    }
+  }
+}

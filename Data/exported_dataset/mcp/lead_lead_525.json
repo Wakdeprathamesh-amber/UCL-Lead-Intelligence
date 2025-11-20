@@ -1,0 +1,363 @@
+{
+  "id": "lead_525",
+  "mobile_number": "447979991325",
+  "email": null,
+  "timeline": [
+    {
+      "id": 8365,
+      "lead_id": 525,
+      "event_type": "lead_info",
+      "timestamp": "2025-01-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-01-09T00:00:00\", \"lead_id\": 3099972, \"user_name\": \"Amrit Gill\", \"email\": \"amrit.gill0202@gmail.com\", \"phone\": \"447979991325\", \"lease_duration\": \"50 week\", \"move_out_date\": \"2026-08-16\", \"budget\": 380, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 1832992}",
+      "created_at": "2025-11-18 11:25:03"
+    },
+    {
+      "id": 8366,
+      "lead_id": 525,
+      "event_type": "call",
+      "timestamp": "2025-07-29T12:04:37.978218",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7586343",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-29T12:04:37.978218\", \"id\": 7586343, \"duration\": \"7\", \"to_number\": \"447979991325\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3937a424-f684-44cd-a798-4fdcef6e3b16.wav\"}",
+      "created_at": "2025-11-18 11:25:03"
+    },
+    {
+      "id": 8367,
+      "lead_id": 525,
+      "event_type": "call",
+      "timestamp": "2025-07-31T09:48:40.180055",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7598929",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-31T09:48:40.180055\", \"id\": 7598929, \"duration\": \"0\", \"to_number\": \"447979991325\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:25:03"
+    },
+    {
+      "id": 8368,
+      "lead_id": 525,
+      "event_type": "call",
+      "timestamp": "2025-08-04T12:47:22.031054",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7620702",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-04T12:47:22.031054\", \"id\": 7620702, \"duration\": \"12\", \"to_number\": \"447979991325\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/edd34c02-2c9d-4395-9858-d74f1fbccbe9.wav\"}",
+      "created_at": "2025-11-18 11:25:03"
+    },
+    {
+      "id": 8369,
+      "lead_id": 525,
+      "event_type": "call",
+      "timestamp": "2025-08-06T10:06:54.272644",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7632511",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-06T10:06:54.272644\", \"id\": 7632511, \"duration\": \"0\", \"to_number\": \"447979991325\", \"from_number\": \"447460047271\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:25:03"
+    },
+    {
+      "id": 8370,
+      "lead_id": 525,
+      "event_type": "call",
+      "timestamp": "2025-08-09T09:50:27.581165",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7652395",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-09T09:50:27.581165\", \"id\": 7652395, \"duration\": \"6\", \"to_number\": \"447979991325\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4c997af9-a4f1-43b2-a4bf-fe29e9138f56.wav\"}",
+      "created_at": "2025-11-18 11:25:03"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 397,
+      "lead_id": 525,
+      "call_id": "7586343",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3937a424-f684-44cd-a798-4fdcef6e3b16.wav",
+      "transcript_text": "Speaker A: Is the Vodafone voicemail service for oh, 7979, double nine.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:25:08"
+    },
+    {
+      "id": 400,
+      "lead_id": 525,
+      "call_id": "7620702",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/edd34c02-2c9d-4395-9858-d74f1fbccbe9.wav",
+      "transcript_text": "Speaker A: The Vodafone voicemail service for 079-799-9325. Please leave a message after the tone. When you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:25:12"
+    },
+    {
+      "id": 401,
+      "lead_id": 525,
+      "call_id": "7652395",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4c997af9-a4f1-43b2-a4bf-fe29e9138f56.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:25:16"
+    }
+  ],
+  "summary": {
+    "id": 219,
+    "lead_id": 525,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Amrit Gill\", \"mobile\": [\"447979991325\"], \"email\": [\"amrit.gill0202@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 50, \"room_type\": null, \"budget\": {\"max\": 380, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Attempt to contact Amrit Gill again via phone to discuss accommodation details and confirm interest.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple calls made to Amrit Gill's phone with no answer or voicemail reached (2025-07-29 to 2025-08-09)\"}], \"last_agent_response\": \"Multiple call attempts made to Amrit Gill's phone number, including calls with no answer and voicemail reached.\", \"suggested_next_step\": \"Agent to follow up with another call or alternative communication method within the next week.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Amrit Gill\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (amrit.gill0202@gmail.com), Phone (+447979991325)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3380 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"50 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with multiple call attempts\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 calls between 2025-07-29 and 2025-08-09\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-09\", \"response_time\": \"Multiple calls with some unanswered or voicemail responses\", \"key_moments\": \"Several call attempts with voicemail; no successful direct contact recorded\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1832992 linked to lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish direct contact with student to discuss accommodation details\", \"pending_items\": \"Awaiting response from student\", \"follow_up_required\": \"Follow-up calls or alternative contact methods to reach student\", \"timeline\": \"Move-out date noted as 2026-08-16; no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Not available due to lack of direct conversation\", \"urgency_level\": \"Unknown; no explicit urgency indicated\", \"complexity\": \"Simple inquiry; no complications noted\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest difficulty reaching student\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Amrit Gill\", \"mobile\": [\"447979991325\"], \"email\": [\"amrit.gill0202@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 50, \"room_type\": null, \"budget\": {\"max\": 380, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Attempt to contact Amrit Gill again via phone to discuss accommodation details and confirm interest.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple calls made to Amrit Gill's phone with no answer or voicemail reached (2025-07-29 to 2025-08-09)\"}], \"last_agent_response\": \"Multiple call attempts made to Amrit Gill's phone number, including calls with no answer and voicemail reached.\", \"suggested_next_step\": \"Agent to follow up with another call or alternative communication method within the next week.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Amrit Gill\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (amrit.gill0202@gmail.com), Phone (+447979991325)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3380 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"50 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry with multiple call attempts\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"6 calls between 2025-07-29 and 2025-08-09\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-09\", \"response_time\": \"Multiple calls with some unanswered or voicemail responses\", \"key_moments\": \"Several call attempts with voicemail; no successful direct contact recorded\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 1832992 linked to lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish direct contact with student to discuss accommodation details\", \"pending_items\": \"Awaiting response from student\", \"follow_up_required\": \"Follow-up calls or alternative contact methods to reach student\", \"timeline\": \"Move-out date noted as 2026-08-16; no move-in date specified\"}, \"agent_notes\": {\"student_tone\": \"Not available due to lack of direct conversation\", \"urgency_level\": \"Unknown; no explicit urgency indicated\", \"complexity\": \"Simple inquiry; no complications noted\", \"special_considerations\": \"Multiple unsuccessful call attempts suggest difficulty reaching student\"}}}}}",
+    "created_at": "2025-11-18 11:25:29",
+    "updated_at": "2025-11-18T16:55:29.844767",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Amrit Gill",
+        "mobile": [
+          "447979991325"
+        ],
+        "email": [
+          "amrit.gill0202@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 50,
+        "room_type": null,
+        "budget": {
+          "max": 380,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Attempt to contact Amrit Gill again via phone to discuss accommodation details and confirm interest.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple calls made to Amrit Gill's phone with no answer or voicemail reached (2025-07-29 to 2025-08-09)"
+        }
+      ],
+      "last_agent_response": "Multiple call attempts made to Amrit Gill's phone number, including calls with no answer and voicemail reached.",
+      "suggested_next_step": "Agent to follow up with another call or alternative communication method within the next week."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Amrit Gill",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (amrit.gill0202@gmail.com), Phone (+447979991325)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£380 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "50 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry with multiple call attempts",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "6 calls between 2025-07-29 and 2025-08-09",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-09",
+            "response_time": "Multiple calls with some unanswered or voicemail responses",
+            "key_moments": "Several call attempts with voicemail; no successful direct contact recorded"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 1832992 linked to lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Establish direct contact with student to discuss accommodation details",
+            "pending_items": "Awaiting response from student",
+            "follow_up_required": "Follow-up calls or alternative contact methods to reach student",
+            "timeline": "Move-out date noted as 2026-08-16; no move-in date specified"
+          },
+          "agent_notes": {
+            "student_tone": "Not available due to lack of direct conversation",
+            "urgency_level": "Unknown; no explicit urgency indicated",
+            "complexity": "Simple inquiry; no complications noted",
+            "special_considerations": "Multiple unsuccessful call attempts suggest difficulty reaching student"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Amrit Gill",
+          "mobile": [
+            "447979991325"
+          ],
+          "email": [
+            "amrit.gill0202@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 50,
+          "room_type": null,
+          "budget": {
+            "max": 380,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Attempt to contact Amrit Gill again via phone to discuss accommodation details and confirm interest.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple calls made to Amrit Gill's phone with no answer or voicemail reached (2025-07-29 to 2025-08-09)"
+          }
+        ],
+        "last_agent_response": "Multiple call attempts made to Amrit Gill's phone number, including calls with no answer and voicemail reached.",
+        "suggested_next_step": "Agent to follow up with another call or alternative communication method within the next week."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Amrit Gill",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (amrit.gill0202@gmail.com), Phone (+447979991325)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£380 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "50 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry with multiple call attempts",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "6 calls between 2025-07-29 and 2025-08-09",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-09",
+              "response_time": "Multiple calls with some unanswered or voicemail responses",
+              "key_moments": "Several call attempts with voicemail; no successful direct contact recorded"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 1832992 linked to lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Establish direct contact with student to discuss accommodation details",
+              "pending_items": "Awaiting response from student",
+              "follow_up_required": "Follow-up calls or alternative contact methods to reach student",
+              "timeline": "Move-out date noted as 2026-08-16; no move-in date specified"
+            },
+            "agent_notes": {
+              "student_tone": "Not available due to lack of direct conversation",
+              "urgency_level": "Unknown; no explicit urgency indicated",
+              "complexity": "Simple inquiry; no complications noted",
+              "special_considerations": "Multiple unsuccessful call attempts suggest difficulty reaching student"
+            }
+          }
+        }
+      }
+    }
+  }
+}

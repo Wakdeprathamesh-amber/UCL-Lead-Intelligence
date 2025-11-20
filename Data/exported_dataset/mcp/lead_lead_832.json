@@ -1,0 +1,364 @@
+{
+  "id": "lead_832",
+  "mobile_number": "14342029581",
+  "email": null,
+  "timeline": [
+    {
+      "id": 13501,
+      "lead_id": 832,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3178970, \"user_name\": \"Benjamin Sherman\", \"email\": \"bes57@duke.edu\", \"phone\": \"14342029581\", \"lease_duration\": \"16 week\", \"move_out_date\": \"2025-12-26\", \"budget\": 386, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 2103206}",
+      "created_at": "2025-11-18 13:08:03"
+    },
+    {
+      "id": 13502,
+      "lead_id": 832,
+      "event_type": "call",
+      "timestamp": "2025-08-19T15:11:27.257131",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7717153",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-19T15:11:27.257131\", \"id\": 7717153, \"duration\": \"5\", \"to_number\": \"14342029581\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4ea39623-c6bb-4bbe-8fe8-dc7e5153a08a.wav\"}",
+      "created_at": "2025-11-18 13:08:03"
+    },
+    {
+      "id": 13503,
+      "lead_id": 832,
+      "event_type": "call",
+      "timestamp": "2025-08-22T11:21:21.220172",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7737662",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-22T11:21:21.220172\", \"id\": 7737662, \"duration\": \"3\", \"to_number\": \"14342029581\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e6c42443-e3df-4f0c-8c2b-1ff8880657a2.wav\"}",
+      "created_at": "2025-11-18 13:08:03"
+    },
+    {
+      "id": 13504,
+      "lead_id": 832,
+      "event_type": "call",
+      "timestamp": "2025-08-25T16:47:36.323573",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7756873",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-25T16:47:36.323573\", \"id\": 7756873, \"duration\": \"9\", \"to_number\": \"14342029581\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/38143b6c-20b1-41d7-ad97-057acd035f46.wav\"}",
+      "created_at": "2025-11-18 13:08:03"
+    },
+    {
+      "id": 13505,
+      "lead_id": 832,
+      "event_type": "call",
+      "timestamp": "2025-08-31T10:24:28.059880",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7792074",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-31T10:24:28.059880\", \"id\": 7792074, \"duration\": \"9\", \"to_number\": \"14342029581\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/379e51f1-eb30-40a4-ac54-d25810b4c5ad.wav\"}",
+      "created_at": "2025-11-18 13:08:03"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 665,
+      "lead_id": 832,
+      "call_id": "7717153",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4ea39623-c6bb-4bbe-8fe8-dc7e5153a08a.wav",
+      "transcript_text": "Speaker A: I'm sorry. The person you are trying to reach has a voicemail box that has not been set up yet. Please.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:08:08"
+    },
+    {
+      "id": 669,
+      "lead_id": 832,
+      "call_id": "7737662",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e6c42443-e3df-4f0c-8c2b-1ff8880657a2.wav",
+      "transcript_text": "Speaker A: I'm sorry. The person you are trying to reach has a voice.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:08:12"
+    },
+    {
+      "id": 672,
+      "lead_id": 832,
+      "call_id": "7756873",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/38143b6c-20b1-41d7-ad97-057acd035f46.wav",
+      "transcript_text": "Speaker A: I'm sorry. The person you are trying to reach has a voicemail box that has not been set up yet. Please try your call again later. Goodbye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:08:16"
+    },
+    {
+      "id": 674,
+      "lead_id": 832,
+      "call_id": "7792074",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/379e51f1-eb30-40a4-ac54-d25810b4c5ad.wav",
+      "transcript_text": "Speaker A: I'm sorry. The person you are trying to reach has a voicemail box that has not been set up yet. Please try your call again later. Goodbye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:08:20"
+    }
+  ],
+  "summary": {
+    "id": 346,
+    "lead_id": 832,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Benjamin Sherman\", \"mobile\": [\"+14342029581\"], \"email\": [\"bes57@duke.edu\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 16, \"room_type\": null, \"budget\": {\"max\": 386, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Continue attempts to contact Benjamin Sherman via phone as previous calls reached voicemail boxes not set up.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple call attempts on 2025-08-19, 2025-08-22, 2025-08-25, and 2025-08-31 reached voicemail not set up\"}], \"last_agent_response\": \"Multiple phone call attempts were made to Benjamin Sherman but all reached voicemail boxes that have not been set up yet.\", \"suggested_next_step\": \"Agent to continue follow-up calls or try alternative communication methods to reach Benjamin Sherman within the next week.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Benjamin Sherman\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (bes57@duke.edu), Phone (14342029581)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3386 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"16 weeks, move out by 2025-12-26\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 calls attempted\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-31\", \"response_time\": \"No successful contact; all calls reached voicemail not set up\", \"key_moments\": \"Multiple call attempts made between 2025-08-19 and 2025-08-31, all unsuccessful due to voicemail not set up\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2103206 referenced in lead info\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish successful contact with student to discuss accommodation options\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Continue attempts to reach student via phone or alternative channels\", \"timeline\": \"Lease duration ends 2025-12-26; timely contact needed\"}, \"agent_notes\": {\"student_tone\": \"Not assessable due to no direct communication\", \"urgency_level\": \"Moderate; lease duration fixed with approaching move-out date\", \"complexity\": \"Simple; basic inquiry with no additional details\", \"special_considerations\": \"Student\\u2019s voicemail not set up, hindering communication\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Benjamin Sherman\", \"mobile\": [\"+14342029581\"], \"email\": [\"bes57@duke.edu\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 16, \"room_type\": null, \"budget\": {\"max\": 386, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Continue attempts to contact Benjamin Sherman via phone as previous calls reached voicemail boxes not set up.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple call attempts on 2025-08-19, 2025-08-22, 2025-08-25, and 2025-08-31 reached voicemail not set up\"}], \"last_agent_response\": \"Multiple phone call attempts were made to Benjamin Sherman but all reached voicemail boxes that have not been set up yet.\", \"suggested_next_step\": \"Agent to continue follow-up calls or try alternative communication methods to reach Benjamin Sherman within the next week.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Benjamin Sherman\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (bes57@duke.edu), Phone (14342029581)\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3386 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"16 weeks, move out by 2025-12-26\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"initial_inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"5 calls attempted\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-31\", \"response_time\": \"No successful contact; all calls reached voicemail not set up\", \"key_moments\": \"Multiple call attempts made between 2025-08-19 and 2025-08-31, all unsuccessful due to voicemail not set up\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 2103206 referenced in lead info\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish successful contact with student to discuss accommodation options\", \"pending_items\": \"Student response to calls\", \"follow_up_required\": \"Continue attempts to reach student via phone or alternative channels\", \"timeline\": \"Lease duration ends 2025-12-26; timely contact needed\"}, \"agent_notes\": {\"student_tone\": \"Not assessable due to no direct communication\", \"urgency_level\": \"Moderate; lease duration fixed with approaching move-out date\", \"complexity\": \"Simple; basic inquiry with no additional details\", \"special_considerations\": \"Student\\u2019s voicemail not set up, hindering communication\"}}}}}",
+    "created_at": "2025-11-18 13:08:31",
+    "updated_at": "2025-11-18T18:38:31.690831",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Benjamin Sherman",
+        "mobile": [
+          "+14342029581"
+        ],
+        "email": [
+          "bes57@duke.edu"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 16,
+        "room_type": null,
+        "budget": {
+          "max": 386,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Continue attempts to contact Benjamin Sherman via phone as previous calls reached voicemail boxes not set up.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple call attempts on 2025-08-19, 2025-08-22, 2025-08-25, and 2025-08-31 reached voicemail not set up"
+        }
+      ],
+      "last_agent_response": "Multiple phone call attempts were made to Benjamin Sherman but all reached voicemail boxes that have not been set up yet.",
+      "suggested_next_step": "Agent to continue follow-up calls or try alternative communication methods to reach Benjamin Sherman within the next week."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Benjamin Sherman",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (bes57@duke.edu), Phone (14342029581)",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£386 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "16 weeks, move out by 2025-12-26",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "initial_inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "5 calls attempted",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-31",
+            "response_time": "No successful contact; all calls reached voicemail not set up",
+            "key_moments": "Multiple call attempts made between 2025-08-19 and 2025-08-31, all unsuccessful due to voicemail not set up"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 2103206 referenced in lead info",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Establish successful contact with student to discuss accommodation options",
+            "pending_items": "Student response to calls",
+            "follow_up_required": "Continue attempts to reach student via phone or alternative channels",
+            "timeline": "Lease duration ends 2025-12-26; timely contact needed"
+          },
+          "agent_notes": {
+            "student_tone": "Not assessable due to no direct communication",
+            "urgency_level": "Moderate; lease duration fixed with approaching move-out date",
+            "complexity": "Simple; basic inquiry with no additional details",
+            "special_considerations": "Student’s voicemail not set up, hindering communication"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Benjamin Sherman",
+          "mobile": [
+            "+14342029581"
+          ],
+          "email": [
+            "bes57@duke.edu"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 16,
+          "room_type": null,
+          "budget": {
+            "max": 386,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Continue attempts to contact Benjamin Sherman via phone as previous calls reached voicemail boxes not set up.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple call attempts on 2025-08-19, 2025-08-22, 2025-08-25, and 2025-08-31 reached voicemail not set up"
+          }
+        ],
+        "last_agent_response": "Multiple phone call attempts were made to Benjamin Sherman but all reached voicemail boxes that have not been set up yet.",
+        "suggested_next_step": "Agent to continue follow-up calls or try alternative communication methods to reach Benjamin Sherman within the next week."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Benjamin Sherman",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (bes57@duke.edu), Phone (14342029581)",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£386 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "16 weeks, move out by 2025-12-26",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "initial_inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "5 calls attempted",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-31",
+              "response_time": "No successful contact; all calls reached voicemail not set up",
+              "key_moments": "Multiple call attempts made between 2025-08-19 and 2025-08-31, all unsuccessful due to voicemail not set up"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 2103206 referenced in lead info",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Establish successful contact with student to discuss accommodation options",
+              "pending_items": "Student response to calls",
+              "follow_up_required": "Continue attempts to reach student via phone or alternative channels",
+              "timeline": "Lease duration ends 2025-12-26; timely contact needed"
+            },
+            "agent_notes": {
+              "student_tone": "Not assessable due to no direct communication",
+              "urgency_level": "Moderate; lease duration fixed with approaching move-out date",
+              "complexity": "Simple; basic inquiry with no additional details",
+              "special_considerations": "Student’s voicemail not set up, hindering communication"
+            }
+          }
+        }
+      }
+    }
+  }
+}

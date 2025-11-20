@@ -1,0 +1,684 @@
+{
+  "id": "lead_763",
+  "mobile_number": "420778448880",
+  "email": null,
+  "timeline": [
+    {
+      "id": 12331,
+      "lead_id": 763,
+      "event_type": "call",
+      "timestamp": "2025-09-03T12:00:36.716580",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7808889",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-03T12:00:36.716580\", \"id\": 7808889, \"duration\": \"0\", \"to_number\": \"420778448880\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12332,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T12:15:06",
+      "content": "Hi Eliska, \nGood Day\n\nRachna Ahuja this side on behalf of *University College London* powered by Amber \n\n I will be happy to help you in booking the right accommodation for you. \n\nThanks",
+      "source": "whatsapp",
+      "event_id": "8193175",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T12:15:06\", \"id\": 8193175, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB041E552554A633975A5\", \"message_type\": \"text\", \"message_content\": \"Hi Eliska, \\nGood Day\\n\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\n\\n I will be happy to help you in booking the right accommodation for you. \\n\\nThanks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T12:15:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Eliska, \\\\nGood Day\\\\n\\\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\\\n\\\\n I will be happy to help you in booking the right accommodation for you. \\\\n\\\\nThanks\\\", \\\"Datetime\\\": 1756901706000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB041E552554A633975A5\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T12:15:06.889187\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12333,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T12:16:47",
+      "content": "Hello, thank you, I am looking for a cheap accomodation during my stay at UCL from septeber 22 to middle of december",
+      "source": "whatsapp",
+      "event_id": "8193288",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T12:16:47\", \"id\": 8193288, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3A08FE4DDE683CAD1A2B\", \"message_type\": \"text\", \"message_content\": \"Hello, thank you, I am looking for a cheap accomodation during my stay at UCL from septeber 22 to middle of december\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-03T12:16:47.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hello, thank you, I am looking for a cheap accomodation during my stay at UCL from septeber 22 to middle of december\\\", \\\"Datetime\\\": 1756901807000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3A08FE4DDE683CAD1A2B\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T12:16:48.274213\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12334,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T13:16:09",
+      "content": "Hey",
+      "source": "whatsapp",
+      "event_id": "8196311",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T13:16:09\", \"id\": 8196311, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB03ACF91285F48805109\", \"message_type\": \"text\", \"message_content\": \"Hey\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T13:16:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hey\\\", \\\"Datetime\\\": 1756905369000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB03ACF91285F48805109\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T13:16:09.721770\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12335,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T13:16:17",
+      "content": "Noted",
+      "source": "whatsapp",
+      "event_id": "8196320",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T13:16:17\", \"id\": 8196320, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB0907C48095B3291EAC7\", \"message_type\": \"text\", \"message_content\": \"Noted\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T13:16:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Noted\\\", \\\"Datetime\\\": 1756905377000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB0907C48095B3291EAC7\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T13:16:17.729567\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12336,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T13:16:28",
+      "content": "May I know the room preference and budget, please?",
+      "source": "whatsapp",
+      "event_id": "8196335",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T13:16:28\", \"id\": 8196335, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB017664FEF9528FD0498\", \"message_type\": \"text\", \"message_content\": \"May I know the room preference and budget, please?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T13:16:28.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"May I know the room preference and budget, please?\\\", \\\"Datetime\\\": 1756905388000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB017664FEF9528FD0498\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T13:16:29.070035\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12337,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T13:25:53",
+      "content": "Honestly, I dont think I can go above 200 pounds per week",
+      "source": "whatsapp",
+      "event_id": "8196960",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T13:25:53\", \"id\": 8196960, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3AE11DBA2126600BB462\", \"message_type\": \"text\", \"message_content\": \"Honestly, I dont think I can go above 200 pounds per week\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-03T13:25:53.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Honestly, I dont think I can go above 200 pounds per week\\\", \\\"Datetime\\\": 1756905953000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3AE11DBA2126600BB462\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T13:25:53.869606\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12338,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T13:44:23",
+      "content": "Slightly difficult at this point",
+      "source": "whatsapp",
+      "event_id": "8198018",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T13:44:23\", \"id\": 8198018, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB0007141A280D5A902DA\", \"message_type\": \"text\", \"message_content\": \"Slightly difficult at this point\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T13:44:23.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Slightly difficult at this point\\\", \\\"Datetime\\\": 1756907063000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB0007141A280D5A902DA\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T13:44:23.292460\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12339,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T13:46:24",
+      "content": "Because minimum is 250-275 at this point",
+      "source": "whatsapp",
+      "event_id": "8198165",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T13:46:24\", \"id\": 8198165, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB06E0D8198C1F73D61B1\", \"message_type\": \"text\", \"message_content\": \"Because minimum is 250-275 at this point\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T13:46:24.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Because minimum is 250-275 at this point\\\", \\\"Datetime\\\": 1756907184000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB06E0D8198C1F73D61B1\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T13:46:24.261289\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12340,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T13:49:28",
+      "content": "Okay, could you show me the cheapest ones than please",
+      "source": "whatsapp",
+      "event_id": "8198307",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T13:49:28\", \"id\": 8198307, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3A9568065EF7913A8FCF\", \"message_type\": \"text\", \"message_content\": \"Okay, could you show me the cheapest ones than please\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-03T13:49:28.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Okay, could you show me the cheapest ones than please\\\", \\\"Datetime\\\": 1756907368000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3A9568065EF7913A8FCF\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T13:49:28.673494\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12341,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T13:50:02",
+      "content": "Sure",
+      "source": "whatsapp",
+      "event_id": "8198338",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T13:50:02\", \"id\": 8198338, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB0256F3DAAFA181784A5\", \"message_type\": \"text\", \"message_content\": \"Sure\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T13:50:02.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Sure\\\", \\\"Datetime\\\": 1756907402000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB0256F3DAAFA181784A5\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T13:50:03.951846\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12342,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T13:50:22",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *IQ STERLING COURT, LONDON*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 10.2 mi (34 mins)\n*Walk:* 8.1 mi (2 hours 45 mins)\n*Bus/Train:* 8.4 mi (34 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143147\n\n------------\n\n🏡 *IQ THE ARCADE, LONDON*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.0 mi (17 mins)\n*Walk:* 2.8 mi (57 mins)\n*Bus/Train:* 3.0 mi (30 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143139\n\n------------\n\n🏡 *IQ HIGHBURY, LONDON*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.3 mi (17 mins)\n*Walk:* 3.4 mi (1 hour 9 mins)\n*Bus/Train:* 4.1 mi (16 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143159\n\n------------\n\n🏡 *IQ ALDGATE, LONDON*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.6 mi (24 mins)\n*Walk:* 3.4 mi (1 hour 18 mins)\n*Bus/Train:* 3.7 mi (25 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267/form?url=rachna.a%40amberstudent.com&amp;inventory_id=136693\n\n------------\n\n🏡 *CAMDEN HAWLEY CRESCENT, LONDON *\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.0 mi (12 mins)\n*Walk:* 1.4 mi (31 mins)\n*Bus/Train:* 1.7 mi (15 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\n\n------------\n\n🏡 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 0.1 mi (1 min)\n*Walk:* 0.1 mi (3 mins)\n*Bus/Train:* 0.1 mi (3 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137083\n\n------------\n\n🏡 *PORTOBELLO GARROW HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.7 mi (20 mins)\n*Walk:* 3.7 mi (1 hour 24 mins)\n*Bus/Train:* 3.8 mi (24 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137073\n\n------------\n\n🏡 *CHELSEA LIGHTFOOT HALL, LONDON*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.9 mi (25 mins)\n*Walk:* 3.8 mi (1 hour 18 mins)\n*Bus/Train:* 4.3 mi (33 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137043\n\n------------",
+      "source": "whatsapp",
+      "event_id": "8198354",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T13:50:22\", \"id\": 8198354, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB0DC830EFFEA1CE3A5D0\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 10.2 mi (34 mins)\\n*Walk:* 8.1 mi (2 hours 45 mins)\\n*Bus/Train:* 8.4 mi (34 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143147\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ THE ARCADE, LONDON*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.0 mi (17 mins)\\n*Walk:* 2.8 mi (57 mins)\\n*Bus/Train:* 3.0 mi (30 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143139\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ HIGHBURY, LONDON*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.3 mi (17 mins)\\n*Walk:* 3.4 mi (1 hour 9 mins)\\n*Bus/Train:* 4.1 mi (16 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143159\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ ALDGATE, LONDON*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.6 mi (24 mins)\\n*Walk:* 3.4 mi (1 hour 18 mins)\\n*Bus/Train:* 3.7 mi (25 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267/form?url=rachna.a%40amberstudent.com&amp;inventory_id=136693\\n\\n------------\\n\\n\\ud83c\\udfe1 *CAMDEN HAWLEY CRESCENT, LONDON *\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.0 mi (12 mins)\\n*Walk:* 1.4 mi (31 mins)\\n*Bus/Train:* 1.7 mi (15 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\\n\\n------------\\n\\n\\ud83c\\udfe1 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 0.1 mi (1 min)\\n*Walk:* 0.1 mi (3 mins)\\n*Bus/Train:* 0.1 mi (3 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137083\\n\\n------------\\n\\n\\ud83c\\udfe1 *PORTOBELLO GARROW HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.7 mi (20 mins)\\n*Walk:* 3.7 mi (1 hour 24 mins)\\n*Bus/Train:* 3.8 mi (24 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137073\\n\\n------------\\n\\n\\ud83c\\udfe1 *CHELSEA LIGHTFOOT HALL, LONDON*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.9 mi (25 mins)\\n*Walk:* 3.8 mi (1 hour 18 mins)\\n*Bus/Train:* 4.3 mi (33 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137043\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-03T13:50:22.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 10.2 mi (34 mins)\\\\n*Walk:* 8.1 mi (2 hours 45 mins)\\\\n*Bus/Train:* 8.4 mi (34 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143147\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ THE ARCADE, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.0 mi (17 mins)\\\\n*Walk:* 2.8 mi (57 mins)\\\\n*Bus/Train:* 3.0 mi (30 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143139\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ HIGHBURY, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.3 mi (17 mins)\\\\n*Walk:* 3.4 mi (1 hour 9 mins)\\\\n*Bus/Train:* 4.1 mi (16 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143159\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ ALDGATE, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.6 mi (24 mins)\\\\n*Walk:* 3.4 mi (1 hour 18 mins)\\\\n*Bus/Train:* 3.7 mi (25 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267/form?url=rachna.a%40amberstudent.com&amp;inventory_id=136693\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CAMDEN HAWLEY CRESCENT, LONDON *\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.0 mi (12 mins)\\\\n*Walk:* 1.4 mi (31 mins)\\\\n*Bus/Train:* 1.7 mi (15 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 0.1 mi (1 min)\\\\n*Walk:* 0.1 mi (3 mins)\\\\n*Bus/Train:* 0.1 mi (3 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137083\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *PORTOBELLO GARROW HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.7 mi (20 mins)\\\\n*Walk:* 3.7 mi (1 hour 24 mins)\\\\n*Bus/Train:* 3.8 mi (24 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137073\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CHELSEA LIGHTFOOT HALL, LONDON*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.9 mi (25 mins)\\\\n*Walk:* 3.8 mi (1 hour 18 mins)\\\\n*Bus/Train:* 4.3 mi (33 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137043\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1756907422000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB0DC830EFFEA1CE3A5D0\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T13:50:23.394154\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12343,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T14:38:17",
+      "content": "None of the properties is for 5-25 weeks stay",
+      "source": "whatsapp",
+      "event_id": "8201100",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T14:38:17\", \"id\": 8201100, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3A3A24521BDE4E14182F\", \"message_type\": \"text\", \"message_content\": \"None of the properties is for 5-25 weeks stay\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-03T14:38:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"None of the properties is for 5-25 weeks stay\\\", \\\"Datetime\\\": 1756910297000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3A3A24521BDE4E14182F\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T14:38:18.360057\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12344,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-03T14:38:24",
+      "content": "K am staying inly for 3 months",
+      "source": "whatsapp",
+      "event_id": "8201111",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-03T14:38:24\", \"id\": 8201111, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3A6F847EFD47C5B6F0AF\", \"message_type\": \"text\", \"message_content\": \"K am staying inly for 3 months\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-03T14:38:24.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"K am staying inly for 3 months\\\", \\\"Datetime\\\": 1756910304000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3A6F847EFD47C5B6F0AF\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-03T14:38:25.165333\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12345,
+      "lead_id": 763,
+      "event_type": "call",
+      "timestamp": "2025-09-11T13:31:54.147572",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7857981",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-11T13:31:54.147572\", \"id\": 7857981, \"duration\": \"0\", \"to_number\": \"420778448880\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12346,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T11:38:53",
+      "content": "Hello, how is it looking,",
+      "source": "whatsapp",
+      "event_id": "8556488",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T11:38:53\", \"id\": 8556488, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3ADFBAEB2B50ECDD3F82\", \"message_type\": \"text\", \"message_content\": \"Hello, how is it looking,\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-12T11:38:53.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hello, how is it looking,\\\", \\\"Datetime\\\": 1757677133000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3ADFBAEB2B50ECDD3F82\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-12T11:38:54.108480\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12347,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T11:38:59",
+      "content": "Are there any options?",
+      "source": "whatsapp",
+      "event_id": "8556492",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T11:38:59\", \"id\": 8556492, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3A5B487A70B4931661A3\", \"message_type\": \"text\", \"message_content\": \"Are there any options?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-12T11:38:59.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Are there any options?\\\", \\\"Datetime\\\": 1757677139000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3A5B487A70B4931661A3\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-12T11:39:00.268277\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12348,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T11:39:39",
+      "content": "Budget ?",
+      "source": "whatsapp",
+      "event_id": "8556514",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T11:39:39\", \"id\": 8556514, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3AC001528DA63F3F057A\", \"message_type\": \"text\", \"message_content\": \"Budget ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-12T11:39:39.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Budget ?\\\", \\\"Datetime\\\": 1757677179000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3AC001528DA63F3F057A\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-12T11:39:40.427303\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12349,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T11:41:20",
+      "content": "Ideally 250-300",
+      "source": "whatsapp",
+      "event_id": "8556573",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T11:41:20\", \"id\": 8556573, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3A7CC6863055BBE9E03E\", \"message_type\": \"text\", \"message_content\": \"Ideally 250-300\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-12T11:41:20.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Ideally 250-300\\\", \\\"Datetime\\\": 1757677280000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3A7CC6863055BBE9E03E\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-12T11:41:20.516120\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12350,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T11:41:20",
+      "content": "Or cheaper",
+      "source": "whatsapp",
+      "event_id": "8556576",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T11:41:20\", \"id\": 8556576, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3A35C91A36F8870BEF7B\", \"message_type\": \"text\", \"message_content\": \"Or cheaper\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-12T11:41:20.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Or cheaper\\\", \\\"Datetime\\\": 1757677280000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3A35C91A36F8870BEF7B\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-12T11:41:20.891219\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12351,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-18T19:25:51",
+      "content": "Hi Eliska",
+      "source": "whatsapp",
+      "event_id": "8783018",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-18T19:25:51\", \"id\": 8783018, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB0FEF025CB1210620AE0\", \"message_type\": \"text\", \"message_content\": \"Hi Eliska\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-18T19:25:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Eliska\\\", \\\"Datetime\\\": 1758223551000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB0FEF025CB1210620AE0\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-18T19:25:52.748737\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12352,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-18T20:01:12",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *LONDON NEST MANNEQUIN HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/londonest-mannequin-house-2208057845027\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/londonest-mannequin-house-2208057845027?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from University College London:*\n*Drive:* 7.2 mi (37 mins)\n*Walk:* 7.2 mi (2 hours 42 mins)\n*Bus/Train:* 7.6 mi (27 mins)\n\n🏘 *ROOM TYPES:*\n*Gold Ensuite:*\n  £320/week (Duration: 18 week) (Move in: 22 Sep, 2025) (Move out: 25 Jan, 2026)\n\n*Silver Ensuite:*\n  £320/week (Duration: 18 week) (Move in: 22 Sep, 2025) (Move out: 25 Jan, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/londonest-mannequin-house-2208057845027/form?url=rachna.a%40amberstudent.com&amp;inventory_id=225346\n\n------------\n\n🏡 *GREAT COURT, LONDON*\nhttps://ucl.studentacco.com/places/great-court-bermondsey-2103105499931\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/great-court-bermondsey-2103105499931?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from University College London:*\n*Drive:* 4.9 mi (30 mins)\n*Walk:* 4.4 mi (1 hour 40 mins)\n*Bus/Train:* 7.7 mi (46 mins)\n\n🏘 *ROOM TYPES:*\n*Gold En Suite:*\n  £309/week (Duration: 14 week) (Move in: 18 Sep, 2025) (Move out: 26 Dec, 2025)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/great-court-bermondsey-2103105499931/form?url=rachna.a%40amberstudent.com&amp;inventory_id=179858\n\n------------\n\n🏡 *CANVAS STUDENT BARNARD POINT, LONDON*\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 9.5 mi (34 mins)\n*Walk:* 8.1 mi (2 hours 45 mins)\n*Bus/Train:* 8.0 mi (27 mins)\n\n🏘 *ROOM TYPES:*\n*Ensuite Bronze Mid:*\n  £339/week (Duration: 15 week) (Move in: 17 Sep, 2025) (Move out: 2 Jan, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439/form?url=rachna.a%40amberstudent.com&amp;inventory_id=148467\n\n------------\n\n🏡 *IQ HAYWOOD HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.8 mi (18 mins)\n*Walk:* 3.4 mi (1 hour 9 mins)\n*Bus/Train:* 3.8 mi (26 mins)\n\n🏘 *ROOM TYPES:*\n*Saver En Suite:*\n  £338/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\n\n*Gold En Suite:*\n  £385/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\n\n*Gold En Suite Plus:*\n  £389/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\n\n*Gold En Suite Premium:*\n£380 - £389/week (Duration: 15 week - 49 week) (Move in: 20 Sep, 2025)\n\n*Gold Studio:*\n  £564/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469/form?url=rachna.a%40amberstudent.com&amp;inventory_id=134919\n\n------------\n\n🏡 *STAPLETON HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.8 mi (18 mins)\n*Walk:* 2.6 mi (58 mins)\n*Bus/Train:* 3.0 mi (28 mins)\n\n🏘 *ROOM TYPES:*\n*Classic Ensuite:*\n  £355/week (Duration: 15 week) (Move in: 20 Sep, 2025) (Move out: 3 Jan, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265/form?url=rachna.a%40amberstudent.com&amp;inventory_id=1486469\n\n------------\n\n🏡 *PACIFIC COURT, LONDON*\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 4.5 mi (30 mins)\n*Walk:* 4.2 mi (1 hour 26 mins)\n*Bus/Train:* 4.9 mi (23 mins)\n\n🏘 *ROOM TYPES:*\n*Classic Ensuite:*\n  £335/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 1 Jan, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137846\n\n------------\n\n🏡 *GOBRITANYA MCMILLAN RESIDENCE, LONDON*\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 7.5 mi (41 mins)\n*Walk:* 6.4 mi (2 hours 10 mins)\n*Bus/Train:* 9.7 mi (46 mins)\n\n🏘 *ROOM TYPES:*\n*GRN - Bronze Studio (Accessible):*\n  £375/week (Duration: 20 week) (Move in: 20 Sep, 2025) (Move out: 6 Feb, 2026)\n  £375/week (Duration: 12 week) (Move in: 20 Sep, 2025) (Move out: 12 Dec, 2025)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388/form?url=rachna.a%40amberstudent.com&amp;inventory_id=259953\n\n------------\n\n🏡 *CANVAS STUDENT ARTHUR HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/canvas-student-arthur-house-london-2411133787278\n\n📍 *DISTANCE from University College London:*\n*Drive:* 11.6 mi (43 min)\n*Walk:* 8.1 mi (2 hr 33 min)\n*Bus/Train:* 8.1 mi (31 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/canvas-student-arthur-house-london-2411133787278/form?url=rachna.a%40amberstudent.com&amp;inventory_id=1421990\n\n------------\n\n🏡 *GOBRITANYA YOUR TRIBE SOUTHWARK, LONDON*\nhttps://ucl.studentacco.com/places/gobritanya-your-tribe-southwark-london-2507164895270\n\n📍 *DISTANCE from University College London:*\n*Drive:* 5.8 mi (33 mins)\n*Walk:* 4.7 mi (1 hour 48 mins)\n*Bus/Train:* 5.8 mi (43 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/gobritanya-your-tribe-southwark-london-2507164895270/form?url=rachna.a%40amberstudent.com&amp;inventory_id=1997504\n\n------------\n\n🏡 *EAST CENTRAL HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.3 mi (15 mins)\n*Walk:* 2.1 mi (48 mins)\n*Bus/Train:* 2.4 mi (28 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466/form?url=rachna.a%40amberstudent.com&amp;inventory_id=924781\n\n------------",
+      "source": "whatsapp",
+      "event_id": "8783804",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-18T20:01:12\", \"id\": 8783804, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB0EF63DD3EBF663BF86F\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *LONDON NEST MANNEQUIN HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/londonest-mannequin-house-2208057845027\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/londonest-mannequin-house-2208057845027?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 7.2 mi (37 mins)\\n*Walk:* 7.2 mi (2 hours 42 mins)\\n*Bus/Train:* 7.6 mi (27 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Gold Ensuite:*\\n\\u00a0\\u00a0\\u00a3320/week (Duration: 18 week) (Move in: 22 Sep, 2025) (Move out: 25 Jan, 2026)\\n\\n*Silver Ensuite:*\\n\\u00a0\\u00a0\\u00a3320/week (Duration: 18 week) (Move in: 22 Sep, 2025) (Move out: 25 Jan, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/londonest-mannequin-house-2208057845027/form?url=rachna.a%40amberstudent.com&amp;inventory_id=225346\\n\\n------------\\n\\n\\ud83c\\udfe1 *GREAT COURT, LONDON*\\nhttps://ucl.studentacco.com/places/great-court-bermondsey-2103105499931\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/great-court-bermondsey-2103105499931?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 4.9 mi (30 mins)\\n*Walk:* 4.4 mi (1 hour 40 mins)\\n*Bus/Train:* 7.7 mi (46 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Gold En Suite:*\\n\\u00a0\\u00a0\\u00a3309/week (Duration: 14 week) (Move in: 18 Sep, 2025) (Move out: 26 Dec, 2025)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/great-court-bermondsey-2103105499931/form?url=rachna.a%40amberstudent.com&amp;inventory_id=179858\\n\\n------------\\n\\n\\ud83c\\udfe1 *CANVAS STUDENT BARNARD POINT, LONDON*\\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 9.5 mi (34 mins)\\n*Walk:* 8.1 mi (2 hours 45 mins)\\n*Bus/Train:* 8.0 mi (27 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Ensuite Bronze Mid:*\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 15 week) (Move in: 17 Sep, 2025) (Move out: 2 Jan, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439/form?url=rachna.a%40amberstudent.com&amp;inventory_id=148467\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ HAYWOOD HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.8 mi (18 mins)\\n*Walk:* 3.4 mi (1 hour 9 mins)\\n*Bus/Train:* 3.8 mi (26 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Saver En Suite:*\\n\\u00a0\\u00a0\\u00a3338/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\\n\\n*Gold En Suite:*\\n\\u00a0\\u00a0\\u00a3385/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\\n\\n*Gold En Suite Plus:*\\n\\u00a0\\u00a0\\u00a3389/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\\n\\n*Gold En Suite Premium:*\\n\\u00a3380 - \\u00a3389/week (Duration: 15 week - 49 week) (Move in: 20 Sep, 2025)\\n\\n*Gold Studio:*\\n\\u00a0\\u00a0\\u00a3564/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469/form?url=rachna.a%40amberstudent.com&amp;inventory_id=134919\\n\\n------------\\n\\n\\ud83c\\udfe1 *STAPLETON HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.8 mi (18 mins)\\n*Walk:* 2.6 mi (58 mins)\\n*Bus/Train:* 3.0 mi (28 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Classic Ensuite:*\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 15 week) (Move in: 20 Sep, 2025) (Move out: 3 Jan, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265/form?url=rachna.a%40amberstudent.com&amp;inventory_id=1486469\\n\\n------------\\n\\n\\ud83c\\udfe1 *PACIFIC COURT, LONDON*\\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 4.5 mi (30 mins)\\n*Walk:* 4.2 mi (1 hour 26 mins)\\n*Bus/Train:* 4.9 mi (23 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Classic Ensuite:*\\n\\u00a0\\u00a0\\u00a3335/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 1 Jan, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137846\\n\\n------------\\n\\n\\ud83c\\udfe1 *GOBRITANYA MCMILLAN RESIDENCE, LONDON*\\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 7.5 mi (41 mins)\\n*Walk:* 6.4 mi (2 hours 10 mins)\\n*Bus/Train:* 9.7 mi (46 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*GRN - Bronze Studio (Accessible):*\\n\\u00a0\\u00a0\\u00a3375/week (Duration: 20 week) (Move in: 20 Sep, 2025) (Move out: 6 Feb, 2026)\\n\\u00a0\\u00a0\\u00a3375/week (Duration: 12 week) (Move in: 20 Sep, 2025) (Move out: 12 Dec, 2025)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388/form?url=rachna.a%40amberstudent.com&amp;inventory_id=259953\\n\\n------------\\n\\n\\ud83c\\udfe1 *CANVAS STUDENT ARTHUR HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/canvas-student-arthur-house-london-2411133787278\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 11.6 mi (43 min)\\n*Walk:* 8.1 mi (2 hr 33 min)\\n*Bus/Train:* 8.1 mi (31 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/canvas-student-arthur-house-london-2411133787278/form?url=rachna.a%40amberstudent.com&amp;inventory_id=1421990\\n\\n------------\\n\\n\\ud83c\\udfe1 *GOBRITANYA YOUR TRIBE SOUTHWARK, LONDON*\\nhttps://ucl.studentacco.com/places/gobritanya-your-tribe-southwark-london-2507164895270\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 5.8 mi (33 mins)\\n*Walk:* 4.7 mi (1 hour 48 mins)\\n*Bus/Train:* 5.8 mi (43 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/gobritanya-your-tribe-southwark-london-2507164895270/form?url=rachna.a%40amberstudent.com&amp;inventory_id=1997504\\n\\n------------\\n\\n\\ud83c\\udfe1 *EAST CENTRAL HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.3 mi (15 mins)\\n*Walk:* 2.1 mi (48 mins)\\n*Bus/Train:* 2.4 mi (28 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466/form?url=rachna.a%40amberstudent.com&amp;inventory_id=924781\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-18T20:01:12.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *LONDON NEST MANNEQUIN HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/londonest-mannequin-house-2208057845027\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/londonest-mannequin-house-2208057845027?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 7.2 mi (37 mins)\\\\n*Walk:* 7.2 mi (2 hours 42 mins)\\\\n*Bus/Train:* 7.6 mi (27 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Gold Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3320/week (Duration: 18 week) (Move in: 22 Sep, 2025) (Move out: 25 Jan, 2026)\\\\n\\\\n*Silver Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3320/week (Duration: 18 week) (Move in: 22 Sep, 2025) (Move out: 25 Jan, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/londonest-mannequin-house-2208057845027/form?url=rachna.a%40amberstudent.com&amp;inventory_id=225346\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *GREAT COURT, LONDON*\\\\nhttps://ucl.studentacco.com/places/great-court-bermondsey-2103105499931\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/great-court-bermondsey-2103105499931?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 4.9 mi (30 mins)\\\\n*Walk:* 4.4 mi (1 hour 40 mins)\\\\n*Bus/Train:* 7.7 mi (46 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Gold En Suite:*\\\\n\\u00a0\\u00a0\\u00a3309/week (Duration: 14 week) (Move in: 18 Sep, 2025) (Move out: 26 Dec, 2025)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/great-court-bermondsey-2103105499931/form?url=rachna.a%40amberstudent.com&amp;inventory_id=179858\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CANVAS STUDENT BARNARD POINT, LONDON*\\\\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 9.5 mi (34 mins)\\\\n*Walk:* 8.1 mi (2 hours 45 mins)\\\\n*Bus/Train:* 8.0 mi (27 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Ensuite Bronze Mid:*\\\\n\\u00a0\\u00a0\\u00a3339/week (Duration: 15 week) (Move in: 17 Sep, 2025) (Move out: 2 Jan, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/canvas-student-barnard-point-london-2001238048439/form?url=rachna.a%40amberstudent.com&amp;inventory_id=148467\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ HAYWOOD HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.8 mi (18 mins)\\\\n*Walk:* 3.4 mi (1 hour 9 mins)\\\\n*Bus/Train:* 3.8 mi (26 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Saver En Suite:*\\\\n\\u00a0\\u00a0\\u00a3338/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\\\\n\\\\n*Gold En Suite:*\\\\n\\u00a0\\u00a0\\u00a3385/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\\\\n\\\\n*Gold En Suite Plus:*\\\\n\\u00a0\\u00a0\\u00a3389/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\\\\n\\\\n*Gold En Suite Premium:*\\\\n\\u00a3380 - \\u00a3389/week (Duration: 15 week - 49 week) (Move in: 20 Sep, 2025)\\\\n\\\\n*Gold Studio:*\\\\n\\u00a0\\u00a0\\u00a3564/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 26 Dec, 2025)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-haywood-house-london-1706037699469/form?url=rachna.a%40amberstudent.com&amp;inventory_id=134919\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *STAPLETON HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.8 mi (18 mins)\\\\n*Walk:* 2.6 mi (58 mins)\\\\n*Bus/Train:* 3.0 mi (28 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Classic Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3355/week (Duration: 15 week) (Move in: 20 Sep, 2025) (Move out: 3 Jan, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/stapleton-house-london-2412050280265/form?url=rachna.a%40amberstudent.com&amp;inventory_id=1486469\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *PACIFIC COURT, LONDON*\\\\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 4.5 mi (30 mins)\\\\n*Walk:* 4.2 mi (1 hour 26 mins)\\\\n*Bus/Train:* 4.9 mi (23 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Classic Ensuite:*\\\\n\\u00a0\\u00a0\\u00a3335/week (Duration: 14 week) (Move in: 20 Sep, 2025) (Move out: 1 Jan, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/pacific-court-london-1710240121954/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137846\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *GOBRITANYA MCMILLAN RESIDENCE, LONDON*\\\\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 7.5 mi (41 mins)\\\\n*Walk:* 6.4 mi (2 hours 10 mins)\\\\n*Bus/Train:* 9.7 mi (46 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*GRN - Bronze Studio (Accessible):*\\\\n\\u00a0\\u00a0\\u00a3375/week (Duration: 20 week) (Move in: 20 Sep, 2025) (Move out: 6 Feb, 2026)\\\\n\\u00a0\\u00a0\\u00a3375/week (Duration: 12 week) (Move in: 20 Sep, 2025) (Move out: 12 Dec, 2025)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/mcmillan-residence-go-britanya-london-2303234603388/form?url=rachna.a%40amberstudent.com&amp;inventory_id=259953\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CANVAS STUDENT ARTHUR HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/canvas-student-arthur-house-london-2411133787278\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 11.6 mi (43 min)\\\\n*Walk:* 8.1 mi (2 hr 33 min)\\\\n*Bus/Train:* 8.1 mi (31 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/canvas-student-arthur-house-london-2411133787278/form?url=rachna.a%40amberstudent.com&amp;inventory_id=1421990\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *GOBRITANYA YOUR TRIBE SOUTHWARK, LONDON*\\\\nhttps://ucl.studentacco.com/places/gobritanya-your-tribe-southwark-london-2507164895270\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 5.8 mi (33 mins)\\\\n*Walk:* 4.7 mi (1 hour 48 mins)\\\\n*Bus/Train:* 5.8 mi (43 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/gobritanya-your-tribe-southwark-london-2507164895270/form?url=rachna.a%40amberstudent.com&amp;inventory_id=1997504\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *EAST CENTRAL HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.3 mi (15 mins)\\\\n*Walk:* 2.1 mi (48 mins)\\\\n*Bus/Train:* 2.4 mi (28 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/east-central-house-london-2311140711466/form?url=rachna.a%40amberstudent.com&amp;inventory_id=924781\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1758225672000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB0EF63DD3EBF663BF86F\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-18T20:01:12.383675\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12353,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-23T13:35:23",
+      "content": "Hi Eliska",
+      "source": "whatsapp",
+      "event_id": "8921134",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-23T13:35:23\", \"id\": 8921134, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB025E4D35B01B69444D2\", \"message_type\": \"text\", \"message_content\": \"Hi Eliska\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-23T13:35:23.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Eliska\\\", \\\"Datetime\\\": 1758634523000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB025E4D35B01B69444D2\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-23T13:35:24.277248\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12354,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-23T13:35:39",
+      "content": "May I know your update?",
+      "source": "whatsapp",
+      "event_id": "8921144",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-23T13:35:39\", \"id\": 8921144, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3EB060439FD2F94D6AC847\", \"message_type\": \"text\", \"message_content\": \"May I know your update?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-23T13:35:39.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"May I know your update?\\\", \\\"Datetime\\\": 1758634539000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3EB060439FD2F94D6AC847\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-23T13:35:39.378881\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12355,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-23T14:15:25",
+      "content": "Hi, I am sorry, I forgot to reply",
+      "source": "whatsapp",
+      "event_id": "8922941",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-23T14:15:25\", \"id\": 8922941, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3A346A084E7032F3CBF5\", \"message_type\": \"text\", \"message_content\": \"Hi, I am sorry, I forgot to reply\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-23T14:15:25.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi, I am sorry, I forgot to reply\\\", \\\"Datetime\\\": 1758636925000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3A346A084E7032F3CBF5\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-23T14:15:25.891659\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12356,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-23T14:16:14",
+      "content": "Thank you so much for the offers, I found another place which was more suitsble for my budget. But thank you a lot for your time and proposals",
+      "source": "whatsapp",
+      "event_id": "8923000",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-23T14:16:14\", \"id\": 8923000, \"email\": \"\", \"from_number\": \"420778448880\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_420778448880@c.us_3A54B740950AADFA47B2\", \"message_type\": \"text\", \"message_content\": \"Thank you so much for the offers, I found another place which was more suitsble for my budget. But thank you a lot for your time and proposals\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"420778448880@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-23T14:16:14.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Thank you so much for the offers, I found another place which was more suitsble for my budget. But thank you a lot for your time and proposals\\\", \\\"Datetime\\\": 1758636974000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"420778448880@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_420778448880@c.us_3A54B740950AADFA47B2\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"420778448880\\\", \\\"sentByUserId\\\": \\\"420778448880@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-23T14:16:20.620510\", \"direction\": \"inbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12357,
+      "lead_id": 763,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-23T14:17:11",
+      "content": "Ok",
+      "source": "whatsapp",
+      "event_id": "8923054",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-23T14:17:11\", \"id\": 8923054, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"420778448880\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_420778448880@c.us_3A9E8F1B38849E75F3FE\", \"message_type\": \"text\", \"message_content\": \"Ok\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-23T14:17:11.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Ok\\\", \\\"Datetime\\\": 1758637031000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"420778448880@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_420778448880@c.us_3A9E8F1B38849E75F3FE\\\", \\\"ChannelName\\\": \\\"420778448880\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-23T14:17:11.291076\", \"direction\": \"outbound\", \"sbase_user_id\": 2476996, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"420778448880\"}",
+      "created_at": "2025-11-18 12:54:36"
+    },
+    {
+      "id": 12358,
+      "lead_id": 763,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3238134, \"user_name\": \"Eliska Mrazkova\", \"email\": \"eliska.mrazek@outlook.com\", \"phone\": \"420778448880\", \"university\": \"university-college-london-1811059954160\", \"lease_duration\": \"5 - 25 Weeks\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3306, \"inventory_id\": 169881}",
+      "created_at": "2025-11-18 12:54:36"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 313,
+    "lead_id": 763,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Eliska Mrazkova\", \"mobile\": [\"+420778448880\"], \"email\": [\"eliska.mrazek@outlook.com\"], \"whatsapp\": [\"+420778448880\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 13, \"room_type\": null, \"budget\": {\"max\": 300, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-22\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Sterling Court\", \"IQ The Arcade\", \"IQ Highbury\", \"IQ Aldgate\", \"Camden Hawley Crescent\", \"Bloomsbury Janet Poole House\", \"Portobello Garrow House\", \"Chelsea Lightfoot Hall\", \"London Nest Mannequin House\", \"Great Court\", \"Canvas Student Barnard Point\", \"IQ Haywood House\", \"Stapleton House\", \"Pacific Court\", \"GoBritanya McMillan Residence\", \"Canvas Student Arthur House\", \"GoBritanya Your Tribe Southwark\", \"East Central House\"], \"rooms_considered\": [\"Gold Ensuite\", \"Silver Ensuite\", \"Ensuite Bronze Mid\", \"Saver En Suite\", \"Gold En Suite\", \"Gold En Suite Plus\", \"Gold En Suite Premium\", \"Gold Studio\", \"Classic Ensuite\", \"GRN - Bronze Studio (Accessible)\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Show Eliska accommodation options that fit her budget of up to \\u00a3200 per week and her stay duration from September 22 to mid-December (approx. 3 months).\", \"due\": \"within_24h\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent multiple property suggestions on 2025-09-03 with prices above \\u00a3250/week; customer requested cheapest options.\"}, {\"type\": \"communication\", \"description\": \"Inform Eliska that minimum weekly rent for available properties is currently \\u00a3250-275, which is above her initial budget of \\u00a3200/week.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent messages on 2025-09-03 explaining minimum rent prices.\"}, {\"type\": \"booking_action\", \"description\": \"Provide Eliska with accommodation options suitable for a 3-month stay (5-25 weeks) within her updated budget of \\u00a3250-300 per week or cheaper if possible.\", \"due\": \"within_week\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent new property suggestions on 2025-09-18 with weekly rents mostly above \\u00a3300 but within \\u00a3250-300 range.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Eliska to get her update on the accommodation options provided and check if she needs further assistance.\", \"due\": \"within_week\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent messages on 2025-09-23 asking for update.\"}], \"last_agent_response\": \"Sent multiple accommodation options on 2025-09-18 and followed up on 2025-09-23 asking for update.\", \"suggested_next_step\": \"No further action required as Eliska found alternative accommodation; close the lead or confirm no further assistance needed.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Eliska Mrazkova\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via numbers +420778448880 and +447832625341\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not specifically mentioned; agent asked about room preference but no reply recorded\", \"budget_range\": \"Initially up to \\u00a3200 per week; later updated to ideally \\u00a3250-300 per week or cheaper\", \"move_in_date\": \"Around 22 September 2025\", \"lease_duration\": \"5 to 25 weeks (noted in lead info); student clarified stay is about 3 months\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; student received multiple property suggestions but has not confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages exchanged over two main periods (early September and mid to late September 2025) plus two calls with zero duration\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-23T14:17:11\", \"response_time\": \"Generally prompt responses within minutes to hours; some delay noted on 23 September\", \"key_moments\": \"Initial contact and budget discussion on 3 September; property suggestions provided on 3 and 18 September; student indicated budget constraints and stay duration; final message on 23 September indicates student found alternative accommodation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Multiple properties suggested including IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Camden Hawley Crescent, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall, London Nest Mannequin House, Great Court Bermondsey, Canvas Student Barnard Point, IQ Haywood House, Stapleton House, Pacific Court, GoBritanya McMillan Residence, Canvas Student Arthur House, GoBritanya Your Tribe Southwark, East Central House\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student requested cheapest options; budget constraints noted; no specific preferences on room type or location beyond London and proximity to UCL\", \"offers_made\": \"Agent provided detailed property links and booking links but no special offers or discounts mentioned\"}, \"next_steps\": {\"immediate_actions\": \"None required as student has found alternative accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Student stay from approximately 22 September to mid-December 2025 (about 3 months)\"}, \"agent_notes\": {\"student_tone\": \"Polite and appreciative; clear about budget constraints; apologetic for delayed replies\", \"urgency_level\": \"Moderate urgency initially; decreased as student found alternative accommodation\", \"complexity\": \"Moderate complexity due to budget constraints and short lease duration\", \"special_considerations\": \"Student\\u2019s budget is below minimum market rates; lease duration is short (3 months); student ultimately chose alternative accommodation\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Eliska Mrazkova\", \"mobile\": [\"+420778448880\"], \"email\": [\"eliska.mrazek@outlook.com\"], \"whatsapp\": [\"+420778448880\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 13, \"room_type\": null, \"budget\": {\"max\": 300, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-22\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Sterling Court\", \"IQ The Arcade\", \"IQ Highbury\", \"IQ Aldgate\", \"Camden Hawley Crescent\", \"Bloomsbury Janet Poole House\", \"Portobello Garrow House\", \"Chelsea Lightfoot Hall\", \"London Nest Mannequin House\", \"Great Court\", \"Canvas Student Barnard Point\", \"IQ Haywood House\", \"Stapleton House\", \"Pacific Court\", \"GoBritanya McMillan Residence\", \"Canvas Student Arthur House\", \"GoBritanya Your Tribe Southwark\", \"East Central House\"], \"rooms_considered\": [\"Gold Ensuite\", \"Silver Ensuite\", \"Ensuite Bronze Mid\", \"Saver En Suite\", \"Gold En Suite\", \"Gold En Suite Plus\", \"Gold En Suite Premium\", \"Gold Studio\", \"Classic Ensuite\", \"GRN - Bronze Studio (Accessible)\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"booking_action\", \"description\": \"Show Eliska accommodation options that fit her budget of up to \\u00a3200 per week and her stay duration from September 22 to mid-December (approx. 3 months).\", \"due\": \"within_24h\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent multiple property suggestions on 2025-09-03 with prices above \\u00a3250/week; customer requested cheapest options.\"}, {\"type\": \"communication\", \"description\": \"Inform Eliska that minimum weekly rent for available properties is currently \\u00a3250-275, which is above her initial budget of \\u00a3200/week.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent messages on 2025-09-03 explaining minimum rent prices.\"}, {\"type\": \"booking_action\", \"description\": \"Provide Eliska with accommodation options suitable for a 3-month stay (5-25 weeks) within her updated budget of \\u00a3250-300 per week or cheaper if possible.\", \"due\": \"within_week\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent new property suggestions on 2025-09-18 with weekly rents mostly above \\u00a3300 but within \\u00a3250-300 range.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Eliska to get her update on the accommodation options provided and check if she needs further assistance.\", \"due\": \"within_week\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent messages on 2025-09-23 asking for update.\"}], \"last_agent_response\": \"Sent multiple accommodation options on 2025-09-18 and followed up on 2025-09-23 asking for update.\", \"suggested_next_step\": \"No further action required as Eliska found alternative accommodation; close the lead or confirm no further assistance needed.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Eliska Mrazkova\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via numbers +420778448880 and +447832625341\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not specifically mentioned; agent asked about room preference but no reply recorded\", \"budget_range\": \"Initially up to \\u00a3200 per week; later updated to ideally \\u00a3250-300 per week or cheaper\", \"move_in_date\": \"Around 22 September 2025\", \"lease_duration\": \"5 to 25 weeks (noted in lead info); student clarified stay is about 3 months\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; student received multiple property suggestions but has not confirmed booking\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple WhatsApp messages exchanged over two main periods (early September and mid to late September 2025) plus two calls with zero duration\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-23T14:17:11\", \"response_time\": \"Generally prompt responses within minutes to hours; some delay noted on 23 September\", \"key_moments\": \"Initial contact and budget discussion on 3 September; property suggestions provided on 3 and 18 September; student indicated budget constraints and stay duration; final message on 23 September indicates student found alternative accommodation\"}, \"properties_discussed\": {\"properties_mentioned\": \"Multiple properties suggested including IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Camden Hawley Crescent, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall, London Nest Mannequin House, Great Court Bermondsey, Canvas Student Barnard Point, IQ Haywood House, Stapleton House, Pacific Court, GoBritanya McMillan Residence, Canvas Student Arthur House, GoBritanya Your Tribe Southwark, East Central House\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Student requested cheapest options; budget constraints noted; no specific preferences on room type or location beyond London and proximity to UCL\", \"offers_made\": \"Agent provided detailed property links and booking links but no special offers or discounts mentioned\"}, \"next_steps\": {\"immediate_actions\": \"None required as student has found alternative accommodation\", \"pending_items\": \"None\", \"follow_up_required\": \"No follow-up needed unless student re-engages\", \"timeline\": \"Student stay from approximately 22 September to mid-December 2025 (about 3 months)\"}, \"agent_notes\": {\"student_tone\": \"Polite and appreciative; clear about budget constraints; apologetic for delayed replies\", \"urgency_level\": \"Moderate urgency initially; decreased as student found alternative accommodation\", \"complexity\": \"Moderate complexity due to budget constraints and short lease duration\", \"special_considerations\": \"Student\\u2019s budget is below minimum market rates; lease duration is short (3 months); student ultimately chose alternative accommodation\"}}}}}",
+    "created_at": "2025-11-18 12:54:50",
+    "updated_at": "2025-11-18T18:24:50.130367",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Eliska Mrazkova",
+        "mobile": [
+          "+420778448880"
+        ],
+        "email": [
+          "eliska.mrazek@outlook.com"
+        ],
+        "whatsapp": [
+          "+420778448880"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 13,
+        "room_type": null,
+        "budget": {
+          "max": 300,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": "2025-09-22",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "IQ Sterling Court",
+          "IQ The Arcade",
+          "IQ Highbury",
+          "IQ Aldgate",
+          "Camden Hawley Crescent",
+          "Bloomsbury Janet Poole House",
+          "Portobello Garrow House",
+          "Chelsea Lightfoot Hall",
+          "London Nest Mannequin House",
+          "Great Court",
+          "Canvas Student Barnard Point",
+          "IQ Haywood House",
+          "Stapleton House",
+          "Pacific Court",
+          "GoBritanya McMillan Residence",
+          "Canvas Student Arthur House",
+          "GoBritanya Your Tribe Southwark",
+          "East Central House"
+        ],
+        "rooms_considered": [
+          "Gold Ensuite",
+          "Silver Ensuite",
+          "Ensuite Bronze Mid",
+          "Saver En Suite",
+          "Gold En Suite",
+          "Gold En Suite Plus",
+          "Gold En Suite Premium",
+          "Gold Studio",
+          "Classic Ensuite",
+          "GRN - Bronze Studio (Accessible)"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "booking_action",
+          "description": "Show Eliska accommodation options that fit her budget of up to £200 per week and her stay duration from September 22 to mid-December (approx. 3 months).",
+          "due": "within_24h",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent sent multiple property suggestions on 2025-09-03 with prices above £250/week; customer requested cheapest options."
+        },
+        {
+          "type": "communication",
+          "description": "Inform Eliska that minimum weekly rent for available properties is currently £250-275, which is above her initial budget of £200/week.",
+          "due": "completed",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent messages on 2025-09-03 explaining minimum rent prices."
+        },
+        {
+          "type": "booking_action",
+          "description": "Provide Eliska with accommodation options suitable for a 3-month stay (5-25 weeks) within her updated budget of £250-300 per week or cheaper if possible.",
+          "due": "within_week",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent sent new property suggestions on 2025-09-18 with weekly rents mostly above £300 but within £250-300 range."
+        },
+        {
+          "type": "follow_up",
+          "description": "Follow up with Eliska to get her update on the accommodation options provided and check if she needs further assistance.",
+          "due": "within_week",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent messages on 2025-09-23 asking for update."
+        }
+      ],
+      "last_agent_response": "Sent multiple accommodation options on 2025-09-18 and followed up on 2025-09-23 asking for update.",
+      "suggested_next_step": "No further action required as Eliska found alternative accommodation; close the lead or confirm no further assistance needed."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Eliska Mrazkova",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via numbers +420778448880 and +447832625341",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not specifically mentioned; agent asked about room preference but no reply recorded",
+            "budget_range": "Initially up to £200 per week; later updated to ideally £250-300 per week or cheaper",
+            "move_in_date": "Around 22 September 2025",
+            "lease_duration": "5 to 25 weeks (noted in lead info); student clarified stay is about 3 months",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage; student received multiple property suggestions but has not confirmed booking",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple WhatsApp messages exchanged over two main periods (early September and mid to late September 2025) plus two calls with zero duration",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-23T14:17:11",
+            "response_time": "Generally prompt responses within minutes to hours; some delay noted on 23 September",
+            "key_moments": "Initial contact and budget discussion on 3 September; property suggestions provided on 3 and 18 September; student indicated budget constraints and stay duration; final message on 23 September indicates student found alternative accommodation"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Multiple properties suggested including IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Camden Hawley Crescent, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall, London Nest Mannequin House, Great Court Bermondsey, Canvas Student Barnard Point, IQ Haywood House, Stapleton House, Pacific Court, GoBritanya McMillan Residence, Canvas Student Arthur House, GoBritanya Your Tribe Southwark, East Central House",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Student requested cheapest options; budget constraints noted; no specific preferences on room type or location beyond London and proximity to UCL",
+            "offers_made": "Agent provided detailed property links and booking links but no special offers or discounts mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "None required as student has found alternative accommodation",
+            "pending_items": "None",
+            "follow_up_required": "No follow-up needed unless student re-engages",
+            "timeline": "Student stay from approximately 22 September to mid-December 2025 (about 3 months)"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and appreciative; clear about budget constraints; apologetic for delayed replies",
+            "urgency_level": "Moderate urgency initially; decreased as student found alternative accommodation",
+            "complexity": "Moderate complexity due to budget constraints and short lease duration",
+            "special_considerations": "Student’s budget is below minimum market rates; lease duration is short (3 months); student ultimately chose alternative accommodation"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Eliska Mrazkova",
+          "mobile": [
+            "+420778448880"
+          ],
+          "email": [
+            "eliska.mrazek@outlook.com"
+          ],
+          "whatsapp": [
+            "+420778448880"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 13,
+          "room_type": null,
+          "budget": {
+            "max": 300,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": "2025-09-22",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "IQ Sterling Court",
+            "IQ The Arcade",
+            "IQ Highbury",
+            "IQ Aldgate",
+            "Camden Hawley Crescent",
+            "Bloomsbury Janet Poole House",
+            "Portobello Garrow House",
+            "Chelsea Lightfoot Hall",
+            "London Nest Mannequin House",
+            "Great Court",
+            "Canvas Student Barnard Point",
+            "IQ Haywood House",
+            "Stapleton House",
+            "Pacific Court",
+            "GoBritanya McMillan Residence",
+            "Canvas Student Arthur House",
+            "GoBritanya Your Tribe Southwark",
+            "East Central House"
+          ],
+          "rooms_considered": [
+            "Gold Ensuite",
+            "Silver Ensuite",
+            "Ensuite Bronze Mid",
+            "Saver En Suite",
+            "Gold En Suite",
+            "Gold En Suite Plus",
+            "Gold En Suite Premium",
+            "Gold Studio",
+            "Classic Ensuite",
+            "GRN - Bronze Studio (Accessible)"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "booking_action",
+            "description": "Show Eliska accommodation options that fit her budget of up to £200 per week and her stay duration from September 22 to mid-December (approx. 3 months).",
+            "due": "within_24h",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent sent multiple property suggestions on 2025-09-03 with prices above £250/week; customer requested cheapest options."
+          },
+          {
+            "type": "communication",
+            "description": "Inform Eliska that minimum weekly rent for available properties is currently £250-275, which is above her initial budget of £200/week.",
+            "due": "completed",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent messages on 2025-09-03 explaining minimum rent prices."
+          },
+          {
+            "type": "booking_action",
+            "description": "Provide Eliska with accommodation options suitable for a 3-month stay (5-25 weeks) within her updated budget of £250-300 per week or cheaper if possible.",
+            "due": "within_week",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent sent new property suggestions on 2025-09-18 with weekly rents mostly above £300 but within £250-300 range."
+          },
+          {
+            "type": "follow_up",
+            "description": "Follow up with Eliska to get her update on the accommodation options provided and check if she needs further assistance.",
+            "due": "within_week",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent messages on 2025-09-23 asking for update."
+          }
+        ],
+        "last_agent_response": "Sent multiple accommodation options on 2025-09-18 and followed up on 2025-09-23 asking for update.",
+        "suggested_next_step": "No further action required as Eliska found alternative accommodation; close the lead or confirm no further assistance needed."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Eliska Mrazkova",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via numbers +420778448880 and +447832625341",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not specifically mentioned; agent asked about room preference but no reply recorded",
+              "budget_range": "Initially up to £200 per week; later updated to ideally £250-300 per week or cheaper",
+              "move_in_date": "Around 22 September 2025",
+              "lease_duration": "5 to 25 weeks (noted in lead info); student clarified stay is about 3 months",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage; student received multiple property suggestions but has not confirmed booking",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple WhatsApp messages exchanged over two main periods (early September and mid to late September 2025) plus two calls with zero duration",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-23T14:17:11",
+              "response_time": "Generally prompt responses within minutes to hours; some delay noted on 23 September",
+              "key_moments": "Initial contact and budget discussion on 3 September; property suggestions provided on 3 and 18 September; student indicated budget constraints and stay duration; final message on 23 September indicates student found alternative accommodation"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Multiple properties suggested including IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Camden Hawley Crescent, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall, London Nest Mannequin House, Great Court Bermondsey, Canvas Student Barnard Point, IQ Haywood House, Stapleton House, Pacific Court, GoBritanya McMillan Residence, Canvas Student Arthur House, GoBritanya Your Tribe Southwark, East Central House",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Student requested cheapest options; budget constraints noted; no specific preferences on room type or location beyond London and proximity to UCL",
+              "offers_made": "Agent provided detailed property links and booking links but no special offers or discounts mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "None required as student has found alternative accommodation",
+              "pending_items": "None",
+              "follow_up_required": "No follow-up needed unless student re-engages",
+              "timeline": "Student stay from approximately 22 September to mid-December 2025 (about 3 months)"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and appreciative; clear about budget constraints; apologetic for delayed replies",
+              "urgency_level": "Moderate urgency initially; decreased as student found alternative accommodation",
+              "complexity": "Moderate complexity due to budget constraints and short lease duration",
+              "special_considerations": "Student’s budget is below minimum market rates; lease duration is short (3 months); student ultimately chose alternative accommodation"
+            }
+          }
+        }
+      }
+    }
+  }
+}

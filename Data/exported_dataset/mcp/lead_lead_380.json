@@ -1,0 +1,338 @@
+{
+  "id": "lead_380",
+  "mobile_number": "447384893628",
+  "email": null,
+  "timeline": [
+    {
+      "id": 6548,
+      "lead_id": 380,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3155958, \"user_name\": \"Harry Ebbans\", \"email\": \"harryebbans@gmail.com\", \"phone\": \"447384893628\", \"lease_duration\": \"44 week\", \"move_out_date\": \"2026-07-10\", \"budget\": 583, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1700904}",
+      "created_at": "2025-11-18 11:00:25"
+    },
+    {
+      "id": 6549,
+      "lead_id": 380,
+      "event_type": "call",
+      "timestamp": "2025-08-18T18:45:34.918435",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7710958",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-18T18:45:34.918435\", \"id\": 7710958, \"duration\": \"106\", \"to_number\": \"447384893628\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4a8c6be2-da0e-4c2a-89b2-f08b2288055d.wav\"}",
+      "created_at": "2025-11-18 11:00:25"
+    },
+    {
+      "id": 6550,
+      "lead_id": 380,
+      "event_type": "call",
+      "timestamp": "2025-08-20T15:17:26.954016",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7724613",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-20T15:17:26.954016\", \"id\": 7724613, \"duration\": \"4\", \"to_number\": \"447384893628\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f662af30-4a91-47b2-99fd-ed8b97cabc9e.wav\"}",
+      "created_at": "2025-11-18 11:00:25"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 285,
+      "lead_id": 380,
+      "call_id": "7710958",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4a8c6be2-da0e-4c2a-89b2-f08b2288055d.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Yeah, hello. Am I speaking with Harry here?\nSpeaker B: Pardon?\nSpeaker A: Am I speaking with Harry here?\nSpeaker B: So I can't hear you.\nSpeaker A: Yeah, am I speaking with Harry even here?\nSpeaker B: Can you speak up please?\nSpeaker A: Am I speaking with Harry here? Harry even. Yes, hello Harry, Dish up the site calling you from Ambus to.\nSpeaker B: Oh perfect.\nSpeaker A: I can see that you are looking to book a student accommodation for your university, correct?\nSpeaker B: Yeah, I am.\nSpeaker A: So I can see that you have already finalized Kings Cross London and that is for bronze on sweet 44 weeks, correct?\nSpeaker B: Yeah, great, perfect.\nSpeaker A: So just wanted to confirm if we can proceed ahead with the application now.\nSpeaker B: Yeah, please. Perfect, that'd be great.\nSpeaker A: Okay, so I'll do one thing here. Bronze on suit share upper level available at 583 pounds per week, correct?\nSpeaker B: Yeah, perfect.\nSpeaker A: So I'll do one thing here. I'll share you a booking form like I'll guide you step by step like what to do next and you can just let me know. And also there is a 5% of flash sale going on. So it means that whatever room that you will book the total price they will be levied at 5% of the.\nSpeaker B: Okay, great.\nSpeaker A: Okay, so I'll be connecting you on WhatsApp regarding what next step needs to be done because we need a booking form for you to fill and once we have your detail we will initiate the process by rm. Okay, yeah.\nSpeaker B: Thank you.\nSpeaker A: You're welcome. Have a great day. I'll be connecting you with on WhatsApp within five minutes. Okay.\nSpeaker B: Okay, great. Perfect. Thank you.\nSpeaker A: You're welcome. Have a great day. Cheers. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:00:39"
+    },
+    {
+      "id": 289,
+      "lead_id": 380,
+      "call_id": "7724613",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f662af30-4a91-47b2-99fd-ed8b97cabc9e.wav",
+      "transcript_text": "Speaker A: Is the Vodafone voicemail service for OH7.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:00:49"
+    }
+  ],
+  "summary": {
+    "id": 158,
+    "lead_id": 380,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Harry Ebbans\", \"mobile\": [\"447384893628\"], \"email\": [\"harryebbans@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": \"shared\", \"budget\": {\"max\": 583, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Bronze on Suite\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"5% flash sale\"}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Agent to send booking form and guide Harry step-by-step on how to proceed with the application.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-18 where agent promised to share booking form and guide next steps via WhatsApp.\"}, {\"type\": \"booking_action\", \"description\": \"Harry to fill and submit the booking form to initiate the accommodation booking process.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-08-18 where agent mentioned the need for booking form completion to proceed.\"}], \"last_agent_response\": \"Agent confirmed the booking details and promised to send the booking form and guide Harry on next steps via WhatsApp within five minutes.\", \"suggested_next_step\": \"Agent to send the booking form and instructions to Harry on WhatsApp immediately.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Harry Ebbans\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: +447384893628, Email: harryebbans@gmail.com\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, Kings Cross area\", \"university\": \"Not mentioned\", \"room_type\": \"Bronze ensuite room, upper level, shared\", \"budget_range\": \"\\u00a3583 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Application initiation stage; booking form to be completed\", \"documents_status\": \"Booking form pending completion\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-20\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Confirmed accommodation choice and lease duration; agent offered 5% flash sale discount; agent to send booking form via WhatsApp\"}, \"properties_discussed\": {\"properties_mentioned\": \"Kings Cross London Bronze ensuite room\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Confirmed preference for Bronze ensuite room at \\u00a3583/week\", \"offers_made\": \"5% flash sale discount on total price\"}, \"next_steps\": {\"immediate_actions\": \"Agent to send booking form via WhatsApp; student to complete and return form\", \"pending_items\": \"Completed booking form from student\", \"follow_up_required\": \"Follow-up on booking form submission and application processing\", \"timeline\": \"Move-out date noted as 2026-07-10; no specific move-in date provided\"}, \"agent_notes\": {\"student_tone\": \"Cooperative and responsive\", \"urgency_level\": \"Moderate; student ready to proceed with application\", \"complexity\": \"Simple; straightforward booking\", \"special_considerations\": \"Student informed about flash sale discount; ensure timely follow-up on booking form\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Harry Ebbans\", \"mobile\": [\"447384893628\"], \"email\": [\"harryebbans@gmail.com\"], \"whatsapp\": [], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 44, \"room_type\": \"shared\", \"budget\": {\"max\": 583, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Bronze on Suite\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": \"5% flash sale\"}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Agent to send booking form and guide Harry step-by-step on how to proceed with the application.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-08-18 where agent promised to share booking form and guide next steps via WhatsApp.\"}, {\"type\": \"booking_action\", \"description\": \"Harry to fill and submit the booking form to initiate the accommodation booking process.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-08-18 where agent mentioned the need for booking form completion to proceed.\"}], \"last_agent_response\": \"Agent confirmed the booking details and promised to send the booking form and guide Harry on next steps via WhatsApp within five minutes.\", \"suggested_next_step\": \"Agent to send the booking form and instructions to Harry on WhatsApp immediately.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Harry Ebbans\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone: +447384893628, Email: harryebbans@gmail.com\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, Kings Cross area\", \"university\": \"Not mentioned\", \"room_type\": \"Bronze ensuite room, upper level, shared\", \"budget_range\": \"\\u00a3583 per week\", \"move_in_date\": \"Not explicitly mentioned\", \"lease_duration\": \"44 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Application initiation stage; booking form to be completed\", \"documents_status\": \"Booking form pending completion\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"2 calls\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-20\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Confirmed accommodation choice and lease duration; agent offered 5% flash sale discount; agent to send booking form via WhatsApp\"}, \"properties_discussed\": {\"properties_mentioned\": \"Kings Cross London Bronze ensuite room\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Confirmed preference for Bronze ensuite room at \\u00a3583/week\", \"offers_made\": \"5% flash sale discount on total price\"}, \"next_steps\": {\"immediate_actions\": \"Agent to send booking form via WhatsApp; student to complete and return form\", \"pending_items\": \"Completed booking form from student\", \"follow_up_required\": \"Follow-up on booking form submission and application processing\", \"timeline\": \"Move-out date noted as 2026-07-10; no specific move-in date provided\"}, \"agent_notes\": {\"student_tone\": \"Cooperative and responsive\", \"urgency_level\": \"Moderate; student ready to proceed with application\", \"complexity\": \"Simple; straightforward booking\", \"special_considerations\": \"Student informed about flash sale discount; ensure timely follow-up on booking form\"}}}}}",
+    "created_at": "2025-11-18 11:01:00",
+    "updated_at": "2025-11-18T16:31:00.691381",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Harry Ebbans",
+        "mobile": [
+          "447384893628"
+        ],
+        "email": [
+          "harryebbans@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 44,
+        "room_type": "shared",
+        "budget": {
+          "max": 583,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Bronze on Suite"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": "5% flash sale"
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Agent to send booking form and guide Harry step-by-step on how to proceed with the application.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-08-18 where agent promised to share booking form and guide next steps via WhatsApp."
+        },
+        {
+          "type": "booking_action",
+          "description": "Harry to fill and submit the booking form to initiate the accommodation booking process.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Call on 2025-08-18 where agent mentioned the need for booking form completion to proceed."
+        }
+      ],
+      "last_agent_response": "Agent confirmed the booking details and promised to send the booking form and guide Harry on next steps via WhatsApp within five minutes.",
+      "suggested_next_step": "Agent to send the booking form and instructions to Harry on WhatsApp immediately."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Harry Ebbans",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone: +447384893628, Email: harryebbans@gmail.com",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, Kings Cross area",
+            "university": "Not mentioned",
+            "room_type": "Bronze ensuite room, upper level, shared",
+            "budget_range": "£583 per week",
+            "move_in_date": "Not explicitly mentioned",
+            "lease_duration": "44 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Application initiation stage; booking form to be completed",
+            "documents_status": "Booking form pending completion",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "2 calls",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-20",
+            "response_time": "Not explicitly mentioned",
+            "key_moments": "Confirmed accommodation choice and lease duration; agent offered 5% flash sale discount; agent to send booking form via WhatsApp"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Kings Cross London Bronze ensuite room",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Confirmed preference for Bronze ensuite room at £583/week",
+            "offers_made": "5% flash sale discount on total price"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to send booking form via WhatsApp; student to complete and return form",
+            "pending_items": "Completed booking form from student",
+            "follow_up_required": "Follow-up on booking form submission and application processing",
+            "timeline": "Move-out date noted as 2026-07-10; no specific move-in date provided"
+          },
+          "agent_notes": {
+            "student_tone": "Cooperative and responsive",
+            "urgency_level": "Moderate; student ready to proceed with application",
+            "complexity": "Simple; straightforward booking",
+            "special_considerations": "Student informed about flash sale discount; ensure timely follow-up on booking form"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Harry Ebbans",
+          "mobile": [
+            "447384893628"
+          ],
+          "email": [
+            "harryebbans@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 44,
+          "room_type": "shared",
+          "budget": {
+            "max": 583,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Bronze on Suite"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": "5% flash sale"
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Agent to send booking form and guide Harry step-by-step on how to proceed with the application.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-08-18 where agent promised to share booking form and guide next steps via WhatsApp."
+          },
+          {
+            "type": "booking_action",
+            "description": "Harry to fill and submit the booking form to initiate the accommodation booking process.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Call on 2025-08-18 where agent mentioned the need for booking form completion to proceed."
+          }
+        ],
+        "last_agent_response": "Agent confirmed the booking details and promised to send the booking form and guide Harry on next steps via WhatsApp within five minutes.",
+        "suggested_next_step": "Agent to send the booking form and instructions to Harry on WhatsApp immediately."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Harry Ebbans",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone: +447384893628, Email: harryebbans@gmail.com",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, Kings Cross area",
+              "university": "Not mentioned",
+              "room_type": "Bronze ensuite room, upper level, shared",
+              "budget_range": "£583 per week",
+              "move_in_date": "Not explicitly mentioned",
+              "lease_duration": "44 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Application initiation stage; booking form to be completed",
+              "documents_status": "Booking form pending completion",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "2 calls",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-20",
+              "response_time": "Not explicitly mentioned",
+              "key_moments": "Confirmed accommodation choice and lease duration; agent offered 5% flash sale discount; agent to send booking form via WhatsApp"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Kings Cross London Bronze ensuite room",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Confirmed preference for Bronze ensuite room at £583/week",
+              "offers_made": "5% flash sale discount on total price"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to send booking form via WhatsApp; student to complete and return form",
+              "pending_items": "Completed booking form from student",
+              "follow_up_required": "Follow-up on booking form submission and application processing",
+              "timeline": "Move-out date noted as 2026-07-10; no specific move-in date provided"
+            },
+            "agent_notes": {
+              "student_tone": "Cooperative and responsive",
+              "urgency_level": "Moderate; student ready to proceed with application",
+              "complexity": "Simple; straightforward booking",
+              "special_considerations": "Student informed about flash sale discount; ensure timely follow-up on booking form"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "id": "lead_767",
+  "mobile_number": "447467161189",
+  "email": null,
+  "timeline": [
+    {
+      "id": 12398,
+      "lead_id": 767,
+      "event_type": "call",
+      "timestamp": "2025-07-19T10:01:31.312533",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7533915",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-19T10:01:31.312533\", \"id\": 7533915, \"duration\": \"0\", \"to_number\": \"447467161189\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:56:09"
+    },
+    {
+      "id": 12399,
+      "lead_id": 767,
+      "event_type": "call",
+      "timestamp": "2025-07-23T15:19:47.925064",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7556132",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-23T15:19:47.925064\", \"id\": 7556132, \"duration\": \"0\", \"to_number\": \"447467161189\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:56:09"
+    },
+    {
+      "id": 12400,
+      "lead_id": 767,
+      "event_type": "call",
+      "timestamp": "2025-07-28T14:04:21.163547",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7580807",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-07-28T14:04:21.163547\", \"id\": 7580807, \"duration\": \"0\", \"to_number\": \"447467161189\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:56:09"
+    },
+    {
+      "id": 12401,
+      "lead_id": 767,
+      "event_type": "lead_info",
+      "timestamp": "2025-11-18T18:26:08.936255",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-11-18T18:26:08.936255\", \"lead_id\": 3067337, \"user_name\": \"WENWEI ZOU\", \"email\": \"zouwenwei360@gmail.com\", \"phone\": \"447467161189\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 136672}",
+      "created_at": "2025-11-18 12:56:09"
+    }
+  ],
+  "transcripts": [],
+  "summary": {
+    "id": 316,
+    "lead_id": 767,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"WENWEI ZOU\", \"mobile\": [\"+447467161189\"], \"email\": [\"zouwenwei360@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [], \"last_agent_response\": \"No agent responses or actions recorded in the timeline.\", \"suggested_next_step\": \"Agent should initiate contact with the student to discuss accommodation options and confirm requirements.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"WENWEI ZOU\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to 447467161189; email at zouwenwei360@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 calls with zero duration, 1 lead info entry\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-07-28\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Multiple unanswered calls before lead information was recorded in November\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 136672 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish contact with student to engage after unanswered calls\", \"pending_items\": \"Student response to initial outreach\", \"follow_up_required\": \"Agent to follow up on lead recorded in November\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded; calls not answered\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Multiple unsuccessful call attempts before lead info capture\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"WENWEI ZOU\", \"mobile\": [\"+447467161189\"], \"email\": [\"zouwenwei360@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [], \"last_agent_response\": \"No agent responses or actions recorded in the timeline.\", \"suggested_next_step\": \"Agent should initiate contact with the student to discuss accommodation options and confirm requirements.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"WENWEI ZOU\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to 447467161189; email at zouwenwei360@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 calls with zero duration, 1 lead info entry\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-07-28\", \"response_time\": \"Not mentioned\", \"key_moments\": \"Multiple unanswered calls before lead information was recorded in November\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 136672 associated with lead\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Establish contact with student to engage after unanswered calls\", \"pending_items\": \"Student response to initial outreach\", \"follow_up_required\": \"Agent to follow up on lead recorded in November\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"No direct communication recorded; calls not answered\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Multiple unsuccessful call attempts before lead info capture\"}}}}}",
+    "created_at": "2025-11-18 12:56:18",
+    "updated_at": "2025-11-18T18:26:18.076753",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "WENWEI ZOU",
+        "mobile": [
+          "+447467161189"
+        ],
+        "email": [
+          "zouwenwei360@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [],
+      "last_agent_response": "No agent responses or actions recorded in the timeline.",
+      "suggested_next_step": "Agent should initiate contact with the student to discuss accommodation options and confirm requirements."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "WENWEI ZOU",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls to 447467161189; email at zouwenwei360@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "Weekly budget in pounds",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 calls with zero duration, 1 lead info entry",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-07-28",
+            "response_time": "Not mentioned",
+            "key_moments": "Multiple unanswered calls before lead information was recorded in November"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 136672 associated with lead",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Establish contact with student to engage after unanswered calls",
+            "pending_items": "Student response to initial outreach",
+            "follow_up_required": "Agent to follow up on lead recorded in November",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "No direct communication recorded; calls not answered",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Multiple unsuccessful call attempts before lead info capture"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "WENWEI ZOU",
+          "mobile": [
+            "+447467161189"
+          ],
+          "email": [
+            "zouwenwei360@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [],
+        "last_agent_response": "No agent responses or actions recorded in the timeline.",
+        "suggested_next_step": "Agent should initiate contact with the student to discuss accommodation options and confirm requirements."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "WENWEI ZOU",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls to 447467161189; email at zouwenwei360@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "Weekly budget in pounds",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 calls with zero duration, 1 lead info entry",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-07-28",
+              "response_time": "Not mentioned",
+              "key_moments": "Multiple unanswered calls before lead information was recorded in November"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 136672 associated with lead",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Establish contact with student to engage after unanswered calls",
+              "pending_items": "Student response to initial outreach",
+              "follow_up_required": "Agent to follow up on lead recorded in November",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "No direct communication recorded; calls not answered",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Multiple unsuccessful call attempts before lead info capture"
+            }
+          }
+        }
+      }
+    }
+  }
+}

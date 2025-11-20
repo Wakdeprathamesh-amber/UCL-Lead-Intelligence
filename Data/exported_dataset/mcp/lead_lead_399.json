@@ -1,0 +1,343 @@
+{
+  "id": "lead_399",
+  "mobile_number": "201286777520",
+  "email": null,
+  "timeline": [
+    {
+      "id": 6811,
+      "lead_id": 399,
+      "event_type": "call",
+      "timestamp": "2025-09-10T09:38:32.601574",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7849370",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-10T09:38:32.601574\", \"id\": 7849370, \"duration\": \"0\", \"to_number\": \"201286777520\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:07:05"
+    },
+    {
+      "id": 6812,
+      "lead_id": 399,
+      "event_type": "call",
+      "timestamp": "2025-09-10T11:02:00.601060",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7850125",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-10T11:02:00.601060\", \"id\": 7850125, \"duration\": \"0\", \"to_number\": \"201286777520\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 11:07:05"
+    },
+    {
+      "id": 6813,
+      "lead_id": 399,
+      "event_type": "call",
+      "timestamp": "2025-09-10T11:21:29.772256",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7850292",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-10T11:21:29.772256\", \"id\": 7850292, \"duration\": \"90\", \"to_number\": \"919935690566\", \"from_number\": \"201286777520\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f739f684-f0f8-4f01-9b43-a912ae9ae775.wav\"}",
+      "created_at": "2025-11-18 11:07:05"
+    },
+    {
+      "id": 6814,
+      "lead_id": 399,
+      "event_type": "lead_info",
+      "timestamp": "2025-11-18T16:37:05.819305",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-11-18T16:37:05.819305\", \"lead_id\": 3220783, \"user_name\": \"Seif Montasser\", \"email\": \"v286@bisc.edu.eg\", \"phone\": \"201286777520\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 139330}",
+      "created_at": "2025-11-18 11:07:05"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 307,
+      "lead_id": 399,
+      "call_id": "7850292",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/f739f684-f0f8-4f01-9b43-a912ae9ae775.wav",
+      "transcript_text": "Speaker A: Hello? Hello. Yeah. Hello. Am I speaking to Rishabh? Yes, you are speaking to Rishabh. Please tell me. Sir. Bhaganahan.\nSpeaker B: I. I received.\nSpeaker A: A call from you this morning. Yes. Sir, I have this follow up regarding a student accommodation for University College London. Yes, I can see that you have filled the booking form for one of the properties. Surrey Queen Lylden House, London. Correct. Exactly. But the room type which you have filled the booking form, it's sold out. The room type was silver, non ensuite plus room. Correct. 255.\nSpeaker B: Sterling a week.\nSpeaker A: Right? Yes, but that is so allowed to some other options. Yeah, that is sold out. Only one room type is available in that property. That is a premium one suite. How much does that cost? How much is. How much does it cost? It's £365 per week. Okay. Hello, Sir.\nSpeaker B: I won't be. I won't be moving forward with my. With my application. Like without specific. Without specific house.\nSpeaker A: Which accommodation that you want? Like what's the budget that you're on so that I can suggest you someone.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:07:14"
+    }
+  ],
+  "summary": {
+    "id": 168,
+    "lead_id": 399,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Seif Montasser\", \"mobile\": [\"+201286777520\"], \"email\": [\"v286@bisc.edu.eg\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": \"non ensuite plus room\", \"budget\": {\"max\": 255, \"currency\": \"GBP\"}, \"bathroom_type\": \"shared_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Surrey Queen Lylden House\"], \"rooms_considered\": [\"silver, non ensuite plus room\", \"premium one suite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Agent to clarify with the student their specific accommodation preferences and budget to suggest suitable options.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-10 where student declined to proceed without specific house and agent asked about budget.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with the student regarding alternative accommodation options based on their budget and preferences.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student did not want to proceed with sold-out room type; agent needs to suggest alternatives.\"}], \"last_agent_response\": \"Agent informed student that the originally requested room type (silver, non-ensuite plus room at \\u00a3255/week) was sold out and only premium ensuite rooms at \\u00a3365/week were available, then asked about student's budget to suggest other options.\", \"suggested_next_step\": \"Agent to contact student to clarify accommodation preferences and budget to provide alternative property options.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Seif Montasser\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls via number 201286777520; email v286@bisc.edu.eg\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Initially silver non-ensuite plus room (sold out); offered premium ensuite room\", \"budget_range\": \"Initially \\u00a3255 per week; premium room offered at \\u00a3365 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Weekly\", \"special_requirements\": \"Prefers specific house; unwilling to proceed without preferred room type\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and property selection; student declined offered alternative room\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 calls and 1 lead info record\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-11-18 (lead info update)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Student filled booking form for Surrey Queen Lylden House; preferred room sold out; student declined premium room offer; budget and room type preferences clarified\"}, \"properties_discussed\": {\"properties_mentioned\": \"Surrey Queen Lylden House, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Preferred silver non-ensuite plus room at \\u00a3255/week; declined premium ensuite room at \\u00a3365/week\", \"offers_made\": \"Offered premium ensuite room as alternative\"}, \"next_steps\": {\"immediate_actions\": \"Clarify student's preferred accommodation options and budget; suggest alternative properties matching preferences\", \"pending_items\": \"Student decision on alternative accommodations\", \"follow_up_required\": \"Agent to follow up with suitable options within student's budget and preferences\", \"timeline\": \"Not mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite but firm in preference; unwilling to proceed without specific room type\", \"urgency_level\": \"Moderate; no explicit urgency but student paused application\", \"complexity\": \"Moderate; requires alternative suggestions due to sold-out preferred room\", \"special_considerations\": \"Student values specific room type and budget; agent should focus on matching these criteria\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Seif Montasser\", \"mobile\": [\"+201286777520\"], \"email\": [\"v286@bisc.edu.eg\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": \"non ensuite plus room\", \"budget\": {\"max\": 255, \"currency\": \"GBP\"}, \"bathroom_type\": \"shared_bathroom\", \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Surrey Queen Lylden House\"], \"rooms_considered\": [\"silver, non ensuite plus room\", \"premium one suite\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Agent to clarify with the student their specific accommodation preferences and budget to suggest suitable options.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-10 where student declined to proceed without specific house and agent asked about budget.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with the student regarding alternative accommodation options based on their budget and preferences.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Student did not want to proceed with sold-out room type; agent needs to suggest alternatives.\"}], \"last_agent_response\": \"Agent informed student that the originally requested room type (silver, non-ensuite plus room at \\u00a3255/week) was sold out and only premium ensuite rooms at \\u00a3365/week were available, then asked about student's budget to suggest other options.\", \"suggested_next_step\": \"Agent to contact student to clarify accommodation preferences and budget to provide alternative property options.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Seif Montasser\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls via number 201286777520; email v286@bisc.edu.eg\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Initially silver non-ensuite plus room (sold out); offered premium ensuite room\", \"budget_range\": \"Initially \\u00a3255 per week; premium room offered at \\u00a3365 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Weekly\", \"special_requirements\": \"Prefers specific house; unwilling to proceed without preferred room type\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry and property selection; student declined offered alternative room\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"3 calls and 1 lead info record\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-11-18 (lead info update)\", \"response_time\": \"Not explicitly mentioned\", \"key_moments\": \"Student filled booking form for Surrey Queen Lylden House; preferred room sold out; student declined premium room offer; budget and room type preferences clarified\"}, \"properties_discussed\": {\"properties_mentioned\": \"Surrey Queen Lylden House, London\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Preferred silver non-ensuite plus room at \\u00a3255/week; declined premium ensuite room at \\u00a3365/week\", \"offers_made\": \"Offered premium ensuite room as alternative\"}, \"next_steps\": {\"immediate_actions\": \"Clarify student's preferred accommodation options and budget; suggest alternative properties matching preferences\", \"pending_items\": \"Student decision on alternative accommodations\", \"follow_up_required\": \"Agent to follow up with suitable options within student's budget and preferences\", \"timeline\": \"Not mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite but firm in preference; unwilling to proceed without specific room type\", \"urgency_level\": \"Moderate; no explicit urgency but student paused application\", \"complexity\": \"Moderate; requires alternative suggestions due to sold-out preferred room\", \"special_considerations\": \"Student values specific room type and budget; agent should focus on matching these criteria\"}}}}}",
+    "created_at": "2025-11-18 11:07:26",
+    "updated_at": "2025-11-18T16:37:26.439769",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Seif Montasser",
+        "mobile": [
+          "+201286777520"
+        ],
+        "email": [
+          "v286@bisc.edu.eg"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": "non ensuite plus room",
+        "budget": {
+          "max": 255,
+          "currency": "GBP"
+        },
+        "bathroom_type": "shared_bathroom",
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Surrey Queen Lylden House"
+        ],
+        "rooms_considered": [
+          "silver, non ensuite plus room",
+          "premium one suite"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Agent to clarify with the student their specific accommodation preferences and budget to suggest suitable options.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-09-10 where student declined to proceed without specific house and agent asked about budget."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with the student regarding alternative accommodation options based on their budget and preferences.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Student did not want to proceed with sold-out room type; agent needs to suggest alternatives."
+        }
+      ],
+      "last_agent_response": "Agent informed student that the originally requested room type (silver, non-ensuite plus room at £255/week) was sold out and only premium ensuite rooms at £365/week were available, then asked about student's budget to suggest other options.",
+      "suggested_next_step": "Agent to contact student to clarify accommodation preferences and budget to provide alternative property options."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Seif Montasser",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls via number 201286777520; email v286@bisc.edu.eg",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Initially silver non-ensuite plus room (sold out); offered premium ensuite room",
+            "budget_range": "Initially £255 per week; premium room offered at £365 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Weekly",
+            "special_requirements": "Prefers specific house; unwilling to proceed without preferred room type"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry and property selection; student declined offered alternative room",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "3 calls and 1 lead info record",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-11-18 (lead info update)",
+            "response_time": "Not explicitly mentioned",
+            "key_moments": "Student filled booking form for Surrey Queen Lylden House; preferred room sold out; student declined premium room offer; budget and room type preferences clarified"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Surrey Queen Lylden House, London",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Preferred silver non-ensuite plus room at £255/week; declined premium ensuite room at £365/week",
+            "offers_made": "Offered premium ensuite room as alternative"
+          },
+          "next_steps": {
+            "immediate_actions": "Clarify student's preferred accommodation options and budget; suggest alternative properties matching preferences",
+            "pending_items": "Student decision on alternative accommodations",
+            "follow_up_required": "Agent to follow up with suitable options within student's budget and preferences",
+            "timeline": "Not mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite but firm in preference; unwilling to proceed without specific room type",
+            "urgency_level": "Moderate; no explicit urgency but student paused application",
+            "complexity": "Moderate; requires alternative suggestions due to sold-out preferred room",
+            "special_considerations": "Student values specific room type and budget; agent should focus on matching these criteria"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Seif Montasser",
+          "mobile": [
+            "+201286777520"
+          ],
+          "email": [
+            "v286@bisc.edu.eg"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": "non ensuite plus room",
+          "budget": {
+            "max": 255,
+            "currency": "GBP"
+          },
+          "bathroom_type": "shared_bathroom",
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Surrey Queen Lylden House"
+          ],
+          "rooms_considered": [
+            "silver, non ensuite plus room",
+            "premium one suite"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Agent to clarify with the student their specific accommodation preferences and budget to suggest suitable options.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-09-10 where student declined to proceed without specific house and agent asked about budget."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with the student regarding alternative accommodation options based on their budget and preferences.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Student did not want to proceed with sold-out room type; agent needs to suggest alternatives."
+          }
+        ],
+        "last_agent_response": "Agent informed student that the originally requested room type (silver, non-ensuite plus room at £255/week) was sold out and only premium ensuite rooms at £365/week were available, then asked about student's budget to suggest other options.",
+        "suggested_next_step": "Agent to contact student to clarify accommodation preferences and budget to provide alternative property options."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Seif Montasser",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls via number 201286777520; email v286@bisc.edu.eg",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Initially silver non-ensuite plus room (sold out); offered premium ensuite room",
+              "budget_range": "Initially £255 per week; premium room offered at £365 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Weekly",
+              "special_requirements": "Prefers specific house; unwilling to proceed without preferred room type"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry and property selection; student declined offered alternative room",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "3 calls and 1 lead info record",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-11-18 (lead info update)",
+              "response_time": "Not explicitly mentioned",
+              "key_moments": "Student filled booking form for Surrey Queen Lylden House; preferred room sold out; student declined premium room offer; budget and room type preferences clarified"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Surrey Queen Lylden House, London",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Preferred silver non-ensuite plus room at £255/week; declined premium ensuite room at £365/week",
+              "offers_made": "Offered premium ensuite room as alternative"
+            },
+            "next_steps": {
+              "immediate_actions": "Clarify student's preferred accommodation options and budget; suggest alternative properties matching preferences",
+              "pending_items": "Student decision on alternative accommodations",
+              "follow_up_required": "Agent to follow up with suitable options within student's budget and preferences",
+              "timeline": "Not mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite but firm in preference; unwilling to proceed without specific room type",
+              "urgency_level": "Moderate; no explicit urgency but student paused application",
+              "complexity": "Moderate; requires alternative suggestions due to sold-out preferred room",
+              "special_considerations": "Student values specific room type and budget; agent should focus on matching these criteria"
+            }
+          }
+        }
+      }
+    }
+  }
+}

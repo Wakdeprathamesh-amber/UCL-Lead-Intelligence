@@ -1,0 +1,767 @@
+{
+  "id": "lead_677",
+  "mobile_number": "33781673741",
+  "email": null,
+  "timeline": [
+    {
+      "id": 16353,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-08-30T08:36:26.389612",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7787077",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-30T08:36:26.389612\", \"id\": 7787077, \"duration\": \"111\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b2ceb6b6-2e65-4bba-9a18-00596e7b9755.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16354,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-08-30T08:38:31.931366",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7787089",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-30T08:38:31.931366\", \"id\": 7787089, \"duration\": \"161\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/35b86aec-379f-40ab-b733-a2cb90286b3b.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16355,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-30T08:41:20",
+      "content": "Hey Victor, \n\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \n\nHappy to assist you with the process ahead. Thankyou : )",
+      "source": "whatsapp",
+      "event_id": "8022130",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-30T08:41:20\", \"id\": 8022130, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F8E48DF878BE76AFF40\", \"message_type\": \"text\", \"message_content\": \"Hey Victor, \\n\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\n\\nHappy to assist you with the process ahead. Thankyou : )\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-30T08:41:20.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hey Victor, \\\\n\\\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\\\n\\\\nHappy to assist you with the process ahead. Thankyou : )\\\", \\\"Datetime\\\": 1756543280000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F8E48DF878BE76AFF40\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-30T08:41:20.751718\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16356,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-30T12:10:20",
+      "content": "https://www.gobritanya.com/student-residences/london/kings-cross-residence",
+      "source": "whatsapp",
+      "event_id": "8031686",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-30T12:10:20\", \"id\": 8031686, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F22908C13ACB48CA18A\", \"message_type\": \"text\", \"message_content\": \"https://www.gobritanya.com/student-residences/london/kings-cross-residence\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-30T12:10:20.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"https://www.gobritanya.com/student-residences/london/kings-cross-residence\\\", \\\"Datetime\\\": 1756555820000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F22908C13ACB48CA18A\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-30T12:10:20.884147\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16357,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-30T12:10:54",
+      "content": "https://www.gobritanya.com/student-residences/london/shoreditch-residence",
+      "source": "whatsapp",
+      "event_id": "8031715",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-30T12:10:54\", \"id\": 8031715, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3FAF5FBEFD04B5BF7835\", \"message_type\": \"text\", \"message_content\": \"https://www.gobritanya.com/student-residences/london/shoreditch-residence\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-30T12:10:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"https://www.gobritanya.com/student-residences/london/shoreditch-residence\\\", \\\"Datetime\\\": 1756555854000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3FAF5FBEFD04B5BF7835\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-30T12:10:54.528898\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16358,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-30T12:13:28",
+      "content": "iQ Shoreditch is walking distance 545 per week for 39 weeks\nSilver Studio\n13th Sept 2025 onwards",
+      "source": "whatsapp",
+      "event_id": "8031809",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-30T12:13:28\", \"id\": 8031809, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F253E2740F5D6773CF9\", \"message_type\": \"text\", \"message_content\": \"iQ Shoreditch is walking distance 545 per week for 39 weeks\\nSilver Studio\\n13th Sept 2025 onwards\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-30T12:13:28.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"iQ Shoreditch is walking distance 545 per week for 39 weeks\\\\nSilver Studio\\\\n13th Sept 2025 onwards\\\", \\\"Datetime\\\": 1756556008000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F253E2740F5D6773CF9\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-30T12:13:30.731425\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16359,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-30T12:15:06",
+      "content": "Please do have a look",
+      "source": "whatsapp",
+      "event_id": "8031879",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-30T12:15:06\", \"id\": 8031879, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F7540A08DA9B0307B21\", \"message_type\": \"text\", \"message_content\": \"Please do have a look\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-30T12:15:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Please do have a look\\\", \\\"Datetime\\\": 1756556106000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F7540A08DA9B0307B21\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-30T12:15:07.356752\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16360,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-30T12:15:13",
+      "content": "these 2 options are available",
+      "source": "whatsapp",
+      "event_id": "8031891",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-30T12:15:13\", \"id\": 8031891, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F984073B24BAF358D28\", \"message_type\": \"text\", \"message_content\": \"these 2 options are available\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-30T12:15:13.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"these 2 options are available\\\", \\\"Datetime\\\": 1756556113000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F984073B24BAF358D28\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-08-30T12:15:14.184762\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16361,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-09-01T15:08:22.024731",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7797496",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T15:08:22.024731\", \"id\": 7797496, \"duration\": \"305\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/51abf7c9-5341-44c3-b86f-2026949e78d5.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16362,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-01T15:13:23",
+      "content": "Hey Victor, This is booking Manager Anuranan from Amber Student",
+      "source": "whatsapp",
+      "event_id": "8106763",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-01T15:13:23\", \"id\": 8106763, \"email\": \"\", \"from_number\": \"447446198371\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3EB0958E13E2AAF91458C6\", \"message_type\": \"text\", \"message_content\": \"Hey Victor, This is booking Manager Anuranan from Amber Student\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446198371@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-01T15:13:23.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446198371@c.us\\\", \\\"Message\\\": \\\"Hey Victor, This is booking Manager Anuranan from Amber Student\\\", \\\"Datetime\\\": 1756739603000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447446198371@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3EB0958E13E2AAF91458C6\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447446198371\\\", \\\"sentByUserId\\\": \\\"447446198371@c.us\\\", \\\"CreatedByUser\\\": \\\"447446198371\\\"}]}\", \"updated_at\": \"2025-09-01T15:13:23.636974\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 8217.0, \"agent_number\": \"447446198371\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16363,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-09-02T13:11:24.873859",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7802829",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-02T13:11:24.873859\", \"id\": 7802829, \"duration\": \"390\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/7bb8ab83-3ec5-4b50-99a5-39e1f6cfd22a.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16364,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-09-06T13:13:48.522988",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7829454",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-06T13:13:48.522988\", \"id\": 7829454, \"duration\": \"8\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3d34bde2-3834-410d-a3f7-9ec71c46175c.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16365,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-06T13:14:48",
+      "content": "Hello Victor\nGood afternoon\nHope you are doing well\nDid you receive an update from university regarding your accommodation?",
+      "source": "whatsapp",
+      "event_id": "8322915",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-06T13:14:48\", \"id\": 8322915, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F47D7127CD4626D0904\", \"message_type\": \"text\", \"message_content\": \"Hello Victor\\nGood afternoon\\nHope you are doing well\\nDid you receive an update from university regarding your accommodation?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-06T13:14:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello Victor\\\\nGood afternoon\\\\nHope you are doing well\\\\nDid you receive an update from university regarding your accommodation?\\\", \\\"Datetime\\\": 1757164488000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F47D7127CD4626D0904\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-06T13:14:49.102146\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16366,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-06T15:01:35",
+      "content": "Hello Prachi, \n\nI didn’t receive any news yet… I’m waiting till Monday to contact them and I will see according to their answer.",
+      "source": "whatsapp",
+      "event_id": "8326528",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-06T15:01:35\", \"id\": 8326528, \"email\": \"\", \"from_number\": \"33781673741\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33781673741@c.us_3ACDD847AC0CAA3324E0\", \"message_type\": \"text\", \"message_content\": \"Hello Prachi, \\n\\nI didn\\u2019t receive any news yet\\u2026 I\\u2019m waiting till Monday to contact them and I will see according to their answer.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33781673741@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-06T15:01:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello Prachi, \\\\n\\\\nI didn\\u2019t receive any news yet\\u2026 I\\u2019m waiting till Monday to contact them and I will see according to their answer.\\\", \\\"Datetime\\\": 1757170895000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33781673741@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33781673741@c.us_3ACDD847AC0CAA3324E0\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"33781673741\\\", \\\"sentByUserId\\\": \\\"33781673741@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-06T15:01:35.474087\", \"direction\": \"inbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16367,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-09-09T12:43:41.744549",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7844486",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-09T12:43:41.744549\", \"id\": 7844486, \"duration\": \"11\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/95d00321-ef8b-444f-bca2-6ca524ad68b1.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16368,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T12:44:23",
+      "content": "Hello Victor\nGood afternoon\nHow are you doing? \nIs their any update from the university?",
+      "source": "whatsapp",
+      "event_id": "8426343",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T12:44:23\", \"id\": 8426343, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3FE695FB500B9AFDF93F\", \"message_type\": \"text\", \"message_content\": \"Hello Victor\\nGood afternoon\\nHow are you doing? \\nIs their any update from the university?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T12:44:23.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello Victor\\\\nGood afternoon\\\\nHow are you doing? \\\\nIs their any update from the university?\\\", \\\"Datetime\\\": 1757421863000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3FE695FB500B9AFDF93F\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T12:44:23.193706\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16369,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-09-11T13:20:44.073704",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7857877",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-11T13:20:44.073704\", \"id\": 7857877, \"duration\": \"128\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/7dd162ce-24f1-42b4-9ea0-df95750a00a9.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16370,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-09-12T15:35:40.384497",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7865583",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-12T15:35:40.384497\", \"id\": 7865583, \"duration\": \"7\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e06ddde0-be92-41cc-87e6-ac1efa380186.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16371,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-12T15:36:17",
+      "content": "Hi Vyctor,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "8570139",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-12T15:36:17\", \"id\": 8570139, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F9BFF435D1F2EFB5FAC\", \"message_type\": \"text\", \"message_content\": \"Hi Vyctor,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-12T15:36:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Vyctor,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.\\\", \\\"Datetime\\\": 1757691377000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F9BFF435D1F2EFB5FAC\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-12T15:36:17.763317\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16372,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-09-15T13:28:40.846119",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7877541",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-15T13:28:40.846119\", \"id\": 7877541, \"duration\": \"13\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/d43ef1eb-cf83-4db5-839a-11ce60dab0ee.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16373,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-15T13:29:17",
+      "content": "Hi Vyctor,\n\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \nrequirements.\n\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\n\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon gift card.",
+      "source": "whatsapp",
+      "event_id": "8652282",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-15T13:29:17\", \"id\": 8652282, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F6DA8B86352DFC66529\", \"message_type\": \"text\", \"message_content\": \"Hi Vyctor,\\n\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\nrequirements.\\n\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\n\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-15T13:29:17.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Vyctor,\\\\n\\\\nWe would love an update from you regarding the status of your accommodation. We currently have limited availability and want to help you find accommodation that is well within your \\\\nrequirements.\\\\n\\\\nJust in case, if you have already found accommodation, you can help us with the details and we can try rolling out cashbacks for you, subject to availability in London.\\\\n\\\\nAlso, if you have friends looking for student accommodation, you can refer them at http://amberstudent.com/refer. If your referred friend books accommodation, you will get a 50 GBP Amazon\\u00a0gift\\u00a0card.\\\", \\\"Datetime\\\": 1757942957000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F6DA8B86352DFC66529\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-15T13:29:17.927480\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16374,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-09-19T13:27:26.087258",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7900974",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-19T13:27:26.087258\", \"id\": 7900974, \"duration\": \"17\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/9781b5c6-79d6-4cf9-a1f3-7d9a196d2f5f.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16375,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-09-22T13:15:14.035047",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7912299",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-22T13:15:14.035047\", \"id\": 7912299, \"duration\": \"404\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e743a61b-e939-47d2-9c44-9669db493796.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16376,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-22T13:20:34",
+      "content": "https://amberstudent.com/places/iq-city-london-1811192172260/agent-view?ref=search®ionId=319&amp;whitelabelv2=true&amp;utm_source=university-fad44b73\n\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220/agent-view?ref=search®ionId=319&amp;whitelabelv2=true&amp;utm_source=university-fad44b73",
+      "source": "whatsapp",
+      "event_id": "8881871",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-22T13:20:34\", \"id\": 8881871, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F5E569527D916D663AB\", \"message_type\": \"text\", \"message_content\": \"https://amberstudent.com/places/iq-city-london-1811192172260/agent-view?ref=search\\u00aeionId=319&amp;whitelabelv2=true&amp;utm_source=university-fad44b73\\n\\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220/agent-view?ref=search\\u00aeionId=319&amp;whitelabelv2=true&amp;utm_source=university-fad44b73\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-22T13:20:34.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"https://amberstudent.com/places/iq-city-london-1811192172260/agent-view?ref=search\\u00aeionId=319&amp;whitelabelv2=true&amp;utm_source=university-fad44b73\\\\n\\\\nhttps://amberstudent.com/places/chapter-islington-london-1707290711220/agent-view?ref=search\\u00aeionId=319&amp;whitelabelv2=true&amp;utm_source=university-fad44b73\\\", \\\"Datetime\\\": 1758547234000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F5E569527D916D663AB\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-22T13:20:34.434620\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16377,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-22T13:21:09",
+      "content": "https://amberstudent.com/places/iq-paris-gardens-london-1608304485980/agent-view?ref=search®ionId=319&amp;whitelabelv2=true&amp;utm_source=university-fad44b73",
+      "source": "whatsapp",
+      "event_id": "8881893",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-22T13:21:09\", \"id\": 8881893, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F4CDFF658EA32CDC7BD\", \"message_type\": \"text\", \"message_content\": \"https://amberstudent.com/places/iq-paris-gardens-london-1608304485980/agent-view?ref=search\\u00aeionId=319&amp;whitelabelv2=true&amp;utm_source=university-fad44b73\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-22T13:21:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"https://amberstudent.com/places/iq-paris-gardens-london-1608304485980/agent-view?ref=search\\u00aeionId=319&amp;whitelabelv2=true&amp;utm_source=university-fad44b73\\\", \\\"Datetime\\\": 1758547269000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F4CDFF658EA32CDC7BD\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-22T13:21:10.057520\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16378,
+      "lead_id": 677,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-22T13:21:48",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *YUGO DEPOT POINT, LONDON*\nhttps://ucl.studentacco.com/places/depot-point-london-1906150007469\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/depot-point-london-1906150007469?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from University College London:*\n*Drive:* 1.0 mi (7 mins)\n*Walk:* 1.0 mi (23 mins)\n*Bus/Train:* 1.1 mi (17 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/depot-point-london-1906150007469/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=144932\n\n------------\n\n🏡 *CHAPTER KINGS CROSS, LONDON*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 1.2 mi (9 mins)\n*Walk:* 1.0 mi (24 mins)\n*Bus/Train:* 1.1 mi (14 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=136672\n\n------------",
+      "source": "whatsapp",
+      "event_id": "8881927",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-22T13:21:48\", \"id\": 8881927, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33781673741\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33781673741@c.us_3F426B4B2D40883441D4\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *YUGO DEPOT POINT, LONDON*\\nhttps://ucl.studentacco.com/places/depot-point-london-1906150007469\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/depot-point-london-1906150007469?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 1.0 mi (7 mins)\\n*Walk:* 1.0 mi (23 mins)\\n*Bus/Train:* 1.1 mi (17 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/depot-point-london-1906150007469/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=144932\\n\\n------------\\n\\n\\ud83c\\udfe1 *CHAPTER KINGS CROSS, LONDON*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 1.2 mi (9 mins)\\n*Walk:* 1.0 mi (24 mins)\\n*Bus/Train:* 1.1 mi (14 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=136672\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-22T13:21:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *YUGO DEPOT POINT, LONDON*\\\\nhttps://ucl.studentacco.com/places/depot-point-london-1906150007469\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/depot-point-london-1906150007469?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 1.0 mi (7 mins)\\\\n*Walk:* 1.0 mi (23 mins)\\\\n*Bus/Train:* 1.1 mi (17 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/depot-point-london-1906150007469/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=144932\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CHAPTER KINGS CROSS, LONDON*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 1.2 mi (9 mins)\\\\n*Walk:* 1.0 mi (24 mins)\\\\n*Bus/Train:* 1.1 mi (14 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=136672\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1758547308000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33781673741@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33781673741@c.us_3F426B4B2D40883441D4\\\", \\\"ChannelName\\\": \\\"33781673741\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-22T13:21:49.174615\", \"direction\": \"outbound\", \"sbase_user_id\": 2468876, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33781673741\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16379,
+      "lead_id": 677,
+      "event_type": "call",
+      "timestamp": "2025-09-24T13:18:55.351606",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7923324",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-24T13:18:55.351606\", \"id\": 7923324, \"duration\": \"196\", \"to_number\": \"33781673741\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/aa4aabf8-6a14-4346-92e1-2c1e098092c0.wav\"}",
+      "created_at": "2025-11-18 13:36:27"
+    },
+    {
+      "id": 16380,
+      "lead_id": 677,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3190955, \"user_name\": \"Vyctor Andrieux\", \"email\": \"victor.andrieux.pro@gmail.com\", \"phone\": \"33781673741\", \"lease_duration\": \"\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 976, \"inventory_id\": 136672}",
+      "created_at": "2025-11-18 13:36:27"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 539,
+      "lead_id": 677,
+      "call_id": "7787077",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/b2ceb6b6-2e65-4bba-9a18-00596e7b9755.wav",
+      "transcript_text": "Speaker B: Hello.\nSpeaker A: Hello. Yeah, hi. Am I speaking with Victor exactly? Yeah, hi Victor, good afternoon. I am Prachi from Ongo student for accommodation assistance. Actually we are partnered with the University College London for the accommodation assistance and we got the information that you're looking for accommodation in UK right now.\nSpeaker B: Could you repeat please?\nSpeaker A: Yeah, I am. Basically we. We are connected with University College London. We are partnered with the University College London for the accommodation assistance in uk. I guess you are planning to study in University College London.\nSpeaker B: Yeah.\nSpeaker A: Okay, so that's why we connected with you. So I guess you checked one of our property option that was the Chapter King Cross London, right?\nSpeaker B: Yes, exactly.\nSpeaker A: Yeah. So do you like that accommodation or you want some of the options from my side to have a look?\nSpeaker B: No, I like this option but I would only want to know if chapters London make accommodation for 39 weeks. Because in UCL it's 39 weeks but.\nSpeaker A: Okay, you want something for 39 weeks?\nSpeaker B: Yes.\nSpeaker A: Which room type? Like the sharing room type or your personal ensuite or studio?",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:40:52"
+    },
+    {
+      "id": 540,
+      "lead_id": 677,
+      "call_id": "7787089",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/35b86aec-379f-40ab-b733-a2cb90286b3b.wav",
+      "transcript_text": "Speaker A: Yeah, we've been cut.\nSpeaker B: Yeah. Actually, Victor, this property doesn't provide the accommodation for 39 weeks. They are providing for 51 or 44 weeks. But if you want, I can talk to one or two property holders and I can provide you some other options. Can you let me know a budget and a room type in which you are looking?\nSpeaker A: Yes. You can install with your property and you can write me if you have my email.\nSpeaker B: Yeah, not a problem. Is this number available on WhatsApp? I can even connect with you on the WhatsApp. Let me know. So what is the room type you are particularly interested in?\nSpeaker A: I'm interested in like student accommodation. Private room, private bathroom, not necessarily a private kitchen.\nSpeaker B: Okay, you want a studio room?\nSpeaker A: Yes.\nSpeaker B: Okay. And what is the budget in which.\nSpeaker A: You are looking for like maximum 600. 600.\nSpeaker B: 600 to 650 per week, right?\nSpeaker A: Yes.\nSpeaker B: Okay. And near to the University College London, right?\nSpeaker A: Yes.\nSpeaker B: Okay, no issues. So I am connecting with the properties right now and asking them if they can provide for 39 weeks you. And what is the move in date? Like what exact move in date you are looking for?\nSpeaker A: Like the. The week of the. Of the 15th of September.\nSpeaker B: Like 15September.\nSpeaker A: Yes, this week will be. Will be. Okay.\nSpeaker B: Okay. So it, it can be 13th of September. So that would be convenient, right?\nSpeaker A: Yes.\nSpeaker B: Okay, cool. I am providing these details to the team holders. They will be sharing a quote with me. Then I will be sharing the code with you so that I can provide you some options. Thank you so much for the information. I am sharing my WhatsApp with you. So whatever other questions you will be having, you can connect with me over there. Okay?\nSpeaker A: Okay. Okay. Thank you.\nSpeaker B: Okay. Thank you so much. Have a nice day. Goodbye.\nSpeaker A: Thank you too.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:41:00"
+    },
+    {
+      "id": 541,
+      "lead_id": 677,
+      "call_id": "7797496",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/51abf7c9-5341-44c3-b86f-2026949e78d5.wav",
+      "transcript_text": "Speaker A: Yeah, hello.\nSpeaker B: Hello, I'm a speaker. Victor.\nSpeaker A: Yeah, exactly.\nSpeaker B: Hi Victor, this is Anurand calling from Amber Student. I believe my colleague Prachi was assisting you with your student accommodation in London, Right?\nSpeaker A: Yeah, yeah. I spoke with one of your colleague like two days ago and I've looked at the accommodation she sent me, but I'm still waiting for the response of UCL accommodation team. I speak with them today and they said I have till the end of this week to receive a response from them. So that's the point. Where am I?\nSpeaker B: Okay, all right, got it. So you are expecting a reply from them by this week, right?\nSpeaker A: Yes. But I have one question, maybe you can help me. Is there like on the, on the Ember website, is there any possibility to hold an accommodation or you have to book it completely like the accommodation I'm interested in. Can I make an option on them, like, oh, I would like them or it's not possible.\nSpeaker B: You want to hold the room for you, right, Till you get the result of ucl.\nSpeaker A: Can you repeat please?\nSpeaker B: You want to hold the room with us till you get the results from upl?\nSpeaker A: Yes. I've not chose the room on your website, but I'm interested in the possibility to hold the room and I would love to know if it's possible or not.\nSpeaker B: So basically we cannot hold the room for more than like 24 to 48 hours because it depends on availability. Right. So if someone already books it, then it difficult. It is difficult for us to hold the room for you more than that.\nSpeaker A: So.\nSpeaker B: Okay, can you tell me which room would you like me to hold? And like, which room are you interested in?\nSpeaker A: I. For now, I've looked at the Chapter at King's Cross, the Gau Britannia at King's Cross, the Go Britannia at Islington and the Gau Britannia at Shoreditch for the moment.\nSpeaker B: Got it. So which one did you like the most?\nSpeaker A: I don't know. I really don't know. I would say the Go Britannia or the Go Britannia or the Chapter at King's Cross, but I've not made the choice now, like I just look at the different option and the different room that are left.\nSpeaker B: Okay. All right, so you can let me know which property you are most interested in and we can try to hold a room for you. Like, is that okay? I'll connect with you on WhatsApp also because my colleague is on medical leave currently, so that's why I'm taking over this.\nSpeaker A: Okay, so if we imagine like I look at the room like today and tomorrow and I'VE made my mind about one of the accommodation. I can send you a text on WhatsApp to see if it's possible to hold that room in particular.\nSpeaker B: Yes, yes, exactly. Exactly.\nSpeaker A: Okay. Okay. Okay, perfect.\nSpeaker B: So I'll give you a text on WhatsApp. You can reach out to me there if you have any queries or if you want to hold the property.\nSpeaker A: Okay. Okay. So I. I think about. About what home and what, what accommodation, what place? And I. I write, writing you if I made my mind, like today or tomorrow, like as soon as possible.\nSpeaker B: Right? Yes, exactly.\nSpeaker A: Okay, perfect.\nSpeaker B: Okay. All right. So I have sent you what message on WhatsApp. Did you get my message?\nSpeaker A: Not yet. No, I've not. I've not received your text yet.\nSpeaker B: It just got delayed.\nSpeaker A: Yes, Yes, I received. Yes.\nSpeaker B: Okay. All right. You can just reply me here if you have made up your mind or if you have any doubts.\nSpeaker A: Okay. Okay, perfect.\nSpeaker B: All right. Thank you.\nSpeaker A: Thank you. Have a good day.\nSpeaker B: Yeah.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:41:11"
+    },
+    {
+      "id": 542,
+      "lead_id": 677,
+      "call_id": "7802829",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/7bb8ab83-3ec5-4b50-99a5-39e1f6cfd22a.wav",
+      "transcript_text": "Speaker A: Yeah, yeah.\nSpeaker B: Hello.\nSpeaker A: Hi Victor.\nSpeaker B: Yes.\nSpeaker A: Yeah, hi Victor, good afternoon, I am Sachi from Amber Student. We are connected with the University College London for the accommodation assistance. Yeah, yeah, I called you regarding the accommodation part as I shared two property, the Go Britannia options with you. So were you able to check them?\nSpeaker B: Yes, but I've been contacted by your service like yesterday. There is one of your colleagues that called me and I explained him that I wait till the end of this week to have the response of the team of UCL accommodation and he explained me that it's okay and that I can send him a text with like the room that I would like and he can see if he can book if he can hold the room till the end of the week or not. So I said that I will send him a text today, so it's all good.\nSpeaker A: Okay. So basically right now you are waiting for the university accommodation options and after that.\nSpeaker B: Yes, yes, exactly.\nSpeaker A: I totally understand your point is just the quotation that I shared with you, they are directly from the property and that they were asking for me, that's why I shared it with you. But if you want to wait for some day, that's okay. So do you want to have a call on Friday? Is Friday convenient?\nSpeaker B: No, I'm waiting the response at the end of the week and if they denied my application I will book a room on my home and I said to your colleague that I will look at the different room and he said that he can possibly hold one room for me till the end of the week but it depends on what room I chose. So he said that I can send him a text today or tomorrow with my preference and you will see if he can hold the room or not. So for the moment I wait for the university accommodation and I going to see if one of the room have my preference and after that I will.\nSpeaker A: Yeah, not a problem. I see. I totally understand. It's just we won't be able to hold the room for you. But yes, we can ask for the recent like quotation from them when you will be ready. Okay. Yes, we can connect by Friday to get an update and it will be easy for us to understand what the situation would be so we can go further with it. Okay? Yes, okay, sure, not a problem. I can connect with you at the time of Friday 5th so that we can discuss about it and then we will go ahead with it. Okay?\nSpeaker B: Okay. Okay, okay, I will I wait to do for the response of UCL but they don't know if they can respond Friday. I think like I Will book my accommodation through your service.\nSpeaker A: Like.\nSpeaker B: The weekend of this week, Like Saturday, I think.\nSpeaker A: Okay. So if you want to have a call on Saturday, I can give you a call on Saturday then.\nSpeaker B: Okay. Okay, we can do this, but I think I prefer like booking the room through the website directly.\nSpeaker A: No act. See, I understand about the point of your actually like as you want it for a lesser period of time for like some. Some particular weeks. Right. Duration. So if we are booking directly with the website, that would be something that we need to book for 51 weeks or 44 weeks, but you require.\nSpeaker B: Okay, okay.\nSpeaker A: So that. Yeah, that's why I'm going through the property and then provided you the quotation. So it won't be a problem. They even mailing you. They will mail you.\nSpeaker B: Okay. Okay. So if like I'm. I'm going to look at the room and like the accommodation you sent me, they can do 39 weeks, but they can do 39 weeks only when we pass through your service, like by you. We cannot like book an accommodation for 39 weeks directly on the website. This is only a thing that you can do.\nSpeaker A: Yes, because we actually provide certain details of yours and we ask them if there is any room availability or not. So yeah, if they want to basically provide any amended contract. So they can do. If we are connecting with them. So if you are directly connecting with them, then from the property website you need to book according to their availability of the duration and the room type.\nSpeaker B: Okay. Okay. Okay. So. So. But by Saturday we can. We can talk about it. And after that we. We will see what. What we were doing.\nSpeaker A: Yeah, definitely. Definitely we can do that.\nSpeaker B: Okay, perfect. Okay.\nSpeaker A: Thank you so much, Victor. Have a nice day. Bye. Bye.\nSpeaker B: Thank you. Have a nice day. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:41:22"
+    },
+    {
+      "id": 543,
+      "lead_id": 677,
+      "call_id": "7829454",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3d34bde2-3834-410d-a3f7-9ec71c46175c.wav",
+      "transcript_text": "Speaker A: Votre appel a été transféré vers la messagerie. La personne que vous tentez de joindre n'est pas disponible. Enregistrez votre message.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:41:26"
+    },
+    {
+      "id": 544,
+      "lead_id": 677,
+      "call_id": "7844486",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/95d00321-ef8b-444f-bca2-6ca524ad68b1.wav",
+      "transcript_text": "Speaker A: Votre appel a été transféré vers la messagerie. La personne que vous tentez de joindre n'est pas disponible. Enregistrez votre message après le bip sonore. Une fois votre enregistrement terminé.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:41:30"
+    },
+    {
+      "id": 545,
+      "lead_id": 677,
+      "call_id": "7857877",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/7dd162ce-24f1-42b4-9ea0-df95750a00a9.wav",
+      "transcript_text": "Speaker A: Hello.\nSpeaker B: Hi Vikram.\nSpeaker A: Hi Prashi. Yeah.\nSpeaker B: Yeah. So did you got any reward from the university about the campus accommodation?\nSpeaker A: No, I didn't receive any news from ucl. I tried to contact them yesterday but there was a huge queue. This was impossible. But I'm planning to call them like next hour. But I didn't receive any news so it's kind of embarrassing.\nSpeaker B: Okay, not a problem. Not a problem. Sir, do you want to have a call tomorrow or day after tomorrow for an update?\nSpeaker A: Yes, but when, when I received the news about the accommodation I will contact you. But do you, do you, do you know if there is. If there is. There is some accommodation that are still available?\nSpeaker B: There are some accommodation available but like I will be taking the updates from the property but till the time you're not confirmed about it. So it would be difficult for me. So that's why.\nSpeaker A: That's okay.\nSpeaker B: Be like confirmed about it and then we will. We can take the update from the property directly and if there would be any options available we can discuss it and start the process itself. Okay?\nSpeaker A: Okay. Okay.\nSpeaker B: Okay. Not a problem. So I will be having a follow up call video day after tomorrow. Try to decide if you are able to get any update from the university. That's great. If not.\nSpeaker A: Okay.\nSpeaker B: Try to look for the accommodation so that you could be having a place for you to stay over there. Okay?\nSpeaker A: Okay. Okay. Okay. I wait. You call tomorrow and I try to call UCL today.\nSpeaker B: Yeah, sure. Thank you. Have a nice.\nSpeaker A: Okay. Thank you. Thank you. Have a nice day.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:41:37"
+    },
+    {
+      "id": 705,
+      "lead_id": 677,
+      "call_id": "7912299",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e743a61b-e939-47d2-9c44-9669db493796.wav",
+      "transcript_text": "Speaker A: Yeah, hi, good afternoon. I am Sachi from Amber student for accommodation assistance.\nSpeaker B: Yeah, yeah.\nSpeaker A: So we connected at the starting of September you told me you are waiting for the university accommodation result. So you got the university accommodation. Are you looking for the accommodation?\nSpeaker B: I'm still looking for the commission but I have like find like the. My favorite places. Like I have two, three, four places that I'm looking at and I have to make a choice like this week but I don't have an accommodation but I've made my mind about what type and what accommodation I want. I just have to make a choice between free for accommodation.\nSpeaker A: Okay, if you can let me know which accommodation you are talking about. The three accommodation that you're talking about.\nSpeaker B: I've seen like Hugo Depot point like next to Kings Cross. I've already contacted Victoria hall at Kings Cross also and I'm in contact also with some University of London accommodation and with like a private landlord.\nSpeaker A: So you're talking about the Hugo deport point, right? The ensuite room.\nSpeaker B: Yeah, yeah, yeah I've seen, I've seen this one and I'm. I'm. I'm not make. I've not made my. My mind about if I choose this one or Victoria Earth and I'm waiting for a call from the the private landlord to show if I take one of this private accommodation or if I take like a studio with private landlord.\nSpeaker A: Okay so have you checked the chapters accommodation like that is also very good accommodation availability over there.\nSpeaker B: Yeah, I've seen that they have availability for like 39 weeks and that at Victoria Kings Cross they have availability for 41, 42 weeks. I prefer like 39 weeks but I've called Victoria at King's Cross and they said that they don't do the 39 week, they only do like a flexi start but a fixed end date. So the contract end and the 11th of July it's like 41 weeks like since this week.\nSpeaker A: Yeah, I know actually like right now the 39 week contract has been sold out and the like a bit longer weeks availability is there. We also checked with the properties right now if like the properties are providing eight weeks minimum and if I even checking in chapter property. So 42 weeks is the minimum one right now they are providing if I talk about the nearest chapter or if we talk about a bit of a travel distance and there is another accommodations availability also is there? So like what price range in which you are looking for your accommodation? Like a budget?\nSpeaker B: Yes.\nSpeaker A: So what is the budget in which you are looking for like I'M I'm.\nSpeaker B: Still looking for budget of like 5, 500 per week. Like 5500 pounds per week. 4400 pound per week.\nSpeaker A: Like 500 to 400 pounds per week. Okay, sure. I can share some options with you if you want. Like even there is IQ City that is available and that property is also providing the contract for 42 weeks. If you are looking for ensuite pool that is available for quantity per week. If you are looking for.\nSpeaker B: Can you send me like this option? Like I don't know by mail or by WhatsApp. But yeah. Yeah, okay. Okay, thank you. But, but honestly, honestly I've already like made like a few choices. Like I've studied like all. All your proposition and all the proposition of like the. The other providers and I was like I, I chose like this, this two or three like accommodation because they are the. The. The. The less the. The.\nSpeaker A: Not the problem. See, not the problem. I totally understand that you might have liked some of the property options on your own and I totally agree with it because okay, you have your own research. It's just I am sharing some options from my side. So in that okay, you can have it if you feel convenient about that trade. If not. So you can let us know if like if we will be having any interested in. So we can help you to book your accommodation. Okay?\nSpeaker B: Okay. Okay. Okay. That. That's so kind, thank you.\nSpeaker A: Okay, not a problem. So please do have a look on the options and when do you prefer to have a follow up call? Like when can I connect back with you again?\nSpeaker B: Like can you call me not tomorrow but Wednesday? It does possible because like when there I asked to choose like tomorrow I would have chose my accommodation. So if tomorrow I don't have an accommodation like when they a good time to talk about that and if I chose like tomorrow I would then I will send you a text.\nSpeaker A: Yeah, sure. Not a problem at all. So I will just try to take a call from you on Wednesday. If in case you require any assistance from my side, you can connect with me over the WhatsApp. I'll help you out with it. Okay.\nSpeaker B: Okay. That. That's. That's great.\nSpeaker A: Okay, not a problem. Have a nice day and good evening. We'll connect with you again after tomorrow.\nSpeaker B: Yeah, okay. Nice day. Bye bye.\nSpeaker A: Bye. Take care.\nSpeaker B: Bye bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:36:39"
+    },
+    {
+      "id": 706,
+      "lead_id": 677,
+      "call_id": "7923324",
+      "record_url": "https://aps1.media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/aa4aabf8-6a14-4346-92e1-2c1e098092c0.wav",
+      "transcript_text": "Speaker A: Hi.\nSpeaker B: Hello. Hi Victor. Good afternoon. I am Prachi from Amber student for accommodation assistance. Yeah, yeah. So just regarding the options that I shared with you, so were you able to check the property options again?\nSpeaker A: Yeah, yeah, I've looked at it but I'm currently in talk about an accommodation with. I don't, I don't know if you, if you know them. Studio to Let.\nSpeaker B: Sorry, could you please repeat it?\nSpeaker A: I'm currently talking with studio to let to make a booking. I wait from them an email and after that I think I will have my accommodation.\nSpeaker B: Okay. Is it a private accommodation that you are booking?\nSpeaker A: What?\nSpeaker B: Please, I was asking is it a private housing that you are booking? A separate studio?\nSpeaker A: Yes.\nSpeaker B: Okay.\nSpeaker A: Yeah, yeah, I think it's private.\nSpeaker B: Oh, okay. Okay. So what exactly, like what is the price in which you are getting that studio room?\nSpeaker A: The price you said?\nSpeaker B: Yeah, what is the price of that property?\nSpeaker A: Ah, the size. I don't know exactly the size yet because they have to, to send me like the, the last room that are available but I think it like 14, 15 square meter.\nSpeaker B: Okay, so you didn't like the options that I shared with you? Like the properties that I shared?\nSpeaker A: What?\nSpeaker B: You didn't like the property options that you.\nSpeaker A: I like it but for similar price I can have a room with my own kitchen and maybe a private bathroom depending on the availability. So I have like more amenities, more private amenities. And the property is like at 5, 5 or 10 minutes by foot from the university. So it's more convenient for me. I think so. It's why I didn't, I didn't like book the accommodation you sent me.\nSpeaker B: Not a problem. I totally understand. So basically you are getting a studio room in the same pricing in which I was providing you the ensuite room and it is more near to the university also. I totally got the point. Don't worry. So like right now you have got a good option in, in your hand. So if in case you feel like that you want to connect with me or you want to have a look on the property option again, you have my WhatsApp number. You can connect with me any point of time. I'll help you out with it. Okay.\nSpeaker A: Okay, great. Okay, great. Perfect. I let you know if I, if I need anything.\nSpeaker B: Definitely. And all the best. Thank you. Have a nice day.\nSpeaker A: Thank you. Have a nice day. Thank you. First.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 13:36:53"
+    }
+  ],
+  "summary": {
+    "id": 397,
+    "lead_id": 677,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Vyctor Andrieux\", \"mobile\": [\"+33781673741\"], \"email\": [\"victor.andrieux.pro@gmail.com\"], \"whatsapp\": [\"+447883304744\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": \"studio\", \"budget\": {\"max\": 550, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": \"private_kitchen\", \"dual_occupancy\": false, \"university\": \"University College London\", \"move_in_date\": \"2025-09-13\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Yugo Depot Point\", \"Victoria Hall Kings Cross\", \"University of London accommodation\", \"Private landlord studio\", \"Chapter Kings Cross\", \"iQ Shoreditch\", \"IQ City\", \"Chapter Islington\", \"IQ Paris Gardens\"], \"rooms_considered\": [\"ensuite room\", \"studio\", \"silver studio\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Yes, cashback and 50 GBP Amazon gift card referral offer discussed\"}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Victor on Wednesday (2025-09-24) to check if he has made a decision on accommodation.\", \"due\": \"2025-09-24\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-22 where Victor requested a call on Wednesday after deciding accommodation.\"}, {\"type\": \"follow_up\", \"description\": \"Student to update agent on accommodation decision after contacting university and private landlords by Monday (2025-09-08).\", \"due\": \"2025-09-08\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-06 where Victor said he will contact university by Monday and update.\"}, {\"type\": \"communication\", \"description\": \"Agent to send property options and links to Victor for review.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Multiple WhatsApp messages on 2025-08-30 and 2025-09-22 sharing property links and details.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to await Victor's update on accommodation status and offer assistance if needed.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Repeated WhatsApp messages on 2025-09-06, 2025-09-09, 2025-09-12, and 2025-09-15 requesting updates from Victor.\"}], \"last_agent_response\": \"Agent Prachi sent multiple property options with links on 2025-09-22 and confirmed willingness to assist Victor further. Agent agreed to call Victor on Wednesday (2025-09-24) for follow-up as per Victor's request.\", \"suggested_next_step\": \"Agent to call Victor on 2025-09-24 to follow up on accommodation decision and offer further assistance.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Vyctor Andrieux\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via numbers +33 7 81 67 37 41 and UK agent numbers\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically areas near King's Cross, Shoreditch, Islington, and University College London\", \"university\": \"University College London (UCL) and University of London mentioned\", \"room_type\": \"Studio room or ensuite room with private amenities; preference for private kitchen and possibly private bathroom\", \"budget_range\": \"Between \\u00a3400 and \\u00a3550 per week\", \"move_in_date\": \"Around 13th September 2025\", \"lease_duration\": \"Preference for 39 weeks lease; some discussion about 41-42 weeks lease options\", \"special_requirements\": \"Close proximity to university (5-10 minutes walking preferred), private amenities such as own kitchen and bathroom\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; student is evaluating options and in talks with private landlord and other providers\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (at least 12) and WhatsApp message packs over a period from August 30 to September 24, 2025\", \"primary_channel\": \"Phone calls and WhatsApp messaging\", \"last_contact\": \"September 24, 2025 (call and WhatsApp)\", \"response_time\": \"Student responds within hours to days; agent follows up regularly every few days\", \"key_moments\": \"Initial contact on August 30; sharing of property options on August 30 and September 22; student waiting on university accommodation update early September; student deciding between private studio and shared accommodation; final call on September 24 confirming student likely to book private studio\"}, \"properties_discussed\": {\"properties_mentioned\": \"iQ Shoreditch, Kings Cross Residence, Shoreditch Residence, Yugo Depot Point, Chapter Kings Cross, IQ City London, Chapter Islington, IQ Paris Gardens, Victoria Hall at Kings Cross, University of London accommodation, private landlord studio\", \"viewings_scheduled\": \"Not explicitly mentioned; student awaiting call from private landlord for viewing\", \"preferences_expressed\": \"Prefers private studio with own kitchen and possibly private bathroom; closer to university; did not book agent-shared ensuite options due to preference for more private amenities\", \"offers_made\": \"Agent shared cashback offer subject to availability and referral program with \\u00a350 Amazon gift card\"}, \"next_steps\": {\"immediate_actions\": \"Student to decide on accommodation choice by Monday (early September) and update agent; agent to follow up as requested on Wednesday after student's decision\", \"pending_items\": \"Student waiting for response from university accommodation and private landlord; student to confirm booking status\", \"follow_up_required\": \"Agent to follow up after student\\u2019s decision date; remain available for assistance via WhatsApp\", \"timeline\": \"Move-in date targeted around 13th September 2025; follow-up calls planned around early to mid-September\"}, \"agent_notes\": {\"student_tone\": \"Polite, thoughtful, and communicative; student is carefully considering options and values privacy and convenience\", \"urgency_level\": \"Moderate urgency; student is actively looking but waiting on university and landlord responses\", \"complexity\": \"Moderate complexity due to multiple accommodation options including private landlord and university housing\", \"special_considerations\": \"Student prefers private studio with own amenities near university; agent should respect student\\u2019s research and preferences and offer support without pressure\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Vyctor Andrieux\", \"mobile\": [\"+33781673741\"], \"email\": [\"victor.andrieux.pro@gmail.com\"], \"whatsapp\": [\"+447883304744\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 39, \"room_type\": \"studio\", \"budget\": {\"max\": 550, \"currency\": \"GBP\"}, \"bathroom_type\": \"private_bathroom\", \"kitchen_type\": \"private_kitchen\", \"dual_occupancy\": false, \"university\": \"University College London\", \"move_in_date\": \"2025-09-13\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": \"pbsa\", \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Yugo Depot Point\", \"Victoria Hall Kings Cross\", \"University of London accommodation\", \"Private landlord studio\", \"Chapter Kings Cross\", \"iQ Shoreditch\", \"IQ City\", \"Chapter Islington\", \"IQ Paris Gardens\"], \"rooms_considered\": [\"ensuite room\", \"studio\", \"silver studio\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": \"Yes, cashback and 50 GBP Amazon gift card referral offer discussed\"}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to follow up with Victor on Wednesday (2025-09-24) to check if he has made a decision on accommodation.\", \"due\": \"2025-09-24\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-22 where Victor requested a call on Wednesday after deciding accommodation.\"}, {\"type\": \"follow_up\", \"description\": \"Student to update agent on accommodation decision after contacting university and private landlords by Monday (2025-09-08).\", \"due\": \"2025-09-08\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-06 where Victor said he will contact university by Monday and update.\"}, {\"type\": \"communication\", \"description\": \"Agent to send property options and links to Victor for review.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Multiple WhatsApp messages on 2025-08-30 and 2025-09-22 sharing property links and details.\"}, {\"type\": \"follow_up\", \"description\": \"Agent to await Victor's update on accommodation status and offer assistance if needed.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Repeated WhatsApp messages on 2025-09-06, 2025-09-09, 2025-09-12, and 2025-09-15 requesting updates from Victor.\"}], \"last_agent_response\": \"Agent Prachi sent multiple property options with links on 2025-09-22 and confirmed willingness to assist Victor further. Agent agreed to call Victor on Wednesday (2025-09-24) for follow-up as per Victor's request.\", \"suggested_next_step\": \"Agent to call Victor on 2025-09-24 to follow up on accommodation decision and offer further assistance.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Vyctor Andrieux\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via numbers +33 7 81 67 37 41 and UK agent numbers\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, specifically areas near King's Cross, Shoreditch, Islington, and University College London\", \"university\": \"University College London (UCL) and University of London mentioned\", \"room_type\": \"Studio room or ensuite room with private amenities; preference for private kitchen and possibly private bathroom\", \"budget_range\": \"Between \\u00a3400 and \\u00a3550 per week\", \"move_in_date\": \"Around 13th September 2025\", \"lease_duration\": \"Preference for 39 weeks lease; some discussion about 41-42 weeks lease options\", \"special_requirements\": \"Close proximity to university (5-10 minutes walking preferred), private amenities such as own kitchen and bathroom\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; student is evaluating options and in talks with private landlord and other providers\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls (at least 12) and WhatsApp message packs over a period from August 30 to September 24, 2025\", \"primary_channel\": \"Phone calls and WhatsApp messaging\", \"last_contact\": \"September 24, 2025 (call and WhatsApp)\", \"response_time\": \"Student responds within hours to days; agent follows up regularly every few days\", \"key_moments\": \"Initial contact on August 30; sharing of property options on August 30 and September 22; student waiting on university accommodation update early September; student deciding between private studio and shared accommodation; final call on September 24 confirming student likely to book private studio\"}, \"properties_discussed\": {\"properties_mentioned\": \"iQ Shoreditch, Kings Cross Residence, Shoreditch Residence, Yugo Depot Point, Chapter Kings Cross, IQ City London, Chapter Islington, IQ Paris Gardens, Victoria Hall at Kings Cross, University of London accommodation, private landlord studio\", \"viewings_scheduled\": \"Not explicitly mentioned; student awaiting call from private landlord for viewing\", \"preferences_expressed\": \"Prefers private studio with own kitchen and possibly private bathroom; closer to university; did not book agent-shared ensuite options due to preference for more private amenities\", \"offers_made\": \"Agent shared cashback offer subject to availability and referral program with \\u00a350 Amazon gift card\"}, \"next_steps\": {\"immediate_actions\": \"Student to decide on accommodation choice by Monday (early September) and update agent; agent to follow up as requested on Wednesday after student's decision\", \"pending_items\": \"Student waiting for response from university accommodation and private landlord; student to confirm booking status\", \"follow_up_required\": \"Agent to follow up after student\\u2019s decision date; remain available for assistance via WhatsApp\", \"timeline\": \"Move-in date targeted around 13th September 2025; follow-up calls planned around early to mid-September\"}, \"agent_notes\": {\"student_tone\": \"Polite, thoughtful, and communicative; student is carefully considering options and values privacy and convenience\", \"urgency_level\": \"Moderate urgency; student is actively looking but waiting on university and landlord responses\", \"complexity\": \"Moderate complexity due to multiple accommodation options including private landlord and university housing\", \"special_considerations\": \"Student prefers private studio with own amenities near university; agent should respect student\\u2019s research and preferences and offer support without pressure\"}}}}}",
+    "created_at": "2025-11-18 13:37:06",
+    "updated_at": "2025-11-18T19:07:06.793043",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Vyctor Andrieux",
+        "mobile": [
+          "+33781673741"
+        ],
+        "email": [
+          "victor.andrieux.pro@gmail.com"
+        ],
+        "whatsapp": [
+          "+447883304744"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 39,
+        "room_type": "studio",
+        "budget": {
+          "max": 550,
+          "currency": "GBP"
+        },
+        "bathroom_type": "private_bathroom",
+        "kitchen_type": "private_kitchen",
+        "dual_occupancy": false,
+        "university": "University College London",
+        "move_in_date": "2025-09-13",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": "pbsa",
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "University College London"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Yugo Depot Point",
+          "Victoria Hall Kings Cross",
+          "University of London accommodation",
+          "Private landlord studio",
+          "Chapter Kings Cross",
+          "iQ Shoreditch",
+          "IQ City",
+          "Chapter Islington",
+          "IQ Paris Gardens"
+        ],
+        "rooms_considered": [
+          "ensuite room",
+          "studio",
+          "silver studio"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": "Yes, cashback and 50 GBP Amazon gift card referral offer discussed"
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Victor on Wednesday (2025-09-24) to check if he has made a decision on accommodation.",
+          "due": "2025-09-24",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-09-22 where Victor requested a call on Wednesday after deciding accommodation."
+        },
+        {
+          "type": "follow_up",
+          "description": "Student to update agent on accommodation decision after contacting university and private landlords by Monday (2025-09-08).",
+          "due": "2025-09-08",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp message on 2025-09-06 where Victor said he will contact university by Monday and update."
+        },
+        {
+          "type": "communication",
+          "description": "Agent to send property options and links to Victor for review.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Multiple WhatsApp messages on 2025-08-30 and 2025-09-22 sharing property links and details."
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to await Victor's update on accommodation status and offer assistance if needed.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Repeated WhatsApp messages on 2025-09-06, 2025-09-09, 2025-09-12, and 2025-09-15 requesting updates from Victor."
+        }
+      ],
+      "last_agent_response": "Agent Prachi sent multiple property options with links on 2025-09-22 and confirmed willingness to assist Victor further. Agent agreed to call Victor on Wednesday (2025-09-24) for follow-up as per Victor's request.",
+      "suggested_next_step": "Agent to call Victor on 2025-09-24 to follow up on accommodation decision and offer further assistance."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Vyctor Andrieux",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via numbers +33 7 81 67 37 41 and UK agent numbers",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, specifically areas near King's Cross, Shoreditch, Islington, and University College London",
+            "university": "University College London (UCL) and University of London mentioned",
+            "room_type": "Studio room or ensuite room with private amenities; preference for private kitchen and possibly private bathroom",
+            "budget_range": "Between £400 and £550 per week",
+            "move_in_date": "Around 13th September 2025",
+            "lease_duration": "Preference for 39 weeks lease; some discussion about 41-42 weeks lease options",
+            "special_requirements": "Close proximity to university (5-10 minutes walking preferred), private amenities such as own kitchen and bathroom"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage; student is evaluating options and in talks with private landlord and other providers",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple calls (at least 12) and WhatsApp message packs over a period from August 30 to September 24, 2025",
+            "primary_channel": "Phone calls and WhatsApp messaging",
+            "last_contact": "September 24, 2025 (call and WhatsApp)",
+            "response_time": "Student responds within hours to days; agent follows up regularly every few days",
+            "key_moments": "Initial contact on August 30; sharing of property options on August 30 and September 22; student waiting on university accommodation update early September; student deciding between private studio and shared accommodation; final call on September 24 confirming student likely to book private studio"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "iQ Shoreditch, Kings Cross Residence, Shoreditch Residence, Yugo Depot Point, Chapter Kings Cross, IQ City London, Chapter Islington, IQ Paris Gardens, Victoria Hall at Kings Cross, University of London accommodation, private landlord studio",
+            "viewings_scheduled": "Not explicitly mentioned; student awaiting call from private landlord for viewing",
+            "preferences_expressed": "Prefers private studio with own kitchen and possibly private bathroom; closer to university; did not book agent-shared ensuite options due to preference for more private amenities",
+            "offers_made": "Agent shared cashback offer subject to availability and referral program with £50 Amazon gift card"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to decide on accommodation choice by Monday (early September) and update agent; agent to follow up as requested on Wednesday after student's decision",
+            "pending_items": "Student waiting for response from university accommodation and private landlord; student to confirm booking status",
+            "follow_up_required": "Agent to follow up after student’s decision date; remain available for assistance via WhatsApp",
+            "timeline": "Move-in date targeted around 13th September 2025; follow-up calls planned around early to mid-September"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, thoughtful, and communicative; student is carefully considering options and values privacy and convenience",
+            "urgency_level": "Moderate urgency; student is actively looking but waiting on university and landlord responses",
+            "complexity": "Moderate complexity due to multiple accommodation options including private landlord and university housing",
+            "special_considerations": "Student prefers private studio with own amenities near university; agent should respect student’s research and preferences and offer support without pressure"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Vyctor Andrieux",
+          "mobile": [
+            "+33781673741"
+          ],
+          "email": [
+            "victor.andrieux.pro@gmail.com"
+          ],
+          "whatsapp": [
+            "+447883304744"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 39,
+          "room_type": "studio",
+          "budget": {
+            "max": 550,
+            "currency": "GBP"
+          },
+          "bathroom_type": "private_bathroom",
+          "kitchen_type": "private_kitchen",
+          "dual_occupancy": false,
+          "university": "University College London",
+          "move_in_date": "2025-09-13",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": "pbsa",
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "University College London"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Yugo Depot Point",
+            "Victoria Hall Kings Cross",
+            "University of London accommodation",
+            "Private landlord studio",
+            "Chapter Kings Cross",
+            "iQ Shoreditch",
+            "IQ City",
+            "Chapter Islington",
+            "IQ Paris Gardens"
+          ],
+          "rooms_considered": [
+            "ensuite room",
+            "studio",
+            "silver studio"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": "Yes, cashback and 50 GBP Amazon gift card referral offer discussed"
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Victor on Wednesday (2025-09-24) to check if he has made a decision on accommodation.",
+            "due": "2025-09-24",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-09-22 where Victor requested a call on Wednesday after deciding accommodation."
+          },
+          {
+            "type": "follow_up",
+            "description": "Student to update agent on accommodation decision after contacting university and private landlords by Monday (2025-09-08).",
+            "due": "2025-09-08",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp message on 2025-09-06 where Victor said he will contact university by Monday and update."
+          },
+          {
+            "type": "communication",
+            "description": "Agent to send property options and links to Victor for review.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Multiple WhatsApp messages on 2025-08-30 and 2025-09-22 sharing property links and details."
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to await Victor's update on accommodation status and offer assistance if needed.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Repeated WhatsApp messages on 2025-09-06, 2025-09-09, 2025-09-12, and 2025-09-15 requesting updates from Victor."
+          }
+        ],
+        "last_agent_response": "Agent Prachi sent multiple property options with links on 2025-09-22 and confirmed willingness to assist Victor further. Agent agreed to call Victor on Wednesday (2025-09-24) for follow-up as per Victor's request.",
+        "suggested_next_step": "Agent to call Victor on 2025-09-24 to follow up on accommodation decision and offer further assistance."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Vyctor Andrieux",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via numbers +33 7 81 67 37 41 and UK agent numbers",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, specifically areas near King's Cross, Shoreditch, Islington, and University College London",
+              "university": "University College London (UCL) and University of London mentioned",
+              "room_type": "Studio room or ensuite room with private amenities; preference for private kitchen and possibly private bathroom",
+              "budget_range": "Between £400 and £550 per week",
+              "move_in_date": "Around 13th September 2025",
+              "lease_duration": "Preference for 39 weeks lease; some discussion about 41-42 weeks lease options",
+              "special_requirements": "Close proximity to university (5-10 minutes walking preferred), private amenities such as own kitchen and bathroom"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage; student is evaluating options and in talks with private landlord and other providers",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple calls (at least 12) and WhatsApp message packs over a period from August 30 to September 24, 2025",
+              "primary_channel": "Phone calls and WhatsApp messaging",
+              "last_contact": "September 24, 2025 (call and WhatsApp)",
+              "response_time": "Student responds within hours to days; agent follows up regularly every few days",
+              "key_moments": "Initial contact on August 30; sharing of property options on August 30 and September 22; student waiting on university accommodation update early September; student deciding between private studio and shared accommodation; final call on September 24 confirming student likely to book private studio"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "iQ Shoreditch, Kings Cross Residence, Shoreditch Residence, Yugo Depot Point, Chapter Kings Cross, IQ City London, Chapter Islington, IQ Paris Gardens, Victoria Hall at Kings Cross, University of London accommodation, private landlord studio",
+              "viewings_scheduled": "Not explicitly mentioned; student awaiting call from private landlord for viewing",
+              "preferences_expressed": "Prefers private studio with own kitchen and possibly private bathroom; closer to university; did not book agent-shared ensuite options due to preference for more private amenities",
+              "offers_made": "Agent shared cashback offer subject to availability and referral program with £50 Amazon gift card"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to decide on accommodation choice by Monday (early September) and update agent; agent to follow up as requested on Wednesday after student's decision",
+              "pending_items": "Student waiting for response from university accommodation and private landlord; student to confirm booking status",
+              "follow_up_required": "Agent to follow up after student’s decision date; remain available for assistance via WhatsApp",
+              "timeline": "Move-in date targeted around 13th September 2025; follow-up calls planned around early to mid-September"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, thoughtful, and communicative; student is carefully considering options and values privacy and convenience",
+              "urgency_level": "Moderate urgency; student is actively looking but waiting on university and landlord responses",
+              "complexity": "Moderate complexity due to multiple accommodation options including private landlord and university housing",
+              "special_considerations": "Student prefers private studio with own amenities near university; agent should respect student’s research and preferences and offer support without pressure"
+            }
+          }
+        }
+      }
+    }
+  }
+}

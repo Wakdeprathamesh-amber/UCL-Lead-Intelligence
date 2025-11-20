@@ -51,7 +51,7 @@ User → GPT-4o → Embedding → ChromaDB → Relevant Context
 | **Best For** | Exact matches | Finding meaning |
 | **Speed** | 10-100ms | 150-300ms |
 | **Accuracy** | 100% | ~85% relevance |
-| **Size** | 500 KB (14 leads) | 5 MB (24 docs) |
+| **Size** | ~50 MB (402 leads) | ~100 MB (10,000+ docs) |
 
 ### SQLite Tables (5 total)
 1. `leads` - Main lead info
@@ -279,7 +279,7 @@ Return top K matches with metadata
 
 ## 🚀 Scaling Considerations
 
-### Current POC (14 leads)
+### Current POC (402 leads)
 ```
 ✓ SQLite:   Perfect
 ✓ ChromaDB: Perfect

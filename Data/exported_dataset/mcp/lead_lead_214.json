@@ -1,0 +1,609 @@
+{
+  "id": "lead_214",
+  "mobile_number": "447311989529",
+  "email": null,
+  "timeline": [
+    {
+      "id": 13958,
+      "lead_id": 214,
+      "event_type": "call",
+      "timestamp": "2025-08-21T18:02:41.330660",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7733747",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T18:02:41.330660\", \"id\": 7733747, \"duration\": \"98\", \"to_number\": \"447311989529\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8d637cf3-6abf-4a14-8e8c-2e777edbb82b.wav\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13959,
+      "lead_id": 214,
+      "event_type": "call",
+      "timestamp": "2025-08-21T18:05:33.296938",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7733763",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-21T18:05:33.296938\", \"id\": 7733763, \"duration\": \"149\", \"to_number\": \"447311989529\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/170be760-afb4-42d1-8f4f-907e88bb5f90.wav\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13960,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-21T19:08:02",
+      "content": "hey, we spoke on call regarding your accommodation let me know when you are available for call ok ?",
+      "source": "whatsapp",
+      "event_id": "7624298",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-21T19:08:02\", \"id\": 7624298, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_3FF9523DBDF2D7781914\", \"message_type\": \"text\", \"message_content\": \"hey, we spoke on call regarding your accommodation let me know when you are available for call ok ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-21T19:08:02.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"hey, we spoke on call regarding your accommodation let me know when you are available for call ok ?\\\", \\\"Datetime\\\": 1755803282000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_3FF9523DBDF2D7781914\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-21T19:08:03.057072\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13961,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:18:34",
+      "content": "Hello there, I’m interested in this accommodation, i’m just wondering if I can change the duration? Or is it fixed at 51 weeks",
+      "source": "whatsapp",
+      "event_id": "7661811",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:18:34\", \"id\": 7661811, \"email\": \"\", \"from_number\": \"447311989529\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447311989529@c.us_3A3AB210B375F1C9662D\", \"message_type\": \"text\", \"message_content\": \"Hello there, I\\u2019m interested in this accommodation, i\\u2019m just wondering if I can change the duration? Or is it fixed at 51 weeks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447311989529@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-22T13:18:34.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello there, I\\u2019m interested in this accommodation, i\\u2019m just wondering if I can change the duration? Or is it fixed at 51 weeks\\\", \\\"Datetime\\\": 1755868714000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447311989529@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447311989529@c.us_3A3AB210B375F1C9662D\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447311989529\\\", \\\"sentByUserId\\\": \\\"447311989529@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:18:34.643789\", \"direction\": \"inbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13962,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:18:51",
+      "content": "image.jpeg",
+      "source": "whatsapp",
+      "event_id": "7661833",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:18:51\", \"id\": 7661833, \"email\": \"\", \"from_number\": \"447311989529\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447311989529@c.us_3AE136C46BC5F8C503E3\", \"message_type\": \"text\", \"message_content\": \"image.jpeg\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447311989529@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-22T13:18:51.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447446219714/3AE136C46BC5F8C503E3.jpeg\\\", \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"image.jpeg\\\", \\\"Datetime\\\": 1755868731000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447311989529@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447311989529@c.us_3AE136C46BC5F8C503E3\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447311989529\\\", \\\"sentByUserId\\\": \\\"447311989529@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:18:53.775450\", \"direction\": \"inbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13963,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:25:51",
+      "content": "Ok",
+      "source": "whatsapp",
+      "event_id": "7662331",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:25:51\", \"id\": 7662331, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_741BF930BAF872379AF450D4E5F01896\", \"message_type\": \"text\", \"message_content\": \"Ok\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T13:25:51.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Ok\\\", \\\"Datetime\\\": 1755869151000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_741BF930BAF872379AF450D4E5F01896\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:25:51.878871\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13964,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:25:57",
+      "content": "Allow me a moment",
+      "source": "whatsapp",
+      "event_id": "7662347",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:25:57\", \"id\": 7662347, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_29CC7389E8520712DEA7CA9671FF97D8\", \"message_type\": \"text\", \"message_content\": \"Allow me a moment\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T13:25:57.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Allow me a moment\\\", \\\"Datetime\\\": 1755869157000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_29CC7389E8520712DEA7CA9671FF97D8\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:25:57.842715\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13965,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:26:43",
+      "content": "Also please let me know are you available for a call ?",
+      "source": "whatsapp",
+      "event_id": "7662419",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:26:43\", \"id\": 7662419, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_7C4A370F1425DA4EB1FA0F4C92521DBF\", \"message_type\": \"text\", \"message_content\": \"Also please let me know are you available for a call ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T13:26:43.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Also please let me know are you available for a call ?\\\", \\\"Datetime\\\": 1755869203000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_7C4A370F1425DA4EB1FA0F4C92521DBF\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:26:43.782221\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13966,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:28:47",
+      "content": "its for 51 weeks",
+      "source": "whatsapp",
+      "event_id": "7662583",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:28:47\", \"id\": 7662583, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_3F5D2225EDDCB2FDA73F\", \"message_type\": \"text\", \"message_content\": \"its for 51 weeks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T13:28:47.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"its for 51 weeks\\\", \\\"Datetime\\\": 1755869327000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_3F5D2225EDDCB2FDA73F\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:28:48.019210\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13967,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:29:28",
+      "content": "Is it fixed at 51 weeks only?",
+      "source": "whatsapp",
+      "event_id": "7662635",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:29:28\", \"id\": 7662635, \"email\": \"\", \"from_number\": \"447311989529\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447311989529@c.us_3AC4049DD043A60F91BB\", \"message_type\": \"text\", \"message_content\": \"Is it fixed at 51 weeks only?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447311989529@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-22T13:29:28.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Is it fixed at 51 weeks only?\\\", \\\"Datetime\\\": 1755869368000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447311989529@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447311989529@c.us_3AC4049DD043A60F91BB\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447311989529\\\", \\\"sentByUserId\\\": \\\"447311989529@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:29:28.494707\", \"direction\": \"inbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13968,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:30:07",
+      "content": "Yes",
+      "source": "whatsapp",
+      "event_id": "7662688",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:30:07\", \"id\": 7662688, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_0BFE3DDD47CABF1252EBF290E4E9741A\", \"message_type\": \"text\", \"message_content\": \"Yes\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T13:30:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Yes\\\", \\\"Datetime\\\": 1755869407000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_0BFE3DDD47CABF1252EBF290E4E9741A\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:30:08.253171\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13969,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:30:22",
+      "content": "All the rooms here are for 51 weeks",
+      "source": "whatsapp",
+      "event_id": "7662707",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:30:22\", \"id\": 7662707, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_2ECE4CF93412E6E06E566C33615FDA6C\", \"message_type\": \"text\", \"message_content\": \"All the rooms here are for 51 weeks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T13:30:22.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"All the rooms here are for 51 weeks\\\", \\\"Datetime\\\": 1755869422000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_2ECE4CF93412E6E06E566C33615FDA6C\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:30:23.678083\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13970,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:30:40",
+      "content": "Ah I’m looking for flexible duration. Thanks for the help anyway",
+      "source": "whatsapp",
+      "event_id": "7662734",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:30:40\", \"id\": 7662734, \"email\": \"\", \"from_number\": \"447311989529\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447311989529@c.us_3A7B794FC48E42E04AFB\", \"message_type\": \"text\", \"message_content\": \"Ah I\\u2019m looking for flexible duration. Thanks for the help anyway\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447311989529@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-22T13:30:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Ah I\\u2019m looking for flexible duration. Thanks for the help anyway\\\", \\\"Datetime\\\": 1755869440000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447311989529@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447311989529@c.us_3A7B794FC48E42E04AFB\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447311989529\\\", \\\"sentByUserId\\\": \\\"447311989529@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:30:40.261910\", \"direction\": \"inbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13971,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:31:16",
+      "content": "That's why I am here",
+      "source": "whatsapp",
+      "event_id": "7662795",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:31:16\", \"id\": 7662795, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_9771B20713D7B55B5C83EC77AC718C5C\", \"message_type\": \"text\", \"message_content\": \"That's why I am here\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T13:31:16.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"That's why I am here\\\", \\\"Datetime\\\": 1755869476000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_9771B20713D7B55B5C83EC77AC718C5C\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:31:16.434988\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13972,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:31:31",
+      "content": "How about bi show you something for less tenure",
+      "source": "whatsapp",
+      "event_id": "7662816",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:31:31\", \"id\": 7662816, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_E138D3CB2685F578E7DE097AA2F14409\", \"message_type\": \"text\", \"message_content\": \"How about bi show you something for less tenure\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-22T13:31:31.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"How about bi show you something for less tenure\\\", \\\"Datetime\\\": 1755869491000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_E138D3CB2685F578E7DE097AA2F14409\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:31:31.967150\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13973,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-22T13:32:30",
+      "content": "No problem. Please send me the lists if possible, thanks!",
+      "source": "whatsapp",
+      "event_id": "7662892",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-22T13:32:30\", \"id\": 7662892, \"email\": \"\", \"from_number\": \"447311989529\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447311989529@c.us_3A8FF22BB65AB48A030E\", \"message_type\": \"text\", \"message_content\": \"No problem. Please send me the lists if possible, thanks!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447311989529@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-08-22T13:32:30.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"No problem. Please send me the lists if possible, thanks!\\\", \\\"Datetime\\\": 1755869550000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447311989529@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447311989529@c.us_3A8FF22BB65AB48A030E\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447311989529\\\", \\\"sentByUserId\\\": \\\"447311989529@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-22T13:32:31.087483\", \"direction\": \"inbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13974,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T14:09:15",
+      "content": "HELLO",
+      "source": "whatsapp",
+      "event_id": "7777238",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T14:09:15\", \"id\": 7777238, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_3F8959FFC8A7B8F677AF\", \"message_type\": \"text\", \"message_content\": \"HELLO\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T14:09:15.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"HELLO\\\", \\\"Datetime\\\": 1756130955000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_3F8959FFC8A7B8F677AF\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T14:09:15.354314\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13975,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-25T14:09:45",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *GOBRITANYA LEWISHAM RESIDENCE, LONDON*\nhttps://ucl.studentacco.com/places/lewisham-residence-london-2206069854956\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/lewisham-residence-london-2206069854956?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from London City Center:*\n*Drive:* 6.6 mi (35 mins)\n*Walk:* 6.2 mi (2 hours 7 mins)\n*Bus/Train:* 6.6 mi (31 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/lewisham-residence-london-2206069854956/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=219517\n\n------------\n\n🏡 *GOBRITANYA SOUTH BANK RESIDENCE, LONDON*\nhttps://ucl.studentacco.com/places/go-britanya-southbank-residence-london-2406074080062\n\n📍 *DISTANCE from London City Center:*\n*Drive:* 1.7 mi (13 mins)\n*Walk:* 1.4 mi (30 mins)\n*Bus/Train:* 1.7 mi (19 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/go-britanya-southbank-residence-london-2406074080062/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=1102298\n\n------------",
+      "source": "whatsapp",
+      "event_id": "7777271",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-25T14:09:45\", \"id\": 7777271, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_3EB076F9C550F3309116B7\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *GOBRITANYA LEWISHAM RESIDENCE, LONDON*\\nhttps://ucl.studentacco.com/places/lewisham-residence-london-2206069854956\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/lewisham-residence-london-2206069854956?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\n*Drive:* 6.6 mi (35 mins)\\n*Walk:* 6.2 mi (2 hours 7 mins)\\n*Bus/Train:* 6.6 mi (31 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/lewisham-residence-london-2206069854956/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=219517\\n\\n------------\\n\\n\\ud83c\\udfe1 *GOBRITANYA SOUTH BANK RESIDENCE, LONDON*\\nhttps://ucl.studentacco.com/places/go-britanya-southbank-residence-london-2406074080062\\n\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\n*Drive:* 1.7 mi (13 mins)\\n*Walk:* 1.4 mi (30 mins)\\n*Bus/Train:* 1.7 mi (19 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/go-britanya-southbank-residence-london-2406074080062/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=1102298\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-25T14:09:45.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *GOBRITANYA LEWISHAM RESIDENCE, LONDON*\\\\nhttps://ucl.studentacco.com/places/lewisham-residence-london-2206069854956\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/lewisham-residence-london-2206069854956?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\\\n*Drive:* 6.6 mi (35 mins)\\\\n*Walk:* 6.2 mi (2 hours 7 mins)\\\\n*Bus/Train:* 6.6 mi (31 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/lewisham-residence-london-2206069854956/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=219517\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *GOBRITANYA SOUTH BANK RESIDENCE, LONDON*\\\\nhttps://ucl.studentacco.com/places/go-britanya-southbank-residence-london-2406074080062\\\\n\\\\n\\ud83d\\udccd *DISTANCE from London City Center:*\\\\n*Drive:* 1.7 mi (13 mins)\\\\n*Walk:* 1.4 mi (30 mins)\\\\n*Bus/Train:* 1.7 mi (19 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/go-britanya-southbank-residence-london-2406074080062/form?url=mahmudul.h%40amberstudent.com&amp;inventory_id=1102298\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1756130985000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_3EB076F9C550F3309116B7\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-25T14:09:45.727183\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13976,
+      "lead_id": 214,
+      "event_type": "call",
+      "timestamp": "2025-08-26T13:40:53.563549",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7762775",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-26T13:40:53.563549\", \"id\": 7762775, \"duration\": \"45\", \"to_number\": \"447311989529\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4ffd66b8-842d-4ae0-94e4-62ae7969a8c6.wav\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13977,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-28T22:50:34",
+      "content": "Hello cleo, can you please confirm about the accommodation as we can see your application is still not completed",
+      "source": "whatsapp",
+      "event_id": "7961363",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-28T22:50:34\", \"id\": 7961363, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_798C2F3DAF4A8FBE58A559B16B62EA36\", \"message_type\": \"text\", \"message_content\": \"Hello cleo, can you please confirm about the accommodation as we can see your application is still not completed\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-28T22:50:34.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hello cleo, can you please confirm about the accommodation as we can see your application is still not completed\\\", \\\"Datetime\\\": 1756421434000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_798C2F3DAF4A8FBE58A559B16B62EA36\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-08-28T22:50:34.835126\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13978,
+      "lead_id": 214,
+      "event_type": "call",
+      "timestamp": "2025-09-01T18:53:21.984493",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7798922",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-01T18:53:21.984493\", \"id\": 7798922, \"duration\": \"0\", \"to_number\": \"447311989529\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13979,
+      "lead_id": 214,
+      "event_type": "call",
+      "timestamp": "2025-09-05T20:27:48.116492",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7825591",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-05T20:27:48.116492\", \"id\": 7825591, \"duration\": \"1\", \"to_number\": \"447311989529\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a423f452-2052-49b3-9b58-9f7fa29f4cc7.wav\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13980,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T15:28:55",
+      "content": "Hi sorry it’s too expensive for me thanks for the help anyway",
+      "source": "whatsapp",
+      "event_id": "8387092",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T15:28:55\", \"id\": 8387092, \"email\": \"\", \"from_number\": \"447311989529\", \"to_number\": \"447446219714\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447311989529@c.us_3A38D193F1A3CA9F8442\", \"message_type\": \"text\", \"message_content\": \"Hi sorry it\\u2019s too expensive for me thanks for the help anyway\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447311989529@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-08T15:28:55.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Hi sorry it\\u2019s too expensive for me thanks for the help anyway\\\", \\\"Datetime\\\": 1757345335000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447446219714@c.us\\\", \\\"Sentbyid\\\": \\\"447311989529@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447311989529@c.us_3A38D193F1A3CA9F8442\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447311989529\\\", \\\"sentByUserId\\\": \\\"447311989529@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-09-08T15:28:55.860460\", \"direction\": \"inbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13981,
+      "lead_id": 214,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T15:29:31",
+      "content": "Understood",
+      "source": "whatsapp",
+      "event_id": "8387127",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T15:29:31\", \"id\": 8387127, \"email\": \"\", \"from_number\": \"447446219714\", \"to_number\": \"447311989529\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447311989529@c.us_326FE2D6A805482A2C2F2E22D1E8D81E\", \"message_type\": \"text\", \"message_content\": \"Understood\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447446219714@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-08T15:29:31.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447446219714@c.us\\\", \\\"Message\\\": \\\"Understood\\\", \\\"Datetime\\\": 1757345371000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447311989529@c.us\\\", \\\"Sentbyid\\\": \\\"447446219714@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447311989529@c.us_326FE2D6A805482A2C2F2E22D1E8D81E\\\", \\\"ChannelName\\\": \\\"447311989529\\\", \\\"SentByNumber\\\": \\\"447446219714\\\", \\\"sentByUserId\\\": \\\"447446219714@c.us\\\", \\\"CreatedByUser\\\": \\\"447446219714\\\"}]}\", \"updated_at\": \"2025-09-08T15:29:31.359688\", \"direction\": \"outbound\", \"sbase_user_id\": 2450260, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3055, \"agent_number\": \"447446219714\", \"customer_number\": \"447311989529\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13982,
+      "lead_id": 214,
+      "event_type": "call",
+      "timestamp": "2025-09-08T21:21:07.804631",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7840640",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-08T21:21:07.804631\", \"id\": 7840640, \"duration\": \"0\", \"to_number\": \"447311989529\", \"from_number\": \"447456741634\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 13:25:01"
+    },
+    {
+      "id": 13983,
+      "lead_id": 214,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3166616, \"user_name\": \"cleolai21@gmail.com\", \"email\": \"cleolai21@gmail.com\", \"phone\": \"447311989529\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 425, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1884827}",
+      "created_at": "2025-11-18 13:25:01"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 119,
+      "lead_id": 214,
+      "call_id": "7733747",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8d637cf3-6abf-4a14-8e8c-2e777edbb82b.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Hello, hi, I'm a Cleo. Hi, this is Hussain. I'm calling regarding your accommodation. Oh, yes, perfect. So we are official partners with UCL and I can see you have checked few accommodations in our website. UCL accommodations, right? Yes, yes, like you have selected Warwick Park, London, other accommodations. So could you please let me know, have you selected anything which you are specifically want to know about or do you want me to suggest you something?\nSpeaker B: Oh, wait, with the accommodation is good.\nSpeaker A: Sorry, pardon?\nSpeaker B: For your accommodation are you preparing for.\nSpeaker A: I didn't. I'm unable to hear you. Are you asking for which accommodation I'm calling you from?\nSpeaker B: Yes, that's right.\nSpeaker A: All right, I'm calling you from UCL accommodation portal Universities Powered by Amber Student. So could you please let me know? I can see you have selected two, three accommodations, right?\nSpeaker B: Oh, yes, can I add this one to accommodation is available?\nSpeaker A: Yeah, sure. Tell me.\nSpeaker B: Can I Please ask if 1, 2, 3 accommodation is available?\nSpeaker A: Your voice is not audible clearly. Can I call you on WhatsApp?\nSpeaker B: Oh, yeah, sure.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:28:02"
+    },
+    {
+      "id": 121,
+      "lead_id": 214,
+      "call_id": "7733763",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/170be760-afb4-42d1-8f4f-907e88bb5f90.wav",
+      "transcript_text": "Speaker A: Hello?\nSpeaker B: Really sorry, you're saying something. Sorry, yeah, I'm really sorry. You were saying something. Right. You're saying something about the accommodation.\nSpeaker A: Oh, yes, this is Amber. Right, the website.\nSpeaker B: Yes, Amber.\nSpeaker A: Okay, I'm calling about. Wait, hold on.\nSpeaker B: Pardon?\nSpeaker A: Yeah, why are you calling me? Sorry.\nSpeaker B: Pardon? I'm unable to understand you, what you're saying.\nSpeaker A: Why are you calling me again?\nSpeaker B: I am calling you regarding your accommodation. Amber is the official partner accommodation provider with ucl. You have checked few options in UCL website. Like London is Hackney, Warwick, Warpe Park, London and Warpark London. Right.\nSpeaker A: Can you repeat that?\nSpeaker B: Yeah, you were checking few options in the UCL website. UCL accommodation website. And we are the partners with UCL accommodation website. We are supposed to call you and help you out with your accommodation.\nSpeaker A: Oh, yeah, okay. Thank you.\nSpeaker B: Understand, like, are you. What can I do to help you book your ideal accommodation?\nSpeaker A: I'm actually still looking at this moment.\nSpeaker B: Okay, so you're saying you're not looking for accommodation at the moment?\nSpeaker A: No, I am, but like, I'm still exploring the options.\nSpeaker B: Okay, I understand, I understand. And I also feel like you are outside right now. Is that correct?\nSpeaker A: Oh, yes, I am outside right now. So I can't hear you clearly.\nSpeaker B: Mia, I. That is totally understandable. So let me do one thing. How about I just drop a message on WhatsApp? All right.\nSpeaker A: Okay, yeah, sure. You can do that?\nSpeaker B: Yeah. And you give me a call whenever you're free. I can give you the all insights that you will need to book an accommodation. Sounds good enough.\nSpeaker A: All right, that's perfect. Thank you so much.\nSpeaker B: No worries, Louie. Take care.\nSpeaker A: Take care. Bye. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:28:09"
+    },
+    {
+      "id": 125,
+      "lead_id": 214,
+      "call_id": "7762775",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/4ffd66b8-842d-4ae0-94e4-62ae7969a8c6.wav",
+      "transcript_text": "Speaker A: 07311, 989-529. Can't take your call right now. Just leave your message after the tone. When you're done, press hash or just hang up.\nSpeaker B: Hi, Chloe. I just wanted to call you to take a quick update regarding the options that I've shared with you. The options are getting soloed pretty fast, so we need to work a little bit faster. Please reach me out on WhatsApp if you have any doubt regarding your property. Let's have a conversation on call so I can help you out with your accommodation. Thank you.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:28:17"
+    }
+  ],
+  "summary": {
+    "id": 365,
+    "lead_id": 214,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": null, \"mobile\": [\"+447311989529\"], \"email\": [\"cleolai21@gmail.com\"], \"whatsapp\": [\"+447311989529\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 425, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"GOBRITANYA LEWISHAM RESIDENCE, LONDON\", \"GOBRITANYA SOUTH BANK RESIDENCE, LONDON\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Send student property suggestions for accommodation with flexible duration options.\", \"due\": \"within_24h\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent property suggestions on 2025-08-25 via WhatsApp.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with student to confirm accommodation application completion.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent message on 2025-08-28 asking student to confirm accommodation as application is not completed.\"}], \"last_agent_response\": \"Sent property suggestions for accommodation options with 51-week duration on 2025-08-25 and followed up on 2025-08-28 asking student to confirm application status.\", \"suggested_next_step\": \"Agent to follow up with student regarding completion of accommodation application.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Cleo\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via UK numbers\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3425 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks (fixed duration)\", \"special_requirements\": \"Looking for flexible lease duration but current properties are fixed at 51 weeks\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; application not completed\", \"documents_status\": \"Application still not completed\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls and WhatsApp messages between 2025-08-21 and 2025-09-08\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-08 via WhatsApp\", \"response_time\": \"Generally prompt responses within minutes to hours\", \"key_moments\": \"Initial calls on 2025-08-21; discussion about lease duration on 2025-08-22; property suggestions sent on 2025-08-25; follow-up on incomplete application on 2025-08-28; student declined due to price on 2025-09-08\"}, \"properties_discussed\": {\"properties_mentioned\": \"GOBRITANYA LEWISHAM RESIDENCE, LONDON; GOBRITANYA SOUTH BANK RESIDENCE, LONDON\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student wants flexible lease duration; properties offered are fixed at 51 weeks; student finds options too expensive\", \"offers_made\": \"Agent offered to show properties with shorter tenure\"}, \"next_steps\": {\"immediate_actions\": \"Confirm if student wants to proceed with any property or explore other options\", \"pending_items\": \"Completion of accommodation application\", \"follow_up_required\": \"Agent to follow up on application status and budget flexibility\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear about preferences and constraints\", \"urgency_level\": \"Low to moderate; student is exploring options but declined due to price\", \"complexity\": \"Moderate due to fixed lease duration and budget constraints\", \"special_considerations\": \"Student seeks flexible lease duration which is currently unavailable in offered properties\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": null, \"mobile\": [\"+447311989529\"], \"email\": [\"cleolai21@gmail.com\"], \"whatsapp\": [\"+447311989529\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": null, \"budget\": {\"max\": 425, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"GOBRITANYA LEWISHAM RESIDENCE, LONDON\", \"GOBRITANYA SOUTH BANK RESIDENCE, LONDON\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Send student property suggestions for accommodation with flexible duration options.\", \"due\": \"within_24h\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent property suggestions on 2025-08-25 via WhatsApp.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with student to confirm accommodation application completion.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent message on 2025-08-28 asking student to confirm accommodation as application is not completed.\"}], \"last_agent_response\": \"Sent property suggestions for accommodation options with 51-week duration on 2025-08-25 and followed up on 2025-08-28 asking student to confirm application status.\", \"suggested_next_step\": \"Agent to follow up with student regarding completion of accommodation application.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Cleo\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via UK numbers\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"\\u00a3425 per week\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks (fixed duration)\", \"special_requirements\": \"Looking for flexible lease duration but current properties are fixed at 51 weeks\"}, \"current_status\": {\"booking_stage\": \"Property selection stage; application not completed\", \"documents_status\": \"Application still not completed\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls and WhatsApp messages between 2025-08-21 and 2025-09-08\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-08 via WhatsApp\", \"response_time\": \"Generally prompt responses within minutes to hours\", \"key_moments\": \"Initial calls on 2025-08-21; discussion about lease duration on 2025-08-22; property suggestions sent on 2025-08-25; follow-up on incomplete application on 2025-08-28; student declined due to price on 2025-09-08\"}, \"properties_discussed\": {\"properties_mentioned\": \"GOBRITANYA LEWISHAM RESIDENCE, LONDON; GOBRITANYA SOUTH BANK RESIDENCE, LONDON\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student wants flexible lease duration; properties offered are fixed at 51 weeks; student finds options too expensive\", \"offers_made\": \"Agent offered to show properties with shorter tenure\"}, \"next_steps\": {\"immediate_actions\": \"Confirm if student wants to proceed with any property or explore other options\", \"pending_items\": \"Completion of accommodation application\", \"follow_up_required\": \"Agent to follow up on application status and budget flexibility\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear about preferences and constraints\", \"urgency_level\": \"Low to moderate; student is exploring options but declined due to price\", \"complexity\": \"Moderate due to fixed lease duration and budget constraints\", \"special_considerations\": \"Student seeks flexible lease duration which is currently unavailable in offered properties\"}}}}}",
+    "created_at": "2025-11-18 13:25:10",
+    "updated_at": "2025-11-18T18:55:10.835811",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": null,
+        "mobile": [
+          "+447311989529"
+        ],
+        "email": [
+          "cleolai21@gmail.com"
+        ],
+        "whatsapp": [
+          "+447311989529"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": null,
+        "budget": {
+          "max": 425,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "GOBRITANYA LEWISHAM RESIDENCE, LONDON",
+          "GOBRITANYA SOUTH BANK RESIDENCE, LONDON"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Send student property suggestions for accommodation with flexible duration options.",
+          "due": "within_24h",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent sent property suggestions on 2025-08-25 via WhatsApp."
+        },
+        {
+          "type": "follow_up",
+          "description": "Follow up with student to confirm accommodation application completion.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent message on 2025-08-28 asking student to confirm accommodation as application is not completed."
+        }
+      ],
+      "last_agent_response": "Sent property suggestions for accommodation options with 51-week duration on 2025-08-25 and followed up on 2025-08-28 asking student to confirm application status.",
+      "suggested_next_step": "Agent to follow up with student regarding completion of accommodation application."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Cleo",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via UK numbers",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "£425 per week",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks (fixed duration)",
+            "special_requirements": "Looking for flexible lease duration but current properties are fixed at 51 weeks"
+          },
+          "current_status": {
+            "booking_stage": "Property selection stage; application not completed",
+            "documents_status": "Application still not completed",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple calls and WhatsApp messages between 2025-08-21 and 2025-09-08",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-08 via WhatsApp",
+            "response_time": "Generally prompt responses within minutes to hours",
+            "key_moments": "Initial calls on 2025-08-21; discussion about lease duration on 2025-08-22; property suggestions sent on 2025-08-25; follow-up on incomplete application on 2025-08-28; student declined due to price on 2025-09-08"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "GOBRITANYA LEWISHAM RESIDENCE, LONDON; GOBRITANYA SOUTH BANK RESIDENCE, LONDON",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Student wants flexible lease duration; properties offered are fixed at 51 weeks; student finds options too expensive",
+            "offers_made": "Agent offered to show properties with shorter tenure"
+          },
+          "next_steps": {
+            "immediate_actions": "Confirm if student wants to proceed with any property or explore other options",
+            "pending_items": "Completion of accommodation application",
+            "follow_up_required": "Agent to follow up on application status and budget flexibility",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and clear about preferences and constraints",
+            "urgency_level": "Low to moderate; student is exploring options but declined due to price",
+            "complexity": "Moderate due to fixed lease duration and budget constraints",
+            "special_considerations": "Student seeks flexible lease duration which is currently unavailable in offered properties"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": null,
+          "mobile": [
+            "+447311989529"
+          ],
+          "email": [
+            "cleolai21@gmail.com"
+          ],
+          "whatsapp": [
+            "+447311989529"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": null,
+          "budget": {
+            "max": 425,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "GOBRITANYA LEWISHAM RESIDENCE, LONDON",
+            "GOBRITANYA SOUTH BANK RESIDENCE, LONDON"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Send student property suggestions for accommodation with flexible duration options.",
+            "due": "within_24h",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent sent property suggestions on 2025-08-25 via WhatsApp."
+          },
+          {
+            "type": "follow_up",
+            "description": "Follow up with student to confirm accommodation application completion.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent message on 2025-08-28 asking student to confirm accommodation as application is not completed."
+          }
+        ],
+        "last_agent_response": "Sent property suggestions for accommodation options with 51-week duration on 2025-08-25 and followed up on 2025-08-28 asking student to confirm application status.",
+        "suggested_next_step": "Agent to follow up with student regarding completion of accommodation application."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Cleo",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via UK numbers",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "£425 per week",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks (fixed duration)",
+              "special_requirements": "Looking for flexible lease duration but current properties are fixed at 51 weeks"
+            },
+            "current_status": {
+              "booking_stage": "Property selection stage; application not completed",
+              "documents_status": "Application still not completed",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple calls and WhatsApp messages between 2025-08-21 and 2025-09-08",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-08 via WhatsApp",
+              "response_time": "Generally prompt responses within minutes to hours",
+              "key_moments": "Initial calls on 2025-08-21; discussion about lease duration on 2025-08-22; property suggestions sent on 2025-08-25; follow-up on incomplete application on 2025-08-28; student declined due to price on 2025-09-08"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "GOBRITANYA LEWISHAM RESIDENCE, LONDON; GOBRITANYA SOUTH BANK RESIDENCE, LONDON",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Student wants flexible lease duration; properties offered are fixed at 51 weeks; student finds options too expensive",
+              "offers_made": "Agent offered to show properties with shorter tenure"
+            },
+            "next_steps": {
+              "immediate_actions": "Confirm if student wants to proceed with any property or explore other options",
+              "pending_items": "Completion of accommodation application",
+              "follow_up_required": "Agent to follow up on application status and budget flexibility",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and clear about preferences and constraints",
+              "urgency_level": "Low to moderate; student is exploring options but declined due to price",
+              "complexity": "Moderate due to fixed lease duration and budget constraints",
+              "special_considerations": "Student seeks flexible lease duration which is currently unavailable in offered properties"
+            }
+          }
+        }
+      }
+    }
+  }
+}

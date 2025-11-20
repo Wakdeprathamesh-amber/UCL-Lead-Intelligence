@@ -1,0 +1,352 @@
+{
+  "id": "lead_773",
+  "mobile_number": "16093315531",
+  "email": null,
+  "timeline": [
+    {
+      "id": 12402,
+      "lead_id": 773,
+      "event_type": "call",
+      "timestamp": "2025-08-04T12:24:00.304958",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7620405",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-04T12:24:00.304958\", \"id\": 7620405, \"duration\": \"12\", \"to_number\": \"16093315531\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/fa25151b-9735-4713-9b18-9bdee43982c6.wav\"}",
+      "created_at": "2025-11-18 12:56:09"
+    },
+    {
+      "id": 12403,
+      "lead_id": 773,
+      "event_type": "call",
+      "timestamp": "2025-08-06T09:30:30.516406",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7632170",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-06T09:30:30.516406\", \"id\": 7632170, \"duration\": \"10\", \"to_number\": \"16093315531\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3612290e-e74c-4bf7-8f52-9cd0d7d591db.wav\"}",
+      "created_at": "2025-11-18 12:56:09"
+    },
+    {
+      "id": 12404,
+      "lead_id": 773,
+      "event_type": "call",
+      "timestamp": "2025-08-08T13:37:57.009293",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7648093",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-08T13:37:57.009293\", \"id\": 7648093, \"duration\": \"23\", \"to_number\": \"16093315531\", \"from_number\": \"19176959425\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/32f8e701-195a-4177-b5cf-0083f89bc400.wav\"}",
+      "created_at": "2025-11-18 12:56:09"
+    },
+    {
+      "id": 12405,
+      "lead_id": 773,
+      "event_type": "call",
+      "timestamp": "2025-08-12T13:05:13.490578",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7668307",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-12T13:05:13.490578\", \"id\": 7668307, \"to_number\": \"16093315531\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 12:56:09"
+    },
+    {
+      "id": 12406,
+      "lead_id": 773,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3103890, \"user_name\": \"Sundus Reshid\", \"email\": \"sundusreshid13@gmail.com\", \"phone\": \"16093315531\", \"lease_duration\": \"45+ Weeks\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 1093525}",
+      "created_at": "2025-11-18 12:56:09"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 611,
+      "lead_id": 773,
+      "call_id": "7620405",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/fa25151b-9735-4713-9b18-9bdee43982c6.wav",
+      "transcript_text": "Speaker A: Thank you for calling from this Rashid. Unfortunately, I'm unable to take your call right now, but please leave your name, number and a brief message and I will return your call if.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:56:19"
+    },
+    {
+      "id": 612,
+      "lead_id": 773,
+      "call_id": "7632170",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/3612290e-e74c-4bf7-8f52-9cd0d7d591db.wav",
+      "transcript_text": "Speaker A: Thank you for calling. Unfortunately, I'm unable to take your call right now, but please leave your name, number and a brief.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:56:23"
+    },
+    {
+      "id": 613,
+      "lead_id": 773,
+      "call_id": "7648093",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/32f8e701-195a-4177-b5cf-0083f89bc400.wav",
+      "transcript_text": "Speaker A: Thank you for calling. Unfortunately, I'm unable to take your call right now, but please leave your name, number, and a brief message, and I will return your call as soon as possible.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:56:27"
+    }
+  ],
+  "summary": {
+    "id": 319,
+    "lead_id": 773,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Sundus Reshid\", \"mobile\": [\"16093315531\"], \"email\": [\"sundusreshid13@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 45, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Return the missed calls to the student Sundus Reshid to discuss accommodation details.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple missed calls from student on 2025-08-04, 2025-08-06, and 2025-08-08\"}], \"last_agent_response\": \"No direct agent response recorded; only automated voicemail messages were played during calls.\", \"suggested_next_step\": \"Agent should call back Sundus Reshid at 16093315531 to engage and discuss accommodation options.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Sundus Reshid\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 16093315531; email sundusreshid13@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds; exact amount not specified\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"45+ weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry; no confirmed booking or payment\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 phone calls recorded between 2025-08-04 and 2025-08-12\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-12\", \"response_time\": \"No direct responses received; all calls went to voicemail\", \"key_moments\": \"Multiple attempts to contact student via phone resulted in voicemail messages; no direct conversation recorded\"}, \"properties_discussed\": {\"properties_mentioned\": \"Not mentioned\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Attempt to reach student again via phone or email to establish direct contact\", \"pending_items\": \"Student response to agent outreach\", \"follow_up_required\": \"Yes, follow-up calls or emails to engage student\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not assessable due to lack of direct communication\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry stage\", \"special_considerations\": \"Student has not yet responded to multiple contact attempts; may require alternative communication approach\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Sundus Reshid\", \"mobile\": [\"16093315531\"], \"email\": [\"sundusreshid13@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 45, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Return the missed calls to the student Sundus Reshid to discuss accommodation details.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Multiple missed calls from student on 2025-08-04, 2025-08-06, and 2025-08-08\"}], \"last_agent_response\": \"No direct agent response recorded; only automated voicemail messages were played during calls.\", \"suggested_next_step\": \"Agent should call back Sundus Reshid at 16093315531 to engage and discuss accommodation options.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Sundus Reshid\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls to number 16093315531; email sundusreshid13@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds; exact amount not specified\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"45+ weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry; no confirmed booking or payment\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"4 phone calls recorded between 2025-08-04 and 2025-08-12\", \"primary_channel\": \"Phone calls\", \"last_contact\": \"2025-08-12\", \"response_time\": \"No direct responses received; all calls went to voicemail\", \"key_moments\": \"Multiple attempts to contact student via phone resulted in voicemail messages; no direct conversation recorded\"}, \"properties_discussed\": {\"properties_mentioned\": \"Not mentioned\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Attempt to reach student again via phone or email to establish direct contact\", \"pending_items\": \"Student response to agent outreach\", \"follow_up_required\": \"Yes, follow-up calls or emails to engage student\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not assessable due to lack of direct communication\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry stage\", \"special_considerations\": \"Student has not yet responded to multiple contact attempts; may require alternative communication approach\"}}}}}",
+    "created_at": "2025-11-18 12:56:34",
+    "updated_at": "2025-11-18T18:26:34.500855",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Sundus Reshid",
+        "mobile": [
+          "16093315531"
+        ],
+        "email": [
+          "sundusreshid13@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 45,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Return the missed calls to the student Sundus Reshid to discuss accommodation details.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Multiple missed calls from student on 2025-08-04, 2025-08-06, and 2025-08-08"
+        }
+      ],
+      "last_agent_response": "No direct agent response recorded; only automated voicemail messages were played during calls.",
+      "suggested_next_step": "Agent should call back Sundus Reshid at 16093315531 to engage and discuss accommodation options."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Sundus Reshid",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls to number 16093315531; email sundusreshid13@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "Weekly budget in pounds; exact amount not specified",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "45+ weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry; no confirmed booking or payment",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "4 phone calls recorded between 2025-08-04 and 2025-08-12",
+            "primary_channel": "Phone calls",
+            "last_contact": "2025-08-12",
+            "response_time": "No direct responses received; all calls went to voicemail",
+            "key_moments": "Multiple attempts to contact student via phone resulted in voicemail messages; no direct conversation recorded"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Not mentioned",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Attempt to reach student again via phone or email to establish direct contact",
+            "pending_items": "Student response to agent outreach",
+            "follow_up_required": "Yes, follow-up calls or emails to engage student",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Not assessable due to lack of direct communication",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry stage",
+            "special_considerations": "Student has not yet responded to multiple contact attempts; may require alternative communication approach"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Sundus Reshid",
+          "mobile": [
+            "16093315531"
+          ],
+          "email": [
+            "sundusreshid13@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 45,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Return the missed calls to the student Sundus Reshid to discuss accommodation details.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Multiple missed calls from student on 2025-08-04, 2025-08-06, and 2025-08-08"
+          }
+        ],
+        "last_agent_response": "No direct agent response recorded; only automated voicemail messages were played during calls.",
+        "suggested_next_step": "Agent should call back Sundus Reshid at 16093315531 to engage and discuss accommodation options."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Sundus Reshid",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls to number 16093315531; email sundusreshid13@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "Weekly budget in pounds; exact amount not specified",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "45+ weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry; no confirmed booking or payment",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "4 phone calls recorded between 2025-08-04 and 2025-08-12",
+              "primary_channel": "Phone calls",
+              "last_contact": "2025-08-12",
+              "response_time": "No direct responses received; all calls went to voicemail",
+              "key_moments": "Multiple attempts to contact student via phone resulted in voicemail messages; no direct conversation recorded"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Not mentioned",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Attempt to reach student again via phone or email to establish direct contact",
+              "pending_items": "Student response to agent outreach",
+              "follow_up_required": "Yes, follow-up calls or emails to engage student",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Not assessable due to lack of direct communication",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry stage",
+              "special_considerations": "Student has not yet responded to multiple contact attempts; may require alternative communication approach"
+            }
+          }
+        }
+      }
+    }
+  }
+}

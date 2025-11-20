@@ -1,0 +1,1227 @@
+{
+  "id": "lead_63",
+  "mobile_number": "33603004302",
+  "email": null,
+  "timeline": [
+    {
+      "id": 1132,
+      "lead_id": 63,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3204942, \"user_name\": \"Eug\\u00e9nie SOUBRIER\", \"email\": \"eugeniesoubrier34@gmail.com\", \"phone\": \"33603004302\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-08-28\", \"budget\": 612, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"inventory_id\": 1792478}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1133,
+      "lead_id": 63,
+      "event_type": "call",
+      "timestamp": "2025-09-04T09:02:30.588514",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7814214",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-04T09:02:30.588514\", \"id\": 7814214, \"duration\": \"148\", \"to_number\": \"33603004302\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e7047d0d-877d-42bf-badb-52e39048505f.wav\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1134,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T09:02:54",
+      "content": "Hey Eugénie, \n\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \n\nHappy to assist you with the process ahead. Thankyou : )",
+      "source": "whatsapp",
+      "event_id": "8227552",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T09:02:54\", \"id\": 8227552, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F0A6FD8718C53334076\", \"message_type\": \"text\", \"message_content\": \"Hey Eug\\u00e9nie, \\n\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\n\\nHappy to assist you with the process ahead. Thankyou : )\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T09:02:54.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hey Eug\\u00e9nie, \\\\n\\\\nThanks for contacting amber for your accommodation search in London! I am Prachi and I'll be helping you book your ideal student home. \\\\n\\\\nHappy to assist you with the process ahead. Thankyou : )\\\", \\\"Datetime\\\": 1756976574000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F0A6FD8718C53334076\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T09:02:54.310384\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1135,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T09:04:29",
+      "content": "Name\nnumber\nEmail\nDob\nrelation\naddress",
+      "source": "whatsapp",
+      "event_id": "8227600",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T09:04:29\", \"id\": 8227600, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F5BC8E6228DD8603447\", \"message_type\": \"text\", \"message_content\": \"Name\\nnumber\\nEmail\\nDob\\nrelation\\naddress\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T09:04:29.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Name\\\\nnumber\\\\nEmail\\\\nDob\\\\nrelation\\\\naddress\\\", \\\"Datetime\\\": 1756976669000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F5BC8E6228DD8603447\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T09:04:30.033573\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1136,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T11:56:59",
+      "content": "Vincent Charvin-d’Andlau Hombourg \n07780627970\nVincent.dandlau@gmail.com\n25/04/1981\nUncle\n104 Portsea Hall, Portsea Place, London W2 2BZ \nEmployer: Merrill Lynch International\nJob Title: Managing Director",
+      "source": "whatsapp",
+      "event_id": "8237315",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T11:56:59\", \"id\": 8237315, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3AA6B2EB74A7B92A0FFB\", \"message_type\": \"text\", \"message_content\": \"Vincent Charvin-d\\u2019Andlau Hombourg \\n07780627970\\nVincent.dandlau@gmail.com\\n25/04/1981\\nUncle\\n104 Portsea Hall, Portsea Place, London W2 2BZ \\nEmployer: Merrill Lynch International\\nJob Title: Managing Director\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-04T11:56:59.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Vincent Charvin-d\\u2019Andlau Hombourg \\\\n07780627970\\\\nVincent.dandlau@gmail.com\\\\n25/04/1981\\\\nUncle\\\\n104 Portsea Hall, Portsea Place, London W2 2BZ \\\\nEmployer: Merrill Lynch International\\\\nJob Title: Managing Director\\\", \\\"Datetime\\\": 1756987019000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3AA6B2EB74A7B92A0FFB\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T11:56:59.916850\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1137,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T12:05:21",
+      "content": "thankyou",
+      "source": "whatsapp",
+      "event_id": "8237888",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T12:05:21\", \"id\": 8237888, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FF3B4242954645C66B1\", \"message_type\": \"text\", \"message_content\": \"thankyou\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T12:05:21.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"thankyou\\\", \\\"Datetime\\\": 1756987521000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FF3B4242954645C66B1\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T12:05:22.647017\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1138,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T12:05:34",
+      "content": "I am starting the process",
+      "source": "whatsapp",
+      "event_id": "8237900",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T12:05:34\", \"id\": 8237900, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F77A6270B5D38E9B870\", \"message_type\": \"text\", \"message_content\": \"I am starting the process\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T12:05:34.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"I am starting the process\\\", \\\"Datetime\\\": 1756987534000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F77A6270B5D38E9B870\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T12:05:34.245525\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1139,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T12:07:31",
+      "content": "please share your passport with me. I need to share it with property",
+      "source": "whatsapp",
+      "event_id": "8238012",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T12:07:31\", \"id\": 8238012, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FB2CDF965C5E21C261E\", \"message_type\": \"text\", \"message_content\": \"please share your passport with me. I need to share it with property\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T12:07:31.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"please share your passport with me. I need to share it with property\\\", \\\"Datetime\\\": 1756987651000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FB2CDF965C5E21C261E\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T12:07:31.848618\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1140,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T12:08:03",
+      "content": "Okay thank you",
+      "source": "whatsapp",
+      "event_id": "8238045",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T12:08:03\", \"id\": 8238045, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3AC4819FBDCB7FF230B5\", \"message_type\": \"text\", \"message_content\": \"Okay thank you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-04T12:08:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Okay thank you\\\", \\\"Datetime\\\": 1756987683000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3AC4819FBDCB7FF230B5\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T12:08:03.400843\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1141,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T12:08:19",
+      "content": "image.jpeg",
+      "source": "whatsapp",
+      "event_id": "8238067",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T12:08:19\", \"id\": 8238067, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3A3195E074D85A4356B1\", \"message_type\": \"text\", \"message_content\": \"image.jpeg\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-04T12:08:19.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447883304744/3A3195E074D85A4356B1.jpeg\\\", \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"image.jpeg\\\", \\\"Datetime\\\": 1756987699000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3A3195E074D85A4356B1\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T12:08:20.229403\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1142,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T12:11:27",
+      "content": "On which floor is the apartment located?",
+      "source": "whatsapp",
+      "event_id": "8238363",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T12:11:27\", \"id\": 8238363, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3AD75363D1862784FF64\", \"message_type\": \"text\", \"message_content\": \"On which floor is the apartment located?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-04T12:11:27.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"On which floor is the apartment located?\\\", \\\"Datetime\\\": 1756987887000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3AD75363D1862784FF64\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T12:12:06.016494\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1143,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T12:14:56",
+      "content": "Hello Studios are sold out in this property only sharing is available",
+      "source": "whatsapp",
+      "event_id": "8238555",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T12:14:56\", \"id\": 8238555, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F08F0634FC76722FEBC\", \"message_type\": \"text\", \"message_content\": \"Hello Studios are sold out in this property only sharing is available\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T12:14:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello Studios are sold out in this property only sharing is available\\\", \\\"Datetime\\\": 1756988096000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F08F0634FC76722FEBC\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T12:14:56.414723\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1144,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T12:15:15",
+      "content": "please refer this",
+      "source": "whatsapp",
+      "event_id": "8238563",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T12:15:15\", \"id\": 8238563, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FC7C9B51CDB4C21D65D\", \"message_type\": \"text\", \"message_content\": \"please refer this\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T12:15:15.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447883304744/3FC7C9B51CDB4C21D65D.jpeg\\\", \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"please refer this\\\", \\\"Datetime\\\": 1756988115000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FC7C9B51CDB4C21D65D\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T12:15:15.790329\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1145,
+      "lead_id": 63,
+      "event_type": "call",
+      "timestamp": "2025-09-04T15:24:01.469910",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7817358",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-04T15:24:01.469910\", \"id\": 7817358, \"duration\": \"175\", \"to_number\": \"33603004302\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/cd05fe7b-3e17-43c4-afee-02faa213510d.wav\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1146,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-04T15:27:02",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *AXO OXFORD CIRCUS, LONDON*\nhttps://ucl.studentacco.com/places/axo-oxford-circus-london-1709156600823\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/axo-oxford-circus-london-1709156600823?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from University College London:*\n*Drive:* 0.6 mi (5 mins)\n*Walk:* 0.6 mi (12 mins)\n*Bus/Train:* 0.7 mi (9 mins)\n\n🏘 *ROOM TYPES:*\n*Bronze Studio:*\n  £569/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Silver Studio:*\n  £585/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Gold Studio:*\n  £592/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Gold Plus Studio:*\n  £600/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Platinum Studio:*\n  £623/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Platinum Plus Studio:*\n  £645/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/axo-oxford-circus-london-1709156600823/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=137449\n\n------------\n\n🏡 *CHAPTER KINGS CROSS, LONDON*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 1.2 mi (9 mins)\n*Walk:* 1.0 mi (24 mins)\n*Bus/Train:* 1.1 mi (14 mins)\n\n🏘 *ROOM TYPES:*\n*Bronze Twin Studio Shared Lower Level:*\n  £303/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Bronze Twin Studio Shared Mid Level:*\n  £308/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Silver Twin Studio Shared Lower Level:*\n  £325/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Silver Twin Studio Shared Mid Level:*\n  £330/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Bronze Ensuite Shared Upper Level:*\n  £554/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Bronze Studio Private Lower Level:*\n  £551/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n  £559/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Bronze Studio Private Mid Level:*\n£484 - £581/week (Duration: 4 week - 51 week) (Move in: 6 Sep, 2025)\n\n*Bronze Studio Private Upper Level:*\n£484 - £623/week (Duration: 4 week - 51 week) (Move in: 6 Sep, 2025)\n\n*Gold Studio Private Lower Level:*\n  £658/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Bronze Ensuite Shared Mid Level:*\n  £547/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n  £555/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Platinum Studio Private Lower Level:*\n  £663/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Bronze Studio Private Penthouse:*\n£551 - £611/week (Duration: 44 week - 51 week) (Move in: 6 Sep, 2025)\n\n*Bronze Ensuite Shared Penthouse:*\n  £557/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Silver Studio Private Lower Level:*\n  £635/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\n\n*Silver Studio Private Penthouse:*\n  £635/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n*Silver Studio Private Mid Level:*\n  £643/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=136672\n\n------------\n\n🏡 *GOBRITANYA KINGS CROSS RESIDENCE, LONDON*\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 1.4 mi (9 mins)\n*Walk:* 1.1 mi (23 mins)\n*Bus/Train:* 1.1 mi (13 mins)\n\n🏘 *ROOM TYPES:*\n*Bronze Studio Lower Level:*\n  £550/week (Duration: 52 week) (Move in: 20 Sep, 2025) (Move out: 18 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=159546\n\n------------\n\n🏡 *CAMDEN HAWLEY CRESCENT, LONDON *\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.0 mi (12 mins)\n*Walk:* 1.4 mi (31 mins)\n*Bus/Train:* 1.7 mi (15 mins)\n\n🏘 *ROOM TYPES:*\n*Silver Twin Studio:*\n  £295/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Bronze Studio:*\n  £395/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n*Silver Studio:*\n  £399/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\n\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=137036\n\n------------",
+      "source": "whatsapp",
+      "event_id": "8249262",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-04T15:27:02\", \"id\": 8249262, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FA43F38F19C9C45C80E\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *AXO OXFORD CIRCUS, LONDON*\\nhttps://ucl.studentacco.com/places/axo-oxford-circus-london-1709156600823\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/axo-oxford-circus-london-1709156600823?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 0.6 mi (5 mins)\\n*Walk:* 0.6 mi (12 mins)\\n*Bus/Train:* 0.7 mi (9 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Bronze Studio:*\\n\\u00a0\\u00a0\\u00a3569/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Silver Studio:*\\n\\u00a0\\u00a0\\u00a3585/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Gold Studio:*\\n\\u00a0\\u00a0\\u00a3592/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Gold Plus Studio:*\\n\\u00a0\\u00a0\\u00a3600/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Platinum Studio:*\\n\\u00a0\\u00a0\\u00a3623/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Platinum Plus Studio:*\\n\\u00a0\\u00a0\\u00a3645/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/axo-oxford-circus-london-1709156600823/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=137449\\n\\n------------\\n\\n\\ud83c\\udfe1 *CHAPTER KINGS CROSS, LONDON*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 1.2 mi (9 mins)\\n*Walk:* 1.0 mi (24 mins)\\n*Bus/Train:* 1.1 mi (14 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Bronze Twin Studio Shared Lower Level:*\\n\\u00a0\\u00a0\\u00a3303/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Bronze Twin Studio Shared Mid Level:*\\n\\u00a0\\u00a0\\u00a3308/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Silver Twin Studio Shared Lower Level:*\\n\\u00a0\\u00a0\\u00a3325/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Silver Twin Studio Shared Mid Level:*\\n\\u00a0\\u00a0\\u00a3330/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Bronze Ensuite Shared Upper Level:*\\n\\u00a0\\u00a0\\u00a3554/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Bronze Studio Private Lower Level:*\\n\\u00a0\\u00a0\\u00a3551/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3559/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Bronze Studio Private Mid Level:*\\n\\u00a3484 - \\u00a3581/week (Duration: 4 week - 51 week) (Move in: 6 Sep, 2025)\\n\\n*Bronze Studio Private Upper Level:*\\n\\u00a3484 - \\u00a3623/week (Duration: 4 week - 51 week) (Move in: 6 Sep, 2025)\\n\\n*Gold Studio Private Lower Level:*\\n\\u00a0\\u00a0\\u00a3658/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Bronze Ensuite Shared Mid Level:*\\n\\u00a0\\u00a0\\u00a3547/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\u00a0\\u00a0\\u00a3555/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Platinum Studio Private Lower Level:*\\n\\u00a0\\u00a0\\u00a3663/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Bronze Studio Private Penthouse:*\\n\\u00a3551 - \\u00a3611/week (Duration: 44 week - 51 week) (Move in: 6 Sep, 2025)\\n\\n*Bronze Ensuite Shared Penthouse:*\\n\\u00a0\\u00a0\\u00a3557/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Silver Studio Private Lower Level:*\\n\\u00a0\\u00a0\\u00a3635/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\n\\n*Silver Studio Private Penthouse:*\\n\\u00a0\\u00a0\\u00a3635/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n*Silver Studio Private Mid Level:*\\n\\u00a0\\u00a0\\u00a3643/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=136672\\n\\n------------\\n\\n\\ud83c\\udfe1 *GOBRITANYA KINGS CROSS RESIDENCE, LONDON*\\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 1.4 mi (9 mins)\\n*Walk:* 1.1 mi (23 mins)\\n*Bus/Train:* 1.1 mi (13 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Bronze Studio Lower Level:*\\n\\u00a0\\u00a0\\u00a3550/week (Duration: 52 week) (Move in: 20 Sep, 2025) (Move out: 18 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=159546\\n\\n------------\\n\\n\\ud83c\\udfe1 *CAMDEN HAWLEY CRESCENT, LONDON *\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.0 mi (12 mins)\\n*Walk:* 1.4 mi (31 mins)\\n*Bus/Train:* 1.7 mi (15 mins)\\n\\n\\ud83c\\udfd8 *ROOM TYPES:*\\n*Silver Twin Studio:*\\n\\u00a0\\u00a0\\u00a3295/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Bronze Studio:*\\n\\u00a0\\u00a0\\u00a3395/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n*Silver Studio:*\\n\\u00a0\\u00a0\\u00a3399/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\n\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=137036\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-04T15:27:02.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *AXO OXFORD CIRCUS, LONDON*\\\\nhttps://ucl.studentacco.com/places/axo-oxford-circus-london-1709156600823\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/axo-oxford-circus-london-1709156600823?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 0.6 mi (5 mins)\\\\n*Walk:* 0.6 mi (12 mins)\\\\n*Bus/Train:* 0.7 mi (9 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Bronze Studio:*\\\\n\\u00a0\\u00a0\\u00a3569/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Silver Studio:*\\\\n\\u00a0\\u00a0\\u00a3585/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Gold Studio:*\\\\n\\u00a0\\u00a0\\u00a3592/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Gold Plus Studio:*\\\\n\\u00a0\\u00a0\\u00a3600/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Platinum Studio:*\\\\n\\u00a0\\u00a0\\u00a3623/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Platinum Plus Studio:*\\\\n\\u00a0\\u00a0\\u00a3645/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/axo-oxford-circus-london-1709156600823/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=137449\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CHAPTER KINGS CROSS, LONDON*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 1.2 mi (9 mins)\\\\n*Walk:* 1.0 mi (24 mins)\\\\n*Bus/Train:* 1.1 mi (14 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Bronze Twin Studio Shared Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3303/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Bronze Twin Studio Shared Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3308/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Silver Twin Studio Shared Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3325/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Silver Twin Studio Shared Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3330/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Bronze Ensuite Shared Upper Level:*\\\\n\\u00a0\\u00a0\\u00a3554/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Bronze Studio Private Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3551/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3559/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Bronze Studio Private Mid Level:*\\\\n\\u00a3484 - \\u00a3581/week (Duration: 4 week - 51 week) (Move in: 6 Sep, 2025)\\\\n\\\\n*Bronze Studio Private Upper Level:*\\\\n\\u00a3484 - \\u00a3623/week (Duration: 4 week - 51 week) (Move in: 6 Sep, 2025)\\\\n\\\\n*Gold Studio Private Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3658/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Bronze Ensuite Shared Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3547/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\u00a0\\u00a0\\u00a3555/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Platinum Studio Private Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3663/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Bronze Studio Private Penthouse:*\\\\n\\u00a3551 - \\u00a3611/week (Duration: 44 week - 51 week) (Move in: 6 Sep, 2025)\\\\n\\\\n*Bronze Ensuite Shared Penthouse:*\\\\n\\u00a0\\u00a0\\u00a3557/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Silver Studio Private Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3635/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 29 Aug, 2026)\\\\n\\\\n*Silver Studio Private Penthouse:*\\\\n\\u00a0\\u00a0\\u00a3635/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n*Silver Studio Private Mid Level:*\\\\n\\u00a0\\u00a0\\u00a3643/week (Duration: 51 week) (Move in: 6 Sep, 2025) (Move out: 28 Aug, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/chapter-kings-cross-london-1707293068339/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=136672\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *GOBRITANYA KINGS CROSS RESIDENCE, LONDON*\\\\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 1.4 mi (9 mins)\\\\n*Walk:* 1.1 mi (23 mins)\\\\n*Bus/Train:* 1.1 mi (13 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Bronze Studio Lower Level:*\\\\n\\u00a0\\u00a0\\u00a3550/week (Duration: 52 week) (Move in: 20 Sep, 2025) (Move out: 18 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/kings-cross-residence-go-britanya-london-2009022949327/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=159546\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CAMDEN HAWLEY CRESCENT, LONDON *\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.0 mi (12 mins)\\\\n*Walk:* 1.4 mi (31 mins)\\\\n*Bus/Train:* 1.7 mi (15 mins)\\\\n\\\\n\\ud83c\\udfd8 *ROOM TYPES:*\\\\n*Silver Twin Studio:*\\\\n\\u00a0\\u00a0\\u00a3295/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Bronze Studio:*\\\\n\\u00a0\\u00a0\\u00a3395/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n*Silver Studio:*\\\\n\\u00a0\\u00a0\\u00a3399/week (Duration: 51 week) (Move in: 13 Sep, 2025) (Move out: 5 Sep, 2026)\\\\n\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=prachi.ko%40amberstudent.com&amp;inventory_id=137036\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1756999622000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FA43F38F19C9C45C80E\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-04T15:27:03.069377\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1147,
+      "lead_id": 63,
+      "event_type": "call",
+      "timestamp": "2025-09-05T08:59:36.898581",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7820618",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-05T08:59:36.898581\", \"id\": 7820618, \"duration\": \"13\", \"to_number\": \"33603004302\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8fe3ce3c-b07b-4ef0-a2b0-e4d0eeaa23f5.wav\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1148,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-05T09:02:37",
+      "content": "Hi Eugenie, good morning!\nHope you're doing well. Just checking in to see if you had a chance to review the other options I shared. I’ve included the travel distances, room durations, and prices to make it easier for you to compare.\n\nIf you need any more details or help, feel free to let me know. I’m happy to assist!",
+      "source": "whatsapp",
+      "event_id": "8267740",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-05T09:02:37\", \"id\": 8267740, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FBE670FE6F8CF6FCD2E\", \"message_type\": \"text\", \"message_content\": \"Hi Eugenie, good morning!\\nHope you're doing well. Just checking in to see if you had a chance to review the other options I shared. I\\u2019ve included the travel distances, room durations, and prices to make it easier for you to compare.\\n\\nIf you need any more details or help, feel free to let me know. I\\u2019m happy to assist!\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-05T09:02:37.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hi Eugenie, good morning!\\\\nHope you're doing well. Just checking in to see if you had a chance to review the other options I shared. I\\u2019ve included the travel distances, room durations, and prices to make it easier for you to compare.\\\\n\\\\nIf you need any more details or help, feel free to let me know. I\\u2019m happy to assist!\\\", \\\"Datetime\\\": 1757062957000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FBE670FE6F8CF6FCD2E\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-05T09:02:37.690802\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1149,
+      "lead_id": 63,
+      "event_type": "call",
+      "timestamp": "2025-09-06T09:04:14.209833",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7827613",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-06T09:04:14.209833\", \"id\": 7827613, \"duration\": \"151\", \"to_number\": \"33603004302\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0504a017-b6ac-41ed-8503-234b48ea715a.wav\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1150,
+      "lead_id": 63,
+      "event_type": "call",
+      "timestamp": "2025-09-08T12:47:23.676929",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7837470",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-08T12:47:23.676929\", \"id\": 7837470, \"duration\": \"252\", \"to_number\": \"33603004302\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0b8d8c1c-6f31-46f0-b966-a416ce0c7d93.wav\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1151,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T12:50:42",
+      "content": "chapter",
+      "source": "whatsapp",
+      "event_id": "8377481",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T12:50:42\", \"id\": 8377481, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F2A8EEAD3FBA5FB62EF\", \"message_type\": \"text\", \"message_content\": \"chapter\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-08T12:50:42.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447883304744/3F2A8EEAD3FBA5FB62EF.jpeg\\\", \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"chapter\\\", \\\"Datetime\\\": 1757335842000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F2A8EEAD3FBA5FB62EF\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T12:50:43.988554\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1152,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T12:51:12",
+      "content": "gobritanya",
+      "source": "whatsapp",
+      "event_id": "8377529",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T12:51:12\", \"id\": 8377529, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F29C6EBA62456A00645\", \"message_type\": \"text\", \"message_content\": \"gobritanya\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-08T12:51:12.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447883304744/3F29C6EBA62456A00645.jpeg\\\", \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"gobritanya\\\", \\\"Datetime\\\": 1757335872000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F29C6EBA62456A00645\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T12:51:12.797300\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1153,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:00:16",
+      "content": "Is this room still available",
+      "source": "whatsapp",
+      "event_id": "8378133",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:00:16\", \"id\": 8378133, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3A9ABB7303C1B356B6FC\", \"message_type\": \"text\", \"message_content\": \"Is this room still available\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-08T13:00:16.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447883304744/3A9ABB7303C1B356B6FC.jpeg\\\", \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Is this room still available\\\", \\\"Datetime\\\": 1757336416000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3A9ABB7303C1B356B6FC\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:00:16.931758\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1154,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:02:08",
+      "content": "It’s from gobritania kings cross residence",
+      "source": "whatsapp",
+      "event_id": "8378279",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:02:08\", \"id\": 8378279, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3ADDC4F4FD5EA0F1736D\", \"message_type\": \"text\", \"message_content\": \"It\\u2019s from gobritania kings cross residence\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-08T13:02:08.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"It\\u2019s from gobritania kings cross residence\\\", \\\"Datetime\\\": 1757336528000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3ADDC4F4FD5EA0F1736D\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:02:09.141336\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1155,
+      "lead_id": 63,
+      "event_type": "call",
+      "timestamp": "2025-09-08T13:28:27.326583",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7837854",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-08T13:28:27.326583\", \"id\": 7837854, \"duration\": \"0\", \"to_number\": \"918171133087\", \"from_number\": \"33603004302\", \"source\": \"plivo\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1156,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:28:42",
+      "content": "Hello",
+      "source": "whatsapp",
+      "event_id": "8380038",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:28:42\", \"id\": 8380038, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F017E5708D0FC804455\", \"message_type\": \"text\", \"message_content\": \"Hello\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-08T13:28:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello\\\", \\\"Datetime\\\": 1757338122000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F017E5708D0FC804455\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:28:42.427198\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1157,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:28:52",
+      "content": "Which property you are interested In",
+      "source": "whatsapp",
+      "event_id": "8380044",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:28:52\", \"id\": 8380044, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F4A3366C0D023E5C189\", \"message_type\": \"text\", \"message_content\": \"Which property you are interested In\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-08T13:28:52.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Which property you are interested In\\\", \\\"Datetime\\\": 1757338132000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F4A3366C0D023E5C189\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:28:52.508773\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1158,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:30:00",
+      "content": "I would like to book a upper level premium view room in Gobritanya kings cross residence",
+      "source": "whatsapp",
+      "event_id": "8380144",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:30:00\", \"id\": 8380144, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3A674AD22523A579A086\", \"message_type\": \"text\", \"message_content\": \"I would like to book a upper level premium view room in Gobritanya kings cross residence\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-08T13:30:00.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"I would like to book a upper level premium view room in Gobritanya kings cross residence\\\", \\\"Datetime\\\": 1757338200000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3A674AD22523A579A086\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:30:50.600117\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1159,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:38:53",
+      "content": "image.jpeg",
+      "source": "whatsapp",
+      "event_id": "8380600",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:38:53\", \"id\": 8380600, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F967DFC4FADD6E5C240\", \"message_type\": \"text\", \"message_content\": \"image.jpeg\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-08T13:38:53.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447883304744/3F967DFC4FADD6E5C240.jpeg\\\", \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"image.jpeg\\\", \\\"Datetime\\\": 1757338733000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F967DFC4FADD6E5C240\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:38:54.999398\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1160,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:38:53",
+      "content": "this one right",
+      "source": "whatsapp",
+      "event_id": "8380599",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:38:53\", \"id\": 8380599, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FF5F5AA63ECAD7AB33B\", \"message_type\": \"text\", \"message_content\": \"this one right\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-08T13:38:53.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447883304744/3FF5F5AA63ECAD7AB33B.jpeg\\\", \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"this one right\\\", \\\"Datetime\\\": 1757338733000, \\\"FileName\\\": \\\"image.jpeg\\\", \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FF5F5AA63ECAD7AB33B\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:38:54.541185\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1161,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:39:04",
+      "content": "can you please mention which one you want to book for how much duration",
+      "source": "whatsapp",
+      "event_id": "8380610",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:39:04\", \"id\": 8380610, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F6CA8828AE90549E75C\", \"message_type\": \"text\", \"message_content\": \"can you please mention which one you want to book for how much duration\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-08T13:39:04.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"can you please mention which one you want to book for how much duration\\\", \\\"Datetime\\\": 1757338744000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F6CA8828AE90549E75C\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:39:05.193452\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1162,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:41:28",
+      "content": "Yes it’s this one. I would like to book it for 43 weeks.",
+      "source": "whatsapp",
+      "event_id": "8380803",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:41:28\", \"id\": 8380803, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3ACCDEA0D5446044F5C2\", \"message_type\": \"text\", \"message_content\": \"Yes it\\u2019s this one. I would like to book it for 43 weeks.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-08T13:41:28.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Yes it\\u2019s this one. I would like to book it for 43 weeks.\\\", \\\"Datetime\\\": 1757338888000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3ACCDEA0D5446044F5C2\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:41:28.412815\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1163,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:54:19",
+      "content": "I have shared the details with the property they will be reverting us back",
+      "source": "whatsapp",
+      "event_id": "8381598",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:54:19\", \"id\": 8381598, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F677C7C122E8CB7E524\", \"message_type\": \"text\", \"message_content\": \"I have shared the details with the property they will be reverting us back\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-08T13:54:19.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"I have shared the details with the property they will be reverting us back\\\", \\\"Datetime\\\": 1757339659000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F677C7C122E8CB7E524\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:54:19.599844\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1164,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T13:55:01",
+      "content": "Thank you",
+      "source": "whatsapp",
+      "event_id": "8381643",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T13:55:01\", \"id\": 8381643, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3ACC3AD159FDC4602450\", \"message_type\": \"text\", \"message_content\": \"Thank you\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-08T13:55:01.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Thank you\\\", \\\"Datetime\\\": 1757339701000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3ACC3AD159FDC4602450\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T13:55:02.377660\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1165,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-08T16:02:45",
+      "content": "Is it possible to book for 12 weeks and then to renew? If yes can we change the offer for 12 weeks?",
+      "source": "whatsapp",
+      "event_id": "8388969",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-08T16:02:45\", \"id\": 8388969, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3A64C93D04851B3045F3\", \"message_type\": \"text\", \"message_content\": \"Is it possible to book for 12 weeks and then to renew? If yes can we change the offer for 12 weeks?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-08T16:02:45.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Is it possible to book for 12 weeks and then to renew? If yes can we change the offer for 12 weeks?\\\", \\\"Datetime\\\": 1757347365000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3A64C93D04851B3045F3\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-08T16:02:45.956192\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1166,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T06:32:16",
+      "content": "https://offer.gobritanya.com/2d67967d-286d-41de-a9dd-d54ec62927d8/ac8d629e-5182-47b7-a138-818c1f873d08",
+      "source": "whatsapp",
+      "event_id": "8406769",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T06:32:16\", \"id\": 8406769, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F9D0F952E4159E75B34\", \"message_type\": \"text\", \"message_content\": \"https://offer.gobritanya.com/2d67967d-286d-41de-a9dd-d54ec62927d8/ac8d629e-5182-47b7-a138-818c1f873d08\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T06:32:16.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"https://offer.gobritanya.com/2d67967d-286d-41de-a9dd-d54ec62927d8/ac8d629e-5182-47b7-a138-818c1f873d08\\\", \\\"Datetime\\\": 1757399536000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F9D0F952E4159E75B34\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T06:32:16.579149\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1167,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T06:32:47",
+      "content": "It won't be possible iin the same rate they can increase the price if you are taking it for 12 weeks",
+      "source": "whatsapp",
+      "event_id": "8406777",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T06:32:47\", \"id\": 8406777, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F1AF9CC07174CCDAF77\", \"message_type\": \"text\", \"message_content\": \"It won't be possible iin the same rate they can increase the price if you are taking it for 12 weeks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T06:32:47.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"It won't be possible iin the same rate they can increase the price if you are taking it for 12 weeks\\\", \\\"Datetime\\\": 1757399567000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F1AF9CC07174CCDAF77\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T06:32:47.179307\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1168,
+      "lead_id": 63,
+      "event_type": "call",
+      "timestamp": "2025-09-09T09:19:13.727140",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7842372",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-09T09:19:13.727140\", \"id\": 7842372, \"duration\": \"542\", \"to_number\": \"33603004302\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/bbd660ff-bb1a-4ccf-9db6-3b55972d1f59.wav\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1169,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T09:19:23",
+      "content": "Hey Eugénie,\nI spoke to the property team &amp; tried to convince them for 12 weeks, but they denied the proposal as they said they are all sold out &amp; the last room was sold to you which is for long term. They said, they won't sell the room for short term has they have a lot of students on the waitlist willing to book for 51 weeks +those students are ready to pay upfront.\nThey said even for you the booking is not fully completed yet as deposit &amp; 1st instalment are due today so you need to pay that asap as they can't hold the room for too long due to high demand.\n\nIn my suggestion, you should go ahead with your existing booking for 43 weeks as Chapter Kings cross is one of our best selling property that offers premium+ spacious rooms with amazing facilities &amp; amenities in a budget. I can guarantee you that you won't regret spending your money here &amp; it's worth every peny. Also the property is located in prime location so again no chances of complaints.\nAlso once you reach there, I'll be there for you if you face any issues with the property, so you can be carefree &amp; trust my advise.\n\nI've provided a video of entire property &amp; your room type below so you can also check this out &amp; proceed with completing the booking.\nLet me know if you need any other help.",
+      "source": "whatsapp",
+      "event_id": "8413859",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T09:19:23\", \"id\": 8413859, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FEED0CFAF9DC5D3B21D\", \"message_type\": \"text\", \"message_content\": \"Hey Eug\\u00e9nie,\\nI spoke to the property team &amp; tried to convince them for 12 weeks, but they denied the proposal as they said they are all sold out &amp; the last room was sold to you which is for long term. They said, they won't sell the room for short term has they have a lot of students on the waitlist willing to book for 51 weeks +those students are ready to pay upfront.\\nThey said even for you the booking is not fully completed yet as deposit &amp; 1st instalment are due today so you need to pay that asap as they can't hold the room for too long due to high demand.\\n\\nIn my suggestion, you should go ahead with your existing booking for 43 weeks as Chapter Kings cross is one of our best selling property that offers premium+ spacious rooms with amazing facilities &amp; amenities in a budget. I can guarantee you that you won't regret spending your money here &amp; it's worth every peny. Also the property is located in prime location so again no chances of complaints.\\nAlso once you reach there, I'll be there for you if you face any issues with the property, so you can be carefree &amp; trust my advise.\\n\\nI've provided a video of entire property &amp; your room type below so you can also check this out &amp; proceed with completing the booking.\\nLet me know if you need any other help.\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T09:19:23.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hey Eug\\u00e9nie,\\\\nI spoke to the property team &amp; tried to convince them for 12 weeks, but they denied the proposal as they said they are all sold out &amp; the last room was sold to you which is for long term. They said, they won't sell the room for short term has they have a lot of students on the waitlist willing to book for 51 weeks +those students are ready to pay upfront.\\\\nThey said even for you the booking is not fully completed yet as deposit &amp; 1st instalment are due today so you need to pay that asap as they can't hold the room for too long due to high demand.\\\\n\\\\nIn my suggestion, you should go ahead with your existing booking for 43 weeks as Chapter Kings cross is one of our best selling property that offers premium+ spacious rooms with amazing facilities &amp; amenities in a budget. I can guarantee you that you won't regret spending your money here &amp; it's worth every peny. Also the property is located in prime location so again no chances of complaints.\\\\nAlso once you reach there, I'll be there for you if you face any issues with the property, so you can be carefree &amp; trust my advise.\\\\n\\\\nI've provided a video of entire property &amp; your room type below so you can also check this out &amp; proceed with completing the booking.\\\\nLet me know if you need any other help.\\\", \\\"Datetime\\\": 1757409563000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FEED0CFAF9DC5D3B21D\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T09:19:23.889392\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1170,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T09:19:37",
+      "content": "Property video: https://www.youtube.com/watch?v=lpfJIc6m-Lg&amp;t=356s",
+      "source": "whatsapp",
+      "event_id": "8413875",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T09:19:37\", \"id\": 8413875, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F8CEB20A8E164C731D1\", \"message_type\": \"text\", \"message_content\": \"Property video: https://www.youtube.com/watch?v=lpfJIc6m-Lg&amp;t=356s\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T09:19:37.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Property video: https://www.youtube.com/watch?v=lpfJIc6m-Lg&amp;t=356s\\\", \\\"Datetime\\\": 1757409577000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F8CEB20A8E164C731D1\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T09:19:37.614074\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1171,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T09:20:20",
+      "content": "room video",
+      "source": "whatsapp",
+      "event_id": "8413934",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T09:20:20\", \"id\": 8413934, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F8FBF08040CF90D0097\", \"message_type\": \"text\", \"message_content\": \"room video\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T09:20:20.000Z\\\", \\\"File\\\": \\\"http://20.51.195.83:3000/api/files/447883304744/3F8FBF08040CF90D0097.mp4\\\", \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"room video\\\", \\\"Datetime\\\": 1757409620000, \\\"FileName\\\": \\\"video.mp4\\\", \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F8FBF08040CF90D0097\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T09:20:23.263547\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1172,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T09:25:42",
+      "content": "eugeniesoubrier34@gmail.com\n+33603004302",
+      "source": "whatsapp",
+      "event_id": "8414181",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T09:25:42\", \"id\": 8414181, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F44F27F08C42A906340\", \"message_type\": \"text\", \"message_content\": \"eugeniesoubrier34@gmail.com\\n+33603004302\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T09:25:42.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"eugeniesoubrier34@gmail.com\\\\n+33603004302\\\", \\\"Datetime\\\": 1757409942000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F44F27F08C42A906340\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T09:25:43.002192\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1173,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T09:27:06",
+      "content": "Deposit payment link: https://payment.gobritanya.com/worldpay/d2e08469-2ee2-49d6-a5bc-f940c0345024/f3b2ff8a6430da297430ea196e6b89ca",
+      "source": "whatsapp",
+      "event_id": "8414253",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T09:27:06\", \"id\": 8414253, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FB1ACA7389E0406CF30\", \"message_type\": \"text\", \"message_content\": \"Deposit payment link: https://payment.gobritanya.com/worldpay/d2e08469-2ee2-49d6-a5bc-f940c0345024/f3b2ff8a6430da297430ea196e6b89ca\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T09:27:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Deposit payment link: https://payment.gobritanya.com/worldpay/d2e08469-2ee2-49d6-a5bc-f940c0345024/f3b2ff8a6430da297430ea196e6b89ca\\\", \\\"Datetime\\\": 1757410026000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FB1ACA7389E0406CF30\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T09:27:07.045452\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1174,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T09:27:06",
+      "content": "1st instalment payment link: https://payment.gobritanya.com/worldpay/70f3c61d-6120-461d-b86f-8d04350bc6bb/31606b5d7bd33bd27043d155032c1df0",
+      "source": "whatsapp",
+      "event_id": "8414254",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T09:27:06\", \"id\": 8414254, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F2BCCDAD0670052F415\", \"message_type\": \"text\", \"message_content\": \"1st instalment payment link: https://payment.gobritanya.com/worldpay/70f3c61d-6120-461d-b86f-8d04350bc6bb/31606b5d7bd33bd27043d155032c1df0\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T09:27:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"1st instalment payment link: https://payment.gobritanya.com/worldpay/70f3c61d-6120-461d-b86f-8d04350bc6bb/31606b5d7bd33bd27043d155032c1df0\\\", \\\"Datetime\\\": 1757410026000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F2BCCDAD0670052F415\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T09:27:07.307155\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1175,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:04:06",
+      "content": "Hello Eugenie\nGood afternoon\nplease wait, don't pay anything",
+      "source": "whatsapp",
+      "event_id": "8416425",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:04:06\", \"id\": 8416425, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F6D96B6CCC13A2D671B\", \"message_type\": \"text\", \"message_content\": \"Hello Eugenie\\nGood afternoon\\nplease wait, don't pay anything\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T10:04:06.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Hello Eugenie\\\\nGood afternoon\\\\nplease wait, don't pay anything\\\", \\\"Datetime\\\": 1757412246000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F6D96B6CCC13A2D671B\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:04:06.346567\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1176,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:04:20",
+      "content": "Okay",
+      "source": "whatsapp",
+      "event_id": "8416438",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:04:20\", \"id\": 8416438, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3A18835995DBAAEE2377\", \"message_type\": \"text\", \"message_content\": \"Okay\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-09T10:04:20.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Okay\\\", \\\"Datetime\\\": 1757412260000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3A18835995DBAAEE2377\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:04:20.562758\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1177,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:04:25",
+      "content": "Why ?",
+      "source": "whatsapp",
+      "event_id": "8416444",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:04:25\", \"id\": 8416444, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3AA8E368EA5C32A6CEA1\", \"message_type\": \"text\", \"message_content\": \"Why ?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-09T10:04:25.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Why ?\\\", \\\"Datetime\\\": 1757412265000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3AA8E368EA5C32A6CEA1\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:04:25.750761\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1178,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:05:18",
+      "content": "their is some issue in this room wait",
+      "source": "whatsapp",
+      "event_id": "8416515",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:05:18\", \"id\": 8416515, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F9E5098E8160E623A04\", \"message_type\": \"text\", \"message_content\": \"their is some issue in this room wait\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T10:05:18.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"their is some issue in this room wait\\\", \\\"Datetime\\\": 1757412318000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F9E5098E8160E623A04\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:05:18.943627\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1179,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:05:48",
+      "content": "Bronze Studio Lower Level-£ 575/ week\nthis room is available that room got sold out",
+      "source": "whatsapp",
+      "event_id": "8416554",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:05:48\", \"id\": 8416554, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FDBE1DEEA24150E420C\", \"message_type\": \"text\", \"message_content\": \"Bronze Studio Lower Level-\\u00a3 575/\\u00a0week\\nthis room is available that room got sold out\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T10:05:48.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Bronze Studio Lower Level-\\u00a3 575/\\u00a0week\\\\nthis room is available that room got sold out\\\", \\\"Datetime\\\": 1757412348000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FDBE1DEEA24150E420C\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:05:48.756588\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1180,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:06:07",
+      "content": "some body paid the deposit amount but this room is available",
+      "source": "whatsapp",
+      "event_id": "8416582",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:06:07\", \"id\": 8416582, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F6B7E7433329F8D2268\", \"message_type\": \"text\", \"message_content\": \"some body paid the deposit amount but this room is available\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T10:06:07.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"some body paid the deposit amount but this room is available\\\", \\\"Datetime\\\": 1757412367000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F6B7E7433329F8D2268\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:06:07.328106\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1181,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:06:32",
+      "content": "Do you want to book this bronze studio lower level?",
+      "source": "whatsapp",
+      "event_id": "8416613",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:06:32\", \"id\": 8416613, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FEAEB6A2906C823A2BE\", \"message_type\": \"text\", \"message_content\": \"Do you want to book this bronze studio lower level?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T10:06:32.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Do you want to book this bronze studio lower level?\\\", \\\"Datetime\\\": 1757412392000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FEAEB6A2906C823A2BE\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:06:32.230992\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1182,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:07:20",
+      "content": "So there isn’t anything available on the upper level",
+      "source": "whatsapp",
+      "event_id": "8416661",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:07:20\", \"id\": 8416661, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3A1DEA78689C4645B894\", \"message_type\": \"text\", \"message_content\": \"So there isn\\u2019t anything available on the upper level\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-09T10:07:20.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"So there isn\\u2019t anything available on the upper level\\\", \\\"Datetime\\\": 1757412440000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3A1DEA78689C4645B894\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:07:21.250540\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1183,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:07:34",
+      "content": "no upper level got sold out",
+      "source": "whatsapp",
+      "event_id": "8416674",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:07:34\", \"id\": 8416674, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F2362BC6DB8215157B9\", \"message_type\": \"text\", \"message_content\": \"no upper level got sold out\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T10:07:34.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"no upper level got sold out\\\", \\\"Datetime\\\": 1757412454000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F2362BC6DB8215157B9\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:07:34.188030\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1184,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:07:45",
+      "content": "How is it possible that someone got it",
+      "source": "whatsapp",
+      "event_id": "8416687",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:07:45\", \"id\": 8416687, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3A7B54C5B8225727A3A8\", \"message_type\": \"text\", \"message_content\": \"How is it possible that someone got it\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-09T10:07:45.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"How is it possible that someone got it\\\", \\\"Datetime\\\": 1757412465000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3A7B54C5B8225727A3A8\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:07:45.837331\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1185,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:07:56",
+      "content": "Because i secured the booking",
+      "source": "whatsapp",
+      "event_id": "8416701",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:07:56\", \"id\": 8416701, \"email\": \"\", \"from_number\": \"33603004302\", \"to_number\": \"447883304744\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_33603004302@c.us_3A36FCF5ECE26F4150A1\", \"message_type\": \"text\", \"message_content\": \"Because i secured the booking\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"33603004302@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-09T10:07:56.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"Because i secured the booking\\\", \\\"Datetime\\\": 1757412476000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447883304744@c.us\\\", \\\"Sentbyid\\\": \\\"33603004302@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_33603004302@c.us_3A36FCF5ECE26F4150A1\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"33603004302\\\", \\\"sentByUserId\\\": \\\"33603004302@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:07:56.600557\", \"direction\": \"inbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1186,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:08:40",
+      "content": "+91 90079 86146\nyou can call on this number",
+      "source": "whatsapp",
+      "event_id": "8416746",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:08:40\", \"id\": 8416746, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3FB5E9DD06788720D93D\", \"message_type\": \"text\", \"message_content\": \"+91 90079 86146\\nyou can call on this number\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T10:08:40.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"+91 90079 86146\\\\nyou can call on this number\\\", \\\"Datetime\\\": 1757412520000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3FB5E9DD06788720D93D\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:08:40.302128\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    },
+    {
+      "id": 1187,
+      "lead_id": 63,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-09T10:08:46",
+      "content": "she is property  person with whom I am connected",
+      "source": "whatsapp",
+      "event_id": "8416753",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-09T10:08:46\", \"id\": 8416753, \"email\": \"\", \"from_number\": \"447883304744\", \"to_number\": \"33603004302\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_33603004302@c.us_3F23BC2BC5DE4D7571D8\", \"message_type\": \"text\", \"message_content\": \"she is property  person with whom I am connected\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447883304744@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-09T10:08:46.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447883304744@c.us\\\", \\\"Message\\\": \\\"she is property  person with whom I am connected\\\", \\\"Datetime\\\": 1757412526000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"33603004302@c.us\\\", \\\"Sentbyid\\\": \\\"447883304744@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_33603004302@c.us_3F23BC2BC5DE4D7571D8\\\", \\\"ChannelName\\\": \\\"33603004302\\\", \\\"SentByNumber\\\": \\\"447883304744\\\", \\\"sentByUserId\\\": \\\"447883304744@c.us\\\", \\\"CreatedByUser\\\": \\\"447883304744\\\"}]}\", \"updated_at\": \"2025-09-09T10:08:46.268804\", \"direction\": \"outbound\", \"sbase_user_id\": 2479187, \"message_source\": \"\", \"meta\": \"{}\", \"agent_number\": \"447883304744\", \"customer_number\": \"33603004302\"}",
+      "created_at": "2025-11-18 10:01:45"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 18,
+      "lead_id": 63,
+      "call_id": "7814214",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/e7047d0d-877d-42bf-badb-52e39048505f.wav",
+      "transcript_text": "Speaker A: Hello? Hello. Yeah, hi, I'm speaking with Eugene. Yes. Yeah, hi, good morning. I am student for accommodation assistance. Actually we are. We are partnered with University College London for the accommodation part. And we have a booking form for the property. That was the blown Bloomberg Jeanette Pole House London.\nSpeaker B: Yes, yes, yes.\nSpeaker A: So I called you regarding the same as. I can see that you have selected the Gold Studio and the. You want to book that one. Just one thing I need to confirm with you. This property required a UK guarantor to get the installment plan and you have.\nSpeaker B: Sorry, sorry, sorry. Steph, can you repeat the booking requires?\nSpeaker A: Yeah, the booking required a UK guarantor to get the installment plan.\nSpeaker B: Yes, I have a UK guarantor.\nSpeaker A: Oh, that's great. Could you please share the guarantor details with me on WhatsApp? I am writing what, what the other details are required. You can provide me and then I'll start the process. Okay.\nSpeaker B: Okay. So what shall I do with the guarantor? Give the details of the guarantor.\nSpeaker A: Sorry.\nSpeaker B: Yeah, you need the details regarding the guarantor.\nSpeaker A: Yes. I require name, number, email relation with you and address. So I have written it on the WhatsApp. I shared my WhatsApp video. I am Kachi from Amber. You can check it. Just share your character details on WhatsApp. Then I'll start the process and will provide you the further details. Okay?\nSpeaker B: Okay. Okay. Thank you. So you send the WhatsApp. Correct.\nSpeaker A: Sorry, could you please repeat it?\nSpeaker B: You send information in WhatsApp?\nSpeaker A: Yes, I have just written information in WhatsApp that are required. You can share that with me on the WhatsApp.\nSpeaker B: Okay, thank you. Thank you. Bye.\nSpeaker A: Thank you. Have a nice day. Bye. Bye.\nSpeaker B: Bye. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:02:37"
+    },
+    {
+      "id": 24,
+      "lead_id": 63,
+      "call_id": "7817358",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/cd05fe7b-3e17-43c4-afee-02faa213510d.wav",
+      "transcript_text": "Speaker A: Hello.\nSpeaker B: Hello. Hi, Eugene, Good evening. I am Ki from Amber students. I texted you on WhatsApp that in that accommodation studios are sold out. So if you can.\nSpeaker A: Okay.\nSpeaker B: I can share something else with you as I can see some of the properties over there. So that's the main reason I'm connecting back with you. So if you have some time to. Can we discuss about it?\nSpeaker A: Okay. So if you can share other options with me, I would like to know if they are like to not shared flats like single rooms.\nSpeaker B: So you want near the. Yeah. I was asking do you want option near the university or a bit of a travel distance is convenient.\nSpeaker A: Where I would like a option that are like closer, close to the university where I could go to the university and put with no subway if it's possible.\nSpeaker B: Okay. And your budget is as you mentioned over there, right?\nSpeaker A: Yes.\nSpeaker B: And you have a UK guarantee also. So there is another accommodation that is available. They are providing studio that is like 10 minutes of the walking distance. The property is Oxford Circle. Okay.\nSpeaker A: Okay. Okay, thank you.\nSpeaker B: Yeah, this is the first accommodation and there are some other options as like the Chapter King Cross is also there which is providing studio room in 581 or 587. I'm sharing that option also. And I am also sharing one option that is the kind of a same one and the travel distance would be same. So do have a look on the option I am sharing again with you. Okay. University College London. And in the quotation that I will be sharing the travel distance and walking distance, all the distance would be mentioned.\nSpeaker A: Okay.\nSpeaker B: So it will be easy for you to check the option and decide about it. Okay.\nSpeaker A: Okay. Thank you so much.\nSpeaker B: That's great. So I will be connecting with you tomorrow for an update. Do let me know whichever you feel convenient about so that we can proceed and book your accommodation.\nSpeaker A: Okay.\nSpeaker B: Perfect. Okay. Thank you so much. Have a nice day. Bye. Bye.\nSpeaker A: Thank you. Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:03:48"
+    },
+    {
+      "id": 28,
+      "lead_id": 63,
+      "call_id": "7820618",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8fe3ce3c-b07b-4ef0-a2b0-e4d0eeaa23f5.wav",
+      "transcript_text": "Speaker A: Messagerie Orange, bonjour. La personne que vous essayez de joindre n'est pas disponible. Veuillez laisser votre message après le bip.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:05:57"
+    },
+    {
+      "id": 31,
+      "lead_id": 63,
+      "call_id": "7827613",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0504a017-b6ac-41ed-8503-234b48ea715a.wav",
+      "transcript_text": "Speaker A: Hello. Hi, Eugene. Good morning. I am from Amber students.\nSpeaker B: Yes.\nSpeaker A: Okay.\nSpeaker B: I have a question. Like the. Like the common parts on the. Wait, I need to get the name on. Like the Go Britannia King's Cross residence and the chapters King Cross London are the same. So are like the two of them.\nSpeaker A: In the same building Go Britannia full name?\nSpeaker B: What?\nSpeaker A: You have given two names, right? One is the chapter King Cross and the other one is Go Britannia King Cross.\nSpeaker B: Yes, but they have like on the picture, it shows that the common paths are the same for the two accommodations.\nSpeaker A: Yes, actually the accommodation is same. Basically, Britannia has taken some of their rooms in the chapter King Cross property. So they have written as the Go Britannia King Cross Resident London. Basically, it is the same Chapter King Cross property.\nSpeaker B: Okay. Okay, thank you. Because I was wondering.\nSpeaker A: So you can let me know for which property you want to go for. It's like if you want, I can share the both the properties. Like lead links, the prop. Yeah, I have shared actually Go Britannia King Cross residence. And I have also shared the chapter King Cross.\nSpeaker B: Yes.\nSpeaker A: Yeah. So the room availability of the chapter would be a bit different and the availability of the Go with Daniel King Cross would be different. So you can check and you can let me know for which property you want to go for. I'll be available on WhatsApp and you will be okay to connect with me and we can start the process. Okay.\nSpeaker B: Okay.\nSpeaker A: Yeah.\nSpeaker B: Okay. Thank you.\nSpeaker A: Not a problem. So if you have any question, do let me know on the WhatsApp. We'll connect again.\nSpeaker B: Okay. Thank you so much.\nSpeaker A: Thank you. Bye. Bye. Take care.\nSpeaker B: Bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:07:04"
+    },
+    {
+      "id": 34,
+      "lead_id": 63,
+      "call_id": "7837470",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0b8d8c1c-6f31-46f0-b966-a416ce0c7d93.wav",
+      "transcript_text": "Speaker A: Hello? Hi, Eugene. Good afternoon, I am Kachi from Ambrose Students. Yes. Yeah, I called you regarding the options that I shared with you. So on Saturday you told me that you weren't able to check the options properly. So were you able to check now? Were you able to go through the options? Yes, yes, I am. Okay, so have you decided about any of the property or you have any questions that you want me to answer, please do let me know so that we can start your process. Yes. So I'm hesitating between the two accommodations, King Cross and Go Britannia. Like they are in the same residence. I believe the same common cars. Yes. So I'm choosing between the two of them and. Yeah, Yeah, tell me. I think like your. Wait, how can I send you the one I like? You can text me on the WhatsApp if you want. Like the room type that you are interested in. Otherwise I am opening both the property link type at. At the last call. Also I explained you that the properties are same. It's just the Go Britannia has taken some rooms in that particular accommodation. Okay. Okay. So. Okay, I'm going to take to the property that I would like to take. Do mention me the room type and the duration and amount and the property that you are interested in so that we can start the process. And for both the properties, if you want, I am sharing the. In like the installment one. Like how much installment you can get and what is the procedure for that? In that case it will be easy for you to decide about a particular property. Okay. Okay, thank you. Yeah, thank you. Yes, so there are like four installment plans and two installment plans. It's just if you are taking the four installment plan, the property would be charging a bit extra. Okay, so I am sharing you. Just a second. Yes, this is the chapter one. And about the Go Britannia. Just a second. Yeah, so Go Britannia would be having this and the dates that is mentioned in the July and August. So it would. It. It is. Would be. It would be like that you need to pay at the time of booking like as you booked today. So within two days you need to provide your first installment. So I have provided also and I've provided for Go Britannia also. Okay. And do let me know which one you feel more convenient. Okay. Yeah. I'm sending you the link of the one I would like to book. Is it okay? Yeah, yeah, definitely. Until that time, do have a look and for an update I will be having a call with you tomorrow. Okay, thank you. Okay, bye. Bye. Take care. Goodbye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:07:59"
+    },
+    {
+      "id": 38,
+      "lead_id": 63,
+      "call_id": "7842372",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/bbd660ff-bb1a-4ccf-9db6-3b55972d1f59.wav",
+      "transcript_text": "Speaker A: Hello? Yeah, hi Eugene. Really sorry I was on the call, wasn't able to provide you the like update at that time. So I had a word with the property about the 12 week part that you mentioned on the WhatsApp. The property rejected the idea. I'm really sorry. Actually it's like only the last room is available. So they told me that we can only provide for the particular, the integration that we have provided the offer.\nSpeaker B: Okay.\nSpeaker A: Yeah, so like I, I, yes, I.\nSpeaker B: Accepted the offer that global.\nSpeaker A: Okay.\nSpeaker B: So yes, but I have a question about the payment. Yeah, so wait, I'm gonna.\nSpeaker A: About the payment. I guess they have emailed you to pay the deposit amount and the first installment, right?\nSpeaker B: Yes, so today I have to pay the first installment today?\nSpeaker A: Actually, yes, you need to pay the first installment today itself. But if you want I can ask them then they can give you the time till tomorrow for the first installment. But yes, please try to pay the deposit amount to confirm your booking. And by tomorrow you can pay your first installment, but by tomorrow you need to pay it.\nSpeaker B: Okay, but I think my dad is going to pay today. But I have a few questions about what we have to pay. So first we have to pay like 10,000.\nSpeaker A: First you need to pay the deposit. The deposit amount is £250 that you need to pay. Okay. The first is deposit, that is, I've.\nSpeaker B: Already paid the holding fee and we have to pay the deposit also.\nSpeaker A: Yes, yes.\nSpeaker B: Okay. And we have to pay like the first installment which is like around 10,000.\nSpeaker A: So I tell you. So basically like as you paid the holding fee, so the deposit amount. I guess the deposit amount of yours will be adjusted. Just a second. So how much you have paid your holding fee.\nSpeaker B: What?\nSpeaker A: How much you have paid your holding fee, that is 250, right?\nSpeaker B: 200 and fifty. Yes.\nSpeaker A: Yeah. So that holding fee is basically something, I guess, which you. Just a second. I'm just checking one thing so that I can give you a proper answer. It was the Go Britannia, right?\nSpeaker B: Yes.\nSpeaker A: Till that time I have done one thing. I asked the property to provide a video so that you will be rest assured about it. About the. Okay, you can have a look of the property through that video. The property is quite good. So I just thought that it would be easy for you to at least like check everything so you could be rest assured about the deposit. The second. Yeah. So basically you require to pay the holding fee to secure the accommodation. This will be held in the government, but the TDS team. Okay. And this amount will be refunded back to you after end of it, NNC period, that holding 250 fee that you have paid to the property. Okay.\nSpeaker B: The deposit will be refunded.\nSpeaker A: Yeah, that the yesterday. The amount that you have paid, that will be refunded. And I guess this is the deposit amount that you need to pay which will be adjusted.\nSpeaker B: Okay.\nSpeaker A: Okay. Don't worry. Yes.\nSpeaker B: So if I pay today, I have to pay the deposit.\nSpeaker A: Yeah, deposit today. Okay. And if. In case you are able to pay your first installment today, that would be great because then your booking will be fully completed. Because right now it's like all the. The properties basically take their first installment at the time of August and right now we are in September. It's like an immediate movement. So yes, the property is actually take their first installment asap, even after taking the deposit amount.\nSpeaker B: Okay. And I have a question. Because I took the bedding pack and the kitchen pack and do I have to pay them also, like separately?\nSpeaker A: I wasn't able to get it. Could you please repeat it?\nSpeaker B: I've chose to get the bedding pack and the kitchen pack.\nSpeaker A: That is the deposit amount. That is the. They have mentioned now that the bedding pack, the full kitchen pack, the holding fee. So this is something. Okay, I'll just check in the bedding pad. Full kitchen pack, holding fee, deposit will be refundable. Holding fee is there.\nSpeaker B: But is bedding package, kitchen pack included in the.\nSpeaker A: Yeah, it's included. It's included because they are not asking anything else to us. So that is included.\nSpeaker B: Okay, thank you. And also one last question.\nSpeaker A: They.\nSpeaker B: They say that I have to quote my invoice number when I make the payment, but I don't really know which number is the invoice number. So just to be sure, is it like the number.\nSpeaker A: Should I share the email ID and phone number that I have provided for your booking on WhatsApp?\nSpeaker B: Okay.\nSpeaker A: Yeah. This is the email ID that we used at the time of booking. And this is the phone number.\nSpeaker B: Okay. Yes.\nSpeaker A: Okay.\nSpeaker B: Yes, that's my phone number. Like what's my invoice number?\nSpeaker A: Invoice number will be given to you when your payment will be completed. About the deposit or you are asking for the holding fee. Invoice.\nSpeaker B: Okay. But I've, I have like the invoice, like the whole paper with the invoice.\nSpeaker A: Okay.\nSpeaker B: On the papers. On the paper there is like a VAT invoice written and a number under it. So is this the invoice number?\nSpeaker A: Yes, yes, that would be the invoice number.\nSpeaker B: Okay. So I give it to. So we have to give it to the link when we make the payment.\nSpeaker A: No, no, wait, I didn't. So basically the link that you have received, right. The payment link that you have got from the property, I am also sharing it with you. Just a second. I guess these are the. Yeah, so they have shared it with me. When you're gonna click that, click that link and you want to go to the complete the payment. So over there you can easily see that over there you need to pay the amount. So your invoice amount and everything is mentioned over there. If you are doing the payment through debit card, debit card payment, you need debit or credit card, you can do it for the deposit and for the first installment also. So these are the two links for the deposit.\nSpeaker B: Okay.\nSpeaker A: Okay, thank you. Okay, not a problem. Do have a look as you told me that you will be able to complete it by today. That would be great. If in case you're facing any issue, do let me know. I'll help you out with it. And if, in case, if you're doing in a night time period and I'm not available, well, so you can even mail the property if you are having any issue while doing your payment, you can take the screenshots. You can mail them on the same email ID that you have received. They will report you back.\nSpeaker B: Okay. Okay.\nSpeaker A: Yeah.\nSpeaker B: Okay. Thank you.\nSpeaker A: Thank you. Bye. Bye. Take care.\nSpeaker B: Goodbye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:08:29"
+    }
+  ],
+  "summary": {
+    "id": 33,
+    "lead_id": 63,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Eug\\u00e9nie SOUBRIER\", \"mobile\": [\"+33603004302\"], \"email\": [\"eugeniesoubrier34@gmail.com\"], \"whatsapp\": [\"+33603004302\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"studio\", \"budget\": {\"max\": 612, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-06\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": \"yes_national\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Blown Bloomberg Jeanette Pole House London\", \"AXO Oxford Circus, London\", \"Chapter Kings Cross, London\", \"GoBritanya Kings Cross Residence, London\", \"Camden Hawley Crescent, London\"], \"rooms_considered\": [\"Gold Studio at Blown Bloomberg Jeanette Pole House London\", \"Bronze Studio at AXO Oxford Circus\", \"Silver Studio at AXO Oxford Circus\", \"Gold Studio at AXO Oxford Circus\", \"Gold Plus Studio at AXO Oxford Circus\", \"Platinum Studio at AXO Oxford Circus\", \"Platinum Plus Studio at AXO Oxford Circus\", \"Bronze Twin Studio Shared Lower Level at Chapter Kings Cross\", \"Bronze Twin Studio Shared Mid Level at Chapter Kings Cross\", \"Silver Twin Studio Shared Lower Level at Chapter Kings Cross\", \"Silver Twin Studio Shared Mid Level at Chapter Kings Cross\", \"Bronze Ensuite Shared Upper Level at Chapter Kings Cross\", \"Bronze Studio Private Lower Level at Chapter Kings Cross\", \"Bronze Studio Private Mid Level at Chapter Kings Cross\", \"Bronze Studio Private Upper Level at Chapter Kings Cross\", \"Gold Studio Private Lower Level at Chapter Kings Cross\", \"Bronze Ensuite Shared Mid Level at Chapter Kings Cross\", \"Platinum Studio Private Lower Level at Chapter Kings Cross\", \"Bronze Studio Private Penthouse at Chapter Kings Cross\", \"Bronze Ensuite Shared Penthouse at Chapter Kings Cross\", \"Silver Studio Private Lower Level at Chapter Kings Cross\", \"Silver Studio Private Penthouse at Chapter Kings Cross\", \"Silver Studio Private Mid Level at Chapter Kings Cross\", \"Bronze Studio Lower Level at GoBritanya Kings Cross Residence\", \"Silver Twin Studio at Camden Hawley Crescent\", \"Bronze Studio at Camden Hawley Crescent\", \"Silver Studio at Camden Hawley Crescent\", \"Upper level premium view room at GoBritanya Kings Cross Residence\", \"Bronze Studio Lower Level at GoBritanya Kings Cross Residence\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"document_required\", \"description\": \"Student Eug\\u00e9nie to share passport copy with agent for property processing.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-04T12:07:31 requesting passport\"}, {\"type\": \"booking_action\", \"description\": \"Agent to start booking process for Eug\\u00e9nie using guarantor details provided.\", \"due\": \"immediate\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-04T12:05:34 confirming process start\"}, {\"type\": \"communication\", \"description\": \"Agent to send property options and details to Eug\\u00e9nie for review.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-04T15:27:02 with property suggestions\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with Eug\\u00e9nie to get decision on property choice and room type.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-04 and WhatsApp follow-up on 2025-09-05\"}, {\"type\": \"booking_action\", \"description\": \"Student Eug\\u00e9nie to confirm property and room type choice for booking (Chapter Kings Cross or Go Britannia).\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-06 and WhatsApp messages on 2025-09-08\"}, {\"type\": \"booking_action\", \"description\": \"Student Eug\\u00e9nie to confirm booking of upper level premium view room in Go Britannia Kings Cross Residence for 43 weeks.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-08T13:30:00 and 2025-09-08T13:41:28\"}, {\"type\": \"communication\", \"description\": \"Agent to share booking details with property and await their confirmation.\", \"due\": \"immediate\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-08T13:54:19\"}, {\"type\": \"payment\", \"description\": \"Student Eug\\u00e9nie or parent to pay deposit amount (\\u00a3250 adjusted with holding fee) to confirm booking.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-09 discussing deposit and payment details\"}, {\"type\": \"payment\", \"description\": \"Student Eug\\u00e9nie or parent to pay first installment by tomorrow to complete booking process.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-09 explaining installment payment deadline\"}, {\"type\": \"communication\", \"description\": \"Agent to provide payment links for deposit and first installment to Eug\\u00e9nie.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-09-09T09:27:06\"}, {\"type\": \"follow_up\", \"description\": \"Agent to inform Eug\\u00e9nie to hold payment temporarily due to issue with room availability and update on alternative room.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-09-09T10:04:06 and 10:05:18\"}, {\"type\": \"booking_action\", \"description\": \"Student Eug\\u00e9nie to decide whether to book Bronze Studio Lower Level room available as upper level premium view room is sold out.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp conversation on 2025-09-09T10:06:32 and 10:07:20\"}, {\"type\": \"communication\", \"description\": \"Agent to provide contact details of property representative for Eug\\u00e9nie to clarify booking and room availability issues.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-09-09T10:08:40 and 10:08:46\"}], \"last_agent_response\": \"Agent informed Eug\\u00e9nie to hold payment temporarily due to an issue with the initially requested room being sold out and offered an alternative Bronze Studio Lower Level room. Agent provided property contact details for further assistance.\", \"suggested_next_step\": \"Student Eug\\u00e9nie to confirm if she wants to book the available Bronze Studio Lower Level room or provide further instructions.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Eug\\u00e9nie SOUBRIER\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (eugeniesoubrier34@gmail.com), Phone (+33603004302), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Initially Gold Studio; later interested in studio and shared flats; finally chose upper level premium view room in Gobritanya Kings Cross Residence; also considered Bronze Studio Lower Level\", \"budget_range\": \"\\u00a3612 per week (initial budget); discussed room prices ranging from approx. \\u00a3295 to \\u00a3663 per week depending on property and room type\", \"move_in_date\": \"6 September 2025\", \"lease_duration\": \"Initially 51 weeks; later requested 43 weeks; also asked about 12 weeks with renewal possibility\", \"special_requirements\": \"UK guarantor provided; preference for accommodation close to university with no subway travel if possible\"}, \"current_status\": {\"booking_stage\": \"payment_pending\", \"documents_status\": \"Guarantor details provided; passport requested and presumably shared\", \"payment_status\": \"Holding fee (\\u00a3250) paid; deposit and first installment payment pending; advised not to pay temporarily due to issue with room availability\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls and WhatsApp messages over one month (June to September 2025), including at least 6 calls and numerous WhatsApp messages\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-09 10:08 (WhatsApp messages)\", \"response_time\": \"Generally prompt responses within hours on WhatsApp; some missed calls\", \"key_moments\": \"Initial booking inquiry and guarantor details submission; studio sold out at initial property; alternative properties suggested; student hesitated between Chapter Kings Cross and Gobritanya Kings Cross; student chose Gobritanya upper level premium view room for 43 weeks; property denied short-term 12-week booking; payment process initiated but paused due to room availability issue; alternative Bronze Studio Lower Level offered\"}, \"properties_discussed\": {\"properties_mentioned\": \"Blown Bloomberg Jeanette Pole House London (initial), AXO Oxford Circus, Chapter Kings Cross, Gobritanya Kings Cross Residence, Camden Hawley Crescent\", \"viewings_scheduled\": \"No physical viewings mentioned; video tours and 3D tours shared\", \"preferences_expressed\": \"Preferred studio rooms; preference for proximity to University College London; preferred non-shared flats initially; later accepted shared flats; final interest in Gobritanya Kings Cross Residence upper level premium view room; open to Bronze Studio Lower Level after upper level sold out\", \"offers_made\": \"Installment plans discussed (4 and 2 installments); property rejected short-term 12-week booking; payment links for deposit and first installment shared\"}, \"next_steps\": {\"immediate_actions\": \"Student to complete deposit and first installment payment once room availability issue resolved\", \"pending_items\": \"Confirmation of room availability for chosen upper level premium view room; payment completion\", \"follow_up_required\": \"Agent to coordinate with property regarding room availability; update student on payment instructions and booking confirmation\", \"timeline\": \"Move-in date 6 September 2025; deposit and first installment due immediately to secure booking\"}, \"agent_notes\": {\"student_tone\": \"Polite, engaged, asks clarifying questions, shows hesitation between options but decisive once informed\", \"urgency_level\": \"Moderate to high urgency due to high demand and limited availability\", \"complexity\": \"Moderate complexity due to room availability issues, installment plan options, and short-term booking request denial\", \"special_considerations\": \"Student has UK guarantor; prefers accommodation close to university; requires clear communication on payment and booking process; agent should monitor room availability closely and assist with payment queries\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Eug\\u00e9nie SOUBRIER\", \"mobile\": [\"+33603004302\"], \"email\": [\"eugeniesoubrier34@gmail.com\"], \"whatsapp\": [\"+33603004302\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"studio\", \"budget\": {\"max\": 612, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": \"2025-09-06\", \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": \"installment\", \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"accepted\", \"University College London\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": \"yes_national\"}, \"properties_under_consideration\": {\"properties_considered\": [\"Blown Bloomberg Jeanette Pole House London\", \"AXO Oxford Circus, London\", \"Chapter Kings Cross, London\", \"GoBritanya Kings Cross Residence, London\", \"Camden Hawley Crescent, London\"], \"rooms_considered\": [\"Gold Studio at Blown Bloomberg Jeanette Pole House London\", \"Bronze Studio at AXO Oxford Circus\", \"Silver Studio at AXO Oxford Circus\", \"Gold Studio at AXO Oxford Circus\", \"Gold Plus Studio at AXO Oxford Circus\", \"Platinum Studio at AXO Oxford Circus\", \"Platinum Plus Studio at AXO Oxford Circus\", \"Bronze Twin Studio Shared Lower Level at Chapter Kings Cross\", \"Bronze Twin Studio Shared Mid Level at Chapter Kings Cross\", \"Silver Twin Studio Shared Lower Level at Chapter Kings Cross\", \"Silver Twin Studio Shared Mid Level at Chapter Kings Cross\", \"Bronze Ensuite Shared Upper Level at Chapter Kings Cross\", \"Bronze Studio Private Lower Level at Chapter Kings Cross\", \"Bronze Studio Private Mid Level at Chapter Kings Cross\", \"Bronze Studio Private Upper Level at Chapter Kings Cross\", \"Gold Studio Private Lower Level at Chapter Kings Cross\", \"Bronze Ensuite Shared Mid Level at Chapter Kings Cross\", \"Platinum Studio Private Lower Level at Chapter Kings Cross\", \"Bronze Studio Private Penthouse at Chapter Kings Cross\", \"Bronze Ensuite Shared Penthouse at Chapter Kings Cross\", \"Silver Studio Private Lower Level at Chapter Kings Cross\", \"Silver Studio Private Penthouse at Chapter Kings Cross\", \"Silver Studio Private Mid Level at Chapter Kings Cross\", \"Bronze Studio Lower Level at GoBritanya Kings Cross Residence\", \"Silver Twin Studio at Camden Hawley Crescent\", \"Bronze Studio at Camden Hawley Crescent\", \"Silver Studio at Camden Hawley Crescent\", \"Upper level premium view room at GoBritanya Kings Cross Residence\", \"Bronze Studio Lower Level at GoBritanya Kings Cross Residence\"]}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"document_required\", \"description\": \"Student Eug\\u00e9nie to share passport copy with agent for property processing.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-04T12:07:31 requesting passport\"}, {\"type\": \"booking_action\", \"description\": \"Agent to start booking process for Eug\\u00e9nie using guarantor details provided.\", \"due\": \"immediate\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-04T12:05:34 confirming process start\"}, {\"type\": \"communication\", \"description\": \"Agent to send property options and details to Eug\\u00e9nie for review.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-04T15:27:02 with property suggestions\"}, {\"type\": \"follow_up\", \"description\": \"Agent to follow up with Eug\\u00e9nie to get decision on property choice and room type.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call on 2025-09-04 and WhatsApp follow-up on 2025-09-05\"}, {\"type\": \"booking_action\", \"description\": \"Student Eug\\u00e9nie to confirm property and room type choice for booking (Chapter Kings Cross or Go Britannia).\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-06 and WhatsApp messages on 2025-09-08\"}, {\"type\": \"booking_action\", \"description\": \"Student Eug\\u00e9nie to confirm booking of upper level premium view room in Go Britannia Kings Cross Residence for 43 weeks.\", \"due\": \"immediate\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp message on 2025-09-08T13:30:00 and 2025-09-08T13:41:28\"}, {\"type\": \"communication\", \"description\": \"Agent to share booking details with property and await their confirmation.\", \"due\": \"immediate\", \"status\": \"in_progress\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp message on 2025-09-08T13:54:19\"}, {\"type\": \"payment\", \"description\": \"Student Eug\\u00e9nie or parent to pay deposit amount (\\u00a3250 adjusted with holding fee) to confirm booking.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-09 discussing deposit and payment details\"}, {\"type\": \"payment\", \"description\": \"Student Eug\\u00e9nie or parent to pay first installment by tomorrow to complete booking process.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Call on 2025-09-09 explaining installment payment deadline\"}, {\"type\": \"communication\", \"description\": \"Agent to provide payment links for deposit and first installment to Eug\\u00e9nie.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-09-09T09:27:06\"}, {\"type\": \"follow_up\", \"description\": \"Agent to inform Eug\\u00e9nie to hold payment temporarily due to issue with room availability and update on alternative room.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-09-09T10:04:06 and 10:05:18\"}, {\"type\": \"booking_action\", \"description\": \"Student Eug\\u00e9nie to decide whether to book Bronze Studio Lower Level room available as upper level premium view room is sold out.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"WhatsApp conversation on 2025-09-09T10:06:32 and 10:07:20\"}, {\"type\": \"communication\", \"description\": \"Agent to provide contact details of property representative for Eug\\u00e9nie to clarify booking and room availability issues.\", \"due\": \"completed\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"WhatsApp messages on 2025-09-09T10:08:40 and 10:08:46\"}], \"last_agent_response\": \"Agent informed Eug\\u00e9nie to hold payment temporarily due to an issue with the initially requested room being sold out and offered an alternative Bronze Studio Lower Level room. Agent provided property contact details for further assistance.\", \"suggested_next_step\": \"Student Eug\\u00e9nie to confirm if she wants to book the available Bronze Studio Lower Level room or provide further instructions.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Eug\\u00e9nie SOUBRIER\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (eugeniesoubrier34@gmail.com), Phone (+33603004302), WhatsApp\", \"booking_for\": \"self\"}, \"accommodation_preferences\": {\"locations\": \"London, England, United Kingdom\", \"university\": \"University College London\", \"room_type\": \"Initially Gold Studio; later interested in studio and shared flats; finally chose upper level premium view room in Gobritanya Kings Cross Residence; also considered Bronze Studio Lower Level\", \"budget_range\": \"\\u00a3612 per week (initial budget); discussed room prices ranging from approx. \\u00a3295 to \\u00a3663 per week depending on property and room type\", \"move_in_date\": \"6 September 2025\", \"lease_duration\": \"Initially 51 weeks; later requested 43 weeks; also asked about 12 weeks with renewal possibility\", \"special_requirements\": \"UK guarantor provided; preference for accommodation close to university with no subway travel if possible\"}, \"current_status\": {\"booking_stage\": \"payment_pending\", \"documents_status\": \"Guarantor details provided; passport requested and presumably shared\", \"payment_status\": \"Holding fee (\\u00a3250) paid; deposit and first installment payment pending; advised not to pay temporarily due to issue with room availability\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"Multiple calls and WhatsApp messages over one month (June to September 2025), including at least 6 calls and numerous WhatsApp messages\", \"primary_channel\": \"WhatsApp\", \"last_contact\": \"2025-09-09 10:08 (WhatsApp messages)\", \"response_time\": \"Generally prompt responses within hours on WhatsApp; some missed calls\", \"key_moments\": \"Initial booking inquiry and guarantor details submission; studio sold out at initial property; alternative properties suggested; student hesitated between Chapter Kings Cross and Gobritanya Kings Cross; student chose Gobritanya upper level premium view room for 43 weeks; property denied short-term 12-week booking; payment process initiated but paused due to room availability issue; alternative Bronze Studio Lower Level offered\"}, \"properties_discussed\": {\"properties_mentioned\": \"Blown Bloomberg Jeanette Pole House London (initial), AXO Oxford Circus, Chapter Kings Cross, Gobritanya Kings Cross Residence, Camden Hawley Crescent\", \"viewings_scheduled\": \"No physical viewings mentioned; video tours and 3D tours shared\", \"preferences_expressed\": \"Preferred studio rooms; preference for proximity to University College London; preferred non-shared flats initially; later accepted shared flats; final interest in Gobritanya Kings Cross Residence upper level premium view room; open to Bronze Studio Lower Level after upper level sold out\", \"offers_made\": \"Installment plans discussed (4 and 2 installments); property rejected short-term 12-week booking; payment links for deposit and first installment shared\"}, \"next_steps\": {\"immediate_actions\": \"Student to complete deposit and first installment payment once room availability issue resolved\", \"pending_items\": \"Confirmation of room availability for chosen upper level premium view room; payment completion\", \"follow_up_required\": \"Agent to coordinate with property regarding room availability; update student on payment instructions and booking confirmation\", \"timeline\": \"Move-in date 6 September 2025; deposit and first installment due immediately to secure booking\"}, \"agent_notes\": {\"student_tone\": \"Polite, engaged, asks clarifying questions, shows hesitation between options but decisive once informed\", \"urgency_level\": \"Moderate to high urgency due to high demand and limited availability\", \"complexity\": \"Moderate complexity due to room availability issues, installment plan options, and short-term booking request denial\", \"special_considerations\": \"Student has UK guarantor; prefers accommodation close to university; requires clear communication on payment and booking process; agent should monitor room availability closely and assist with payment queries\"}}}}}",
+    "created_at": "2025-11-18 10:08:52",
+    "updated_at": "2025-11-18T15:38:52.475103",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Eugénie SOUBRIER",
+        "mobile": [
+          "+33603004302"
+        ],
+        "email": [
+          "eugeniesoubrier34@gmail.com"
+        ],
+        "whatsapp": [
+          "+33603004302"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "studio",
+        "budget": {
+          "max": 612,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": "2025-09-06",
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": "installment",
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "accepted",
+          "University College London"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": "yes_national"
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Blown Bloomberg Jeanette Pole House London",
+          "AXO Oxford Circus, London",
+          "Chapter Kings Cross, London",
+          "GoBritanya Kings Cross Residence, London",
+          "Camden Hawley Crescent, London"
+        ],
+        "rooms_considered": [
+          "Gold Studio at Blown Bloomberg Jeanette Pole House London",
+          "Bronze Studio at AXO Oxford Circus",
+          "Silver Studio at AXO Oxford Circus",
+          "Gold Studio at AXO Oxford Circus",
+          "Gold Plus Studio at AXO Oxford Circus",
+          "Platinum Studio at AXO Oxford Circus",
+          "Platinum Plus Studio at AXO Oxford Circus",
+          "Bronze Twin Studio Shared Lower Level at Chapter Kings Cross",
+          "Bronze Twin Studio Shared Mid Level at Chapter Kings Cross",
+          "Silver Twin Studio Shared Lower Level at Chapter Kings Cross",
+          "Silver Twin Studio Shared Mid Level at Chapter Kings Cross",
+          "Bronze Ensuite Shared Upper Level at Chapter Kings Cross",
+          "Bronze Studio Private Lower Level at Chapter Kings Cross",
+          "Bronze Studio Private Mid Level at Chapter Kings Cross",
+          "Bronze Studio Private Upper Level at Chapter Kings Cross",
+          "Gold Studio Private Lower Level at Chapter Kings Cross",
+          "Bronze Ensuite Shared Mid Level at Chapter Kings Cross",
+          "Platinum Studio Private Lower Level at Chapter Kings Cross",
+          "Bronze Studio Private Penthouse at Chapter Kings Cross",
+          "Bronze Ensuite Shared Penthouse at Chapter Kings Cross",
+          "Silver Studio Private Lower Level at Chapter Kings Cross",
+          "Silver Studio Private Penthouse at Chapter Kings Cross",
+          "Silver Studio Private Mid Level at Chapter Kings Cross",
+          "Bronze Studio Lower Level at GoBritanya Kings Cross Residence",
+          "Silver Twin Studio at Camden Hawley Crescent",
+          "Bronze Studio at Camden Hawley Crescent",
+          "Silver Studio at Camden Hawley Crescent",
+          "Upper level premium view room at GoBritanya Kings Cross Residence",
+          "Bronze Studio Lower Level at GoBritanya Kings Cross Residence"
+        ]
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "document_required",
+          "description": "Student Eugénie to share passport copy with agent for property processing.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp message on 2025-09-04T12:07:31 requesting passport"
+        },
+        {
+          "type": "booking_action",
+          "description": "Agent to start booking process for Eugénie using guarantor details provided.",
+          "due": "immediate",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-09-04T12:05:34 confirming process start"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to send property options and details to Eugénie for review.",
+          "due": "completed",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-09-04T15:27:02 with property suggestions"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to follow up with Eugénie to get decision on property choice and room type.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call on 2025-09-04 and WhatsApp follow-up on 2025-09-05"
+        },
+        {
+          "type": "booking_action",
+          "description": "Student Eugénie to confirm property and room type choice for booking (Chapter Kings Cross or Go Britannia).",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Call on 2025-09-06 and WhatsApp messages on 2025-09-08"
+        },
+        {
+          "type": "booking_action",
+          "description": "Student Eugénie to confirm booking of upper level premium view room in Go Britannia Kings Cross Residence for 43 weeks.",
+          "due": "immediate",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp message on 2025-09-08T13:30:00 and 2025-09-08T13:41:28"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to share booking details with property and await their confirmation.",
+          "due": "immediate",
+          "status": "in_progress",
+          "task_for": "agent",
+          "source_reference": "WhatsApp message on 2025-09-08T13:54:19"
+        },
+        {
+          "type": "payment",
+          "description": "Student Eugénie or parent to pay deposit amount (£250 adjusted with holding fee) to confirm booking.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Call on 2025-09-09 discussing deposit and payment details"
+        },
+        {
+          "type": "payment",
+          "description": "Student Eugénie or parent to pay first installment by tomorrow to complete booking process.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Call on 2025-09-09 explaining installment payment deadline"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to provide payment links for deposit and first installment to Eugénie.",
+          "due": "completed",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages on 2025-09-09T09:27:06"
+        },
+        {
+          "type": "follow_up",
+          "description": "Agent to inform Eugénie to hold payment temporarily due to issue with room availability and update on alternative room.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages on 2025-09-09T10:04:06 and 10:05:18"
+        },
+        {
+          "type": "booking_action",
+          "description": "Student Eugénie to decide whether to book Bronze Studio Lower Level room available as upper level premium view room is sold out.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "WhatsApp conversation on 2025-09-09T10:06:32 and 10:07:20"
+        },
+        {
+          "type": "communication",
+          "description": "Agent to provide contact details of property representative for Eugénie to clarify booking and room availability issues.",
+          "due": "completed",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "WhatsApp messages on 2025-09-09T10:08:40 and 10:08:46"
+        }
+      ],
+      "last_agent_response": "Agent informed Eugénie to hold payment temporarily due to an issue with the initially requested room being sold out and offered an alternative Bronze Studio Lower Level room. Agent provided property contact details for further assistance.",
+      "suggested_next_step": "Student Eugénie to confirm if she wants to book the available Bronze Studio Lower Level room or provide further instructions."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Eugénie SOUBRIER",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (eugeniesoubrier34@gmail.com), Phone (+33603004302), WhatsApp",
+            "booking_for": "self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, England, United Kingdom",
+            "university": "University College London",
+            "room_type": "Initially Gold Studio; later interested in studio and shared flats; finally chose upper level premium view room in Gobritanya Kings Cross Residence; also considered Bronze Studio Lower Level",
+            "budget_range": "£612 per week (initial budget); discussed room prices ranging from approx. £295 to £663 per week depending on property and room type",
+            "move_in_date": "6 September 2025",
+            "lease_duration": "Initially 51 weeks; later requested 43 weeks; also asked about 12 weeks with renewal possibility",
+            "special_requirements": "UK guarantor provided; preference for accommodation close to university with no subway travel if possible"
+          },
+          "current_status": {
+            "booking_stage": "payment_pending",
+            "documents_status": "Guarantor details provided; passport requested and presumably shared",
+            "payment_status": "Holding fee (£250) paid; deposit and first installment payment pending; advised not to pay temporarily due to issue with room availability",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "Multiple calls and WhatsApp messages over one month (June to September 2025), including at least 6 calls and numerous WhatsApp messages",
+            "primary_channel": "WhatsApp",
+            "last_contact": "2025-09-09 10:08 (WhatsApp messages)",
+            "response_time": "Generally prompt responses within hours on WhatsApp; some missed calls",
+            "key_moments": "Initial booking inquiry and guarantor details submission; studio sold out at initial property; alternative properties suggested; student hesitated between Chapter Kings Cross and Gobritanya Kings Cross; student chose Gobritanya upper level premium view room for 43 weeks; property denied short-term 12-week booking; payment process initiated but paused due to room availability issue; alternative Bronze Studio Lower Level offered"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Blown Bloomberg Jeanette Pole House London (initial), AXO Oxford Circus, Chapter Kings Cross, Gobritanya Kings Cross Residence, Camden Hawley Crescent",
+            "viewings_scheduled": "No physical viewings mentioned; video tours and 3D tours shared",
+            "preferences_expressed": "Preferred studio rooms; preference for proximity to University College London; preferred non-shared flats initially; later accepted shared flats; final interest in Gobritanya Kings Cross Residence upper level premium view room; open to Bronze Studio Lower Level after upper level sold out",
+            "offers_made": "Installment plans discussed (4 and 2 installments); property rejected short-term 12-week booking; payment links for deposit and first installment shared"
+          },
+          "next_steps": {
+            "immediate_actions": "Student to complete deposit and first installment payment once room availability issue resolved",
+            "pending_items": "Confirmation of room availability for chosen upper level premium view room; payment completion",
+            "follow_up_required": "Agent to coordinate with property regarding room availability; update student on payment instructions and booking confirmation",
+            "timeline": "Move-in date 6 September 2025; deposit and first installment due immediately to secure booking"
+          },
+          "agent_notes": {
+            "student_tone": "Polite, engaged, asks clarifying questions, shows hesitation between options but decisive once informed",
+            "urgency_level": "Moderate to high urgency due to high demand and limited availability",
+            "complexity": "Moderate complexity due to room availability issues, installment plan options, and short-term booking request denial",
+            "special_considerations": "Student has UK guarantor; prefers accommodation close to university; requires clear communication on payment and booking process; agent should monitor room availability closely and assist with payment queries"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Eugénie SOUBRIER",
+          "mobile": [
+            "+33603004302"
+          ],
+          "email": [
+            "eugeniesoubrier34@gmail.com"
+          ],
+          "whatsapp": [
+            "+33603004302"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "studio",
+          "budget": {
+            "max": 612,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": "2025-09-06",
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": "installment",
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "accepted",
+            "University College London"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": "yes_national"
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Blown Bloomberg Jeanette Pole House London",
+            "AXO Oxford Circus, London",
+            "Chapter Kings Cross, London",
+            "GoBritanya Kings Cross Residence, London",
+            "Camden Hawley Crescent, London"
+          ],
+          "rooms_considered": [
+            "Gold Studio at Blown Bloomberg Jeanette Pole House London",
+            "Bronze Studio at AXO Oxford Circus",
+            "Silver Studio at AXO Oxford Circus",
+            "Gold Studio at AXO Oxford Circus",
+            "Gold Plus Studio at AXO Oxford Circus",
+            "Platinum Studio at AXO Oxford Circus",
+            "Platinum Plus Studio at AXO Oxford Circus",
+            "Bronze Twin Studio Shared Lower Level at Chapter Kings Cross",
+            "Bronze Twin Studio Shared Mid Level at Chapter Kings Cross",
+            "Silver Twin Studio Shared Lower Level at Chapter Kings Cross",
+            "Silver Twin Studio Shared Mid Level at Chapter Kings Cross",
+            "Bronze Ensuite Shared Upper Level at Chapter Kings Cross",
+            "Bronze Studio Private Lower Level at Chapter Kings Cross",
+            "Bronze Studio Private Mid Level at Chapter Kings Cross",
+            "Bronze Studio Private Upper Level at Chapter Kings Cross",
+            "Gold Studio Private Lower Level at Chapter Kings Cross",
+            "Bronze Ensuite Shared Mid Level at Chapter Kings Cross",
+            "Platinum Studio Private Lower Level at Chapter Kings Cross",
+            "Bronze Studio Private Penthouse at Chapter Kings Cross",
+            "Bronze Ensuite Shared Penthouse at Chapter Kings Cross",
+            "Silver Studio Private Lower Level at Chapter Kings Cross",
+            "Silver Studio Private Penthouse at Chapter Kings Cross",
+            "Silver Studio Private Mid Level at Chapter Kings Cross",
+            "Bronze Studio Lower Level at GoBritanya Kings Cross Residence",
+            "Silver Twin Studio at Camden Hawley Crescent",
+            "Bronze Studio at Camden Hawley Crescent",
+            "Silver Studio at Camden Hawley Crescent",
+            "Upper level premium view room at GoBritanya Kings Cross Residence",
+            "Bronze Studio Lower Level at GoBritanya Kings Cross Residence"
+          ]
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "document_required",
+            "description": "Student Eugénie to share passport copy with agent for property processing.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp message on 2025-09-04T12:07:31 requesting passport"
+          },
+          {
+            "type": "booking_action",
+            "description": "Agent to start booking process for Eugénie using guarantor details provided.",
+            "due": "immediate",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-09-04T12:05:34 confirming process start"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to send property options and details to Eugénie for review.",
+            "due": "completed",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-09-04T15:27:02 with property suggestions"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to follow up with Eugénie to get decision on property choice and room type.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call on 2025-09-04 and WhatsApp follow-up on 2025-09-05"
+          },
+          {
+            "type": "booking_action",
+            "description": "Student Eugénie to confirm property and room type choice for booking (Chapter Kings Cross or Go Britannia).",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Call on 2025-09-06 and WhatsApp messages on 2025-09-08"
+          },
+          {
+            "type": "booking_action",
+            "description": "Student Eugénie to confirm booking of upper level premium view room in Go Britannia Kings Cross Residence for 43 weeks.",
+            "due": "immediate",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp message on 2025-09-08T13:30:00 and 2025-09-08T13:41:28"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to share booking details with property and await their confirmation.",
+            "due": "immediate",
+            "status": "in_progress",
+            "task_for": "agent",
+            "source_reference": "WhatsApp message on 2025-09-08T13:54:19"
+          },
+          {
+            "type": "payment",
+            "description": "Student Eugénie or parent to pay deposit amount (£250 adjusted with holding fee) to confirm booking.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Call on 2025-09-09 discussing deposit and payment details"
+          },
+          {
+            "type": "payment",
+            "description": "Student Eugénie or parent to pay first installment by tomorrow to complete booking process.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Call on 2025-09-09 explaining installment payment deadline"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to provide payment links for deposit and first installment to Eugénie.",
+            "due": "completed",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages on 2025-09-09T09:27:06"
+          },
+          {
+            "type": "follow_up",
+            "description": "Agent to inform Eugénie to hold payment temporarily due to issue with room availability and update on alternative room.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages on 2025-09-09T10:04:06 and 10:05:18"
+          },
+          {
+            "type": "booking_action",
+            "description": "Student Eugénie to decide whether to book Bronze Studio Lower Level room available as upper level premium view room is sold out.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "WhatsApp conversation on 2025-09-09T10:06:32 and 10:07:20"
+          },
+          {
+            "type": "communication",
+            "description": "Agent to provide contact details of property representative for Eugénie to clarify booking and room availability issues.",
+            "due": "completed",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "WhatsApp messages on 2025-09-09T10:08:40 and 10:08:46"
+          }
+        ],
+        "last_agent_response": "Agent informed Eugénie to hold payment temporarily due to an issue with the initially requested room being sold out and offered an alternative Bronze Studio Lower Level room. Agent provided property contact details for further assistance.",
+        "suggested_next_step": "Student Eugénie to confirm if she wants to book the available Bronze Studio Lower Level room or provide further instructions."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Eugénie SOUBRIER",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (eugeniesoubrier34@gmail.com), Phone (+33603004302), WhatsApp",
+              "booking_for": "self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, England, United Kingdom",
+              "university": "University College London",
+              "room_type": "Initially Gold Studio; later interested in studio and shared flats; finally chose upper level premium view room in Gobritanya Kings Cross Residence; also considered Bronze Studio Lower Level",
+              "budget_range": "£612 per week (initial budget); discussed room prices ranging from approx. £295 to £663 per week depending on property and room type",
+              "move_in_date": "6 September 2025",
+              "lease_duration": "Initially 51 weeks; later requested 43 weeks; also asked about 12 weeks with renewal possibility",
+              "special_requirements": "UK guarantor provided; preference for accommodation close to university with no subway travel if possible"
+            },
+            "current_status": {
+              "booking_stage": "payment_pending",
+              "documents_status": "Guarantor details provided; passport requested and presumably shared",
+              "payment_status": "Holding fee (£250) paid; deposit and first installment payment pending; advised not to pay temporarily due to issue with room availability",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "Multiple calls and WhatsApp messages over one month (June to September 2025), including at least 6 calls and numerous WhatsApp messages",
+              "primary_channel": "WhatsApp",
+              "last_contact": "2025-09-09 10:08 (WhatsApp messages)",
+              "response_time": "Generally prompt responses within hours on WhatsApp; some missed calls",
+              "key_moments": "Initial booking inquiry and guarantor details submission; studio sold out at initial property; alternative properties suggested; student hesitated between Chapter Kings Cross and Gobritanya Kings Cross; student chose Gobritanya upper level premium view room for 43 weeks; property denied short-term 12-week booking; payment process initiated but paused due to room availability issue; alternative Bronze Studio Lower Level offered"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Blown Bloomberg Jeanette Pole House London (initial), AXO Oxford Circus, Chapter Kings Cross, Gobritanya Kings Cross Residence, Camden Hawley Crescent",
+              "viewings_scheduled": "No physical viewings mentioned; video tours and 3D tours shared",
+              "preferences_expressed": "Preferred studio rooms; preference for proximity to University College London; preferred non-shared flats initially; later accepted shared flats; final interest in Gobritanya Kings Cross Residence upper level premium view room; open to Bronze Studio Lower Level after upper level sold out",
+              "offers_made": "Installment plans discussed (4 and 2 installments); property rejected short-term 12-week booking; payment links for deposit and first installment shared"
+            },
+            "next_steps": {
+              "immediate_actions": "Student to complete deposit and first installment payment once room availability issue resolved",
+              "pending_items": "Confirmation of room availability for chosen upper level premium view room; payment completion",
+              "follow_up_required": "Agent to coordinate with property regarding room availability; update student on payment instructions and booking confirmation",
+              "timeline": "Move-in date 6 September 2025; deposit and first installment due immediately to secure booking"
+            },
+            "agent_notes": {
+              "student_tone": "Polite, engaged, asks clarifying questions, shows hesitation between options but decisive once informed",
+              "urgency_level": "Moderate to high urgency due to high demand and limited availability",
+              "complexity": "Moderate complexity due to room availability issues, installment plan options, and short-term booking request denial",
+              "special_considerations": "Student has UK guarantor; prefers accommodation close to university; requires clear communication on payment and booking process; agent should monitor room availability closely and assist with payment queries"
+            }
+          }
+        }
+      }
+    }
+  }
+}

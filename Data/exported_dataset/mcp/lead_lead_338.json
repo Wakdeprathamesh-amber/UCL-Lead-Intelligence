@@ -1,0 +1,295 @@
+{
+  "id": "lead_338",
+  "mobile_number": "447450994434",
+  "email": null,
+  "timeline": [
+    {
+      "id": 5768,
+      "lead_id": 338,
+      "event_type": "call",
+      "timestamp": "2025-08-02T09:52:44.083523",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7611791",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-02T09:52:44.083523\", \"id\": 7611791, \"duration\": \"31\", \"to_number\": \"447450994434\", \"from_number\": \"447456741634\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/302cd238-1c06-4938-8e32-75a6a54788a5.wav\"}",
+      "created_at": "2025-11-18 10:49:11"
+    },
+    {
+      "id": 5769,
+      "lead_id": 338,
+      "event_type": "lead_info",
+      "timestamp": "NaT",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"NaT\", \"lead_id\": 3100530, \"user_name\": \"Aviya Leshem\", \"email\": \"aviya.leshem@gmail.com\", \"phone\": \"447450994434\", \"lease_duration\": \"\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 137456}",
+      "created_at": "2025-11-18 10:49:11"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 226,
+      "lead_id": 338,
+      "call_id": "7611791",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/302cd238-1c06-4938-8e32-75a6a54788a5.wav",
+      "transcript_text": "Speaker A: Call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 10:49:15"
+    }
+  ],
+  "summary": {
+    "id": 138,
+    "lead_id": 338,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Aviya Leshem\", \"mobile\": [\"447450994434\"], \"email\": [\"aviya.leshem@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Call the student Aviya Leshem at phone number 447450994434 to discuss accommodation options or next steps.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call attempt on 2025-08-02 resulted in voicemail\"}], \"last_agent_response\": \"Agent attempted to call Aviya Leshem but reached voicemail.\", \"suggested_next_step\": \"Agent should follow up with another call or alternative communication to Aviya Leshem within 24 hours.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Aviya Leshem\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone call attempted to 447450994434; email aviaya.leshem@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds (exact amount not specified)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not specified\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry - voicemail left\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call attempt\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-08-02 09:52:44\", \"response_time\": \"No response yet (voicemail left)\", \"key_moments\": \"Call forwarded to voicemail; no direct contact established\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137456 associated with lead\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"Follow up with student via phone or email to establish contact\", \"pending_items\": \"Response from student to voicemail\", \"follow_up_required\": \"Yes, agent to attempt further contact\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not applicable (no direct communication yet)\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student has not yet responded; budget specified weekly in pounds; located in London\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Aviya Leshem\", \"mobile\": [\"447450994434\"], \"email\": [\"aviya.leshem@gmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": null, \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Call the student Aviya Leshem at phone number 447450994434 to discuss accommodation options or next steps.\", \"due\": \"within_24h\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Call attempt on 2025-08-02 resulted in voicemail\"}], \"last_agent_response\": \"Agent attempted to call Aviya Leshem but reached voicemail.\", \"suggested_next_step\": \"Agent should follow up with another call or alternative communication to Aviya Leshem within 24 hours.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Aviya Leshem\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone call attempted to 447450994434; email aviaya.leshem@gmail.com\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"Not mentioned\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds (exact amount not specified)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not specified\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Initial inquiry - voicemail left\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call attempt\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-08-02 09:52:44\", \"response_time\": \"No response yet (voicemail left)\", \"key_moments\": \"Call forwarded to voicemail; no direct contact established\"}, \"properties_discussed\": {\"properties_mentioned\": \"Inventory ID 137456 associated with lead\", \"viewings_scheduled\": \"None\", \"preferences_expressed\": \"Not mentioned\", \"offers_made\": \"None\"}, \"next_steps\": {\"immediate_actions\": \"Follow up with student via phone or email to establish contact\", \"pending_items\": \"Response from student to voicemail\", \"follow_up_required\": \"Yes, agent to attempt further contact\", \"timeline\": \"No specific deadlines mentioned\"}, \"agent_notes\": {\"student_tone\": \"Not applicable (no direct communication yet)\", \"urgency_level\": \"Unknown\", \"complexity\": \"Simple initial inquiry\", \"special_considerations\": \"Student has not yet responded; budget specified weekly in pounds; located in London\"}}}}}",
+    "created_at": "2025-11-18 10:49:22",
+    "updated_at": "2025-11-18T16:19:22.296029",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Aviya Leshem",
+        "mobile": [
+          "447450994434"
+        ],
+        "email": [
+          "aviya.leshem@gmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": null,
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Call the student Aviya Leshem at phone number 447450994434 to discuss accommodation options or next steps.",
+          "due": "within_24h",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Call attempt on 2025-08-02 resulted in voicemail"
+        }
+      ],
+      "last_agent_response": "Agent attempted to call Aviya Leshem but reached voicemail.",
+      "suggested_next_step": "Agent should follow up with another call or alternative communication to Aviya Leshem within 24 hours."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Aviya Leshem",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone call attempted to 447450994434; email aviaya.leshem@gmail.com",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "Not mentioned",
+            "room_type": "Not mentioned",
+            "budget_range": "Weekly budget in pounds (exact amount not specified)",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not specified",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Initial inquiry - voicemail left",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1 call attempt",
+            "primary_channel": "Phone call",
+            "last_contact": "2025-08-02 09:52:44",
+            "response_time": "No response yet (voicemail left)",
+            "key_moments": "Call forwarded to voicemail; no direct contact established"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Inventory ID 137456 associated with lead",
+            "viewings_scheduled": "None",
+            "preferences_expressed": "Not mentioned",
+            "offers_made": "None"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up with student via phone or email to establish contact",
+            "pending_items": "Response from student to voicemail",
+            "follow_up_required": "Yes, agent to attempt further contact",
+            "timeline": "No specific deadlines mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Not applicable (no direct communication yet)",
+            "urgency_level": "Unknown",
+            "complexity": "Simple initial inquiry",
+            "special_considerations": "Student has not yet responded; budget specified weekly in pounds; located in London"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Aviya Leshem",
+          "mobile": [
+            "447450994434"
+          ],
+          "email": [
+            "aviya.leshem@gmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": null,
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Call the student Aviya Leshem at phone number 447450994434 to discuss accommodation options or next steps.",
+            "due": "within_24h",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Call attempt on 2025-08-02 resulted in voicemail"
+          }
+        ],
+        "last_agent_response": "Agent attempted to call Aviya Leshem but reached voicemail.",
+        "suggested_next_step": "Agent should follow up with another call or alternative communication to Aviya Leshem within 24 hours."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Aviya Leshem",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone call attempted to 447450994434; email aviaya.leshem@gmail.com",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "Not mentioned",
+              "room_type": "Not mentioned",
+              "budget_range": "Weekly budget in pounds (exact amount not specified)",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not specified",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Initial inquiry - voicemail left",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1 call attempt",
+              "primary_channel": "Phone call",
+              "last_contact": "2025-08-02 09:52:44",
+              "response_time": "No response yet (voicemail left)",
+              "key_moments": "Call forwarded to voicemail; no direct contact established"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Inventory ID 137456 associated with lead",
+              "viewings_scheduled": "None",
+              "preferences_expressed": "Not mentioned",
+              "offers_made": "None"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up with student via phone or email to establish contact",
+              "pending_items": "Response from student to voicemail",
+              "follow_up_required": "Yes, agent to attempt further contact",
+              "timeline": "No specific deadlines mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Not applicable (no direct communication yet)",
+              "urgency_level": "Unknown",
+              "complexity": "Simple initial inquiry",
+              "special_considerations": "Student has not yet responded; budget specified weekly in pounds; located in London"
+            }
+          }
+        }
+      }
+    }
+  }
+}

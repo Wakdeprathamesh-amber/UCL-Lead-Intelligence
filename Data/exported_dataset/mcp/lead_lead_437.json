@@ -1,0 +1,305 @@
+{
+  "id": "lead_437",
+  "mobile_number": "447428797916",
+  "email": null,
+  "timeline": [
+    {
+      "id": 7480,
+      "lead_id": 437,
+      "event_type": "lead_info",
+      "timestamp": "2025-06-09T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-06-09T00:00:00\", \"lead_id\": 3190816, \"user_name\": \"Abbey Fraser\", \"email\": \"abbeyf88@hotmail.com\", \"phone\": \"447428797916\", \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 2666, \"inventory_id\": 159559}",
+      "created_at": "2025-11-18 11:10:43"
+    },
+    {
+      "id": 7481,
+      "lead_id": 437,
+      "event_type": "call",
+      "timestamp": "2025-08-30T08:53:06.962841",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7787176",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-30T08:53:06.962841\", \"id\": 7787176, \"duration\": \"87\", \"to_number\": \"447428797916\", \"from_number\": \"447460047271\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/2336f0d1-e4b0-4d30-95a2-60057e2b2a1d.wav\"}",
+      "created_at": "2025-11-18 11:10:43"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 326,
+      "lead_id": 437,
+      "call_id": "7787176",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/2336f0d1-e4b0-4d30-95a2-60057e2b2a1d.wav",
+      "transcript_text": "Speaker B: Hello?\nSpeaker A: Yeah, hello, am I speaking as Abby here? Abby Fraser.\nSpeaker B: What?\nSpeaker A: Yeah, hello, am I speaking with Abby here?\nSpeaker B: Speaking.\nSpeaker A: Yeah, Abby, we should rish up this side. Calling you from Amber Student. This call was regarding your student accommodation for University College London.\nSpeaker B: Yes, I.\nSpeaker A: Can see that you have shortlisted for Britannia Arlington Residents. Correct.\nSpeaker B: As what side?\nSpeaker A: I. I have seen that you have shortlisted one property by the name of go Britannia. I LinkedIn that correct?\nSpeaker B: I think so.\nSpeaker A: I just wanted to confirm if you wish to proceed ahead with the booking or like, do you wish to explore some other options as well?\nSpeaker B: I haven't heard back from the university, so I don't know.\nSpeaker A: Okay, so you haven't heard back from the UCL accommodation, is it?\nSpeaker B: No.\nSpeaker A: So do you wish to wait until you hear back or like, do you wish to proceed ahead with another student accommodation?\nSpeaker B: I'll wait and contact you later.\nSpeaker A: So I'll do one thing here. I'll connect you next week then. I'm hoping by that time you will have the confirmation whether you got the place or like you have to book a new student accommodation. Okay.\nSpeaker B: Okay, thank you. Thank you.\nSpeaker A: Bye bye.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 11:10:51"
+    }
+  ],
+  "summary": {
+    "id": 180,
+    "lead_id": 437,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Abbey Fraser\", \"mobile\": [\"447428797916\"], \"email\": [\"abbeyf88@hotmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"pending\", \"Has not heard back from University College London accommodation\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Britannia Arlington Residents\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to contact Abbey Fraser next week to check if she has received confirmation from University College London regarding accommodation and to discuss next steps for booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent stated they will connect next week to follow up after Abbey waits for university response.\"}], \"last_agent_response\": \"Agent confirmed Abbey has shortlisted Britannia Arlington Residents and offered to follow up next week after Abbey hears back from University College London.\", \"suggested_next_step\": \"Agent to follow up with Abbey Fraser within a week to check university accommodation status and discuss booking options.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Abbey Fraser\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (abbeyf88@hotmail.com), Phone (+447428797916)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds (exact amount not specified)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property shortlisted but booking not confirmed; waiting for university accommodation response\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-08-30\", \"response_time\": \"Not enough data to determine\", \"key_moments\": \"Student confirmed shortlisting Britannia Arlington Residents but is waiting for UCL accommodation response before proceeding\"}, \"properties_discussed\": {\"properties_mentioned\": \"Britannia Arlington Residents\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Interest in Britannia Arlington Residents but undecided\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up next week to check if student has received university accommodation confirmation\", \"pending_items\": \"Student awaiting response from University College London accommodation\", \"follow_up_required\": \"Yes, agent to reconnect after university decision\", \"timeline\": \"Follow-up planned for one week after 2025-08-30\"}, \"agent_notes\": {\"student_tone\": \"Polite and cautious, prefers to wait for university confirmation before proceeding\", \"urgency_level\": \"Low to medium; student is waiting and not rushing to book\", \"complexity\": \"Simple; decision pending university accommodation outcome\", \"special_considerations\": \"Student may delay booking until university accommodation status is clear\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": \"self\", \"name\": \"Abbey Fraser\", \"mobile\": [\"447428797916\"], \"email\": [\"abbeyf88@hotmail.com\"], \"whatsapp\": [], \"student_status\": null, \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": null, \"room_type\": null, \"budget\": {\"max\": null, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": null, \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [\"pending\", \"Has not heard back from University College London accommodation\"], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"Britannia Arlington Residents\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"follow_up\", \"description\": \"Agent to contact Abbey Fraser next week to check if she has received confirmation from University College London regarding accommodation and to discuss next steps for booking.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"Agent stated they will connect next week to follow up after Abbey waits for university response.\"}], \"last_agent_response\": \"Agent confirmed Abbey has shortlisted Britannia Arlington Residents and offered to follow up next week after Abbey hears back from University College London.\", \"suggested_next_step\": \"Agent to follow up with Abbey Fraser within a week to check university accommodation status and discuss booking options.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Abbey Fraser\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Email (abbeyf88@hotmail.com), Phone (+447428797916)\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London\", \"university\": \"University College London\", \"room_type\": \"Not mentioned\", \"budget_range\": \"Weekly budget in pounds (exact amount not specified)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"Not mentioned\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property shortlisted but booking not confirmed; waiting for university accommodation response\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"1 call\", \"primary_channel\": \"Phone call\", \"last_contact\": \"2025-08-30\", \"response_time\": \"Not enough data to determine\", \"key_moments\": \"Student confirmed shortlisting Britannia Arlington Residents but is waiting for UCL accommodation response before proceeding\"}, \"properties_discussed\": {\"properties_mentioned\": \"Britannia Arlington Residents\", \"viewings_scheduled\": \"None mentioned\", \"preferences_expressed\": \"Interest in Britannia Arlington Residents but undecided\", \"offers_made\": \"None mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Agent to follow up next week to check if student has received university accommodation confirmation\", \"pending_items\": \"Student awaiting response from University College London accommodation\", \"follow_up_required\": \"Yes, agent to reconnect after university decision\", \"timeline\": \"Follow-up planned for one week after 2025-08-30\"}, \"agent_notes\": {\"student_tone\": \"Polite and cautious, prefers to wait for university confirmation before proceeding\", \"urgency_level\": \"Low to medium; student is waiting and not rushing to book\", \"complexity\": \"Simple; decision pending university accommodation outcome\", \"special_considerations\": \"Student may delay booking until university accommodation status is clear\"}}}}}",
+    "created_at": "2025-11-18 11:11:02",
+    "updated_at": "2025-11-18T16:41:02.920149",
+    "requirements": {
+      "user_persona": {
+        "booking_for": "self",
+        "name": "Abbey Fraser",
+        "mobile": [
+          "447428797916"
+        ],
+        "email": [
+          "abbeyf88@hotmail.com"
+        ],
+        "whatsapp": [],
+        "student_status": null,
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": null,
+        "room_type": null,
+        "budget": {
+          "max": null,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": null,
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [
+          "pending",
+          "Has not heard back from University College London accommodation"
+        ],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "Britannia Arlington Residents"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "follow_up",
+          "description": "Agent to contact Abbey Fraser next week to check if she has received confirmation from University College London regarding accommodation and to discuss next steps for booking.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "Agent stated they will connect next week to follow up after Abbey waits for university response."
+        }
+      ],
+      "last_agent_response": "Agent confirmed Abbey has shortlisted Britannia Arlington Residents and offered to follow up next week after Abbey hears back from University College London.",
+      "suggested_next_step": "Agent to follow up with Abbey Fraser within a week to check university accommodation status and discuss booking options."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Abbey Fraser",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Email (abbeyf88@hotmail.com), Phone (+447428797916)",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London",
+            "university": "University College London",
+            "room_type": "Not mentioned",
+            "budget_range": "Weekly budget in pounds (exact amount not specified)",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "Not mentioned",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Property shortlisted but booking not confirmed; waiting for university accommodation response",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "1 call",
+            "primary_channel": "Phone call",
+            "last_contact": "2025-08-30",
+            "response_time": "Not enough data to determine",
+            "key_moments": "Student confirmed shortlisting Britannia Arlington Residents but is waiting for UCL accommodation response before proceeding"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "Britannia Arlington Residents",
+            "viewings_scheduled": "None mentioned",
+            "preferences_expressed": "Interest in Britannia Arlington Residents but undecided",
+            "offers_made": "None mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Agent to follow up next week to check if student has received university accommodation confirmation",
+            "pending_items": "Student awaiting response from University College London accommodation",
+            "follow_up_required": "Yes, agent to reconnect after university decision",
+            "timeline": "Follow-up planned for one week after 2025-08-30"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and cautious, prefers to wait for university confirmation before proceeding",
+            "urgency_level": "Low to medium; student is waiting and not rushing to book",
+            "complexity": "Simple; decision pending university accommodation outcome",
+            "special_considerations": "Student may delay booking until university accommodation status is clear"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": "self",
+          "name": "Abbey Fraser",
+          "mobile": [
+            "447428797916"
+          ],
+          "email": [
+            "abbeyf88@hotmail.com"
+          ],
+          "whatsapp": [],
+          "student_status": null,
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": null,
+          "room_type": null,
+          "budget": {
+            "max": null,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": null,
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [
+            "pending",
+            "Has not heard back from University College London accommodation"
+          ],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "Britannia Arlington Residents"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "follow_up",
+            "description": "Agent to contact Abbey Fraser next week to check if she has received confirmation from University College London regarding accommodation and to discuss next steps for booking.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "Agent stated they will connect next week to follow up after Abbey waits for university response."
+          }
+        ],
+        "last_agent_response": "Agent confirmed Abbey has shortlisted Britannia Arlington Residents and offered to follow up next week after Abbey hears back from University College London.",
+        "suggested_next_step": "Agent to follow up with Abbey Fraser within a week to check university accommodation status and discuss booking options."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Abbey Fraser",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Email (abbeyf88@hotmail.com), Phone (+447428797916)",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London",
+              "university": "University College London",
+              "room_type": "Not mentioned",
+              "budget_range": "Weekly budget in pounds (exact amount not specified)",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "Not mentioned",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Property shortlisted but booking not confirmed; waiting for university accommodation response",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "1 call",
+              "primary_channel": "Phone call",
+              "last_contact": "2025-08-30",
+              "response_time": "Not enough data to determine",
+              "key_moments": "Student confirmed shortlisting Britannia Arlington Residents but is waiting for UCL accommodation response before proceeding"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "Britannia Arlington Residents",
+              "viewings_scheduled": "None mentioned",
+              "preferences_expressed": "Interest in Britannia Arlington Residents but undecided",
+              "offers_made": "None mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Agent to follow up next week to check if student has received university accommodation confirmation",
+              "pending_items": "Student awaiting response from University College London accommodation",
+              "follow_up_required": "Yes, agent to reconnect after university decision",
+              "timeline": "Follow-up planned for one week after 2025-08-30"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and cautious, prefers to wait for university confirmation before proceeding",
+              "urgency_level": "Low to medium; student is waiting and not rushing to book",
+              "complexity": "Simple; decision pending university accommodation outcome",
+              "special_considerations": "Student may delay booking until university accommodation status is clear"
+            }
+          }
+        }
+      }
+    }
+  }
+}

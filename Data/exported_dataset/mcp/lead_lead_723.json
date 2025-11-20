@@ -1,0 +1,465 @@
+{
+  "id": "lead_723",
+  "mobile_number": "447563422171",
+  "email": null,
+  "timeline": [
+    {
+      "id": 11784,
+      "lead_id": 723,
+      "event_type": "call",
+      "timestamp": "2025-08-28T09:24:11.019356",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7773429",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-28T09:24:11.019356\", \"id\": 7773429, \"duration\": \"2\", \"to_number\": \"447563422171\", \"from_number\": \"447832625341\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8f11f53c-59d9-44a3-a90d-0285f74f1f15.wav\"}",
+      "created_at": "2025-11-18 12:48:02"
+    },
+    {
+      "id": 11785,
+      "lead_id": 723,
+      "event_type": "call",
+      "timestamp": "2025-08-28T13:50:21.640123",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7775747",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-08-28T13:50:21.640123\", \"id\": 7775747, \"duration\": \"14\", \"to_number\": \"447563422171\", \"from_number\": \"447832625341\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a5d6c220-64b4-48de-ba93-a5d0fdb13bb0.wav\"}",
+      "created_at": "2025-11-18 12:48:02"
+    },
+    {
+      "id": 11786,
+      "lead_id": 723,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-28T13:52:09",
+      "content": "Hi",
+      "source": "whatsapp",
+      "event_id": "7935392",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-28T13:52:09\", \"id\": 7935392, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447563422171\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447563422171@c.us_66016702F80339E13664C2CBD0BD3042\", \"message_type\": \"text\", \"message_content\": \"Hi\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-28T13:52:09.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi\\\", \\\"Datetime\\\": 1756389129000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447563422171@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447563422171@c.us_66016702F80339E13664C2CBD0BD3042\\\", \\\"ChannelName\\\": \\\"447563422171\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-28T13:52:10.176832\", \"direction\": \"outbound\", \"sbase_user_id\": 2465289, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447563422171\"}",
+      "created_at": "2025-11-18 12:48:02"
+    },
+    {
+      "id": 11787,
+      "lead_id": 723,
+      "event_type": "whatsapp",
+      "timestamp": "2025-08-28T13:52:21",
+      "content": "Hi Sarah, \nGood Day\n\nRachna Ahuja this side on behalf of *University College London* powered by Amber \n\n I will be happy to help you in booking the right accommodation for you. \n\nThanks",
+      "source": "whatsapp",
+      "event_id": "7935404",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-08-28T13:52:21\", \"id\": 7935404, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447563422171\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447563422171@c.us_3EB0AD14E3D1F627F45F9C\", \"message_type\": \"text\", \"message_content\": \"Hi Sarah, \\nGood Day\\n\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\n\\n I will be happy to help you in booking the right accommodation for you. \\n\\nThanks\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-08-28T13:52:21.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Sarah, \\\\nGood Day\\\\n\\\\nRachna Ahuja this side on behalf of *University College London* powered by Amber \\\\n\\\\n I will be happy to help you in booking the right accommodation for you. \\\\n\\\\nThanks\\\", \\\"Datetime\\\": 1756389141000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447563422171@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447563422171@c.us_3EB0AD14E3D1F627F45F9C\\\", \\\"ChannelName\\\": \\\"447563422171\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-08-28T13:52:22.487455\", \"direction\": \"outbound\", \"sbase_user_id\": 2465289, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447563422171\"}",
+      "created_at": "2025-11-18 12:48:02"
+    },
+    {
+      "id": 11788,
+      "lead_id": 723,
+      "event_type": "call",
+      "timestamp": "2025-09-02T11:47:51.350225",
+      "content": "",
+      "source": "plivo",
+      "event_id": "7801903",
+      "raw_data": "{\"type\": \"call\", \"timestamp\": \"2025-09-02T11:47:51.350225\", \"id\": 7801903, \"duration\": \"2\", \"to_number\": \"447563422171\", \"from_number\": \"447832625341\", \"source\": \"plivo\", \"record_url\": \"https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0cbabdf5-e03c-4a90-ade2-58c17edbb60c.wav\"}",
+      "created_at": "2025-11-18 12:48:02"
+    },
+    {
+      "id": 11789,
+      "lead_id": 723,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-02T11:48:03",
+      "content": "Hi Sarah",
+      "source": "whatsapp",
+      "event_id": "8144559",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-02T11:48:03\", \"id\": 8144559, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447563422171\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447563422171@c.us_3EB016CDC7CAD032A2CFE2\", \"message_type\": \"text\", \"message_content\": \"Hi Sarah\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-02T11:48:03.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi Sarah\\\", \\\"Datetime\\\": 1756813683000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447563422171@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447563422171@c.us_3EB016CDC7CAD032A2CFE2\\\", \\\"ChannelName\\\": \\\"447563422171\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-02T11:48:03.735292\", \"direction\": \"outbound\", \"sbase_user_id\": 2465289, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447563422171\"}",
+      "created_at": "2025-11-18 12:48:02"
+    },
+    {
+      "id": 11790,
+      "lead_id": 723,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-02T11:50:35",
+      "content": "Hi, thank you! Do you have any single rooms close to the UCL campus with my buget being £1800 per month?",
+      "source": "whatsapp",
+      "event_id": "8144717",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-02T11:50:35\", \"id\": 8144717, \"email\": \"\", \"from_number\": \"447563422171\", \"to_number\": \"447832625341\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"false_447563422171@c.us_3AE84F55D91254B119FC\", \"message_type\": \"text\", \"message_content\": \"Hi, thank you! Do you have any single rooms close to the UCL campus with my buget being \\u00a31800 per month?\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447563422171@c.us\\\": [{\\\"Ack\\\": 2, \\\"Date\\\": \\\"2025-09-02T11:50:35.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Hi, thank you! Do you have any single rooms close to the UCL campus with my buget being \\u00a31800 per month?\\\", \\\"Datetime\\\": 1756813835000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447832625341@c.us\\\", \\\"Sentbyid\\\": \\\"447563422171@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"INCOMING\\\", \\\"MessageId\\\": \\\"false_447563422171@c.us_3AE84F55D91254B119FC\\\", \\\"ChannelName\\\": \\\"447563422171\\\", \\\"SentByNumber\\\": \\\"447563422171\\\", \\\"sentByUserId\\\": \\\"447563422171@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-02T11:50:35.405107\", \"direction\": \"inbound\", \"sbase_user_id\": 2465289, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447563422171\"}",
+      "created_at": "2025-11-18 12:48:02"
+    },
+    {
+      "id": 11791,
+      "lead_id": 723,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-02T21:05:26",
+      "content": "Yes \nWe have so many",
+      "source": "whatsapp",
+      "event_id": "8172084",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-02T21:05:26\", \"id\": 8172084, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447563422171\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447563422171@c.us_BB4810A00198B745ED380A55B6175826\", \"message_type\": \"text\", \"message_content\": \"Yes \\nWe have so many\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-02T21:05:26.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Yes \\\\nWe have so many\\\", \\\"Datetime\\\": 1756847126000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447563422171@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447563422171@c.us_BB4810A00198B745ED380A55B6175826\\\", \\\"ChannelName\\\": \\\"447563422171\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-02T21:05:27.346603\", \"direction\": \"outbound\", \"sbase_user_id\": 2465289, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447563422171\"}",
+      "created_at": "2025-11-18 12:48:02"
+    },
+    {
+      "id": 11792,
+      "lead_id": 723,
+      "event_type": "whatsapp",
+      "timestamp": "2025-09-02T21:05:53",
+      "content": "Here are your property suggestions:\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\n\n🏡 *IQ STERLING COURT, LONDON*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 10.2 mi (34 mins)\n*Walk:* 8.1 mi (2 hours 45 mins)\n*Bus/Train:* 8.4 mi (34 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143147\n\n------------\n\n🏡 *IQ THE ARCADE, LONDON*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.0 mi (17 mins)\n*Walk:* 2.8 mi (57 mins)\n*Bus/Train:* 3.0 mi (30 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143139\n\n------------\n\n🏡 *IQ HIGHBURY, LONDON*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.3 mi (17 mins)\n*Walk:* 3.4 mi (1 hour 9 mins)\n*Bus/Train:* 4.1 mi (16 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143159\n\n------------\n\n🏡 *IQ ALDGATE, LONDON*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.6 mi (24 mins)\n*Walk:* 3.4 mi (1 hour 18 mins)\n*Bus/Train:* 3.7 mi (25 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267/form?url=rachna.a%40amberstudent.com&amp;inventory_id=136693\n\n------------\n\n🏡 *CAMDEN HAWLEY CRESCENT, LONDON *\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\n\n📍 *DISTANCE from University College London:*\n*Drive:* 2.0 mi (12 mins)\n*Walk:* 1.4 mi (31 mins)\n*Bus/Train:* 1.7 mi (15 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\n\n------------\n\n🏡 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 0.1 mi (1 min)\n*Walk:* 0.1 mi (3 mins)\n*Bus/Train:* 0.1 mi (3 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137083\n\n------------\n\n🏡 *PORTOBELLO GARROW HOUSE, LONDON*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.7 mi (20 mins)\n*Walk:* 3.7 mi (1 hour 24 mins)\n*Bus/Train:* 3.8 mi (24 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137073\n\n------------\n\n🏡 *CHELSEA LIGHTFOOT HALL, LONDON*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198\n\n📹 *VIEW VIDEOS*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\n\n🕶️ *VIEW 3D TOUR*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\n\n📍 *DISTANCE from University College London:*\n*Drive:* 3.9 mi (25 mins)\n*Walk:* 3.8 mi (1 hour 18 mins)\n*Bus/Train:* 4.3 mi (33 mins)\n\n✅ *Click this link to secure the room:*\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137043\n\n------------",
+      "source": "whatsapp",
+      "event_id": "8172089",
+      "raw_data": "{\"type\": \"whatsapp\", \"timestamp\": \"2025-09-02T21:05:53\", \"id\": 8172089, \"email\": \"\", \"from_number\": \"447832625341\", \"to_number\": \"447563422171\", \"source\": \"eazybe\", \"conversation_id\": \"\", \"message_id\": \"true_447563422171@c.us_4CF7D8D2DE5C1B08AD85DA261FF7BAF0\", \"message_type\": \"text\", \"message_content\": \"Here are your property suggestions:\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\n\\n\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 10.2 mi (34 mins)\\n*Walk:* 8.1 mi (2 hours 45 mins)\\n*Bus/Train:* 8.4 mi (34 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143147\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ THE ARCADE, LONDON*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.0 mi (17 mins)\\n*Walk:* 2.8 mi (57 mins)\\n*Bus/Train:* 3.0 mi (30 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143139\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ HIGHBURY, LONDON*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.3 mi (17 mins)\\n*Walk:* 3.4 mi (1 hour 9 mins)\\n*Bus/Train:* 4.1 mi (16 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143159\\n\\n------------\\n\\n\\ud83c\\udfe1 *IQ ALDGATE, LONDON*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.6 mi (24 mins)\\n*Walk:* 3.4 mi (1 hour 18 mins)\\n*Bus/Train:* 3.7 mi (25 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267/form?url=rachna.a%40amberstudent.com&amp;inventory_id=136693\\n\\n------------\\n\\n\\ud83c\\udfe1 *CAMDEN HAWLEY CRESCENT, LONDON *\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 2.0 mi (12 mins)\\n*Walk:* 1.4 mi (31 mins)\\n*Bus/Train:* 1.7 mi (15 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\\n\\n------------\\n\\n\\ud83c\\udfe1 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 0.1 mi (1 min)\\n*Walk:* 0.1 mi (3 mins)\\n*Bus/Train:* 0.1 mi (3 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137083\\n\\n------------\\n\\n\\ud83c\\udfe1 *PORTOBELLO GARROW HOUSE, LONDON*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.7 mi (20 mins)\\n*Walk:* 3.7 mi (1 hour 24 mins)\\n*Bus/Train:* 3.8 mi (24 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137073\\n\\n------------\\n\\n\\ud83c\\udfe1 *CHELSEA LIGHTFOOT HALL, LONDON*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198\\n\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\\n\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\\n\\n\\ud83d\\udccd *DISTANCE from University College London:*\\n*Drive:* 3.9 mi (25 mins)\\n*Walk:* 3.8 mi (1 hour 18 mins)\\n*Bus/Train:* 4.3 mi (33 mins)\\n\\n\\u2705 *Click this link to secure the room:*\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137043\\n\\n------------\", \"status\": \"\", \"uploaded_files\": \"[]\", \"raw_payload\": \"{\\\"447832625341@c.us\\\": [{\\\"Ack\\\": 1, \\\"Date\\\": \\\"2025-09-02T21:05:53.000Z\\\", \\\"File\\\": null, \\\"Chatid\\\": \\\"447832625341@c.us\\\", \\\"Message\\\": \\\"Here are your property suggestions:\\\\n_(The links might not be clickable, kindly *add me to your contacts* to make links clickable)_\\\\n\\\\n\\ud83c\\udfe1 *IQ STERLING COURT, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 10.2 mi (34 mins)\\\\n*Walk:* 8.1 mi (2 hours 45 mins)\\\\n*Bus/Train:* 8.4 mi (34 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-sterling-court-wembley-1811167912400/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143147\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ THE ARCADE, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.0 mi (17 mins)\\\\n*Walk:* 2.8 mi (57 mins)\\\\n*Bus/Train:* 3.0 mi (30 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-the-arcade-london-1811161245652/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143139\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ HIGHBURY, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.3 mi (17 mins)\\\\n*Walk:* 3.4 mi (1 hour 9 mins)\\\\n*Bus/Train:* 4.1 mi (16 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-highbury-london-1811163333778/form?url=rachna.a%40amberstudent.com&amp;inventory_id=143159\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *IQ ALDGATE, LONDON*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.6 mi (24 mins)\\\\n*Walk:* 3.4 mi (1 hour 18 mins)\\\\n*Bus/Train:* 3.7 mi (25 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/iq-aldgate-london-1707315979267/form?url=rachna.a%40amberstudent.com&amp;inventory_id=136693\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CAMDEN HAWLEY CRESCENT, LONDON *\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 2.0 mi (12 mins)\\\\n*Walk:* 1.4 mi (31 mins)\\\\n*Bus/Train:* 1.7 mi (15 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/camden-hawley-crescent-london-1708174027832/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137036\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *BLOOMSBURY JANET POOLE HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 0.1 mi (1 min)\\\\n*Walk:* 0.1 mi (3 mins)\\\\n*Bus/Train:* 0.1 mi (3 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/bloomsbury-janet-poole-house-london-1708211916403/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137083\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *PORTOBELLO GARROW HOUSE, LONDON*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.7 mi (20 mins)\\\\n*Walk:* 3.7 mi (1 hour 24 mins)\\\\n*Bus/Train:* 3.8 mi (24 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/portobello-road-garrow-house-london-1708197689459/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137073\\\\n\\\\n------------\\\\n\\\\n\\ud83c\\udfe1 *CHELSEA LIGHTFOOT HALL, LONDON*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198\\\\n\\\\n\\ud83d\\udcf9 *VIEW VIDEOS*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=videos\\\\n\\\\n\\ud83d\\udd76\\ufe0f *VIEW 3D TOUR*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198?gallery=true&amp;tab=3D\\\\n\\\\n\\ud83d\\udccd *DISTANCE from University College London:*\\\\n*Drive:* 3.9 mi (25 mins)\\\\n*Walk:* 3.8 mi (1 hour 18 mins)\\\\n*Bus/Train:* 4.3 mi (33 mins)\\\\n\\\\n\\u2705 *Click this link to secure the room:*\\\\nhttps://ucl.studentacco.com/places/chelsea-lightfoot-hall-1708171895198/form?url=rachna.a%40amberstudent.com&amp;inventory_id=137043\\\\n\\\\n------------\\\", \\\"Datetime\\\": 1756847153000, \\\"FileName\\\": null, \\\"Receiver\\\": \\\"447563422171@c.us\\\", \\\"Sentbyid\\\": \\\"447832625341@c.us\\\", \\\"ChannelId\\\": \\\"1:1\\\", \\\"Direction\\\": \\\"OUTGOING\\\", \\\"MessageId\\\": \\\"true_447563422171@c.us_4CF7D8D2DE5C1B08AD85DA261FF7BAF0\\\", \\\"ChannelName\\\": \\\"447563422171\\\", \\\"SentByNumber\\\": \\\"447832625341\\\", \\\"sentByUserId\\\": \\\"447832625341@c.us\\\", \\\"CreatedByUser\\\": \\\"447832625341\\\"}]}\", \"updated_at\": \"2025-09-02T21:05:54.196013\", \"direction\": \"outbound\", \"sbase_user_id\": 2465289, \"message_source\": \"\", \"meta\": \"{}\", \"agent_id\": 3306, \"agent_number\": \"447832625341\", \"customer_number\": \"447563422171\"}",
+      "created_at": "2025-11-18 12:48:02"
+    },
+    {
+      "id": 11793,
+      "lead_id": 723,
+      "event_type": "lead_info",
+      "timestamp": "2025-09-13T00:00:00",
+      "content": "",
+      "source": "lead_info",
+      "event_id": null,
+      "raw_data": "{\"type\": \"lead_info\", \"timestamp\": \"2025-09-13T00:00:00\", \"lead_id\": 3185697, \"user_name\": \"Sarah Khan\", \"email\": \"sarah.isabella.khan@gmail.com\", \"phone\": \"447563422171\", \"lease_duration\": \"51 week\", \"move_out_date\": \"2026-09-04\", \"budget\": 489, \"budget_currency\": \"pound\", \"budget_duration\": \"weekly\", \"city\": \"London\", \"state\": \"England\", \"country\": \"United Kingdom\", \"region_id\": 14, \"agent_id\": 3306, \"inventory_id\": 1856951}",
+      "created_at": "2025-11-18 12:48:02"
+    }
+  ],
+  "transcripts": [
+    {
+      "id": 574,
+      "lead_id": 723,
+      "call_id": "7773429",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/8f11f53c-59d9-44a3-a90d-0285f74f1f15.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:48:07"
+    },
+    {
+      "id": 575,
+      "lead_id": 723,
+      "call_id": "7775747",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/a5d6c220-64b4-48de-ba93-a5d0fdb13bb0.wav",
+      "transcript_text": "Speaker A: Your call has been forwarded to voicemail. The person you're trying to reach is not available. At the tone, please record your message. When you have finished recording, you may hang up.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:48:11"
+    },
+    {
+      "id": 576,
+      "lead_id": 723,
+      "call_id": "7801903",
+      "record_url": "https://media.plivo.com/v1/Account/MAYZM1ZTM5OTRIZDQ5ZD/Recording/0cbabdf5-e03c-4a90-ade2-58c17edbb60c.wav",
+      "transcript_text": "Speaker A: Come to gift gaps. Voicemail.",
+      "serial_number": null,
+      "transcription_status": "completed",
+      "assemblyai_transcript_id": null,
+      "processing_time_ms": null,
+      "created_at": "2025-11-18 12:48:15"
+    }
+  ],
+  "summary": {
+    "id": 298,
+    "lead_id": 723,
+    "requirements_json": "{\"user_persona\": {\"booking_for\": null, \"name\": \"Sarah Khan\", \"mobile\": [\"447563422171\"], \"email\": [\"sarah.isabella.khan@gmail.com\"], \"whatsapp\": [\"447563422171\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"single\", \"budget\": {\"max\": 1800, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Sterling Court, London\", \"IQ The Arcade, London\", \"IQ Highbury, London\", \"IQ Aldgate, London\", \"Camden Hawley Crescent, London\", \"Bloomsbury Janet Poole House, London\", \"Portobello Garrow House, London\", \"Chelsea Lightfoot Hall, London\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}",
+    "tasks_actionables_json": "{\"tasks\": [{\"type\": \"communication\", \"description\": \"Send Sarah Khan property suggestions for single rooms close to UCL campus within her budget of \\u00a31800 per month.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent property suggestions on 2025-09-02T21:05:53 via WhatsApp.\"}, {\"type\": \"booking_action\", \"description\": \"Sarah Khan to review the provided property options and decide which room(s) to secure by clicking the provided booking links.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent shared multiple property links with booking options on 2025-09-02.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Sarah Khan to check if she has any questions or needs assistance with booking a room.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"No response from student after sending property suggestions on 2025-09-02.\"}], \"last_agent_response\": \"Sent Sarah multiple property suggestions with booking links for single rooms close to UCL campus within her budget on 2025-09-02.\", \"suggested_next_step\": \"Agent to follow up with Sarah within a week to confirm her booking decision or offer further assistance.\"}",
+    "conversation_summary_json": "{\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Sarah Khan\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number 447563422171\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, close to University College London campus\", \"university\": \"University College London\", \"room_type\": \"Single rooms\", \"budget_range\": \"\\u00a31800 per month (approx. \\u00a3489 per week)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection - agent has provided multiple property options\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"7 (3 calls, 4 WhatsApp message packs)\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-09-02T21:05:53 (agent sent property suggestions)\", \"response_time\": \"Agent attempts calls but reaches voicemail; WhatsApp messages receive prompt student replies\", \"key_moments\": \"Initial calls went to voicemail; agent introduced self via WhatsApp; student requested single rooms near UCL within budget; agent responded with multiple property suggestions including links and details\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Camden Hawley Crescent, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student prefers single rooms close to UCL campus within budget\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up with student to confirm interest in any of the suggested properties\", \"pending_items\": \"Student decision on property choice\", \"follow_up_required\": \"Agent to check student\\u2019s preferred property and assist with booking process\", \"timeline\": \"Lease duration is 51 weeks ending 2026-09-04; no specific move-in date mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear in WhatsApp messages, responsive to agent\\u2019s outreach\", \"urgency_level\": \"Moderate - student engaged but no immediate booking or payment mentioned\", \"complexity\": \"Standard inquiry with clear budget and location preferences\", \"special_considerations\": \"Agent should note student\\u2019s budget is weekly \\u00a3489 (~\\u00a31800 monthly) and focus on properties close to UCL\"}}}}",
+    "combined_summary_json": "{\"requirements\": {\"user_persona\": {\"booking_for\": null, \"name\": \"Sarah Khan\", \"mobile\": [\"447563422171\"], \"email\": [\"sarah.isabella.khan@gmail.com\"], \"whatsapp\": [\"447563422171\"], \"student_status\": \"student\", \"nationality\": null}, \"accommodation_requirements\": {\"location\": [\"London\"], \"lease_duration_weeks\": 51, \"room_type\": \"single\", \"budget\": {\"max\": 1800, \"currency\": \"GBP\"}, \"bathroom_type\": null, \"kitchen_type\": null, \"dual_occupancy\": null, \"university\": \"University College London\", \"move_in_date\": null, \"dependents\": \"no\", \"amenities\": [], \"housing_type\": null, \"nearby_preferences\": [\"university\"], \"pet_friendly\": null, \"payment_plan\": null, \"course_year\": null}, \"student_journey\": {\"I20_form\": [], \"university_acceptance\": [], \"flight_booking\": [], \"visa_status\": [], \"guarantor\": null}, \"properties_under_consideration\": {\"properties_considered\": [\"IQ Sterling Court, London\", \"IQ The Arcade, London\", \"IQ Highbury, London\", \"IQ Aldgate, London\", \"Camden Hawley Crescent, London\", \"Bloomsbury Janet Poole House, London\", \"Portobello Garrow House, London\", \"Chelsea Lightfoot Hall, London\"], \"rooms_considered\": []}, \"other_info\": {\"referral_code_or_offer_discussed\": null}}, \"tasks_and_actionables\": {\"tasks\": [{\"type\": \"communication\", \"description\": \"Send Sarah Khan property suggestions for single rooms close to UCL campus within her budget of \\u00a31800 per month.\", \"due\": \"immediate\", \"status\": \"completed\", \"task_for\": \"agent\", \"source_reference\": \"Agent sent property suggestions on 2025-09-02T21:05:53 via WhatsApp.\"}, {\"type\": \"booking_action\", \"description\": \"Sarah Khan to review the provided property options and decide which room(s) to secure by clicking the provided booking links.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"student\", \"source_reference\": \"Agent shared multiple property links with booking options on 2025-09-02.\"}, {\"type\": \"follow_up\", \"description\": \"Follow up with Sarah Khan to check if she has any questions or needs assistance with booking a room.\", \"due\": \"within_week\", \"status\": \"pending\", \"task_for\": \"agent\", \"source_reference\": \"No response from student after sending property suggestions on 2025-09-02.\"}], \"last_agent_response\": \"Sent Sarah multiple property suggestions with booking links for single rooms close to UCL campus within her budget on 2025-09-02.\", \"suggested_next_step\": \"Agent to follow up with Sarah within a week to confirm her booking decision or offer further assistance.\"}, \"conversation_summary\": {\"conversation_summary\": {\"sections\": {\"student_overview\": {\"name\": \"Sarah Khan\", \"nationality\": \"Not mentioned\", \"student_status\": \"student\", \"contact_info\": \"Phone calls and WhatsApp messages via number 447563422171\", \"booking_for\": \"Self\"}, \"accommodation_preferences\": {\"locations\": \"London, close to University College London campus\", \"university\": \"University College London\", \"room_type\": \"Single rooms\", \"budget_range\": \"\\u00a31800 per month (approx. \\u00a3489 per week)\", \"move_in_date\": \"Not mentioned\", \"lease_duration\": \"51 weeks\", \"special_requirements\": \"Not mentioned\"}, \"current_status\": {\"booking_stage\": \"Property selection - agent has provided multiple property options\", \"documents_status\": \"Not mentioned\", \"payment_status\": \"Not mentioned\", \"visa_status\": \"Not mentioned\", \"flight_status\": \"Not mentioned\"}, \"communication_summary\": {\"total_interactions\": \"7 (3 calls, 4 WhatsApp message packs)\", \"primary_channel\": \"WhatsApp messaging\", \"last_contact\": \"2025-09-02T21:05:53 (agent sent property suggestions)\", \"response_time\": \"Agent attempts calls but reaches voicemail; WhatsApp messages receive prompt student replies\", \"key_moments\": \"Initial calls went to voicemail; agent introduced self via WhatsApp; student requested single rooms near UCL within budget; agent responded with multiple property suggestions including links and details\"}, \"properties_discussed\": {\"properties_mentioned\": \"IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Camden Hawley Crescent, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall\", \"viewings_scheduled\": \"Not mentioned\", \"preferences_expressed\": \"Student prefers single rooms close to UCL campus within budget\", \"offers_made\": \"Not mentioned\"}, \"next_steps\": {\"immediate_actions\": \"Follow up with student to confirm interest in any of the suggested properties\", \"pending_items\": \"Student decision on property choice\", \"follow_up_required\": \"Agent to check student\\u2019s preferred property and assist with booking process\", \"timeline\": \"Lease duration is 51 weeks ending 2026-09-04; no specific move-in date mentioned\"}, \"agent_notes\": {\"student_tone\": \"Polite and clear in WhatsApp messages, responsive to agent\\u2019s outreach\", \"urgency_level\": \"Moderate - student engaged but no immediate booking or payment mentioned\", \"complexity\": \"Standard inquiry with clear budget and location preferences\", \"special_considerations\": \"Agent should note student\\u2019s budget is weekly \\u00a3489 (~\\u00a31800 monthly) and focus on properties close to UCL\"}}}}}",
+    "created_at": "2025-11-18 12:48:26",
+    "updated_at": "2025-11-18T18:18:26.253513",
+    "requirements": {
+      "user_persona": {
+        "booking_for": null,
+        "name": "Sarah Khan",
+        "mobile": [
+          "447563422171"
+        ],
+        "email": [
+          "sarah.isabella.khan@gmail.com"
+        ],
+        "whatsapp": [
+          "447563422171"
+        ],
+        "student_status": "student",
+        "nationality": null
+      },
+      "accommodation_requirements": {
+        "location": [
+          "London"
+        ],
+        "lease_duration_weeks": 51,
+        "room_type": "single",
+        "budget": {
+          "max": 1800,
+          "currency": "GBP"
+        },
+        "bathroom_type": null,
+        "kitchen_type": null,
+        "dual_occupancy": null,
+        "university": "University College London",
+        "move_in_date": null,
+        "dependents": "no",
+        "amenities": [],
+        "housing_type": null,
+        "nearby_preferences": [
+          "university"
+        ],
+        "pet_friendly": null,
+        "payment_plan": null,
+        "course_year": null
+      },
+      "student_journey": {
+        "I20_form": [],
+        "university_acceptance": [],
+        "flight_booking": [],
+        "visa_status": [],
+        "guarantor": null
+      },
+      "properties_under_consideration": {
+        "properties_considered": [
+          "IQ Sterling Court, London",
+          "IQ The Arcade, London",
+          "IQ Highbury, London",
+          "IQ Aldgate, London",
+          "Camden Hawley Crescent, London",
+          "Bloomsbury Janet Poole House, London",
+          "Portobello Garrow House, London",
+          "Chelsea Lightfoot Hall, London"
+        ],
+        "rooms_considered": []
+      },
+      "other_info": {
+        "referral_code_or_offer_discussed": null
+      }
+    },
+    "tasks_actionables": {
+      "tasks": [
+        {
+          "type": "communication",
+          "description": "Send Sarah Khan property suggestions for single rooms close to UCL campus within her budget of £1800 per month.",
+          "due": "immediate",
+          "status": "completed",
+          "task_for": "agent",
+          "source_reference": "Agent sent property suggestions on 2025-09-02T21:05:53 via WhatsApp."
+        },
+        {
+          "type": "booking_action",
+          "description": "Sarah Khan to review the provided property options and decide which room(s) to secure by clicking the provided booking links.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "student",
+          "source_reference": "Agent shared multiple property links with booking options on 2025-09-02."
+        },
+        {
+          "type": "follow_up",
+          "description": "Follow up with Sarah Khan to check if she has any questions or needs assistance with booking a room.",
+          "due": "within_week",
+          "status": "pending",
+          "task_for": "agent",
+          "source_reference": "No response from student after sending property suggestions on 2025-09-02."
+        }
+      ],
+      "last_agent_response": "Sent Sarah multiple property suggestions with booking links for single rooms close to UCL campus within her budget on 2025-09-02.",
+      "suggested_next_step": "Agent to follow up with Sarah within a week to confirm her booking decision or offer further assistance."
+    },
+    "conversation_summary": {
+      "conversation_summary": {
+        "sections": {
+          "student_overview": {
+            "name": "Sarah Khan",
+            "nationality": "Not mentioned",
+            "student_status": "student",
+            "contact_info": "Phone calls and WhatsApp messages via number 447563422171",
+            "booking_for": "Self"
+          },
+          "accommodation_preferences": {
+            "locations": "London, close to University College London campus",
+            "university": "University College London",
+            "room_type": "Single rooms",
+            "budget_range": "£1800 per month (approx. £489 per week)",
+            "move_in_date": "Not mentioned",
+            "lease_duration": "51 weeks",
+            "special_requirements": "Not mentioned"
+          },
+          "current_status": {
+            "booking_stage": "Property selection - agent has provided multiple property options",
+            "documents_status": "Not mentioned",
+            "payment_status": "Not mentioned",
+            "visa_status": "Not mentioned",
+            "flight_status": "Not mentioned"
+          },
+          "communication_summary": {
+            "total_interactions": "7 (3 calls, 4 WhatsApp message packs)",
+            "primary_channel": "WhatsApp messaging",
+            "last_contact": "2025-09-02T21:05:53 (agent sent property suggestions)",
+            "response_time": "Agent attempts calls but reaches voicemail; WhatsApp messages receive prompt student replies",
+            "key_moments": "Initial calls went to voicemail; agent introduced self via WhatsApp; student requested single rooms near UCL within budget; agent responded with multiple property suggestions including links and details"
+          },
+          "properties_discussed": {
+            "properties_mentioned": "IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Camden Hawley Crescent, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall",
+            "viewings_scheduled": "Not mentioned",
+            "preferences_expressed": "Student prefers single rooms close to UCL campus within budget",
+            "offers_made": "Not mentioned"
+          },
+          "next_steps": {
+            "immediate_actions": "Follow up with student to confirm interest in any of the suggested properties",
+            "pending_items": "Student decision on property choice",
+            "follow_up_required": "Agent to check student’s preferred property and assist with booking process",
+            "timeline": "Lease duration is 51 weeks ending 2026-09-04; no specific move-in date mentioned"
+          },
+          "agent_notes": {
+            "student_tone": "Polite and clear in WhatsApp messages, responsive to agent’s outreach",
+            "urgency_level": "Moderate - student engaged but no immediate booking or payment mentioned",
+            "complexity": "Standard inquiry with clear budget and location preferences",
+            "special_considerations": "Agent should note student’s budget is weekly £489 (~£1800 monthly) and focus on properties close to UCL"
+          }
+        }
+      }
+    },
+    "combined_summary": {
+      "requirements": {
+        "user_persona": {
+          "booking_for": null,
+          "name": "Sarah Khan",
+          "mobile": [
+            "447563422171"
+          ],
+          "email": [
+            "sarah.isabella.khan@gmail.com"
+          ],
+          "whatsapp": [
+            "447563422171"
+          ],
+          "student_status": "student",
+          "nationality": null
+        },
+        "accommodation_requirements": {
+          "location": [
+            "London"
+          ],
+          "lease_duration_weeks": 51,
+          "room_type": "single",
+          "budget": {
+            "max": 1800,
+            "currency": "GBP"
+          },
+          "bathroom_type": null,
+          "kitchen_type": null,
+          "dual_occupancy": null,
+          "university": "University College London",
+          "move_in_date": null,
+          "dependents": "no",
+          "amenities": [],
+          "housing_type": null,
+          "nearby_preferences": [
+            "university"
+          ],
+          "pet_friendly": null,
+          "payment_plan": null,
+          "course_year": null
+        },
+        "student_journey": {
+          "I20_form": [],
+          "university_acceptance": [],
+          "flight_booking": [],
+          "visa_status": [],
+          "guarantor": null
+        },
+        "properties_under_consideration": {
+          "properties_considered": [
+            "IQ Sterling Court, London",
+            "IQ The Arcade, London",
+            "IQ Highbury, London",
+            "IQ Aldgate, London",
+            "Camden Hawley Crescent, London",
+            "Bloomsbury Janet Poole House, London",
+            "Portobello Garrow House, London",
+            "Chelsea Lightfoot Hall, London"
+          ],
+          "rooms_considered": []
+        },
+        "other_info": {
+          "referral_code_or_offer_discussed": null
+        }
+      },
+      "tasks_and_actionables": {
+        "tasks": [
+          {
+            "type": "communication",
+            "description": "Send Sarah Khan property suggestions for single rooms close to UCL campus within her budget of £1800 per month.",
+            "due": "immediate",
+            "status": "completed",
+            "task_for": "agent",
+            "source_reference": "Agent sent property suggestions on 2025-09-02T21:05:53 via WhatsApp."
+          },
+          {
+            "type": "booking_action",
+            "description": "Sarah Khan to review the provided property options and decide which room(s) to secure by clicking the provided booking links.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "student",
+            "source_reference": "Agent shared multiple property links with booking options on 2025-09-02."
+          },
+          {
+            "type": "follow_up",
+            "description": "Follow up with Sarah Khan to check if she has any questions or needs assistance with booking a room.",
+            "due": "within_week",
+            "status": "pending",
+            "task_for": "agent",
+            "source_reference": "No response from student after sending property suggestions on 2025-09-02."
+          }
+        ],
+        "last_agent_response": "Sent Sarah multiple property suggestions with booking links for single rooms close to UCL campus within her budget on 2025-09-02.",
+        "suggested_next_step": "Agent to follow up with Sarah within a week to confirm her booking decision or offer further assistance."
+      },
+      "conversation_summary": {
+        "conversation_summary": {
+          "sections": {
+            "student_overview": {
+              "name": "Sarah Khan",
+              "nationality": "Not mentioned",
+              "student_status": "student",
+              "contact_info": "Phone calls and WhatsApp messages via number 447563422171",
+              "booking_for": "Self"
+            },
+            "accommodation_preferences": {
+              "locations": "London, close to University College London campus",
+              "university": "University College London",
+              "room_type": "Single rooms",
+              "budget_range": "£1800 per month (approx. £489 per week)",
+              "move_in_date": "Not mentioned",
+              "lease_duration": "51 weeks",
+              "special_requirements": "Not mentioned"
+            },
+            "current_status": {
+              "booking_stage": "Property selection - agent has provided multiple property options",
+              "documents_status": "Not mentioned",
+              "payment_status": "Not mentioned",
+              "visa_status": "Not mentioned",
+              "flight_status": "Not mentioned"
+            },
+            "communication_summary": {
+              "total_interactions": "7 (3 calls, 4 WhatsApp message packs)",
+              "primary_channel": "WhatsApp messaging",
+              "last_contact": "2025-09-02T21:05:53 (agent sent property suggestions)",
+              "response_time": "Agent attempts calls but reaches voicemail; WhatsApp messages receive prompt student replies",
+              "key_moments": "Initial calls went to voicemail; agent introduced self via WhatsApp; student requested single rooms near UCL within budget; agent responded with multiple property suggestions including links and details"
+            },
+            "properties_discussed": {
+              "properties_mentioned": "IQ Sterling Court, IQ The Arcade, IQ Highbury, IQ Aldgate, Camden Hawley Crescent, Bloomsbury Janet Poole House, Portobello Garrow House, Chelsea Lightfoot Hall",
+              "viewings_scheduled": "Not mentioned",
+              "preferences_expressed": "Student prefers single rooms close to UCL campus within budget",
+              "offers_made": "Not mentioned"
+            },
+            "next_steps": {
+              "immediate_actions": "Follow up with student to confirm interest in any of the suggested properties",
+              "pending_items": "Student decision on property choice",
+              "follow_up_required": "Agent to check student’s preferred property and assist with booking process",
+              "timeline": "Lease duration is 51 weeks ending 2026-09-04; no specific move-in date mentioned"
+            },
+            "agent_notes": {
+              "student_tone": "Polite and clear in WhatsApp messages, responsive to agent’s outreach",
+              "urgency_level": "Moderate - student engaged but no immediate booking or payment mentioned",
+              "complexity": "Standard inquiry with clear budget and location preferences",
+              "special_considerations": "Agent should note student’s budget is weekly £489 (~£1800 monthly) and focus on properties close to UCL"
+            }
+          }
+        }
+      }
+    }
+  }
+}
