@@ -292,9 +292,18 @@ class LeadIntelligenceAgent:
                 StructuredTool.from_function(
                     func=self._get_room_types_by_country_wrapper,
                     name="get_room_types_by_country",
-                    description="""Get room type preferences grouped by source country.
+                    description="""Get room type preferences grouped by source country (all leads).
                     This tool takes no arguments.
                     Returns: Dict with room types by country showing preferences per country."""
+                ),
+                
+                StructuredTool.from_function(
+                    func=self._get_booked_room_types_by_country_wrapper,
+                    name="get_booked_room_types_by_country",
+                    description="""Get booked (Won) room types grouped by source country.
+                    Use this for queries about 'most booked room types by country' or 'booked room types categorized by country'.
+                    This tool takes no arguments.
+                    Returns: Dict with booked room types by country, showing only Won leads."""
                 ),
                 
                 StructuredTool.from_function(
@@ -575,6 +584,14 @@ class LeadIntelligenceAgent:
         except Exception as e:
             return json.dumps({"error": f"Error getting room types by country: {str(e)}"})
     
+    def _get_booked_room_types_by_country_wrapper(self, *args, **kwargs) -> str:
+        """Wrapper for get_booked_room_types_by_country that handles any input type"""
+        try:
+            result = self.query_tools.get_booked_room_types_by_country()
+            return json.dumps(result, indent=2, default=str)
+        except Exception as e:
+            return json.dumps({"error": f"Error getting booked room types by country: {str(e)}"})
+    
     def _create_prompt(self) -> ChatPromptTemplate:
         """Create the agent prompt"""
         
@@ -679,7 +696,8 @@ You are a specialized AI assistant that provides data-driven insights about stud
 
 ### **For Complex Analytical Queries** (Combine tools):
 - "Lost reasons by country" → `get_lost_reasons_analysis` (fastest) OR combine `filter_leads(status='Lost')` + `get_crm_data`
-- "Room types by country" → `get_room_types_by_country` (fastest) OR combine `get_crm_data` + `filter_leads`
+- "Room types by country" (all leads) → `get_room_types_by_country` (fastest) OR combine `get_crm_data` + `filter_leads`
+- "Booked room types by country" or "Most booked room types categorized by source country" → `get_booked_room_types_by_country` (USE THIS TOOL)
 - "Why did leads choose property X?" → `get_property_details` + `semantic_search` + `get_lead_timeline`
 - "What concerns do high-budget leads have?" → `filter_leads(budget_min=500)` + `semantic_search` + `get_all_objections`
 

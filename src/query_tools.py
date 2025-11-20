@@ -783,6 +783,42 @@ class LeadQueryTools:
             if conn:
                 self._return_connection(conn)
     
+    def get_booked_room_types_by_country(self) -> Dict[str, Any]:
+        """Get booked (Won) room types grouped by source country
+        
+        Returns:
+            Dict with booked room types by country, showing only Won leads
+        """
+        conn = None
+        try:
+            conn = self._get_connection()
+            cursor = conn.cursor()
+            
+            # Join crm_data -> leads -> lead_requirements, filter by Won status
+            cursor.execute("""
+                SELECT c.location_country, lr.room_type, COUNT(*) as count
+                FROM crm_data c
+                JOIN leads l ON c.lead_id = l.lead_id
+                JOIN lead_requirements lr ON l.lead_id = lr.lead_id
+                WHERE c.location_country IS NOT NULL
+                  AND lr.room_type IS NOT NULL
+                  AND lr.room_type != ''
+                  AND l.status = 'Won'
+                GROUP BY c.location_country, lr.room_type
+                ORDER BY c.location_country, count DESC
+            """)
+            
+            booked_room_types_by_country = {}
+            for country, room_type, count in cursor.fetchall():
+                if country not in booked_room_types_by_country:
+                    booked_room_types_by_country[country] = []
+                booked_room_types_by_country[country].append({"room_type": room_type, "count": count})
+            
+            return booked_room_types_by_country
+        finally:
+            if conn:
+                self._return_connection(conn)
+    
     def get_all_pending_tasks(self, format: str = "summary", limit: int = 200) -> Dict[str, Any]:
         """Get pending and in-progress tasks - returns summary by default, list if format='list'
         
