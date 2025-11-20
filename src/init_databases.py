@@ -5,6 +5,7 @@ Automatically creates and populates databases on first run
 
 import os
 import sys
+import sqlite3
 
 def ensure_databases_exist():
     """Ensure both databases exist and are populated"""
@@ -14,41 +15,91 @@ def ensure_databases_exist():
     
     # Check detailed database
     detailed_db = "data/leads.db"
+    needs_ingestion = False
+    
     if not os.path.exists(detailed_db):
-        print("📊 Initializing detailed database...")
+        print("📊 Database not found, will initialize...")
+        needs_ingestion = True
+    else:
+        # Check if database has old data (less than 400 leads)
         try:
-            from data_ingestion import LeadDataIngestion
+            conn = sqlite3.connect(detailed_db)
+            cursor = conn.cursor()
+            cursor.execute("SELECT COUNT(*) FROM leads")
+            lead_count = cursor.fetchone()[0]
+            conn.close()
             
-            # Find CSV file (try multiple possible paths)
-            csv_files = [
-                "Data/UCL Leads Data  - 20 Leads.csv",
-                "Data/UCL Leads Data - Sheet1.csv",
-                "UCL Leads Data  - 20 Leads.csv",
-                "UCL Leads Data - Sheet1.csv"
-            ]
-            
-            csv_path = None
-            for csv_file in csv_files:
-                if os.path.exists(csv_file):
-                    csv_path = csv_file
-                    break
-            
-            if csv_path:
-                ingestion = LeadDataIngestion(db_path=detailed_db)
-                ingestion.parse_csv(csv_path)
-                ingestion.close()
-                print("✅ Detailed database initialized")
+            if lead_count < 400:
+                print(f"📊 Database has only {lead_count} leads, will re-initialize with full dataset...")
+                needs_ingestion = True
             else:
-                print("⚠️  CSV file not found, creating empty database...")
+                print(f"✅ Database already has {lead_count} leads")
+        except Exception as e:
+            print(f"⚠️  Error checking database: {str(e)}, will re-initialize...")
+            needs_ingestion = True
+    
+    if needs_ingestion:
+        print("📊 Initializing detailed database with exported dataset...")
+        try:
+            from exported_data_ingestion import ExportedDataIngestion
+            
+            # Check for exported dataset files
+            summaries_path = "Data/exported_dataset/summaries.json"
+            rag_dataset_path = "Data/exported_dataset/rag_dataset.json"
+            mcp_folder = "Data/exported_dataset/mcp"
+            crm_csv_path = "Data/exported_dataset/CRM data of those leads.csv"
+            
+            if not os.path.exists(summaries_path):
+                print(f"⚠️  Exported dataset not found at {summaries_path}")
+                print("   Trying alternative paths...")
+                # Try alternative paths
+                alt_paths = [
+                    "exported_dataset/summaries.json",
+                    "Data/exported_dataset/summaries.json",
+                    "../Data/exported_dataset/summaries.json"
+                ]
+                for alt_path in alt_paths:
+                    if os.path.exists(alt_path):
+                        summaries_path = alt_path
+                        rag_dataset_path = alt_path.replace("summaries.json", "rag_dataset.json")
+                        mcp_folder = alt_path.replace("summaries.json", "mcp")
+                        crm_csv_path = alt_path.replace("summaries.json", "CRM data of those leads.csv")
+                        break
+            
+            if os.path.exists(summaries_path):
+                ingestion = ExportedDataIngestion(db_path=detailed_db)
+                
+                # Ingest summaries (main lead data)
+                ingestion.ingest_summaries(summaries_path)
+                
+                # Ingest timeline events
+                if os.path.exists(rag_dataset_path):
+                    ingestion.ingest_timeline_events(rag_dataset_path)
+                
+                # Ingest call transcripts
+                if os.path.exists(mcp_folder):
+                    ingestion.ingest_transcripts(mcp_folder)
+                
+                # Ingest CRM data
+                if os.path.exists(crm_csv_path):
+                    ingestion.ingest_crm_data(crm_csv_path)
+                
+                ingestion.close()
+                print("✅ Detailed database initialized with exported dataset")
+            else:
+                print("⚠️  Exported dataset files not found, creating empty database...")
                 # Create empty database with schema
-                ingestion = LeadDataIngestion(db_path=detailed_db)
+                from exported_data_ingestion import ExportedDataIngestion
+                ingestion = ExportedDataIngestion(db_path=detailed_db)
                 ingestion.close()
         except Exception as e:
             print(f"⚠️  Error initializing detailed database: {str(e)}")
+            import traceback
+            traceback.print_exc()
             # Create empty database anyway
             try:
-                from data_ingestion import LeadDataIngestion
-                ingestion = LeadDataIngestion(db_path=detailed_db)
+                from exported_data_ingestion import ExportedDataIngestion
+                ingestion = ExportedDataIngestion(db_path=detailed_db)
                 ingestion.close()
             except:
                 pass
