@@ -13,8 +13,10 @@ def ensure_databases_exist():
     # Ensure data directory exists
     os.makedirs("data", exist_ok=True)
     
-    # Check detailed database
+    # Check detailed database (handle both data/ and Data/ for case-sensitive systems)
     detailed_db = "data/leads.db"
+    if not os.path.exists(detailed_db) and os.path.exists("Data/leads.db"):
+        detailed_db = "Data/leads.db"
     needs_ingestion = False
     
     if not os.path.exists(detailed_db):
