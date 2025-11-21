@@ -19,9 +19,8 @@ try:
 except Exception as e:
     print(f"⚠️  Database initialization warning: {str(e)}")
 
-from query_tools import LeadQueryTools
-from aggregate_query_tools import AggregateQueryTools
-from ai_agent import LeadIntelligenceAgent
+# Use simplified agent
+from ai_agent_simple import SimpleLeadIntelligenceAgent
 from auth import get_auth, show_login_page
 from audit_logger import get_audit_logger
 
@@ -223,25 +222,16 @@ if 'messages' not in st.session_state:
 if 'mode' not in st.session_state:
     st.session_state.mode = "detailed"  # Default to detailed mode
 
-if 'agent' not in st.session_state or 'agent_mode' not in st.session_state or st.session_state.agent_mode != st.session_state.mode:
-    with st.spinner(f"🚀 Initializing AI Agent ({'Aggregate Analytics' if st.session_state.mode == 'aggregate' else 'Detailed Conversation'} mode)..."):
+# Initialize simplified agent (no mode switching needed)
+if 'agent' not in st.session_state:
+    with st.spinner("🚀 Initializing AI Agent..."):
         try:
-            st.session_state.agent = LeadIntelligenceAgent(mode=st.session_state.mode)
+            st.session_state.agent = SimpleLeadIntelligenceAgent()
             st.session_state.agent_ready = True
-            st.session_state.agent_mode = st.session_state.mode
-            # Clear chat history when switching modes
             st.session_state.messages = []
         except Exception as e:
             st.session_state.agent_ready = False
             st.session_state.agent_error = str(e)
-
-if 'query_tools' not in st.session_state or 'query_tools_mode' not in st.session_state or st.session_state.query_tools_mode != st.session_state.mode:
-    if st.session_state.mode == "aggregate":
-        st.session_state.query_tools = AggregateQueryTools()
-    else:
-        st.session_state.query_tools = LeadQueryTools()
-    st.session_state.query_tools_mode = st.session_state.mode
-
 
 def main():
     """Main app function"""
