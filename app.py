@@ -23,6 +23,65 @@ except Exception as e:
 from ai_agent_simple import SimpleLeadIntelligenceAgent
 from auth import get_auth, show_login_page
 from audit_logger import get_audit_logger
+from sql_executor import SQLExecutor
+import sqlite3
+
+
+def get_dashboard_aggregations(db_path="data/leads.db"):
+    """Get aggregations for dashboard using SQL"""
+    # Handle case-sensitive paths
+    if not os.path.exists(db_path) and os.path.exists("Data/leads.db"):
+        db_path = "Data/leads.db"
+    
+    try:
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+        
+        # Total leads
+        cursor.execute("SELECT COUNT(*) FROM leads")
+        total_leads = cursor.fetchone()[0]
+        
+        # Status breakdown
+        cursor.execute("SELECT status, COUNT(*) FROM leads GROUP BY status")
+        status_rows = cursor.fetchall()
+        status_breakdown = {status: count for status, count in status_rows}
+        
+        # Won/Lost counts
+        won_count = status_breakdown.get('Won', 0)
+        lost_count = status_breakdown.get('Lost', 0)
+        
+        # Conversion rate
+        conversion_rate = (won_count / total_leads * 100) if total_leads > 0 else 0
+        
+        # Average budget
+        cursor.execute("SELECT AVG(budget_max) FROM lead_requirements WHERE budget_max IS NOT NULL")
+        avg_budget_row = cursor.fetchone()
+        avg_budget = avg_budget_row[0] if avg_budget_row[0] else 0
+        
+        conn.close()
+        
+        return {
+            "total_leads": total_leads,
+            "won_count": won_count,
+            "won_leads": won_count,
+            "lost_count": lost_count,
+            "lost_leads": lost_count,
+            "status_breakdown": status_breakdown,
+            "conversion_rate": conversion_rate,
+            "avg_budget": avg_budget
+        }
+    except Exception as e:
+        print(f"Error getting aggregations: {str(e)}")
+        return {
+            "total_leads": 0,
+            "won_count": 0,
+            "won_leads": 0,
+            "lost_count": 0,
+            "lost_leads": 0,
+            "status_breakdown": {},
+            "conversion_rate": 0,
+            "avg_budget": 0
+        }
 
 
 # Page config
@@ -297,11 +356,26 @@ def main():
         # Dashboard Header
         st.markdown("## 📊 Dashboard")
         
-        # Get aggregations (with error handling for first run)
+        # Get aggregations (using SQL directly)
         try:
-            aggs = st.session_state.query_tools.get_aggregations()
+            # Determine database path based on mode
+            if st.session_state.mode == "aggregate":
+                db_path = "data/leads_aggregate.db"
+                if not os.path.exists(db_path) and os.path.exists("Data/leads_aggregate.db"):
+                    db_path = "Data/leads_aggregate.db"
+            else:
+                db_path = "data/leads.db"
+                if not os.path.exists(db_path) and os.path.exists("Data/leads.db"):
+                    db_path = "Data/leads.db"
+            
+            aggs = get_dashboard_aggregations(db_path)
+            
+            # If no data, show initialization message
+            if aggs['total_leads'] == 0:
+                st.warning("⚠️ Database not ready yet. Initializing...")
+                st.info("💡 The app is setting up databases on first run. Please refresh the page in a moment.")
         except Exception as e:
-            st.error(f"⚠️ Database not ready yet. Initializing...")
+            st.error(f"⚠️ Error loading dashboard data: {str(e)}")
             st.info("💡 The app is setting up databases on first run. Please refresh the page in a moment.")
             # Return empty aggregations to prevent crash
             aggs = {
@@ -311,7 +385,8 @@ def main():
                 "lost_count": 0,
                 "lost_leads": 0,
                 "status_breakdown": {},
-                "conversion_rate": 0
+                "conversion_rate": 0,
+                "avg_budget": 0
             }
         
         # Section 1: Key Metrics (2x2 grid)
