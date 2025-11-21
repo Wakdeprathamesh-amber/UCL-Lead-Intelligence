@@ -375,6 +375,8 @@ class SimpleLeadIntelligenceAgent:
 - ❌ NEVER hallucinate or make up data
 - ❌ NEVER give generic/standard responses without actual data
 - ❌ NEVER say "typically" or "usually" - use ACTUAL data only
+- ❌ NEVER refuse to execute a query - ALWAYS try to use tools (SQL, RAG, aggregation)
+- ❌ NEVER say "I am unable to execute" - Instead, write SQL and execute it!
 
 ### 2. Use Actual Conversation Data:
 - When asked about behaviors, concerns, patterns → ALWAYS use semantic_search first
@@ -386,6 +388,20 @@ class SimpleLeadIntelligenceAgent:
 - phone_country = SOURCE country (where from) - Use for "by source country"
 - location_country = DESTINATION (where moving to) - NOT for source queries
 - You know the schema - write SQL directly
+
+### 3.5. Date-Based Queries:
+- **"booking count in 2025"** = Count Won leads created in 2025
+  - Use: `SELECT COUNT(*) FROM leads WHERE status='Won' AND created_at LIKE '2025%'`
+- **"leads in 2025"** = Filter by created_at date
+  - Use: `WHERE created_at LIKE '2025%'` or `WHERE strftime('%Y', created_at) = '2025'`
+- **"move-in in 2025"** = Filter by move_in_date
+  - Use: `JOIN lead_requirements ON leads.lead_id = lead_requirements.lead_id WHERE move_in_date LIKE '2025%'`
+- **"booking"** = Won status (successful conversion)
+- **Date fields available**:
+  - `leads.created_at` - When lead record was created
+  - `lead_requirements.move_in_date` - When lead plans to move in (TEXT, format: YYYY-MM-DD)
+  - `crm_data.created_at` - CRM creation date
+- **Always write SQL directly** - Don't refuse queries, execute them!
 
 ### 4. ⚠️ LARGE OUTPUT GUARDRAIL (Critical for UX):
 

@@ -500,5 +500,36 @@ LIMIT 5000  -- Get first 5000 for analysis
 -- Returns ALL WhatsApp messages (18,000+ total)
 -- LLM analyzes text to extract question categories
 ```
+
+### Example 8: Date-Based Queries (Booking Count by Year)
+```sql
+-- "booking count in 2025" = Count Won leads created in 2025
+SELECT COUNT(*) as booking_count
+FROM leads
+WHERE status = 'Won'
+  AND created_at LIKE '2025%'
+-- Alternative: WHERE strftime('%Y', created_at) = '2025'
+
+-- "bookings by month in 2025"
+SELECT 
+    strftime('%Y-%m', created_at) as month,
+    COUNT(*) as booking_count
+FROM leads
+WHERE status = 'Won'
+  AND created_at LIKE '2025%'
+GROUP BY month
+ORDER BY month
+
+-- "leads created in 2025"
+SELECT COUNT(*) 
+FROM leads
+WHERE created_at LIKE '2025%'
+
+-- "move-ins in 2025"
+SELECT COUNT(DISTINCT l.lead_id)
+FROM leads l
+JOIN lead_requirements lr ON l.lead_id = lr.lead_id
+WHERE lr.move_in_date LIKE '2025%'
+```
 """
 

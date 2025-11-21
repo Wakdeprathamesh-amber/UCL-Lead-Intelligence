@@ -73,14 +73,18 @@ class SQLExecutor:
         if not query_upper.startswith('SELECT'):
             return False, "Only SELECT queries are allowed for safety"
         
-        # Block dangerous operations
+        # Block dangerous operations (only as standalone keywords, not in column names)
+        # Use word boundaries to avoid false positives (e.g., "created_at" should be allowed)
         dangerous_keywords = [
             'DROP', 'DELETE', 'UPDATE', 'INSERT', 'ALTER', 
             'CREATE', 'TRUNCATE', 'EXEC', 'EXECUTE', 'REPLACE'
         ]
         
+        import re
         for keyword in dangerous_keywords:
-            if keyword in query_upper:
+            # Match only as standalone word (not part of column names like "created_at")
+            pattern = r'\b' + keyword + r'\b'
+            if re.search(pattern, query_upper):
                 return False, f"Query contains forbidden keyword: {keyword}"
         
         # Block comments that might hide malicious code
