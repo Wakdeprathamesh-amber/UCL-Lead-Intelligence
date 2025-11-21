@@ -23,65 +23,6 @@ except Exception as e:
 from ai_agent_simple import SimpleLeadIntelligenceAgent
 from auth import get_auth, show_login_page
 from audit_logger import get_audit_logger
-from sql_executor import SQLExecutor
-import sqlite3
-
-
-def get_dashboard_aggregations(db_path="data/leads.db"):
-    """Get aggregations for dashboard using SQL"""
-    # Handle case-sensitive paths
-    if not os.path.exists(db_path) and os.path.exists("Data/leads.db"):
-        db_path = "Data/leads.db"
-    
-    try:
-        conn = sqlite3.connect(db_path)
-        cursor = conn.cursor()
-        
-        # Total leads
-        cursor.execute("SELECT COUNT(*) FROM leads")
-        total_leads = cursor.fetchone()[0]
-        
-        # Status breakdown
-        cursor.execute("SELECT status, COUNT(*) FROM leads GROUP BY status")
-        status_rows = cursor.fetchall()
-        status_breakdown = {status: count for status, count in status_rows}
-        
-        # Won/Lost counts
-        won_count = status_breakdown.get('Won', 0)
-        lost_count = status_breakdown.get('Lost', 0)
-        
-        # Conversion rate
-        conversion_rate = (won_count / total_leads * 100) if total_leads > 0 else 0
-        
-        # Average budget
-        cursor.execute("SELECT AVG(budget_max) FROM lead_requirements WHERE budget_max IS NOT NULL")
-        avg_budget_row = cursor.fetchone()
-        avg_budget = avg_budget_row[0] if avg_budget_row[0] else 0
-        
-        conn.close()
-        
-        return {
-            "total_leads": total_leads,
-            "won_count": won_count,
-            "won_leads": won_count,
-            "lost_count": lost_count,
-            "lost_leads": lost_count,
-            "status_breakdown": status_breakdown,
-            "conversion_rate": conversion_rate,
-            "avg_budget": avg_budget
-        }
-    except Exception as e:
-        print(f"Error getting aggregations: {str(e)}")
-        return {
-            "total_leads": 0,
-            "won_count": 0,
-            "won_leads": 0,
-            "lost_count": 0,
-            "lost_leads": 0,
-            "status_breakdown": {},
-            "conversion_rate": 0,
-            "avg_budget": 0
-        }
 
 
 # Page config
@@ -320,7 +261,7 @@ def main():
             auth.logout()
             st.rerun()
     
-    # Sidebar - Professional Dashboard
+    # Sidebar - Mode Selection
     with st.sidebar:
         # Mode Toggle
         st.markdown("### 🔄 Data Mode")
@@ -351,136 +292,6 @@ def main():
                 del st.session_state.query_tools_mode
             st.rerun()
         
-        st.markdown("---")
-        
-        # Dashboard Header
-        st.markdown("## 📊 Dashboard")
-        
-        # Get aggregations (using SQL directly)
-        try:
-            # Determine database path based on mode
-            if st.session_state.mode == "aggregate":
-                db_path = "data/leads_aggregate.db"
-                if not os.path.exists(db_path) and os.path.exists("Data/leads_aggregate.db"):
-                    db_path = "Data/leads_aggregate.db"
-            else:
-                db_path = "data/leads.db"
-                if not os.path.exists(db_path) and os.path.exists("Data/leads.db"):
-                    db_path = "Data/leads.db"
-            
-            aggs = get_dashboard_aggregations(db_path)
-            
-            # If no data, show initialization message
-            if aggs['total_leads'] == 0:
-                st.warning("⚠️ Database not ready yet. Initializing...")
-                st.info("💡 The app is setting up databases on first run. Please refresh the page in a moment.")
-        except Exception as e:
-            st.error(f"⚠️ Error loading dashboard data: {str(e)}")
-            st.info("💡 The app is setting up databases on first run. Please refresh the page in a moment.")
-            # Return empty aggregations to prevent crash
-            aggs = {
-                "total_leads": 0,
-                "won_count": 0,
-                "won_leads": 0,
-                "lost_count": 0,
-                "lost_leads": 0,
-                "status_breakdown": {},
-                "conversion_rate": 0,
-                "avg_budget": 0
-            }
-        
-        # Section 1: Key Metrics (2x2 grid)
-        
-        # Row 1
-        metric_col1, metric_col2 = st.columns(2)
-        with metric_col1:
-            st.metric(
-                label="Total Leads",
-                value=aggs['total_leads'],
-                help="All leads in database"
-            )
-        with metric_col2:
-            # Handle both modes - aggregate uses won_count, detailed uses won_leads
-            won_count = aggs.get('won_count', aggs.get('won_leads', 0))
-            win_rate = (won_count / aggs['total_leads'] * 100) if aggs['total_leads'] > 0 else 0
-            # Aggregate mode has conversion_rate pre-calculated
-            if 'conversion_rate' in aggs:
-                win_rate = aggs['conversion_rate']
-            st.metric(
-                label="Win Rate",
-                value=f"{win_rate:.1f}%",
-                delta=f"{won_count} won",
-                help="Percentage of won leads"
-            )
-        
-        # Row 2
-        metric_col3, metric_col4 = st.columns(2)
-        with metric_col3:
-            won_count = aggs.get('won_count', aggs.get('won_leads', 0))
-            st.metric(
-                label="Won",
-                value=won_count,
-                delta="positive" if won_count > 0 else None,
-                help="Successfully converted"
-            )
-        with metric_col4:
-            lost_count = aggs.get('lost_count', aggs.get('lost_leads', 0))
-            st.metric(
-                label="Lost",
-                value=lost_count,
-                delta="negative" if lost_count > 0 else None,
-                delta_color="inverse",
-                help="Not converted"
-            )
-        
-        st.markdown("---")
-        
-        # Section 2: Status Distribution (simplified)
-        status_breakdown = aggs['status_breakdown']
-        for status, count in sorted(status_breakdown.items(), key=lambda x: x[1], reverse=True)[:3]:
-            percentage = (count / aggs['total_leads'] * 100) if aggs['total_leads'] > 0 else 0
-            st.markdown(f"**{status}**: {count} ({percentage:.0f}%)")
-        
-        st.markdown("---")
-        
-        # Section 3: Mode-specific content (simplified)
-        if st.session_state.mode == "aggregate":
-            # Aggregate mode specific sections
-            if 'lost_reasons' in aggs and aggs['lost_reasons']:
-                st.markdown("### Top Lost Reasons")
-                for reason, count in list(aggs['lost_reasons'].items())[:5]:
-                    st.markdown(f"❌ **{reason}**: {count}")
-            
-            st.markdown("---")
-            
-            if 'country_breakdown' in aggs and aggs['country_breakdown']:
-                st.markdown("### Top Source Countries")
-                for country, count in list(sorted(aggs['country_breakdown'].items(), key=lambda x: x[1], reverse=True))[:5]:
-                    percentage = (count / aggs['total_leads'] * 100) if aggs['total_leads'] > 0 else 0
-                    st.markdown(f"🌍 **{country}**: {count} ({percentage:.1f}%)")
-            
-            st.markdown("---")
-            
-            if 'repeat_rate' in aggs:
-                st.markdown("### Repeat Leads")
-                st.metric(
-                    label="Repeat Rate",
-                    value=f"{aggs['repeat_rate']:.1f}%",
-                    delta=f"{aggs.get('repeat_count', 0)} leads",
-                    help="Percentage of repeat leads"
-                )
-            
-            st.markdown("---")
-            
-            if 'monthly_trends' in aggs and aggs['monthly_trends']:
-                st.markdown("### Monthly Trends")
-                for month, count in list(sorted(aggs['monthly_trends'].items(), reverse=True))[:6]:
-                    st.markdown(f"📅 **{month}**: {count} lead(s)")
-        else:
-            # Detailed mode - minimal info
-            if 'average_budget' in aggs and aggs['average_budget']:
-                for currency, avg in aggs['average_budget'].items():
-                    st.metric(label="Avg Budget", value=f"£{avg:.0f}")
     
     # Check if agent is ready
     if not st.session_state.agent_ready:
