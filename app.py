@@ -7,6 +7,7 @@ import streamlit as st
 import os
 import sys
 import json
+import subprocess
 from datetime import datetime
 
 # Add src to path
@@ -222,6 +223,52 @@ if 'messages' not in st.session_state:
 if 'mode' not in st.session_state:
     st.session_state.mode = "detailed"  # Default to detailed mode
 
+
+def get_deployment_version():
+    """Get deployment version from VERSION.txt or git"""
+    version_file = os.path.join(os.path.dirname(__file__), 'VERSION.txt')
+    
+    # Try reading from VERSION.txt first (works on Streamlit Cloud)
+    if os.path.exists(version_file):
+        try:
+            with open(version_file, 'r') as f:
+                lines = f.read().strip().split('\n')
+                if len(lines) >= 1:
+                    commit_hash = lines[0].strip()
+                    commit_msg = lines[1].strip() if len(lines) > 1 else "unknown"
+                    return commit_hash, commit_msg
+        except Exception:
+            pass
+    
+    # Fallback: Try git (works locally)
+    try:
+        result = subprocess.run(
+            ['git', 'rev-parse', '--short', 'HEAD'],
+            capture_output=True,
+            text=True,
+            cwd=os.path.dirname(__file__),
+            timeout=2
+        )
+        if result.returncode == 0:
+            commit_hash = result.stdout.strip()
+            # Try to get commit message
+            try:
+                result2 = subprocess.run(
+                    ['git', 'log', '-1', '--pretty=format:%s'],
+                    capture_output=True,
+                    text=True,
+                    cwd=os.path.dirname(__file__),
+                    timeout=2
+                )
+                commit_msg = result2.stdout.strip() if result2.returncode == 0 else "unknown"
+            except Exception:
+                commit_msg = "unknown"
+            return commit_hash, commit_msg
+    except Exception:
+        pass
+    
+    return "unknown", "unknown"
+
 # Initialize simplified agent (no mode switching needed)
 if 'agent' not in st.session_state:
     with st.spinner("🚀 Initializing AI Agent..."):
@@ -292,6 +339,40 @@ def main():
                 del st.session_state.query_tools_mode
             st.rerun()
         
+        # Version Display
+        st.markdown("---")
+        st.markdown("### 📦 Deployment Info")
+        commit_hash, commit_msg = get_deployment_version()
+        
+        st.markdown(f"**Commit:** `{commit_hash}`")
+        if commit_msg != "unknown":
+            st.caption(f"_{commit_msg[:50]}{'...' if len(commit_msg) > 50 else ''}_")
+        
+        # Check if this matches latest on GitHub (only works locally)
+        try:
+            result = subprocess.run(
+                ['git', 'fetch', 'origin', 'main', '--quiet'],
+                capture_output=True,
+                text=True,
+                cwd=os.path.dirname(__file__),
+                timeout=5
+            )
+            result2 = subprocess.run(
+                ['git', 'rev-parse', '--short', 'origin/main'],
+                capture_output=True,
+                text=True,
+                cwd=os.path.dirname(__file__),
+                timeout=2
+            )
+            if result2.returncode == 0:
+                remote_hash = result2.stdout.strip()
+                if commit_hash == remote_hash:
+                    st.success("✅ Up to date with GitHub")
+                else:
+                    st.warning(f"⚠️ Local: `{commit_hash}`\nRemote: `{remote_hash}`")
+        except Exception:
+            # On Streamlit Cloud, show info about checking dashboard
+            st.info("💡 Check Streamlit Cloud dashboard for latest commit")
     
     # Check if agent is ready
     if not st.session_state.agent_ready:
