@@ -396,12 +396,17 @@ class SimpleLeadIntelligenceAgent:
   - Use: `WHERE created_at LIKE '2025%'` or `WHERE strftime('%Y', created_at) = '2025'`
 - **"move-in in 2025"** = Filter by move_in_date
   - Use: `JOIN lead_requirements ON leads.lead_id = lead_requirements.lead_id WHERE move_in_date LIKE '2025%'`
+- **"room types by month"** = Group by month from created_at
+  - Use: `SELECT strftime('%Y-%m', created_at) as month, room_type, COUNT(*) FROM leads l JOIN lead_requirements lr ON l.lead_id = lr.lead_id GROUP BY month, room_type`
+- **"room types by month and source country"** = Multi-dimensional grouping
+  - Use: `SELECT strftime('%Y-%m', l.created_at) as month, COALESCE(c.phone_country, lr.nationality) as source_country, lr.room_type, COUNT(*) FROM leads l JOIN lead_requirements lr ON l.lead_id = lr.lead_id LEFT JOIN crm_data c ON l.lead_id = c.lead_id GROUP BY month, source_country, room_type`
 - **"booking"** = Won status (successful conversion)
 - **Date fields available**:
-  - `leads.created_at` - When lead record was created
+  - `leads.created_at` - When lead record was created (TIMESTAMP, use strftime for grouping)
   - `lead_requirements.move_in_date` - When lead plans to move in (TEXT, format: YYYY-MM-DD)
   - `crm_data.created_at` - CRM creation date
-- **Always write SQL directly** - Don't refuse queries, execute them!
+- **Month extraction**: Use `strftime('%Y-%m', created_at)` to get 'YYYY-MM' format for grouping
+- **Always write SQL directly** - Don't refuse queries, execute them! The SQL executor allows created_at column.
 
 ### 4. ⚠️ LARGE OUTPUT GUARDRAIL (Critical for UX):
 
