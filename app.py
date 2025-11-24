@@ -316,45 +316,68 @@ if needs_init:
     with st.spinner("📊 Initializing databases..."):
         try:
             ensure_databases_exist()
+            
+            # Get the correct database path for current mode
+            db_path = get_database_path(current_mode)
+            
+            # Verify database exists
+            if not os.path.exists(db_path):
+                raise FileNotFoundError(f"Database file not found after initialization: {db_path}")
+            
+            # Verify database has the leads table
+            import sqlite3
+            conn = sqlite3.connect(db_path)
+            cursor = conn.cursor()
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='leads'")
+            table_exists = cursor.fetchone() is not None
+            
+            if not table_exists:
+                conn.close()
+                # Table missing - try to force re-initialization
+                st.warning("⚠️ Database table missing. Re-initializing...")
+                # Delete the database file and re-initialize
+                try:
+                    os.remove(db_path)
+                except:
+                    pass
+                ensure_databases_exist()
+                
+                # Verify again
+                if not os.path.exists(db_path):
+                    raise FileNotFoundError(f"Database file not found after re-initialization: {db_path}")
+                
+                conn = sqlite3.connect(db_path)
+                cursor = conn.cursor()
+                cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='leads'")
+                table_exists = cursor.fetchone() is not None
+                
+                if not table_exists:
+                    conn.close()
+                    raise RuntimeError("Failed to create 'leads' table after re-initialization")
+            
+            # Get table count for verification
+            cursor.execute("SELECT COUNT(*) FROM leads")
+            lead_count = cursor.fetchone()[0]
+            conn.close()
+            
+            if lead_count == 0:
+                st.warning(f"⚠️ Database initialized but has 0 leads. This may be expected if data files are missing.")
+            
+            st.session_state.db_path = db_path
+            
         except Exception as e:
             st.session_state.agent_ready = False
             st.session_state.agent_error = f"Database initialization failed: {str(e)}"
             st.error(f"⚠️ **Database initialization failed**")
             st.code(str(e), language=None)
-            st.info("💡 **Tip**: The database should be created automatically from the data files.")
+            import traceback
+            with st.expander("🔍 Detailed Error Information"):
+                st.code(traceback.format_exc(), language='python')
+            st.info("💡 **Tip**: The database should be created automatically from the data files. If this persists, check Streamlit Cloud logs.")
             st.stop()
     
-    # Get the correct database path for current mode
-    db_path = get_database_path(current_mode)
-    
-    # Verify database exists and has tables
-    if not os.path.exists(db_path):
-        st.session_state.agent_ready = False
-        st.session_state.agent_error = f"Database file not found: {db_path}"
-        st.error(f"⚠️ **Database not found**: {db_path}")
-        st.info("💡 **Tip**: The database should be created automatically. Please refresh the page.")
-        st.stop()
-    
-    # Verify database has the leads table
-    try:
-        import sqlite3
-        conn = sqlite3.connect(db_path)
-        cursor = conn.cursor()
-        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='leads'")
-        table_exists = cursor.fetchone() is not None
-        conn.close()
-        
-        if not table_exists:
-            st.session_state.agent_ready = False
-            st.session_state.agent_error = f"Database exists but 'leads' table not found in {db_path}"
-            st.error(f"⚠️ **Database table missing**: The 'leads' table was not found.")
-            st.info("💡 **Tip**: The database initialization may have failed. Check the logs or try refreshing.")
-            st.stop()
-    except Exception as e:
-        st.session_state.agent_ready = False
-        st.session_state.agent_error = f"Error verifying database: {str(e)}"
-        st.error(f"⚠️ **Database verification failed**: {str(e)}")
-        st.stop()
+    # Get database path (should be set above, but get it again to be safe)
+    db_path = st.session_state.get('db_path') or get_database_path(current_mode)
     
     # Then initialize agent with correct database for current mode
     with st.spinner(f"🚀 Initializing AI Agent ({current_mode} mode)..."):
