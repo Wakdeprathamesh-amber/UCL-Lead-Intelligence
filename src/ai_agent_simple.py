@@ -16,10 +16,11 @@ from langchain.tools import Tool, StructuredTool
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.schema import HumanMessage, AIMessage
 
-from src.sql_executor import SQLExecutor
-from src.rag_system import LeadRAGSystem
-from src.database_schema import get_schema_prompt, get_sample_queries
-from src.conversation_aggregator import aggregate_conversations
+# Use relative imports since we're in the src directory
+from sql_executor import SQLExecutor
+from rag_system import LeadRAGSystem
+from database_schema import get_schema_prompt, get_sample_queries
+from conversation_aggregator import aggregate_conversations
 
 load_dotenv()
 
