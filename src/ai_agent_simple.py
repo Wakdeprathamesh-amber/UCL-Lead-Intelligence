@@ -251,7 +251,10 @@ class SimpleLeadIntelligenceAgent:
     def _semantic_search_wrapper(self, query: str, n_results: int = 5) -> str:
         """Wrapper for semantic search"""
         if not self.rag_enabled:
-            return json.dumps({"error": "RAG system not available"})
+            return json.dumps({
+                "error": "RAG system not available",
+                "suggestion": "Try using execute_sql_query to search conversation data directly from the database. For example: SELECT l.lead_id, l.name, l.communication_timeline, l.crm_conversation_details FROM leads l WHERE l.communication_timeline LIKE '%keyword%'"
+            })
         
         try:
             # Handle different input formats
@@ -262,9 +265,23 @@ class SimpleLeadIntelligenceAgent:
                 search_query = str(query)
             
             results = self.rag_system.semantic_search(search_query, n_results=n_results)
+            
+            # If no results, provide helpful message
+            if not results or len(results) == 0:
+                return json.dumps({
+                    "message": "No results found in semantic search. The ChromaDB collection may be empty or still initializing.",
+                    "suggestion": "Try using execute_sql_query to search conversation data directly. For example: SELECT l.lead_id, l.name, SUBSTR(l.communication_timeline, 1, 500) as conversation_preview FROM leads l WHERE l.communication_timeline IS NOT NULL AND l.communication_timeline != '' LIMIT 10",
+                    "results": []
+                })
+            
             return json.dumps(results, indent=2, default=str)
         except Exception as e:
-            return json.dumps({"error": f"Error in semantic search: {str(e)}"})
+            error_msg = str(e)
+            # Provide helpful error message with SQL fallback suggestion
+            return json.dumps({
+                "error": f"Error in semantic search: {error_msg}",
+                "suggestion": "The RAG system may not be fully initialized. You can query conversation data directly using execute_sql_query. Example: SELECT l.lead_id, l.name, l.status, SUBSTR(l.communication_timeline, 1, 1000) as conversation FROM leads l WHERE l.communication_timeline IS NOT NULL"
+            })
     
     def _aggregate_conversations_structured(
         self,

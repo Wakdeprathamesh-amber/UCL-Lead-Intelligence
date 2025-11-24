@@ -34,13 +34,21 @@ class LeadRAGSystem:
         # Get or create collection
         try:
             self.collection = self.chroma_client.get_collection(name="lead_conversations")
-            print("✅ Loaded existing ChromaDB collection")
+            collection_count = self.collection.count()
+            if collection_count == 0:
+                print(f"⚠️  ChromaDB collection exists but is empty ({collection_count} documents)")
+                print("   Embeddings will be created on first semantic search")
+                self._needs_embeddings = True
+            else:
+                print(f"✅ Loaded existing ChromaDB collection with {collection_count} documents")
+                self._needs_embeddings = False
         except:
             self.collection = self.chroma_client.create_collection(
                 name="lead_conversations",
                 metadata={"hnsw:space": "cosine"}
             )
-            print("✅ Created new ChromaDB collection")
+            print("✅ Created new ChromaDB collection (empty)")
+            self._needs_embeddings = True
     
     def create_embeddings(self, include_events: bool = True, include_raw_text: bool = True):
         """Create embeddings for all RAG documents, timeline events, and raw text fields
@@ -408,6 +416,26 @@ class LeadRAGSystem:
         
         if n_results < 1 or n_results > 100:
             n_results = min(max(1, n_results), 100)  # Clamp between 1 and 100
+        
+        # Check if embeddings need to be created
+        try:
+            collection_count = self.collection.count()
+            if collection_count == 0:
+                print("⚠️  ChromaDB collection is empty. Creating embeddings from database...")
+                try:
+                    self.create_embeddings(include_events=True, include_raw_text=True)
+                    print("✅ Embeddings created successfully")
+                except Exception as e:
+                    print(f"❌ Failed to create embeddings: {str(e)}")
+                    return []
+        except Exception as e:
+            # If count() fails, collection might be new, try to create embeddings
+            print(f"⚠️  Could not check collection count: {str(e)}")
+            try:
+                self.create_embeddings(include_events=True, include_raw_text=True)
+            except Exception as embed_error:
+                print(f"❌ Failed to create embeddings: {str(embed_error)}")
+                return []
         
         try:
             # Validate API key
