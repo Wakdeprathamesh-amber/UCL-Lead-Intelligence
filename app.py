@@ -11,11 +11,31 @@ import subprocess
 from datetime import datetime
 
 # Add src to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+src_path = os.path.join(os.path.dirname(__file__), 'src')
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
 
-# Import modules
-from init_databases import ensure_databases_exist
-from ai_agent_simple import SimpleLeadIntelligenceAgent
+# Import modules with error handling for Streamlit Cloud
+try:
+    from init_databases import ensure_databases_exist
+except (ImportError, KeyError) as e:
+    # Fallback import method for Streamlit Cloud
+    import importlib
+    import importlib.util
+    init_spec = importlib.util.spec_from_file_location("init_databases", os.path.join(src_path, "init_databases.py"))
+    init_module = importlib.util.module_from_spec(init_spec)
+    init_spec.loader.exec_module(init_module)
+    ensure_databases_exist = init_module.ensure_databases_exist
+
+try:
+    from ai_agent_simple import SimpleLeadIntelligenceAgent
+except (ImportError, KeyError) as e:
+    import importlib.util
+    agent_spec = importlib.util.spec_from_file_location("ai_agent_simple", os.path.join(src_path, "ai_agent_simple.py"))
+    agent_module = importlib.util.module_from_spec(agent_spec)
+    agent_spec.loader.exec_module(agent_module)
+    SimpleLeadIntelligenceAgent = agent_module.SimpleLeadIntelligenceAgent
+
 from auth import get_auth, show_login_page
 from audit_logger import get_audit_logger
 
