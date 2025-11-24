@@ -459,7 +459,8 @@ def aggregate_conversations(
     aggregation_type: str,
     query_type: str = "all",
     keywords: Optional[List[str]] = None,
-    limit: int = 5000
+    limit: int = 5000,
+    db_path: Optional[str] = None
 ) -> str:
     """
     Main entry point for conversation aggregation.
@@ -470,11 +471,22 @@ def aggregate_conversations(
         query_type: Type of messages to analyze ('whatsapp', 'call', 'email', 'all')
         keywords: Optional list of keywords for 'mentions' type
         limit: Maximum messages to analyze
+        db_path: Optional database path (auto-detects if not provided)
     
     Returns:
         JSON string with aggregation results
     """
-    aggregator = ConversationAggregator()
+    # Auto-detect database path if not provided
+    if db_path is None:
+        import os
+        for path in ["data/leads.db", "Data/leads.db"]:
+            if os.path.exists(path):
+                db_path = path
+                break
+        if db_path is None:
+            db_path = "data/leads.db"  # Default
+    
+    aggregator = ConversationAggregator(db_path=db_path)
     
     try:
         if aggregation_type == "queries":

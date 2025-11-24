@@ -294,16 +294,23 @@ class SimpleLeadIntelligenceAgent:
         """Structured wrapper for conversation aggregation (used with StructuredTool)"""
         try:
             # Call the aggregation function directly with properly typed parameters
+            # Pass the database path from the agent
             result = aggregate_conversations(
                 aggregation_type=aggregation_type,
                 query_type=query_type,
                 keywords=keywords,
-                limit=limit
+                limit=limit,
+                db_path=self.db_path  # Use the same database path as the agent
             )
             
             return result
         except Exception as e:
-            return json.dumps({"error": f"Error in conversation aggregation: {str(e)}"})
+            import traceback
+            error_details = traceback.format_exc()
+            return json.dumps({
+                "error": f"Error in conversation aggregation: {str(e)}",
+                "details": error_details
+            })
     
     def _get_lead_wrapper(self, lead_id: str) -> str:
         """Wrapper for quick lead lookup"""
