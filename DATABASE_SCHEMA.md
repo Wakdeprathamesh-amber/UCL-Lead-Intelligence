@@ -1,199 +1,84 @@
-# Database Schema Reference
+# 📊 Database Schema
 
-## Complete Database Schema for SQLite (data/leads.db)
+## Main Tables
 
-### Table: `leads`
-Main lead information table.
+### `leads` - Main lead information
+- `lead_id` (TEXT, PK) - Unique identifier
+- `name`, `mobile_number`, `status`
+- `structured_data` (JSON) - Structured lead data
+- `communication_timeline` (JSON) - Communication history
+- `crm_conversation_details` (JSON) - CRM details
+- `created_at` (TIMESTAMP)
 
-| Column | Type | Description |
-|--------|------|-------------|
-| `lead_id` | TEXT | Primary key, unique lead identifier |
-| `name` | TEXT | Lead's full name |
-| `mobile_number` | TEXT | Lead's mobile phone number |
-| `status` | TEXT | Lead status: 'Won', 'Lost', 'Opportunity', 'Contacted', 'Disputed' |
-| `structured_data` | TEXT | JSON string with structured lead data |
-| `communication_timeline` | TEXT | JSON string with communication timeline |
-| `crm_conversation_details` | TEXT | JSON string with CRM conversation details |
-| `created_at` | TIMESTAMP | Record creation timestamp |
+### `lead_requirements` - Lead preferences
+- `lead_id` (TEXT, FK) - Links to leads
+- `nationality` - Source country
+- `location` - Destination location
+- `move_in_date`, `budget_max`, `budget_currency`
+- `room_type`, `lease_duration_weeks`
+- `visa_status`, `university_acceptance`
 
-### Table: `lead_requirements`
-Extracted requirements and preferences for each lead.
+### `crm_data` - CRM export data
+- `lead_id` (TEXT, FK) - Links to leads
+- `phone_country` - **Source country** (where from)
+- `location_country` - **Destination country** (where moving to)
+- `budget_full`, `lost_reason`, `move_in_date`
+- `property_name`, `inventory_id`
 
-| Column | Type | Description |
-|--------|------|-------------|
-| `lead_id` | TEXT | Foreign key to leads.lead_id |
-| `nationality` | TEXT | Lead's nationality (source country) |
-| `location` | TEXT | Preferred location (destination) |
-| `university` | TEXT | University name |
-| `move_in_date` | TEXT | Move-in date (format: YYYY-MM-DD) |
-| `budget_max` | REAL | Maximum budget (numeric) |
-| `budget_currency` | TEXT | Currency code (e.g., 'GBP', 'USD') |
-| `room_type` | TEXT | Preferred room type (e.g., 'ensuite', 'studio') |
-| `lease_duration_weeks` | INTEGER | Lease duration in weeks |
-| `visa_status` | TEXT | Visa status |
-| `university_acceptance` | TEXT | University acceptance status |
+### `timeline_events` - Individual messages/calls
+- `lead_id` (TEXT, FK)
+- `event_type` - 'whatsapp', 'call', 'email'
+- `content` - Message content
+- `timestamp`, `source`, `direction`
 
-### Table: `crm_data`
-CRM export data with additional lead information.
+### `lead_properties` - Properties under consideration
+- `lead_id` (TEXT, FK)
+- `property_name`, `room_type`
 
-| Column | Type | Description |
-|--------|------|-------------|
-| `id` | INTEGER | Primary key |
-| `crm_id` | TEXT | CRM system ID |
-| `lead_id` | TEXT | Foreign key to leads.lead_id |
-| `budget_full` | REAL | Full budget amount |
-| `budget_currency` | TEXT | Currency code |
-| `lost_reason` | TEXT | Reason for loss (if status = 'Lost') |
-| `move_in_date` | TEXT | Move-in date |
-| `lease_duration` | TEXT | Lease duration text |
-| `lease_duration_days` | INTEGER | Lease duration in days |
-| `state` | TEXT | State/province |
-| `created_at` | TEXT | Creation date from CRM |
-| `location_name` | TEXT | Location name |
-| `location_state` | TEXT | Location state |
-| `location_country` | TEXT | **Destination country** (where they're moving to) |
-| `location_locality` | TEXT | Location locality |
-| `street_number` | TEXT | Street number |
-| `lead_name` | TEXT | Lead name |
-| `lead_email` | TEXT | Lead email |
-| `lead_phone` | TEXT | Lead phone number |
-| `phone_country` | TEXT | **Source country** (where lead is from, based on phone) |
-| `inventory_id` | TEXT | Inventory ID |
-| `property_name` | TEXT | Property name |
-| `source_details` | TEXT | Source details |
-| `tags` | TEXT | Tags |
-| `display_name` | TEXT | Display name |
-| `partner_id` | TEXT | Partner ID |
-| `created_at_db` | TIMESTAMP | Database creation timestamp |
+### `lead_amenities` - Requested amenities
+- `lead_id` (TEXT, FK)
+- `amenity` - e.g., 'WiFi', 'Gym', 'Parking'
 
-**IMPORTANT**: 
-- `location_country` = Destination country (where they're moving to)
-- `phone_country` = Source country (where lead is from)
+### `lead_tasks` - Action items
+- `lead_id` (TEXT, FK)
+- `task_type`, `description`, `status`, `due_date`
 
-### Table: `lead_properties`
-Properties and room types leads are considering.
+### `lead_objections` - Concerns raised
+- `lead_id` (TEXT, FK)
+- `objection_type`, `description`
 
-| Column | Type | Description |
-|--------|------|-------------|
-| `id` | INTEGER | Primary key |
-| `lead_id` | TEXT | Foreign key to leads.lead_id |
-| `property_name` | TEXT | Property name |
-| `room_type` | TEXT | Room type at this property |
+## Key Relationships
 
-### Table: `lead_amenities`
-Amenities requested by leads.
-
-| Column | Type | Description |
-|--------|------|-------------|
-| `id` | INTEGER | Primary key |
-| `lead_id` | TEXT | Foreign key to leads.lead_id |
-| `amenity` | TEXT | Amenity name (e.g., 'WiFi', 'Gym', 'Parking') |
-
-### Table: `lead_tasks`
-Tasks and action items for leads.
-
-| Column | Type | Description |
-|--------|------|-------------|
-| `id` | INTEGER | Primary key |
-| `lead_id` | TEXT | Foreign key to leads.lead_id |
-| `task_type` | TEXT | Type of task |
-| `description` | TEXT | Task description |
-| `status` | TEXT | Task status: 'pending', 'in_progress', 'completed' |
-| `due_date` | TEXT | Due date |
-| `task_for` | TEXT | Task assigned to |
-
-### Table: `lead_objections`
-Objections and concerns raised by leads.
-
-| Column | Type | Description |
-|--------|------|-------------|
-| `id` | INTEGER | Primary key |
-| `lead_id` | TEXT | Foreign key to leads.lead_id |
-| `objection_type` | TEXT | Type of objection |
-| `objection_text` | TEXT | Objection text |
-| `resolved` | BOOLEAN | Whether objection is resolved |
-| `source` | TEXT | Source of objection |
-
-### Table: `timeline_events`
-Individual communication events (WhatsApp, calls, emails).
-
-| Column | Type | Description |
-|--------|------|-------------|
-| `id` | INTEGER | Primary key |
-| `lead_id` | TEXT | Foreign key to leads.lead_id |
-| `event_id` | INTEGER | Event ID from source system |
-| `event_type` | TEXT | Type: 'whatsapp', 'call', 'email', etc. |
-| `timestamp` | TEXT | Event timestamp |
-| `content` | TEXT | Event content/message |
-| `source` | TEXT | Source system |
-| `direction` | TEXT | 'inbound' or 'outbound' |
-| `agent_id` | INTEGER | Agent ID |
-| `raw_data` | TEXT | Raw event data (JSON) |
-| `created_at` | TIMESTAMP | Database creation timestamp |
-
-### Table: `call_transcripts`
-Call transcripts.
-
-| Column | Type | Description |
-|--------|------|-------------|
-| `id` | INTEGER | Primary key |
-| `lead_id` | TEXT | Foreign key to leads.lead_id |
-| `call_id` | TEXT | Call ID |
-| `transcript_text` | TEXT | Full transcript text |
-| `record_url` | TEXT | Recording URL |
-| `transcription_status` | TEXT | Transcription status |
-| `created_at` | TIMESTAMP | Database creation timestamp |
-
-## Common Query Patterns
-
-### Get min/max budget:
-```sql
-SELECT MIN(budget_max) as min_budget, MAX(budget_max) as max_budget, AVG(budget_max) as avg_budget
-FROM lead_requirements
-WHERE budget_max IS NOT NULL AND budget_currency = 'GBP'
+```
+leads (1) ──→ (many) lead_requirements
+leads (1) ──→ (many) timeline_events
+leads (1) ──→ (many) lead_properties
+leads (1) ──→ (many) lead_amenities
+leads (1) ──→ (many) lead_tasks
+leads (1) ──→ (1) crm_data
 ```
 
-### Get room preferences (all countries):
-```sql
-SELECT room_type, COUNT(*) as count
-FROM lead_requirements
-WHERE room_type IS NOT NULL AND room_type != ''
-GROUP BY room_type
-ORDER BY count DESC
-```
+## Important Notes
 
-### Get Won leads with specific room type (all countries):
+- **Source Country**: Use `crm_data.phone_country` or `lead_requirements.nationality`
+- **Destination Country**: Use `crm_data.location_country` or `lead_requirements.location`
+- **Date Fields**: `created_at` (TIMESTAMP), `move_in_date` (TEXT, YYYY-MM-DD)
+- **Status Values**: 'Won', 'Lost', 'Opportunity', 'Contacted', 'Disputed'
+
+## Common Queries
+
 ```sql
-SELECT COUNT(*) as total_count
+-- Leads by source country
+SELECT COALESCE(c.phone_country, lr.nationality) as source_country, COUNT(*)
 FROM leads l
-JOIN lead_requirements lr ON l.lead_id = lr.lead_id
-WHERE l.status = 'Won'
-  AND lr.room_type LIKE '%ensuite%'
-```
+LEFT JOIN lead_requirements lr ON l.lead_id = lr.lead_id
+LEFT JOIN crm_data c ON l.lead_id = c.lead_id
+GROUP BY source_country;
 
-### Get room types by source country:
-```sql
-SELECT 
-    COALESCE(c.phone_country, lr.nationality, 'Unknown') as source_country,
-    lr.room_type,
-    COUNT(*) as count
+-- Won leads with details
+SELECT l.*, lr.*, c.phone_country
 FROM leads l
 JOIN lead_requirements lr ON l.lead_id = lr.lead_id
 LEFT JOIN crm_data c ON l.lead_id = c.lead_id
-WHERE lr.room_type IS NOT NULL
-  AND (c.phone_country IS NOT NULL OR lr.nationality IS NOT NULL)
-GROUP BY source_country, lr.room_type
-ORDER BY source_country, count DESC
+WHERE l.status = 'Won';
 ```
-
-## Relationships
-
-- `leads.lead_id` → `lead_requirements.lead_id` (1:1)
-- `leads.lead_id` → `crm_data.lead_id` (1:many, but typically 1:1)
-- `leads.lead_id` → `lead_properties.lead_id` (1:many)
-- `leads.lead_id` → `lead_amenities.lead_id` (1:many)
-- `leads.lead_id` → `lead_tasks.lead_id` (1:many)
-- `leads.lead_id` → `lead_objections.lead_id` (1:many)
-- `leads.lead_id` → `timeline_events.lead_id` (1:many)
-- `leads.lead_id` → `call_transcripts.lead_id` (1:many)
-
