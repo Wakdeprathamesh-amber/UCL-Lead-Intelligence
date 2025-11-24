@@ -175,3 +175,6 @@ chmod +x .git/hooks/pre-commit
 
 Now `VERSION.txt` will auto-update on every commit! 🎉
 
+
+
+

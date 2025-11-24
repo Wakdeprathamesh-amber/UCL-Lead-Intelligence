@@ -264,53 +264,61 @@ def get_deployment_version():
     return "unknown", "unknown"
 
 # Initialize databases and agent
-if 'agent' not in st.session_state:
+def get_database_path(mode="detailed"):
+    """Get the correct database path for the selected mode"""
+    if mode == "aggregate":
+        return "data/leads_aggregate.db"
+    else:
+        # For detailed mode, check both paths (case-sensitive filesystems)
+        for path in ["data/leads.db", "Data/leads.db"]:
+            if os.path.exists(path):
+                return path
+        return "data/leads.db"  # Default to lowercase
+
+# Check if agent needs initialization or re-initialization
+current_mode = st.session_state.get('mode', 'detailed')
+agent_mode = st.session_state.get('agent_mode', None)
+needs_init = 'agent' not in st.session_state or agent_mode != current_mode
+
+if needs_init:
     # First, ensure databases exist
-    db_initialized = False
-    db_path = None
-    
     with st.spinner("📊 Initializing databases..."):
         try:
             ensure_databases_exist()
-            # Verify database was created (check both paths)
-            for path in ["data/leads.db", "Data/leads.db"]:
-                if os.path.exists(path):
-                    db_path = path
-                    break
-            
-            if not db_path:
-                raise FileNotFoundError(
-                    "Database file not found after initialization. "
-                    "Checked: data/leads.db and Data/leads.db"
-                )
-            
-            db_initialized = True
-            st.session_state.db_path = db_path
         except Exception as e:
             st.session_state.agent_ready = False
             st.session_state.agent_error = f"Database initialization failed: {str(e)}"
-            import traceback
-            error_details = traceback.format_exc()
             st.error(f"⚠️ **Database initialization failed**")
             st.code(str(e), language=None)
-            st.info("💡 **Tip**: The database should be created automatically from the data files. "
-                   "If this error persists, check the deployment logs in Streamlit Cloud dashboard.")
+            st.info("💡 **Tip**: The database should be created automatically from the data files.")
             st.stop()
     
-    # Then initialize agent (only if database was initialized)
-    if db_initialized and db_path:
-        with st.spinner("🚀 Initializing AI Agent..."):
-            try:
-                # Use the database path that was found/created
-                st.session_state.agent = SimpleLeadIntelligenceAgent(db_path=db_path)
-                st.session_state.agent_ready = True
+    # Get the correct database path for current mode
+    db_path = get_database_path(current_mode)
+    
+    # Verify database exists
+    if not os.path.exists(db_path):
+        st.session_state.agent_ready = False
+        st.session_state.agent_error = f"Database file not found: {db_path}"
+        st.error(f"⚠️ **Database not found**: {db_path}")
+        st.info("💡 **Tip**: The database should be created automatically. Please refresh the page.")
+        st.stop()
+    
+    # Then initialize agent with correct database for current mode
+    with st.spinner(f"🚀 Initializing AI Agent ({current_mode} mode)..."):
+        try:
+            st.session_state.agent = SimpleLeadIntelligenceAgent(db_path=db_path)
+            st.session_state.agent_ready = True
+            st.session_state.agent_mode = current_mode
+            st.session_state.db_path = db_path
+            if 'agent' not in st.session_state or needs_init:
                 st.session_state.messages = []
-            except Exception as e:
-                st.session_state.agent_ready = False
-                st.session_state.agent_error = str(e)
-                import traceback
-                st.error(f"⚠️ **Agent initialization failed**: {str(e)}")
-                st.code(traceback.format_exc(), language='python')
+        except Exception as e:
+            st.session_state.agent_ready = False
+            st.session_state.agent_error = str(e)
+            import traceback
+            st.error(f"⚠️ **Agent initialization failed**: {str(e)}")
+            st.code(traceback.format_exc(), language='python')
 
 def main():
     """Main app function"""
@@ -360,15 +368,15 @@ def main():
         
         if new_mode != st.session_state.mode:
             st.session_state.mode = new_mode
-            # Force re-initialization
+            # Force re-initialization by clearing agent
             if 'agent' in st.session_state:
                 del st.session_state.agent
             if 'agent_mode' in st.session_state:
                 del st.session_state.agent_mode
-            if 'query_tools' in st.session_state:
-                del st.session_state.query_tools
-            if 'query_tools_mode' in st.session_state:
-                del st.session_state.query_tools_mode
+            if 'agent_ready' in st.session_state:
+                del st.session_state.agent_ready
+            if 'agent_error' in st.session_state:
+                del st.session_state.agent_error
             st.rerun()
         
         # Version Display

@@ -5,3 +5,6 @@
 git rev-parse --short HEAD > VERSION.txt
 git log -1 --pretty=format:"%s" >> VERSION.txt
 
+
+
+
