@@ -296,12 +296,33 @@ if needs_init:
     # Get the correct database path for current mode
     db_path = get_database_path(current_mode)
     
-    # Verify database exists
+    # Verify database exists and has tables
     if not os.path.exists(db_path):
         st.session_state.agent_ready = False
         st.session_state.agent_error = f"Database file not found: {db_path}"
         st.error(f"⚠️ **Database not found**: {db_path}")
         st.info("💡 **Tip**: The database should be created automatically. Please refresh the page.")
+        st.stop()
+    
+    # Verify database has the leads table
+    try:
+        import sqlite3
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='leads'")
+        table_exists = cursor.fetchone() is not None
+        conn.close()
+        
+        if not table_exists:
+            st.session_state.agent_ready = False
+            st.session_state.agent_error = f"Database exists but 'leads' table not found in {db_path}"
+            st.error(f"⚠️ **Database table missing**: The 'leads' table was not found.")
+            st.info("💡 **Tip**: The database initialization may have failed. Check the logs or try refreshing.")
+            st.stop()
+    except Exception as e:
+        st.session_state.agent_ready = False
+        st.session_state.agent_error = f"Error verifying database: {str(e)}"
+        st.error(f"⚠️ **Database verification failed**: {str(e)}")
         st.stop()
     
     # Then initialize agent with correct database for current mode

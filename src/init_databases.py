@@ -149,6 +149,14 @@ def ensure_databases_exist():
                     print(f"✅ Detailed database initialized successfully with {final_count} leads")
                 else:
                     print(f"⚠️  Warning: Database initialized but only has {final_count} leads (expected ≥400)")
+                
+                # Verify tables exist
+                conn = sqlite3.connect(detailed_db)
+                cursor = conn.cursor()
+                cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+                tables = [row[0] for row in cursor.fetchall()]
+                conn.close()
+                print(f"✅ Verified {len(tables)} tables exist: {', '.join(tables[:5])}...")
             else:
                 print("⚠️  Exported dataset files not found at any expected path")
                 print("   Tried: Data/exported_dataset/, data/exported_dataset/, exported_dataset/")
@@ -156,7 +164,15 @@ def ensure_databases_exist():
                 # Create empty database with schema
                 ingestion = ExportedDataIngestion(db_path=detailed_db)
                 ingestion.close()
-                print("⚠️  Empty database created - no data available")
+                
+                # Verify tables were created
+                conn = sqlite3.connect(detailed_db)
+                cursor = conn.cursor()
+                cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+                tables = [row[0] for row in cursor.fetchall()]
+                conn.close()
+                print(f"⚠️  Empty database created with {len(tables)} tables - no data available")
+                print(f"   Tables: {', '.join(tables)}")
         except Exception as e:
             print(f"❌ Error initializing detailed database: {str(e)}")
             import traceback
