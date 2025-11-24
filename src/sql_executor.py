@@ -47,8 +47,18 @@ class SQLExecutor:
             return self.pool.get_connection()
         
         try:
+            # Check if database exists, try both lowercase and uppercase paths
             if not os.path.exists(self.db_path):
-                raise FileNotFoundError(f"Database file not found: {self.db_path}")
+                # Try alternative path (case-sensitive filesystems)
+                alt_path = "Data/leads.db" if self.db_path == "data/leads.db" else "data/leads.db"
+                if os.path.exists(alt_path):
+                    self.db_path = alt_path
+                else:
+                    raise FileNotFoundError(
+                        f"Database file not found: {self.db_path}\n"
+                        f"Tried: {self.db_path} and {alt_path}\n"
+                        f"Please ensure the database is initialized by running ensure_databases_exist()"
+                    )
             return sqlite3.connect(self.db_path)
         except sqlite3.Error as e:
             raise RuntimeError(f"Failed to connect to database: {str(e)}")

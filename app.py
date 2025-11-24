@@ -13,14 +13,8 @@ from datetime import datetime
 # Add src to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
-# Ensure databases exist on first run
-try:
-    from init_databases import ensure_databases_exist
-    ensure_databases_exist()
-except Exception as e:
-    print(f"⚠️  Database initialization warning: {str(e)}")
-
-# Use simplified agent
+# Import modules
+from init_databases import ensure_databases_exist
 from ai_agent_simple import SimpleLeadIntelligenceAgent
 from auth import get_auth, show_login_page
 from audit_logger import get_audit_logger
@@ -269,16 +263,53 @@ def get_deployment_version():
     
     return "unknown", "unknown"
 
-# Initialize simplified agent (no mode switching needed)
+# Initialize databases and agent
 if 'agent' not in st.session_state:
-    with st.spinner("🚀 Initializing AI Agent..."):
+    # First, ensure databases exist
+    db_initialized = False
+    with st.spinner("📊 Initializing databases..."):
         try:
-            st.session_state.agent = SimpleLeadIntelligenceAgent()
-            st.session_state.agent_ready = True
-            st.session_state.messages = []
+            ensure_databases_exist()
+            # Verify database was created (check both paths)
+            db_path = None
+            for path in ["data/leads.db", "Data/leads.db"]:
+                if os.path.exists(path):
+                    db_path = path
+                    break
+            
+            if not db_path:
+                raise FileNotFoundError(
+                    "Database file not found after initialization. "
+                    "Checked: data/leads.db and Data/leads.db"
+                )
+            
+            db_initialized = True
+            st.session_state.db_path = db_path
         except Exception as e:
             st.session_state.agent_ready = False
-            st.session_state.agent_error = str(e)
+            st.session_state.agent_error = f"Database initialization failed: {str(e)}"
+            import traceback
+            error_details = traceback.format_exc()
+            st.error(f"⚠️ **Database initialization failed**")
+            st.code(str(e), language=None)
+            st.info("💡 **Tip**: The database should be created automatically from the data files. "
+                   "If this error persists, check the deployment logs in Streamlit Cloud dashboard.")
+            st.stop()
+    
+    # Then initialize agent (only if database was initialized)
+    if db_initialized:
+        with st.spinner("🚀 Initializing AI Agent..."):
+            try:
+                db_path = st.session_state.get('db_path', 'data/leads.db')
+                st.session_state.agent = SimpleLeadIntelligenceAgent(db_path=db_path)
+                st.session_state.agent_ready = True
+                st.session_state.messages = []
+            except Exception as e:
+                st.session_state.agent_ready = False
+                st.session_state.agent_error = str(e)
+                import traceback
+                st.error(f"⚠️ **Agent initialization failed**: {str(e)}")
+                st.code(traceback.format_exc(), language='python')
 
 def main():
     """Main app function"""

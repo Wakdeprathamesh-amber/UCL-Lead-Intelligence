@@ -10,11 +10,11 @@ import sqlite3
 def ensure_databases_exist():
     """Ensure both databases exist and are populated"""
     
-    # Ensure data directory exists
+    # Ensure data directory exists (create lowercase version)
     os.makedirs("data", exist_ok=True)
     
     # Check detailed database (handle both data/ and Data/ for case-sensitive systems)
-    # Priority: Check uppercase Data/ first (where pre-built DB is), then lowercase data/
+    # Priority: Check uppercase Data/ first (where pre-built DB might be), then lowercase data/
     detailed_db = None
     possible_db_paths = ["Data/leads.db", "data/leads.db"]
     
@@ -28,7 +28,8 @@ def ensure_databases_exist():
     
     if not detailed_db:
         print("📊 Database not found at Data/leads.db or data/leads.db, will initialize...")
-        detailed_db = "data/leads.db"  # Will create in lowercase
+        # Always create in lowercase data/ directory for consistency
+        detailed_db = "data/leads.db"
         needs_ingestion = True
     else:
         # Check if database has sufficient data (≥400 leads)
