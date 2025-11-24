@@ -12,10 +12,21 @@ import sys
 # Add error handling utilities
 sys.path.insert(0, os.path.dirname(__file__))
 try:
-    from error_handling import ErrorHandler
-    from connection_pool import get_connection_pool
-except ImportError:
-    # Fallback if not available
+    try:
+        from error_handling import ErrorHandler
+    except (ImportError, KeyError):
+        class ErrorHandler:
+            @staticmethod
+            def handle_database_error(func):
+                return func
+    
+    try:
+        from connection_pool import get_connection_pool
+    except (ImportError, KeyError):
+        def get_connection_pool(db_path, max_connections=5):
+            return None
+except Exception:
+    # Complete fallback
     class ErrorHandler:
         @staticmethod
         def handle_database_error(func):
