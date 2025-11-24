@@ -267,11 +267,12 @@ def get_deployment_version():
 if 'agent' not in st.session_state:
     # First, ensure databases exist
     db_initialized = False
+    db_path = None
+    
     with st.spinner("📊 Initializing databases..."):
         try:
             ensure_databases_exist()
             # Verify database was created (check both paths)
-            db_path = None
             for path in ["data/leads.db", "Data/leads.db"]:
                 if os.path.exists(path):
                     db_path = path
@@ -297,10 +298,10 @@ if 'agent' not in st.session_state:
             st.stop()
     
     # Then initialize agent (only if database was initialized)
-    if db_initialized:
+    if db_initialized and db_path:
         with st.spinner("🚀 Initializing AI Agent..."):
             try:
-                db_path = st.session_state.get('db_path', 'data/leads.db')
+                # Use the database path that was found/created
                 st.session_state.agent = SimpleLeadIntelligenceAgent(db_path=db_path)
                 st.session_state.agent_ready = True
                 st.session_state.messages = []

@@ -30,14 +30,23 @@ class SQLiteConnectionPool:
         self._lock = threading.Lock()
         self._created_connections = 0
         
-        # Pre-create some connections
-        for _ in range(min(2, max_connections)):
-            self._create_connection()
+        # Don't pre-create connections - create them lazily on first use
+        # This allows agent initialization even if database doesn't exist yet
     
     def _create_connection(self) -> sqlite3.Connection:
         """Create a new database connection"""
+        # Check if database exists, try both lowercase and uppercase paths
         if not os.path.exists(self.db_path):
-            raise FileNotFoundError(f"Database file not found: {self.db_path}")
+            # Try alternative path (case-sensitive filesystems)
+            alt_path = "Data/leads.db" if self.db_path == "data/leads.db" else "data/leads.db"
+            if os.path.exists(alt_path):
+                self.db_path = alt_path
+            else:
+                raise FileNotFoundError(
+                    f"Database file not found: {self.db_path}\n"
+                    f"Tried: {self.db_path} and {alt_path}\n"
+                    f"Please ensure the database is initialized by running ensure_databases_exist()"
+                )
         
         conn = sqlite3.connect(self.db_path, check_same_thread=False)
         conn.row_factory = sqlite3.Row  # Enable dict-like access
