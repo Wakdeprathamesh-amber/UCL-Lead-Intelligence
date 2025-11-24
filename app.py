@@ -15,26 +15,37 @@ src_path = os.path.join(os.path.dirname(__file__), 'src')
 if src_path not in sys.path:
     sys.path.insert(0, src_path)
 
-# Import modules with error handling for Streamlit Cloud
-try:
-    from init_databases import ensure_databases_exist
-except (ImportError, KeyError) as e:
-    # Fallback import method for Streamlit Cloud
-    import importlib
-    import importlib.util
-    init_spec = importlib.util.spec_from_file_location("init_databases", os.path.join(src_path, "init_databases.py"))
-    init_module = importlib.util.module_from_spec(init_spec)
-    init_spec.loader.exec_module(init_module)
-    ensure_databases_exist = init_module.ensure_databases_exist
+# Import modules with robust error handling for Streamlit Cloud
+def safe_import(module_name, attribute_name=None, fallback_path=None):
+    """Safely import a module with fallback methods"""
+    try:
+        module = __import__(module_name, fromlist=[attribute_name] if attribute_name else [])
+        if attribute_name:
+            return getattr(module, attribute_name)
+        return module
+    except (ImportError, KeyError, AttributeError) as e:
+        if fallback_path:
+            import importlib.util
+            spec = importlib.util.spec_from_file_location(module_name, fallback_path)
+            module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(module)
+            if attribute_name:
+                return getattr(module, attribute_name)
+            return module
+        raise
 
-try:
-    from ai_agent_simple import SimpleLeadIntelligenceAgent
-except (ImportError, KeyError) as e:
-    import importlib.util
-    agent_spec = importlib.util.spec_from_file_location("ai_agent_simple", os.path.join(src_path, "ai_agent_simple.py"))
-    agent_module = importlib.util.module_from_spec(agent_spec)
-    agent_spec.loader.exec_module(agent_module)
-    SimpleLeadIntelligenceAgent = agent_module.SimpleLeadIntelligenceAgent
+# Import with fallbacks
+ensure_databases_exist = safe_import(
+    "init_databases", 
+    "ensure_databases_exist",
+    os.path.join(src_path, "init_databases.py")
+)
+
+SimpleLeadIntelligenceAgent = safe_import(
+    "ai_agent_simple",
+    "SimpleLeadIntelligenceAgent", 
+    os.path.join(src_path, "ai_agent_simple.py")
+)
 
 from auth import get_auth, show_login_page
 from audit_logger import get_audit_logger

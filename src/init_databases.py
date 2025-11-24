@@ -32,21 +32,38 @@ def ensure_databases_exist():
         detailed_db = "data/leads.db"
         needs_ingestion = True
     else:
-        # Check if database has sufficient data (≥400 leads)
+        # Check if database has tables and sufficient data (≥400 leads)
         try:
             conn = sqlite3.connect(detailed_db)
             cursor = conn.cursor()
-            cursor.execute("SELECT COUNT(*) FROM leads")
-            lead_count = cursor.fetchone()[0]
-            conn.close()
             
-            print(f"📊 Database at {detailed_db} has {lead_count} leads")
+            # First check if 'leads' table exists
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='leads'")
+            table_exists = cursor.fetchone() is not None
             
-            if lead_count < 400:
-                print(f"⚠️  Database has only {lead_count} leads (<400), will re-initialize...")
+            if not table_exists:
+                print(f"⚠️  Database at {detailed_db} exists but 'leads' table is missing")
+                print("   Will re-initialize to create tables...")
                 needs_ingestion = True
+                conn.close()
             else:
-                print(f"✅ Database already has {lead_count} leads (≥400), using existing database")
+                # Table exists, check lead count
+                cursor.execute("SELECT COUNT(*) FROM leads")
+                lead_count = cursor.fetchone()[0]
+                conn.close()
+                
+                print(f"📊 Database at {detailed_db} has {lead_count} leads")
+                
+                if lead_count < 400:
+                    print(f"⚠️  Database has only {lead_count} leads (<400), will re-initialize...")
+                    needs_ingestion = True
+                else:
+                    print(f"✅ Database already has {lead_count} leads (≥400), using existing database")
+        except sqlite3.OperationalError as e:
+            # Table doesn't exist or database is corrupted
+            print(f"⚠️  Error accessing database at {detailed_db}: {str(e)}")
+            print("   Will re-initialize...")
+            needs_ingestion = True
         except Exception as e:
             print(f"⚠️  Error checking database at {detailed_db}: {str(e)}")
             print("   Will re-initialize...")
